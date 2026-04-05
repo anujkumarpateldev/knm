@@ -1,0 +1,708 @@
+{
+  "title_reading": "A2 Vocabulary Master",
+  "category": "Food & Drink",
+  "total_words_target": 100,
+  "batch": 1,
+  "vocabulary_list": [
+    {
+      "type": "Profession",
+      "dutch_word": "De kok",
+      "english_word": "The cook/chef",
+      "meaning": "A person who prepares and cooks food.",
+      "example_sentence": "De kok bereidt een heerlijke maaltijd in de keuken."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De ober",
+      "english_word": "The waiter",
+      "meaning": "A man who serves food and drinks in a restaurant.",
+      "example_sentence": "De ober brengt de menukaart naar de tafel."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De serveerster",
+      "english_word": "The waitress",
+      "meaning": "A woman who serves food and drinks in a restaurant.",
+      "example_sentence": "De serveerster vraagt of we iets willen drinken."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De bakker",
+      "english_word": "The baker",
+      "meaning": "A person who makes and sells bread and cakes.",
+      "example_sentence": "De bakker bakt elke ochtend vers brood."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het restaurant",
+      "english_word": "The restaurant",
+      "meaning": "A place where you can sit and eat meals that are cooked there.",
+      "example_sentence": "Zullen we vanavond bij dat nieuwe restaurant eten?"
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De supermarkt",
+      "english_word": "The supermarket",
+      "meaning": "A large shop that sells food and household goods.",
+      "example_sentence": "Ik moet naar de supermarkt voor melk en eieren."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De keuken",
+      "english_word": "The kitchen",
+      "meaning": "The room where food is prepared and cooked.",
+      "example_sentence": "Er staat een grote tafel midden in de keuken."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De menukaart",
+      "english_word": "The menu",
+      "meaning": "A list of food and drinks available in a restaurant.",
+      "example_sentence": "Op de menukaart staan veel vegetarische gerechten."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De rekening",
+      "english_word": "The bill",
+      "meaning": "A piece of paper showing how much you have to pay.",
+      "example_sentence": "Mag ik de rekening betalen, alstublieft?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het bestek",
+      "english_word": "The cutlery",
+      "meaning": "Knives, forks, and spoons used for eating.",
+      "example_sentence": "Leg het bestek netjes naast de borden."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het bord",
+      "english_word": "The plate",
+      "meaning": "A flat dish from which food is eaten.",
+      "example_sentence": "Er ligt een stuk pizza op mijn bord."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het glas",
+      "english_word": "The glass",
+      "meaning": "A container made of glass used for drinking.",
+      "example_sentence": "Wil je een glas water met ijs?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Eten",
+      "english_word": "To eat",
+      "meaning": "To put food into your mouth and swallow it.",
+      "example_sentence": "Wat gaan we vanavond eten?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Drinken",
+      "english_word": "To drink",
+      "meaning": "To take liquid into your mouth and swallow it.",
+      "example_sentence": "Ik drink graag thee bij het ontbijt."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Koken",
+      "english_word": "To cook",
+      "meaning": "To prepare food by heating it.",
+      "example_sentence": "Mijn man kan heel goed koken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Bestellen",
+      "english_word": "To order",
+      "meaning": "To ask for food or drink in a restaurant.",
+      "example_sentence": "We willen graag twee pizza's bestellen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Proeven",
+      "english_word": "To taste",
+      "meaning": "To put a small amount of food in your mouth to see the flavor.",
+      "example_sentence": "Mag ik een stukje van je taart proeven?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Bakken",
+      "english_word": "To bake/To fry",
+      "meaning": "To cook food in an oven or in a pan with oil.",
+      "example_sentence": "Ik ga vanmiddag een appeltaart bakken."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Lekker",
+      "english_word": "Tasty/Delicious",
+      "meaning": "Having a pleasant flavor.",
+      "example_sentence": "Deze soep is echt heel lekker."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Warm",
+      "english_word": "Warm/Hot",
+      "meaning": "Having a high temperature.",
+      "example_sentence": "Pas op, het eten is nog erg warm."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Koud",
+      "english_word": "Cold",
+      "meaning": "Having a low temperature.",
+      "example_sentence": "Ik vind koude koffie niet lekker."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het ontbijt",
+      "english_word": "The breakfast",
+      "meaning": "The first meal of the day.",
+      "example_sentence": "Ik eet meestal fruit bij het ontbijt."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De lunch",
+      "english_word": "The lunch",
+      "meaning": "The meal eaten in the middle of the day.",
+      "example_sentence": "Zullen we samen lunchen in het park?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het avondeten",
+      "english_word": "The dinner",
+      "meaning": "The main meal of the day, eaten in the evening.",
+      "example_sentence": "Het avondeten is om zes uur klaar."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De dorst",
+      "english_word": "The thirst",
+      "meaning": "The feeling of needing to drink something.",
+      "example_sentence": "Ik heb dorst na het sporten."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De slager",
+      "english_word": "The butcher",
+      "meaning": "A person who prepares and sells meat.",
+      "example_sentence": "De slager snijdt een mooi stuk vlees voor de klant."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De groenteboer",
+      "english_word": "The greengrocer",
+      "meaning": "A person who sells fresh vegetables and fruit.",
+      "example_sentence": "Ik koop mijn appels altijd bij de groenteboer op de markt."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het brood",
+      "english_word": "The bread",
+      "meaning": "Food made from flour, water, and yeast, baked in an oven.",
+      "example_sentence": "Wil je een sneetje brood met kaas?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De kaas",
+      "english_word": "The cheese",
+      "meaning": "A food made from the pressed curds of milk.",
+      "example_sentence": "Nederland staat bekend om zijn lekkere kaas."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De melk",
+      "english_word": "The milk",
+      "meaning": "A white liquid produced by cows, goats, or sheep.",
+      "example_sentence": "Ik drink elke ochtend een glas koude melk."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het ei",
+      "english_word": "The egg",
+      "meaning": "An oval object laid by a hen, used as food.",
+      "example_sentence": "Hoe wil je je ei gebakken hebben?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het vlees",
+      "english_word": "The meat",
+      "meaning": "The flesh of an animal used as food.",
+      "example_sentence": "Ik eet liever vis dan vlees."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De vis",
+      "english_word": "The fish",
+      "meaning": "An animal that lives in water, used as food.",
+      "example_sentence": "Verse vis is erg gezond voor je."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De groente",
+      "english_word": "The vegetable",
+      "meaning": "A plant or part of a plant used as food.",
+      "example_sentence": "Het is belangrijk om elke dag genoeg groente te eten."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het fruit",
+      "english_word": "The fruit",
+      "meaning": "The sweet and fleshy product of a tree or plant.",
+      "example_sentence": "Welk fruit vind jij het lekkerst?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De rijst",
+      "english_word": "The rice",
+      "meaning": "Small white or brown grains used as a staple food.",
+      "example_sentence": "We eten vanavond kip met rijst."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De pasta",
+      "english_word": "The pasta",
+      "meaning": "A food made from flour, water, and sometimes eggs (e.g., spaghetti).",
+      "example_sentence": "Zij kookt vaak pasta met tomatensaus."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De suiker",
+      "english_word": "The sugar",
+      "meaning": "A sweet substance used to flavor food and drinks.",
+      "example_sentence": "Gebruik je suiker in je koffie?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het zout",
+      "english_word": "The salt",
+      "meaning": "A white substance used for seasoning or preserving food.",
+      "example_sentence": "Er moet nog een beetje zout in de soep."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De koffie",
+      "english_word": "The coffee",
+      "meaning": "A hot drink made from roasted and ground beans.",
+      "example_sentence": "Wil je een kopje zwarte koffie?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De thee",
+      "english_word": "The tea",
+      "meaning": "A drink made by soaking dried leaves in hot water.",
+      "example_sentence": "Ik drink thee met een schijfje citroen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Snijden",
+      "english_word": "To cut/slice",
+      "meaning": "To use a knife to divide food into pieces.",
+      "example_sentence": "Kun jij de uien in kleine stukjes snijden?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Wassen",
+      "english_word": "To wash",
+      "meaning": "To clean something with water.",
+      "example_sentence": "Vergeet niet het fruit te wassen voor je het eet."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Roeren",
+      "english_word": "To stir",
+      "meaning": "To move a spoon around in a liquid or substance.",
+      "example_sentence": "Je moet goed in de saus roeren, anders verbrandt het."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Schenken",
+      "english_word": "To pour",
+      "meaning": "To make a liquid flow from a container into a glass or cup.",
+      "example_sentence": "Zal ik nog een glas wijn voor je schenken?"
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Zoet",
+      "english_word": "Sweet",
+      "meaning": "Having the taste of sugar or honey.",
+      "example_sentence": "Deze aardbeien zijn heerlijk zoet."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Zout",
+      "english_word": "Salty",
+      "meaning": "Tasting of or containing salt.",
+      "example_sentence": "De frietjes zijn een beetje te zout."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Zuur",
+      "english_word": "Sour",
+      "meaning": "Having an acid taste like lemon or vinegar.",
+      "example_sentence": "Een citroen smaakt erg zuur."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Pittig",
+      "english_word": "Spicy",
+      "meaning": "Having a strong, hot flavor.",
+      "example_sentence": "Ik hou van pittig eten met veel peper."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De honger",
+      "english_word": "The hunger",
+      "meaning": "The feeling of needing to eat food.",
+      "example_sentence": "Ik heb grote honger, wanneer gaan we eten?"
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De afwasser",
+      "english_word": "The dishwasher (person)",
+      "meaning": "A person employed to wash dishes in a restaurant.",
+      "example_sentence": "De afwasser werkt hard om alle borden schoon te krijgen."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De barman",
+      "english_word": "The bartender",
+      "meaning": "A person who serves drinks at a bar.",
+      "example_sentence": "De barman maakt een lekkere cocktail voor de klant."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De pan",
+      "english_word": "The pan/pot",
+      "meaning": "A metal container used for cooking food on a stove.",
+      "example_sentence": "Er staat een grote pan met soep op het vuur."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het mes",
+      "english_word": "The knife",
+      "meaning": "A sharp tool used for cutting food.",
+      "example_sentence": "Pas op, dit mes is heel scherp."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De vork",
+      "english_word": "The fork",
+      "meaning": "A small tool with prongs used for picking up food.",
+      "example_sentence": "Ik eet mijn salade met een vork."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De lepel",
+      "english_word": "The spoon",
+      "meaning": "A tool with a shallow bowl used for eating soup or stirring.",
+      "example_sentence": "Gebruik een kleine lepel voor de suiker."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De koelkast",
+      "english_word": "The refrigerator",
+      "meaning": "An appliance used to keep food and drinks cold.",
+      "example_sentence": "Zet de melk direct terug in de koelkast."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De oven",
+      "english_word": "The oven",
+      "meaning": "An enclosed compartment used for baking or roasting food.",
+      "example_sentence": "De lasagne moet dertig minuten in de oven."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het kopje",
+      "english_word": "The cup",
+      "meaning": "A small bowl-shaped container with a handle for hot drinks.",
+      "example_sentence": "Zal ik een kopje thee voor je inschenken?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De fles",
+      "english_word": "The bottle",
+      "meaning": "A glass or plastic container with a narrow neck for liquids.",
+      "example_sentence": "Er staat een fles water op de tafel."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Ontbijten",
+      "english_word": "To have breakfast",
+      "meaning": "To eat the first meal of the day.",
+      "example_sentence": "Wij ontbijten meestal om half acht 's ochtends."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Lunchten",
+      "english_word": "To have lunch",
+      "meaning": "To eat a meal in the middle of the day.",
+      "example_sentence": "Zullen we vandaag in de bedrijfskantine lunchten?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Dineren",
+      "english_word": "To dine/To have dinner",
+      "meaning": "To eat the main meal of the day in the evening.",
+      "example_sentence": "Mijn ouders gaan vanavond chic dineren."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Schillen",
+      "english_word": "To peel",
+      "meaning": "To remove the outer skin from fruit or vegetables.",
+      "example_sentence": "Kun jij de aardappels voor mij schillen?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Kruiden",
+      "english_word": "To season/To spice",
+      "meaning": "To add salt, pepper, or herbs to food for flavor.",
+      "example_sentence": "Je moet het vlees goed kruiden voor het bakken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Smeren",
+      "english_word": "To spread",
+      "meaning": "To put butter or jam on a slice of bread.",
+      "example_sentence": "Ik smeer altijd een beetje boter op mijn brood."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Betalen",
+      "english_word": "To pay",
+      "meaning": "To give money for goods or services received.",
+      "example_sentence": "Ik wil graag met mijn pinpas betalen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Vers",
+      "english_word": "Fresh",
+      "meaning": "Recently made, picked, or cooked; not preserved.",
+      "example_sentence": "Ik hou van de geur van vers gebakken brood."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Gezond",
+      "english_word": "Healthy",
+      "meaning": "Good for your body and physical well-being.",
+      "example_sentence": "Veel groente en fruit eten is erg gezond."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Ongezond",
+      "english_word": "Unhealthy",
+      "meaning": "Not good for your health.",
+      "example_sentence": "Te veel suiker eten is ongezond voor je tanden."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Vettig",
+      "english_word": "Greasy/Fatty",
+      "meaning": "Containing a lot of oil or fat.",
+      "example_sentence": "Frietjes zijn lekker, maar soms wel erg vettig."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het recept",
+      "english_word": "The recipe",
+      "meaning": "A set of instructions for preparing a particular dish.",
+      "example_sentence": "Heb jij het recept van deze heerlijke soep?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het gerecht",
+      "english_word": "The dish",
+      "meaning": "A particular type of prepared food.",
+      "example_sentence": "Stamppot is een typisch Nederlands gerecht."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De ingrediënten",
+      "english_word": "The ingredients",
+      "meaning": "The items of food used to make a particular dish.",
+      "example_sentence": "Welke ingrediënten heb ik nodig voor een appeltaart?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De smaak",
+      "english_word": "The taste/flavor",
+      "meaning": "The sensation of flavor perceived in the mouth.",
+      "example_sentence": "De smaak van deze aardbeien is erg zoet."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De sommelier",
+      "english_word": "The wine steward/sommelier",
+      "meaning": "A person who is an expert in wine and helps guests choose.",
+      "example_sentence": "De sommelier adviseert een witte wijn bij de vis."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De cateraar",
+      "english_word": "The caterer",
+      "meaning": "A person or company that provides food for events.",
+      "example_sentence": "De cateraar brengt de hapjes voor het bedrijfsfeest."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De aardappel",
+      "english_word": "The potato",
+      "meaning": "A starchy plant tuber which is one of the most important Dutch foods.",
+      "example_sentence": "Nederlanders eten vaak gekookte aardappels bij het avondeten."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De soep",
+      "english_word": "The soup",
+      "meaning": "A liquid food made by boiling meat, fish, or vegetables.",
+      "example_sentence": "Ik vind tomatensoep met balletjes erg lekker."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het toetje",
+      "english_word": "The dessert",
+      "meaning": "A sweet course eaten at the end of a meal.",
+      "example_sentence": "Als toetje hebben we ijs met slagroom."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De frisdrank",
+      "english_word": "The soft drink/soda",
+      "meaning": "A sweet, non-alcoholic carbonated drink.",
+      "example_sentence": "Kinderen drinken graag frisdrank op een feestje."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het kraanwater",
+      "english_word": "The tap water",
+      "meaning": "Water from a piped supply.",
+      "example_sentence": "In Nederland kun je het kraanwater veilig drinken."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De snack",
+      "english_word": "The snack",
+      "meaning": "A small amount of food eaten between meals.",
+      "example_sentence": "Ik heb een gezonde snack mee naar werk, zoals een appel."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Kauwgom kauwen",
+      "english_word": "To chew gum",
+      "meaning": "To chew a sweet, rubbery substance.",
+      "example_sentence": "Het is niet beleefd om kauwgom te kauwen tijdens de les."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Serveren",
+      "english_word": "To serve",
+      "meaning": "To present food or drink to someone.",
+      "example_sentence": "Het hoofdgerecht wordt over vijf minuten geserveerd."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Trakteren",
+      "english_word": "To treat (someone to something)",
+      "meaning": "To give something as a gift or treat, often for a birthday.",
+      "example_sentence": "Omdat ik jarig ben, ga ik vandaag op taart trakteren."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Snackten",
+      "english_word": "To snack",
+      "meaning": "To eat between main meals.",
+      "example_sentence": "We gaan vanavond laat nog even snackten."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Opruimen",
+      "english_word": "To clear/tidy up",
+      "meaning": "To clear the table after eating.",
+      "example_sentence": "Kunnen jullie helpen met de tafel opruimen?"
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Vegetarisch",
+      "english_word": "Vegetarian",
+      "meaning": "Food that does not contain meat.",
+      "example_sentence": "Mijn zus eet altijd vegetarisch."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Veganistisch",
+      "english_word": "Vegan",
+      "meaning": "Food that does not contain any animal products.",
+      "example_sentence": "Dit restaurant heeft veel veganistische opties."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Verzadigd",
+      "english_word": "Full/Satisfied",
+      "meaning": "Feeling that you have eaten enough.",
+      "example_sentence": "Ik hoef geen toetje meer, ik ben helemaal verzadigd."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Bitter",
+      "english_word": "Bitter",
+      "meaning": "Having a sharp, pungent taste (like coffee or endives).",
+      "example_sentence": "Sommige groenten hebben een bittere smaak."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Alcoholvrij",
+      "english_word": "Alcohol-free",
+      "meaning": "Containing no alcohol.",
+      "example_sentence": "Ik drink liever een alcoholvrij biertje."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De allergie",
+      "english_word": "The allergy",
+      "meaning": "A medical condition that makes you ill when you eat something specific.",
+      "example_sentence": "Heeft u een allergie voor noten?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het dieet",
+      "english_word": "The diet",
+      "meaning": "A special course of food to lose weight or for health reasons.",
+      "example_sentence": "Zij volgt een glutenvrij dieet."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De calorieën",
+      "english_word": "The calories",
+      "meaning": "Units of energy in food.",
+      "example_sentence": "In deze taart zitten heel veel calorieën."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De houdbaarheidsdatum",
+      "english_word": "The expiration date",
+      "meaning": "The date until which a product is safe to eat.",
+      "example_sentence": "Kijk goed naar de houdbaarheidsdatum op het melkpak."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De menugang",
+      "english_word": "The course (of a meal)",
+      "meaning": "A separate part of a meal (starter, main, dessert).",
+      "example_sentence": "Het diner bestaat uit drie verschillende menugangen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De fooi",
+      "english_word": "The tip",
+      "meaning": "Extra money given to a waiter for good service.",
+      "example_sentence": "We gaven de ober een goede fooi omdat hij zo vriendelijk was."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De afwas",
+      "english_word": "The dishes/washing up",
+      "meaning": "The dirty plates and cutlery that need cleaning.",
+      "example_sentence": "Wie doet vanavond de afwas?"
+    }
+  ]
+}

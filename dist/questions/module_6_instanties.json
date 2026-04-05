@@ -1,0 +1,1268 @@
+{
+  "module_id": "M6",
+  "module_title_nl": "Instanties",
+  "module_title_en": "Government institutions and organisations",
+  "total_questions": 80,
+  "questions": [
+    {
+      "id": "M6_Q001", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gemeente – wat is het", "topic_en": "Municipality – what is it",
+      "question_nl": "Wat is een gemeente?",
+      "options": [
+        {"id": "A", "text_nl": "Een grote nationale overheidsinstelling"},
+        {"id": "B", "text_nl": "Een klein stuk van een provincie dat door een bestuur wordt geleid"},
+        {"id": "C", "text_nl": "Een afdeling van de nationale politie"},
+        {"id": "D", "text_nl": "Een woningbouwvereniging"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een gemeente is een klein stuk van een provincie. Bijvoorbeeld de gemeente Utrecht. Het bestuur van de gemeente heet ook gemeente.",
+        "en": "A municipality (gemeente) is a small part of a province. For example, the municipality of Utrecht. The governing body is also called the gemeente."
+      },
+      "source_text_nl": "De gemeente is een klein stuk van een provincie. Het bestuur van de gemeente heet ook gemeente.",
+      "tags": ["gemeente", "provincie", "bestuur"]
+    },
+    {
+      "id": "M6_Q002", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gemeentehuis", "topic_en": "Town hall",
+      "question_nl": "Wat is het gemeentehuis?",
+      "options": [
+        {"id": "A", "text_nl": "Het huis van de burgemeester"},
+        {"id": "B", "text_nl": "Een groot gebouw waar de mensen van de gemeente werken"},
+        {"id": "C", "text_nl": "Een school in de gemeente"},
+        {"id": "D", "text_nl": "Een politiebureau"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Elke gemeente heeft een gemeentehuis. Dat is een groot gebouw waar de mensen van de gemeente werken.",
+        "en": "Every municipality has a town hall (gemeentehuis). That is a large building where the staff of the municipality work."
+      },
+      "source_text_nl": "Elke gemeente heeft een gemeentehuis. Dat is een groot gebouw waar de mensen van de gemeente werken.",
+      "tags": ["gemeentehuis", "gebouw", "gemeente"]
+    },
+    {
+      "id": "M6_Q003", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "GBA", "topic_en": "Municipal records",
+      "question_nl": "Wat is de GBA (Gemeentelijke Basisadministratie)?",
+      "options": [
+        {"id": "A", "text_nl": "Een school in de gemeente"},
+        {"id": "B", "text_nl": "Een systeem waarin de gegevens van alle inwoners van de gemeente staan"},
+        {"id": "C", "text_nl": "Een bank van de gemeente"},
+        {"id": "D", "text_nl": "Een belastingkantoor van de overheid"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De GBA is de Gemeentelijke Basisadministratie. Daarin staan de gegevens van alle inwoners van de gemeente, zoals wie er in de gemeente wonen en getrouwd zijn.",
+        "en": "The GBA is the Municipal Personal Records Database. It contains the details of all residents of the municipality, such as who lives there and who is married."
+      },
+      "source_text_nl": "De gemeente heeft een eigen administratie: de Gemeentelijke Basisadministratie (GBA). Daarin staan de gegevens van de inwoners.",
+      "tags": ["GBA", "administratie", "gegevens"]
+    },
+    {
+      "id": "M6_Q004", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Verandering doorgeven", "topic_en": "Reporting a change",
+      "question_nl": "Wanneer moet je een wijziging doorgeven aan de gemeente?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen als je een baan krijgt"},
+        {"id": "B", "text_nl": "Als er iets belangrijks verandert in je leven, zoals een verhuizing of geboorte"},
+        {"id": "C", "text_nl": "Alleen als je wil stemmen"},
+        {"id": "D", "text_nl": "Alleen als je je paspoort verliest"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als er iets belangrijks verandert in je leven, moet je dat melden aan de gemeente. Dat heet een wijziging doorgeven. Bijvoorbeeld als je een kind krijgt, trouwt, scheidt of verhuist.",
+        "en": "If something important changes in your life, you must report it to the municipality. This is called reporting a change. For example when you have a child, get married, divorce or move house."
+      },
+      "source_text_nl": "Verandert er iets belangrijks in je leven, dan moet je dat melden. Een verandering noemen we een wijziging.",
+      "tags": ["wijziging", "gemeente", "doorgeven"]
+    },
+    {
+      "id": "M6_Q005", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gemeente – wijziging melden", "topic_en": "Municipality – reporting changes",
+      "question_nl": "Welke verandering moet je doorgeven aan de gemeente?",
+      "options": [
+        {"id": "A", "text_nl": "Als je een nieuwe baan krijgt"},
+        {"id": "B", "text_nl": "Als je bent verhuisd"},
+        {"id": "C", "text_nl": "Als je een nieuwe auto hebt"},
+        {"id": "D", "text_nl": "Als je op vakantie gaat"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je bent verhuisd, moet je dat doorgeven aan de gemeente. Een verhuizing naar het buitenland of naar Nederland moet je ook melden.",
+        "en": "If you have moved house, you must report this to the municipality. A move abroad or to the Netherlands must also be reported."
+      },
+      "source_text_nl": "Als je bent verhuisd. Het maakt niet uit of je weggaat uit de gemeente of er juist komt wonen.",
+      "tags": ["verhuizing", "wijziging", "gemeente"]
+    },
+    {
+      "id": "M6_Q006", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Document aanvragen", "topic_en": "Requesting a document",
+      "question_nl": "Waarvoor heb je een paspoort nodig?",
+      "options": [
+        {"id": "A", "text_nl": "Om naar de supermarkt te gaan"},
+        {"id": "B", "text_nl": "Om in het buitenland te reizen en te bewijzen wie je bent"},
+        {"id": "C", "text_nl": "Om bij de huisarts te gaan"},
+        {"id": "D", "text_nl": "Om belasting te betalen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Met een paspoort kun je bewijzen wie je bent. Je hebt het ook nodig om in het buitenland te reizen.",
+        "en": "With a passport you can prove who you are. You also need it to travel abroad."
+      },
+      "source_text_nl": "Met je paspoort kun je bewijzen wie je bent. Je hebt het nodig om in het buitenland te reizen.",
+      "tags": ["paspoort", "identiteit", "reizen"]
+    },
+    {
+      "id": "M6_Q007", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Paspoort verlengen", "topic_en": "Renewing a passport",
+      "question_nl": "Waar vraag je een nieuw paspoort aan of verleng je je paspoort?",
+      "options": [
+        {"id": "A", "text_nl": "Bij de politie"},
+        {"id": "B", "text_nl": "Bij het gemeentehuis"},
+        {"id": "C", "text_nl": "Bij de Belastingdienst"},
+        {"id": "D", "text_nl": "Bij de notaris"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je vraagt een nieuw paspoort aan of verlengt het bij het gemeentehuis. Het gemeentehuis regelt documenten van de bewoners.",
+        "en": "You request a new passport or renew it at the town hall. The town hall handles documents for residents."
+      },
+      "source_text_nl": "Het gemeentehuis regelt documenten van de bewoners. Wil je een document aanvragen of verlengen? Dan moet je naar het gemeentehuis.",
+      "tags": ["paspoort", "verlengen", "gemeentehuis"]
+    },
+    {
+      "id": "M6_Q008", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Rijbewijs", "topic_en": "Driving licence",
+      "question_nl": "Waarvoor heb je een rijbewijs nodig?",
+      "options": [
+        {"id": "A", "text_nl": "Om een huis te kopen"},
+        {"id": "B", "text_nl": "Om aan te tonen dat je auto mag rijden"},
+        {"id": "C", "text_nl": "Om te stemmen bij verkiezingen"},
+        {"id": "D", "text_nl": "Om te werken in Nederland"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een rijbewijs heb je nodig om aan te tonen dat je auto mag rijden. Je moet het laten zien bij controles in het verkeer.",
+        "en": "You need a driving licence to show that you are allowed to drive a car. You must show it at traffic checks."
+      },
+      "source_text_nl": "Een rijbewijs heb je nodig om aan te tonen dat je auto mag rijden.",
+      "tags": ["rijbewijs", "autorijden", "document"]
+    },
+    {
+      "id": "M6_Q009", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Bouwvergunning", "topic_en": "Building permit",
+      "question_nl": "Wanneer heb je een bouwvergunning nodig?",
+      "options": [
+        {"id": "A", "text_nl": "Als je wilt verhuizen"},
+        {"id": "B", "text_nl": "Als je iets groots wilt bouwen, zoals een schuur of een nieuwe verdieping"},
+        {"id": "C", "text_nl": "Als je een nieuwe keuken koopt"},
+        {"id": "D", "text_nl": "Als je de kleur van je huis wilt veranderen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een bouwvergunning heb je nodig als je iets groots wilt bouwen, zoals een schuur in je tuin of een nieuwe verdieping op je huis.",
+        "en": "You need a building permit if you want to build something large, such as a shed in your garden or a new floor on your house."
+      },
+      "source_text_nl": "Een bouwvergunning: als je iets groots wilt bouwen. Bijvoorbeeld een schuur in je tuin, of een nieuwe verdieping op je huis.",
+      "tags": ["bouwvergunning", "bouwen", "vergunning"]
+    },
+    {
+      "id": "M6_Q010", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kapvergunning", "topic_en": "Tree-felling permit",
+      "question_nl": "Wanneer heb je een kapvergunning nodig?",
+      "options": [
+        {"id": "A", "text_nl": "Als je bloemen wilt planten in je tuin"},
+        {"id": "B", "text_nl": "Als je een grote boom wilt omhakken"},
+        {"id": "C", "text_nl": "Als je gras wilt maaien"},
+        {"id": "D", "text_nl": "Als je een nieuwe schutting wilt plaatsen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je een grote boom in je tuin wilt kappen (omhakken), heb je een kapvergunning nodig. Voor kleine bomen heb je die niet.",
+        "en": "If you want to cut down a large tree in your garden, you need a tree-felling permit. For small trees you do not need one."
+      },
+      "source_text_nl": "Een kapvergunning: als je een grote boom in je tuin wilt kappen (omhakken). Voor hele kleine bomen heb je geen kapvergunning nodig.",
+      "tags": ["kapvergunning", "boom", "kappen"]
+    },
+    {
+      "id": "M6_Q011", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gemeente – taken", "topic_en": "Municipality – tasks",
+      "question_nl": "Welke taken heeft de gemeente?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen het ophalen van afval"},
+        {"id": "B", "text_nl": "Verkeer, onderwijs, en helpen van mensen die oud of ziek zijn of weinig verdienen"},
+        {"id": "C", "text_nl": "Alleen het beheer van scholen"},
+        {"id": "D", "text_nl": "Alleen het beheer van de politie"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een gemeente heeft veel taken. Ze regelen bijvoorbeeld het verkeer en het onderwijs. Ook helpen ze mensen die oud of ziek zijn en mensen die weinig verdienen.",
+        "en": "A municipality has many tasks. For example, they manage traffic and education. They also help people who are elderly or ill and people with low incomes."
+      },
+      "source_text_nl": "Een gemeente heeft veel taken. Ze regelen het verkeer en het onderwijs. Ook helpen ze mensen die oud of ziek zijn, en mensen die weinig verdienen.",
+      "tags": ["gemeente taken", "verkeer", "onderwijs"]
+    },
+    {
+      "id": "M6_Q012", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "BSN", "topic_en": "Citizen service number",
+      "question_nl": "Wat is een BSN (Burgerservicenummer)?",
+      "options": [
+        {"id": "A", "text_nl": "Een nummer op je bankpas"},
+        {"id": "B", "text_nl": "Een uniek persoonlijk nummer dat de overheid gebruikt om jou te identificeren"},
+        {"id": "C", "text_nl": "Een nummer van je zorgverzekering"},
+        {"id": "D", "text_nl": "Het nummer van je belastingaangifte"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het BSN (Burgerservicenummer) is een uniek persoonlijk nummer. De overheid gebruikt het om jou als burger te identificeren bij zaken als belasting en zorgverzekering.",
+        "en": "The BSN (Citizen Service Number) is a unique personal number. The government uses it to identify you as a citizen for matters such as tax and health insurance."
+      },
+      "source_text_nl": "Het BSN is een uniek persoonlijk nummer dat de overheid gebruikt om jou te identificeren.",
+      "tags": ["BSN", "Burgerservicenummer", "identificatie"]
+    },
+    {
+      "id": "M6_Q013", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Belastingdienst", "topic_en": "Tax authority",
+      "question_nl": "Wat doet de Belastingdienst?",
+      "options": [
+        {"id": "A", "text_nl": "De Belastingdienst geeft uitkeringen aan werklozen"},
+        {"id": "B", "text_nl": "De Belastingdienst int belastingen en keert toeslagen uit"},
+        {"id": "C", "text_nl": "De Belastingdienst geeft rijbewijzen uit"},
+        {"id": "D", "text_nl": "De Belastingdienst regelt de zorgverzekering"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De Belastingdienst int de belastingen in Nederland. Ze kennen ook toeslagen toe zoals huurtoeslag en zorgtoeslag.",
+        "en": "The Tax Authority (Belastingdienst) collects taxes in the Netherlands. They also grant benefits such as housing benefit and healthcare allowance."
+      },
+      "source_text_nl": "De Belastingdienst int de belastingen en keert toeslagen uit zoals huurtoeslag.",
+      "tags": ["Belastingdienst", "belasting", "toeslagen"]
+    },
+    {
+      "id": "M6_Q014", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "IND", "topic_en": "Immigration service",
+      "question_nl": "Wat doet de IND (Immigratie- en Naturalisatiedienst)?",
+      "options": [
+        {"id": "A", "text_nl": "De IND geeft rijbewijzen uit"},
+        {"id": "B", "text_nl": "De IND behandelt aanvragen voor verblijfsvergunningen en naturalisatie"},
+        {"id": "C", "text_nl": "De IND helpt bij het zoeken naar werk"},
+        {"id": "D", "text_nl": "De IND regelt de zorgverzekering voor nieuwkomers"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De IND behandelt aanvragen voor verblijfsvergunningen en naturalisatie. Als je in Nederland wilt blijven wonen, heb je vaak een verblijfsvergunning nodig.",
+        "en": "The IND processes applications for residence permits and naturalisation. If you want to stay living in the Netherlands, you often need a residence permit."
+      },
+      "source_text_nl": "De IND behandelt aanvragen voor verblijfsvergunningen en naturalisatie.",
+      "tags": ["IND", "verblijfsvergunning", "naturalisatie"]
+    },
+    {
+      "id": "M6_Q015", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Verblijfsvergunning", "topic_en": "Residence permit",
+      "question_nl": "Wat is een verblijfsvergunning?",
+      "options": [
+        {"id": "A", "text_nl": "Een paspoort voor buitenlanders"},
+        {"id": "B", "text_nl": "Een officieel document dat toestemming geeft om in Nederland te wonen"},
+        {"id": "C", "text_nl": "Een werkvergunning voor tijdelijk werk"},
+        {"id": "D", "text_nl": "Een document voor het huren van een woning"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een verblijfsvergunning is een officieel document dat je toestemming geeft om in Nederland te wonen. Je vraagt dit aan bij de IND.",
+        "en": "A residence permit is an official document that gives you permission to live in the Netherlands. You apply for it at the IND."
+      },
+      "source_text_nl": "Een verblijfsvergunning geeft toestemming om in Nederland te wonen.",
+      "tags": ["verblijfsvergunning", "IND", "wonen"]
+    },
+    {
+      "id": "M6_Q016", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Inburgering", "topic_en": "Civic integration",
+      "question_nl": "Wat is inburgering?",
+      "options": [
+        {"id": "A", "text_nl": "Een examen voor het rijbewijs"},
+        {"id": "B", "text_nl": "Het leren van de Nederlandse taal en maatschappij om goed mee te kunnen doen"},
+        {"id": "C", "text_nl": "Een vergunning om in Nederland te werken"},
+        {"id": "D", "text_nl": "Een cursus voor het vinden van werk"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Inburgering betekent dat je leert om goed mee te doen in de Nederlandse samenleving. Je leert Nederlands en je leert over Nederland.",
+        "en": "Civic integration (inburgering) means learning to participate fully in Dutch society. You learn Dutch and learn about the Netherlands."
+      },
+      "source_text_nl": "Inburgering betekent dat je leert om goed mee te doen in de Nederlandse samenleving.",
+      "tags": ["inburgering", "Nederlands leren", "samenleving"]
+    },
+    {
+      "id": "M6_Q017", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Politie – taken", "topic_en": "Police – tasks",
+      "question_nl": "Wat is de taak van de politie?",
+      "options": [
+        {"id": "A", "text_nl": "Belasting innen"},
+        {"id": "B", "text_nl": "De openbare orde handhaven en misdaad bestrijden"},
+        {"id": "C", "text_nl": "Uitkeringen verstrekken"},
+        {"id": "D", "text_nl": "Paspoorten uitgeven"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De politie handhaaft de openbare orde en bestrijdt misdaad. De politie helpt ook mensen in nood en lost conflicten op.",
+        "en": "The police maintain public order and combat crime. The police also help people in need and resolve conflicts."
+      },
+      "source_text_nl": "De politie handhaaft de openbare orde en bestrijdt misdaad.",
+      "tags": ["politie", "openbare orde", "veiligheid"]
+    },
+    {
+      "id": "M6_Q018", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "SVB – kinderbijslag", "topic_en": "Social insurance bank – child benefit",
+      "question_nl": "Wat is kinderbijslag?",
+      "options": [
+        {"id": "A", "text_nl": "Geld dat je van de werkgever krijgt voor je kinderen"},
+        {"id": "B", "text_nl": "Geld van de overheid voor ouders om de kosten van kinderen te helpen betalen"},
+        {"id": "C", "text_nl": "Een subsidie voor kinderopvang"},
+        {"id": "D", "text_nl": "Geld dat je van de gemeente krijgt voor de opvoeding"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Kinderbijslag is geld dat de overheid geeft aan ouders om te helpen met de kosten van kinderen. De SVB (Sociale Verzekeringsbank) keert de kinderbijslag uit.",
+        "en": "Child benefit (kinderbijslag) is money the government gives to parents to help with the costs of raising children. The SVB (Social Insurance Bank) pays out child benefit."
+      },
+      "source_text_nl": "Kinderbijslag is geld van de overheid voor ouders om kosten van kinderen te helpen betalen.",
+      "tags": ["kinderbijslag", "SVB", "ouders"]
+    },
+    {
+      "id": "M6_Q019", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "SVB – AOW", "topic_en": "Social insurance bank – state pension",
+      "question_nl": "Wat is de AOW?",
+      "options": [
+        {"id": "A", "text_nl": "Een ziektewet uitkering"},
+        {"id": "B", "text_nl": "Een staatspensioen voor mensen die de pensioenleeftijd bereiken"},
+        {"id": "C", "text_nl": "Een werkloosheidsuitkering"},
+        {"id": "D", "text_nl": "Een bijdrage voor studenten"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "AOW staat voor Algemene Ouderdomswet. Het is een staatspensioen dat je krijgt als je de pensioenleeftijd bereikt. De SVB regelt de AOW.",
+        "en": "AOW stands for General Old Age Pensions Act. It is a state pension you receive when you reach retirement age. The SVB administers the AOW."
+      },
+      "source_text_nl": "AOW is een staatspensioen voor mensen die de pensioenleeftijd bereiken.",
+      "tags": ["AOW", "pensioen", "SVB"]
+    },
+    {
+      "id": "M6_Q020", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "UWV – taken", "topic_en": "UWV – tasks",
+      "question_nl": "Waarvoor is het UWV?",
+      "options": [
+        {"id": "A", "text_nl": "Voor het geven van rijlessen"},
+        {"id": "B", "text_nl": "Voor uitkeringen bij werkloosheid en arbeidsongeschiktheid en het helpen vinden van werk"},
+        {"id": "C", "text_nl": "Voor het verzorgen van paspoorten"},
+        {"id": "D", "text_nl": "Voor het beheer van sociale huurwoningen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het UWV (Uitvoeringsinstituut Werknemersverzekeringen) geeft uitkeringen bij werkloosheid en arbeidsongeschiktheid. Het UWV WERKbedrijf helpt ook bij het zoeken naar werk.",
+        "en": "The UWV (Employee Insurance Agency) pays benefits for unemployment and incapacity for work. The UWV WERKbedrijf also helps with finding work."
+      },
+      "source_text_nl": "Het UWV geeft uitkeringen bij werkloosheid en arbeidsongeschiktheid en helpt mensen werk te vinden.",
+      "tags": ["UWV", "uitkering", "werkloosheid"]
+    },
+    {
+      "id": "M6_Q021", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "DUO – studiefinanciering", "topic_en": "DUO – student finance",
+      "question_nl": "Bij welke organisatie vraag je studiefinanciering aan?",
+      "options": [
+        {"id": "A", "text_nl": "Bij het UWV"},
+        {"id": "B", "text_nl": "Bij DUO (Dienst Uitvoering Onderwijs)"},
+        {"id": "C", "text_nl": "Bij de gemeente"},
+        {"id": "D", "text_nl": "Bij de Belastingdienst"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Studiefinanciering vraag je aan bij DUO (Dienst Uitvoering Onderwijs). DUO voert het onderwijs- en studentenbeleid uit.",
+        "en": "You apply for student finance at DUO (Education Executive Agency). DUO implements education and student policy."
+      },
+      "source_text_nl": "Studiefinanciering vraag je aan bij DUO.",
+      "tags": ["DUO", "studiefinanciering", "onderwijs"]
+    },
+    {
+      "id": "M6_Q022", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Sloopvergunning", "topic_en": "Demolition permit",
+      "question_nl": "Wanneer heb je een sloopvergunning nodig?",
+      "options": [
+        {"id": "A", "text_nl": "Als je een boom wilt kappen"},
+        {"id": "B", "text_nl": "Als je iets wilt afbreken, zoals de garage of de schuur"},
+        {"id": "C", "text_nl": "Als je wilt verbouwen"},
+        {"id": "D", "text_nl": "Als je een nieuwe keuken wilt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een sloopvergunning heb je nodig als je iets wilt afbreken. Slopen betekent iets kapot maken en weghalen, zoals de garage of de schuur.",
+        "en": "You need a demolition permit if you want to demolish something. Demolishing means breaking down and removing something, such as the garage or shed."
+      },
+      "source_text_nl": "Een sloopvergunning: als je iets wilt afbreken. Bijvoorbeeld de garage of de schuur. Slopen betekent iets kapot maken en weghalen.",
+      "tags": ["sloopvergunning", "slopen", "vergunning"]
+    },
+    {
+      "id": "M6_Q023", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Vergunning aanvragen", "topic_en": "Applying for a permit",
+      "question_nl": "Waar vraag je een vergunning aan?",
+      "options": [
+        {"id": "A", "text_nl": "Bij de politie"},
+        {"id": "B", "text_nl": "Bij het gemeentehuis of op de website van de gemeente"},
+        {"id": "C", "text_nl": "Bij de Belastingdienst"},
+        {"id": "D", "text_nl": "Bij de IND"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een vergunning vraag je aan bij het gemeentehuis. Soms kun je dit ook op de website van jouw gemeente doen.",
+        "en": "You apply for a permit at the town hall. Sometimes you can also do this on your municipality's website."
+      },
+      "source_text_nl": "Wil je een vergunning aanvragen? Dan kun je naar het gemeentehuis gaan of op de website van jouw gemeente kijken.",
+      "tags": ["vergunning", "aanvragen", "gemeentehuis"]
+    },
+    {
+      "id": "M6_Q024", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Burgemeester", "topic_en": "Mayor",
+      "question_nl": "Wie leidt de gemeente?",
+      "options": [
+        {"id": "A", "text_nl": "De minister-president"},
+        {"id": "B", "text_nl": "De burgemeester"},
+        {"id": "C", "text_nl": "De rechter"},
+        {"id": "D", "text_nl": "De directeur van het gemeentehuis"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een gemeente wordt geleid door een burgemeester. Samen met de wethouders vormt de burgemeester het college van burgemeester en wethouders (B&W).",
+        "en": "A municipality is led by a mayor (burgemeester). Together with the aldermen, the mayor forms the council of mayor and aldermen."
+      },
+      "source_text_nl": "Een gemeente is een gebied dat door een burgemeester wordt geleid.",
+      "tags": ["burgemeester", "gemeente", "leiding"]
+    },
+    {
+      "id": "M6_Q025", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Rechter", "topic_en": "Judge",
+      "question_nl": "Wat doet een rechter?",
+      "options": [
+        {"id": "A", "text_nl": "Een rechter geeft vergunningen af"},
+        {"id": "B", "text_nl": "Een rechter spreekt recht en beslist over geschillen en misdrijven"},
+        {"id": "C", "text_nl": "Een rechter helpt mensen met het vinden van werk"},
+        {"id": "D", "text_nl": "Een rechter int belastingen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een rechter spreekt recht. Hij of zij beslist over conflicten en bepaalt of iemand schuldig is aan een misdrijf.",
+        "en": "A judge administers justice. They decide on disputes and determine whether someone is guilty of a crime."
+      },
+      "source_text_nl": "Een rechter spreekt recht en beslist over geschillen en misdrijven.",
+      "tags": ["rechter", "rechtbank", "recht"]
+    },
+    {
+      "id": "M6_Q026", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Advocaat", "topic_en": "Lawyer",
+      "question_nl": "Waarvoor schakel je een advocaat in?",
+      "options": [
+        {"id": "A", "text_nl": "Om een paspoort aan te vragen"},
+        {"id": "B", "text_nl": "Om je te helpen bij juridische problemen of een rechtszaak"},
+        {"id": "C", "text_nl": "Om belasting te betalen"},
+        {"id": "D", "text_nl": "Om een huis te kopen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een advocaat helpt je bij juridische problemen en vertegenwoordigt je bij een rechtszaak. Een advocaat is een jurist die jou adviseert en verdedigt.",
+        "en": "A lawyer (advocaat) helps you with legal problems and represents you in court proceedings. A lawyer is a legal professional who advises and defends you."
+      },
+      "source_text_nl": "Een advocaat helpt je bij juridische problemen en vertegenwoordigt je bij een rechtszaak.",
+      "tags": ["advocaat", "juridisch", "rechtszaak"]
+    },
+    {
+      "id": "M6_Q027", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "COA", "topic_en": "Central Agency for the Reception of Asylum Seekers",
+      "question_nl": "Wat doet het COA?",
+      "options": [
+        {"id": "A", "text_nl": "Het COA geeft rijbewijzen uit"},
+        {"id": "B", "text_nl": "Het COA regelt de opvang van asielzoekers in Nederland"},
+        {"id": "C", "text_nl": "Het COA geeft uitkeringen aan werklozen"},
+        {"id": "D", "text_nl": "Het COA helpt bij inburgering"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het COA (Centraal Orgaan opvang asielzoekers) regelt de opvang van asielzoekers in Nederland. Ze zorgen voor onderdak en begeleiding.",
+        "en": "The COA (Central Agency for the Reception of Asylum Seekers) organises the reception of asylum seekers in the Netherlands. They provide accommodation and support."
+      },
+      "source_text_nl": "Het COA regelt de opvang van asielzoekers in Nederland.",
+      "tags": ["COA", "asielzoekers", "opvang"]
+    },
+    {
+      "id": "M6_Q028", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Naturalisatie", "topic_en": "Naturalisation",
+      "question_nl": "Wat is naturalisatie?",
+      "options": [
+        {"id": "A", "text_nl": "Het aanvragen van een verblijfsvergunning"},
+        {"id": "B", "text_nl": "Het verkrijgen van de Nederlandse nationaliteit"},
+        {"id": "C", "text_nl": "Het inschrijven bij de gemeente"},
+        {"id": "D", "text_nl": "Het doen van een inburgeringsexamen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Naturalisatie betekent het verkrijgen van de Nederlandse nationaliteit. Je wordt dan Nederlander. Je moet aan bepaalde voorwaarden voldoen, zoals het inburgeringsexamen.",
+        "en": "Naturalisation means obtaining Dutch nationality. You then become a Dutch citizen. You must meet certain conditions, such as passing the civic integration exam."
+      },
+      "source_text_nl": "Naturalisatie betekent het verkrijgen van de Nederlandse nationaliteit.",
+      "tags": ["naturalisatie", "nationaliteit", "Nederlander"]
+    },
+    {
+      "id": "M6_Q029", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gemeente – internet", "topic_en": "Municipality – internet",
+      "question_nl": "Kun je sommige zaken ook via internet regelen bij de gemeente?",
+      "options": [
+        {"id": "A", "text_nl": "Nee, je moet altijd persoonlijk langsgaan"},
+        {"id": "B", "text_nl": "Ja, sommige dingen kun je ook via internet wijzigen of aanvragen"},
+        {"id": "C", "text_nl": "Alleen als je een DigiD hebt en toestemming van de burgemeester"},
+        {"id": "D", "text_nl": "Nee, internet is niet veilig genoeg"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Sommige dingen kun je ook via internet regelen bij de gemeente. Maar sommige dingen moet je persoonlijk doen.",
+        "en": "Some things can also be arranged via the internet at the municipality. But some things must be done in person."
+      },
+      "source_text_nl": "Sommige dingen kun je ook via internet wijzigen. Welke dingen moet je doorgeven aan de gemeente?",
+      "tags": ["internet", "gemeente", "online"]
+    },
+    {
+      "id": "M6_Q030", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "DigiD", "topic_en": "DigiD",
+      "question_nl": "Wat is een DigiD?",
+      "options": [
+        {"id": "A", "text_nl": "Een digitale identiteitskaart"},
+        {"id": "B", "text_nl": "Een inlogmiddel waarmee je veilig online zaken kunt regelen bij de overheid"},
+        {"id": "C", "text_nl": "Een digitale bankpas"},
+        {"id": "D", "text_nl": "Een app van de politie"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "DigiD is een inlogmiddel waarmee je veilig online zaken kunt regelen bij de overheid, zoals bij de gemeente, Belastingdienst of zorgverzekering.",
+        "en": "DigiD is a login tool that allows you to securely handle matters online with the government, such as at the municipality, Tax Authority or health insurer."
+      },
+      "source_text_nl": "DigiD is een inlogmiddel voor veilige online communicatie met de overheid.",
+      "tags": ["DigiD", "inloggen", "overheid online"]
+    },
+    {
+      "id": "M6_Q031", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Politie – nummer", "topic_en": "Police – non-emergency number",
+      "question_nl": "Welk nummer bel je voor de politie als het geen noodgeval is?",
+      "options": [
+        {"id": "A", "text_nl": "112"},
+        {"id": "B", "text_nl": "0900-8844"},
+        {"id": "C", "text_nl": "140"},
+        {"id": "D", "text_nl": "0800-0101"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je de politie nodig hebt maar het is geen noodgeval, bel je 0900-8844. Voor noodgevallen bel je 112.",
+        "en": "If you need the police but it is not an emergency, you call 0900-8844. For emergencies you call 112."
+      },
+      "source_text_nl": "Hier is een speciaal nummer voor: 0900-8844. Dit nummer bel je als je de politie nodig hebt, maar het is geen noodgeval.",
+      "tags": ["politie", "0900-8844", "nummer"]
+    },
+    {
+      "id": "M6_Q032", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gemeente – trouwen", "topic_en": "Municipality – getting married",
+      "question_nl": "Waar trouw je officieel in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Bij een notaris"},
+        {"id": "B", "text_nl": "Bij de gemeente"},
+        {"id": "C", "text_nl": "Bij de kerk"},
+        {"id": "D", "text_nl": "Bij de politie"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In Nederland trouw je officieel bij de gemeente. Een ambtenaar van de burgerlijke stand sluit het huwelijk. Een kerkelijk huwelijk is niet wettelijk verplicht.",
+        "en": "In the Netherlands you officially get married at the municipality. A registrar performs the ceremony. A church wedding is not legally required."
+      },
+      "source_text_nl": "Als je wilt trouwen of scheiden, moet je dat doorgeven aan de gemeente.",
+      "tags": ["trouwen", "gemeente", "officieel"]
+    },
+    {
+      "id": "M6_Q033", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Document – geldigheid", "topic_en": "Document – validity",
+      "question_nl": "Wat moet je doen als je document (paspoort of rijbewijs) niet meer geldig is?",
+      "options": [
+        {"id": "A", "text_nl": "Je vraagt een nieuw document aan bij de politie"},
+        {"id": "B", "text_nl": "Je verlengt het bij het gemeentehuis"},
+        {"id": "C", "text_nl": "Je hoeft niets te doen"},
+        {"id": "D", "text_nl": "Je vraagt verlenging aan bij de IND"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je document niet meer geldig is, moet je het verlengen bij het gemeentehuis. Documenten zijn dus erg belangrijke papieren.",
+        "en": "If your document is no longer valid, you must renew it at the town hall. Documents are therefore very important papers."
+      },
+      "source_text_nl": "Soms moet je documenten verlengen. Dat betekent zorgen dat je document geldig blijft. Wil je een document verlengen? Dan moet je naar het gemeentehuis.",
+      "tags": ["document verlengen", "gemeentehuis", "geldigheid"]
+    },
+    {
+      "id": "M6_Q034", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gemeente – kind krijgen", "topic_en": "Municipality – having a child",
+      "question_nl": "Wat moet je doorgeven aan de gemeente als je een kind hebt gekregen?",
+      "options": [
+        {"id": "A", "text_nl": "De naam van de dokter"},
+        {"id": "B", "text_nl": "De geboorte van je kind"},
+        {"id": "C", "text_nl": "De naam van het consultatiebureau"},
+        {"id": "D", "text_nl": "Het gewicht van het kind"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je een kind hebt gekregen, moet je de geboorte doorgeven aan de gemeente. Dit doe je bij de burgerlijke stand.",
+        "en": "When you have had a child, you must report the birth to the municipality. You do this at the registrar's office (burgerlijke stand)."
+      },
+      "source_text_nl": "Als je een kind hebt gekregen. Dan moet je dat doorgeven aan de gemeente.",
+      "tags": ["geboorte", "kind", "gemeente"]
+    },
+    {
+      "id": "M6_Q035", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gemeente – overlijden", "topic_en": "Municipality – death",
+      "question_nl": "Wat moet je doorgeven aan de gemeente als iemand in je gezin is overleden?",
+      "options": [
+        {"id": "A", "text_nl": "De naam van de begrafenisondernemer"},
+        {"id": "B", "text_nl": "Het overlijden van die persoon"},
+        {"id": "C", "text_nl": "De naam van de arts"},
+        {"id": "D", "text_nl": "Het adres van het kerkhof"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als iemand in je gezin is overleden, moet je dat doorgeven aan de gemeente. Zo worden de gegevens in de GBA bijgewerkt.",
+        "en": "If someone in your family has died, you must report this to the municipality. This way the details in the GBA are updated."
+      },
+      "source_text_nl": "Als iemand uit je gezin is overleden. Dan moet je dat doorgeven aan de gemeente.",
+      "tags": ["overlijden", "gemeente", "doorgeven"]
+    },
+    {
+      "id": "M6_Q036", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Gemeentehuis – documenten", "topic_en": "Town hall – documents",
+      "question_nl": "Je vraagt een paspoort aan bij het gemeentehuis.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Het gemeentehuis regelt documenten van bewoners, zoals paspoorten en identiteitskaarten.",
+        "en": "That is correct. The town hall handles documents for residents, such as passports and identity cards."
+      },
+      "source_text_nl": "Het gemeentehuis regelt documenten van de bewoners.",
+      "tags": ["paspoort", "gemeentehuis", "aanvragen"]
+    },
+    {
+      "id": "M6_Q037", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "GBA – gegevens", "topic_en": "Municipal records – details",
+      "question_nl": "In de GBA staan de gegevens van alle inwoners van de gemeente.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De GBA (Gemeentelijke Basisadministratie) bevat gegevens van alle inwoners zoals naam, adres en burgerlijke staat.",
+        "en": "That is correct. The GBA (Municipal Personal Records Database) contains details of all residents such as name, address and civil status."
+      },
+      "source_text_nl": "De gemeente heeft een eigen administratie: de GBA. Daarin staan de gegevens van de inwoners.",
+      "tags": ["GBA", "gegevens", "inwoners"]
+    },
+    {
+      "id": "M6_Q038", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Verhuizing doorgeven", "topic_en": "Reporting a move",
+      "question_nl": "Als je verhuist, moet je dat doorgeven aan de gemeente.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Als je verhuist, moet je dat doorgeven aan de gemeente. Dan wordt je nieuwe adres bijgewerkt in de GBA.",
+        "en": "That is correct. If you move, you must report this to the municipality. Your new address is then updated in the GBA."
+      },
+      "source_text_nl": "Als je bent verhuisd. Het maakt niet uit of je weggaat uit de gemeente of er juist komt wonen.",
+      "tags": ["verhuizen", "gemeente", "adres"]
+    },
+    {
+      "id": "M6_Q039", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "IND – naturalisatie", "topic_en": "IND – naturalisation",
+      "question_nl": "De IND behandelt aanvragen voor naturalisatie.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De IND behandelt aanvragen voor verblijfsvergunningen en naturalisatie.",
+        "en": "That is correct. The IND processes applications for residence permits and naturalisation."
+      },
+      "source_text_nl": "De IND behandelt aanvragen voor verblijfsvergunningen en naturalisatie.",
+      "tags": ["IND", "naturalisatie", "aanvraag"]
+    },
+    {
+      "id": "M6_Q040", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Bouwvergunning – klein", "topic_en": "Building permit – small structures",
+      "question_nl": "Voor het bouwen van een grote schuur in je tuin heb je een bouwvergunning nodig.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Voor grote bouwwerken, zoals een schuur of een nieuwe verdieping, heb je een bouwvergunning nodig van de gemeente.",
+        "en": "That is correct. For large structures, such as a shed or a new floor, you need a building permit from the municipality."
+      },
+      "source_text_nl": "Een bouwvergunning: als je iets groots wilt bouwen. Bijvoorbeeld een schuur in je tuin.",
+      "tags": ["bouwvergunning", "schuur", "tuin"]
+    },
+    {
+      "id": "M6_Q041", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Politie – 0900-8844", "topic_en": "Police – non-emergency",
+      "question_nl": "0900-8844 is het nummer voor de politie als het geen noodgeval is.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Voor niet-noodgevallen bel je 0900-8844. Voor noodgevallen bel je 112.",
+        "en": "That is correct. For non-emergencies you call 0900-8844. For emergencies you call 112."
+      },
+      "source_text_nl": "Hier is een speciaal nummer voor: 0900-8844.",
+      "tags": ["politie", "0900-8844", "niet-noodgeval"]
+    },
+    {
+      "id": "M6_Q042", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Burgemeester", "topic_en": "Mayor",
+      "question_nl": "De burgemeester leidt de gemeente.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De burgemeester leidt de gemeente samen met de wethouders.",
+        "en": "That is correct. The mayor leads the municipality together with the aldermen."
+      },
+      "source_text_nl": "Een gemeente is een gebied dat door een burgemeester wordt geleid.",
+      "tags": ["burgemeester", "leider", "gemeente"]
+    },
+    {
+      "id": "M6_Q043", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "UWV – uitkering", "topic_en": "UWV – benefit",
+      "question_nl": "Het UWV geeft uitkeringen bij werkloosheid.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Het UWV geeft WW-uitkeringen aan mensen die werkloos zijn en aan de voorwaarden voldoen.",
+        "en": "That is correct. The UWV pays unemployment benefits (WW) to people who are unemployed and meet the conditions."
+      },
+      "source_text_nl": "Het UWV geeft uitkeringen bij werkloosheid.",
+      "tags": ["UWV", "uitkering", "WW"]
+    },
+    {
+      "id": "M6_Q044", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "COA – asielzoekers", "topic_en": "COA – asylum seekers",
+      "question_nl": "Het COA regelt de opvang van asielzoekers in Nederland.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Het COA (Centraal Orgaan opvang asielzoekers) is verantwoordelijk voor de opvang van asielzoekers.",
+        "en": "That is correct. The COA (Central Agency for the Reception of Asylum Seekers) is responsible for accommodating asylum seekers."
+      },
+      "source_text_nl": "Het COA regelt de opvang van asielzoekers in Nederland.",
+      "tags": ["COA", "asielzoekers", "opvang"]
+    },
+    {
+      "id": "M6_Q045", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Kapvergunning – kleine boom", "topic_en": "Tree permit – small tree",
+      "question_nl": "Voor heel kleine bomen heb je geen kapvergunning nodig.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Voor heel kleine bomen heb je geen kapvergunning nodig. Alleen voor grote bomen is een kapvergunning vereist.",
+        "en": "That is correct. You do not need a tree-felling permit for very small trees. A permit is only required for large trees."
+      },
+      "source_text_nl": "Voor heel kleine bomen heb je geen kapvergunning nodig.",
+      "tags": ["kapvergunning", "kleine boom", "niet nodig"]
+    },
+    {
+      "id": "M6_Q046", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Gemeente – scheiden", "topic_en": "Municipality – divorce",
+      "question_nl": "Als je wilt scheiden, moet je dat doorgeven aan de gemeente.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Als je wilt trouwen of scheiden, moet je dat doorgeven aan de gemeente.",
+        "en": "That is correct. If you want to get married or divorced, you must report this to the municipality."
+      },
+      "source_text_nl": "Als je wilt trouwen of scheiden. Dan moet je dat doorgeven aan de gemeente.",
+      "tags": ["scheiden", "gemeente", "doorgeven"]
+    },
+    {
+      "id": "M6_Q047", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Belastingdienst – toeslagen", "topic_en": "Tax authority – benefits",
+      "question_nl": "Huurtoeslag en zorgtoeslag vraag je aan bij de Belastingdienst.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Toeslagen zoals huurtoeslag, zorgtoeslag en kindgebonden budget vraag je aan bij de Belastingdienst.",
+        "en": "That is correct. Benefits such as housing allowance, healthcare allowance and child benefit top-up are applied for at the Tax Authority."
+      },
+      "source_text_nl": "Toeslagen zoals huurtoeslag en zorgtoeslag vraag je aan bij de Belastingdienst.",
+      "tags": ["Belastingdienst", "toeslagen", "aanvragen"]
+    },
+    {
+      "id": "M6_Q048", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Gemeente – politie", "topic_en": "Municipality – police",
+      "question_nl": "De gemeente is verantwoordelijk voor de nationale politie.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. De nationale politie valt onder de rijksoverheid, niet onder de gemeente. Wel heeft de burgemeester gezag over de politie in zijn gemeente.",
+        "en": "This is incorrect. The national police falls under the national government, not the municipality. However, the mayor does have authority over the police in their municipality."
+      },
+      "source_text_nl": "De nationale politie valt onder de rijksoverheid.",
+      "tags": ["politie", "gemeente", "rijksoverheid"]
+    },
+    {
+      "id": "M6_Q049", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "DUO – studiefinanciering", "topic_en": "DUO – student finance",
+      "question_nl": "Studiefinanciering vraag je aan bij DUO.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. DUO (Dienst Uitvoering Onderwijs) is de organisatie waarbij je studiefinanciering aanvraagt.",
+        "en": "That is correct. DUO (Education Executive Agency) is the organisation where you apply for student finance."
+      },
+      "source_text_nl": "Studiefinanciering vraag je aan bij DUO.",
+      "tags": ["DUO", "studiefinanciering", "onderwijs"]
+    },
+    {
+      "id": "M6_Q050", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Inburgering – verplicht", "topic_en": "Civic integration – compulsory",
+      "question_nl": "Inburgering is voor bepaalde nieuwkomers in Nederland verplicht.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Voor bepaalde groepen nieuwkomers is inburgering verplicht. Ze moeten het inburgeringsexamen halen.",
+        "en": "That is correct. For certain groups of newcomers, civic integration is compulsory. They must pass the civic integration exam."
+      },
+      "source_text_nl": "Voor bepaalde nieuwkomers is inburgering verplicht in Nederland.",
+      "tags": ["inburgering", "verplicht", "nieuwkomers"]
+    },
+    {
+      "id": "M6_Q051", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Sociale Dienst – bijstand", "topic_en": "Social services – welfare",
+      "question_nl": "Waar vraag je een bijstandsuitkering aan?",
+      "options": [
+        {"id": "A", "text_nl": "Bij het UWV"},
+        {"id": "B", "text_nl": "Bij de gemeente (Sociale Dienst)"},
+        {"id": "C", "text_nl": "Bij de Belastingdienst"},
+        {"id": "D", "text_nl": "Bij de SVB"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een bijstandsuitkering vraag je aan bij de gemeente, specifiek bij de Sociale Dienst. De gemeente beoordeelt of je er recht op hebt.",
+        "en": "You apply for social assistance (bijstand) at the municipality, specifically at the Social Services department. The municipality assesses whether you are entitled to it."
+      },
+      "source_text_nl": "Bijstand vraag je aan bij de gemeente (Sociale Dienst).",
+      "tags": ["bijstand", "gemeente", "Sociale Dienst"]
+    },
+    {
+      "id": "M6_Q052", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Zorgkantoor", "topic_en": "Care office",
+      "question_nl": "Wat regelt een zorgkantoor?",
+      "options": [
+        {"id": "A", "text_nl": "Medische behandelingen in ziekenhuizen"},
+        {"id": "B", "text_nl": "Langdurige zorg zoals opname in een verpleeghuis"},
+        {"id": "C", "text_nl": "Korte medische behandelingen bij de huisarts"},
+        {"id": "D", "text_nl": "De aanvraag voor huurtoeslag"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het zorgkantoor regelt langdurige zorg, zoals een opname in een verpleeghuis of verzorgingshuis.",
+        "en": "The care office (zorgkantoor) arranges long-term care, such as admission to a nursing home or care home."
+      },
+      "source_text_nl": "Het zorgkantoor regelt langdurige zorg zoals opname in een verpleeghuis.",
+      "tags": ["zorgkantoor", "langdurige zorg", "verpleeghuis"]
+    },
+    {
+      "id": "M6_Q053", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Notaris – taken", "topic_en": "Notary – tasks",
+      "question_nl": "Wanneer heb je een notaris nodig?",
+      "options": [
+        {"id": "A", "text_nl": "Als je belasting moet betalen"},
+        {"id": "B", "text_nl": "Als je een huis koopt of een testament opstelt"},
+        {"id": "C", "text_nl": "Als je een rijbewijs aanvraagt"},
+        {"id": "D", "text_nl": "Als je inburgert"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je hebt een notaris nodig bij belangrijke juridische documenten, zoals het kopen van een huis of het opstellen van een testament.",
+        "en": "You need a notary for important legal documents, such as buying a house or drawing up a will."
+      },
+      "source_text_nl": "Je hebt een notaris nodig bij het kopen van een huis of het opstellen van een testament.",
+      "tags": ["notaris", "koophuis", "testament"]
+    },
+    {
+      "id": "M6_Q054", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Ombudsman", "topic_en": "Ombudsman",
+      "question_nl": "Waarvoor kun je naar de Nationale Ombudsman?",
+      "options": [
+        {"id": "A", "text_nl": "Als je een klacht hebt over een particulier bedrijf"},
+        {"id": "B", "text_nl": "Als je een klacht hebt over de overheid of een overheidsinstelling"},
+        {"id": "C", "text_nl": "Als je een belastingdiscussie hebt"},
+        {"id": "D", "text_nl": "Als je een juridisch conflict hebt met een buur"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De Nationale Ombudsman behandelt klachten van burgers over de overheid of overheidsinstellingen.",
+        "en": "The National Ombudsman handles complaints from citizens about the government or government institutions."
+      },
+      "source_text_nl": "De Nationale Ombudsman behandelt klachten over overheidsinstanties.",
+      "tags": ["Ombudsman", "klacht", "overheid"]
+    },
+    {
+      "id": "M6_Q055", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gemeente – identiteitskaart", "topic_en": "Municipality – identity card",
+      "question_nl": "Wat is een identiteitskaart (ID-kaart)?",
+      "options": [
+        {"id": "A", "text_nl": "Een kaart van de zorgverzekering"},
+        {"id": "B", "text_nl": "Een officieel bewijs van je identiteit, kleiner dan een paspoort"},
+        {"id": "C", "text_nl": "Een bankpas"},
+        {"id": "D", "text_nl": "Een rijbewijs"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een identiteitskaart (ID-kaart) is een officieel document waarmee je kunt bewijzen wie je bent. Het is kleiner dan een paspoort en geldig in de EU.",
+        "en": "An identity card (ID card) is an official document with which you can prove who you are. It is smaller than a passport and valid in the EU."
+      },
+      "source_text_nl": "Met je identiteitskaart kun je bewijzen wie je bent.",
+      "tags": ["identiteitskaart", "ID", "bewijs"]
+    },
+    {
+      "id": "M6_Q056", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gemeente – taken verkeer", "topic_en": "Municipality – traffic tasks",
+      "question_nl": "Welke taak heeft de gemeente op het gebied van verkeer?",
+      "options": [
+        {"id": "A", "text_nl": "De gemeente geeft rijbewijzen uit"},
+        {"id": "B", "text_nl": "De gemeente regelt het lokale verkeer, zoals wegen en parkeren"},
+        {"id": "C", "text_nl": "De gemeente bewaakt de snelwegen"},
+        {"id": "D", "text_nl": "De gemeente betaalt de benzine"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De gemeente regelt het lokale verkeer in haar gebied. Denk aan wegen, parkeerplaatsen en verkeerslichten.",
+        "en": "The municipality manages local traffic in its area — roads, parking spaces and traffic lights."
+      },
+      "source_text_nl": "De gemeente regelt het verkeer in haar gebied.",
+      "tags": ["gemeente", "verkeer", "wegen"]
+    },
+    {
+      "id": "M6_Q057", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Meldplicht", "topic_en": "Duty to report",
+      "question_nl": "Waarom is het belangrijk om wijzigingen door te geven aan de gemeente?",
+      "options": [
+        {"id": "A", "text_nl": "Omdat je anders een boete kunt krijgen"},
+        {"id": "B", "text_nl": "Zodat de GBA up-to-date is en de overheid je kan bereiken en helpen"},
+        {"id": "C", "text_nl": "Omdat de burgemeester het persoonlijk wil weten"},
+        {"id": "D", "text_nl": "Zodat de woningbouwvereniging een nieuw huis voor je kan zoeken"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het is belangrijk wijzigingen door te geven zodat de GBA up-to-date is. De overheid kan je dan bereiken en je helpen met uitkeringen of documenten.",
+        "en": "It is important to report changes so the GBA is up to date. The government can then reach you and help you with benefits or documents."
+      },
+      "source_text_nl": "Het is belangrijk wijzigingen door te geven zodat de GBA actueel blijft.",
+      "tags": ["wijziging", "GBA", "belang"]
+    },
+    {
+      "id": "M6_Q058", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "KNM examen", "topic_en": "KNM exam",
+      "question_nl": "Wat is het KNM-examen?",
+      "options": [
+        {"id": "A", "text_nl": "Een taalexamen voor Nederlands"},
+        {"id": "B", "text_nl": "Een examen over de kennis van de Nederlandse Maatschappij voor inburgering"},
+        {"id": "C", "text_nl": "Een examen voor het rijbewijs"},
+        {"id": "D", "text_nl": "Een schoolexamen voor middelbare scholieren"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "KNM staat voor Kennis van de Nederlandse Maatschappij. Het is een examen dat je moet doen als onderdeel van het inburgeringsexamen.",
+        "en": "KNM stands for Knowledge of Dutch Society. It is an exam you must take as part of the civic integration exam."
+      },
+      "source_text_nl": "KNM staat voor Kennis van de Nederlandse Maatschappij. Het is een examen onderdeel van inburgering.",
+      "tags": ["KNM", "examen", "inburgering"]
+    },
+    {
+      "id": "M6_Q059", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gemeenteraad", "topic_en": "Municipal council",
+      "question_nl": "Wie kiest de gemeenteraad?",
+      "options": [
+        {"id": "A", "text_nl": "De burgemeester"},
+        {"id": "B", "text_nl": "De inwoners van de gemeente via verkiezingen"},
+        {"id": "C", "text_nl": "De provincie"},
+        {"id": "D", "text_nl": "De nationale overheid"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De gemeenteraad wordt gekozen door de inwoners van de gemeente via gemeenteraadsverkiezingen. De gemeenteraad controleert het gemeentebestuur.",
+        "en": "The municipal council is elected by the residents of the municipality through municipal elections. The council monitors the municipal administration."
+      },
+      "source_text_nl": "De gemeenteraad wordt gekozen door de inwoners via verkiezingen.",
+      "tags": ["gemeenteraad", "verkiezingen", "inwoners"]
+    },
+    {
+      "id": "M6_Q060", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Inburgeringsexamen", "topic_en": "Civic integration exam",
+      "question_nl": "Uit welke onderdelen bestaat het inburgeringsexamen?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen een schriftelijk taalexamen"},
+        {"id": "B", "text_nl": "Meerdere onderdelen, waaronder taal (lezen, schrijven, spreken, luisteren) en KNM"},
+        {"id": "C", "text_nl": "Alleen een mondeling gesprek"},
+        {"id": "D", "text_nl": "Alleen een KNM-examen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het inburgeringsexamen bestaat uit meerdere onderdelen: taalvaardigheden (lezen, schrijven, spreken, luisteren) en Kennis van de Nederlandse Maatschappij (KNM).",
+        "en": "The civic integration exam consists of several parts: language skills (reading, writing, speaking, listening) and Knowledge of Dutch Society (KNM)."
+      },
+      "source_text_nl": "Het inburgeringsexamen bestaat uit taalonderdelen en KNM.",
+      "tags": ["inburgeringsexamen", "onderdelen", "taal"]
+    },
+    {
+      "id": "M6_Q061", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "SVB – kinderbijslag", "topic_en": "SVB – child benefit",
+      "question_nl": "Kinderbijslag wordt uitbetaald door de SVB.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De SVB (Sociale Verzekeringsbank) keert de kinderbijslag uit aan ouders.",
+        "en": "That is correct. The SVB (Social Insurance Bank) pays out child benefit to parents."
+      },
+      "source_text_nl": "De SVB keert kinderbijslag uit.",
+      "tags": ["SVB", "kinderbijslag", "uitbetaling"]
+    },
+    {
+      "id": "M6_Q062", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Rijbewijs – gemeentehuis", "topic_en": "Driving licence – town hall",
+      "question_nl": "Je vraagt een rijbewijs aan bij het gemeentehuis.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Een rijbewijs vraag je aan bij het gemeentehuis. Daarvoor moet je wel eerst het rijexamen halen.",
+        "en": "That is correct. You apply for a driving licence at the town hall. However, you must first pass the driving test."
+      },
+      "source_text_nl": "Een rijbewijs heb je nodig om auto te rijden. Je vraagt het aan bij het gemeentehuis.",
+      "tags": ["rijbewijs", "gemeentehuis", "aanvragen"]
+    },
+    {
+      "id": "M6_Q063", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "DigiD – overheid", "topic_en": "DigiD – government",
+      "question_nl": "Met DigiD kun je veilig online zaken regelen bij de overheid.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. DigiD is een inlogmiddel waarmee je veilig online kunt communiceren met de overheid.",
+        "en": "That is correct. DigiD is a login tool that allows you to securely communicate with the government online."
+      },
+      "source_text_nl": "DigiD is een inlogmiddel voor veilige online communicatie met de overheid.",
+      "tags": ["DigiD", "overheid", "online"]
+    },
+    {
+      "id": "M6_Q064", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Verblijfsvergunning – IND", "topic_en": "Residence permit – IND",
+      "question_nl": "Je vraagt een verblijfsvergunning aan bij de IND.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De IND behandelt aanvragen voor verblijfsvergunningen.",
+        "en": "That is correct. The IND processes residence permit applications."
+      },
+      "source_text_nl": "Je vraagt een verblijfsvergunning aan bij de IND.",
+      "tags": ["verblijfsvergunning", "IND", "aanvraag"]
+    },
+    {
+      "id": "M6_Q065", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "BSN – uniek", "topic_en": "BSN – unique",
+      "question_nl": "Iedereen in Nederland heeft een uniek BSN (Burgerservicenummer).",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Iedereen die in Nederland geregistreerd staat, krijgt een uniek BSN.",
+        "en": "That is correct. Everyone registered in the Netherlands receives a unique BSN."
+      },
+      "source_text_nl": "Iedereen in Nederland heeft een uniek BSN.",
+      "tags": ["BSN", "uniek", "nummer"]
+    },
+    {
+      "id": "M6_Q066", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Gemeente – trouwen registreren", "topic_en": "Municipality – marriage registration",
+      "question_nl": "Als je gaat trouwen, moet je dat melden bij de gemeente.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Als je gaat trouwen, moet je dat doorgeven aan de gemeente. Het huwelijk wordt dan geregistreerd in de GBA.",
+        "en": "That is correct. If you are going to marry, you must report this to the municipality. The marriage is then recorded in the GBA."
+      },
+      "source_text_nl": "Als je wilt trouwen of scheiden, moet je dat doorgeven aan de gemeente.",
+      "tags": ["trouwen", "gemeente", "registreren"]
+    },
+    {
+      "id": "M6_Q067", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Gemeenteraad – controle", "topic_en": "Council – oversight",
+      "question_nl": "De gemeenteraad controleert het gemeentebestuur.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De gemeenteraad controleert of het gemeentebestuur (burgemeester en wethouders) goed werk doet.",
+        "en": "That is correct. The municipal council monitors whether the municipal administration (mayor and aldermen) is performing well."
+      },
+      "source_text_nl": "De gemeenteraad controleert het gemeentebestuur.",
+      "tags": ["gemeenteraad", "controle", "bestuur"]
+    },
+    {
+      "id": "M6_Q068", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Advocaat – gratis", "topic_en": "Lawyer – free",
+      "question_nl": "Een advocaat is altijd gratis in Nederland.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Een advocaat kost geld. Mensen met een laag inkomen kunnen soms een toevoeging aanvragen (gesubsidieerde rechtsbijstand).",
+        "en": "This is incorrect. A lawyer costs money. People with a low income can sometimes apply for legal aid (gesubsidieerde rechtsbijstand)."
+      },
+      "source_text_nl": "Een advocaat kost geld. Mensen met een laag inkomen kunnen rechtsbijstand aanvragen.",
+      "tags": ["advocaat", "kosten", "rechtsbijstand"]
+    },
+    {
+      "id": "M6_Q069", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Sloopvergunning nodig", "topic_en": "Demolition permit required",
+      "question_nl": "Als je je garage wilt afbreken, heb je een sloopvergunning nodig.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Als je iets groots wilt slopen, zoals je garage, heb je een sloopvergunning nodig van de gemeente.",
+        "en": "That is correct. If you want to demolish something large, such as your garage, you need a demolition permit from the municipality."
+      },
+      "source_text_nl": "Een sloopvergunning: als je iets wilt afbreken. Bijvoorbeeld de garage.",
+      "tags": ["sloopvergunning", "garage", "afbreken"]
+    },
+    {
+      "id": "M6_Q070", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Gemeente – hulp ouderen", "topic_en": "Municipality – elderly support",
+      "question_nl": "De gemeente helpt mensen die oud of ziek zijn.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Een van de taken van de gemeente is het helpen van mensen die oud of ziek zijn of weinig verdienen.",
+        "en": "That is correct. One of the municipality's tasks is to help people who are elderly, ill or have a low income."
+      },
+      "source_text_nl": "Ook helpt de gemeente mensen die oud of ziek zijn, en mensen die weinig verdienen.",
+      "tags": ["gemeente", "ouderen", "ziek"]
+    },
+    {
+      "id": "M6_Q071", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Vergunning – algemeen", "topic_en": "Permit – general",
+      "question_nl": "Wat is een vergunning?",
+      "options": [
+        {"id": "A", "text_nl": "Een factuur van de gemeente"},
+        {"id": "B", "text_nl": "Toestemming van de gemeente om iets te doen"},
+        {"id": "C", "text_nl": "Een belastingvrijstelling"},
+        {"id": "D", "text_nl": "Een document voor de IND"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een vergunning is toestemming van de gemeente om iets te doen. Sommige dingen mag je niet zomaar doen; daarvoor heb je toestemming nodig.",
+        "en": "A permit is permission from the municipality to do something. Some things you may not simply do — you need permission for those."
+      },
+      "source_text_nl": "Een vergunning betekent toestemming van de gemeente. Sommige dingen mag je niet zomaar doen.",
+      "tags": ["vergunning", "toestemming", "gemeente"]
+    },
+    {
+      "id": "M6_Q072", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Provinciebestuur", "topic_en": "Provincial government",
+      "question_nl": "Wat regelt het provinciebestuur?",
+      "options": [
+        {"id": "A", "text_nl": "De nationale wetten"},
+        {"id": "B", "text_nl": "Zaken voor de provincie, zoals ruimtelijke ordening, milieu en wegen"},
+        {"id": "C", "text_nl": "De belastingen voor heel Nederland"},
+        {"id": "D", "text_nl": "De gemeentelijke taken"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het provinciebestuur regelt dingen voor de provincie. Het gaat dan over ruimtelijke ordening, milieu en wegen. Het provinciebestuur wordt gekozen door de inwoners van die provincie.",
+        "en": "The provincial government manages matters for the province — spatial planning, environment and roads. The provincial council is elected by the residents of that province."
+      },
+      "source_text_nl": "Het provinciebestuur beslist dingen voor de provincie, zoals ruimtelijke ordening, milieu en wegen.",
+      "tags": ["provinciebestuur", "provincie", "ruimtelijke ordening"]
+    },
+    {
+      "id": "M6_Q073", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gemeente – welke instantie", "topic_en": "Municipality – which institution",
+      "question_nl": "Welke instantie regelt de opvang van asielzoekers in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "De gemeente"},
+        {"id": "B", "text_nl": "Het COA"},
+        {"id": "C", "text_nl": "De IND"},
+        {"id": "D", "text_nl": "De SVB"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het COA (Centraal Orgaan opvang asielzoekers) regelt de opvang van asielzoekers. De IND beslist over verblijfsvergunningen.",
+        "en": "The COA (Central Agency for the Reception of Asylum Seekers) organises the reception of asylum seekers. The IND decides on residence permits."
+      },
+      "source_text_nl": "Het COA regelt de opvang van asielzoekers in Nederland.",
+      "tags": ["COA", "asielzoekers", "opvang"]
+    },
+    {
+      "id": "M6_Q074", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Rechtsbijstand", "topic_en": "Legal aid",
+      "question_nl": "Wat is gesubsidieerde rechtsbijstand?",
+      "options": [
+        {"id": "A", "text_nl": "Gratis juridisch advies van de gemeente"},
+        {"id": "B", "text_nl": "Hulp van een advocaat voor mensen die weinig geld hebben, waarbij de overheid meebetaalt"},
+        {"id": "C", "text_nl": "Een uitkering voor mensen zonder werk"},
+        {"id": "D", "text_nl": "Een vergoeding van de Belastingdienst"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Gesubsidieerde rechtsbijstand is juridische hulp voor mensen die weinig geld hebben. De overheid betaalt dan een deel van de kosten van de advocaat.",
+        "en": "Legal aid (gesubsidieerde rechtsbijstand) is legal help for people with little money. The government then pays part of the lawyer's costs."
+      },
+      "source_text_nl": "Gesubsidieerde rechtsbijstand is juridische hulp waarbij de overheid meebetaalt voor mensen met weinig geld.",
+      "tags": ["rechtsbijstand", "advocaat", "overheid"]
+    },
+    {
+      "id": "M6_Q075", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gemeente – taken onderwijs", "topic_en": "Municipality – education tasks",
+      "question_nl": "Welke onderwijstaak heeft de gemeente?",
+      "options": [
+        {"id": "A", "text_nl": "De gemeente stelt de leerboeken samen"},
+        {"id": "B", "text_nl": "De gemeente is verantwoordelijk voor de huisvesting van basisscholen"},
+        {"id": "C", "text_nl": "De gemeente geeft diploma's uit"},
+        {"id": "D", "text_nl": "De gemeente betaalt de salarissen van leraren"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De gemeente is verantwoordelijk voor de huisvesting van basisscholen en regelt leerlingenvervoer en andere lokale onderwijszaken.",
+        "en": "The municipality is responsible for housing primary schools and organises pupil transport and other local education matters."
+      },
+      "source_text_nl": "De gemeente regelt het onderwijs in haar gebied, zoals de huisvesting van basisscholen.",
+      "tags": ["gemeente", "onderwijs", "basisschool"]
+    },
+    {
+      "id": "M6_Q076", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "KNM – inburgering onderdeel", "topic_en": "KNM – integration component",
+      "question_nl": "KNM (Kennis van de Nederlandse Maatschappij) is een onderdeel van het inburgeringsexamen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. KNM is een verplicht onderdeel van het inburgeringsexamen. Je leert over de Nederlandse samenleving.",
+        "en": "That is correct. KNM is a compulsory component of the civic integration exam. You learn about Dutch society."
+      },
+      "source_text_nl": "KNM is een onderdeel van het inburgeringsexamen.",
+      "tags": ["KNM", "inburgeringsexamen", "onderdeel"]
+    },
+    {
+      "id": "M6_Q077", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Gemeente – GBA bijwerken", "topic_en": "Municipality – updating records",
+      "question_nl": "Als je iets niet doorgeeft aan de gemeente, kan de informatie in de GBA onjuist zijn.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Als je wijzigingen niet doorgeeft, klopt de informatie in de GBA niet meer. Dat kan problemen geven met uitkeringen of documenten.",
+        "en": "That is correct. If you do not report changes, the information in the GBA is no longer correct. This can cause problems with benefits or documents."
+      },
+      "source_text_nl": "Als je wijzigingen niet doorgeeft, kan de GBA onjuiste informatie bevatten.",
+      "tags": ["GBA", "onjuist", "wijziging"]
+    },
+    {
+      "id": "M6_Q078", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Provinciebestuur – gekozen", "topic_en": "Provincial council – elected",
+      "question_nl": "Het provinciebestuur wordt gekozen door de inwoners van de provincie.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De Provinciale Staten (het provinciale parlement) worden gekozen door de inwoners van de provincie.",
+        "en": "That is correct. The Provincial States (the provincial parliament) are elected by the residents of the province."
+      },
+      "source_text_nl": "Het provinciebestuur wordt gekozen door de inwoners van die provincie.",
+      "tags": ["provinciebestuur", "gekozen", "inwoners"]
+    },
+    {
+      "id": "M6_Q079", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Sociale Dienst", "topic_en": "Social services",
+      "question_nl": "Bijstand vraag je aan bij de gemeente.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Bijstand vraag je aan bij de gemeente. De gemeente beoordeelt dan of je er recht op hebt.",
+        "en": "That is correct. You apply for social assistance (bijstand) at the municipality. The municipality then assesses whether you are entitled to it."
+      },
+      "source_text_nl": "Bijstand vraag je aan bij de gemeente.",
+      "tags": ["bijstand", "gemeente", "aanvragen"]
+    },
+    {
+      "id": "M6_Q080", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Inburgeringsexamen – verplicht", "topic_en": "Integration exam – compulsory",
+      "question_nl": "Alle mensen die naar Nederland komen moeten het inburgeringsexamen doen.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Niet iedereen hoeft het inburgeringsexamen te doen. EU-burgers zijn vrijgesteld. Er gelden specifieke regels over wie verplicht moet inburgeren.",
+        "en": "This is incorrect. Not everyone has to take the civic integration exam. EU citizens are exempt. Specific rules apply about who must integrate civically."
+      },
+      "source_text_nl": "Niet iedereen hoeft het inburgeringsexamen te doen. EU-burgers zijn vrijgesteld.",
+      "tags": ["inburgeringsexamen", "niet iedereen", "EU"]
+    }
+  ]
+}

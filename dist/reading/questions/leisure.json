@@ -1,0 +1,767 @@
+{
+  "module_id": "M13_Reading",
+  "module_title_nl": "Vrije tijd en hobby's",
+  "module_title_en": "Leisure and Hobbies",
+  "total_questions": 20,
+  "questions": [
+    {
+      "id": "M13_R001",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Sportclub",
+      "topic_en": "Sports club",
+      "source_text_nl": "Beste leden, de voetbaltraining van vanavond gaat niet door vanwege de harde regen. We trainen aanstaande donderdag weer om 19:00 uur op veld 2.",
+      "question_nl": "Waarom is er vanavond geen training?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Het is vakantie"
+        },
+        {
+          "id": "B",
+          "text_nl": "Vanwege de regen"
+        },
+        {
+          "id": "C",
+          "text_nl": "De trainer is ziek"
+        },
+        {
+          "id": "D",
+          "text_nl": "Veld 2 is kapot"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst geeft aan dat de training niet doorgaat 'vanwege de harde regen'.",
+        "en": "The text indicates that the training is cancelled 'due to the heavy rain'."
+      },
+      "source_text_en": "Dear members, tonight's football training is cancelled due to the heavy rain. We will train again next Thursday at 7:00 PM on field 2.",
+      "tags": [
+        "sport",
+        "voetbal",
+        "weer"
+      ]
+    },
+    {
+      "id": "M13_R002",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Museum",
+      "topic_en": "Museum",
+      "source_text_nl": "Bezoek het Stedelijk Museum! Open van dinsdag tot en met zondag. Maandag zijn wij gesloten. Kinderen tot 12 jaar hebben gratis toegang.",
+      "question_nl": "Wie hoeft er niet te betalen voor het museum?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Iedereen"
+        },
+        {
+          "id": "B",
+          "text_nl": "Alleen volwassenen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Kinderen tot 12 jaar"
+        },
+        {
+          "id": "D",
+          "text_nl": "Mensen die op maandag komen"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "In de tekst staat: 'Kinderen tot 12 jaar hebben gratis toegang'.",
+        "en": "The text states: 'Children up to 12 years old have free entry'."
+      },
+      "source_text_en": "Visit the City Museum! Open from Tuesday to Sunday. We are closed on Mondays. Children up to 12 years old have free entry.",
+      "tags": [
+        "museum",
+        "kinderen",
+        "gratis"
+      ]
+    },
+    {
+      "id": "M13_R003",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Bibliotheek",
+      "topic_en": "Library",
+      "source_text_nl": "Huisregels bibliotheek: Het is niet toegestaan om te bellen in de studiezaal. U mag wel water drinken, maar eten is verboden bij de computers.",
+      "question_nl": "Wat mag je doen in de bibliotheek?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Bellen"
+        },
+        {
+          "id": "B",
+          "text_nl": "Eten bij de computer"
+        },
+        {
+          "id": "C",
+          "text_nl": "Water drinken"
+        },
+        {
+          "id": "D",
+          "text_nl": "Hardop praten"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst vermeldt expliciet: 'U mag wel water drinken'.",
+        "en": "The text explicitly mentions: 'You are allowed to drink water'."
+      },
+      "source_text_en": "Library house rules: Calling is not allowed in the study room. You may drink water, but eating is prohibited at the computers.",
+      "tags": [
+        "bibliotheek",
+        "regels",
+        "drinken"
+      ]
+    },
+    {
+      "id": "M13_R004",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Zwemles",
+      "topic_en": "Swimming lesson",
+      "source_text_nl": "Informatie zwemles: Vergeet niet om 10 minuten voor de les aanwezig te zijn. Kinderen moeten hun zwemkleding alvast onder hun gewone kleren aan doen.",
+      "question_nl": "Hoe laat moeten de kinderen op het zwembad zijn?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Precies als de les begint"
+        },
+        {
+          "id": "B",
+          "text_nl": "Tien minuten voor de les"
+        },
+        {
+          "id": "C",
+          "text_nl": "Een uur van tevoren"
+        },
+        {
+          "id": "D",
+          "text_nl": "Na de les"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst vraagt om 10 minuten voor aanvang aanwezig te zijn.",
+        "en": "The text asks to be present 10 minutes before the start."
+      },
+      "source_text_en": "Swimming lesson information: Don't forget to be present 10 minutes before the lesson. Children should already put their swimwear on under their regular clothes.",
+      "tags": [
+        "zwemmen",
+        "tijd",
+        "les"
+      ]
+    },
+    {
+      "id": "M13_R005",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Film",
+      "topic_en": "Movie",
+      "source_text_nl": "Bioscoopagenda: De film 'De Nacht' begint om 20:15 uur in zaal 4. Let op: deze film is voor 16 jaar en ouder. Neem je ID-kaart mee.",
+      "question_nl": "Voor wie is deze film geschikt?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Voor kleine kinderen"
+        },
+        {
+          "id": "B",
+          "text_nl": "Voor iedereen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Voor mensen vanaf 16 jaar"
+        },
+        {
+          "id": "D",
+          "text_nl": "Alleen voor zaal 4"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De leeftijdsgrens voor de film is 16 jaar.",
+        "en": "The age limit for the movie is 16 years."
+      },
+      "source_text_en": "Cinema schedule: The movie 'The Night' starts at 8:15 PM in hall 4. Note: this movie is for ages 16 and older. Bring your ID card.",
+      "tags": [
+        "bioscoop",
+        "leeftijd",
+        "film"
+      ]
+    },
+    {
+      "id": "M13_R006",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Hardlopen",
+      "topic_en": "Running",
+      "source_text_nl": "Wandel- en hardloopclub: We verzamelen elke zondag om 10:00 uur bij de ingang van het bos. Bij slecht weer drinken we alleen koffie in het clubhuis.",
+      "question_nl": "Wat doet de club als het regent of stormt?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Toch hardlopen in het bos"
+        },
+        {
+          "id": "B",
+          "text_nl": "Koffie drinken in het clubhuis"
+        },
+        {
+          "id": "C",
+          "text_nl": "De club stopt ermee"
+        },
+        {
+          "id": "D",
+          "text_nl": "Naar huis gaan"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Bij slecht weer is de activiteit beperkt tot koffie drinken in het clubhuis.",
+        "en": "In bad weather, the activity is limited to drinking coffee in the clubhouse."
+      },
+      "source_text_en": "Walking and running club: We gather every Sunday at 10:00 AM at the forest entrance. In case of bad weather, we only drink coffee in the clubhouse.",
+      "tags": [
+        "hobby",
+        "hardlopen",
+        "weer"
+      ]
+    },
+    {
+      "id": "M13_R007",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Creatieve cursus",
+      "topic_en": "Creative course",
+      "source_text_nl": "Cursus schilderen: Er is nog plek op de woensdagavond. De kosten zijn €15,- per les. Dit is inclusief verf en papier. U moet zelf penselen meenemen.",
+      "question_nl": "Wat moet de cursist zelf meenemen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Verf"
+        },
+        {
+          "id": "B",
+          "text_nl": "Papier"
+        },
+        {
+          "id": "C",
+          "text_nl": "Penselen"
+        },
+        {
+          "id": "D",
+          "text_nl": "Geld voor de verf"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst vermeldt dat verf en papier inclusief zijn, maar penselen niet.",
+        "en": "The text mentions that paint and paper are included, but brushes are not."
+      },
+      "source_text_en": "Painting course: There are still spots available on Wednesday evenings. The costs are €15 per lesson. This includes paint and paper. You must bring your own brushes.",
+      "tags": [
+        "hobby",
+        "cursus",
+        "schilderen"
+      ]
+    },
+    {
+      "id": "M13_R008",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Dierentuin",
+      "topic_en": "Zoo",
+      "source_text_nl": "Dierentuin Artis: Vandaag worden de olifanten om 14:00 uur gevoerd. Wilt u dit zien? Kom dan op tijd naar het olifantenverblijf.",
+      "question_nl": "Wat gebeurt er om 14:00 uur?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De dierentuin gaat dicht"
+        },
+        {
+          "id": "B",
+          "text_nl": "De olifanten krijgen eten"
+        },
+        {
+          "id": "C",
+          "text_nl": "De olifanten gaan slapen"
+        },
+        {
+          "id": "D",
+          "text_nl": "Er komt een nieuwe olifant"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "'Gevoerd worden' betekent dat de dieren eten krijgen.",
+        "en": "'Gevoerd worden' means the animals are getting fed."
+      },
+      "source_text_en": "Artis Zoo: Today the elephants are being fed at 2:00 PM. Would you like to see this? Then come to the elephant enclosure on time.",
+      "tags": [
+        "uitje",
+        "dierentuin",
+        "olifanten"
+      ]
+    },
+    {
+      "id": "M13_R009",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Gitaarles",
+      "topic_en": "Guitar lesson",
+      "source_text_nl": "Gitaarles gezocht: Ik wil graag gitaar leren spelen. Ik heb alleen tijd in het weekend. Wie kan mij helpen? Ik woon in het centrum.",
+      "question_nl": "Wanneer heeft deze persoon tijd voor les?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Elke avond"
+        },
+        {
+          "id": "B",
+          "text_nl": "Op maandag"
+        },
+        {
+          "id": "C",
+          "text_nl": "In het weekend"
+        },
+        {
+          "id": "D",
+          "text_nl": "Dat staat niet in de tekst"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De persoon geeft aan 'alleen tijd in het weekend' te hebben.",
+        "en": "The person indicates they 'only have time during the weekend'."
+      },
+      "source_text_en": "Guitar lesson wanted: I would like to learn to play guitar. I only have time during the weekend. Who can help me? I live in the center.",
+      "tags": [
+        "muziek",
+        "advertentie",
+        "tijd"
+      ]
+    },
+    {
+      "id": "M13_R010",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Tuinieren",
+      "topic_en": "Gardening",
+      "source_text_nl": "Volkstuinvereniging: Vergeet niet om het onkruid tussen de planten weg te halen. Het pad bij uw tuin moet ook schoon blijven voor de andere leden.",
+      "question_nl": "Wat moet de eigenaar van de tuin schoonhouden?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De straat"
+        },
+        {
+          "id": "B",
+          "text_nl": "Het pad bij de tuin"
+        },
+        {
+          "id": "C",
+          "text_nl": "Het huis van de buren"
+        },
+        {
+          "id": "D",
+          "text_nl": "De auto"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst vraagt om het pad bij de tuin schoon te houden.",
+        "en": "The text asks to keep the path near the garden clean."
+      },
+      "source_text_en": "Allotment association: Don't forget to remove the weeds between the plants. The path near your garden must also stay clean for the other members.",
+      "tags": [
+        "tuinieren",
+        "hobby",
+        "regels"
+      ]
+    },
+    {
+      "id": "M13_R011",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Theater",
+      "topic_en": "Theater",
+      "source_text_nl": "Theater De Spiegel: Vanavond staat de cabaretshow 'Lachen' op het programma. De deuren gaan open om 19:30 uur. De show begint om 20:00 uur.",
+      "question_nl": "Hoe laat mag je naar binnen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Om 19:00 uur"
+        },
+        {
+          "id": "B",
+          "text_nl": "Om 19:30 uur"
+        },
+        {
+          "id": "C",
+          "text_nl": "Om 20:00 uur"
+        },
+        {
+          "id": "D",
+          "text_nl": "Als de show klaar is"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De deuren gaan open (je mag naar binnen) om 19:30 uur.",
+        "en": "The doors open (you can go inside) at 7:30 PM."
+      },
+      "source_text_en": "The Mirror Theater: Tonight the cabaret show 'Laughing' is on the schedule. The doors open at 7:30 PM. The show starts at 8:00 PM.",
+      "tags": [
+        "theater",
+        "tijd",
+        "cultuur"
+      ]
+    },
+    {
+      "id": "M13_R012",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Fotografie",
+      "topic_en": "Photography",
+      "source_text_nl": "Fotowedstrijd: Maak een mooie foto van de natuur in jouw buurt. Stuur de foto voor 1 mei naar info@buurt.nl. Je kunt een nieuwe camera winnen!",
+      "question_nl": "Wat kun je winnen bij de wedstrijd?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Een vakantie"
+        },
+        {
+          "id": "B",
+          "text_nl": "Een nieuwe camera"
+        },
+        {
+          "id": "C",
+          "text_nl": "Geld"
+        },
+        {
+          "id": "D", "text_nl": "Een foto van de buurt"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De prijs van de wedstrijd is een nieuwe camera.",
+        "en": "The prize of the competition is a new camera."
+      },
+      "source_text_en": "Photo competition: Take a beautiful photo of nature in your neighborhood. Send the photo to info@buurt.nl before May 1st. You can win a new camera!",
+      "tags": [
+        "fotografie",
+        "prijs",
+        "wedstrijd"
+      ]
+    },
+    {
+      "id": "M13_R013",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Concert",
+      "topic_en": "Concert",
+      "source_text_nl": "Let op: Het concert van zaterdag gaat niet door. De zanger is helaas ziek. U krijgt uw geld automatisch terug op uw bankrekening.",
+      "question_nl": "Hoe krijgen de mensen hun geld terug?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Ze moeten naar de kassa gaan"
+        },
+        {
+          "id": "B",
+          "text_nl": "Het komt automatisch op de bankrekening"
+        },
+        {
+          "id": "C",
+          "text_nl": "Ze krijgen een nieuwe kaart"
+        },
+        {
+          "id": "D",
+          "text_nl": "Ze krijgen geen geld terug"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De terugbetaling gebeurt automatisch via de bank.",
+        "en": "The refund happens automatically via the bank."
+      },
+      "source_text_en": "Please note: Saturday's concert is cancelled. Unfortunately, the singer is sick. You will automatically receive your money back into your bank account.",
+      "tags": [
+        "concert",
+        "geld",
+        "ziekte"
+      ]
+    },
+    {
+      "id": "M13_R014",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Vrijwilligerswerk",
+      "topic_en": "Volunteering",
+      "source_text_nl": "Vrijwilligers gezocht! Houdt u van wandelen? Onze bewoners van het verzorgingstehuis gaan graag naar buiten. We zoeken mensen voor de dinsdagmiddag.",
+      "question_nl": "Wat gaan de vrijwilligers doen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Koken"
+        },
+        {
+          "id": "B",
+          "text_nl": "Wandelen met ouderen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Schoonmaken"
+        },
+        {
+          "id": "D",
+          "text_nl": "Zingen"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst vraagt om mensen die van wandelen houden voor de bewoners.",
+        "en": "The text asks for people who love walking for the residents."
+      },
+      "source_text_en": "Volunteers wanted! Do you like walking? Our nursing home residents love to go outside. We are looking for people for Tuesday afternoons.",
+      "tags": [
+        "vrijwilliger",
+        "wandelen",
+        "ouderen"
+      ]
+    },
+    {
+      "id": "M13_R015",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Fitness",
+      "topic_en": "Fitness",
+      "source_text_nl": "Aanbieding sportschool: Word nu lid en betaal de eerste drie maanden geen inschrijfgeld. Deze actie is geldig tot eind september.",
+      "question_nl": "Tot wanneer is de actie geldig?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Tot morgen"
+        },
+        {
+          "id": "B",
+          "text_nl": "Tot eind september"
+        },
+        {
+          "id": "C",
+          "text_nl": "Drie maanden lang"
+        },
+        {
+          "id": "D",
+          "text_nl": "Het hele jaar"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De actie eindigt aan het einde van september.",
+        "en": "The promotion ends at the end of September."
+      },
+      "source_text_en": "Gym offer: Join now and pay no registration fee for the first three months. This promotion is valid until the end of September.",
+      "tags": [
+        "fitness",
+        "aanbieding",
+        "tijd"
+      ]
+    },
+    {
+      "id": "M13_R016",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Kaartclub",
+      "topic_en": "Card club",
+      "source_text_nl": "Hoi oma, kom je vrijdagavond klaverjassen bij de buurtvereniging? We beginnen om 20:00 uur. Ik kom je om 19:45 uur ophalen met de auto.",
+      "question_nl": "Hoe laat wordt oma opgehaald?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Om 19:45 uur"
+        },
+        {
+          "id": "B",
+          "text_nl": "Om 20:00 uur"
+        },
+        {
+          "id": "C",
+          "text_nl": "Op vrijdagmiddag"
+        },
+        {
+          "id": "D",
+          "text_nl": "Om 19:00 uur"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": {
+        "nl": "De afhaaltijd is 19:45 uur.",
+        "en": "The pickup time is 7:45 PM."
+      },
+      "source_text_en": "Hi grandma, are you coming to play 'klaverjassen' at the neighborhood association on Friday evening? We start at 8:00 PM. I'll pick you up at 7:45 PM by car.",
+      "tags": [
+        "kaarten",
+        "hobby",
+        "familie"
+      ]
+    },
+    {
+      "id": "M13_R017",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Parkregels",
+      "topic_en": "Park rules",
+      "source_text_nl": "In dit park mag u niet barbecueën. U mag wel picknicken op het gras. Gooi uw afval na afloop in de prullenbak.",
+      "question_nl": "Wat is verboden in het park?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Picknicken"
+        },
+        {
+          "id": "B",
+          "text_nl": "Op het gras zitten"
+        },
+        {
+          "id": "C",
+          "text_nl": "Barbecueën"
+        },
+        {
+          "id": "D",
+          "text_nl": "Wandelen"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst zegt specifiek: 'u mag niet barbecueën'.",
+        "en": "The text specifically says: 'you are not allowed to barbecue'."
+      },
+      "source_text_en": "In this park, you are not allowed to barbecue. You are allowed to picnic on the grass. Throw your waste in the trash can afterwards.",
+      "tags": [
+        "park",
+        "regels",
+        "vrije tijd"
+      ]
+    },
+    {
+      "id": "M13_R018",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Leesclub",
+      "topic_en": "Reading club",
+      "source_text_nl": "Onze leesclub bespreekt volgende maand het boek 'De Brief'. We komen samen op de eerste woensdag van de maand om 19:00 uur in de bibliotheek.",
+      "question_nl": "Welk boek gaat de club lezen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De Bibliotheek"
+        },
+        {
+          "id": "B",
+          "text_nl": "De Brief"
+        },
+        {
+          "id": "C",
+          "text_nl": "De Woensdag"
+        },
+        {
+          "id": "D",
+          "text_nl": "Dat staat niet in de tekst"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De titel van het boek is 'De Brief'.",
+        "en": "The title of the book is 'The Letter' (De Brief)."
+      },
+      "source_text_en": "Our reading club will discuss the book 'The Letter' (De Brief) next month. We meet on the first Wednesday of the month at 7:00 PM in the library.",
+      "tags": [
+        "lezen",
+        "boek",
+        "hobby"
+      ]
+    },
+    {
+      "id": "M13_R019",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Pretpark",
+      "topic_en": "Amusement park",
+      "source_text_nl": "Nieuw pretpark: Nu geopend! Let op: de snelle attracties zijn niet geschikt voor mensen met rugklachten of zwangere vrouwen.",
+      "question_nl": "Voor wie zijn de snelle attracties NIET geschikt?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Voor kinderen"
+        },
+        {
+          "id": "B",
+          "text_nl": "Voor mensen met rugklachten"
+        },
+        {
+          "id": "C",
+          "text_nl": "Voor mensen die van snelheid houden"
+        },
+        {
+          "id": "D",
+          "text_nl": "Voor mannen"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst waarschuwt mensen met rugklachten voor de snelle attracties.",
+        "en": "The text warns people with back problems about the fast attractions."
+      },
+      "source_text_en": "New amusement park: Now open! Note: the fast attractions are not suitable for people with back problems or pregnant women.",
+      "tags": [
+        "pretpark",
+        "veiligheid",
+        "vrije tijd"
+      ]
+    },
+    {
+      "id": "M13_R020",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Vakantie",
+      "topic_en": "Holiday",
+      "source_text_nl": "Hotel Duin: Geniet van een weekend aan zee. Boekt u voor 1 juni? Dan krijgt u een gratis ontbijt bij uw verblijf.",
+      "question_nl": "Wanneer krijgt u een gratis ontbijt?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Als u na 1 juni boekt"
+        },
+        {
+          "id": "B",
+          "text_nl": "Als u voor 1 juni boekt"
+        },
+        {
+          "id": "C",
+          "text_nl": "Altijd"
+        },
+        {
+          "id": "D",
+          "text_nl": "Alleen in het weekend"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De aanbieding voor gratis ontbijt geldt bij boekingen voor 1 juni.",
+        "en": "The offer for free breakfast applies to bookings made before June 1st."
+      },
+      "source_text_en": "Hotel Dune: Enjoy a weekend by the sea. Do you book before June 1st? Then you get a free breakfast with your stay.",
+      "tags": [
+        "vakantie",
+        "hotel",
+        "aanbieding"
+      ]
+    }
+  ]
+}

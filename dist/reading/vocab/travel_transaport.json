@@ -1,0 +1,708 @@
+{
+  "title_reading": "A2 Vocabulary Master",
+  "category": "Travel & Transport",
+  "total_words_target": 100,
+  "batch": 1,
+  "vocabulary_list": [
+    {
+      "type": "Profession",
+      "dutch_word": "De conducteur",
+      "english_word": "The conductor",
+      "meaning": "The person who checks tickets on a train or bus.",
+      "example_sentence": "De conducteur controleert mijn vervoersbewijs in de trein."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De stewardess",
+      "english_word": "The flight attendant",
+      "meaning": "A person who looks after passengers on a plane.",
+      "example_sentence": "De stewardess legt uit hoe de veiligheidsriem werkt."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De piloot",
+      "english_word": "The pilot",
+      "meaning": "The person who flies the airplane.",
+      "example_sentence": "De piloot vertelt dat we over tien minuten gaan landen."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De chauffeur",
+      "english_word": "The driver",
+      "meaning": "A person who drives a vehicle like a bus or taxi.",
+      "example_sentence": "De buschauffeur stopt bij elke halte in de stad."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het station",
+      "english_word": "The station",
+      "meaning": "A place where trains or buses stop for passengers.",
+      "example_sentence": "Ik wacht op het station op de trein naar Utrecht."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De luchthaven",
+      "english_word": "The airport",
+      "meaning": "A place where airplanes take off and land.",
+      "example_sentence": "We moeten drie uur van tevoren op de luchthaven zijn."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De halte",
+      "english_word": "The stop (bus/tram)",
+      "meaning": "A designated place where a bus or tram stops.",
+      "example_sentence": "Ik stap uit bij de volgende halte."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het vervoersbewijs",
+      "english_word": "The ticket/transportation pass",
+      "meaning": "A document or card that shows you paid for the journey.",
+      "example_sentence": "U moet altijd een geldig vervoersbewijs bij u hebben."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De koffer",
+      "english_word": "The suitcase",
+      "meaning": "A large case used for carrying clothes when traveling.",
+      "example_sentence": "Mijn koffer is te zwaar voor het vliegtuig."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De handbagage",
+      "english_word": "The hand luggage",
+      "meaning": "Small bags that you can take onto the plane with you.",
+      "example_sentence": "Mag ik deze kleine tas als handbagage meenemen?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De OV-chipkaart",
+      "english_word": "The public transport smart card",
+      "meaning": "The card used for all public transport in the Netherlands.",
+      "example_sentence": "Ik moet mijn OV-chipkaart opladen bij de automaat."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het paspoort",
+      "english_word": "The passport",
+      "meaning": "An official document for international travel.",
+      "example_sentence": "Bij de grens moet ik mijn paspoort laten zien."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Reizen",
+      "english_word": "To travel",
+      "meaning": "To go from one place to another.",
+      "example_sentence": "Ik reis het liefst met de trein door Europa."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Inchecken",
+      "english_word": "To check in",
+      "meaning": "To register your arrival at an airport or start a journey.",
+      "example_sentence": "Vergeet niet om in te checken bij de paal op het perron."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Vertrekken",
+      "english_word": "To depart/leave",
+      "meaning": "To start a journey.",
+      "example_sentence": "De trein naar Amsterdam vertrekt van spoor vier."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Aankomen",
+      "english_word": "To arrive",
+      "meaning": "To reach a destination.",
+      "example_sentence": "Hoe laat komt de bus aan in Rotterdam?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Boeken",
+      "english_word": "To book/reserve",
+      "meaning": "To reserve a ticket or a hotel room.",
+      "example_sentence": "Ik wil graag een vlucht naar Spanje boeken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Overstappen",
+      "english_word": "To transfer/change (trains/buses)",
+      "meaning": "To get off one vehicle and onto another to continue a journey.",
+      "example_sentence": "U moet in Leiden overstappen op de trein naar Den Haag."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Vertraagd",
+      "english_word": "Delayed",
+      "meaning": "Happening later than the planned time.",
+      "example_sentence": "Mijn trein is helaas tien minuten vertraagd."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Dichtbij",
+      "english_word": "Nearby/Close",
+      "meaning": "A short distance away.",
+      "example_sentence": "Het hotel ligt heel dichtbij het strand."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Ver",
+      "english_word": "Far",
+      "meaning": "A long distance away.",
+      "example_sentence": "Is het nog ver lopen naar het centrum?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De vertraging",
+      "english_word": "The delay",
+      "meaning": "The period of time by which something is late.",
+      "example_sentence": "Door een defect is er veel vertraging op het spoor."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De bestemming",
+      "english_word": "The destination",
+      "meaning": "The place where someone is going.",
+      "example_sentence": "Na een lange reis bereikten we eindelijk onze bestemming."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De vakantie",
+      "english_word": "The holiday/vacation",
+      "meaning": "A period of time spent away from home for relaxation.",
+      "example_sentence": "We gaan deze zomer op vakantie naar Italië."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De route",
+      "english_word": "The route",
+      "meaning": "A way or course taken in getting from a starting point to a destination.",
+      "example_sentence": "De kortste route naar het station is via het park."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De taxichauffeur",
+      "english_word": "The taxi driver",
+      "meaning": "A person who drives a taxi for a living.",
+      "example_sentence": "De taxichauffeur helpt me met mijn zware koffers."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De verkeersregelaar",
+      "english_word": "The traffic controller",
+      "meaning": "A person who directs the flow of traffic, usually during roadworks.",
+      "example_sentence": "De verkeersregelaar zegt dat we moeten stoppen."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het perron",
+      "english_word": "The platform",
+      "meaning": "The area in a railway station where you get on or off a train.",
+      "example_sentence": "De trein naar Utrecht vertrekt van perron negen."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De parkeerplaats",
+      "english_word": "The parking lot/space",
+      "meaning": "An area where cars can be left.",
+      "example_sentence": "Is er nog een vrije parkeerplaats bij de supermarkt?"
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De benzinepomp",
+      "english_word": "The petrol station/gas station",
+      "meaning": "A place where you buy fuel for your car.",
+      "example_sentence": "Ik moet stoppen bij de benzinepomp om te tanken."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De ticketautomaat",
+      "english_word": "The ticket machine",
+      "meaning": "A machine that sells tickets for transport.",
+      "example_sentence": "Je kunt een kaartje kopen bij de ticketautomaat op het station."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De dienstregeling",
+      "english_word": "The timetable/schedule",
+      "meaning": "A list of times when buses, trains, or planes arrive and depart.",
+      "example_sentence": "Volgens de dienstregeling komt de bus om het kwartier."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het stoplicht",
+      "english_word": "The traffic light",
+      "meaning": "A set of red, amber, and green lights that control traffic.",
+      "example_sentence": "Je moet stoppen als het stoplicht op rood staat."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De richtingaanwijzer",
+      "english_word": "The indicator/turn signal",
+      "meaning": "The flashing light on a car that shows which way it is turning.",
+      "example_sentence": "Gebruik altijd je richtingaanwijzer als je afslaat."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Uitstappen",
+      "english_word": "To get off/exit (vehicle)",
+      "meaning": "To leave a bus, train, or car.",
+      "example_sentence": "U moet bij de volgende halte uitstappen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Instappen",
+      "english_word": "To get in/board (vehicle)",
+      "meaning": "To enter a bus, train, or car.",
+      "example_sentence": "Snel! De trein vertrekt, we moeten nu instappen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Uitchecken",
+      "english_word": "To check out",
+      "meaning": "To register your exit from public transport using a card.",
+      "example_sentence": "Vergeet niet uit te checken als je de bus verlaat."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Rijden",
+      "english_word": "To drive/to ride",
+      "meaning": "To operate a vehicle or be carried in one.",
+      "example_sentence": "Ik rijd elke dag met de auto naar mijn werk."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Fietsen",
+      "english_word": "To cycle",
+      "meaning": "To ride a bicycle.",
+      "example_sentence": "Nederlanders fietsen veel, ook als het regent."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Wandelen",
+      "english_word": "To walk/hike",
+      "meaning": "To walk for pleasure or exercise.",
+      "example_sentence": "In het weekend wandelen we graag in het bos."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Vliegen",
+      "english_word": "To fly",
+      "meaning": "To travel by airplane.",
+      "example_sentence": "Vliegen naar Amerika duurt ongeveer acht uur."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Druk",
+      "english_word": "Busy/Crowded",
+      "meaning": "Full of people or traffic.",
+      "example_sentence": "De trein was vanochtend erg druk, ik moest staan."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Rustig",
+      "english_word": "Quiet/Calm",
+      "meaning": "Not busy or crowded.",
+      "example_sentence": "In de middag is het meestal rustig op de weg."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Gevaarlijk",
+      "english_word": "Dangerous",
+      "meaning": "Likely to cause harm or injury.",
+      "example_sentence": "Het is gevaarlijk om zonder licht te fietsen in het donker."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Veilig",
+      "english_word": "Safe",
+      "meaning": "Not in danger or likely to be harmed.",
+      "example_sentence": "Draag je gordel, dat is wel zo veilig."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De file",
+      "english_word": "The traffic jam",
+      "meaning": "A long line of vehicles that cannot move or can only move slowly.",
+      "example_sentence": "Ik kwam te laat op mijn werk door een lange file op de A12."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het verkeer",
+      "english_word": "The traffic",
+      "meaning": "The vehicles moving on a road or public highway.",
+      "example_sentence": "Er is vandaag veel verkeer op de weg naar Amsterdam."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De boete",
+      "english_word": "The fine",
+      "meaning": "Money you have to pay as a punishment for breaking a law.",
+      "example_sentence": "Ik kreeg een boete omdat ik te hard reed."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De richting",
+      "english_word": "The direction",
+      "meaning": "The course along which someone or something moves.",
+      "example_sentence": "Rijd in de richting van het centrum."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het ongeluk",
+      "english_word": "The accident",
+      "meaning": "An unfortunate incident that happens unexpectedly and unintentionally.",
+      "example_sentence": "Er is een ongeluk gebeurd op de snelweg."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De douanier",
+      "english_word": "The customs officer",
+      "meaning": "An official who checks goods and documents at a border.",
+      "example_sentence": "De douanier vraagt of ik iets aan te geven heb."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De reisbegeleider",
+      "english_word": "The tour guide/travel leader",
+      "meaning": "A person who leads and looks after a group of tourists.",
+      "example_sentence": "Onze reisbegeleider vertelt veel over de cultuur van het land."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De loketmedewerker",
+      "english_word": "The counter clerk",
+      "meaning": "A person who works at a service window in a station.",
+      "example_sentence": "De loketmedewerker helpt me bij het kopen van een treinkaartje."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De gate",
+      "english_word": "The gate",
+      "meaning": "The area in an airport where passengers board the plane.",
+      "example_sentence": "Passagiers voor de vlucht naar Londen moeten naar gate D12 gaan."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De aankomsthal",
+      "english_word": "The arrival hall",
+      "meaning": "The area in a station or airport where travelers arrive.",
+      "example_sentence": "Mijn familie wacht op mij in de aankomsthal van Schiphol."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De vertrekhal",
+      "english_word": "The departure hall",
+      "meaning": "The area where travelers wait before their journey starts.",
+      "example_sentence": "In de vertrekhal staan lange rijen voor de check-in."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De instapkaart",
+      "english_word": "The boarding pass",
+      "meaning": "The document that allows you to get onto a plane or ship.",
+      "example_sentence": "U moet uw instapkaart laten zien bij de gate."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De bagageband",
+      "english_word": "The luggage belt/carousel",
+      "meaning": "A moving belt from which passengers collect their luggage.",
+      "example_sentence": "Onze koffers liggen al op de bagageband."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De reischeque",
+      "english_word": "The travel voucher",
+      "meaning": "A document that can be used to pay for travel services.",
+      "example_sentence": "Ik heb een reischeque gekregen omdat mijn vlucht geannuleerd was."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het spoor",
+      "english_word": "The track/rail",
+      "meaning": "The metal tracks that a train runs on.",
+      "example_sentence": "De trein komt binnen op spoor drie."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De veerboot",
+      "english_word": "The ferry",
+      "meaning": "A boat that carries people and vehicles across water.",
+      "example_sentence": "We nemen de veerboot naar het eiland Texel."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Parkeren",
+      "english_word": "To park",
+      "meaning": "To leave a vehicle in a specific place.",
+      "example_sentence": "Je mag hier niet parkeren voor de uitgang."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Tanken",
+      "english_word": "To refuel/get gas",
+      "meaning": "To fill the fuel tank of a vehicle.",
+      "example_sentence": "Ik moet eerst tanken voordat we aan de lange reis beginnen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Landen",
+      "english_word": "To land",
+      "meaning": "When an airplane returns to the ground.",
+      "example_sentence": "Het vliegtuig gaat over vijf minuten landen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Opstijgen",
+      "english_word": "To take off",
+      "meaning": "When an airplane leaves the ground and starts to fly.",
+      "example_sentence": "Door de harde wind kan het vliegtuig niet opstijgen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Huren",
+      "english_word": "To rent",
+      "meaning": "To pay money to use something for a period of time.",
+      "example_sentence": "We gaan een auto huren voor onze vakantie in Frankrijk."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Missen",
+      "english_word": "To miss (the train/bus)",
+      "meaning": "To arrive too late to catch a vehicle.",
+      "example_sentence": "Ik heb de laatste bus gemist en moest met de taxi gaan."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Internationaal",
+      "english_word": "International",
+      "meaning": "Involving two or more countries.",
+      "example_sentence": "Schiphol is een grote internationale luchthaven."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Direct",
+      "english_word": "Direct/Non-stop",
+      "meaning": "Going straight to a destination without stopping.",
+      "example_sentence": "Is dit een directe trein naar Parijs?"
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Goedkoop",
+      "english_word": "Cheap",
+      "meaning": "Low in price; not expensive.",
+      "example_sentence": "Vliegen is soms erg goedkoop met een budgetmaatschappij."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Duur",
+      "english_word": "Expensive",
+      "meaning": "Costing a lot of money.",
+      "example_sentence": "Een taxi nemen in Amsterdam is erg duur."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De grens",
+      "english_word": "The border",
+      "meaning": "The line that separates two countries.",
+      "example_sentence": "We steken de grens over tussen Duitsland en Nederland."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De douane",
+      "english_word": "The customs",
+      "meaning": "The place at a border where travelers' bags are checked.",
+      "example_sentence": "We moeten met onze koffers door de douane."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De reisverzekering",
+      "english_word": "The travel insurance",
+      "meaning": "Insurance that covers medical or financial loss while traveling.",
+      "example_sentence": "Het is verstandig om een reisverzekering af te sluiten."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De omleiding",
+      "english_word": "The detour/diversion",
+      "meaning": "A different route used because a road is closed.",
+      "example_sentence": "Door wegwerkzaamheden is er een omleiding via het dorp."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De monteur",
+      "english_word": "The mechanic",
+      "meaning": "A person who repairs and maintains vehicle engines.",
+      "example_sentence": "De monteur controleert de motor van mijn auto."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De parkeerwachter",
+      "english_word": "The parking attendant",
+      "meaning": "A person who monitors parking and issues fines if necessary.",
+      "example_sentence": "De parkeerwachter kijkt of iedereen heeft betaald."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De rotonde",
+      "english_word": "The roundabout",
+      "meaning": "A circular intersection where traffic moves in one direction.",
+      "example_sentence": "Neem op de rotonde de tweede afslag naar rechts."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De snelweg",
+      "english_word": "The highway/motorway",
+      "meaning": "A major road for fast-moving traffic.",
+      "example_sentence": "Op de snelweg mag je meestal honderd kilometer per uur rijden."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het fietspad",
+      "english_word": "The cycle path",
+      "meaning": "A specific lane or path designated for bicycles.",
+      "example_sentence": "Auto's mogen niet rijden op het fietspad."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het stuur",
+      "english_word": "The steering wheel",
+      "meaning": "The wheel used by a driver to steer a vehicle.",
+      "example_sentence": "Houd beide handen aan het stuur tijdens het rijden."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De gordel",
+      "english_word": "The seatbelt",
+      "meaning": "A safety strap used in a car or plane.",
+      "example_sentence": "Het is verplicht om je gordel om te doen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De richting",
+      "english_word": "The direction",
+      "meaning": "The course along which someone or something moves.",
+      "example_sentence": "In welke richting moeten we rijden voor het centrum?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het reservewiel",
+      "english_word": "The spare tire",
+      "meaning": "An extra tire kept in a vehicle in case of a flat.",
+      "example_sentence": "Ik heb een reservewiel in de kofferbak van de auto."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De helm",
+      "english_word": "The helmet",
+      "meaning": "Protective headgear for motorcyclists or cyclists.",
+      "example_sentence": "Op een motor is het dragen van een helm verplicht."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Remmen",
+      "english_word": "To brake",
+      "meaning": "To slow down or stop a vehicle.",
+      "example_sentence": "Je moet voorzichtig remmen als de weg glad is."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Inhalen",
+      "english_word": "To overtake/pass",
+      "meaning": "To move past a slower vehicle traveling in the same direction.",
+      "example_sentence": "Het is hier verboden om andere auto's in te halen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Oversteken",
+      "english_word": "To cross (the street)",
+      "meaning": "To go from one side of a road to the other.",
+      "example_sentence": "Kijk goed naar links en rechts voor je gaat oversteken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Stoppen",
+      "english_word": "To stop",
+      "meaning": "To come to a halt.",
+      "example_sentence": "De bus stopt niet bij deze halte."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verdwalen",
+      "english_word": "To get lost",
+      "meaning": "To lose one's way.",
+      "example_sentence": "Zonder navigatie ga ik zeker verdwalen in de stad."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Glad",
+      "english_word": "Slippery",
+      "meaning": "Difficult to hold or stand on because it is smooth or wet.",
+      "example_sentence": "Pas op, de weg is erg glad door de ijzel."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Elektrisch",
+      "english_word": "Electric",
+      "meaning": "Powered by electricity.",
+      "example_sentence": "Ik wil graag een elektrische fiets kopen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Comfortabel",
+      "english_word": "Comfortable",
+      "meaning": "Providing physical ease and relaxation.",
+      "example_sentence": "De stoelen in de eerste klas zijn erg comfortabel."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Lokaal",
+      "english_word": "Local",
+      "meaning": "Relating to a particular nearby area.",
+      "example_sentence": "De lokale bus stopt in elk klein dorpje."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De pech",
+      "english_word": "The breakdown/bad luck",
+      "meaning": "When a vehicle stops working unexpectedly.",
+      "example_sentence": "We hebben pech met de auto en wachten op hulp."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De snelheid",
+      "english_word": "The speed",
+      "meaning": "The rate at which someone or something moves.",
+      "example_sentence": "De maximale snelheid op dit parkpark is 30 km/u."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De voorrang",
+      "english_word": "The right of way",
+      "meaning": "The legal right of a vehicle to proceed before others.",
+      "example_sentence": "Bestuurders van rechts hebben hier voorrang."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De spits",
+      "english_word": "The rush hour",
+      "meaning": "The busy time of day when people travel to or from work.",
+      "example_sentence": "Ik probeer altijd voor de spits naar huis te gaan."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De weersomstandigheden",
+      "english_word": "The weather conditions",
+      "meaning": "The state of the atmosphere at a particular time.",
+      "example_sentence": "Door de slechte weersomstandigheden zijn veel vluchten vertraagd."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De parkeergarage",
+      "english_word": "The parking garage",
+      "meaning": "A building designed for parking cars.",
+      "example_sentence": "Je kunt je auto veilig in de parkeergarage laten staan."
+    }
+  ]
+}

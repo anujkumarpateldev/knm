@@ -1,0 +1,768 @@
+{
+  "module_id": "M12_Reading",
+  "module_title_nl": "Wonen en omgeving",
+  "module_title_en": "Home and Surroundings",
+  "total_questions": 20,
+  "questions": [
+    {
+      "id": "M12_R001",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Huur betalen",
+      "topic_en": "Paying rent",
+      "source_text_nl": "Beste huurder, vergeet niet om de huur voor de eerste van de maand te betalen. U kunt het bedrag zelf overmaken of kiezen voor een automatische incasso.",
+      "question_nl": "Wanneer moet de huur betaald zijn?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Aan het einde van de maand"
+        },
+        {
+          "id": "B",
+          "text_nl": "Voor de eerste van de maand"
+        },
+        {
+          "id": "C",
+          "text_nl": "Op de tiende van de maand"
+        },
+        {
+          "id": "D",
+          "text_nl": "Wanneer u wilt"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst vermeldt dat de huur voor de eerste van de maand binnen moet zijn.",
+        "en": "The text mentions that the rent must be in before the first of the month."
+      },
+      "source_text_en": "Dear tenant, do not forget to pay the rent before the first of the month. You can transfer the amount yourself or choose an automatic debit.",
+      "tags": [
+        "huur",
+        "betalen",
+        "wonen"
+      ]
+    },
+    {
+      "id": "M12_R002",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Reparatie",
+      "topic_en": "Repair",
+      "source_text_nl": "Is er iets kapot in uw woning? Bel de reparatielijn op 0800-1234. Voor spoed buiten kantoortijden belt u het noodnummer op de website.",
+      "question_nl": "Wat moet u doen als er iets kapot is tijdens kantoortijden?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De buren bellen"
+        },
+        {
+          "id": "B",
+          "text_nl": "De reparatielijn bellen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Zelf repareren"
+        },
+        {
+          "id": "D",
+          "text_nl": "Wachten tot de volgende dag"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst geeft een specifiek telefoonnummer voor reparaties.",
+        "en": "The text provides a specific phone number for repairs."
+      },
+      "source_text_en": "Is something broken in your home? Call the repair line at 0800-1234. For emergencies outside office hours, call the emergency number on the website.",
+      "tags": [
+        "reparatie",
+        "contact",
+        "onderhoud"
+      ]
+    },
+    {
+      "id": "M12_R003",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Afval scheiden",
+      "topic_en": "Waste separation",
+      "source_text_nl": "In onze gemeente scheiden we afval. Papier moet in de blauwe container, plastic in de oranje zak en glas in de glasbak bij de supermarkt.",
+      "question_nl": "Waar moet het oude papier in?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "In de oranje zak"
+        },
+        {
+          "id": "B",
+          "text_nl": "In de blauwe container"
+        },
+        {
+          "id": "C",
+          "text_nl": "In de glasbak"
+        },
+        {
+          "id": "D",
+          "text_nl": "In de grijze bak"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst koppelt papier aan de blauwe container.",
+        "en": "The text links paper to the blue container."
+      },
+      "source_text_en": "In our municipality, we separate waste. Paper goes in the blue container, plastic in the orange bag, and glass in the glass container near the supermarket.",
+      "tags": [
+        "afval",
+        "milieu",
+        "regels"
+      ]
+    },
+    {
+      "id": "M12_R004",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Geluidsoverlast",
+      "topic_en": "Noise nuisance",
+      "source_text_nl": "Huisregels: Houd rekening met uw buren. Gebruik geen harde muziek of boormachines na 22:00 uur 's avonds. In het weekend mag dit vanaf 10:00 uur 's ochtends.",
+      "question_nl": "Vanaf hoe laat mag je in het weekend een boormachine gebruiken?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Vanaf 07:00 uur"
+        },
+        {
+          "id": "B",
+          "text_nl": "Vanaf 08:00 uur"
+        },
+        {
+          "id": "C",
+          "text_nl": "Vanaf 10:00 uur"
+        },
+        {
+          "id": "D",
+          "text_nl": "De hele dag niet"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst noemt 10:00 uur als starttijd voor lawaai in het weekend.",
+        "en": "The text mentions 10:00 AM as the start time for noise on weekends."
+      },
+      "source_text_en": "House rules: Be considerate of your neighbors. Do not use loud music or drills after 10:00 PM. On weekends, this is allowed from 10:00 AM.",
+      "tags": [
+        "buren",
+        "overlast",
+        "tijd"
+      ]
+    },
+    {
+      "id": "M12_R005",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Pakketje",
+      "topic_en": "Package",
+      "source_text_nl": "Beste buren op nummer 12, ik heb een pakketje voor jullie aangenomen. Jullie kunnen het vanavond na 19:00 uur ophalen. Groetjes van nummer 14.",
+      "question_nl": "Waar is het pakketje nu?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Op nummer 12"
+        },
+        {
+          "id": "B",
+          "text_nl": "Op nummer 14"
+        },
+        {
+          "id": "C",
+          "text_nl": "Bij de postbode"
+        },
+        {
+          "id": "D",
+          "text_nl": "In de tuin"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De buren op nummer 14 hebben het pakketje en schrijven aan nummer 12.",
+        "en": "The neighbors at number 14 have the package and are writing to number 12."
+      },
+      "source_text_en": "Dear neighbors at number 12, I have accepted a package for you. You can pick it up tonight after 7:00 PM. Greetings from number 14.",
+      "tags": [
+        "buren",
+        "post",
+        "pakket"
+      ]
+    },
+    {
+      "id": "M12_R006",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Energie besparen",
+      "topic_en": "Saving energy",
+      "source_text_nl": "Bespaar op uw energierekening! Zet de verwarming een graadje lager en doe de lichten uit als u een kamer verlaat. Dit is goed voor uw portemonnee en het milieu.",
+      "question_nl": "Wat moet u doen als u een kamer verlaat?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De lichten aanlaten"
+        },
+        {
+          "id": "B",
+          "text_nl": "De lichten uitdoen"
+        },
+        {
+          "id": "C",
+          "text_nl": "De deur openlaten"
+        },
+        {
+          "id": "D",
+          "text_nl": "De tv aanzetten"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst adviseert de lichten uit te doen bij het verlaten van een kamer.",
+        "en": "The text advises turning off the lights when leaving a room."
+      },
+      "source_text_en": "Save on your energy bill! Turn the heating down a notch and turn off the lights when you leave a room. This is good for your wallet and the environment.",
+      "tags": [
+        "energie",
+        "besparen",
+        "milieu"
+      ]
+    },
+    {
+      "id": "M12_R007",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Tuinonderhoud",
+      "topic_en": "Garden maintenance",
+      "source_text_nl": "Huurders met een tuin moeten deze netjes houden. Het gras mag niet te hoog groeien en u moet onkruid verwijderen. De woningbouwvereniging controleert dit twee keer per jaar.",
+      "question_nl": "Hoe vaak controleert de woningbouwvereniging de tuin?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Elke maand"
+        },
+        {
+          "id": "B",
+          "text_nl": "Eén keer per jaar"
+        },
+        {
+          "id": "C",
+          "text_nl": "Twee keer per jaar"
+        },
+        {
+          "id": "D",
+          "text_nl": "Nooit"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "In de tekst staat dat er twee keer per jaar controle is.",
+        "en": "The text states that there is an inspection twice a year."
+      },
+      "source_text_en": "Tenants with a garden must keep it tidy. The grass must not grow too high and you must remove weeds. The housing association checks this twice a year.",
+      "tags": [
+        "tuin",
+        "controle",
+        "huur"
+      ]
+    },
+    {
+      "id": "M12_R008",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Rookmelder",
+      "topic_en": "Smoke detector",
+      "source_text_nl": "Veiligheid: In elke woning is een rookmelder verplicht. Test de rookmelder elke maand door op de knop te drukken. Werkt de batterij niet? Bel dan de verhuurder.",
+      "question_nl": "Wat moet u doen als de batterij van de rookmelder niet werkt?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De batterij zelf kopen"
+        },
+        {
+          "id": "B",
+          "text_nl": "De verhuurder bellen"
+        },
+        {
+          "id": "C",
+          "text_nl": "De rookmelder weggooien"
+        },
+        {
+          "id": "D",
+          "text_nl": "Niets doen"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst geeft de instructie om bij een defecte batterij de verhuurder te bellen.",
+        "en": "The text instructs to call the landlord if the battery is defective."
+      },
+      "source_text_en": "Safety: A smoke detector is mandatory in every home. Test the smoke detector every month by pressing the button. Is the battery not working? Then call the landlord.",
+      "tags": [
+        "veiligheid",
+        "rookmelder",
+        "verhuurder"
+      ]
+    },
+    {
+      "id": "M12_R009",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Parkeren",
+      "topic_en": "Parking",
+      "source_text_nl": "Let op: In deze straat mag u alleen parkeren met een vergunning. Bezoekers kunnen parkeren in de parkeergarage aan het begin van de wijk.",
+      "question_nl": "Waar kunnen bezoekers hun auto parkeren?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "In de straat"
+        },
+        {
+          "id": "B",
+          "text_nl": "In de parkeergarage"
+        },
+        {
+          "id": "C",
+          "text_nl": "Op de stoep"
+        },
+        {
+          "id": "D",
+          "text_nl": "Nergens"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst wijst bezoekers naar de parkeergarage.",
+        "en": "The text directs visitors to the parking garage."
+      },
+      "source_text_en": "Please note: In this street, you may only park with a permit. Visitors can park in the parking garage at the beginning of the neighborhood.",
+      "tags": [
+        "parkeren",
+        "bezoekers",
+        "regels"
+      ]
+    },
+    {
+      "id": "M12_R010",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Sleutel verloren",
+      "topic_en": "Lost key",
+      "source_text_nl": "Bent u uw huissleutel verloren? Tijdens kantoortijden kunt u een nieuwe sleutel kopen bij het kantoor van de woningbouw. De kosten zijn €15,- per sleutel.",
+      "question_nl": "Hoeveel kost een nieuwe sleutel?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Het is gratis"
+        },
+        {
+          "id": "B",
+          "text_nl": "€5,-"
+        },
+        {
+          "id": "C",
+          "text_nl": "€15,-"
+        },
+        {
+          "id": "D",
+          "text_nl": "€50,-"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst vermeldt een prijs van 15 euro per sleutel.",
+        "en": "The text mentions a price of 15 euros per key."
+      },
+      "source_text_en": "Have you lost your house key? During office hours, you can buy a new key at the housing office. The costs are €15 per key.",
+      "tags": [
+        "sleutel",
+        "kosten",
+        "wonen"
+      ]
+    },
+    {
+      "id": "M12_R011",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Verwarming",
+      "topic_en": "Heating",
+      "source_text_nl": "Worden de radiatoren niet warm? Dan moet u de verwarming misschien ontluchten. Gebruik hiervoor een speciaal sleuteltje. In de video op onze website ziet u hoe dat moet.",
+      "question_nl": "Waar kun je zien hoe je de verwarming moet ontluchten?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "In de krant"
+        },
+        {
+          "id": "B",
+          "text_nl": "Op de website"
+        },
+        {
+          "id": "C",
+          "text_nl": "Op de radio"
+        },
+        {
+          "id": "D",
+          "text_nl": "In de kelder"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst verwijst naar een video op de website voor instructies.",
+        "en": "The text refers to a video on the website for instructions."
+      },
+      "source_text_en": "Are the radiators not getting warm? Then you might need to bleed the heating. Use a special key for this. In the video on our website, you can see how to do that.",
+      "tags": [
+        "verwarming",
+        "onderhoud",
+        "website"
+      ]
+    },
+    {
+      "id": "M12_R012",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Huisdieren",
+      "topic_en": "Pets",
+      "source_text_nl": "In dit appartementencomplex zijn honden en katten toegestaan. U moet er wel voor zorgen dat andere bewoners geen last hebben van uw huisdier.",
+      "question_nl": "Mogen er katten wonen in het complex?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Nee, alleen honden"
+        },
+        {
+          "id": "B",
+          "text_nl": "Ja, dat mag"
+        },
+        {
+          "id": "C",
+          "text_nl": "Alleen als ze klein zijn"
+        },
+        {
+          "id": "D",
+          "text_nl": "Alleen op de begane grond"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst vermeldt expliciet dat honden en katten zijn toegestaan.",
+        "en": "The text explicitly mentions that dogs and cats are allowed."
+      },
+      "source_text_en": "In this apartment complex, dogs and cats are allowed. You must ensure that other residents are not bothered by your pet.",
+      "tags": [
+        "huisdieren",
+        "appartement",
+        "regels"
+      ]
+    },
+    {
+      "id": "M12_R013",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Schoonmaken",
+      "topic_en": "Cleaning",
+      "source_text_nl": "Samen houden we de hal schoon. Elke week maakt één bewoner de gezamenlijke gang en de trap schoon. Kijk op het rooster in de hal wanneer u aan de beurt bent.",
+      "question_nl": "Hoe weet u wanneer u moet schoonmaken?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De buren bellen u"
+        },
+        {
+          "id": "B",
+          "text_nl": "U krijgt een brief"
+        },
+        {
+          "id": "C",
+          "text_nl": "U kijkt op het rooster in de hal"
+        },
+        {
+          "id": "D",
+          "text_nl": "Dat hoeft u niet te weten"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst verwijst naar een rooster in de hal voor de schoonmaakbeurten.",
+        "en": "The text refers to a schedule in the hall for the cleaning turns."
+      },
+      "source_text_en": "Together we keep the hall clean. Every week, one resident cleans the shared hallway and the stairs. Check the schedule in the hall to see when it's your turn.",
+      "tags": [
+        "schoonmaken",
+        "hal",
+        "rooster"
+      ]
+    },
+    {
+      "id": "M12_R014",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Balkon",
+      "topic_en": "Balcony",
+      "source_text_nl": "Het is niet toegestaan om kleden uit te kloppen vanaf het balkon. Ook mag u geen gaten boren in de buitenmuren van het balkon.",
+      "question_nl": "Wat mag je NIET doen op het balkon?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Zitten"
+        },
+        {
+          "id": "B",
+          "text_nl": "Planten neerzetten"
+        },
+        {
+          "id": "C",
+          "text_nl": "Kleden uitkloppen"
+        },
+        {
+          "id": "D",
+          "text_nl": "Praten"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst verbiedt het uitkloppen van kleden vanaf het balkon.",
+        "en": "The text prohibits beating rugs from the balcony."
+      },
+      "source_text_en": "It is not allowed to beat rugs from the balcony. You also may not drill holes in the exterior walls of the balcony.",
+      "tags": [
+        "balkon",
+        "regels",
+        "wonen"
+      ]
+    },
+    {
+      "id": "M12_R015",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Huur opzeggen",
+      "topic_en": "Terminating rent",
+      "source_text_nl": "Wilt u verhuizen? De opzegtermijn voor de huur is één maand. U moet dit schriftelijk doorgeven aan de verhuurder.",
+      "question_nl": "Hoe lang van tevoren moet u de huur opzeggen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Eén week"
+        },
+        {
+          "id": "B",
+          "text_nl": "Eén maand"
+        },
+        {
+          "id": "C",
+          "text_nl": "Drie maanden"
+        },
+        {
+          "id": "D",
+          "text_nl": "Eén dag"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst vermeldt een opzegtermijn van één maand.",
+        "en": "The text mentions a notice period of one month."
+      },
+      "source_text_en": "Do you want to move? The notice period for the rent is one month. You must report this in writing to the landlord.",
+      "tags": [
+        "verhuizen",
+        "huur",
+        "opzeggen"
+      ]
+    },
+    {
+      "id": "M12_R016",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Wateroverlast",
+      "topic_en": "Water damage",
+      "source_text_nl": "Bij een lekkage moet u direct de hoofdkraan dichtdraaien. Deze kraan vindt u meestal in de meterkast. Bel daarna direct de loodgieter.",
+      "question_nl": "Wat moet u als eerste doen bij een lekkage?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De buren bellen"
+        },
+        {
+          "id": "B",
+          "text_nl": "De hoofdkraan dichtdraaien"
+        },
+        {
+          "id": "C",
+          "text_nl": "De vloer dweilen"
+        },
+        {
+          "id": "D",
+          "text_nl": "De meterkast schilderen"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De eerste stap bij lekkage is het stoppen van de watertoevoer via de hoofdkraan.",
+        "en": "The first step in a leak is stopping the water supply via the main valve."
+      },
+      "source_text_en": "In case of a leak, you must immediately turn off the main valve. You can usually find this valve in the meter cupboard. Then call the plumber immediately.",
+      "tags": [
+        "lekkage",
+        "water",
+        "meterkast"
+      ]
+    },
+    {
+      "id": "M12_R017",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Inbraakpreventie",
+      "topic_en": "Burglary prevention",
+      "source_text_nl": "Voorkom inbraak: Doe uw ramen en deuren altijd op slot als u weggaat, ook als het maar voor even is. Laat 's avonds een lampje aan als u niet thuis bent.",
+      "question_nl": "Wat is een tip om inbraak te voorkomen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De ramen openlaten"
+        },
+        {
+          "id": "B",
+          "text_nl": "De deur op slot doen"
+        },
+        {
+          "id": "C",
+          "text_nl": "De sleutel in de deur laten"
+        },
+        {
+          "id": "D",
+          "text_nl": "Alle lichten uitdoen"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst adviseert om deuren altijd op slot te doen.",
+        "en": "The text advises always locking doors."
+      },
+      "source_text_en": "Prevent burglary: Always lock your windows and doors when you leave, even if it's just for a moment. Leave a light on in the evening if you're not home.",
+      "tags": [
+        "veiligheid",
+        "inbraak",
+        "tips"
+      ]
+    },
+    {
+      "id": "M12_R018",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Nieuwe buren",
+      "topic_en": "New neighbors",
+      "source_text_nl": "Beste buren, wij zijn de nieuwe bewoners van nummer 20. Wij komen uit Italië en we wonen hier sinds vorige week. Kom zaterdagmiddag gezellig een kopje koffie drinken om kennis te maken!",
+      "question_nl": "Wanneer kunnen de buren kennis komen maken?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Vorige week"
+        },
+        {
+          "id": "B",
+          "text_nl": "Zaterdagmiddag"
+        },
+        {
+          "id": "C",
+          "text_nl": "Elke dag"
+        },
+        {
+          "id": "D",
+          "text_nl": "Nooit"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De uitnodiging is voor zaterdagmiddag.",
+        "en": "The invitation is for Saturday afternoon."
+      },
+      "source_text_en": "Dear neighbors, we are the new residents of number 20. We are from Italy and we have lived here since last week. Come over Saturday afternoon for a cup of coffee to get to know each other!",
+      "tags": [
+        "buren",
+        "kennismaken",
+        "uitnodiging"
+      ]
+    },
+    {
+      "id": "M12_R019",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Huisdieren en overlast",
+      "topic_en": "Pets and nuisance",
+      "source_text_nl": "Heeft u een hond? Laat uw hond niet uit op het grasveld voor het gebouw. Gebruik hiervoor het park aan het einde van de straat.",
+      "question_nl": "Waar mag je de hond NIET uitlaten?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "In het park"
+        },
+        {
+          "id": "B",
+          "text_nl": "Op het grasveld voor het gebouw"
+        },
+        {
+          "id": "C",
+          "text_nl": "Aan het einde van de straat"
+        },
+        {
+          "id": "D",
+          "text_nl": "In de tuin"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst verbiedt het uitlaten van honden op het grasveld direct voor het gebouw.",
+        "en": "The text prohibits walking dogs on the lawn directly in front of the building."
+      },
+      "source_text_en": "Do you have a dog? Do not walk your dog on the lawn in front of the building. Use the park at the end of the street for this.",
+      "tags": [
+        "hond",
+        "regels",
+        "omgeving"
+      ]
+    },
+    {
+      "id": "M12_R020",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Sleuteloverdracht",
+      "topic_en": "Key handover",
+      "source_text_nl": "Gefeliciteerd met uw nieuwe woning! U kunt de sleutels ophalen op vrijdag 1 september om 10:00 uur bij het kantoor van de verhuurder. Vergeet uw ID-bewijs niet.",
+      "question_nl": "Wat moet u meenemen als u de sleutels ophaalt?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Geld"
+        },
+        {
+          "id": "B",
+          "text_nl": "Uw ID-bewijs"
+        },
+        {
+          "id": "C",
+          "text_nl": "Een hamer"
+        },
+        {
+          "id": "D",
+          "text_nl": "De oude sleutels"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "U moet zich kunnen legitimeren bij het ophalen van de sleutels.",
+        "en": "You must be able to identify yourself when picking up the keys."
+      },
+      "source_text_en": "Congratulations on your new home! You can pick up the keys on Friday, September 1 at 10:00 AM at the landlord's office. Don't forget your ID.",
+      "tags": [
+        "sleutels",
+        "ID-bewijs",
+        "wonen"
+      ]
+    }
+  ]
+}

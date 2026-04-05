@@ -1,0 +1,708 @@
+{
+  "title_reading": "A2 Vocabulary Master",
+  "category": "Work & Jobs",
+  "total_words_target": 100,
+  "batch": "1 & 2",
+  "vocabulary_list": [
+    {
+      "type": "Profession",
+      "dutch_word": "De werkgever",
+      "english_word": "The employer",
+      "meaning": "The person or company that provides jobs.",
+      "example_sentence": "Mijn werkgever is erg tevreden over mijn resultaten."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De werknemer",
+      "english_word": "The employee",
+      "meaning": "A person who works for a company or boss.",
+      "example_sentence": "Elke werknemer heeft recht op vakantiedagen."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De collega",
+      "english_word": "The colleague",
+      "meaning": "A person you work with.",
+      "example_sentence": "Ik ga elke vrijdagmiddag iets drinken met mijn collega's."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De klant",
+      "english_word": "The customer/client",
+      "meaning": "A person who buys goods or services.",
+      "example_sentence": "De verkoper helpt de klant in de winkel."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De manager",
+      "english_word": "The manager",
+      "meaning": "A person in charge of a department or team.",
+      "example_sentence": "De manager houdt een vergadering over het nieuwe project."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De secretaresse",
+      "english_word": "The secretary",
+      "meaning": "A person who handles records, letters, and appointments.",
+      "example_sentence": "De secretaresse plant een afspraak voor de directeur."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De ondernemer",
+      "english_word": "The entrepreneur",
+      "meaning": "A person who starts and runs their own business.",
+      "example_sentence": "Als ondernemer moet je veel risico's durven nemen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het kantoor",
+      "english_word": "The office",
+      "meaning": "A room or building where people do desk work.",
+      "example_sentence": "Ons kantoor bevindt zich in het centrum van de stad."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het salaris",
+      "english_word": "The salary",
+      "meaning": "The money you receive every month for your work.",
+      "example_sentence": "Ik krijg aan het eind van de maand mijn salaris."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De vergadering",
+      "english_word": "The meeting",
+      "meaning": "An occasion when people come together to discuss work.",
+      "example_sentence": "De vergadering duurt ongeveer een uur."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het contract",
+      "english_word": "The contract",
+      "meaning": "A legal agreement between employer and employee.",
+      "example_sentence": "Ik moet morgen mijn nieuwe contract tekenen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De sollicitatiebrief",
+      "english_word": "The application letter",
+      "meaning": "A letter written to apply for a job.",
+      "example_sentence": "Ik stuur mijn sollicitatiebrief naar de personeelsafdeling."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het urenbriefje",
+      "english_word": "The timesheet",
+      "meaning": "A form used to record the hours you have worked.",
+      "example_sentence": "Vergeet niet je urenbriefje voor vrijdag in te vullen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De bedrijfskleding",
+      "english_word": "The work uniform",
+      "meaning": "Specific clothes you must wear for your job.",
+      "example_sentence": "In dit ziekenhuis is de bedrijfskleding wit."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Solliciteren",
+      "english_word": "To apply for a job",
+      "meaning": "To officially ask for a job.",
+      "example_sentence": "Ik ga volgende week solliciteren bij een bank."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verdienen",
+      "english_word": "To earn",
+      "meaning": "To get money for the work you do.",
+      "example_sentence": "Hoeveel ga je per uur verdienen bij je nieuwe baan?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Ontslagen",
+      "english_word": "To fire/dismiss",
+      "meaning": "To tell someone they can no longer work at a company.",
+      "example_sentence": "Door de crisis zijn veel mensen ontslagen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Stoppen",
+      "english_word": "To quit/stop",
+      "meaning": "To end your employment.",
+      "example_sentence": "Zij gaat stoppen met werken om meer tijd voor haar kinderen te hebben."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Samenwerken",
+      "english_word": "To collaborate",
+      "meaning": "To work with others toward a common goal.",
+      "example_sentence": "Het is belangrijk om goed met je team samen te werken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Plannen",
+      "english_word": "To plan",
+      "meaning": "To organize activities or meetings in advance.",
+      "example_sentence": "We moeten de taken voor volgende week goed plannen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Werkloos",
+      "english_word": "Unemployed",
+      "meaning": "Without a job.",
+      "example_sentence": "Hij is al drie maanden werkloos."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Druk",
+      "english_word": "Busy",
+      "meaning": "Having a lot of work to do.",
+      "example_sentence": "Maandag is altijd een erg drukke dag op kantoor."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Fulltime",
+      "english_word": "Full-time",
+      "meaning": "Working the maximum number of hours (usually 36-40).",
+      "example_sentence": "Mijn broer werkt fulltime bij een bouwbedrijf."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Parttime",
+      "english_word": "Part-time",
+      "meaning": "Working fewer hours than a full work week.",
+      "example_sentence": "Zij werkt parttime, meestal drie dagen per week."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De werkervaring",
+      "english_word": "Work experience",
+      "meaning": "The skills and knowledge you gained from previous jobs.",
+      "example_sentence": "Zij heeft veel werkervaring in de horeca."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De uitzendkracht",
+      "english_word": "The temporary worker",
+      "meaning": "A person who works through a recruitment agency for a short time.",
+      "example_sentence": "De uitzendkracht begint maandag met het sorteren van de post."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De afdelingsmanager",
+      "english_word": "The department manager",
+      "meaning": "A person responsible for one specific part of a company.",
+      "example_sentence": "Je moet toestemming vragen aan de afdelingsmanager."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De vakman",
+      "english_word": "The craftsman/skilled worker",
+      "meaning": "A person who is very good at a specific manual job.",
+      "example_sentence": "De timmerman is een echte vakman."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De werkplek",
+      "english_word": "The workplace/desk",
+      "meaning": "The specific area where an employee performs their tasks.",
+      "example_sentence": "Houd je werkplek altijd schoon en opgeruimd."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De reiskostenvergoeding",
+      "english_word": "The travel allowance",
+      "meaning": "Money paid to an employee to cover the cost of commuting.",
+      "example_sentence": "Ik krijg een reiskostenvergoeding voor de kilometers die ik rijd."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De bedrijfswagen",
+      "english_word": "The company car/van",
+      "meaning": "A vehicle provided by the employer for work purposes.",
+      "example_sentence": "De monteur rijdt in een witte bedrijfswagen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het personeelsuitje",
+      "english_word": "The staff outing",
+      "meaning": "A social activity organized by the company for its workers.",
+      "example_sentence": "Volgende week hebben we een personeelsuitje naar het strand."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De deadline",
+      "english_word": "The deadline",
+      "meaning": "The latest time or date by which something should be finished.",
+      "example_sentence": "We moeten hard werken om de deadline te halen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Overleggen",
+      "english_word": "To consult/discuss",
+      "meaning": "To talk with someone to exchange ideas or make a decision.",
+      "example_sentence": "Ik moet eerst even met mijn collega overleggen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Beantwoorden",
+      "english_word": "To answer/reply",
+      "meaning": "To respond to a letter, email, or question.",
+      "example_sentence": "Ik moet vandaag nog vijftien e-mails beantwoorden."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Ontvangen",
+      "english_word": "To receive",
+      "meaning": "To get or be given something.",
+      "example_sentence": "Heb jij de uitnodiging voor de vergadering al ontvangen?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Sturen",
+      "english_word": "To send",
+      "meaning": "To cause something to go to a destination (mail/email).",
+      "example_sentence": "Zal ik de documenten per post naar je sturen?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Regelen",
+      "english_word": "To arrange/organize",
+      "meaning": "To make the necessary preparations for something.",
+      "example_sentence": "Zij gaat de catering voor het feestje regelen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Uitvoeren",
+      "english_word": "To carry out/execute",
+      "meaning": "To do a piece of work or a task.",
+      "example_sentence": "De reparatie wordt morgen door de monteur uitgevoerd."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Tevreden",
+      "english_word": "Satisfied/Happy",
+      "meaning": "Feeling or showing pleasure or contentment.",
+      "example_sentence": "De klanten zijn erg tevreden over onze service."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Verantwoordelijk",
+      "english_word": "Responsible",
+      "meaning": "Having the duty of taking care of something.",
+      "example_sentence": "Wie is er verantwoordelijk voor de planning?"
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Handig",
+      "english_word": "Handy/Skilled",
+      "meaning": "Good at using one's hands or tools.",
+      "example_sentence": "Onze nieuwe collega is erg handig met computers."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Punctueel",
+      "english_word": "Punctual",
+      "meaning": "Doing something at the agreed or proper time.",
+      "example_sentence": "In dit bedrijf is het belangrijk om punctueel te zijn."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De werkdruk",
+      "english_word": "The workload/work pressure",
+      "meaning": "The amount of work that someone has to do.",
+      "example_sentence": "De werkdruk is deze week erg hoog."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De pauze",
+      "english_word": "The break",
+      "meaning": "A short period of time when you stop working to rest or eat.",
+      "example_sentence": "Tijdens de lunchpauze wandelen we vaak een rondje."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het pensioen",
+      "english_word": "The retirement/pension",
+      "meaning": "The period of life after a person stops working.",
+      "example_sentence": "Mijn opa geniet nu van zijn pensioen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De bijbaan",
+      "english_word": "The side job/part-time job",
+      "meaning": "A job you do next to your studies or another job.",
+      "example_sentence": "Veel studenten hebben een bijbaan in de supermarkt."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De overuren",
+      "english_word": "The overtime",
+      "meaning": "Time worked in addition to one's normal working hours.",
+      "example_sentence": "Ik heb deze maand tien overuren gemaakt."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De promotie",
+      "english_word": "The promotion",
+      "meaning": "The advancement of an employee to a higher rank or position.",
+      "example_sentence": "Gefeliciteerd met je promotie naar teamleider!"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De ontslagperiode",
+      "english_word": "The notice period",
+      "meaning": "The time between telling your boss you quit and actually leaving.",
+      "example_sentence": "Ik heb een ontslagperiode van één maand."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De boekhouder",
+      "english_word": "The accountant/bookkeeper",
+      "meaning": "A person who records the financial transactions of a business.",
+      "example_sentence": "De boekhouder controleert aan het eind van het jaar alle facturen."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De receptioniste",
+      "english_word": "The receptionist",
+      "meaning": "A person who greets visitors and answers the telephone.",
+      "example_sentence": "De receptioniste vraagt de bezoeker om even te wachten."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De beveiliger",
+      "english_word": "The security guard",
+      "meaning": "A person whose job is to protect a building or people.",
+      "example_sentence": "De beveiliger vraagt om mijn toegangspasje bij de ingang."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De factuur",
+      "english_word": "The invoice/bill",
+      "meaning": "A document that shows how much money must be paid for goods or services.",
+      "example_sentence": "Vergeet niet om de factuur binnen veertien dagen te betalen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De bijlage",
+      "english_word": "The attachment",
+      "meaning": "A document or file sent along with an email.",
+      "example_sentence": "Ik stuur het rapport als bijlage in deze e-mail."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De printer",
+      "english_word": "The printer",
+      "meaning": "A machine for printing text or pictures onto paper.",
+      "example_sentence": "De printer zit zonder inkt, ik moet een nieuwe cartridge halen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De headset",
+      "english_word": "The headset",
+      "meaning": "A pair of headphones with a microphone, often used in call centers.",
+      "example_sentence": "De medewerker van de klantenservice draagt de hele dag een headset."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De gereedschapskist",
+      "english_word": "The toolbox",
+      "meaning": "A box or container for keeping tools.",
+      "example_sentence": "De loodgieter heeft zijn gereedschapskist in de auto staan."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verzetten",
+      "english_word": "To reschedule/postpone",
+      "meaning": "To change the time or date of an appointment.",
+      "example_sentence": "Kunnen we de afspraak van morgen verzetten naar volgende week?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verlengen",
+      "english_word": "To extend/renew",
+      "meaning": "To make something last longer, like a contract.",
+      "example_sentence": "Mijn contract wordt met een half jaar verlengd."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Bespreken",
+      "english_word": "To discuss",
+      "meaning": "To talk about something with another person.",
+      "example_sentence": "We gaan de nieuwe plannen morgen tijdens de lunch bespreken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Printen",
+      "english_word": "To print",
+      "meaning": "To produce a paper copy of a document.",
+      "example_sentence": "Ik moet deze brief nog even printen en ondertekenen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Tekenen",
+      "english_word": "To sign",
+      "meaning": "To write your name on a document to make it official.",
+      "example_sentence": "Je moet hier onderaan de pagina tekenen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Schoonmaken",
+      "english_word": "To clean",
+      "meaning": "To remove dirt or mess from a place.",
+      "example_sentence": "De kantine wordt elke avond grondig schoongemaakt."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Zelfstandig",
+      "english_word": "Independent/Self-reliant",
+      "meaning": "Being able to work without constant help or supervision.",
+      "example_sentence": "Voor deze functie moet je heel zelfstandig kunnen werken."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Stressbestendig",
+      "english_word": "Stress-resistant",
+      "meaning": "Being able to remain calm and perform well under pressure.",
+      "example_sentence": "Als ober moet je in een druk restaurant stressbestendig zijn."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Creatief",
+      "english_word": "Creative",
+      "meaning": "Having good imagination or original ideas.",
+      "example_sentence": "Onze vormgever is een erg creatieve werknemer."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Ervaren",
+      "english_word": "Experienced",
+      "meaning": "Having knowledge or skill from having done a job for a long time.",
+      "example_sentence": "Wij zoeken een ervaren kok voor ons nieuwe restaurant."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De sfeer",
+      "english_word": "The atmosphere/mood",
+      "meaning": "The feeling or mood in a particular place (like the office).",
+      "example_sentence": "Er hangt een hele goede sfeer in ons team."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De ploegendienst",
+      "english_word": "The shift work",
+      "meaning": "Work scheduled in periods, often including nights.",
+      "example_sentence": "Ik werk deze maand in de nachtelijke ploegendienst."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De sollicitatie",
+      "english_word": "The job application",
+      "meaning": "The process of trying to get a job.",
+      "example_sentence": "Mijn sollicitatie bij dat bedrijf is helaas niet gelukt."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De cao",
+      "english_word": "Collective labor agreement",
+      "meaning": "General rules about work and salary for a whole industry.",
+      "example_sentence": "Onze salarisverhoging is geregeld in de nieuwe cao."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het verlof",
+      "english_word": "The leave/time off",
+      "meaning": "Authorized absence from work (e.g., parental or sick leave).",
+      "example_sentence": "Zij is momenteel met zwangerschapsverlof."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De bonus",
+      "english_word": "The bonus",
+      "meaning": "Extra money given as a reward for good performance.",
+      "example_sentence": "Als we het doel halen, krijgt iedereen een bonus."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De taak",
+      "english_word": "The task/duty",
+      "meaning": "A specific piece of work to be done.",
+      "example_sentence": "Het beantwoorden van de telefoon is mijn belangrijkste taak."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De interim-manager",
+      "english_word": "The interim manager",
+      "meaning": "A temporary manager hired to lead a team for a short period.",
+      "example_sentence": "De interim-manager helpt het team tijdens de reorganisatie."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De vertrouwenspersoon",
+      "english_word": "The confidential counselor",
+      "meaning": "A person at work you can talk to if you have problems or complaints.",
+      "example_sentence": "Als je gepest wordt op werk, kun je naar de vertrouwenspersoon stappen."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De koerier",
+      "english_word": "The courier/delivery person",
+      "meaning": "A person who delivers packages or documents.",
+      "example_sentence": "De koerier brengt het pakketje naar het kantoor."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het loonstrookje",
+      "english_word": "The payslip",
+      "meaning": "A document showing how much you earned and how much tax you paid.",
+      "example_sentence": "Ik bekijk elke maand mijn loonstrookje via de computer."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De bureaustoel",
+      "english_word": "The office chair",
+      "meaning": "An ergonomic chair used for working at a desk.",
+      "example_sentence": "Mijn nieuwe bureaustoel is erg goed voor mijn rug."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De brandblusser",
+      "english_word": "The fire extinguisher",
+      "meaning": "A device used to put out small fires in the office.",
+      "example_sentence": "De brandblusser hangt naast de lift."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het visitekaartje",
+      "english_word": "The business card",
+      "meaning": "A small card with your name and contact information.",
+      "example_sentence": "Mag ik uw visitekaartje voor mijn administratie?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De vergaderruimte",
+      "english_word": "The meeting room",
+      "meaning": "A specific room for holding meetings.",
+      "example_sentence": "De vergaderruimte is op de eerste verdieping."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Ziek melden",
+      "english_word": "To call in sick",
+      "meaning": "To inform your employer that you cannot work because you are ill.",
+      "example_sentence": "Ik moet me vandaag ziek melden bij mijn manager."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Onderhandelen",
+      "english_word": "To negotiate",
+      "meaning": "To discuss something to reach an agreement, like a salary.",
+      "example_sentence": "We gaan morgen onderhandelen over mijn nieuwe salaris."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Notuleren",
+      "english_word": "To take minutes",
+      "meaning": "To write down what is said during a meeting.",
+      "example_sentence": "Wie gaat er vandaag notuleren tijdens de vergadering?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Begeleiden",
+      "english_word": "To supervise/guide",
+      "meaning": "To help and lead someone, like a new intern.",
+      "example_sentence": "Ik ga de nieuwe stagiair deze week begeleiden."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verhuizen",
+      "english_word": "To move (office)",
+      "meaning": "To move the workspace to a different location.",
+      "example_sentence": "Ons bedrijf gaat volgende maand naar een groter pand verhuizen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Bevestigen",
+      "english_word": "To confirm",
+      "meaning": "To state that something is definitely true or settled.",
+      "example_sentence": "Kunt u de afspraak per e-mail bevestigen?"
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Flexibel",
+      "english_word": "Flexible",
+      "meaning": "Able to change or adapt to different situations.",
+      "example_sentence": "Voor deze baan moet je flexibele werktijden hebben."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Vriendelijk",
+      "english_word": "Friendly/Polite",
+      "meaning": "Being kind and pleasant to customers and colleagues.",
+      "example_sentence": "Een vriendelijke houding is belangrijk bij de klantenservice."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Deskundig",
+      "english_word": "Expert/Knowledgeable",
+      "meaning": "Having a lot of knowledge about a specific subject.",
+      "example_sentence": "Onze adviseur is erg deskundig op het gebied van belastingen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Gemotiveerd",
+      "english_word": "Motivated",
+      "meaning": "Feeling enthusiastic and eager to work hard.",
+      "example_sentence": "Wij zoeken een gemotiveerde medewerker voor ons team."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De proeftijd",
+      "english_word": "The probation period",
+      "meaning": "The first month(s) of a job to see if the worker is suitable.",
+      "example_sentence": "In mijn proeftijd kan ik elk moment stoppen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De pensioenleeftijd",
+      "english_word": "The retirement age",
+      "meaning": "The age at which you are allowed to stop working.",
+      "example_sentence": "De pensioenleeftijd in Nederland gaat steeds omhoog."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De werkgelegenheid",
+      "english_word": "The employment/job availability",
+      "meaning": "The state of having enough jobs for people.",
+      "example_sentence": "De werkgelegenheid in de techniek is momenteel erg goed."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De arbo-dienst",
+      "english_word": "Occupational health service",
+      "meaning": "A service that helps with health and safety at work.",
+      "example_sentence": "De arbo-dienst controleert of de werkplek veilig is."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het vakantiegeld",
+      "english_word": "The holiday allowance",
+      "meaning": "Extra money (8%) paid in May for your summer holidays.",
+      "example_sentence": "In mei krijg ik mijn vakantiegeld uitbetaald."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De bedrijfscultuur",
+      "english_word": "The corporate culture",
+      "meaning": "The values and behaviors of a company.",
+      "example_sentence": "Ik vind de informele bedrijfscultuur hier erg prettig."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De onkosten",
+      "english_word": "The expenses",
+      "meaning": "Money you spend for work that the boss pays back.",
+      "example_sentence": "Je kunt je onkosten declareren bij de boekhouding."
+    }
+  ]
+}

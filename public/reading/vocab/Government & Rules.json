@@ -1,0 +1,708 @@
+{
+  "title_reading": "A2 Vocabulary Master",
+  "category": "Government & Rules",
+  "total_words_target": 100,
+  "batch": 1,
+  "vocabulary_list": [
+    {
+      "type": "Profession",
+      "dutch_word": "De ambtenaar",
+      "english_word": "The civil servant/official",
+      "meaning": "A person who works for the government or a municipality.",
+      "example_sentence": "De ambtenaar bij de gemeente helpt mij met mijn paspoort."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De burgemeester",
+      "english_word": "The mayor",
+      "meaning": "The head of a town or city government.",
+      "example_sentence": "De burgemeester houdt een toespraak tijdens de nationale feestdag."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De politieagent",
+      "english_word": "The police officer",
+      "meaning": "A person whose job is to enforce the law and keep order.",
+      "example_sentence": "De politieagent geeft de fietser een boete voor het rijden zonder licht."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het gemeentehuis",
+      "english_word": "The town hall/city hall",
+      "meaning": "The building where the local government is located.",
+      "example_sentence": "Ik moet naar het gemeentehuis om mijn nieuwe adres door te geven."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De rechtbank",
+      "english_word": "The court",
+      "meaning": "The place where legal trials take place.",
+      "example_sentence": "De zaak wordt volgende week besproken in de rechtbank."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het loket",
+      "english_word": "The counter/service desk",
+      "meaning": "The specific desk in a government building where you are helped.",
+      "example_sentence": "U moet zich melden bij loket 1 voor uw rijbewijs."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het paspoort",
+      "english_word": "The passport",
+      "meaning": "An official document for travel and identification.",
+      "example_sentence": "Mijn paspoort is nog vijf jaar geldig."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De boete",
+      "english_word": "The fine",
+      "meaning": "Money you must pay as a punishment for breaking a rule.",
+      "example_sentence": "Ik kreeg een boete omdat ik te hard reed op de snelweg."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het formulier",
+      "english_word": "The form",
+      "meaning": "A document with blanks to be filled out with information.",
+      "example_sentence": "Kunt u dit formulier invullen en ondertekenen?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De wet",
+      "english_word": "The law",
+      "meaning": "The system of rules that a country or community recognizes.",
+      "example_sentence": "In Nederland is het volgens de wet verboden om te stelen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Aanvragen",
+      "english_word": "To apply for/request",
+      "meaning": "To formally ask for something (like a permit or ID).",
+      "example_sentence": "Ik wil graag een nieuwe parkeervergunning aanvragen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Stemmen",
+      "english_word": "To vote",
+      "meaning": "To give a formal choice in an election.",
+      "example_sentence": "Gaan jullie morgen ook stemmen voor de gemeenteraad?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Ondertekenen",
+      "english_word": "To sign",
+      "meaning": "To write your signature on a document.",
+      "example_sentence": "Vergeet niet het contract onderaan te ondertekenen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verlengen",
+      "english_word": "To renew/extend",
+      "meaning": "To make something last longer (like a visa or ID).",
+      "example_sentence": "Ik moet mijn verblijfsvergunning op tijd verlengen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Betalen",
+      "english_word": "To pay",
+      "meaning": "To give money for taxes or services.",
+      "example_sentence": "Iedereen moet belasting betalen aan de overheid."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Verplicht",
+      "english_word": "Mandatory/Compulsory",
+      "meaning": "Something you must do because of a law or rule.",
+      "example_sentence": "In Nederland is een zorgverzekering verplicht."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Verboden",
+      "english_word": "Forbidden/Prohibited",
+      "meaning": "Something that is not allowed.",
+      "example_sentence": "Het is verboden om hier te roken."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Geldig",
+      "english_word": "Valid",
+      "meaning": "Legally acceptable (e.g., an ID that has not expired).",
+      "example_sentence": "Uw identiteitskaart is niet meer geldig."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Officieel",
+      "english_word": "Official",
+      "meaning": "Authorized or confirmed by the government.",
+      "example_sentence": "U ontvangt binnenkort een officieel bericht via de post."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De overheid",
+      "english_word": "The government",
+      "meaning": "The governing body of a nation or state.",
+      "example_sentence": "De overheid maakt nieuwe regels voor de veiligheid."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De belasting",
+      "english_word": "The tax",
+      "meaning": "Money paid to the state to fund public services.",
+      "example_sentence": "Hoeveel belasting moet ik dit jaar betalen?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De regel",
+      "english_word": "The rule",
+      "meaning": "A statement of what may or may not be done.",
+      "example_sentence": "Wat zijn de regels voor het parkeren in deze wijk?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De nationaliteit",
+      "english_word": "The nationality",
+      "meaning": "The status of belonging to a particular nation.",
+      "example_sentence": "Heeft u de Nederlandse nationaliteit al?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het recht",
+      "english_word": "The right/law",
+      "meaning": "A moral or legal entitlement to have or do something.",
+      "example_sentence": "Iedereen heeft recht op een advocaat."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De afspraak",
+      "english_word": "The appointment",
+      "meaning": "A pre-arranged meeting (essential for Dutch bureaucracy).",
+      "example_sentence": "Zonder afspraak kunt u niet naar de gemeente komen."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De beveiliger",
+      "english_word": "The security guard",
+      "meaning": "A person who checks bags or ID at the entrance of a government building.",
+      "example_sentence": "De beveiliger bij de rechtbank controleert mijn tas."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De advocaat",
+      "english_word": "The lawyer",
+      "meaning": "A person who practices or studies law and helps people in court.",
+      "example_sentence": "De advocaat geeft advies over het huurcontract."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De Belastingdienst",
+      "english_word": "The Tax and Customs Administration",
+      "meaning": "The Dutch government organization responsible for collecting taxes.",
+      "example_sentence": "Ik heb een brief gekregen van de Belastingdienst over mijn inkomen."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De IND (Immigratie- en Naturalisatiedienst)",
+      "english_word": "The Immigration and Naturalisation Service",
+      "meaning": "The agency that handles residence permits and naturalization.",
+      "example_sentence": "De IND beoordeelt mijn aanvraag voor een verblijfsvergunning."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De verblijfsvergunning",
+      "english_word": "The residence permit",
+      "meaning": "A document allowing a foreign national to live in the Netherlands.",
+      "example_sentence": "Mijn verblijfsvergunning is geldig voor vijf jaar."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het identiteitsbewijs (ID-bewijs)",
+      "english_word": "The identity document",
+      "meaning": "An official card or document that proves who you are.",
+      "example_sentence": "U moet altijd een geldig identiteitsbewijs bij u hebben."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het Burgerservicenummer (BSN)",
+      "english_word": "The Citizen Service Number",
+      "meaning": "A unique personal number for everyone registered in the Netherlands.",
+      "example_sentence": "Ik heb mijn BSN nodig om een bankrekening te openen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De DigiD",
+      "english_word": "Digital Identity",
+      "meaning": "The login system used for Dutch government websites.",
+      "example_sentence": "Je kunt met je DigiD inloggen op de website van de gemeente."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Inschrijven",
+      "english_word": "To register",
+      "meaning": "To officially sign up or register (e.g., at the municipality).",
+      "example_sentence": "Ik ga me morgen inschrijven bij de gemeente Capelle aan den IJssel."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Doorgeven",
+      "english_word": "To pass on/To report",
+      "meaning": "To inform the government about a change, like moving house.",
+      "example_sentence": "U moet uw nieuwe adres binnen vijf dagen doorgeven."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Bezwaar maken",
+      "english_word": "To object/To appeal",
+      "meaning": "To formally disagree with a government decision.",
+      "example_sentence": "Ik ga bezwaar maken tegen de hoogte van de boete."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verhuizen",
+      "english_word": "To move",
+      "meaning": "To change your place of residence (requires reporting to the town hall).",
+      "example_sentence": "Als u gaat verhuizen, moet u dat melden bij de gemeente."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Voldoen aan",
+      "english_word": "To meet/To comply with",
+      "meaning": "To satisfy a requirement or follow a rule.",
+      "example_sentence": "U moet voldoen aan de voorwaarden voor een Nederlands paspoort."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Anoniem",
+      "english_word": "Anonymous",
+      "meaning": "Without a name being known or made public.",
+      "example_sentence": "Je kunt een klacht ook anoniem indienen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Digitaal",
+      "english_word": "Digital",
+      "meaning": "Relating to computer technology (most Dutch government tasks are digital).",
+      "example_sentence": "U kunt de aanvraag alleen digitaal indienen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Publiek",
+      "english_word": "Public",
+      "meaning": "Relating to or available to the people as a whole.",
+      "example_sentence": "Het gemeentehuis is een publieke instelling."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Lokaal",
+      "english_word": "Local",
+      "meaning": "Relating to a particular area or town.",
+      "example_sentence": "De lokale overheid zorgt voor de parken in de stad."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De inburgering",
+      "english_word": "The integration",
+      "meaning": "The process of learning Dutch and integrated into society.",
+      "example_sentence": "Ik volg een cursus voor mijn inburgering."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De voorwaarde",
+      "english_word": "The condition/requirement",
+      "meaning": "Something that must exist or happen before something else is possible.",
+      "example_sentence": "Wat zijn de voorwaarden om te mogen stemmen?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De toestemming",
+      "english_word": "The permission",
+      "meaning": "Official agreement that allows you to do something.",
+      "example_sentence": "Je hebt toestemming nodig om hier te mogen bouwen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De subsidie",
+      "english_word": "The subsidy/grant",
+      "meaning": "Money given by the government to help with costs (e.g., for solar panels).",
+      "example_sentence": "U kunt subsidie aanvragen voor de isolatie van uw huis."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De plicht",
+      "english_word": "The duty/obligation",
+      "meaning": "A moral or legal obligation.",
+      "example_sentence": "Ouders hebben de plicht om hun kinderen naar school te sturen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het besluit",
+      "english_word": "The decision",
+      "meaning": "A formal judgment or choice made by an official body.",
+      "example_sentence": "We wachten nog op het besluit van de burgemeester."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De privacy",
+      "english_word": "The privacy",
+      "meaning": "The right to keep personal information secret.",
+      "example_sentence": "De overheid moet de privacy van burgers beschermen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het loket",
+      "english_word": "The desk/counter",
+      "meaning": "The physical place at a municipality where service is provided.",
+      "example_sentence": "Ik heb een afspraak bij het loket voor burgerzaken."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De rechter",
+      "english_word": "The judge",
+      "meaning": "A person who decides cases in a law court.",
+      "example_sentence": "De rechter luistert naar beide partijen in de rechtszaal."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De getuige",
+      "english_word": "The witness",
+      "meaning": "A person who sees an event, typically a crime or accident, and reports it.",
+      "example_sentence": "De getuige moet vertellen wat hij heeft gezien."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De ambassade",
+      "english_word": "The embassy",
+      "meaning": "The official office of a foreign government in the Netherlands.",
+      "example_sentence": "Ik moet naar de ambassade voor mijn visum."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het politiebureau",
+      "english_word": "The police station",
+      "meaning": "The office of a local police force.",
+      "example_sentence": "U kunt aangifte doen bij het politiebureau."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De wet",
+      "english_word": "The law",
+      "meaning": "The system of rules which a particular country recognizes.",
+      "example_sentence": "In Nederland staat niemand boven de wet."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het bewijs",
+      "english_word": "The proof/evidence",
+      "meaning": "Information or objects used to show that something is true.",
+      "example_sentence": "Zonder bewijs kan de politie hem niet arresteren."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De brief",
+      "english_word": "The letter",
+      "meaning": "Official communication, often sent by post from the government.",
+      "example_sentence": "Ik heb een officiële brief van de gemeente ontvangen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het uittreksel",
+      "english_word": "The extract/document",
+      "meaning": "An official copy of information from the municipal register.",
+      "example_sentence": "Ik heb een uittreksel uit de BRP nodig voor mijn nieuwe baan."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Aangifte doen",
+      "english_word": "To report a crime",
+      "meaning": "To officially inform the police about a crime.",
+      "example_sentence": "Ik moet aangifte doen van de diefstal van mijn fiets."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verplichten",
+      "english_word": "To oblige/force",
+      "meaning": "To make someone do something by law or rule.",
+      "example_sentence": "De school verplicht kinderen om deel te nemen aan de gymles."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Toestaan",
+      "english_word": "To allow/permit",
+      "meaning": "To give permission for something to happen.",
+      "example_sentence": "Honden zijn niet toegestaan in dit openbare gebouw."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Controleren",
+      "english_word": "To check/verify",
+      "meaning": "To examine something to make sure it is correct or safe.",
+      "example_sentence": "De politie controleert de papieren van de automobilist."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Handelen",
+      "english_word": "To act/trade",
+      "meaning": "To take action or conduct business according to rules.",
+      "example_sentence": "De overheid moet handelen volgens de wet."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Strafbaar",
+      "english_word": "Punishable",
+      "meaning": "An act that can be punished by law.",
+      "example_sentence": "Rijden onder invloed van alcohol is strafbaar."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Eerlijk",
+      "english_word": "Fair/Honest",
+      "meaning": "Acting in a way that is right and just.",
+      "example_sentence": "Iedereen heeft recht op een eerlijk proces."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Dringend",
+      "english_word": "Urgent",
+      "meaning": "Requiring immediate action or attention.",
+      "example_sentence": "Dit is een dringende mededeling van de overheid."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Vrijwillig",
+      "english_word": "Voluntary",
+      "meaning": "Done by choice rather than being forced.",
+      "example_sentence": "Deelname aan het onderzoek is geheel vrijwillig."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De democratie",
+      "english_word": "The democracy",
+      "meaning": "A system of government by the whole population.",
+      "example_sentence": "Nederland is een parlementaire democratie."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De vrijheid",
+      "english_word": "The freedom",
+      "meaning": "The power or right to act, speak, or think as one wants.",
+      "example_sentence": "In Nederland vieren we elk jaar onze vrijheid op 5 mei."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De boete",
+      "english_word": "The fine",
+      "meaning": "A sum of money exacted as a penalty by a court or authority.",
+      "example_sentence": "Als je te laat betaalt, krijg je een boete."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De belangen",
+      "english_word": "The interests",
+      "meaning": "Something that is beneficial to a person or group.",
+      "example_sentence": "De advocaat behartigt de belangen van zijn cliënt."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De procedure",
+      "english_word": "The procedure",
+      "meaning": "The official way of doing something.",
+      "example_sentence": "De aanvraagprocedure duurt ongeveer zes weken."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De verantwoordelijkheid",
+      "english_word": "The responsibility",
+      "meaning": "The state or fact of having a duty to deal with something.",
+      "example_sentence": "Het is je eigen verantwoordelijkheid om je op tijd in te schrijven."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De veiligheid",
+      "english_word": "The safety/security",
+      "meaning": "The condition of being protected from danger.",
+      "example_sentence": "Nationale veiligheid is een prioriteit voor de minister."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De macht",
+      "english_word": "The power/authority",
+      "meaning": "The capacity or right to direct or influence others.",
+      "example_sentence": "In een democratie ligt de macht bij het volk."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De minister",
+      "english_word": "The minister",
+      "meaning": "A high-ranking government official in charge of a department.",
+      "example_sentence": "De minister van Onderwijs bezoekt een basisschool."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De koning",
+      "english_word": "The king",
+      "meaning": "The head of state in the Dutch monarchy.",
+      "example_sentence": "Koning Willem-Alexander viert zijn verjaardag op Koningsdag."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het Binnenhof",
+      "english_word": "The Binnenhof",
+      "meaning": "The complex of buildings in The Hague where the Dutch parliament meets.",
+      "example_sentence": "De Tweede Kamer vergadert op het Binnenhof in Den Haag."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De grens",
+      "english_word": "The border",
+      "meaning": "The line that separates two countries.",
+      "example_sentence": "Bij de grens tussen Nederland en Duitsland hoef je meestal niet te stoppen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De stempas",
+      "english_word": "The voting pass",
+      "meaning": "A card sent to your home that allows you to vote in an election.",
+      "example_sentence": "Vergeet je stempas en identiteitsbewijs niet als je gaat stemmen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het rijbewijs",
+      "english_word": "The driver's license",
+      "meaning": "An official document that allows you to drive a vehicle.",
+      "example_sentence": "Ik heb gisteren mijn rijbewijs opgehaald bij de gemeente."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De beschikking",
+      "english_word": "The formal decision/order",
+      "meaning": "A formal written decision by a government organization.",
+      "example_sentence": "U ontvangt binnen twee weken de beschikking over uw toeslag."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Veroordelen",
+      "english_word": "To sentence/convict",
+      "meaning": "When a judge decides someone is guilty and gives a punishment.",
+      "example_sentence": "De verdachte werd veroordeeld tot een taakstraf."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Melden",
+      "example_word": "To report/notify",
+      "meaning": "To officially inform an authority about something.",
+      "example_sentence": "U moet de diefstal direct melden bij de politie."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Identificeren",
+      "english_word": "To identify",
+      "meaning": "To prove who you are using an ID document.",
+      "example_sentence": "In Nederland moet iedereen vanaf veertien jaar zich kunnen identificeren."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verkiezen",
+      "english_word": "To elect",
+      "meaning": "To choose someone for a political position by voting.",
+      "example_sentence": "Het volk mag elke vier jaar een nieuw parlement verkiezen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Handtekenen",
+      "english_word": "To sign",
+      "meaning": "The act of putting your signature on a document.",
+      "example_sentence": "Zou u dit document hieronder willen handtekenen?"
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Legaal",
+      "english_word": "Legal",
+      "meaning": "Allowed by the law.",
+      "example_sentence": "Het is legaal om in dit gebied te parkeren."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Illegaal",
+      "english_word": "Illegal",
+      "meaning": "Contrary to or forbidden by law.",
+      "example_sentence": "Het is illegaal om zonder visum te werken."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Parlementair",
+      "english_word": "Parliamentary",
+      "meaning": "Relating to the parliament or its members.",
+      "example_sentence": "Er volgt een parlementair onderzoek naar de toeslagen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Bureaucratisch",
+      "english_word": "Bureaucratic",
+      "meaning": "Involving many complicated rules and processes.",
+      "example_sentence": "Het aanvragen van een vergunning is soms een bureaucratisch proces."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De uitkering",
+      "english_word": "The benefit/welfare payment",
+      "meaning": "Money received from the state (e.g., for unemployment).",
+      "example_sentence": "Zij ontvangt een uitkering omdat zij haar baan is kwijtgeraakt."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De toeslag",
+      "english_word": "The allowance/subsidy",
+      "meaning": "Financial help from the government (e.g., for rent or healthcare).",
+      "example_sentence": "Veel mensen hebben recht op zorgtoeslag."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De belastingaangifte",
+      "english_word": "The tax return",
+      "meaning": "The annual report of your income to the tax office.",
+      "example_sentence": "Je moet voor 1 mei je belastingaangifte doen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De wetgeving",
+      "english_word": "The legislation",
+      "meaning": "The entire body of laws in a country.",
+      "example_sentence": "De wetgeving over privacy is de laatste jaren veranderd."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De gemeente",
+      "english_word": "The municipality",
+      "meaning": "The local government level of a city or village.",
+      "example_sentence": "De gemeente Capelle aan den IJssel heeft nieuwe parkeerregels."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De burgers",
+      "english_word": "The citizens",
+      "meaning": "The people living in a country who have legal rights there.",
+      "example_sentence": "De overheid moet luisteren naar de wensen van de burgers."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het beleid",
+      "english_word": "The policy",
+      "meaning": "A set of ideas or plans used by the government to make decisions.",
+      "example_sentence": "Het beleid van de school is gericht op veiligheid."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De aangifte",
+      "english_word": "The declaration/report",
+      "meaning": "The act of reporting something officially (crime or tax).",
+      "example_sentence": "U kunt online aangifte doen van vermissing."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De staatsburger",
+      "english_word": "The national/citizen",
+      "meaning": "A person who is a legal member of a state.",
+      "example_sentence": "Als staatsburger heb je stemrecht."
+    }
+  ]
+}

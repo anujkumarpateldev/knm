@@ -1,0 +1,767 @@
+{
+  "module_id": "M10_Reading",
+  "module_title_nl": "Overheid en regels",
+  "module_title_en": "Government and Rules",
+  "total_questions": 20,
+  "questions": [
+    {
+      "id": "M10_R001",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Paspoort aanvragen",
+      "topic_en": "Applying for a passport",
+      "source_text_nl": "Gemeentebericht: Wilt u een nieuw paspoort aanvragen? Maak dan eerst een afspraak via de website van de gemeente. Vergeet niet om één officiële pasfoto en uw oude paspoort mee te nemen.",
+      "question_nl": "Wat moet u doen voordat u naar de gemeente gaat?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Een pasfoto maken"
+        },
+        {
+          "id": "B",
+          "text_nl": "Een afspraak maken via de website"
+        },
+        {
+          "id": "C",
+          "text_nl": "Uw oude paspoort weggooien"
+        },
+        {
+          "id": "D",
+          "text_nl": "De politie bellen"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst begint met de instructie om eerst een afspraak te maken via de website.",
+        "en": "The text starts with the instruction to first make an appointment via the website."
+      },
+      "source_text_en": "Municipal notice: Do you want to apply for a new passport? First, make an appointment via the municipal website. Don't forget to bring one official passport photo and your old passport.",
+      "tags": [
+        "gemeente",
+        "paspoort",
+        "afspraak"
+      ]
+    },
+    {
+      "id": "M10_R002",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Belastingaangifte",
+      "topic_en": "Tax return",
+      "source_text_nl": "Belastingdienst: U moet uw belastingaangifte voor 1 mei insturen. Heeft u meer tijd nodig? Dan kunt u uitstel aanvragen via Mijn Belastingdienst.",
+      "question_nl": "Tot wanneer heeft u normaal de tijd voor de belastingaangifte?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Tot 1 januari"
+        },
+        {
+          "id": "B",
+          "text_nl": "Tot 1 mei"
+        },
+        {
+          "id": "C",
+          "text_nl": "Tot de zomer"
+        },
+        {
+          "id": "D",
+          "text_nl": "Het hele jaar door"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst noemt 1 mei als de uiterste datum voor het insturen.",
+        "en": "The text mentions May 1st as the deadline for submission."
+      },
+      "source_text_en": "Tax Authorities: You must submit your tax return before May 1st. Do you need more time? You can request an extension via 'Mijn Belastingdienst'.",
+      "tags": [
+        "belastingdienst",
+        "deadline",
+        "geld"
+      ]
+    },
+    {
+      "id": "M10_R003",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "ID-plicht",
+      "topic_en": "ID obligation",
+      "source_text_nl": "Informatie over ID-plicht: In Nederland moet iedereen van 14 jaar en ouder een geldig identiteitsbewijs kunnen laten zien als de politie daarom vraagt.",
+      "question_nl": "Vanaf welke leeftijd moet je een ID-bewijs bij je hebben?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Vanaf 12 jaar"
+        },
+        {
+          "id": "B",
+          "text_nl": "Vanaf 14 jaar"
+        },
+        {
+          "id": "C",
+          "text_nl": "Vanaf 18 jaar"
+        },
+        {
+          "id": "D",
+          "text_nl": "Vanaf 21 jaar"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst vermeldt specifiek dat de plicht geldt vanaf 14 jaar.",
+        "en": "The text specifically mentions that the obligation applies from age 14."
+      },
+      "source_text_en": "Information on ID obligation: In the Netherlands, everyone aged 14 and older must be able to show a valid ID if the police ask for it.",
+      "tags": [
+        "wet",
+        "identificatie",
+        "politie"
+      ]
+    },
+    {
+      "id": "M10_R004",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Verblijfsvergunning",
+      "topic_en": "Residence permit",
+      "source_text_nl": "Brief van de IND: Uw verblijfsvergunning verloopt over drie maanden. U kunt nu een aanvraag doen voor verlenging via onze website.",
+      "question_nl": "Wat moet de persoon doen volgens deze brief?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Het land verlaten"
+        },
+        {
+          "id": "B",
+          "text_nl": "Een verlenging aanvragen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Een nieuw paspoort kopen"
+        },
+        {
+          "id": "D",
+          "text_nl": "Niets doen"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De brief herinnert de persoon eraan om een verlenging van de vergunning aan te vragen.",
+        "en": "The letter reminds the person to apply for an extension of the permit."
+      },
+      "source_text_en": "Letter from the IND: Your residence permit expires in three months. You can now apply for an extension via our website.",
+      "tags": [
+        "IND",
+        "vergunning",
+        "verlengen"
+      ]
+    },
+    {
+      "id": "M10_R005",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Verkiezingen",
+      "topic_en": "Elections",
+      "source_text_nl": "Binnenkort zijn de verkiezingen voor de Tweede Kamer. U ontvangt uw stempas uiterlijk veertien dagen voor de verkiezingsdag per post.",
+      "question_nl": "Wanneer krijgt u uw stempas?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Op de dag van de verkiezingen"
+        },
+        {
+          "id": "B",
+          "text_nl": "Uiterlijk 14 dagen van tevoren"
+        },
+        {
+          "id": "C",
+          "text_nl": "Eén maand van tevoren"
+        },
+        {
+          "id": "D",
+          "text_nl": "Na de verkiezingen"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst zegt dat de stempas uiterlijk veertien dagen voor de dag zelf komt.",
+        "en": "The text says the voting pass arrives at the latest fourteen days before the day itself."
+      },
+      "source_text_en": "Elections for the House of Representatives are coming up. You will receive your voting pass by mail at the latest fourteen days before election day.",
+      "tags": [
+        "verkiezingen",
+        "stempas",
+        "post"
+      ]
+    },
+    {
+      "id": "M10_R006",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Boete",
+      "topic_en": "Fine",
+      "source_text_nl": "U heeft een boete gekregen voor te hard rijden. U moet het bedrag van €120,- binnen zes weken betalen aan het CJIB.",
+      "question_nl": "Binnen hoeveel tijd moet de boete betaald zijn?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Binnen één week"
+        },
+        {
+          "id": "B",
+          "text_nl": "Binnen zes weken"
+        },
+        {
+          "id": "C",
+          "text_nl": "Binnen drie maanden"
+        },
+        {
+          "id": "D",
+          "text_nl": "Direct"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst noemt een betalingstermijn van zes weken.",
+        "en": "The text mentions a payment term of six weeks."
+      },
+      "source_text_en": "You have received a fine for speeding. You must pay the amount of €120 to the CJIB within six weeks.",
+      "tags": [
+        "boete",
+        "betalen",
+        "verkeer"
+      ]
+    },
+    {
+      "id": "M10_R007",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Verhuizing doorgeven",
+      "topic_en": "Reporting a move",
+      "source_text_nl": "Gaat u verhuizen? Geef uw nieuwe adres binnen vijf dagen na de verhuizing door aan de gemeente waar u gaat wonen.",
+      "question_nl": "Hoeveel dagen heb je om je nieuwe adres door te geven?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Eén dag"
+        },
+        {
+          "id": "B",
+          "text_nl": "Vijf dagen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Twee weken"
+        },
+        {
+          "id": "D", "text_nl": "Eén maand"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De wet verplicht je om je verhuizing binnen vijf dagen te melden.",
+        "en": "The law requires you to report your move within five days."
+      },
+      "source_text_en": "Are you moving? Report your new address within five days after the move to the municipality where you are going to live.",
+      "tags": [
+        "verhuizen",
+        "gemeente",
+        "regels"
+      ]
+    },
+    {
+      "id": "M10_R008",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Toeslagen",
+      "topic_en": "Allowances",
+      "source_text_nl": "Hebt u een laag inkomen? Misschien hebt u recht op huurtoeslag of zorgtoeslag. U kunt dit controleren op de website van de Toeslagen.",
+      "question_nl": "Wanneer heb je misschien recht op toeslagen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Als je een hoog inkomen hebt"
+        },
+        {
+          "id": "B",
+          "text_nl": "Als je een laag inkomen hebt"
+        },
+        {
+          "id": "C",
+          "text_nl": "Als je geen werk hebt"
+        },
+        {
+          "id": "D",
+          "text_nl": "Als je in een hotel woont"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Toeslagen zijn bedoeld als financiële hulp voor mensen met een lager inkomen.",
+        "en": "Allowances are intended as financial aid for people with a lower income."
+      },
+      "source_text_en": "Do you have a low income? You might be entitled to rent allowance or healthcare allowance. You can check this on the 'Toeslagen' website.",
+      "tags": [
+        "toeslag",
+        "geld",
+        "belastingdienst"
+      ]
+    },
+    {
+      "id": "M10_R009",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Gevonden voorwerpen",
+      "topic_en": "Lost and found",
+      "source_text_nl": "Bent u uw sleutels of portemonnee verloren? Gevonden voorwerpen worden verzameld bij de balie van het gemeentehuis. Na drie maanden gaan de spullen weg.",
+      "question_nl": "Waar worden de gevonden spullen bewaard?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Bij het politiebureau"
+        },
+        {
+          "id": "B",
+          "text_nl": "Bij de balie van het gemeentehuis"
+        },
+        {
+          "id": "C",
+          "text_nl": "In de bibliotheek"
+        },
+        {
+          "id": "D",
+          "text_nl": "Bij de burgemeester"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst vermeldt dat de spullen bij de balie van het gemeentehuis liggen.",
+        "en": "The text mentions the items are at the counter of the town hall."
+      },
+      "source_text_en": "Have you lost your keys or wallet? Found objects are collected at the counter of the town hall. After three months, the items are removed.",
+      "tags": [
+        "gemeente",
+        "gevonden voorwerpen",
+        "balie"
+      ]
+    },
+    {
+      "id": "M10_R010",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Trouwen",
+      "topic_en": "Marriage",
+      "source_text_nl": "Wilt u trouwen in Nederland? Dan moet u dit minimaal twee weken van tevoren melden bij de gemeente. Dit noemen we 'melding van voorgenomen huwelijk'.",
+      "question_nl": "Hoe lang van tevoren moet je melden dat je wilt trouwen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Eén dag van tevoren"
+        },
+        {
+          "id": "B",
+          "text_nl": "Minimaal twee weken van tevoren"
+        },
+        {
+          "id": "C",
+          "text_nl": "Zes maanden van tevoren"
+        },
+        {
+          "id": "D",
+          "text_nl": "Niet, dat hoeft niet"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je moet je plannen om te trouwen minimaal twee weken van tevoren doorgeven aan de gemeente.",
+        "en": "You must report your plans to marry at least two weeks in advance to the municipality."
+      },
+      "source_text_en": "Do you want to get married in the Netherlands? Then you must report this at least two weeks in advance to the municipality. This is called 'notice of intended marriage'.",
+      "tags": [
+        "trouwen",
+        "gemeente",
+        "melding"
+      ]
+    },
+    {
+      "id": "M10_R011",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Vuilnisregels",
+      "topic_en": "Trash rules",
+      "source_text_nl": "Het is verboden om vuilniszakken naast de container te plaatsen. Doet u dit toch? Dan kunt u een boete krijgen van €95,-.",
+      "question_nl": "Wat gebeurt er als je vuilnis naast de container zet?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De gemeente haalt het gratis op"
+        },
+        {
+          "id": "B",
+          "text_nl": "Je kunt een boete krijgen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Je krijgt een nieuwe container"
+        },
+        {
+          "id": "D",
+          "text_nl": "Niets, dat mag gewoon"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst waarschuwt voor een boete van €95,- voor het verkeerd plaatsen van vuilnis.",
+        "en": "The text warns of a €95 fine for incorrectly placing trash."
+      },
+      "source_text_en": "It is forbidden to place trash bags next to the container. Do you do this anyway? Then you can receive a fine of €95.",
+      "tags": [
+        "vuilnis",
+        "boete",
+        "gemeente"
+      ]
+    },
+    {
+      "id": "M10_R012",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "BSN",
+      "topic_en": "BSN",
+      "source_text_nl": "Het Burgerservicenummer (BSN) is uw persoonlijke nummer voor contact met de overheid. U vindt uw BSN op uw paspoort, identiteitskaart of rijbewijs.",
+      "question_nl": "Waar kun je jouw BSN vinden?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Alleen in een brief van de koning"
+        },
+        {
+          "id": "B",
+          "text_nl": "Op je identiteitskaart of paspoort"
+        },
+        {
+          "id": "C",
+          "text_nl": "Op je bankpas"
+        },
+        {
+          "id": "D",
+          "text_nl": "In de krant"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het BSN staat op officiële Nederlandse identiteitsdocumenten.",
+        "en": "The BSN is found on official Dutch identity documents."
+      },
+      "source_text_en": "The Citizen Service Number (BSN) is your personal number for contact with the government. You can find your BSN on your passport, identity card, or driver's license.",
+      "tags": [
+        "BSN",
+        "overheid",
+        "documenten"
+      ]
+    },
+    {
+      "id": "M10_R013",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "DigiD",
+      "topic_en": "DigiD",
+      "source_text_nl": "Met uw DigiD kunt u inloggen op websites van de overheid en de zorg. Houd uw inloggegevens geheim en deel uw wachtwoord nooit met anderen.",
+      "question_nl": "Wat moet je doen met je wachtwoord van DigiD?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Aan de buren geven"
+        },
+        {
+          "id": "B",
+          "text_nl": "Geheim houden"
+        },
+        {
+          "id": "C",
+          "text_nl": "Op internet zetten"
+        },
+        {
+          "id": "D",
+          "text_nl": "Aan de telefoon vertellen"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Wachtwoorden voor officiële systemen zoals DigiD moet je altijd voor jezelf houden.",
+        "en": "Passwords for official systems like DigiD should always be kept to yourself."
+      },
+      "source_text_en": "With your DigiD, you can log in to government and healthcare websites. Keep your login details secret and never share your password with others.",
+      "tags": [
+        "DigiD",
+        "veiligheid",
+        "internet"
+      ]
+    },
+    {
+      "id": "M10_R014",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Geboorte aangeven",
+      "topic_en": "Reporting a birth",
+      "source_text_nl": "Is er een baby geboren? U moet de geboorte binnen drie dagen aangeven bij de gemeente waar het kind is geboren.",
+      "question_nl": "Wanneer moet je een baby aangeven bij de gemeente?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Direct na een uur"
+        },
+        {
+          "id": "B",
+          "text_nl": "Binnen drie dagen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Na één maand"
+        },
+        {
+          "id": "D",
+          "text_nl": "Wanneer de baby kan lopen"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De wet schrijft voor dat een geboorte binnen drie dagen gemeld moet worden.",
+        "en": "The law prescribes that a birth must be reported within three days."
+      },
+      "source_text_en": "Was a baby born? You must report the birth within three days to the municipality where the child was born.",
+      "tags": [
+        "baby",
+        "geboorte",
+        "gemeente"
+      ]
+    },
+    {
+      "id": "M10_R015",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Rijbewijs verlengen",
+      "topic_en": "Renewing a driver's license",
+      "source_text_nl": "Uw rijbewijs is bijna verlopen. U kunt uw rijbewijs online verlengen via de website van de RDW of bij de gemeente.",
+      "question_nl": "Waar kun je jouw rijbewijs verlengen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Bij de politie"
+        },
+        {
+          "id": "B",
+          "text_nl": "Bij de RDW of de gemeente"
+        },
+        {
+          "id": "C",
+          "text_nl": "Bij de bank"
+        },
+        {
+          "id": "D",
+          "text_nl": "In de supermarkt"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De RDW en de gemeente zijn de instanties die rijbewijzen uitgeven en verlengen.",
+        "en": "The RDW and the municipality are the agencies that issue and renew driver's licenses."
+      },
+      "source_text_en": "Your driver's license is about to expire. You can renew your license online via the RDW website or at the municipality.",
+      "tags": [
+        "rijbewijs",
+        "RDW",
+        "verlengen"
+      ]
+    },
+    {
+      "id": "M10_R016",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Zorgverzekering",
+      "topic_en": "Health insurance",
+      "source_text_nl": "In Nederland is een basisverzekering voor zorg verplicht voor iedereen die hier woont of werkt. U moet zelf een verzekering kiezen.",
+      "question_nl": "Is een zorgverzekering verplicht in Nederland?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Nee, dat mag je zelf weten"
+        },
+        {
+          "id": "B",
+          "text_nl": "Ja, voor iedereen die hier woont of werkt"
+        },
+        {
+          "id": "C",
+          "text_nl": "Alleen voor kinderen"
+        },
+        {
+          "id": "D",
+          "text_nl": "Alleen als je ziek bent"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De basisverzekering is een wettelijke verplichting voor inwoners en werknemers.",
+        "en": "Basic health insurance is a legal requirement for residents and employees."
+      },
+      "source_text_en": "In the Netherlands, basic health insurance is mandatory for everyone who lives or works here. You must choose an insurance provider yourself.",
+      "tags": [
+        "zorg",
+        "verzekering",
+        "verplicht"
+      ]
+    },
+    {
+      "id": "M10_R017",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Stille uren",
+      "topic_en": "Quiet hours",
+      "source_text_nl": "In deze woonwijk gelden regels voor geluid. Het moet stil zijn tussen 22:00 uur 's avonds en 07:00 uur 's ochtends.",
+      "question_nl": "Vanaf hoe laat moet het stil zijn in de wijk?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Vanaf 18:00 uur"
+        },
+        {
+          "id": "B",
+          "text_nl": "Vanaf 20:00 uur"
+        },
+        {
+          "id": "C",
+          "text_nl": "Vanaf 22:00 uur"
+        },
+        {
+          "id": "D",
+          "text_nl": "Vanaf middernacht"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst geeft 22:00 uur aan als de start van de rustperiode.",
+        "en": "The text indicates 10:00 PM as the start of the rest period."
+      },
+      "source_text_en": "In this residential area, noise rules apply. It must be quiet between 10:00 PM and 7:00 AM.",
+      "tags": [
+        "overlast",
+        "regels",
+        "tijd"
+      ]
+    },
+    {
+      "id": "M10_R018",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Identiteitskaart kwijt",
+      "topic_en": "Lost identity card",
+      "source_text_nl": "Bent u uw identiteitskaart verloren? Meld dit zo snel mogelijk bij de gemeente. U hoeft niet meer eerst naar de politie.",
+      "question_nl": "Wat moet je doen als je jouw ID-kaart verliest?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Direct de politie bellen"
+        },
+        {
+          "id": "B",
+          "text_nl": "Het melden bij de gemeente"
+        },
+        {
+          "id": "C",
+          "text_nl": "Wachten tot iemand het vindt"
+        },
+        {
+          "id": "D",
+          "text_nl": "Een advertentie in de krant zetten"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Bij verlies van een ID-bewijs is de gemeente nu het eerste aanspreekpunt.",
+        "en": "In case of loss of an ID card, the municipality is now the first point of contact."
+      },
+      "source_text_en": "Have you lost your identity card? Report this as soon as possible to the municipality. You no longer need to go to the police first.",
+      "tags": [
+        "verlies",
+        "ID-kaart",
+        "gemeente"
+      ]
+    },
+    {
+      "id": "M10_R019",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Inburgeringsexamen",
+      "topic_en": "Integration exam",
+      "source_text_nl": "U krijgt de uitslag van uw examen binnen acht weken. DUO stuurt u een brief met de resultaten.",
+      "question_nl": "Hoe lang duurt het voordat je de uitslag van het examen krijgt?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Eén week"
+        },
+        {
+          "id": "B",
+          "text_nl": "Binnen acht weken"
+        },
+        {
+          "id": "C",
+          "text_nl": "Zes maanden"
+        },
+        {
+          "id": "D",
+          "text_nl": "Direct na het examen"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "DUO hanteert een termijn van maximaal acht weken voor de uitslag.",
+        "en": "DUO uses a maximum term of eight weeks for the results."
+      },
+      "source_text_en": "You will receive your exam results within eight weeks. DUO will send you a letter with the results.",
+      "tags": [
+        "DUO",
+        "examen",
+        "uitslag"
+      ]
+    },
+    {
+      "id": "M10_R020",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Huisdieren en regels",
+      "topic_en": "Pets and rules",
+      "source_text_nl": "Hondenbezitters moeten de poep van hun hond direct opruimen. Ook moet de hond binnen de bebouwde kom altijd aan de lijn.",
+      "question_nl": "Wat is verplicht voor honden in de stad?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Ze mogen overal loslopen"
+        },
+        {
+          "id": "B",
+          "text_nl": "Ze moeten altijd aan de lijn"
+        },
+        {
+          "id": "C",
+          "text_nl": "Ze moeten een jas aan"
+        },
+        {
+          "id": "D",
+          "text_nl": "Ze mogen niet blaffen"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Binnen de bebouwde kom (de stad/dorp) is een aanlijnplicht voor honden.",
+        "en": "Within built-up areas (the city/village), there is a leash requirement for dogs."
+      },
+      "source_text_en": "Dog owners must clean up their dog's poop immediately. Also, the dog must always be on a leash within built-up areas.",
+      "tags": [
+        "honden",
+        "regels",
+        "gemeente"
+      ]
+    }
+  ]
+}

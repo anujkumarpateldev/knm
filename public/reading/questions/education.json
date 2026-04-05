@@ -1,0 +1,758 @@
+{
+  "module_id": "M7_Reading",
+  "module_title_nl": "Onderwijs - Leesvaardigheid",
+  "module_title_en": "Education - Reading Skills",
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "M7_R001",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Basisschool brief",
+      "topic_en": "Primary school letter",
+      "source_text_nl": "Beste ouders, Op vrijdag 12 mei gaan de kinderen van groep 5 naar het museum. We vertrekken om 09:00 uur met de bus. Wilt u uw kind een extra lunchpakket meegeven? Met vriendelijke groet, Juf Ankie.",
+      "question_nl": "Hoe gaan de kinderen naar het museum?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Met de fiets"
+        },
+        {
+          "id": "B",
+          "text_nl": "Met de auto"
+        },
+        {
+          "id": "C",
+          "text_nl": "Met de bus"
+        },
+        {
+          "id": "D",
+          "text_nl": "Lopend"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "In de tekst staat: 'We vertrekken om 09:00 uur met de bus.'",
+        "en": "The text states: 'We depart at 09:00 AM by bus.'"
+      },
+      "tags": [
+        "lezen",
+        "onderwijs",
+        "vervoer"
+      ]
+    },
+    {
+      "id": "M7_R002",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Ziek melden",
+      "topic_en": "Reporting sick",
+      "source_text_nl": "Is uw kind ziek? Bel dan voor 08:30 uur naar de school. U kunt ook een e-mail sturen naar administratie@basisschool.nl. Geef altijd de naam van de leerling en de klas door.",
+      "question_nl": "Wat moet u doen als uw kind ziek is?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Na 09:00 uur bellen"
+        },
+        {
+          "id": "B",
+          "text_nl": "Een brief schrijven naar de juf"
+        },
+        {
+          "id": "C",
+          "text_nl": "Voor 08:30 uur bellen of mailen"
+        },
+        {
+          "id": "D", "text_nl": "De buurvrouw bellen"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst zegt dat je voor 08:30 uur moet bellen of een e-mail moet sturen.",
+        "en": "The text says you must call or send an email before 08:30 AM."
+      },
+      "tags": [
+        "ziek melden",
+        "schoolregels"
+      ]
+    },
+    {
+      "id": "M7_R003",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Rapportvergadering",
+      "topic_en": "Report meeting",
+      "source_text_nl": "De rapporten komen uit op 20 juni. Op 22 en 23 juni zijn de 10-minutengesprekken. U kunt zich vanaf morgen inschrijven via de website van de school.",
+      "question_nl": "Wanneer kunnen ouders praten over het rapport?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Op 20 juni"
+        },
+        {
+          "id": "B",
+          "text_nl": "Op 22 en 23 juni"
+        },
+        {
+          "id": "C",
+          "text_nl": "Alleen morgen"
+        },
+        {
+          "id": "D",
+          "text_nl": "Volgende week"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De '10-minutengesprekken' (om over het rapport te praten) zijn op 22 en 23 juni.",
+        "en": "The '10-minute meetings' (to discuss the report) are on June 22 and 23."
+      },
+      "tags": [
+        "rapport",
+        "ouderavond"
+      ]
+    },
+    {
+      "id": "M7_R004",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Huiswerk",
+      "topic_en": "Homework",
+      "source_text_nl": "Huiswerkbegeleiding: Heb je hulp nodig bij rekenen of Engels? Kom elke dinsdagmiddag naar lokaal 12. De les begint om 15:30 uur en is gratis voor alle leerlingen.",
+      "question_nl": "Hoeveel kost de hulp bij het huiswerk?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "10 euro per les"
+        },
+        {
+          "id": "B",
+          "text_nl": "Het is niet bekend"
+        },
+        {
+          "id": "C",
+          "text_nl": "Het is gratis"
+        },
+        {
+          "id": "D",
+          "text_nl": "Je moet boeken kopen"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "In de tekst staat duidelijk: 'en is gratis voor alle leerlingen.'",
+        "en": "The text clearly states: 'and is free for all students.'"
+      },
+      "tags": [
+        "huiswerk",
+        "kosten"
+      ]
+    },
+    {
+      "id": "M7_R005",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Schoolvakantie",
+      "topic_en": "School holiday",
+      "source_text_nl": "Let op: De school is gesloten van 24 december tot en met 7 januari vanwege de kerstvakantie. Op maandag 8 januari verwachten we alle leerlingen weer op school.",
+      "question_nl": "Wanneer begint de school weer?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Op 24 december"
+        },
+        {
+          "id": "B",
+          "text_nl": "Op 1 januari"
+        },
+        {
+          "id": "C",
+          "text_nl": "Op 7 januari"
+        },
+        {
+          "id": "D",
+          "text_nl": "Op 8 januari"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": {
+        "nl": "De vakantie duurt tot en met 7 januari, dus op 8 januari begint de school weer.",
+        "en": "The holiday lasts until January 7, so school starts again on January 8."
+      },
+      "tags": [
+        "vakantie",
+        "agenda"
+      ]
+    },
+    {
+      "id": "M7_R001",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Schoolreisje",
+      "topic_en": "School trip",
+      "source_text_nl": "Beste ouders, volgende week woensdag gaan de kinderen van groep 6 naar de dierentuin. We verzamelen om 08:15 uur op het schoolplein. De bus vertrekt precies om 08:30 uur. Wilt u uw kind een regenjas en een lunchpakket meegeven?",
+      "question_nl": "Hoe laat vertrekt de bus naar de dierentuin?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Om 08:00 uur"
+        },
+        {
+          "id": "B",
+          "text_nl": "Om 08:15 uur"
+        },
+        {
+          "id": "C",
+          "text_nl": "Om 08:30 uur"
+        },
+        {
+          "id": "D",
+          "text_nl": "Om 09:00 uur"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "In de tekst staat: 'De bus vertrekt precies om 08:30 uur.'",
+        "en": "The text states: 'The bus departs exactly at 08:30 AM.'"
+      },
+      "source_text_en": "Dear parents, next Wednesday the children of group 6 are going to the zoo. We gather at 08:15 AM on the schoolyard. The bus departs exactly at 08:30 AM. Could you give your child a raincoat and a packed lunch?",
+      "tags": [
+        "schoolreisje",
+        "tijdstip",
+        "vervoer"
+      ]
+    },
+    {
+      "id": "M7_R002",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Ziek melden",
+      "topic_en": "Reporting sick",
+      "source_text_nl": "Mededeling: Is uw kind ziek? Bel dan voor 08:30 uur naar de school (010-1234567). U kunt ook een bericht sturen via de school-app. Vermeld altijd de naam van uw kind en de reden van afwezigheid.",
+      "question_nl": "Wat is een manier om uw kind ziek te melden?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Een briefje aan de buren geven"
+        },
+        {
+          "id": "B",
+          "text_nl": "Een bericht sturen via de school-app"
+        },
+        {
+          "id": "C",
+          "text_nl": "Na 09:00 uur naar school komen"
+        },
+        {
+          "id": "D",
+          "text_nl": "De leraar thuis bellen"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst geeft twee opties: bellen voor 08:30 uur of een bericht sturen via de school-app.",
+        "en": "The text gives two options: calling before 08:30 AM or sending a message via the school app."
+      },
+      "source_text_en": "Announcement: Is your child sick? Please call the school before 08:30 AM. You can also send a message via the school app. Always state the name of your child and the reason for absence.",
+      "tags": [
+        "ziek melden",
+        "communicatie",
+        "regels"
+      ]
+    },
+    {
+      "id": "M7_R003",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Ouderavond",
+      "topic_en": "Parent-teacher evening",
+      "source_text_nl": "Uitnodiging: Op donderdag 14 november organiseren wij een informatieavond over het voortgezet onderwijs. De avond begint om 19:30 uur in de aula van de school. U hoeft zich niet vooraf aan te melden.",
+      "question_nl": "Waar wordt de informatieavond gehouden?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "In de klas van uw kind"
+        },
+        {
+          "id": "B",
+          "text_nl": "Bij de directeur op kantoor"
+        },
+        {
+          "id": "C",
+          "text_nl": "In de aula van de school"
+        },
+        {
+          "id": "D",
+          "text_nl": "In de gymzaal"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst zegt dat de avond begint in de aula van de school.",
+        "en": "The text says the evening starts in the school auditorium (aula)."
+      },
+      "source_text_en": "Invitation: On Thursday, November 14, we are organizing an information evening about secondary education. The evening starts at 7:30 PM in the school auditorium. You do not need to register in advance.",
+      "tags": [
+        "ouderavond",
+        "locatie",
+        "informatie"
+      ]
+    },
+    {
+      "id": "M7_R004",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Gymles",
+      "topic_en": "PE class",
+      "source_text_nl": "Regels voor de gymles: Alle leerlingen moeten gymkleding en schone binnenschoenen meenemen. Schoenen met zwarte zolen zijn niet toegestaan in de sportzaal. Vergeet ook je handdoek niet!",
+      "question_nl": "Wat mag je NIET gebruiken in de sportzaal?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Een handdoek"
+        },
+        {
+          "id": "B",
+          "text_nl": "Schone binnenschoenen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Schoenen met zwarte zolen"
+        },
+        {
+          "id": "D",
+          "text_nl": "Korte broeken"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "In de tekst staat: 'Schoenen met zwarte zolen zijn niet toegestaan.'",
+        "en": "The text states: 'Shoes with black soles are not allowed.'"
+      },
+      "source_text_en": "Rules for PE: All students must bring gym clothes and clean indoor shoes. Shoes with black soles are not allowed in the sports hall. Don't forget your towel either!",
+      "tags": [
+        "gymles",
+        "kleding",
+        "regels"
+      ]
+    },
+    {
+      "id": "M7_R005",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Rapport",
+      "topic_en": "Report card",
+      "source_text_nl": "Beste ouders, vandaag krijgt uw kind het eerste rapport mee naar huis. Wilt u het rapport bekijken, ondertekenen en uiterlijk vrijdag weer aan de leerkracht meegeven?",
+      "question_nl": "Wat moeten de ouders doen met het rapport?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Het rapport thuis bewaren"
+        },
+        {
+          "id": "B",
+          "text_nl": "Een nieuw rapport kopen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Het rapport ondertekenen en teruggeven"
+        },
+        {
+          "id": "D",
+          "text_nl": "De cijfers veranderen"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst vraagt ouders om het rapport te bekijken, te ondertekenen en weer mee te geven naar school.",
+        "en": "The text asks parents to view the report, sign it, and return it to school."
+      },
+      "source_text_en": "Dear parents, today your child is taking the first report card home. Would you please view the report, sign it, and give it back to the teacher by Friday at the latest?",
+      "tags": [
+        "rapport",
+        "ouders",
+        "handtekening"
+      ]
+    },
+    {
+      "id": "M7_R006",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Vrije dag",
+      "topic_en": "Day off",
+      "source_text_nl": "Let op: Aanstaande vrijdag 4 april is de school gesloten voor alle leerlingen. Het team heeft dan een studiedag. Op maandag 7 april begint de school weer om 08:30 uur.",
+      "question_nl": "Waarom is er op vrijdag 4 april geen school?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Vanwege een feestdag"
+        },
+        {
+          "id": "B",
+          "text_nl": "Omdat het vakantie is"
+        },
+        {
+          "id": "C",
+          "text_nl": "Het team heeft een studiedag"
+        },
+        {
+          "id": "D",
+          "text_nl": "De school is kapot"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De reden voor de sluiting is dat het team (de leraren) een studiedag heeft.",
+        "en": "The reason for the closure is that the team (the teachers) has a study day."
+      },
+      "source_text_en": "Please note: Next Friday, April 4, the school is closed for all students. The team will have a study day then. On Monday, April 7, school starts again at 08:30 AM.",
+      "tags": [
+        "studiedag",
+        "vrije dag",
+        "agenda"
+      ]
+    },
+    {
+      "id": "M7_R007",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Bibliotheek",
+      "topic_en": "Library",
+      "source_text_nl": "In onze schoolbibliotheek kun je elke maandag en donderdag boeken lenen. Je mag maximaal twee boeken per keer meenemen voor drie weken. Breng je de boeken te laat terug? Dan betaal je 10 cent per dag.",
+      "question_nl": "Hoe lang mag je een boek lenen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Eén week"
+        },
+        {
+          "id": "B",
+          "text_nl": "Drie weken"
+        },
+        {
+          "id": "C",
+          "text_nl": "Eén maand"
+        },
+        {
+          "id": "D",
+          "text_nl": "Zolang je wilt"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst vermeldt dat je de boeken voor drie weken mag meenemen.",
+        "en": "The text mentions that you can take the books for three weeks."
+      },
+      "source_text_en": "In our school library, you can borrow books every Monday and Thursday. You may take a maximum of two books at a time for three weeks. Do you return the books late? Then you pay 10 cents per day.",
+      "tags": [
+        "bibliotheek",
+        "boeken",
+        "leentermijn"
+      ]
+    },
+    {
+      "id": "M7_R008",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Overblijven",
+      "topic_en": "Lunch break care",
+      "source_text_nl": "Kinderen die tussen de middag op school blijven eten, gaan naar de overblijf. De kosten hiervoor zijn €2,50 per keer. U moet uw kind minimaal één dag van tevoren aanmelden via de website.",
+      "question_nl": "Wat kost het per keer als een kind op school blijft eten?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Het is gratis"
+        },
+        {
+          "id": "B",
+          "text_nl": "€1,00"
+        },
+        {
+          "id": "C",
+          "text_nl": "€2,50"
+        },
+        {
+          "id": "D",
+          "text_nl": "€5,00"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst geeft aan dat de kosten €2,50 per keer zijn.",
+        "en": "The text indicates that the costs are €2.50 per time."
+      },
+      "source_text_en": "Children who stay at school to eat during the lunch break go to 'de overblijf'. The costs for this are €2.50 per time. You must register your child at least one day in advance via the website.",
+      "tags": [
+        "overblijf",
+        "kosten",
+        "lunch"
+      ]
+    },
+    {
+      "id": "M7_R009",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Huiswerk",
+      "topic_en": "Homework",
+      "source_text_nl": "Huiswerkhulp: Heb je moeite met rekenen of taal? Kom dan elke dinsdag van 15:30 tot 16:30 uur naar de huiswerkhulp in lokaal 4. Ervaren vrijwilligers helpen je graag met je werk.",
+      "question_nl": "Wanneer is de huiswerkhulp?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Op maandag"
+        },
+        {
+          "id": "B",
+          "text_nl": "Op dinsdag"
+        },
+        {
+          "id": "C",
+          "text_nl": "Op woensdag"
+        },
+        {
+          "id": "D",
+          "text_nl": "Elke dag"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De huiswerkhulp vindt plaats op elke dinsdag.",
+        "en": "Homework help takes place every Tuesday."
+      },
+      "source_text_en": "Homework help: Do you have trouble with math or language? Then come to the homework help in room 4 every Tuesday from 3:30 PM to 4:30 PM. Experienced volunteers are happy to help you with your work.",
+      "tags": [
+        "huiswerk",
+        "hulp",
+        "tijd"
+      ]
+    },
+    {
+      "id": "M7_R010",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Veiligheid",
+      "topic_en": "Safety",
+      "source_text_nl": "Belangrijk: Vanwege de veiligheid vragen wij alle ouders om hun kind buiten het schoolhek op te wachten. Fietsen mogen alleen in de fietsenstalling worden geplaatst.",
+      "question_nl": "Waar moeten ouders op hun kind wachten?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "In de klas"
+        },
+        {
+          "id": "B",
+          "text_nl": "In de aula"
+        },
+        {
+          "id": "C",
+          "text_nl": "Buiten het schoolhek"
+        },
+        {
+          "id": "D",
+          "text_nl": "In de fietsenstalling"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst vraagt ouders specifiek om buiten het schoolhek te wachten.",
+        "en": "The text specifically asks parents to wait outside the school gate."
+      },
+      "source_text_en": "Important: For safety reasons, we ask all parents to wait for their child outside the school gate. Bicycles may only be placed in the bicycle shed.",
+      "tags": [
+        "veiligheid",
+        "regels",
+        "ouders"
+      ]
+    },
+    {
+      "id": "M7_R011",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Schoolfruit",
+      "topic_en": "School fruit",
+      "source_text_nl": "Gezonde school: Vanaf volgende week doet onze school mee aan het project 'Schoolfruit'. Elke dinsdag en donderdag krijgen de kinderen gratis een stuk fruit in de kleine pauze.",
+      "question_nl": "Hoeveel kost het fruit voor de kinderen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Het is gratis"
+        },
+        {
+          "id": "B",
+          "text_nl": "€0,50 per stuk"
+        },
+        {
+          "id": "C",
+          "text_nl": "€5,00 per maand"
+        },
+        {
+          "id": "D",
+          "text_nl": "Dat staat niet in de tekst"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": {
+        "nl": "De tekst zegt dat de kinderen het fruit gratis krijgen.",
+        "en": "The text says that the children get the fruit for free."
+      },
+      "source_text_en": "Healthy school: Starting next week, our school is participating in the 'School Fruit' project. Every Tuesday and Thursday, children will receive a free piece of fruit during the morning break.",
+      "tags": [
+        "gezondheid",
+        "fruit",
+        "gratis"
+      ]
+    },
+    {
+      "id": "M7_R012",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Gevonden voorwerpen",
+      "topic_en": "Lost and found",
+      "source_text_nl": "Bent u iets kwijt? In de grote kist bij de ingang liggen alle gevonden voorwerpen, zoals jassen en bekers. Alles wat na 1 juli nog in de kist ligt, gaat naar een goed doel.",
+      "question_nl": "Wat gebeurt er met de spullen die na 1 juli nog in de kist liggen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De school gooit ze weg"
+        },
+        {
+          "id": "B",
+          "text_nl": "De leraren verdelen de spullen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Ze gaan naar een goed doel"
+        },
+        {
+          "id": "D",
+          "text_nl": "De school verkoopt ze aan ouders"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst vermeldt dat de overgebleven spullen naar een goed doel gaan.",
+        "en": "The text mentions that the remaining items go to a charity."
+      },
+      "source_text_en": "Have you lost something? All found objects, such as coats and cups, are in the large box near the entrance. Everything still in the box after July 1 will go to a charity.",
+      "tags": [
+        "gevonden voorwerpen",
+        "datum",
+        "school"
+      ]
+    },
+    {
+      "id": "M7_R013",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Inschrijven",
+      "topic_en": "Registration",
+      "source_text_nl": "Nieuwe leerlingen: Wilt u uw kind inschrijven voor het nieuwe schooljaar? Maak dan eerst een afspraak voor een kennismakingsgesprek met de directeur via info@deschool.nl.",
+      "question_nl": "Hoe kunt u een afspraak maken met de directeur?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Door naar school te komen"
+        },
+        {
+          "id": "B",
+          "text_nl": "Via een e-mail naar info@deschool.nl"
+        },
+        {
+          "id": "C",
+          "text_nl": "Door de directeur te bellen"
+        },
+        {
+          "id": "D",
+          "text_nl": "Via de post"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst geeft aan dat je een afspraak moet maken via het genoemde e-mailadres.",
+        "en": "The text indicates that you must make an appointment via the mentioned email address."
+      },
+      "source_text_en": "New students: Do you want to register your child for the new school year? Please first make an appointment for an introductory meeting with the principal via info@deschool.nl.",
+      "tags": [
+        "inschrijven",
+        "afspraak",
+        "e-mail"
+      ]
+    },
+    {
+      "id": "M7_R014",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Hoofdluis",
+      "topic_en": "Head lice",
+      "source_text_nl": "Waarschuwing: Er is hoofdluis geconstateerd in groep 4. Wij vragen alle ouders om hun kind vanavond goed te controleren. Gebruik hiervoor een speciale luizenkam.",
+      "question_nl": "Wat moeten de ouders vanavond doen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Nieuwe kleren kopen"
+        },
+        {
+          "id": "B",
+          "text_nl": "Hun kind thuis laten"
+        },
+        {
+          "id": "C",
+          "text_nl": "Hun kind controleren op hoofdluis"
+        },
+        {
+          "id": "D",
+          "text_nl": "Het haar van hun kind knippen"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "Ouders worden gevraagd om hun kind te controleren op hoofdluis.",
+        "en": "Parents are asked to check their child for head lice."
+      },
+      "source_text_en": "Warning: Head lice have been found in group 4. We ask all parents to check their child thoroughly tonight. Use a special lice comb for this.",
+      "tags": [
+        "gezondheid",
+        "controle",
+        "ouders"
+      ]
+    },
+    {
+      "id": "M7_R015",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Schoonmaakavond",
+      "topic_en": "Cleaning evening",
+      "source_text_nl": "Schoonmaakavond: Op woensdag 11 juni gaan we met hulp van ouders het speelgoed van de kleuters schoonmaken. We beginnen om 19:00 uur. Voor koffie en thee wordt gezorgd!",
+      "question_nl": "Wie gaan het speelgoed schoonmaken?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De kleuters zelf"
+        },
+        {
+          "id": "B",
+          "text_nl": "De leraren en de ouders"
+        },
+        {
+          "id": "C",
+          "text_nl": "Een professioneel bedrijf"
+        },
+        {
+          "id": "D",
+          "text_nl": "Alleen de directeur"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst spreekt over 'hulp van ouders', wat betekent dat ouders en personeel samenwerken.",
+        "en": "The text mentions 'help from parents', which means parents and staff are working together."
+      },
+      "source_text_en": "Cleaning evening: On Wednesday, June 11, we will clean the toddlers' toys with the help of parents. We start at 7:00 PM. Coffee and tea will be provided!",
+      "tags": [
+        "schoonmaak",
+        "ouders",
+        "vrijwilligers"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,708 @@
+{
+  "title_reading": "A2 Vocabulary Master",
+  "category": "The Home",
+  "total_words_target": 100,
+  "batch": 1,
+  "vocabulary_list": [
+    {
+      "type": "Profession",
+      "dutch_word": "De makelaar",
+      "english_word": "The real estate agent",
+      "meaning": "A person who helps people buy, sell, or rent houses.",
+      "example_sentence": "De makelaar laat ons morgen het nieuwe appartement zien."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De verhuizer",
+      "english_word": "The mover",
+      "meaning": "A person whose job is to help people move their furniture to a new home.",
+      "example_sentence": "De verhuizer tilt de zware kasten in de vrachtwagen."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De woonkamer",
+      "english_word": "The living room",
+      "meaning": "The main room in a house where people relax and sit together.",
+      "example_sentence": "Er staat een grote bank en een televisie in de woonkamer."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De slaapkamer",
+      "english_word": "The bedroom",
+      "meaning": "A room used for sleeping.",
+      "example_sentence": "Mijn slaapkamer heeft een groot raam met uitzicht op de tuin."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De badkamer",
+      "english_word": "The bathroom",
+      "meaning": "The room where you wash and bathe.",
+      "example_sentence": "De badkamer heeft een douche en een wastafel."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De zolder",
+      "english_word": "The attic",
+      "meaning": "The space or room at the very top of a house, under the roof.",
+      "example_sentence": "We bewaren onze oude spullen in dozen op de zolder."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De kelder",
+      "english_word": "The basement/cellar",
+      "meaning": "A room below ground level in a house.",
+      "example_sentence": "In de kelder is het altijd lekker koel in de zomer."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De bank",
+      "english_word": "The sofa/couch",
+      "meaning": "A long, soft seat for more than one person.",
+      "example_sentence": "Ik lig graag op de bank om een film te kijken."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De tafel",
+      "english_word": "The table",
+      "meaning": "A piece of furniture with a flat top and legs, used for eating or working.",
+      "example_sentence": "Zet de glazen maar op de tafel in de keuken."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De stoel",
+      "english_word": "The chair",
+      "meaning": "A seat for one person, usually with a back and four legs.",
+      "example_sentence": "Schuif je stoel aan als we gaan eten."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De kast",
+      "english_word": "The cupboard/closet",
+      "meaning": "A piece of furniture with doors and shelves for storing things.",
+      "example_sentence": "Hang je jas maar in de kast in de gang."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het raam",
+      "english_word": "The window",
+      "meaning": "An opening in a wall filled with glass to let in light and air.",
+      "example_sentence": "Doe je het raam dicht? Het wordt koud buiten."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Wonen",
+      "english_word": "To live/dwell",
+      "meaning": "To have your home in a particular place.",
+      "example_sentence": "Ik woon nu drie jaar in dit gezellige appartement."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Huren",
+      "english_word": "To rent",
+      "meaning": "To pay money to live in a house that belongs to someone else.",
+      "example_sentence": "Is het goedkoper om een huis te huren of te kopen?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Kopen",
+      "english_word": "To buy",
+      "meaning": "To get something by paying money for it.",
+      "example_sentence": "Wij willen volgend jaar een groter huis kopen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verhuizen",
+      "english_word": "To move (house)",
+      "meaning": "To leave your old home and go to live in a new one.",
+      "example_sentence": "Volgende week gaan we verhuizen naar onze nieuwe woning."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Schoonmaken",
+      "english_word": "To clean",
+      "meaning": "To remove dirt or mess from the home.",
+      "example_sentence": "Ik ga dit weekend de hele benedenverdieping schoonmaken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Repareren",
+      "english_word": "To repair/fix",
+      "meaning": "To mend something that is broken or not working.",
+      "example_sentence": "De loodgieter komt de lekkende kraan repareren."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Groot",
+      "english_word": "Big/Large",
+      "meaning": "Of considerable size or extent.",
+      "example_sentence": "Wij hebben een groot huis met vijf slaapkamers."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Klein",
+      "english_word": "Small",
+      "meaning": "Not large in size.",
+      "example_sentence": "Ik woon in een klein maar fijn studio-appartement."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Gezellig",
+      "english_word": "Cozy/Homely",
+      "meaning": "Having a pleasant and comfortable atmosphere.",
+      "example_sentence": "Maak het binnen gezellig met een paar planten en kaarsen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De huur",
+      "english_word": "The rent",
+      "meaning": "The money you pay every month for your home.",
+      "example_sentence": "De huur moet voor de eerste van de maand betaald zijn."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het adres",
+      "english_word": "The address",
+      "meaning": "The details of where a building is located.",
+      "example_sentence": "Wat is je nieuwe adres? Ik wil je een kaartje sturen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De tuin",
+      "english_word": "The garden",
+      "meaning": "An area of land next to a house, usually with grass and plants.",
+      "example_sentence": "In de zomer zitten we elke avond buiten in de tuin."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De verdieping",
+      "english_word": "The floor/story",
+      "meaning": "A level in a building.",
+      "example_sentence": "Mijn oma woont op de vierde verdieping van het flatgebouw."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De loodgieter",
+      "english_word": "The plumber",
+      "meaning": "A person who installs and repairs pipes and fixtures for water.",
+      "example_sentence": "De loodgieter komt de lekkage in de badkamer verhelpen."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De elektricien",
+      "english_word": "The electrician",
+      "meaning": "A person who installs and maintains electrical equipment.",
+      "example_sentence": "De elektricien vervangt de oude bedrading in de keuken."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De gang",
+      "english_word": "The hallway/corridor",
+      "meaning": "The passage in a house that leads to the different rooms.",
+      "example_sentence": "Hang je jas maar aan de kapstok in de gang."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het balkon",
+      "english_word": "The balcony",
+      "meaning": "A platform on the outside of a building with a wall or rail.",
+      "example_sentence": "Ik heb een klein balkon met een paar mooie planten."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De garage",
+      "english_word": "The garage",
+      "meaning": "A building or indoor space for storing a car.",
+      "example_sentence": "De auto staat veilig geparkeerd in de garage."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De verwarming",
+      "english_word": "The heating/radiator",
+      "meaning": "The system used to keep the house warm.",
+      "example_sentence": "In de winter staat de verwarming de hele dag aan."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De lamp",
+      "english_word": "The lamp/light",
+      "meaning": "An object that produces light.",
+      "example_sentence": "Doe de lamp aan, het is hier te donker om te lezen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het gordijn",
+      "english_word": "The curtain",
+      "meaning": "A piece of cloth hung at a window to block light or for privacy.",
+      "example_sentence": "Doe 's avonds de gordijnen dicht tegen de kou."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De wasbak",
+      "english_word": "The sink",
+      "meaning": "A bowl-shaped fixture for washing hands or dishes.",
+      "example_sentence": "Er liggen nog drie vuile borden in de wasbak."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De spiegel",
+      "english_word": "The mirror",
+      "meaning": "A glass surface that shows your reflection.",
+      "example_sentence": "Er hangt een grote spiegel boven de wastafel."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Huren",
+      "english_word": "To rent",
+      "meaning": "To pay money to live in a house you do not own.",
+      "example_sentence": "Zij huren een huis via de woningbouwvereniging."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Schilderen",
+      "english_word": "To paint",
+      "meaning": "To cover walls or wood with paint.",
+      "example_sentence": "We gaan de muren van de woonkamer wit schilderen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Inrichten",
+      "english_word": "To furnish/decorate",
+      "meaning": "To put furniture and decorations in a room.",
+      "example_sentence": "Ik vind het leuk om mijn nieuwe kamer in te richten."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Sluiten",
+      "english_word": "To close/lock",
+      "meaning": "To shut a door or window.",
+      "example_sentence": "Vergeet niet de voordeur goed te sluiten."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Luchten",
+      "english_word": "To air out",
+      "meaning": "To open windows to let fresh air into a room.",
+      "example_sentence": "Het is belangrijk om de slaapkamer elke dag te luchten."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Licht",
+      "english_word": "Bright/Light",
+      "meaning": "Having a lot of natural light.",
+      "example_sentence": "Mijn nieuwe appartement is erg licht en ruim."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Donker",
+      "english_word": "Dark",
+      "meaning": "With little or no light.",
+      "example_sentence": "De kelder is een donkere plek zonder ramen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Modern",
+      "english_word": "Modern",
+      "meaning": "Relating to the present or recent times; stylish.",
+      "example_sentence": "De keuken is heel modern en heeft nieuwe apparatuur."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Oud",
+      "english_word": "Old",
+      "meaning": "Having lived or existed for a long time.",
+      "example_sentence": "Wij wonen in een oud huis uit het jaar negentienhonderd."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De energierekening",
+      "english_word": "The energy bill",
+      "meaning": "The money you pay for gas and electricity.",
+      "example_sentence": "De energierekening is deze winter erg hoog."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het contract",
+      "english_word": "The contract",
+      "meaning": "A legal agreement (e.g., for renting).",
+      "example_sentence": "Je moet het huurcontract goed doorlezen voor je tekent."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De verhuizing",
+      "english_word": "The move",
+      "meaning": "The process of moving from one house to another.",
+      "example_sentence": "De verhuizing was erg vermoeiend maar is nu klaar."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De buurt",
+      "english_word": "The neighborhood",
+      "meaning": "The area around your home.",
+      "example_sentence": "Ik woon in een rustige buurt met veel parken."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De borg",
+      "english_word": "The deposit",
+      "meaning": "An amount of money paid in advance when renting.",
+      "example_sentence": "Ik krijg de borg terug als ik het appartement verlaat."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het onderhoud",
+      "english_word": "The maintenance",
+      "meaning": "The work of keeping a house in good condition.",
+      "example_sentence": "De verhuurder is verantwoordelijk voor het onderhoud van het dak."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De schilder",
+      "english_word": "The painter",
+      "meaning": "A person whose job is to paint the walls or wood of a house.",
+      "example_sentence": "De schilder verft de buitenkant van het huis blauw."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De glazenmaker",
+      "english_word": "The glazier",
+      "meaning": "A person who replaces or repairs broken glass in windows.",
+      "example_sentence": "Nadat de ruit kapot ging, belden we direct de glazenmaker."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De overloop",
+      "english_word": "The landing",
+      "meaning": "The area at the top of the stairs that leads to the bedrooms.",
+      "example_sentence": "Er hangt een lamp op de overloop boven de trap."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De berging",
+      "english_word": "The storage room/unit",
+      "meaning": "A small room or external space used for storing bikes or tools.",
+      "example_sentence": "Ik zet mijn fiets elke avond in de berging."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De vloer",
+      "english_word": "The floor",
+      "meaning": "The surface of a room that you walk on.",
+      "example_sentence": "We hebben een mooie houten vloer in de woonkamer."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De muur",
+      "english_word": "The wall",
+      "meaning": "The vertical structure that encloses a room.",
+      "example_sentence": "Er hangt een groot schilderij aan de muur."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het plafond",
+      "english_word": "The ceiling",
+      "meaning": "The upper surface of a room.",
+      "example_sentence": "Het plafond in dit oude huis is erg hoog."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De trap",
+      "english_word": "The stairs/staircase",
+      "meaning": "A set of steps leading from one floor to another.",
+      "example_sentence": "Je moet de trap op gaan om bij de slaapkamer te komen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De voordeur",
+      "english_word": "The front door",
+      "meaning": "The main entrance to a house or building.",
+      "example_sentence": "Doe de voordeur op slot als je naar bed gaat."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De bel",
+      "english_word": "The doorbell",
+      "meaning": "A button outside a house that makes a sound to signal someone is there.",
+      "example_sentence": "Ik hoor de bel, er staat iemand voor de deur."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Opruimen",
+      "english_word": "To tidy up",
+      "meaning": "To put things back in their place to make a room neat.",
+      "example_sentence": "Zullen we samen de woonkamer even opruimen?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verhuizen",
+      "english_word": "To move",
+      "meaning": "To change the place where you live.",
+      "example_sentence": "Zij gaan volgende maand verhuizen naar een flat."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Behangen",
+      "english_word": "To wallpaper",
+      "meaning": "To put decorative paper on the walls of a room.",
+      "example_sentence": "We gaan de kamer van de baby deze week behangen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Dweilen",
+      "english_word": "To mop",
+      "meaning": "To clean the floor using a wet cloth or mop.",
+      "example_sentence": "Nadat ik heb gestofzuigd, ga ik de vloer dweilen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Boren",
+      "english_word": "To drill",
+      "meaning": "To make a hole in a wall or wood using a tool.",
+      "example_sentence": "Ik moet een gat boren om de plank op te hangen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Ruim",
+      "english_word": "Spacious",
+      "meaning": "Having plenty of space.",
+      "example_sentence": "De keuken is erg ruim en heeft veel licht."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Smal",
+      "english_word": "Narrow",
+      "meaning": "Small in width; not wide.",
+      "example_sentence": "De gang in dit huis is een beetje smal."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Luidruchtig",
+      "english_word": "Noisy",
+      "meaning": "Making a lot of noise (often used for neighbors).",
+      "example_sentence": "De buren zijn soms erg luidruchtig in het weekend."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Rustig",
+      "english_word": "Quiet/Calm",
+      "meaning": "Without much noise or activity.",
+      "example_sentence": "Ik woon in een hele rustige straat."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De woning",
+      "english_word": "The dwelling/housing",
+      "meaning": "A formal word for a house or place to live.",
+      "example_sentence": "Er is een groot tekort aan woningen in de stad."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De huurovereenkomst",
+      "english_word": "The rental agreement",
+      "meaning": "The official document you sign when renting a home.",
+      "example_sentence": "De huurovereenkomst is voor minimaal één jaar."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De lekkage",
+      "english_word": "The leak",
+      "meaning": "When water comes through a ceiling or pipe where it shouldn't.",
+      "example_sentence": "We hebben een lekkage in het dak door de regen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De sleuteloverdracht",
+      "english_word": "The key handover",
+      "meaning": "The moment you officially get the keys to your new home.",
+      "example_sentence": "De sleuteloverdracht is morgenochtend om tien uur."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De servicekosten",
+      "english_word": "The service charges",
+      "meaning": "Extra money paid for cleaning or maintenance of a building.",
+      "example_sentence": "De servicekosten zitten bij de huurprijs inbegrepen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De inrichting",
+      "english_word": "The interior/furnishing",
+      "meaning": "The style and arrangement of furniture in a house.",
+      "example_sentence": "Ik vind de inrichting van je huis erg mooi."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De glazenwasser",
+      "english_word": "The window cleaner",
+      "meaning": "A person whose job is to wash the windows of a building.",
+      "example_sentence": "De glazenwasser komt drie keer per jaar voor ons huis."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De klusjesman",
+      "english_word": "The handyman",
+      "meaning": "A person who is skilled at doing small repairs around the house.",
+      "example_sentence": "De klusjesman repareert de kapotte kastdeur."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De berging",
+      "english_word": "The storage room",
+      "meaning": "A small room or external space used for storing bikes or tools.",
+      "example_sentence": "Ik zet mijn fiets elke avond in de berging."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De overloop",
+      "english_word": "The landing",
+      "meaning": "The area at the top of the stairs that leads to the bedrooms.",
+      "example_sentence": "Er hangt een lamp op de overloop boven de trap."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De rookmelder",
+      "english_word": "The smoke detector",
+      "meaning": "A device that makes a loud noise if there is smoke or fire.",
+      "example_sentence": "Het is verplicht om op elke verdieping een rookmelder te hebben."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De brievenbus",
+      "english_word": "The mailbox",
+      "meaning": "A slot in a door or a box where the postman puts the mail.",
+      "example_sentence": "Er ligt een belangrijke brief in de brievenbus."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De kapstok",
+      "english_word": "The coat rack",
+      "meaning": "A set of hooks in the hall for hanging coats.",
+      "example_sentence": "Hang je jas maar aan de kapstok in de gang."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De kraan",
+      "english_word": "The tap/faucet",
+      "meaning": "A device that controls the flow of water.",
+      "example_sentence": "Doe de kraan dicht terwijl je je tanden poetst."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het stopcontact",
+      "english_word": "The power outlet/socket",
+      "meaning": "A place on the wall where you can plug in electrical devices.",
+      "example_sentence": "Is er een stopcontact in de buurt van de tafel?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Huren",
+      "english_word": "To rent",
+      "meaning": "To pay money to live in a house that belongs to someone else.",
+      "example_sentence": "Wij huren dit huis van een woningbouwvereniging."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verhuren",
+      "english_word": "To rent out",
+      "meaning": "To allow someone to live in your property for money.",
+      "example_sentence": "Zij gaan hun extra kamer verhuren aan een student."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verven",
+      "english_word": "To paint",
+      "meaning": "To cover a surface with paint.",
+      "example_sentence": "Ik ga de muren van de woonkamer wit verven."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Boeken",
+      "english_word": "To book (e.g. holiday home)",
+      "meaning": "To reserve a place to stay.",
+      "example_sentence": "We hebben een klein huisje in het bos geboekt."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Bezoeken",
+      "english_word": "To visit",
+      "meaning": "To go to a place or see someone.",
+      "example_sentence": "Wil je mijn nieuwe huis morgen bezoeken?"
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Gemeubileerd",
+      "english_word": "Furnished",
+      "meaning": "A house that already contains furniture.",
+      "example_sentence": "Het appartement wordt gemeubileerd verhuurd."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Leeg",
+      "english_word": "Empty",
+      "meaning": "Containing nothing; without furniture.",
+      "example_sentence": "Het huis staat al twee maanden leeg."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Veilig",
+      "english_word": "Safe",
+      "meaning": "Protected from danger.",
+      "example_sentence": "Ik voel me heel veilig in deze buurt."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Duurzaam",
+      "english_word": "Sustainable/Eco-friendly",
+      "meaning": "Using energy and materials in a way that doesn't hurt the environment.",
+      "example_sentence": "Dit huis is erg duurzaam door de zonnepanelen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De huurprijs",
+      "english_word": "The rent price",
+      "meaning": "The amount of money paid for renting a home.",
+      "example_sentence": "De huurprijs is inclusief gas en elektra."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het eigendom",
+      "english_word": "The property/ownership",
+      "meaning": "Something that belongs to someone.",
+      "example_sentence": "Dit huis is mijn eigendom, ik heb het gekocht."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De verbouwing",
+      "english_word": "The renovation",
+      "meaning": "The process of improving or repairing a building.",
+      "example_sentence": "De verbouwing van de keuken duurt drie weken."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De overlast",
+      "english_word": "The nuisance/disturbance",
+      "meaning": "Something that causes trouble or annoyance, like noise.",
+      "example_sentence": "De buren hebben last van geluidsoverlast."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De vve (Vereniging van Eigenaren)",
+      "english_word": "Homeowners association",
+      "meaning": "An organization for owners of apartments in the same building.",
+      "example_sentence": "De vve vergadert over het onderhoud van de lift."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De hypotheek",
+      "english_word": "The mortgage",
+      "meaning": "A loan from a bank to buy a house.",
+      "example_sentence": "Ik ga naar de bank voor een gesprek over mijn hypotheek."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De woonruimte",
+      "english_word": "The living space",
+      "meaning": "A place where people live.",
+      "example_sentence": "Het is moeilijk om betaalbare woonruimte te vinden in de stad."
+    }
+  ]
+}

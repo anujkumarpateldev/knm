@@ -1,0 +1,708 @@
+{
+  "title_reading": "A2 Vocabulary Master",
+  "category": "Leisure & Hobbies",
+  "total_words_target": 100,
+  "batch": 1,
+  "vocabulary_list": [
+    {
+      "type": "Profession",
+      "dutch_word": "De sporter",
+      "english_word": "The athlete/sportsman",
+      "meaning": "A person who takes part in a sport, either as a hobby or a job.",
+      "example_sentence": "Mijn buurman is een fanatieke sporter; hij loopt elke dag hard."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De kunstenaar",
+      "english_word": "The artist",
+      "meaning": "A person who creates art, such as painting or sculpture.",
+      "example_sentence": "De kunstenaar schildert prachtige landschappen in zijn vrije tijd."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De vrijwilliger",
+      "english_word": "The volunteer",
+      "meaning": "A person who works for a club or charity for free.",
+      "example_sentence": "Als vrijwilliger help ik elke zaterdag bij de plaatselijke voetbalclub."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De sportschool",
+      "english_word": "The gym",
+      "meaning": "A place where people go to exercise and use fitness equipment.",
+      "example_sentence": "Ik ga drie keer per week naar de sportschool."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De bioscoop",
+      "english_word": "The cinema/movie theater",
+      "meaning": "A place where you go to watch films on a large screen.",
+      "example_sentence": "Zullen we vanavond naar de bioscoop gaan voor de nieuwe actiefilm?"
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De vereniging",
+      "english_word": "The association/club",
+      "meaning": "An organized group of people with a shared interest.",
+      "example_sentence": "Ik ben al jaren lid van de tennisvereniging."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het boek",
+      "english_word": "The book",
+      "meaning": "A written or printed work consisting of pages.",
+      "example_sentence": "Ik lees graag een spannend boek voor het slapengaan."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De camera",
+      "english_word": "The camera",
+      "meaning": "A device for taking photographs or recording video.",
+      "example_sentence": "Mijn hobby is fotografie, dus ik heb altijd mijn camera bij me."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het muziekinstrument",
+      "english_word": "The musical instrument",
+      "meaning": "An object used to make musical sounds, like a guitar or piano.",
+      "example_sentence": "Welk muziekinstrument zou jij graag willen leren bespelen?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De fiets",
+      "english_word": "The bicycle",
+      "meaning": "A vehicle with two wheels that you pedal (a national hobby).",
+      "example_sentence": "In het weekend maken we vaak een lange tocht op de fiets."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Ontspannen",
+      "english_word": "To relax",
+      "meaning": "To rest and become less tense.",
+      "example_sentence": "Muziek luisteren helpt mij om na het werk te ontspannen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Wandelen",
+      "english_word": "To walk/stroll",
+      "meaning": "To go for a walk for pleasure or health.",
+      "example_sentence": "Zondagmiddag gaan we vaak wandelen in de duinen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Zwemmen",
+      "english_word": "To swim",
+      "meaning": "To move through water by moving the body.",
+      "example_sentence": "Ik ga elke maandagochtend banen zwemmen in het zwembad."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Tekenen",
+      "english_word": "To draw",
+      "meaning": "To create a picture using a pen, pencil, or crayon.",
+      "example_sentence": "Mijn dochter kan heel mooi tekenen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Bakken",
+      "english_word": "To bake",
+      "meaning": "To cook food, especially cakes or bread, in an oven.",
+      "example_sentence": "Zal ik dit weekend een appeltaart bakken?"
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Leuk",
+      "english_word": "Fun/Nice",
+      "meaning": "Enjoyable or pleasant.",
+      "example_sentence": "Ik vind het leuk om met vrienden af te spreken."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Gezellig",
+      "english_word": "Social/Cozy",
+      "meaning": "Relating to having a good time with others.",
+      "example_sentence": "Een spelletjesavond is altijd erg gezellig."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Creatief",
+      "english_word": "Creative",
+      "meaning": "Involving the use of imagination to create something.",
+      "example_sentence": "Schilderen is een creatieve manier om je vrije tijd te besteden."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Interessant",
+      "english_word": "Interesting",
+      "meaning": "Holding the attention; not boring.",
+      "example_sentence": "Ik vind de geschiedenis van deze stad erg interessant."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De vrije tijd",
+      "english_word": "The free time/leisure",
+      "meaning": "Time when one is not working or attending to duties.",
+      "example_sentence": "Wat doe jij het liefst in je vrije tijd?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De hobby",
+      "english_word": "The hobby",
+      "meaning": "An activity done regularly in one's leisure time for pleasure.",
+      "example_sentence": "Koken is mijn grootste hobby."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het lidmaatschap",
+      "english_word": "The membership",
+      "meaning": "Being a member of a group or organization.",
+      "example_sentence": "Mijn lidmaatschap van de bibliotheek moet ik nog verlengen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De vakantie",
+      "english_word": "The holiday/vacation",
+      "meaning": "A period of time away from work or school for rest.",
+      "example_sentence": "Ik kijk erg uit naar mijn vakantie in Frankrijk."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De rust",
+      "english_word": "The rest/peace",
+      "meaning": "The state of being calm and quiet.",
+      "example_sentence": "Ik heb dit weekend echt even wat rust nodig."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De muziek",
+      "english_word": "The music",
+      "meaning": "Sounds produced by instruments or voices that are pleasing.",
+      "example_sentence": "Ik hou van verschillende soorten muziek, zoals jazz en pop."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De trainer",
+      "english_word": "The coach/trainer",
+      "meaning": "A person who teaches and trains people in a sport.",
+      "example_sentence": "Onze trainer is streng maar erg goed."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De gids",
+      "english_word": "The guide",
+      "meaning": "A person who shows the way to others, especially in a museum or city.",
+      "example_sentence": "De gids vertelt interessante verhalen over de schilderijen."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het museum",
+      "english_word": "The museum",
+      "meaning": "A building where objects of historical or artistic interest are kept.",
+      "example_sentence": "Ik heb een Museumkaart, dus ik ga vaak naar een museum."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De speeltuin",
+      "english_word": "The playground",
+      "meaning": "An outdoor area for children to play.",
+      "example_sentence": "In het weekend gaan we met de kinderen naar de speeltuin."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het terras",
+      "english_word": "The terrace/outdoor seating",
+      "meaning": "An outdoor area at a cafe or restaurant to sit and drink.",
+      "example_sentence": "Als de zon schijnt, zitten we graag op een terrasje."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De bal",
+      "english_word": "The ball",
+      "meaning": "A round object used in various games and sports.",
+      "example_sentence": "Schop de bal naar de overkant van het veld."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het tijdschrift",
+      "english_word": "The magazine",
+      "meaning": "A periodical publication containing articles and illustrations.",
+      "example_sentence": "Ik lees graag een tijdschrift terwijl ik in de trein zit."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De koptelefoon",
+      "english_word": "The headphones",
+      "meaning": "A device worn over the ears to listen to music privately.",
+      "example_sentence": "Ik luister naar een podcast met mijn nieuwe koptelefoon."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De spelcomputer",
+      "english_word": "The game console",
+      "meaning": "A device used for playing video games.",
+      "example_sentence": "Mijn broer speelt elke avond op zijn spelcomputer."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Hardlopen",
+      "english_word": "To run/jog",
+      "meaning": "The activity of running as a form of exercise.",
+      "example_sentence": "Ik ga morgenochtend een rondje hardlopen in het bos."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Tuinieren",
+      "english_word": "To garden",
+      "meaning": "To work in a garden, planting flowers or vegetables.",
+      "example_sentence": "Mijn oma houdt erg van tuinieren in de zomer."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Schilderen",
+      "english_word": "To paint",
+      "meaning": "To create a picture using paint.",
+      "example_sentence": "Zij is begonnen met een cursus schilderen voor beginners."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verzamelen",
+      "english_word": "To collect",
+      "meaning": "To gather things of a particular type as a hobby.",
+      "example_sentence": "Vroeger hield ik van het verzamelen van postzegels."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Afspreken",
+      "english_word": "To meet up/make an appointment",
+      "meaning": "To arrange to meet someone socially.",
+      "example_sentence": "Zullen we dit weekend afspreken om koffie te drinken?"
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Actief",
+      "english_word": "Active",
+      "meaning": "Engaging in physical energy and movement.",
+      "example_sentence": "Wij hebben een heel actief weekend gehad."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Spannend",
+      "english_word": "Exciting/Thrilling",
+      "meaning": "Causing great enthusiasm and eagerness.",
+      "example_sentence": "De voetbalwedstrijd was erg spannend tot het einde."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Vrolijk",
+      "english_word": "Cheerful/Happy",
+      "meaning": "Feeling or showing strong happiness.",
+      "example_sentence": "Van vrolijke muziek word ik altijd blij."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Ontspannen",
+      "english_word": "Relaxed",
+      "meaning": "Free from tension and anxiety.",
+      "example_sentence": "Na de massage voel ik me helemaal ontspannen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De conditie",
+      "english_word": "The fitness/physical condition",
+      "meaning": "The state of being physically fit.",
+      "example_sentence": "Door te sporten verbeter je je conditie."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De competitie",
+      "english_word": "The competition",
+      "meaning": "An event where people compete against each other.",
+      "example_sentence": "Onze club doet dit jaar mee aan de landelijke competitie."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het uitstapje",
+      "english_word": "The outing/short trip",
+      "meaning": "A short journey or trip taken for pleasure.",
+      "example_sentence": "Een dagje naar de Efteling is een leuk uitstapje."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De rust",
+      "english_word": "The rest/quiet",
+      "meaning": "The absence of noise or disturbance.",
+      "example_sentence": "In de natuur vind ik de rust die ik nodig heb."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De tentoonstelling",
+      "english_word": "The exhibition",
+      "meaning": "A public display of works of art or items of interest.",
+      "example_sentence": "Er is een nieuwe tentoonstelling in het Rijksmuseum."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het plezier",
+      "english_word": "The pleasure/fun",
+      "meaning": "A feeling of happy satisfaction and enjoyment.",
+      "example_sentence": "Ik wens je veel plezier op het feestje vanavond!"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De ervaring",
+      "english_word": "The experience",
+      "meaning": "An event or occurrence which leaves an impression on someone.",
+      "example_sentence": "Dat concert was een geweldige ervaring."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De scheidsrechter",
+      "english_word": "The referee/umpire",
+      "meaning": "The official who watches a game or match to ensure rules are followed.",
+      "example_sentence": "De scheidsrechter geeft een gele kaart aan de speler."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De instructeur",
+      "english_word": "The instructor",
+      "meaning": "A person who teaches a specific skill, like yoga or driving.",
+      "example_sentence": "De yoga-instructeur legt de volgende oefening uit."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De manege",
+      "english_word": "The riding school/stables",
+      "meaning": "An establishment where people learn to ride horses.",
+      "example_sentence": "Zij gaat elke zaterdagmiddag naar de manege."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het theater",
+      "english_word": "The theater",
+      "meaning": "A building where plays and performances are given.",
+      "example_sentence": "We gaan naar het theater voor een cabaretvoorstelling."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De klimmuur",
+      "english_word": "The climbing wall",
+      "meaning": "An artificial wall with grips for indoor climbing.",
+      "example_sentence": "Mijn broer is vaak te vinden bij de klimmuur in de stad."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het racket",
+      "english_word": "The racket",
+      "meaning": "The equipment used to hit the ball in tennis or badminton.",
+      "example_sentence": "Ik heb een nieuw tennisracket gekocht in de aanbieding."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het bordspel",
+      "english_word": "The board game",
+      "meaning": "A game played on a board, such as Monopoly or Chess.",
+      "example_sentence": "In de winter spelen we vaak een bordspel bij de open haard."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De verf",
+      "english_word": "The paint",
+      "meaning": "Colored substance used for creating art.",
+      "example_sentence": "Ik heb rode en blauwe verf nodig voor mijn schilderij."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De gitaar",
+      "english_word": "The guitar",
+      "meaning": "A musical instrument with strings.",
+      "example_sentence": "Hij kan heel goed gitaar spelen en zingen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Vissen",
+      "english_word": "To fish",
+      "meaning": "The hobby of catching fish.",
+      "example_sentence": "Mijn opa gaat graag vissen aan de kant van de rivier."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Schaken",
+      "english_word": "To play chess",
+      "meaning": "A board game for two players involving strategy.",
+      "example_sentence": "Kun jij schaken? Het is een moeilijk maar leuk spel."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Fotograferen",
+      "english_word": "To photograph/take photos",
+      "meaning": "The act of taking pictures with a camera.",
+      "example_sentence": "Ik vind het heerlijk om vogels te fotograferen in het bos."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Kaarten",
+      "english_word": "To play cards",
+      "meaning": "Playing games with a deck of cards.",
+      "example_sentence": "Vrijdagavond gaan we altijd kaarten met de buren."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Zingen",
+      "english_word": "To sing",
+      "meaning": "To make musical sounds with the voice.",
+      "example_sentence": "Zij zingt elke week in een koor."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Dansen",
+      "english_word": "To dance",
+      "meaning": "Moving rhythmically to music.",
+      "example_sentence": "We gaan zaterdagavond dansen in de club."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Fanatiek",
+      "english_word": "Fanatical/Very enthusiastic",
+      "meaning": "Being very dedicated and passionate about a hobby.",
+      "example_sentence": "Mijn vader is een fanatieke supporter van Feyenoord."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Gezamenlijk",
+      "english_word": "Joint/Common",
+      "meaning": "Done by a group of people together.",
+      "example_sentence": "We hebben een gezamenlijke hobby: wandelen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Leerzaam",
+      "english_word": "Educational",
+      "meaning": "Providing knowledge or information.",
+      "example_sentence": "Een bezoek aan het museum is vaak erg leerzaam."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Ontspannend",
+      "english_word": "Relaxing",
+      "meaning": "Making you feel relaxed.",
+      "example_sentence": "Een warm bad na het sporten is erg ontspannend."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De creativiteit",
+      "english_word": "The creativity",
+      "meaning": "The use of imagination or original ideas.",
+      "example_sentence": "Je kunt je creativiteit kwijt in het maken van kleding."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De prestatie",
+      "english_word": "The achievement/performance",
+      "meaning": "Something accomplished, especially by superior ability or effort.",
+      "example_sentence": "Het uitlopen van de marathon is een geweldige prestatie."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De interesse",
+      "english_word": "The interest",
+      "meaning": "The feeling of wanting to know or learn about something.",
+      "example_sentence": "Heb jij interesse in klassieke muziek?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De uitdaging",
+      "english_word": "The challenge",
+      "meaning": "A call to take part in a contest or task that tests ability.",
+      "example_sentence": "Ik zoek een nieuwe uitdaging in mijn vrije tijd."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De vriendschap",
+      "english_word": "The friendship",
+      "meaning": "The emotions or conduct of friends.",
+      "example_sentence": "Onze vriendschap is ontstaan op de sportclub."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De ontspanning",
+      "english_word": "The relaxation/leisure",
+      "meaning": "The state of being free from tension and anxiety.",
+      "example_sentence": "Lezen zorgt voor de nodige ontspanning na een drukke dag."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De dirigent",
+      "english_word": "The conductor",
+      "meaning": "The person who directs the performance of an orchestra or choir.",
+      "example_sentence": "De dirigent zwaait met zijn stokje voor het koor."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De scheidsrechter",
+      "english_word": "The referee",
+      "meaning": "The official who makes sure the rules are followed during a match.",
+      "example_sentence": "De scheidsrechter geeft een rode kaart aan de speler."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De volkstuin",
+      "english_word": "The allotment garden",
+      "meaning": "A small piece of land rented for growing vegetables and flowers.",
+      "example_sentence": "In de zomer werkt mijn vader elke dag in zijn volkstuin."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De muziekschool",
+      "english_word": "The music school",
+      "meaning": "A place where people take lessons to learn instruments.",
+      "example_sentence": "Ik breng mijn zoon elke woensdag naar de muziekschool."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De dierentuin",
+      "english_word": "The zoo",
+      "meaning": "A place where many kinds of wild animals are kept for the public to see.",
+      "example_sentence": "Zullen we dit weekend naar de dierentuin gaan?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het schilderij",
+      "english_word": "The painting",
+      "meaning": "A picture or design executed in paints.",
+      "example_sentence": "Er hangt een prachtig schilderij aan de muur."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De puzzel",
+      "english_word": "The puzzle",
+      "meaning": "A game or toy that tests one's ingenuity or knowledge.",
+      "example_sentence": "Ik ben bezig met een legpuzzel van duizend stukjes."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De uitrusting",
+      "english_word": "The equipment/gear",
+      "meaning": "The set of articles or physical resources serving for a specific hobby.",
+      "example_sentence": "Voor duiken heb je een dure uitrusting nodig."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het elftal",
+      "english_word": "The team (specifically 11 players)",
+      "meaning": "A group of players forming one side in a competitive game.",
+      "example_sentence": "Ons elftal heeft de wedstrijd met drie-nul gewonnen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verzamelen",
+      "english_word": "To collect",
+      "meaning": "To bring together things of a particular type as a hobby.",
+      "example_sentence": "Mijn opa verzamelt oude munten uit heel Europa."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Schaken",
+      "english_word": "To play chess",
+      "meaning": "A strategy board game for two players.",
+      "example_sentence": "Mijn buurman en ik schaken elke vrijdagavond."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Knutselen",
+      "english_word": "To craft/do DIY",
+      "meaning": "Doing small manual tasks or making things for fun.",
+      "example_sentence": "De kinderen zijn aan het knutselen voor Moederdag."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Bespreken",
+      "english_word": "To discuss/reserve",
+      "meaning": "To talk about something or book a ticket.",
+      "example_sentence": "We moeten de plannen voor het feest nog bespreken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Oefenen",
+      "english_word": "To practice",
+      "meaning": "Perform an activity or exercise regularly to improve a skill.",
+      "example_sentence": "Ik moet meer oefenen om beter gitaar te spelen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Winnen",
+      "english_word": "To win",
+      "meaning": "Be successful or victorious in a contest or game.",
+      "example_sentence": "Ik hoop dat ons team dit jaar gaat winnen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Leerzaam",
+      "english_word": "Educational",
+      "meaning": "Providing knowledge or information.",
+      "example_sentence": "De documentaire over de natuur was erg leerzaam."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Saaie",
+      "english_word": "Boring",
+      "meaning": "Not interesting; tedious.",
+      "example_sentence": "Ik vond de film een beetje saai en langdradig."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Fanatiek",
+      "english_word": "Fanatical/Passionate",
+      "meaning": "Doing something with great enthusiasm or devotion.",
+      "example_sentence": "Zij is een hele fanatieke hardloopster."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Populair",
+      "english_word": "Popular",
+      "meaning": "Liked, enjoyed, or supported by many people.",
+      "example_sentence": "Padellen is momenteel een erg populaire sport."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De deelname",
+      "english_word": "The participation",
+      "meaning": "The action of taking part in something.",
+      "example_sentence": "De deelname aan het toernooi is gratis."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De belangstelling",
+      "english_word": "The interest",
+      "meaning": "The state of wanting to know or learn about something.",
+      "example_sentence": "Er is veel belangstelling voor de nieuwe cursus."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De conditie",
+      "english_word": "The fitness/stamina",
+      "meaning": "Physical fitness and the ability to sustain effort.",
+      "example_sentence": "Mijn conditie is niet zo goed, ik ben snel moe."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De sfeer",
+      "english_word": "The atmosphere",
+      "meaning": "The pervading tone or mood of a place or situation.",
+      "example_sentence": "Er hangt een gezellige sfeer in het buurthuis."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De overwinning",
+      "english_word": "The victory",
+      "meaning": "An act of defeating an enemy or opponent in a battle or game.",
+      "example_sentence": "We vieren de overwinning van ons team met taart."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De uitdaging",
+      "english_word": "The challenge",
+      "meaning": "A task or situation that tests someone's abilities.",
+      "example_sentence": "Leren schaken is een leuke uitdaging voor mij."
+    }
+  ]
+}

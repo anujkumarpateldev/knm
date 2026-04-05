@@ -1,0 +1,707 @@
+{
+  "title_reading": "A2 Vocabulary Master",
+  "category": "Education",
+  "total_words": 100,
+  "vocabulary_list": [
+    {
+      "type": "Profession",
+      "dutch_word": "De leerling",
+      "english_word": "The pupil/student",
+      "meaning": "A person who is protected and taught by a teacher.",
+      "example_sentence": "De leerling luistert goed naar de uitleg."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De directeur",
+      "english_word": "The principal/director",
+      "meaning": "The person in charge of a school.",
+      "example_sentence": "De directeur houdt een toespraak in de aula."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De conciërge",
+      "english_word": "The janitor/caretaker",
+      "meaning": "A person who looks after the school building.",
+      "example_sentence": "De conciërge opent elke ochtend de schooldeur."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De hoogleraar",
+      "english_word": "The professor",
+      "meaning": "A high-ranking teacher at a university.",
+      "example_sentence": "De hoogleraar geeft een interessant college."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het klaslokaal",
+      "english_word": "The classroom",
+      "meaning": "The room where a group of students is taught.",
+      "example_sentence": "Het klaslokaal is groot en heeft veel ramen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het schoolbord",
+      "english_word": "The blackboard/whiteboard",
+      "meaning": "A surface used by teachers for writing with chalk or markers.",
+      "example_sentence": "De docent schrijft de datum op het schoolbord."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het rugzak",
+      "english_word": "The backpack",
+      "meaning": "A bag used by students to carry books.",
+      "example_sentence": "Mijn rugzak is zwaar door alle boeken."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het cijfer",
+      "english_word": "The grade/mark",
+      "meaning": "A number that shows how well a student did on a test.",
+      "example_sentence": "Ik heb een goed cijfer voor mijn toets."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het diploma",
+      "english_word": "The diploma/degree",
+      "meaning": "A document showing you have finished your studies.",
+      "example_sentence": "Na vier jaar kreeg zij haar diploma."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Leren",
+      "english_word": "To learn/To study",
+      "meaning": "To gain knowledge or a skill.",
+      "example_sentence": "Ik leer elke dag nieuwe Nederlandse woorden."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Uitleggen",
+      "english_word": "To explain",
+      "meaning": "To make something clear or easy to understand.",
+      "example_sentence": "Kunt u dat nog een keer uitleggen?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Onthouden",
+      "english_word": "To remember",
+      "meaning": "To keep information in your mind.",
+      "example_sentence": "Het is moeilijk om alle regels te onthouden."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Zakken",
+      "english_word": "To fail (an exam)",
+      "meaning": "To not pass a test or examination.",
+      "example_sentence": "Hij is helaas gezakt voor zijn rijexamen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Gemotiveerd",
+      "english_word": "Motivated",
+      "meaning": "Very eager to do or achieve something.",
+      "example_sentence": "De gemotiveerde student studeert ook in het weekend."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Nieuwsgierig",
+      "english_word": "Curious",
+      "meaning": "Wanting to know or learn something.",
+      "example_sentence": "Kinderen zijn vaak erg nieuwsgierig."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Makkelijk",
+      "english_word": "Easy",
+      "meaning": "Not difficult; simple.",
+      "example_sentence": "Deze oefening is gelukkig heel makkelijk."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De pauze",
+      "english_word": "The break",
+      "meaning": "A short time when you stop working or studying.",
+      "example_sentence": "Tijdens de pauze eten we een boterham."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De huiswerkbegeleiding",
+      "english_word": "Homework tutoring",
+      "meaning": "Extra help given to students with their schoolwork.",
+      "example_sentence": "Mijn zoon gaat twee keer per week naar huiswerkbegeleiding."
+    },
+    {
+      "type": "Subject",
+      "dutch_word": "De wiskunde",
+      "english_word": "Mathematics",
+      "meaning": "The study of numbers, shapes, and patterns.",
+      "example_sentence": "Wiskunde is mijn favoriete vak op school."
+    },
+    {
+      "type": "Subject",
+      "dutch_word": "De geschiedenis",
+      "english_word": "History",
+      "meaning": "The study of past events.",
+      "example_sentence": "We leren bij geschiedenis over de Tweede Wereldoorlog."
+    },
+    {
+      "type": "Subject",
+      "dutch_word": "De aardrijkskunde",
+      "english_word": "Geography",
+      "meaning": "The study of the world's surface, physical features, and climate.",
+      "example_sentence": "Bij aardrijkskunde leren we over verschillende landen."
+    },
+    {
+      "type": "Subject",
+      "dutch_word": "De gymles",
+      "english_word": "PE lesson (Physical Education)",
+      "meaning": "A school subject involving physical exercise and sports.",
+      "example_sentence": "We gaan voetballen tijdens de gymles."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het schrift",
+      "english_word": "The notebook/exercise book",
+      "meaning": "A book with blank pages for writing notes.",
+      "example_sentence": "Ik schrijf de antwoorden in mijn schrift."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De pen",
+      "english_word": "The pen",
+      "meaning": "An instrument for writing or drawing with ink.",
+      "example_sentence": "Mag ik jouw blauwe pen even lenen?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het potlood",
+      "english_word": "The pencil",
+      "meaning": "An instrument for writing or drawing, usually made of wood with graphite.",
+      "example_sentence": "Ik teken een cirkel met een potlood."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De gum",
+      "english_word": "The eraser",
+      "meaning": "A small piece of rubber used to remove pencil marks.",
+      "example_sentence": "Ik heb een gum nodig om de fout te verbeteren."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De liniaal",
+      "english_word": "The ruler",
+      "meaning": "A straight strip of wood or plastic used to measure or draw straight lines.",
+      "example_sentence": "Gebruik een liniaal om een rechte lijn te trekken."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De rekenmachine",
+      "english_word": "The calculator",
+      "meaning": "An electronic device used for mathematical calculations.",
+      "example_sentence": "Tijdens het examen mag je een rekenmachine gebruiken."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De bibliotheek",
+      "english_word": "The library",
+      "meaning": "A place where books and other materials are kept for reading or borrowing.",
+      "example_sentence": "Het is altijd erg stil in de bibliotheek."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het schoolplein",
+      "english_word": "The playground/schoolyard",
+      "meaning": "An outside area where students spend their breaks.",
+      "example_sentence": "De kinderen spelen tikkertje op het schoolplein."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Lezen",
+      "english_word": "To read",
+      "meaning": "To look at and understand written or printed words.",
+      "example_sentence": "Ik lees elke avond een hoofdstuk uit mijn boek."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Schrijven",
+      "english_word": "To write",
+      "meaning": "To mark letters or words on paper with a pen or pencil.",
+      "example_sentence": "Vergeet niet je naam op de toets te schrijven."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Luisteren",
+      "english_word": "To listen",
+      "meaning": "To give one's attention to a sound.",
+      "example_sentence": "De studenten luisteren naar de instructies."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Spreken",
+      "english_word": "To speak",
+      "meaning": "To say something in order to convey information.",
+      "example_sentence": "Wij spreken alleen Nederlands in de les."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Vragen",
+      "english_word": "To ask",
+      "meaning": "To say something in order to get information.",
+      "example_sentence": "Als je het niet begrijpt, moet je het vragen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Antwoorden",
+      "english_word": "To answer",
+      "meaning": "To say or write something as a reaction to a question.",
+      "example_sentence": "Zij geeft altijd snel het juiste antwoord."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Samenwerken",
+      "english_word": "To collaborate/work together",
+      "meaning": "To work with another person or group to achieve something.",
+      "example_sentence": "Voor dit project moeten we goed samenwerken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Oefenen",
+      "english_word": "To practice",
+      "meaning": "To perform an activity regularly to improve a skill.",
+      "example_sentence": "Je moet veel oefenen om de taal te spreken."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Belangrijk",
+      "english_word": "Important",
+      "meaning": "Of great value or significance.",
+      "example_sentence": "Het is belangrijk om op tijd te komen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Interessant",
+      "english_word": "Interesting",
+      "meaning": "Arousing curiosity or interest.",
+      "example_sentence": "Ik vind de geschiedenis van Nederland erg interessant."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Saai",
+      "english_word": "Boring",
+      "meaning": "Not interesting; tedious.",
+      "example_sentence": "Ik vind dit vak een beetje saai."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Duidelijk",
+      "english_word": "Clear",
+      "meaning": "Easy to perceive, understand, or interpret.",
+      "example_sentence": "De uitleg van de leraar is heel duidelijk."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De opdracht",
+      "english_word": "The assignment/task",
+      "meaning": "A piece of work that someone is given to do.",
+      "example_sentence": "De studenten maken de opdracht in tweetallen."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De universiteit",
+      "english_word": "The university",
+      "meaning": "A high-level educational institution.",
+      "example_sentence": "Mijn broer studeert rechten aan de universiteit."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De hogeschool",
+      "english_word": "The college/University of Applied Sciences",
+      "meaning": "A school for professional or vocational training.",
+      "example_sentence": "Zij volgt een opleiding tot verpleegkundige aan de hogeschool."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De aula",
+      "english_word": "The auditorium/Great Hall",
+      "meaning": "A large room for presentations and ceremonies.",
+      "example_sentence": "Het examen vindt plaats in de grote aula."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De mentor",
+      "english_word": "The mentor/tutor",
+      "meaning": "A teacher who helps a specific student or group.",
+      "example_sentence": "Ik heb morgen een gesprek met mijn mentor."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het tentamen",
+      "english_word": "The exam (university level)",
+      "meaning": "A formal test, usually at the end of a semester.",
+      "example_sentence": "Ik moet hard leren voor mijn tentamen morgen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De toets",
+      "english_word": "The test",
+      "meaning": "A small exam or assessment.",
+      "example_sentence": "De docent geeft elke vrijdag een kleine toets."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De samenvatting",
+      "english_word": "The summary",
+      "meaning": "A short statement of the main points of a text.",
+      "example_sentence": "Deze samenvatting helpt mij om de tekst te begrijpen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het woordenboek",
+      "english_word": "The dictionary",
+      "meaning": "A book that lists words and their meanings.",
+      "example_sentence": "Mag ik een woordenboek gebruiken tijdens de les?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De map",
+      "english_word": "The folder/binder",
+      "meaning": "A container for keeping loose papers together.",
+      "example_sentence": "Ik bewaar al mijn tekeningen in een blauwe map."
+    },
+    {
+      "type": "Subject",
+      "dutch_word": "De vreemde taal",
+      "english_word": "The foreign language",
+      "meaning": "A language that is not your native tongue.",
+      "example_sentence": "Op school leren wij Engels als vreemde taal."
+    },
+    {
+      "type": "Subject",
+      "dutch_word": "De biologie",
+      "english_word": "Biology",
+      "meaning": "The study of living organisms.",
+      "example_sentence": "Bij biologie leren we over planten en dieren."
+    },
+    {
+      "type": "Subject",
+      "dutch_word": "De natuurkunde",
+      "english_word": "Physics",
+      "meaning": "The study of matter, energy, and forces.",
+      "example_sentence": "Natuurkunde vind ik een heel moeilijk vak."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Inleveren",
+      "english_word": "To hand in / To submit",
+      "meaning": "To give finished work to a teacher.",
+      "example_sentence": "Je moet je huiswerk voor vrijdag inleveren."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verbeteren",
+      "english_word": "To improve / To correct",
+      "meaning": "To make something better or fix mistakes.",
+      "example_sentence": "De leraar gaat mijn fouten verbeteren."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Voorbereiden",
+      "english_word": "To prepare",
+      "meaning": "To get ready for something in the future.",
+      "example_sentence": "Ik moet me goed voorbereiden op de presentatie."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Spreken",
+      "english_word": "To speak",
+      "meaning": "To say words to communicate.",
+      "example_sentence": "In de pauze mag iedereen zijn eigen taal spreken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Begrijpen",
+      "english_word": "To understand",
+      "meaning": "To know the meaning of something.",
+      "example_sentence": "Ik begrijp deze opdracht nog niet helemaal."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Herhalen",
+      "english_word": "To repeat",
+      "meaning": "To say or do something again.",
+      "example_sentence": "Kunt u die vraag alstublieft herhalen?"
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Streng",
+      "english_word": "Strict",
+      "meaning": "Demanding that rules are followed exactly.",
+      "example_sentence": "Onze nieuwe leraar is heel aardig, maar ook streng."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Handig",
+      "english_word": "Handy/Useful",
+      "meaning": "Practical or easy to use.",
+      "example_sentence": "Een rekenmachine is erg handig bij wiskunde."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Aanwezig",
+      "english_word": "Present",
+      "meaning": "Being at a place (not absent).",
+      "example_sentence": "De meeste studenten waren vandaag aanwezig."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Afwezig",
+      "english_word": "Absent",
+      "meaning": "Not being at a place where you should be.",
+      "example_sentence": "Drie leerlingen zijn vandaag afwezig door ziekte."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De opleiding",
+      "english_word": "The education/course of study",
+      "meaning": "The series of lessons to learn a profession.",
+      "example_sentence": "Hij volgt een opleiding tot automonteur."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De afstudeerstage",
+      "english_word": "The graduation internship",
+      "meaning": "Work experience done at the end of a study program.",
+      "example_sentence": "Ik zoek een afstudeerstage bij een groot bedrijf."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De vakantie",
+      "english_word": "The holiday/vacation",
+      "meaning": "A period when the school is closed.",
+      "example_sentence": "De leerlingen kijken uit naar de zomervakantie."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De decaan",
+      "english_word": "The dean/counselor",
+      "meaning": "An advisor who helps students choose their subjects or future careers.",
+      "example_sentence": "Ik heb een afspraak met de decaan over mijn vervolgopleiding."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De klassenvertegenwoordiger",
+      "english_word": "The class representative",
+      "meaning": "A student chosen to represent their class in meetings.",
+      "example_sentence": "De klassenvertegenwoordiger praat met de directeur."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De stagiair",
+      "english_word": "The intern/trainee",
+      "meaning": "A student who is working to gain experience.",
+      "example_sentence": "De stagiair helpt de docent in de klas."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De laptop",
+      "english_word": "The laptop",
+      "meaning": "A portable computer used for schoolwork.",
+      "example_sentence": "Vergeet niet je laptop op te laden voor de les."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De USB-stick",
+      "english_word": "The USB drive",
+      "meaning": "A small device for storing digital files.",
+      "example_sentence": "Ik heb mijn presentatie op een USB-stick gezet."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De markeerstift",
+      "english_word": "The highlighter",
+      "meaning": "A pen used to mark important parts of a text.",
+      "example_sentence": "Ik gebruik een gele markeerstift voor de belangrijkste woorden."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het rapport",
+      "english_word": "The school report",
+      "meaning": "A document showing a student's progress and grades.",
+      "example_sentence": "Mijn ouders zijn erg blij met mijn rapport."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het potloodslijper",
+      "english_word": "The pencil sharpener",
+      "meaning": "A tool used to sharpen pencils.",
+      "example_sentence": "Mag ik jouw potloodslijper even gebruiken?"
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De kantine",
+      "english_word": "The canteen/cafeteria",
+      "meaning": "The place where students eat lunch.",
+      "example_sentence": "We eten onze broodjes in de kantine."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De gymzaal",
+      "english_word": "The gym/sports hall",
+      "meaning": "A room equipped for physical exercise.",
+      "example_sentence": "De gymzaal is na de les weer netjes opgeruimd."
+    },
+    {
+      "type": "Subject",
+      "dutch_word": "De scheikunde",
+      "english_word": "Chemistry",
+      "meaning": "The study of substances and how they react.",
+      "example_sentence": "In de scheikundeles doen we vaak experimenten."
+    },
+    {
+      "type": "Subject",
+      "dutch_word": "De informatica",
+      "english_word": "Computer Science/IT",
+      "meaning": "The study of computers and programming.",
+      "example_sentence": "Bij informatica leren we hoe we een website maken."
+    },
+    {
+      "type": "Subject",
+      "dutch_word": "De economie",
+      "english_word": "Economics",
+      "meaning": "The study of money, trade, and industry.",
+      "example_sentence": "Bij economie leren we over vraag en aanbod."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Samenmaken",
+      "english_word": "To do/make together",
+      "meaning": "To complete a task with another person.",
+      "example_sentence": "Zullen we dit huiswerk samenmaken?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Voorlezen",
+      "english_word": "To read aloud",
+      "meaning": "To read a text so others can hear it.",
+      "example_sentence": "De juf gaat een kort verhaal voorlezen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Onderstrepen",
+      "english_word": "To underline",
+      "meaning": "To draw a line under a word.",
+      "example_sentence": "Je moet het juiste antwoord onderstrepen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Inschrijven",
+      "english_word": "To register/enroll",
+      "meaning": "To sign up for a course or school.",
+      "example_sentence": "Ik wil me inschrijven voor een cursus Nederlands."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Spellen",
+      "english_word": "To spell",
+      "meaning": "To say or write the letters of a word in order.",
+      "example_sentence": "Kun je jouw achternaam voor mij spellen?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Nakijken",
+      "english_word": "To check/grade",
+      "meaning": "To look over work to find and correct errors.",
+      "example_sentence": "De leraar moet de toetsen nog nakijken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Opletten",
+      "english_word": "To pay attention",
+      "meaning": "To watch or listen carefully.",
+      "example_sentence": "Je moet goed opletten tijdens de uitleg."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Bespreken",
+      "english_word": "To discuss",
+      "meaning": "To talk about something with others.",
+      "example_sentence": "We gaan de antwoorden klassikaal bespreken."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Nauwkeurig",
+      "english_word": "Accurate/Precise",
+      "meaning": "Doing something with great care and detail.",
+      "example_sentence": "Bij wiskunde moet je heel nauwkeurig werken."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Leerzaam",
+      "english_word": "Instructive/Educational",
+      "meaning": "Providing useful knowledge.",
+      "example_sentence": "Dit was een erg leerzame les."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Geslaagd",
+      "english_word": "Passed/Successful",
+      "meaning": "Having successfully completed an exam.",
+      "example_sentence": "Hoera! Ik ben geslaagd voor mijn examen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Zelfstandig",
+      "english_word": "Independent",
+      "meaning": "Working on your own without help.",
+      "example_sentence": "De leerlingen werken vandaag zelfstandig aan hun taak."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De kennis",
+      "english_word": "The knowledge",
+      "meaning": "Information and skills gained through experience.",
+      "example_sentence": "Hij heeft veel kennis over de Nederlandse cultuur."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De vaardigheid",
+      "english_word": "The skill",
+      "meaning": "The ability to do something well.",
+      "example_sentence": "Spreken is een belangrijke vaardigheid bij een taal."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De uitslag",
+      "english_word": "The result",
+      "meaning": "The final score of an exam.",
+      "example_sentence": "Volgende week krijgen we de uitslag van de toets."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De studiebeurs",
+      "english_word": "The scholarship/grant",
+      "meaning": "Money given to a student to pay for their education.",
+      "example_sentence": "Zij heeft een studiebeurs gekregen voor de universiteit."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De aanwezigheidsplicht",
+      "english_word": "Compulsory attendance",
+      "meaning": "The rule that you must be present at school.",
+      "example_sentence": "Er geldt een strenge aanwezigheidsplicht voor deze lessen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het niveau",
+      "english_word": "The level",
+      "meaning": "A position on a scale of difficulty.",
+      "example_sentence": "Wat is jouw niveau van de Nederlandse taal?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De basisschool",
+      "english_word": "Primary school",
+      "meaning": "School for children aged 4 to 12.",
+      "example_sentence": "Mijn dochter gaat met plezier naar de basisschool."
+    }
+  ]
+}

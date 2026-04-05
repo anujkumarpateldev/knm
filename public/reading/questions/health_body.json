@@ -1,0 +1,768 @@
+{
+  "module_id": "M11_Reading",
+  "module_title_nl": "Gezondheid en lichaam",
+  "module_title_en": "Health and Body",
+  "total_questions": 20,
+  "questions": [
+    {
+      "id": "M11_R001",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Afspraak maken",
+      "topic_en": "Making an appointment",
+      "source_text_nl": "Huisartsenpraktijk West: Voor het maken van een afspraak kunt u bellen tussen 08:00 en 10:30 uur. Voor spoedgevallen kunt u de hele dag bellen en toets 1 drukken.",
+      "question_nl": "Wanneer moet je bellen voor een normale afspraak?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De hele dag"
+        },
+        {
+          "id": "B",
+          "text_nl": "Alleen na 10:30 uur"
+        },
+        {
+          "id": "C",
+          "text_nl": "Tussen 08:00 en 10:30 uur"
+        },
+        {
+          "id": "D",
+          "text_nl": "In het weekend"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst geeft een specifiek tijdblok aan voor het maken van reguliere afspraken.",
+        "en": "The text specifies a specific time block for making regular appointments."
+      },
+      "source_text_en": "GP Practice West: To make an appointment, you can call between 08:00 and 10:30 AM. For emergencies, you can call all day and press 1.",
+      "tags": [
+        "huisarts",
+        "afspraak",
+        "tijd"
+      ]
+    },
+    {
+      "id": "M11_R002",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Medicijnen",
+      "topic_en": "Medicine",
+      "source_text_nl": "Bijsluiter: Neem dit medicijn drie keer per dag in, steeds na de maaltijd. Gebruik maximaal 6 tabletten per 24 uur.",
+      "question_nl": "Wanneer moet je het medicijn innemen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Voor het eten"
+        },
+        {
+          "id": "B",
+          "text_nl": "Tijdens het slapen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Na de maaltijd"
+        },
+        {
+          "id": "D",
+          "text_nl": "Alleen in de ochtend"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "In de tekst staat duidelijk: 'steeds na de maaltijd'.",
+        "en": "The text clearly states: 'always after the meal'."
+      },
+      "source_text_en": "Leaflet: Take this medicine three times a day, always after a meal. Use a maximum of 6 tablets per 24 hours.",
+      "tags": [
+        "medicijnen",
+        "instructie",
+        "gezondheid"
+      ]
+    },
+    {
+      "id": "M11_R003",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Tandarts",
+      "topic_en": "Dentist",
+      "source_text_nl": "Beste patiënt, vergeet u uw afspraak bij de tandarts niet? U wordt verwacht op dinsdag 12 mei om 14:15 uur. Kunt u niet komen? Bel dan 24 uur van tevoren af.",
+      "question_nl": "Wat moet u doen als u niet naar de afspraak kunt gaan?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Niets doen"
+        },
+        {
+          "id": "B",
+          "text_nl": "De volgende dag bellen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Minimaal 24 uur van tevoren afbellen"
+        },
+        {
+          "id": "D",
+          "text_nl": "Een brief schrijven"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst vraagt om minimaal 24 uur van tevoren af te bellen bij verhindering.",
+        "en": "The text asks to cancel by phone at least 24 hours in advance if unable to attend."
+      },
+      "source_text_en": "Dear patient, don't forget your appointment at the dentist? You are expected on Tuesday, May 12 at 2:15 PM. Can't make it? Please cancel 24 hours in advance.",
+      "tags": [
+        "tandarts",
+        "afspraak",
+        "afzeggen"
+      ]
+    },
+    {
+      "id": "M11_R004",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Ziek melden",
+      "topic_en": "Reporting sick",
+      "source_text_nl": "Bericht aan werkgever: Beste meneer De Wit, ik ben helaas ziek en kan vandaag niet komen werken. Ik heb koorts en hoofdpijn. Ik bel u morgenochtend weer. Groetjes, Sara.",
+      "question_nl": "Wat heeft Sara volgens het bericht?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Een zere voet"
+        },
+        {
+          "id": "B",
+          "text_nl": "Honger"
+        },
+        {
+          "id": "C",
+          "text_nl": "Koorts en hoofdpijn"
+        },
+        {
+          "id": "D",
+          "text_nl": "Geen zin om te werken"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "Sara noemt haar symptomen: koorts en hoofdpijn.",
+        "en": "Sara mentions her symptoms: fever and headache."
+      },
+      "source_text_en": "Message to employer: Dear Mr. De Wit, unfortunately I am sick and cannot come to work today. I have a fever and a headache. I will call you again tomorrow morning. Regards, Sara.",
+      "tags": [
+        "werk",
+        "ziekte",
+        "symptomen"
+      ]
+    },
+    {
+      "id": "M11_R005",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Apotheek",
+      "topic_en": "Pharmacy",
+      "source_text_nl": "Apotheek De Liefde: Wij zijn geopend van maandag tot en met vrijdag van 08:30 tot 17:30 uur. Op zaterdag kunt u terecht bij de dienstdoende apotheek in het ziekenhuis.",
+      "question_nl": "Is de apotheek op zaterdag open?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Ja, de hele dag"
+        },
+        {
+          "id": "B",
+          "text_nl": "Nee, u moet dan naar het ziekenhuis"
+        },
+        {
+          "id": "C",
+          "text_nl": "Alleen in de ochtend"
+        },
+        {
+          "id": "D",
+          "text_nl": "Ja, maar alleen voor pleisters"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst geeft aan dat de eigen apotheek dicht is, maar dat er een alternatief is in het ziekenhuis.",
+        "en": "The text indicates that their own pharmacy is closed, but there is an alternative at the hospital."
+      },
+      "source_text_en": "Pharmacy De Liefde: We are open Monday to Friday from 08:30 AM to 05:30 PM. On Saturdays, you can go to the duty pharmacy in the hospital.",
+      "tags": [
+        "apotheek",
+        "openingstijden",
+        "ziekenhuis"
+      ]
+    },
+    {
+      "id": "M11_R006",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Bloedprikken",
+      "topic_en": "Blood test",
+      "source_text_nl": "Instructie bloedonderzoek: Voor dit onderzoek moet u nuchter blijven. Dit betekent dat u vanaf 22:00 uur de avond ervoor niets meer mag eten of drinken. Water drinken mag wel.",
+      "question_nl": "Wat mag u nog wel drinken voor het onderzoek?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Koffie"
+        },
+        {
+          "id": "B",
+          "text_nl": "Melk"
+        },
+        {
+          "id": "C",
+          "text_nl": "Water"
+        },
+        {
+          "id": "D",
+          "text_nl": "Sap"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "In de tekst staat expliciet: 'Water drinken mag wel.'",
+        "en": "The text explicitly states: 'Drinking water is allowed.'"
+      },
+      "source_text_en": "Blood test instruction: For this test you must remain fasting. This means you may not eat or drink anything from 10:00 PM the night before. You are allowed to drink water.",
+      "tags": [
+        "ziekenhuis",
+        "onderzoek",
+        "nuchter"
+      ]
+    },
+    {
+      "id": "M11_R007",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Consultatiebureau",
+      "topic_en": "Clinic for infants",
+      "source_text_nl": "Consultatiebureau: Morgen wordt uw baby verwacht voor de eerste vaccinatie. Neem de groeigids en een schone luier mee.",
+      "question_nl": "Wat moeten de ouders meenemen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Alleen de baby"
+        },
+        {
+          "id": "B",
+          "text_nl": "Eten voor de leraar"
+        },
+        {
+          "id": "C",
+          "text_nl": "De groeigids en een luier"
+        },
+        {
+          "id": "D",
+          "text_nl": "Speelgoed"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst noemt de groeigids en een luier als benodigdheden.",
+        "en": "The text mentions the growth guide and a diaper as requirements."
+      },
+      "source_text_en": "Clinic: Tomorrow your baby is expected for the first vaccination. Bring the growth guide and a clean diaper.",
+      "tags": [
+        "baby",
+        "vaccinatie",
+        "meenemen"
+      ]
+    },
+    {
+      "id": "M11_R008",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Huidverzorging",
+      "topic_en": "Skin care",
+      "source_text_nl": "Zonadvies: Bescherm uw huid goed tegen de zon. Gebruik zonnebrandcrème met minimaal factor 30. Blijf tussen 12:00 en 15:00 uur in de schaduw.",
+      "question_nl": "Wanneer kun je het beste in de schaduw blijven?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Voor 09:00 uur"
+        },
+        {
+          "id": "B",
+          "text_nl": "Tussen 12:00 en 15:00 uur"
+        },
+        {
+          "id": "C",
+          "text_nl": "Na 18:00 uur"
+        },
+        {
+          "id": "D",
+          "text_nl": "De hele dag"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst adviseert de schaduw op te zoeken tussen 12:00 en 15:00 uur.",
+        "en": "The text advises seeking shade between 12:00 and 3:00 PM."
+      },
+      "source_text_en": "Sun advice: Protect your skin well against the sun. Use sunscreen with at least factor 30. Stay in the shade between 12:00 and 3:00 PM.",
+      "tags": [
+        "zon",
+        "huid",
+        "tijd"
+      ]
+    },
+    {
+      "id": "M11_R009",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Fysiotherapie",
+      "topic_en": "Physiotherapy",
+      "source_text_nl": "Fysio-oefeningen: Doe deze oefening elke ochtend en avond. Herhaal de beweging 10 keer. Als u pijn voelt, moet u direct stoppen.",
+      "question_nl": "Wat moet je doen als de oefening pijn doet?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Harder trainen"
+        },
+        {
+          "id": "B",
+          "text_nl": "Direct stoppen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Een pilletje nemen"
+        },
+        {
+          "id": "D",
+          "text_nl": "De dokter bellen"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De instructie is om bij pijn direct op te houden met de oefening.",
+        "en": "The instruction is to stop the exercise immediately if pain is felt."
+      },
+      "source_text_en": "Physio exercises: Do this exercise every morning and evening. Repeat the movement 10 times. If you feel pain, you must stop immediately.",
+      "tags": [
+        "fysiotherapie",
+        "oefening",
+        "pijn"
+      ]
+    },
+    {
+      "id": "M11_R010",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Gips",
+      "topic_en": "Cast",
+      "source_text_nl": "Instructie voor gips: Zorg dat het gips niet nat wordt. Gebruik een plastic zak tijdens het douchen. Hebt u last van jeuk? Gebruik dan geen breinaald maar een föhn (koude lucht).",
+      "question_nl": "Wat mag je NIET doen als je jeuk hebt onder het gips?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Een föhn gebruiken"
+        },
+        {
+          "id": "B",
+          "text_nl": "Koude lucht gebruiken"
+        },
+        {
+          "id": "C",
+          "text_nl": "Een breinaald gebruiken"
+        },
+        {
+          "id": "D",
+          "text_nl": "Een plastic zak gebruiken"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst waarschuwt specifiek om geen breinaald te gebruiken tegen jeuk.",
+        "en": "The text specifically warns not to use a knitting needle for itching."
+      },
+      "source_text_en": "Cast instruction: Make sure the cast does not get wet. Use a plastic bag while showering. Do you suffer from itching? Then do not use a knitting needle but a hairdryer (cold air).",
+      "tags": [
+        "gips",
+        "jeuk",
+        "zorg"
+      ]
+    },
+    {
+      "id": "M11_R011",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Gezonde voeding",
+      "topic_en": "Healthy diet",
+      "source_text_nl": "Gezondheidstip: Eet elke dag minimaal 250 gram groenten en 2 stuks fruit. Drink daarnaast genoeg water, minimaal 1,5 liter per dag.",
+      "question_nl": "Hoeveel fruit moet je volgens de tip per dag eten?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "250 gram"
+        },
+        {
+          "id": "B",
+          "text_nl": "1,5 liter"
+        },
+        {
+          "id": "C",
+          "text_nl": "2 stuks"
+        },
+        {
+          "id": "D",
+          "text_nl": "Zoveel je wilt"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst adviseert 2 stuks fruit per dag.",
+        "en": "The text advises 2 pieces of fruit per day."
+      },
+      "source_text_en": "Health tip: Eat at least 250 grams of vegetables and 2 pieces of fruit every day. In addition, drink enough water, at least 1.5 liters per day.",
+      "tags": [
+        "voeding",
+        "fruit",
+        "gezondheid"
+      ]
+    },
+    {
+      "id": "M11_R012",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "EHBO",
+      "topic_en": "First Aid",
+      "source_text_nl": "Brandwonden: Eerst water, de rest komt later! Houd een brandwond minimaal 10 minuten onder lauw stromend kraanwater.",
+      "question_nl": "Wat moet je doen bij een brandwond?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Ijs op de wond leggen"
+        },
+        {
+          "id": "B",
+          "text_nl": "Boter smeren"
+        },
+        {
+          "id": "C",
+          "text_nl": "10 minuten spoelen met lauw water"
+        },
+        {
+          "id": "D",
+          "text_nl": "Direct een verband aanleggen"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De belangrijkste regel is om de wond 10 minuten met lauw water te koelen.",
+        "en": "The most important rule is to cool the wound with lukewarm water for 10 minutes."
+      },
+      "source_text_en": "Burns: First water, the rest comes later! Keep a burn under lukewarm running tap water for at least 10 minutes.",
+      "tags": [
+        "EHBO",
+        "brandwond",
+        "water"
+      ]
+    },
+    {
+      "id": "M11_R013",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Opticien",
+      "topic_en": "Optician",
+      "source_text_nl": "Oogmeting: Hebt u moeite met lezen of ziet u minder scherp? Kom langs voor een gratis oogmeting. Maak een afspraak via onze website.",
+      "question_nl": "Hoeveel kost de oogmeting bij deze opticien?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "€50,-"
+        },
+        {
+          "id": "B",
+          "text_nl": "Dat staat niet in de tekst"
+        },
+        {
+          "id": "C",
+          "text_nl": "Het is gratis"
+        },
+        {
+          "id": "D",
+          "text_nl": "Je moet een bril kopen"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst vermeldt dat de oogmeting 'gratis' is.",
+        "en": "The text mentions that the eye test is 'free'."
+      },
+      "source_text_en": "Eye test: Do you have trouble reading or do you see less sharply? Come by for a free eye test. Make an appointment via our website.",
+      "tags": [
+        "opticien",
+        "ogen",
+        "gratis"
+      ]
+    },
+    {
+      "id": "M11_R014",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Bloedsuiker",
+      "topic_en": "Blood sugar",
+      "source_text_nl": "Diabetes controle: Voor het meten van uw suiker moet u uw handen goed wassen met alleen water. Gebruik geen zeep of alcohol, want dat beïnvloedt de uitslag.",
+      "question_nl": "Waarmee moet u uw handen wassen voor de controle?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Met zeep"
+        },
+        {
+          "id": "B",
+          "text_nl": "Met alleen water"
+        },
+        {
+          "id": "C",
+          "text_nl": "Met alcohol"
+        },
+        {
+          "id": "D",
+          "text_nl": "Niet wassen"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Zeep en alcohol mogen niet gebruikt worden, alleen water.",
+        "en": "Soap and alcohol should not be used, only water."
+      },
+      "source_text_en": "Diabetes check: To measure your sugar, you must wash your hands well with water only. Do not use soap or alcohol, as that affects the result.",
+      "tags": [
+        "diabetes",
+        "suiker",
+        "hygiëne"
+      ]
+    },
+    {
+      "id": "M11_R015",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Slaapadvies",
+      "topic_en": "Sleep advice",
+      "source_text_nl": "Slecht slapen: Drink na 20:00 uur geen koffie meer. Zorg voor een koele en donkere slaapkamer. Gebruik uw telefoon niet meer in bed.",
+      "question_nl": "Wat is een tip om beter te slapen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Koffie drinken voor het naar bed gaan"
+        },
+        {
+          "id": "B",
+          "text_nl": "De verwarming hoog zetten"
+        },
+        {
+          "id": "C",
+          "text_nl": "Je telefoon niet gebruiken in bed"
+        },
+        {
+          "id": "D",
+          "text_nl": "Licht aanlaten"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst adviseert om de telefoon niet meer te gebruiken in bed.",
+        "en": "The text advises not to use the phone in bed anymore."
+      },
+      "source_text_en": "Sleeping poorly: Do not drink coffee after 8:00 PM. Ensure a cool and dark bedroom. Do not use your phone in bed anymore.",
+      "tags": [
+        "slapen",
+        "advies",
+        "telefoon"
+      ]
+    },
+    {
+      "id": "M11_R016",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Spoedeisende hulp",
+      "topic_en": "Emergency room",
+      "source_text_nl": "Spoed: Is er direct gevaar voor de gezondheid? Bel dan 112. Voor andere spoedvragen die niet kunnen wachten tot de volgende dag, belt u de huisartsenpost.",
+      "question_nl": "Wanneer belt u 112?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Voor een herhaalrecept"
+        },
+        {
+          "id": "B",
+          "text_nl": "Bij direct gevaar"
+        },
+        {
+          "id": "C",
+          "text_nl": "Als u de weg niet weet"
+        },
+        {
+          "id": "D",
+          "text_nl": "Voor een afspraak"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "112 is het noodnummer voor situaties met direct gevaar.",
+        "en": "112 is the emergency number for situations with immediate danger."
+      },
+      "source_text_en": "Emergency: Is there immediate danger to health? Then call 112. For other emergency questions that cannot wait until the next day, call the after-hours GP clinic.",
+      "tags": [
+        "spoed",
+        "112",
+        "noodgeval"
+      ]
+    },
+    {
+      "id": "M11_R017",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Allergie",
+      "topic_en": "Allergy",
+      "source_text_nl": "Hooikoorts: Hebt u last van jeukende ogen en moet u veel niezen? Blijf dan op dagen met veel wind zoveel mogelijk binnen. Houd de ramen van uw slaapkamer dicht.",
+      "question_nl": "Wat moeten mensen met hooikoorts doen als het hard waait?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Buiten gaan wandelen"
+        },
+        {
+          "id": "B",
+          "text_nl": "De ramen openzetten"
+        },
+        {
+          "id": "C",
+          "text_nl": "Zoveel mogelijk binnen blijven"
+        },
+        {
+          "id": "D",
+          "text_nl": "In de tuin werken"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst adviseert om bij veel wind binnen te blijven om klachten te voorkomen.",
+        "en": "The text advises staying indoors when there is a lot of wind to prevent symptoms."
+      },
+      "source_text_en": "Hay fever: Do you suffer from itchy eyes and do you have to sneeze a lot? On windy days, stay indoors as much as possible. Keep the windows of your bedroom closed.",
+      "tags": [
+        "hooikoorts",
+        "allergie",
+        "advies"
+      ]
+    },
+    {
+      "id": "M11_R018",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Hoofdpijn",
+      "topic_en": "Headache",
+      "source_text_nl": "Pijnstillers: Bij hoofdpijn kunt u paracetamol gebruiken. Neem niet meer dan 4 gram per dag. Dit zijn maximaal 8 tabletten van 500 mg.",
+      "question_nl": "Hoeveel paracetamol mag je maximaal per dag?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "2 tabletten"
+        },
+        {
+          "id": "B",
+          "text_nl": "4 gram"
+        },
+        {
+          "id": "C",
+          "text_nl": "10 gram"
+        },
+        {
+          "id": "D",
+          "text_nl": "Zoveel als nodig"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst vermeldt een maximum van 4 gram per dag.",
+        "en": "The text mentions a maximum of 4 grams per day."
+      },
+      "source_text_en": "Painkillers: For a headache, you can use paracetamol. Do not take more than 4 grams per day. This is a maximum of 8 tablets of 500 mg.",
+      "tags": [
+        "pijnstillers",
+        "paracetamol",
+        "maximaal"
+      ]
+    },
+    {
+      "id": "M11_R019",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Luizen",
+      "topic_en": "Lice",
+      "source_text_nl": "Brief van school: Er zijn luizen gevonden in de klas. Controleer uw kind vanavond met een luizenkam. Als u iets vindt, moet u direct beginnen met de behandeling.",
+      "question_nl": "Hoe moeten ouders hun kind controleren?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Met een gewone borstel"
+        },
+        {
+          "id": "B",
+          "text_nl": "Met een luizenkam"
+        },
+        {
+          "id": "C",
+          "text_nl": "Alleen met hun handen"
+        },
+        {
+          "id": "D",
+          "text_nl": "Niet, de leraar doet dat"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst schrijft het gebruik van een luizenkam voor.",
+        "en": "The text prescribes the use of a lice comb."
+      },
+      "source_text_en": "Letter from school: Lice have been found in the class. Check your child tonight with a lice comb. If you find anything, you must start treatment immediately.",
+      "tags": [
+        "school",
+        "luizen",
+        "controle"
+      ]
+    },
+    {
+      "id": "M11_R020",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Roken",
+      "topic_en": "Smoking",
+      "source_text_nl": "Stoppen met roken: Wilt u hulp bij het stoppen met roken? Uw huisarts kan u advies geven over cursussen en medicijnen. Dit wordt vaak vergoed door uw verzekering.",
+      "question_nl": "Wie kan u helpen als u wilt stoppen met roken?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De buurman"
+        },
+        {
+          "id": "B",
+          "text_nl": "De politie"
+        },
+        {
+          "id": "C",
+          "text_nl": "De huisarts"
+        },
+        {
+          "id": "D",
+          "text_nl": "De tandarts"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De huisarts is degene die advies en hulp biedt bij het stoppen met roken.",
+        "en": "The GP is the person who provides advice and help with quitting smoking."
+      },
+      "source_text_en": "Quit smoking: Do you want help with quitting smoking? Your GP can give you advice about courses and medicines. This is often covered by your insurance.",
+      "tags": [
+        "roken",
+        "huisarts",
+        "hulp"
+      ]
+    }
+  ]
+}

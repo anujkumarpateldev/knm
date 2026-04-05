@@ -1,0 +1,768 @@
+{
+  "module_id": "M9_Reading",
+  "module_title_nl": "Eten en Drinken",
+  "module_title_en": "Food and Drink",
+  "total_questions": 20,
+  "questions": [
+    {
+      "id": "M9_R001",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Menu",
+      "topic_en": "Menu",
+      "source_text_nl": "Dagmenu: Vandaag serveren wij tomatensoep als voorgerecht. Het hoofdgerecht is biefstuk met frites of een vegetarische pasta. Als nagerecht is er ijs met slagroom.",
+      "question_nl": "Wat kunnen vegetariërs eten als hoofdgerecht?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Tomatensoep"
+        },
+        {
+          "id": "B",
+          "text_nl": "Biefstuk"
+        },
+        {
+          "id": "C",
+          "text_nl": "Pasta"
+        },
+        {
+          "id": "D",
+          "text_nl": "IJs"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst noemt een vegetarische pasta als optie voor het hoofdgerecht.",
+        "en": "The text mentions a vegetarian pasta as an option for the main course."
+      },
+      "source_text_en": "Daily menu: Today we serve tomato soup as a starter. The main course is steak with fries or a vegetarian pasta. For dessert, there is ice cream with whipped cream.",
+      "tags": [
+        "menu",
+        "vegetarisch",
+        "hoofdgerecht"
+      ]
+    },
+    {
+      "id": "M9_R002",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Boodschappen",
+      "topic_en": "Groceries",
+      "source_text_nl": "Boodschappenlijstje: 1 liter melk, 6 eieren, een witbrood en 500 gram gehakt. Let op: de melk is in de aanbieding!",
+      "question_nl": "Welk product is goedkoper dan normaal?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Het brood"
+        },
+        {
+          "id": "B",
+          "text_nl": "De eieren"
+        },
+        {
+          "id": "C",
+          "text_nl": "Het gehakt"
+        },
+        {
+          "id": "D",
+          "text_nl": "De melk"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": {
+        "nl": "In de tekst staat dat de melk 'in de aanbieding' is, wat betekent dat het goedkoper is.",
+        "en": "The text states that the milk is 'in de aanbieding', which means it is on sale/cheaper."
+      },
+      "source_text_en": "Shopping list: 1 liter of milk, 6 eggs, a white bread, and 500 grams of minced meat. Note: the milk is on sale!",
+      "tags": [
+        "boodschappen",
+        "aanbieding",
+        "prijs"
+      ]
+    },
+    {
+      "id": "M9_R003",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Recept",
+      "topic_en": "Recipe",
+      "source_text_nl": "Recept voor pannenkoeken: Meng 250 gram bloem met 2 eieren en 500 ml melk. Bak de pannenkoeken in een hete pan met een beetje boter.",
+      "question_nl": "Hoeveel melk heb je nodig?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "250 gram"
+        },
+        {
+          "id": "B",
+          "text_nl": "500 ml"
+        },
+        {
+          "id": "C",
+          "text_nl": "2 liter"
+        },
+        {
+          "id": "D",
+          "text_nl": "Een klein beetje"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het recept vraagt specifiek om 500 ml melk.",
+        "en": "The recipe specifically asks for 500 ml of milk."
+      },
+      "source_text_en": "Recipe for pancakes: Mix 250 grams of flour with 2 eggs and 500 ml of milk. Bake the pancakes in a hot pan with a bit of butter.",
+      "tags": [
+        "recept",
+        "hoeveelheid",
+        "koken"
+      ]
+    },
+    {
+      "id": "M9_R004",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Uitnodiging",
+      "topic_en": "Invitation",
+      "source_text_nl": "Hoi Linda, kom je morgen bij mij eten? Ik maak lasagne. We eten om 18:30 uur. Laat je even weten of je kunt? Groetjes, Mark.",
+      "question_nl": "Wat gaat Mark koken?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Pizza"
+        },
+        {
+          "id": "B",
+          "text_nl": "Pasta"
+        },
+        {
+          "id": "C",
+          "text_nl": "Lasagne"
+        },
+        {
+          "id": "D",
+          "text_nl": "Soep"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "Mark schrijft expliciet: 'Ik maak lasagne.'",
+        "en": "Mark explicitly writes: 'I am making lasagna.'"
+      },
+      "source_text_en": "Hi Linda, are you coming to eat at my place tomorrow? I'm making lasagna. We eat at 6:30 PM. Let me know if you can make it? Regards, Mark.",
+      "tags": [
+        "uitnodiging",
+        "koken",
+        "tijd"
+      ]
+    },
+    {
+      "id": "M9_R005",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Kantine",
+      "topic_en": "Canteen",
+      "source_text_nl": "In de bedrijfskantine: Vanaf vandaag kunt u ook gezonde lunches kopen. Er zijn salades en vers fruit. Warme snacks worden alleen nog op vrijdag verkocht.",
+      "question_nl": "Wanneer kun je een warme snack kopen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Elke dag"
+        },
+        {
+          "id": "B",
+          "text_nl": "Alleen op vrijdag"
+        },
+        {
+          "id": "C",
+          "text_nl": "In het weekend"
+        },
+        {
+          "id": "D",
+          "text_nl": "Nooit meer"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst stelt dat warme snacks alleen nog op vrijdag worden verkocht.",
+        "en": "The text states that warm snacks are only sold on Fridays now."
+      },
+      "source_text_en": "In the company canteen: Starting today you can also buy healthy lunches. There are salads and fresh fruit. Warm snacks are only sold on Fridays.",
+      "tags": [
+        "kantine",
+        "snack",
+        "vrijdag"
+      ]
+    },
+    {
+      "id": "M9_R006",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Sap",
+      "topic_en": "Juice",
+      "source_text_nl": "Informatie op een sapfles: Na opening nog 3 dagen houdbaar in de koelkast. Schudden voor gebruik.",
+      "question_nl": "Wat moet je doen voordat je het sap drinkt?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "In de koelkast zetten"
+        },
+        {
+          "id": "B",
+          "text_nl": "Drie dagen wachten"
+        },
+        {
+          "id": "C",
+          "text_nl": "De fles schudden"
+        },
+        {
+          "id": "D",
+          "text_nl": "Water toevoegen"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De instructie 'Schudden voor gebruik' betekent dat je de fles moet bewegen voor gebruik.",
+        "en": "The instruction 'Schudden voor gebruik' means you must shake the bottle before use."
+      },
+      "source_text_en": "Information on a juice bottle: After opening, keeps for 3 days in the refrigerator. Shake before use.",
+      "tags": [
+        "sap",
+        "instructie",
+        "bewaren"
+      ]
+    },
+    {
+      "id": "M9_R007",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Bakkerij",
+      "topic_en": "Bakery",
+      "source_text_nl": "Bakkerij Jansen: Verse broodjes elke morgen vanaf 07:00 uur. Op zondag zijn wij gesloten.",
+      "question_nl": "Kun je op zondag brood kopen bij deze bakker?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Ja, vanaf 07:00 uur"
+        },
+        {
+          "id": "B",
+          "text_nl": "Ja, de hele dag"
+        },
+        {
+          "id": "C",
+          "text_nl": "Nee, de bakker is dan dicht"
+        },
+        {
+          "id": "D",
+          "text_nl": "Alleen in de ochtend"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst zegt duidelijk dat de bakkerij op zondag gesloten is.",
+        "en": "The text clearly says the bakery is closed on Sundays."
+      },
+      "source_text_en": "Bakery Jansen: Fresh rolls every morning from 07:00 AM. On Sundays we are closed.",
+      "tags": [
+        "bakker",
+        "openingstijden",
+        "zondag"
+      ]
+    },
+    {
+      "id": "M9_R008",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Reserveren",
+      "topic_en": "Reservation",
+      "source_text_nl": "Restaurant De Markt: Reserveren is alleen nodig voor groepen van meer dan 6 personen. U kunt ook buiten op het terras eten.",
+      "question_nl": "Ik kom met 4 personen. Moet ik reserveren?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Ja, dat is verplicht"
+        },
+        {
+          "id": "B",
+          "text_nl": "Nee, dat hoeft niet"
+        },
+        {
+          "id": "C",
+          "text_nl": "Alleen als u buiten wilt zitten"
+        },
+        {
+          "id": "D",
+          "text_nl": "Ja, want het is druk"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De groep is kleiner dan 6 personen, dus reserveren is niet nodig.",
+        "en": "The group is smaller than 6 people, so a reservation is not necessary."
+      },
+      "source_text_en": "Restaurant De Markt: Reservations are only necessary for groups of more than 6 people. You can also eat outside on the terrace.",
+      "tags": [
+        "restaurant",
+        "reserveren",
+        "groep"
+      ]
+    },
+    {
+      "id": "M9_R009",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Allergie",
+      "topic_en": "Allergy",
+      "source_text_nl": "Waarschuwing: Dit product bevat sporen van noten. Niet geschikt voor mensen met een allergie.",
+      "question_nl": "Voor wie is dit product gevaarlijk?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Voor kinderen"
+        },
+        {
+          "id": "B",
+          "text_nl": "Voor vegetariërs"
+        },
+        {
+          "id": "C",
+          "text_nl": "Voor mensen met een allergie"
+        },
+        {
+          "id": "D",
+          "text_nl": "Voor niemand"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst zegt dat het niet geschikt is voor mensen met een allergie.",
+        "en": "The text says it is not suitable for people with an allergy."
+      },
+      "source_text_en": "Warning: This product contains traces of nuts. Not suitable for people with an allergy.",
+      "tags": [
+        "allergie",
+        "veiligheid",
+        "noten"
+      ]
+    },
+    {
+      "id": "M9_R010",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Korting",
+      "topic_en": "Discount",
+      "source_text_nl": "Supermarkt De Ster: Deze week alle kaas met 25% korting. Ook 2 kilo appels voor slechts 3 euro!",
+      "question_nl": "Hoeveel korting krijg je op de kaas?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "3 euro"
+        },
+        {
+          "id": "B",
+          "text_nl": "25 procent"
+        },
+        {
+          "id": "C",
+          "text_nl": "50 procent"
+        },
+        {
+          "id": "D",
+          "text_nl": "Geen korting"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst vermeldt een korting van 25% op alle kaas.",
+        "en": "The text mentions a discount of 25% on all cheese."
+      },
+      "source_text_en": "Supermarket De Ster: This week all cheese with a 25% discount. Also 2 kilos of apples for only 3 euros!",
+      "tags": [
+        "korting",
+        "kaas",
+        "supermarkt"
+      ]
+    },
+    {
+      "id": "M9_R011",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Borrel",
+      "topic_en": "Drinks",
+      "source_text_nl": "Vrijdagmiddagborrel: Om 16:00 uur zijn er hapjes en drankjes in de kantine. Je hoeft niets mee te nemen.",
+      "question_nl": "Wat moeten de mensen meenemen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Drankjes"
+        },
+        {
+          "id": "B",
+          "text_nl": "Hapjes"
+        },
+        {
+          "id": "C",
+          "text_nl": "Niets"
+        },
+        {
+          "id": "D",
+          "text_nl": "Geld"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "In de tekst staat: 'Je hoeft niets mee te nemen.'",
+        "en": "The text says: 'You don't need to bring anything.'"
+      },
+      "source_text_en": "Friday afternoon drinks: At 4:00 PM there are snacks and drinks in the canteen. You don't need to bring anything.",
+      "tags": [
+        "borrel",
+        "kantine",
+        "meenemen"
+      ]
+    },
+    {
+      "id": "M9_R012",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Koffiemachine",
+      "topic_en": "Coffee machine",
+      "source_text_nl": "Koffiemachine instructie: Gebruik alleen verse melk. Bel de monteur als het rode lampje brandt.",
+      "question_nl": "Wanneer moet je de monteur bellen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Elke dag"
+        },
+        {
+          "id": "B",
+          "text_nl": "Als het rode lampje brandt"
+        },
+        {
+          "id": "C",
+          "text_nl": "Als de melk op is"
+        },
+        {
+          "id": "D",
+          "text_nl": "Nooit"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst geeft aan dat je de monteur moet bellen als het rode lampje brandt.",
+        "en": "The text indicates you should call the technician if the red light is on."
+      },
+      "source_text_en": "Coffee machine instruction: Use only fresh milk. Call the technician if the red light is on.",
+      "tags": [
+        "koffie",
+        "instructie",
+        "reparatie"
+      ]
+    },
+    {
+      "id": "M9_R013",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Vis",
+      "topic_en": "Fish",
+      "source_text_nl": "Verse vis op de markt: Vandaag 3 haringen halen, 2 betalen!",
+      "question_nl": "Hoeveel haringen krijg je als je voor 2 haringen betaalt?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "1"
+        },
+        {
+          "id": "B",
+          "text_nl": "2"
+        },
+        {
+          "id": "C",
+          "text_nl": "3"
+        },
+        {
+          "id": "D",
+          "text_nl": "5"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De actie is '3 halen, 2 betalen', dus je krijgt er 3.",
+        "en": "The promotion is 'get 3, pay for 2', so you get 3."
+      },
+      "source_text_en": "Fresh fish at the market: Get 3 herrings today, pay for 2!",
+      "tags": [
+        "markt",
+        "vis",
+        "aanbieding"
+      ]
+    },
+    {
+      "id": "M9_R014",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Pizza",
+      "topic_en": "Pizza",
+      "source_text_nl": "Oven op 200 graden. Bak de pizza in 12 minuten gaar.",
+      "question_nl": "Hoe lang moet de pizza in de oven?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "200 minuten"
+        },
+        {
+          "id": "B",
+          "text_nl": "12 minuten"
+        },
+        {
+          "id": "C",
+          "text_nl": "Eén uur"
+        },
+        {
+          "id": "D",
+          "text_nl": "Dat staat niet in de tekst"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst zegt dat de pizza in 12 minuten klaar is.",
+        "en": "The text says the pizza is ready in 12 minutes."
+      },
+      "source_text_en": "Oven at 200 degrees. Bake the pizza for 12 minutes until done.",
+      "tags": [
+        "pizza",
+        "tijd",
+        "oven"
+      ]
+    },
+    {
+      "id": "M9_R015",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Restaurant",
+      "topic_en": "Restaurant",
+      "source_text_nl": "Vanavond is onze keuken gesloten wegens een privéfeest. Morgen vanaf 12:00 uur weer open.",
+      "question_nl": "Waarom kun je vanavond niet eten in het restaurant?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Het is te druk"
+        },
+        {
+          "id": "B",
+          "text_nl": "Wegens een privéfeest"
+        },
+        {
+          "id": "C",
+          "text_nl": "Het restaurant is failliet"
+        },
+        {
+          "id": "D",
+          "text_nl": "De kok is ziek"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst geeft aan dat de keuken dicht is vanwege een privéfeest.",
+        "en": "The text indicates the kitchen is closed due to a private party."
+      },
+      "source_text_en": "Tonight our kitchen is closed due to a private party. Open again tomorrow from 12:00 PM.",
+      "tags": [
+        "restaurant",
+        "sluiting",
+        "feest"
+      ]
+    },
+    {
+      "id": "M9_R016",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Betalen",
+      "topic_en": "Payment",
+      "source_text_nl": "Betalen kan alleen met pin. Wij accepteren geen contant geld.",
+      "question_nl": "Hoe kun je betalen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Met contant geld"
+        },
+        {
+          "id": "B",
+          "text_nl": "Alleen met pin"
+        },
+        {
+          "id": "C",
+          "text_nl": "Met een creditcard"
+        },
+        {
+          "id": "D",
+          "text_nl": "Je hoeft niet te betalen"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst zegt dat pinnen de enige betaalmethode is.",
+        "en": "The text says that debit card (pin) is the only payment method."
+      },
+      "source_text_en": "Payment is only possible by debit card. We do not accept cash.",
+      "tags": [
+        "betalen",
+        "pin",
+        "geld"
+      ]
+    },
+    {
+      "id": "M9_R017",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Water",
+      "topic_en": "Water",
+      "source_text_nl": "Gezondheidstip: Drink minimaal 2 liter water per dag.",
+      "question_nl": "Hoeveel water moet je per dag drinken?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Minder dan 1 liter"
+        },
+        {
+          "id": "B",
+          "text_nl": "Zoveel mogelijk"
+        },
+        {
+          "id": "C",
+          "text_nl": "Minimaal 2 liter"
+        },
+        {
+          "id": "D",
+          "text_nl": "Dat maakt niet uit"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst noemt minimaal 2 liter.",
+        "en": "The text mentions at least 2 liters."
+      },
+      "source_text_en": "Health tip: Drink at least 2 liters of water per day.",
+      "tags": [
+        "water",
+        "gezondheid",
+        "hoeveelheid"
+      ]
+    },
+    {
+      "id": "M9_R018",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Aardappelen",
+      "topic_en": "Potatoes",
+      "source_text_nl": "Aanbieding: Koop een zak aardappelen en krijg een zak uien gratis!",
+      "question_nl": "Wat krijg je gratis?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De aardappelen"
+        },
+        {
+          "id": "B",
+          "text_nl": "Een zak uien"
+        },
+        {
+          "id": "C",
+          "text_nl": "Geld terug"
+        },
+        {
+          "id": "D",
+          "text_nl": "Niets"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst zegt dat je gratis uien krijgt bij aankoop van aardappelen.",
+        "en": "The text says you get free onions when buying potatoes."
+      },
+      "source_text_en": "Offer: Buy a bag of potatoes and get a bag of onions for free!",
+      "tags": [
+        "uien",
+        "gratis",
+        "aanbieding"
+      ]
+    },
+    {
+      "id": "M9_R019",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Wijn",
+      "topic_en": "Wine",
+      "source_text_nl": "Wijnproeverij: Zaterdag om 15:00 uur. Kosten: €15 per persoon. Alleen voor 18 jaar en ouder.",
+      "question_nl": "Hoe oud moet je zijn voor de wijnproeverij?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "15 jaar"
+        },
+        {
+          "id": "B",
+          "text_nl": "Ouder dan 18 jaar"
+        },
+        {
+          "id": "C",
+          "text_nl": "Dat maakt niet uit"
+        },
+        {
+          "id": "D",
+          "text_nl": "Precies 18 jaar"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst zegt dat het alleen voor 18 jaar en ouder is.",
+        "en": "The text says it is only for 18 years and older."
+      },
+      "source_text_en": "Wine tasting: Saturday at 3:00 PM. Costs: €15 per person. Only for 18 years and older.",
+      "tags": [
+        "wijn",
+        "leeftijd",
+        "evenement"
+      ]
+    },
+    {
+      "id": "M9_R020",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Supermarkt",
+      "topic_en": "Supermarket",
+      "source_text_nl": "Openingstijden: Maandag t/m zaterdag van 08:00 tot 21:00 uur. Zondag gesloten.",
+      "question_nl": "Tot hoe laat is de supermarkt open op zaterdag?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "08:00 uur"
+        },
+        {
+          "id": "B",
+          "text_nl": "21:00 uur"
+        },
+        {
+          "id": "C",
+          "text_nl": "De hele nacht"
+        },
+        {
+          "id": "D",
+          "text_nl": "De supermarkt is dicht"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Van maandag t/m zaterdag is de supermarkt open tot 21:00 uur.",
+        "en": "From Monday to Saturday, the supermarket is open until 9:00 PM."
+      },
+      "source_text_en": "Opening hours: Monday to Saturday from 08:00 AM to 09:00 PM. Closed on Sundays.",
+      "tags": [
+        "tijd",
+        "supermarkt",
+        "zaterdag"
+      ]
+    }
+  ]
+}

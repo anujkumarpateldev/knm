@@ -1,0 +1,767 @@
+{
+  "module_id": "M8_Reading",
+  "module_title_nl": "Dagelijkse routine",
+  "module_title_en": "Daily Routine",
+  "total_questions": 15,
+  "questions": [
+    {
+      "id": "M8_R001",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Ochtendritueel",
+      "topic_en": "Morning ritual",
+      "source_text_nl": "Mijn dag begint vroeg. De wekker gaat om 06:30 uur. Ik sta direct op en neem een douche. Daarna maak ik ontbijt voor mijn kinderen. Om 08:00 uur breng ik ze naar school.",
+      "question_nl": "Wat doet de persoon direct na het opstaan?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Ontbijt maken"
+        },
+        {
+          "id": "B",
+          "text_nl": "De kinderen naar school brengen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Een douche nemen"
+        },
+        {
+          "id": "D",
+          "text_nl": "De wekker zetten"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "In de tekst staat: 'Ik sta direct op en neem een douche.'",
+        "en": "The text states: 'I get up immediately and take a shower.'"
+      },
+      "source_text_en": "My day starts early. The alarm goes off at 06:30 AM. I get up immediately and take a shower. After that, I make breakfast for my children. At 08:00 AM, I take them to school.",
+      "tags": [
+        "ochtend",
+        "douchen",
+        "tijd"
+      ]
+    },
+    {
+      "id": "M8_R002",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Afspraak maken",
+      "topic_en": "Making an appointment",
+      "source_text_nl": "Hoi Sarah, heb je zin om morgenmiddag koffie te drinken? Ik ben om 15:00 uur klaar met werken. We kunnen afspreken bij het café op de hoek.",
+      "question_nl": "Hoe laat is de persoon klaar met werken?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "In de ochtend"
+        },
+        {
+          "id": "B",
+          "text_nl": "Om 15:00 uur"
+        },
+        {
+          "id": "C",
+          "text_nl": "Na het koffiedrinken"
+        },
+        {
+          "id": "D",
+          "text_nl": "Dat staat niet in de tekst"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst zegt: 'Ik ben om 15:00 uur klaar met werken.'",
+        "en": "The text says: 'I am finished with work at 3:00 PM.'"
+      },
+      "source_text_en": "Hi Sarah, do you feel like having coffee tomorrow afternoon? I finish work at 3:00 PM. We can meet at the cafe on the corner.",
+      "tags": [
+        "afspraak",
+        "koffie",
+        "werk"
+      ]
+    },
+    {
+      "id": "M8_R003",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Huishouden",
+      "topic_en": "Household chores",
+      "source_text_nl": "Bericht voor Thomas: Vergeet je niet om vanavond de vuilnisbak buiten te zetten? De vuilnisman komt morgenochtend heel vroeg. Ik doe zelf de afwas wel als ik thuiskom.",
+      "question_nl": "Wat moet Thomas doen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De afwas doen"
+        },
+        {
+          "id": "B",
+          "text_nl": "Vroeg opstaan"
+        },
+        {
+          "id": "C",
+          "text_nl": "De vuilnisbak buiten zetten"
+        },
+        {
+          "id": "D",
+          "text_nl": "Boodschappen doen"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De vraag aan Thomas is om de vuilnisbak buiten te zetten.",
+        "en": "The request to Thomas is to put the trash can outside."
+      },
+      "source_text_en": "Message for Thomas: Don't forget to put the trash can outside tonight? The garbage man is coming very early tomorrow morning. I'll do the dishes myself when I get home.",
+      "tags": [
+        "huishouden",
+        "vuilnis",
+        "taken"
+      ]
+    },
+    {
+      "id": "M8_R004",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Boodschappen",
+      "topic_en": "Groceries",
+      "source_text_nl": "Ik ga elke zaterdag naar de markt voor verse groenten en fruit. Daarna ga ik naar de supermarkt voor de rest van de boodschappen. Zo heb ik genoeg eten voor de hele week.",
+      "question_nl": "Wanneer gaat deze persoon naar de markt?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Elke dag"
+        },
+        {
+          "id": "B",
+          "text_nl": "Alleen in de ochtend"
+        },
+        {
+          "id": "C",
+          "text_nl": "Elke zaterdag"
+        },
+        {
+          "id": "D",
+          "text_nl": "Op zondag"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "In de eerste zin staat: 'Ik ga elke zaterdag naar de markt'.",
+        "en": "The first sentence says: 'I go to the market every Saturday'."
+      },
+      "source_text_en": "I go to the market every Saturday for fresh vegetables and fruit. After that, I go to the supermarket for the rest of the groceries. This way I have enough food for the whole week.",
+      "tags": [
+        "boodschappen",
+        "zaterdag",
+        "markt"
+      ]
+    },
+    {
+      "id": "M8_R005",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Avondroutine",
+      "topic_en": "Evening routine",
+      "source_text_nl": "Na het avondeten kijk ik meestal een uurtje televisie. Om 22:00 uur poets ik mijn tanden en ga ik naar bed. Ik lees vaak nog een paar bladzijden in een boek voor ik ga slapen.",
+      "question_nl": "Wat doet de persoon vlak voor het slapen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Televisie kijken"
+        },
+        {
+          "id": "B",
+          "text_nl": "Een boek lezen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Koken"
+        },
+        {
+          "id": "D",
+          "text_nl": "Werken"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De persoon leest vaak nog een paar bladzijden in een boek voor het slapen.",
+        "en": "The person often reads a few pages in a book before sleeping."
+      },
+      "source_text_en": "After dinner, I usually watch television for an hour. At 10:00 PM, I brush my teeth and go to bed. I often read a few pages in a book before I go to sleep.",
+      "tags": [
+        "avond",
+        "lezen",
+        "slapen"
+      ]
+    },
+    {
+      "id": "M8_R006",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Sporten",
+      "topic_en": "Exercise",
+      "source_text_nl": "Gezond leven is belangrijk. Daarom ga ik elke maandag en woensdag naar de sportschool. Op vrijdagavond ga ik meestal een uurtje hardlopen in het park bij mijn huis.",
+      "question_nl": "Op welke dagen gaat deze persoon naar de sportschool?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Alleen op vrijdag"
+        },
+        {
+          "id": "B",
+          "text_nl": "Op maandag en woensdag"
+        },
+        {
+          "id": "C", "text_nl": "Elke dag"
+        },
+        {
+          "id": "D",
+          "text_nl": "In het weekend"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst noemt specifiek maandag en woensdag voor de sportschool.",
+        "en": "The text specifically mentions Monday and Wednesday for the gym."
+      },
+      "source_text_en": "Living healthily is important. That's why I go to the gym every Monday and Wednesday. On Friday evening, I usually go for a run in the park near my house.",
+      "tags": [
+        "sport",
+        "sportschool",
+        "dagen"
+      ]
+    },
+    {
+      "id": "M8_R007",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Lunchpauze",
+      "topic_en": "Lunch break",
+      "source_text_nl": "Op mijn werk hebben we pauze van 12:30 tot 13:00 uur. Meestal eet ik een broodje achter mijn bureau, maar als het mooi weer is, ga ik buiten wandelen.",
+      "question_nl": "Wat doet de persoon als de zon schijnt?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Achter het bureau eten"
+        },
+        {
+          "id": "B",
+          "text_nl": "Langer werken"
+        },
+        {
+          "id": "C",
+          "text_nl": "Buiten wandelen"
+        },
+        {
+          "id": "D",
+          "text_nl": "Slapen"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "Als het mooi weer is (de zon schijnt), gaat de persoon buiten wandelen.",
+        "en": "When the weather is nice (the sun shines), the person goes for a walk outside."
+      },
+      "source_text_en": "At my work, we have a break from 12:30 to 1:00 PM. Usually, I eat a sandwich at my desk, but if the weather is nice, I go for a walk outside.",
+      "tags": [
+        "lunch",
+        "pauze",
+        "wandelen"
+      ]
+    },
+    {
+      "id": "M8_R008",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Huisdieren verzorgen",
+      "topic_en": "Caring for pets",
+      "source_text_nl": "Mijn hond Max moet drie keer per dag naar buiten. 's Ochtends laat mijn man hem uit, en 's middags en 's avonds doe ik het zelf. Daarna krijgt hij zijn eten.",
+      "question_nl": "Wie laat de hond in de ochtend uit?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De persoon zelf"
+        },
+        {
+          "id": "B",
+          "text_nl": "De man van de persoon"
+        },
+        {
+          "id": "C",
+          "text_nl": "De kinderen"
+        },
+        {
+          "id": "D",
+          "text_nl": "De buurman"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In de tekst staat: ''s Ochtends laat mijn man hem uit'.",
+        "en": "The text states: 'In the morning, my husband lets him out'."
+      },
+      "source_text_en": "My dog Max has to go outside three times a day. In the morning my husband walks him, and in the afternoon and evening I do it myself. After that, he gets his food.",
+      "tags": [
+        "hond",
+        "routine",
+        "familie"
+      ]
+    },
+    {
+      "id": "M8_R009",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Schoonmaken",
+      "topic_en": "Cleaning",
+      "source_text_nl": "Ik houd van een schoon huis. Elke vrijdagmiddag maak ik de badkamer en de keuken schoon. Op zaterdag stofzuig ik de hele woning en dweil ik de vloer.",
+      "question_nl": "Wanneer wordt de keuken schoongemaakt?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Op zaterdag"
+        },
+        {
+          "id": "B",
+          "text_nl": "Elke dag"
+        },
+        {
+          "id": "C",
+          "text_nl": "Op vrijdagmiddag"
+        },
+        {
+          "id": "D",
+          "text_nl": "Nooit"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De keuken wordt op vrijdagmiddag schoongemaakt.",
+        "en": "The kitchen is cleaned on Friday afternoon."
+      },
+      "source_text_en": "I like a clean house. Every Friday afternoon, I clean the bathroom and the kitchen. On Saturday, I vacuum the whole house and mop the floor.",
+      "tags": [
+        "schoonmaken",
+        "planning",
+        "vrijdag"
+      ]
+    },
+    {
+      "id": "M8_R010",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Vervoer naar werk",
+      "topic_en": "Transport to work",
+      "source_text_nl": "Ik woon dicht bij mijn werk. Als het regent, ga ik met de bus. Maar meestal pak ik de fiets, want dat is gezond en sneller dan de auto in de stad.",
+      "question_nl": "Hoe gaat de persoon meestal naar het werk?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Met de bus"
+        },
+        {
+          "id": "B",
+          "text_nl": "Met de auto"
+        },
+        {
+          "id": "C",
+          "text_nl": "Met de fiets"
+        },
+        {
+          "id": "D",
+          "text_nl": "Lopend"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst zegt: 'meestal pak ik de fiets'.",
+        "en": "The text says: 'usually I take the bike'."
+      },
+      "source_text_en": "I live close to my work. If it rains, I go by bus. But usually I take the bike, because that is healthy and faster than the car in the city.",
+      "tags": [
+        "vervoer",
+        "fiets",
+        "werk"
+      ]
+    },
+    {
+      "id": "M8_R011",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Kinderopvang",
+      "topic_en": "Childcare",
+      "source_text_nl": "Mijn kinderen gaan drie dagen per week naar de opvang: op dinsdag, woensdag en donderdag. Op maandag en vrijdag ben ik vrij en blijven ze thuis bij mij.",
+      "question_nl": "Op welke dagen zijn de kinderen thuis?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Op dinsdag en woensdag"
+        },
+        {
+          "id": "B",
+          "text_nl": "Alleen in het weekend"
+        },
+        {
+          "id": "C",
+          "text_nl": "Op maandag en vrijdag"
+        },
+        {
+          "id": "D",
+          "text_nl": "Elke dag"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De persoon is op maandag en vrijdag vrij, dan blijven de kinderen thuis.",
+        "en": "The person is off on Monday and Friday, then the children stay home."
+      },
+      "source_text_en": "My children go to daycare three days a week: on Tuesday, Wednesday, and Thursday. On Monday and Friday, I am off and they stay home with me.",
+      "tags": [
+        "kinderen",
+        "opvang",
+        "vrij"
+      ]
+    },
+    {
+      "id": "M8_R012",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Koken",
+      "topic_en": "Cooking",
+      "source_text_nl": "Ik vind koken leuk. Om 17:30 uur begin ik met het voorbereiden van het eten. We eten meestal rond 18:30 uur aan tafel. Mijn zoon helpt vaak met het dekken van de tafel.",
+      "question_nl": "Hoe laat begint de persoon met koken?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Om 17:30 uur"
+        },
+        {
+          "id": "B",
+          "text_nl": "Om 18:30 uur"
+        },
+        {
+          "id": "C",
+          "text_nl": "Na het eten"
+        },
+        {
+          "id": "D",
+          "text_nl": "In de middag"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": {
+        "nl": "De voorbereiding van het eten begint om 17:30 uur.",
+        "en": "The preparation of the food starts at 5:30 PM."
+      },
+      "source_text_en": "I enjoy cooking. At 5:30 PM, I start preparing the food. We usually eat around 6:30 PM at the table. My son often helps with setting the table.",
+      "tags": [
+        "koken",
+        "avondeten",
+        "tijd"
+      ]
+    },
+    {
+      "id": "M8_R013",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Studeren",
+      "topic_en": "Studying",
+      "source_text_nl": "Ik volg een cursus Nederlands op dinsdagavond. De les duurt van 19:00 tot 21:00 uur. Overdag werk ik, dus ik moet mijn huiswerk in het weekend maken.",
+      "question_nl": "Wanneer maakt deze persoon het huiswerk?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Op dinsdagavond"
+        },
+        {
+          "id": "B",
+          "text_nl": "Overdag tijdens het werk"
+        },
+        {
+          "id": "C",
+          "text_nl": "In het weekend"
+        },
+        {
+          "id": "D",
+          "text_nl": "Nooit"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "Omdat de persoon overdag werkt, wordt het huiswerk in het weekend gemaakt.",
+        "en": "Because the person works during the day, the homework is done during the weekend."
+      },
+      "source_text_en": "I am taking a Dutch course on Tuesday evening. The lesson lasts from 7:00 PM to 9:00 PM. During the day I work, so I have to do my homework during the weekend.",
+      "tags": [
+        "studie",
+        "huiswerk",
+        "weekend"
+      ]
+    },
+    {
+      "id": "M8_R014",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Buren",
+      "topic_en": "Neighbors",
+      "source_text_nl": "Elke eerste zondag van de maand drinken we koffie met de buren. We doen dat om de beurt bij iemand thuis. Vandaag is het bij ons in de tuin.",
+      "question_nl": "Hoe vaak drinken ze koffie met de buren?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Elke zondag"
+        },
+        {
+          "id": "B",
+          "text_nl": "Eén keer per maand"
+        },
+        {
+          "id": "C",
+          "text_nl": "Alleen vandaag"
+        },
+        {
+          "id": "D",
+          "text_nl": "Elke dag"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst zegt: 'Elke eerste zondag van de maand', dat is één keer per maand.",
+        "en": "The text says: 'Every first Sunday of the month', which is once a month."
+      },
+      "source_text_en": "Every first Sunday of the month we drink coffee with the neighbors. We take turns at someone's house. Today it's at our place in the garden.",
+      "tags": [
+        "buren",
+        "sociaal",
+        "zondag"
+      ]
+    },
+    {
+      "id": "M8_R015",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Slapen",
+      "topic_en": "Sleeping",
+      "source_text_nl": "Ik vind rust erg belangrijk. Ik probeer elke nacht acht uur te slapen. Daarom ga ik doordeweeks altijd om 22:30 uur naar bed. In het weekend blijf ik langer op.",
+      "question_nl": "Hoe laat gaat de persoon naar bed van maandag tot en met vrijdag?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Om 22:00 uur"
+        },
+        {
+          "id": "B",
+          "text_nl": "Om 22:30 uur"
+        },
+        {
+          "id": "C",
+          "text_nl": "Na acht uur slapen"
+        },
+        {
+          "id": "D",
+          "text_nl": "Heel laat"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Doordeweeks (van maandag t/m vrijdag) gaat de persoon om 22:30 uur naar bed.",
+        "en": "During the week (Monday through Friday), the person goes to bed at 10:30 PM."
+      },
+      "source_text_en": "I find rest very important. I try to sleep eight hours every night. That is why during the week I always go to bed at 10:30 PM. In the weekend I stay up longer.",
+      "tags": [
+        "slapen",
+        "tijd",
+        "doordeweeks"
+      ]
+    },
+    {
+      "id": "M8_R016",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Was doen",
+      "topic_en": "Doing laundry",
+      "source_text_nl": "Ik doe de was altijd op woensdagavond. Dan heb ik tijd om alles te strijken. De schone kleren leg ik daarna direct in de kast, zodat de slaapkamer netjes blijft.",
+      "question_nl": "Wanneer strijkt deze persoon de kleren?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Op woensdagavond"
+        },
+        {
+          "id": "B",
+          "text_nl": "In het weekend"
+        },
+        {
+          "id": "C",
+          "text_nl": "Direct na het opstaan"
+        },
+        {
+          "id": "D",
+          "text_nl": "Op dinsdag"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": {
+        "nl": "De persoon wast op woensdagavond en heeft dan ook tijd om te strijken.",
+        "en": "The person washes on Wednesday evening and also has time to iron then."
+      },
+      "source_text_en": "I always do the laundry on Wednesday evening. Then I have time to iron everything. I put the clean clothes straight into the closet afterwards, so the bedroom stays tidy.",
+      "tags": [
+        "huishouden",
+        "wassen",
+        "strijken"
+      ]
+    },
+    {
+      "id": "M8_R017",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Planten water geven",
+      "topic_en": "Watering plants",
+      "source_text_nl": "Vergeet je de planten niet? In de zomer hebben ze elke dag water nodig. In de winter is één keer per week genoeg. Geef ze niet te veel water, want dan gaan ze dood.",
+      "question_nl": "Hoe vaak moeten de planten water krijgen in de winter?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Elke dag"
+        },
+        {
+          "id": "B",
+          "text_nl": "Twee keer per week"
+        },
+        {
+          "id": "C",
+          "text_nl": "Eén keer per week"
+        },
+        {
+          "id": "D",
+          "text_nl": "Nooit"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst zegt dat één keer per week genoeg is in de winter.",
+        "en": "The text says that once a week is enough in the winter."
+      },
+      "source_text_en": "Don't forget the plants? In the summer they need water every day. In the winter, once a week is enough. Don't give them too much water, because then they will die.",
+      "tags": [
+        "planten",
+        "winter",
+        "routine"
+      ]
+    },
+    {
+      "id": "M8_R018",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Ontbijtgewoonten",
+      "topic_en": "Breakfast habits",
+      "source_text_nl": "In Nederland eten veel mensen brood met hagelslag als ontbijt. Ik drink daar meestal een glas sinaasappelsap bij. In het weekend bak ik soms eieren met spek voor mijn familie.",
+      "question_nl": "Wat drinkt deze persoon meestal bij het ontbijt?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Koffie"
+        },
+        {
+          "id": "B",
+          "text_nl": "Thee"
+        },
+        {
+          "id": "C",
+          "text_nl": "Een glas sinaasappelsap"
+        },
+        {
+          "id": "D",
+          "text_nl": "Melk"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst vermeldt expliciet: 'Ik drink daar meestal een glas sinaasappelsap bij'.",
+        "en": "The text explicitly mentions: 'I usually drink a glass of orange juice with it'."
+      },
+      "source_text_en": "In the Netherlands, many people eat bread with chocolate sprinkles for breakfast. I usually drink a glass of orange juice with it. In the weekend, I sometimes fry eggs with bacon for my family.",
+      "tags": [
+        "ontbijt",
+        "drinken",
+        "gewoonten"
+      ]
+    },
+    {
+      "id": "M8_R019",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Vaste afspraak",
+      "topic_en": "Regular appointment",
+      "source_text_nl": "Hoi oma, ik kom aanstaande donderdag weer gezellig langs om 14:00 uur. Zullen we dan samen een wandeling maken in het park? Ik neem wat lekkers mee voor bij de thee.",
+      "question_nl": "Wat gaat de persoon samen met oma doen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Boodschappen doen"
+        },
+        {
+          "id": "B",
+          "text_nl": "Een wandeling maken"
+        },
+        {
+          "id": "C",
+          "text_nl": "Televisie kijken"
+        },
+        {
+          "id": "D",
+          "text_nl": "Schoonmaken"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De persoon vraagt aan oma: 'Zullen we dan samen een wandeling maken?'.",
+        "en": "The person asks grandma: 'Shall we go for a walk together then?'."
+      },
+      "source_text_en": "Hi grandma, I'll be coming over again next Thursday at 2:00 PM. Shall we go for a walk in the park together then? I'll bring some treats to have with tea.",
+      "tags": [
+        "oma",
+        "bezoek",
+        "wandelen"
+      ]
+    },
+    {
+      "id": "M8_R020",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Post ophalen",
+      "topic_en": "Collecting mail",
+      "source_text_nl": "Beste buren, wij zijn van 10 tot 20 juli op vakantie. Zouden jullie onze post uit de brievenbus willen halen? De sleutel ligt onder de bloempot bij de achterdeur. Bedankt!",
+      "question_nl": "Waar ligt de sleutel van het huis?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "In de brievenbus"
+        },
+        {
+          "id": "B",
+          "text_nl": "Bij de buren"
+        },
+        {
+          "id": "C",
+          "text_nl": "Onder een bloempot"
+        },
+        {
+          "id": "D",
+          "text_nl": "In de auto"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst zegt: 'De sleutel ligt onder de bloempot bij de achterdeur.'",
+        "en": "The text says: 'The key is under the flowerpot by the back door.'"
+      },
+      "source_text_en": "Dear neighbors, we are on holiday from July 10 to 20. Would you mind collecting our mail from the mailbox? The key is under the flowerpot by the back door. Thanks!",
+      "tags": [
+        "vakantie",
+        "sleutel",
+        "post"
+      ]
+    }
+  ]
+}

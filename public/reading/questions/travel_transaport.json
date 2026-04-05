@@ -1,0 +1,768 @@
+{
+  "module_id": "M16_Reading",
+  "module_title_nl": "Reizen en vervoer",
+  "module_title_en": "Travel and Transport",
+  "total_questions": 20,
+  "questions": [
+    {
+      "id": "M16_R001",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Openbaar vervoer",
+      "topic_en": "Public transport",
+      "source_text_nl": "Reizen met de trein: Vergeet niet in te checken met uw OV-chipkaart voor u de trein instapt. Bij het verlaten van het station moet u weer uitchecken.",
+      "question_nl": "Wanneer moet u inchecken?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Als de trein vertrekt"
+        },
+        {
+          "id": "B",
+          "text_nl": "Voor u de trein instapt"
+        },
+        {
+          "id": "C",
+          "text_nl": "Na de reis"
+        },
+        {
+          "id": "D",
+          "text_nl": "Alleen als de conducteur komt"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "U moet inchecken voordat u aan boord van de trein gaat.",
+        "en": "You must check in before boarding the train."
+      },
+      "source_text_en": "Traveling by train: Do not forget to check in with your OV-chipcard before boarding the train. When leaving the station, you must check out again.",
+      "tags": [
+        "trein",
+        "OV-chipkaart",
+        "reizen"
+      ]
+    },
+    {
+      "id": "M16_R002",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Treinvertraging",
+      "topic_en": "Train delay",
+      "source_text_nl": "Let op: De trein naar Amsterdam heeft een vertraging van 15 minuten. De trein vertrekt nu van spoor 4 in plaats van spoor 2.",
+      "question_nl": "Van welk spoor vertrekt de trein nu?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Spoor 2"
+        },
+        {
+          "id": "B",
+          "text_nl": "Spoor 4"
+        },
+        {
+          "id": "C",
+          "text_nl": "Spoor 15"
+        },
+        {
+          "id": "D",
+          "text_nl": "Dat staat niet in de tekst"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst geeft aan dat het spoor is gewijzigd naar spoor 4.",
+        "en": "The text indicates that the platform has changed to platform 4."
+      },
+      "source_text_en": "Please note: The train to Amsterdam has a delay of 15 minutes. The train now departs from platform 4 instead of platform 2.",
+      "tags": [
+        "trein",
+        "spoor",
+        "vertraging"
+      ]
+    },
+    {
+      "id": "M16_R003",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Busvervoer",
+      "topic_en": "Bus transport",
+      "source_text_nl": "De bus naar het centrum rijdt elke 10 minuten. In het weekend rijdt de bus minder vaak, namelijk om de 20 minuten.",
+      "question_nl": "Hoe vaak rijdt de bus op zaterdag?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Elke 10 minuten"
+        },
+        {
+          "id": "B",
+          "text_nl": "Elke 20 minuten"
+        },
+        {
+          "id": "C",
+          "text_nl": "Eén keer per uur"
+        },
+        {
+          "id": "D",
+          "text_nl": "De bus rijdt niet"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Zaterdag is onderdeel van het weekend, dus de bus rijdt om de 20 minuten.",
+        "en": "Saturday is part of the weekend, so the bus runs every 20 minutes."
+      },
+      "source_text_en": "The bus to the city center runs every 10 minutes. On weekends, the bus runs less frequently, namely every 20 minutes.",
+      "tags": [
+        "bus",
+        "tijd",
+        "weekend"
+      ]
+    },
+    {
+      "id": "M16_R004",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Vliegtuig",
+      "topic_en": "Airplane",
+      "source_text_nl": "Schiphol: Passagiers voor vlucht KL123 naar Londen kunnen nu boarden bij gate D12. Houd uw paspoort en instapkaart gereed.",
+      "question_nl": "Wat moeten de passagiers klaarleggen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Hun koffer"
+        },
+        {
+          "id": "B",
+          "text_nl": "Hun paspoort en instapkaart"
+        },
+        {
+          "id": "C",
+          "text_nl": "Geld voor het ticket"
+        },
+        {
+          "id": "D",
+          "text_nl": "Eten en drinken"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je hebt je ID en ticket nodig om aan boord te gaan.",
+        "en": "You need your ID and ticket to board."
+      },
+      "source_text_en": "Schiphol: Passengers for flight KL123 to London can now board at gate D12. Have your passport and boarding pass ready.",
+      "tags": [
+        "vliegen",
+        "Schiphol",
+        "documenten"
+      ]
+    },
+    {
+      "id": "M16_R005",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Fiets huren",
+      "topic_en": "Renting a bike",
+      "source_text_nl": "Wilt u een fiets huren? Dat kost €10,- per dag. U moet een identiteitsbewijs laten zien en €50,- borg betalen.",
+      "question_nl": "Hoeveel borg moet u betalen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "€10,-"
+        },
+        {
+          "id": "B",
+          "text_nl": "€50,-"
+        },
+        {
+          "id": "C",
+          "text_nl": "Gratis"
+        },
+        {
+          "id": "D",
+          "text_nl": "€60,-"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De borg is 50 euro. Dit geld krijg je meestal terug als je de fiets inlevert.",
+        "en": "The deposit is 50 euros. You usually get this money back when you return the bike."
+      },
+      "source_text_en": "Would you like to rent a bike? It costs €10 per day. You must show an ID and pay a €50 deposit.",
+      "tags": [
+        "fiets",
+        "huren",
+        "geld"
+      ]
+    },
+    {
+      "id": "M16_R006",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Parkeren",
+      "topic_en": "Parking",
+      "source_text_nl": "Parkeren in het centrum: U kunt hier maximaal 2 uur parkeren. Vergeet niet uw parkeertijd te betalen bij de automaat of via een app.",
+      "question_nl": "Hoe lang mag u hier maximaal staan?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Eén uur"
+        },
+        {
+          "id": "B",
+          "text_nl": "Twee uur"
+        },
+        {
+          "id": "C",
+          "text_nl": "De hele dag"
+        },
+        {
+          "id": "D",
+          "text_nl": "Zo lang u wilt"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Er geldt een maximale parkeertijd van 2 uur.",
+        "en": "There is a maximum parking time of 2 hours."
+      },
+      "source_text_en": "Parking in the center: You can park here for a maximum of 2 hours. Don't forget to pay for your parking time at the machine or via an app.",
+      "tags": [
+        "parkeren",
+        "auto",
+        "tijd"
+      ]
+    },
+    {
+      "id": "M16_R007",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Routebeschrijving",
+      "topic_en": "Directions",
+      "source_text_nl": "Route naar het hotel: Neem vanaf het station bus 5. Stap uit bij de derde halte. Loop daarna 200 meter rechtdoor.",
+      "question_nl": "Bij welke halte moet u uitstappen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De eerste halte"
+        },
+        {
+          "id": "B",
+          "text_nl": "De tweede halte"
+        },
+        {
+          "id": "C",
+          "text_nl": "De derde halte"
+        },
+        {
+          "id": "D",
+          "text_nl": "Het eindstation"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De instructie is om bij de derde halte uit de bus te stappen.",
+        "en": "The instruction is to get off the bus at the third stop."
+      },
+      "source_text_en": "Route to the hotel: Take bus 5 from the station. Get off at the third stop. Then walk straight for 200 meters.",
+      "tags": [
+        "route",
+        "bus",
+        "wandelen"
+      ]
+    },
+    {
+      "id": "M16_R008",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Filemelding",
+      "topic_en": "Traffic jam report",
+      "source_text_nl": "Verkeersinformatie: Er staat een lange file op de A1 richting Amersfoort door een ongeluk. De extra reistijd is meer dan 30 minuten.",
+      "question_nl": "Waarom is er een file op de A1?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Door wegwerkzaamheden"
+        },
+        {
+          "id": "B",
+          "text_nl": "Door de drukte"
+        },
+        {
+          "id": "C",
+          "text_nl": "Door een ongeluk"
+        },
+        {
+          "id": "D",
+          "text_nl": "Door slecht weer"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst noemt een ongeluk als oorzaak van de file.",
+        "en": "The text mentions an accident as the cause of the traffic jam."
+      },
+      "source_text_en": "Traffic information: There is a long traffic jam on the A1 towards Amersfoort due to an accident. The extra travel time is more than 30 minutes.",
+      "tags": [
+        "verkeer",
+        "file",
+        "ongeluk"
+      ]
+    },
+    {
+      "id": "M16_R009",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Vervoerbewijs",
+      "topic_en": "Ticket",
+      "source_text_nl": "In de bus kunt u geen losse kaartjes meer kopen met contant geld. U kunt betalen met uw OV-chipkaart of met uw bankpas (OVpay).",
+      "question_nl": "Kunt u met contant geld betalen in de bus?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Ja, dat kan"
+        },
+        {
+          "id": "B",
+          "text_nl": "Nee, dat kan niet"
+        },
+        {
+          "id": "C",
+          "text_nl": "Alleen met muntgeld"
+        },
+        {
+          "id": "D",
+          "text_nl": "Alleen als de buschauffeur het toestaat"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Contant geld wordt niet meer geaccepteerd in de bus.",
+        "en": "Cash is no longer accepted on the bus."
+      },
+      "source_text_en": "On the bus, you can no longer buy separate tickets with cash. You can pay with your OV-chipcard or with your debit card (OVpay).",
+      "tags": [
+        "bus",
+        "betalen",
+        "geld"
+      ]
+    },
+    {
+      "id": "M16_R010",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Taxi",
+      "topic_en": "Taxi",
+      "source_text_nl": "Een taxi bestellen: Bel naar 010-9876543 om een taxi te reserveren. Geef uw adres en het aantal personen door aan de telefonist.",
+      "question_nl": "Wat moet u doorgeven aan de taxi-centrale?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Uw geboortedatum"
+        },
+        {
+          "id": "B",
+          "text_nl": "Uw adres en het aantal personen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Wat u gaat doen"
+        },
+        {
+          "id": "D",
+          "text_nl": "Uw bankrekeningnummer"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De centrale moet weten waar u bent en met hoeveel mensen u reist.",
+        "en": "The dispatch center needs to know where you are and how many people you are traveling with."
+      },
+      "source_text_en": "Ordering a taxi: Call 010-9876543 to reserve a taxi. Provide your address and the number of people to the operator.",
+      "tags": [
+        "taxi",
+        "reserveren",
+        "bellen"
+      ]
+    },
+    {
+      "id": "M16_R011",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Spoorwijziging",
+      "topic_en": "Platform change",
+      "source_text_nl": "Omroepbericht: De intercity naar Utrecht van 14:30 uur vertrekt vandaag van spoor 18. Dit is een spoorwijziging.",
+      "question_nl": "Hoe laat vertrekt de trein naar Utrecht?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Om 14:18 uur"
+        },
+        {
+          "id": "B",
+          "text_nl": "Om 14:30 uur"
+        },
+        {
+          "id": "C",
+          "text_nl": "Om 18:00 uur"
+        },
+        {
+          "id": "D",
+          "text_nl": "Dat staat niet in de tekst"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De vertrektijd is 14:30 uur.",
+        "en": "The departure time is 2:30 PM."
+      },
+      "source_text_en": "Announcement: The intercity to Utrecht at 2:30 PM departs today from platform 18. This is a platform change.",
+      "tags": [
+        "trein",
+        "tijd",
+        "spoor"
+      ]
+    },
+    {
+      "id": "M16_R012",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Bagage",
+      "topic_en": "Luggage",
+      "source_text_nl": "Vakantie: In het vliegtuig mag u één koffer van maximaal 20 kilo meenemen. Uw handbagage mag niet zwaarder zijn dan 8 kilo.",
+      "question_nl": "Hoe zwaar mag uw koffer maximaal zijn?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "8 kilo"
+        },
+        {
+          "id": "B",
+          "text_nl": "12 kilo"
+        },
+        {
+          "id": "C",
+          "text_nl": "20 kilo"
+        },
+        {
+          "id": "D",
+          "text_nl": "28 kilo"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "Het maximale gewicht voor de koffer is 20 kilo.",
+        "en": "The maximum weight for the suitcase is 20 kilos."
+      },
+      "source_text_en": "Holiday: On the plane, you may take one suitcase of maximum 20 kilos. Your hand luggage may not be heavier than 8 kilos.",
+      "tags": [
+        "vliegen",
+        "bagage",
+        "gewicht"
+      ]
+    },
+    {
+      "id": "M16_R013",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Tram",
+      "topic_en": "Tram",
+      "source_text_nl": "De tram stopt bij alle haltes op de route. Wilt u uitstappen? Druk dan op tijd op de rode knop voor de volgende halte.",
+      "question_nl": "Wat moet u doen als u uit de tram wilt?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Tegen de chauffeur praten"
+        },
+        {
+          "id": "B",
+          "text_nl": "Op de rode knop drukken"
+        },
+        {
+          "id": "C",
+          "text_nl": "Opstaan en zwaaien"
+        },
+        {
+          "id": "D",
+          "text_nl": "Niets, de tram stopt altijd"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "U moet de stopknop gebruiken om aan te geven dat u eruit wilt.",
+        "en": "You must use the stop button to indicate that you want to get out."
+      },
+      "source_text_en": "The tram stops at all stops on the route. Do you want to get off? Then press the red button in time for the next stop.",
+      "tags": [
+        "tram",
+        "uitstappen",
+        "knop"
+      ]
+    },
+    {
+      "id": "M16_R014",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Tankstation",
+      "topic_en": "Gas station",
+      "source_text_nl": "Brandstof: Bij dit tankstation kunt u alleen zelf tanken en betalen aan de pomp. De winkel is vandaag gesloten voor verbouwing.",
+      "question_nl": "Kunt u vandaag iets kopen in de winkel van het tankstation?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Ja, broodjes en koffie"
+        },
+        {
+          "id": "B",
+          "text_nl": "Nee, de winkel is dicht"
+        },
+        {
+          "id": "C",
+          "text_nl": "Alleen als u ook tankt"
+        },
+        {
+          "id": "D",
+          "text_nl": "Alleen in de avond"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De winkel is dicht vanwege een verbouwing.",
+        "en": "The shop is closed due to a renovation."
+      },
+      "source_text_en": "Fuel: At this gas station, you can only refuel yourself and pay at the pump. The shop is closed today for renovation.",
+      "tags": [
+        "auto",
+        "tanken",
+        "winkel"
+      ]
+    },
+    {
+      "id": "M16_R015",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Treinkaartje",
+      "topic_en": "Train ticket",
+      "source_text_nl": "E-ticket: Dit kaartje is alleen geldig samen met een geldig identiteitsbewijs. U moet het kaartje printen of laten zien op uw telefoon.",
+      "question_nl": "Wat moet u naast het e-ticket laten zien aan de conducteur?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Niets"
+        },
+        {
+          "id": "B",
+          "text_nl": "Een identiteitsbewijs (ID)"
+        },
+        {
+          "id": "C",
+          "text_nl": "Uw bankpas"
+        },
+        {
+          "id": "D",
+          "text_nl": "Een foto van de trein"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een e-ticket is persoonlijk en alleen geldig met een ID-bewijs.",
+        "en": "An e-ticket is personal and only valid with an ID."
+      },
+      "source_text_en": "E-ticket: This ticket is only valid together with a valid identity document. You must print the ticket or show it on your phone.",
+      "tags": [
+        "trein",
+        "ticket",
+        "ID"
+      ]
+    },
+    {
+      "id": "M16_R016",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Fietsenmaker",
+      "topic_en": "Bicycle repair",
+      "source_text_nl": "Uw fiets is klaar! De kosten voor de nieuwe band en de reparatie zijn €35,-. U kunt uw fiets ophalen voor 18:00 uur.",
+      "question_nl": "Tot hoe laat kunt u uw fiets ophalen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Tot 08:00 uur"
+        },
+        {
+          "id": "B",
+          "text_nl": "Tot 17:00 uur"
+        },
+        {
+          "id": "C",
+          "text_nl": "Tot 18:00 uur"
+        },
+        {
+          "id": "D",
+          "text_nl": "De hele avond"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De fietsenmaker sluit om 18:00 uur.",
+        "en": "The bicycle repair shop closes at 6:00 PM."
+      },
+      "source_text_en": "Your bike is ready! The costs for the new tire and the repair are €35. You can pick up your bike before 6:00 PM.",
+      "tags": [
+        "fiets",
+        "reparatie",
+        "tijd"
+      ]
+    },
+    {
+      "id": "M16_R017",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Wegomleiding",
+      "topic_en": "Detour",
+      "source_text_nl": "Werk aan de weg: De brug is dit weekend dicht. Volg de gele borden met de letter 'A' voor de omleiding.",
+      "question_nl": "Wat moet u volgen om de juiste weg te vinden?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De rode borden"
+        },
+        {
+          "id": "B",
+          "text_nl": "De gele borden met de letter 'A'"
+        },
+        {
+          "id": "C",
+          "text_nl": "De politie"
+        },
+        {
+          "id": "D",
+          "text_nl": "Uw navigatie"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Gele borden geven in Nederland vaak een omleiding (omweg) aan.",
+        "en": "Yellow signs in the Netherlands often indicate a detour (diversion)."
+      },
+      "source_text_en": "Roadwork: The bridge is closed this weekend. Follow the yellow signs with the letter 'A' for the detour.",
+      "tags": [
+        "auto",
+        "omleiding",
+        "verkeer"
+      ]
+    },
+    {
+      "id": "M16_R018",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Station",
+      "topic_en": "Station",
+      "source_text_nl": "Station: Er is een lift aanwezig voor mensen met een kinderwagen of een rolstoel. De lift bevindt zich aan het einde van spoor 1.",
+      "question_nl": "Waar is de lift?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Bij de ingang"
+        },
+        {
+          "id": "B",
+          "text_nl": "Aan het einde van spoor 1"
+        },
+        {
+          "id": "C",
+          "text_nl": "Op spoor 10"
+        },
+        {
+          "id": "D",
+          "text_nl": "Er is geen lift"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst geeft de locatie van de lift aan bij spoor 1.",
+        "en": "The text indicates the location of the elevator at platform 1."
+      },
+      "source_text_en": "Station: There is an elevator available for people with a stroller or a wheelchair. The elevator is located at the end of platform 1.",
+      "tags": [
+        "station",
+        "lift",
+        "toegankelijkheid"
+      ]
+    },
+    {
+      "id": "M16_R019",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "OV-dagkaart",
+      "topic_en": "Day ticket",
+      "source_text_nl": "Dagkaart: Met dit kaartje kunt u de hele dag onbeperkt reizen met de bus en de tram. Het kaartje is niet geldig in de trein.",
+      "question_nl": "Mag u met dit kaartje in de trein reizen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Ja, dat mag"
+        },
+        {
+          "id": "B",
+          "text_nl": "Alleen in de middag"
+        },
+        {
+          "id": "C",
+          "text_nl": "Nee, dat mag niet"
+        },
+        {
+          "id": "D",
+          "text_nl": "Alleen met een toeslag"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst zegt specifiek dat het kaartje niet geldig is in de trein.",
+        "en": "The text specifically says that the ticket is not valid on the train."
+      },
+      "source_text_en": "Day ticket: With this ticket, you can travel unlimited all day by bus and tram. The ticket is not valid on the train.",
+      "tags": [
+        "bus",
+        "tram",
+        "ticket"
+      ]
+    },
+    {
+      "id": "M16_R020",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Veerdienst",
+      "topic_en": "Ferry service",
+      "source_text_nl": "De veerboot naar het eiland vertrekt elk uur. De laatste boot gaat om 21:00 uur. Zorg dat u 15 minuten voor vertrek aanwezig bent.",
+      "question_nl": "Hoe laat vertrekt de laatste boot?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Om 20:00 uur"
+        },
+        {
+          "id": "B",
+          "text_nl": "Om 21:00 uur"
+        },
+        {
+          "id": "C",
+          "text_nl": "Om 21:15 uur"
+        },
+        {
+          "id": "D",
+          "text_nl": "Om middernacht"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De laatste afvaart is om 21:00 uur.",
+        "en": "The last sailing is at 9:00 PM."
+      },
+      "source_text_en": "The ferry to the island departs every hour. The last boat goes at 9:00 PM. Make sure you are present 15 minutes before departure.",
+      "tags": [
+        "boot",
+        "tijd",
+        "reizen"
+      ]
+    }
+  ]
+}

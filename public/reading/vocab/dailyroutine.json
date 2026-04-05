@@ -1,0 +1,708 @@
+{
+  "title_reading": "A2 Vocabulary Master",
+  "category": "Daily Routine",
+  "total_words_target": 100,
+  "batch": 1,
+  "vocabulary_list": [
+    {
+      "type": "Profession",
+      "dutch_word": "De huishoudster",
+      "english_word": "The housekeeper",
+      "meaning": "A person employed to manage a household and do domestic chores.",
+      "example_sentence": "De huishoudster komt elke dinsdag om het huis schoon te maken."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De oppas",
+      "english_word": "The babysitter",
+      "meaning": "A person who looks after children while the parents are out.",
+      "example_sentence": "Onze vaste oppas haalt de kinderen vanmiddag van school."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De badkamer",
+      "english_word": "The bathroom",
+      "meaning": "The room where you wash yourself and brush your teeth.",
+      "example_sentence": "Ik sta 's ochtends eerst een kwartier in de badkamer."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De slaapkamer",
+      "english_word": "The bedroom",
+      "meaning": "The room where you sleep.",
+      "example_sentence": "Mijn slaapkamer is op de tweede verdieping."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De wekker",
+      "english_word": "The alarm clock",
+      "meaning": "A clock that wakes you up at a set time.",
+      "example_sentence": "Mijn wekker gaat elke ochtend om half zeven af."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De tandenborstel",
+      "english_word": "The toothbrush",
+      "meaning": "A small brush used for cleaning your teeth.",
+      "example_sentence": "Je moet elke zes maanden een nieuwe tandenborstel kopen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De agenda",
+      "english_word": "The diary/calendar",
+      "meaning": "A book or app where you keep track of your appointments.",
+      "example_sentence": "Ik moet even in mijn agenda kijken of ik dan kan."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Opstaan",
+      "english_word": "To get up",
+      "meaning": "To get out of bed after waking up.",
+      "example_sentence": "In het weekend blijf ik langer liggen voor ik ga opstaan."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Douchen",
+      "english_word": "To shower",
+      "meaning": "To wash your body under a spray of water.",
+      "example_sentence": "Ik ga altijd eerst douchen voor ik ga ontbijten."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Aankleden",
+      "english_word": "To get dressed",
+      "meaning": "To put on your clothes.",
+      "example_sentence": "Ik moet me nog snel aankleden voor het bezoek komt."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Tandenpoetsen",
+      "english_word": "To brush teeth",
+      "meaning": "The act of cleaning your teeth with a brush.",
+      "example_sentence": "Vergeet niet je tanden te poetsen voor je naar bed gaat."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Scheren",
+      "english_word": "To shave",
+      "meaning": "To remove hair from the face or body with a razor.",
+      "example_sentence": "Mijn vader gaat zich elke ochtend scheren."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Opmaken",
+      "english_word": "To put on makeup",
+      "meaning": "To apply cosmetics to the face.",
+      "example_sentence": "Zij heeft tien minuten nodig om zich op te maken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Kammen",
+      "english_word": "To comb",
+      "meaning": "To tidy your hair with a comb.",
+      "example_sentence": "Ik moet mijn haren nog even kammen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Koken",
+      "english_word": "To cook",
+      "meaning": "To prepare a meal.",
+      "example_sentence": "Wie gaat er vanavond koken?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Schoonmaken",
+      "english_word": "To clean",
+      "meaning": "To remove dirt or dust from the house.",
+      "example_sentence": "Op zaterdag gaan we altijd het hele huis schoonmaken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Wassen",
+      "english_word": "To wash/do laundry",
+      "meaning": "To clean clothes or yourself with water.",
+      "example_sentence": "Ik moet vandaag een witte was draaien."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Strijken",
+      "english_word": "To iron",
+      "meaning": "To make clothes smooth using a heated tool.",
+      "example_sentence": "Ik vind het niet leuk om overhemden te strijken."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Vroeg",
+      "english_word": "Early",
+      "meaning": "Happening near the beginning of the day or a period.",
+      "example_sentence": "Ik moet morgen heel vroeg opstaan voor mijn werk."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Laat",
+      "english_word": "Late",
+      "meaning": "Happening near the end of the day or after the expected time.",
+      "example_sentence": "Het is al laat, we moeten nu echt gaan slapen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Moe",
+      "english_word": "Tired",
+      "meaning": "Feeling the need to sleep or rest.",
+      "example_sentence": "Na een lange werkdag ben ik altijd erg moe."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De gewoonte",
+      "english_word": "The habit",
+      "meaning": "Something you do regularly, often without thinking.",
+      "example_sentence": "Het is een goede gewoonte om elke dag te wandelen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De vrije tijd",
+      "english_word": "The free time",
+      "meaning": "Time when you are not working or at school.",
+      "example_sentence": "In mijn vrije tijd lees ik graag een boek."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De afspraak",
+      "english_word": "The appointment",
+      "meaning": "A planned meeting at a specific time.",
+      "example_sentence": "Ik heb om drie uur een afspraak bij de kapper."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het weekend",
+      "english_word": "The weekend",
+      "meaning": "Saturday and Sunday.",
+      "example_sentence": "Wat zijn jouw plannen voor het weekend?"
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De glazenwasser",
+      "english_word": "The window cleaner",
+      "meaning": "A person whose job is to wash windows, usually on the outside.",
+      "example_sentence": "De glazenwasser komt eens in de twee maanden langs."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De postbode",
+      "english_word": "The mail carrier/postman",
+      "meaning": "A person who delivers letters and packages to your home.",
+      "example_sentence": "De postbode brengt de post meestal rond elf uur 's ochtends."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De stofzuiger",
+      "english_word": "The vacuum cleaner",
+      "meaning": "A machine used to clean floors by sucking up dust and dirt.",
+      "example_sentence": "Ik moet de woonkamer nog even doen met de stofzuiger."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De wasmachine",
+      "english_word": "The washing machine",
+      "meaning": "A machine used for washing clothes automatically.",
+      "example_sentence": "De handdoeken zitten al in de wasmachine."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De vaatwasser",
+      "english_word": "The dishwasher",
+      "meaning": "A machine that cleans dishes and cutlery automatically.",
+      "example_sentence": "Wie kan de vaatwasser even leegruimen?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De boodschappentas",
+      "english_word": "The shopping bag",
+      "meaning": "A bag used for carrying groceries from the store.",
+      "example_sentence": "Vergeet je eigen boodschappentas niet mee te nemen naar de winkel."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Boodschappen doen",
+      "english_word": "To do grocery shopping",
+      "meaning": "The act of buying food and household supplies.",
+      "example_sentence": "Ik ga elke zaterdagmiddag boodschappen doen bij de supermarkt."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Stofzuigen",
+      "english_word": "To vacuum",
+      "meaning": "To clean a floor using a vacuum cleaner.",
+      "example_sentence": "Ik ga morgenochtend het hele huis stofzuigen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Dweilen",
+      "english_word": "To mop",
+      "meaning": "To clean a floor using a wet cloth or mop.",
+      "example_sentence": "Nadat ik heb gestofzuigd, ga ik de keuken dweilen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Klaarmaken",
+      "english_word": "To prepare/get ready",
+      "meaning": "To prepare something or yourself for an activity.",
+      "example_sentence": "Ik moet mijn tas nog klaarmaken voor het werk."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Opruimen",
+      "english_word": "To tidy up",
+      "meaning": "To put things back in their proper place.",
+      "example_sentence": "De kinderen moeten hun speelgoed zelf opruimen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Wandelen",
+      "english_word": "To walk/stroll",
+      "meaning": "To walk for pleasure or exercise, often with a pet.",
+      "example_sentence": "Ik ga elke avond een half uur wandelen met de hond."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Sporten",
+      "english_word": "To exercise/do sports",
+      "meaning": "To engage in physical activity for health or hobby.",
+      "example_sentence": "Ik probeer drie keer per week te sporten in de sportschool."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Rusten",
+      "english_word": "To rest",
+      "meaning": "To relax or sleep to regain strength.",
+      "example_sentence": "Na het werk ga ik even een kwartiertje op de bank rusten."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Dagelijks",
+      "english_word": "Daily",
+      "meaning": "Something that happens every day.",
+      "example_sentence": "Tandenpoetsen is een dagelijkse activiteit."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Wekelijks",
+      "english_word": "Weekly",
+      "meaning": "Something that happens once a week.",
+      "example_sentence": "Wij doen onze wekelijkse boodschappen op zaterdag."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Gezellig",
+      "english_word": "Cozy/Sociable",
+      "meaning": "A uniquely Dutch word for a pleasant or social atmosphere.",
+      "example_sentence": "Het is gezellig om samen met vrienden te eten."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Saai",
+      "english_word": "Boring",
+      "meaning": "Not interesting or exciting.",
+      "example_sentence": "Ik vind het huishouden soms een beetje saai."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De ochtend",
+      "english_word": "The morning",
+      "meaning": "The first part of the day, from sunrise to noon.",
+      "example_sentence": "In de ochtend drink ik altijd twee koppen koffie."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De middag",
+      "english_word": "The afternoon",
+      "meaning": "The period from noon or lunchtime until evening.",
+      "example_sentence": "Zullen we vanmiddag naar het park gaan?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De avond",
+      "english_word": "The evening",
+      "meaning": "The period of time at the end of the day.",
+      "example_sentence": "Ik kijk 's avonds graag naar het journaal op televisie."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De nacht",
+      "english_word": "The night",
+      "meaning": "The time when it is dark and most people sleep.",
+      "example_sentence": "Het was erg stil op straat vannacht."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De hobby",
+      "english_word": "The hobby",
+      "meaning": "An activity done in one's free time for pleasure.",
+      "example_sentence": "Mijn grootste hobby is het luisteren naar muziek."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De rust",
+      "english_word": "The peace/rest",
+      "meaning": "A state of being calm and without stress.",
+      "example_sentence": "Ik heb na deze drukke week echt wat rust nodig."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De afwas",
+      "english_word": "The dishes",
+      "meaning": "The dirty plates and cups that need cleaning after a meal.",
+      "example_sentence": "Wie gaat er helpen met de afwas?"
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De kapper",
+      "english_word": "The hairdresser/barber",
+      "meaning": "A person who cuts or styles your hair as part of your routine.",
+      "example_sentence": "Ik heb een afspraak bij de kapper om mijn haar te laten knippen."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De tuinman",
+      "english_word": "The gardener",
+      "meaning": "A person who maintains the garden or yard.",
+      "example_sentence": "De tuinman maait het gras elke twee weken."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De spiegel",
+      "english_word": "The mirror",
+      "meaning": "A glass surface that reflects your image.",
+      "example_sentence": "Ik kijk in de spiegel terwijl ik mijn haar kam."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De handdoek",
+      "english_word": "The towel",
+      "meaning": "A piece of cloth used for drying yourself after a shower.",
+      "example_sentence": "Er hangt een schone handdoek in de badkamer."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De sleutel",
+      "english_word": "The key",
+      "meaning": "A small metal object used to open or lock a door.",
+      "example_sentence": "Ik kan mijn fietssleutel nergens vinden."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De wasmand",
+      "english_word": "The laundry basket",
+      "meaning": "A container for dirty clothes that need to be washed.",
+      "example_sentence": "Gooi je vieze kleding alsjeblieft in de wasmand."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Wekken",
+      "english_word": "To wake (someone) up",
+      "meaning": "To cause someone to stop sleeping.",
+      "example_sentence": "Kunt u mij om zeven uur wekken?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Slapen",
+      "english_word": "To sleep",
+      "meaning": "To rest with your eyes closed in a state of natural unconsciousness.",
+      "example_sentence": "Ik probeer elke nacht acht uur te slapen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Uitslapen",
+      "english_word": "To sleep in",
+      "meaning": "To sleep later than usual, often on weekends.",
+      "example_sentence": "Op zondag gaan we altijd heerlijk uitslapen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Nadenken",
+      "english_word": "To think/reflect",
+      "meaning": "To use your mind to consider something.",
+      "example_sentence": "Ik moet even nadenken over mijn plannen voor morgen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Bezoeken",
+      "english_word": "To visit",
+      "meaning": "To go to see a person or a place.",
+      "example_sentence": "In het weekend bezoeken we vaak onze familie."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Bellen",
+      "english_word": "To call",
+      "meaning": "To make a phone call to someone.",
+      "example_sentence": "Ik ga vanavond mijn moeder bellen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Huiswerk maken",
+      "english_word": "To do homework",
+      "meaning": "To complete school assignments at home.",
+      "example_sentence": "Na school moet ik eerst mijn huiswerk maken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Tv-kijken",
+      "english_word": "To watch TV",
+      "meaning": "To spend time viewing television programs.",
+      "example_sentence": "We gaan na het eten even samen tv-kijken."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Gezond",
+      "english_word": "Healthy",
+      "meaning": "Relating to habits that are good for your body.",
+      "example_sentence": "Vroeg naar bed gaan is een gezonde gewoonte."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Vermoeiend",
+      "english_word": "Tiring",
+      "meaning": "Something that makes you feel exhausted.",
+      "example_sentence": "Het was een vermoeiende dag op het werk."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Belangrijk",
+      "english_word": "Important",
+      "meaning": "Something of great significance in a routine.",
+      "example_sentence": "Voldoende water drinken is erg belangrijk."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Schoon",
+      "english_word": "Clean",
+      "meaning": "Free from dirt or marks.",
+      "example_sentence": "Ik trek elke ochtend een schoon shirt aan."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De planning",
+      "english_word": "The schedule/planning",
+      "meaning": "The process of making a plan for the day or week.",
+      "example_sentence": "Mijn planning voor vandaag zit helemaal vol."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De tijd",
+      "english_word": "The time",
+      "meaning": "The duration or a specific point in a day.",
+      "example_sentence": "Heb je even tijd om mij te helpen?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De lunchpauze",
+      "english_word": "The lunch break",
+      "meaning": "The break taken in the middle of the day for eating.",
+      "example_sentence": "Ik wandel altijd tijdens mijn lunchpauze."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De afspraak",
+      "english_word": "The appointment/agreement",
+      "meaning": "A scheduled meeting with someone.",
+      "example_sentence": "Ik heb een belangrijke afspraak om twee uur."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De ontspanning",
+      "english_word": "The relaxation",
+      "meaning": "The state of being free from tension or anxiety.",
+      "example_sentence": "Muziek luisteren zorgt voor een goede ontspanning."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het bezoek",
+      "english_word": "The visit/guests",
+      "meaning": "People who come to see you at home.",
+      "example_sentence": "Krijg jij vanavond nog bezoek?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De herhaling",
+      "english_word": "The repetition",
+      "meaning": "Doing the same thing again, common in a routine.",
+      "example_sentence": "Routine is vaak een herhaling van dezelfde taken."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De krantenbezorger",
+      "english_word": "The newspaper delivery person",
+      "meaning": "A person who delivers the newspaper to your house early in the morning.",
+      "example_sentence": "De krantenbezorger komt altijd voor zeven uur 's ochtends langs."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De glazenwasser",
+      "english_word": "The window cleaner",
+      "meaning": "A person whose job is to wash the windows of a building.",
+      "example_sentence": "De glazenwasser komt drie keer per jaar voor ons huis."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De tandpasta",
+      "english_word": "The toothpaste",
+      "meaning": "A thick substance used with a brush to clean teeth.",
+      "example_sentence": "Er zit bijna geen tandpasta meer in de tube."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De zeep",
+      "english_word": "The soap",
+      "meaning": "A substance used with water for washing your body.",
+      "example_sentence": "Was je handen altijd met zeep voor het eten."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De kam",
+      "english_word": "The comb",
+      "meaning": "A flat piece of plastic or metal with teeth used to tidy hair.",
+      "example_sentence": "Ik kan mijn kam niet vinden in de badkamer."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het bed",
+      "english_word": "The bed",
+      "meaning": "A piece of furniture that you sleep on.",
+      "example_sentence": "Ik lig 's avonds graag nog even in bed te lezen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De pyjama",
+      "english_word": "The pajamas",
+      "meaning": "Soft clothes worn for sleeping.",
+      "example_sentence": "Ik trek mijn pyjama aan en ga direct naar bed."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Wekken",
+      "english_word": "To wake (someone)",
+      "meaning": "To make someone stop sleeping.",
+      "example_sentence": "Kunt u mij morgen om zeven uur wekken?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Dromen",
+      "english_word": "To dream",
+      "meaning": "To experience images or stories in your mind while sleeping.",
+      "example_sentence": "Ik heb vannacht heel vreemd gedroomd."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Uitzetten",
+      "english_word": "To turn off",
+      "meaning": "To stop a device or light from working.",
+      "example_sentence": "Vergeet niet de lichten uit te zetten voor je weggaat."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Aanzetten",
+      "english_word": "To turn on",
+      "meaning": "To start a device or light.",
+      "example_sentence": "Ik ga de koffiemachine alvast aanzetten."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Snurken",
+      "english_word": "To snore",
+      "meaning": "To breathe noisily while sleeping.",
+      "example_sentence": "Mijn opa kan heel hard snurken als hij slaapt."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Geespen",
+      "english_word": "To yawn",
+      "meaning": "To open your mouth wide and breathe in deeply because you are tired.",
+      "example_sentence": "Ik moet de hele tijd geeuwen, ik ben erg moe."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Vast",
+      "english_word": "Firm/Deep (sleep)",
+      "meaning": "When referring to sleep, it means sleeping very deeply.",
+      "example_sentence": "Ik heb vannacht heel vast geslapen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Stil",
+      "english_word": "Quiet/Silent",
+      "meaning": "Making very little or no noise.",
+      "example_sentence": "Het is 's nachts altijd erg stil op straat."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Donker",
+      "english_word": "Dark",
+      "meaning": "With little or no light.",
+      "example_sentence": "In de winter is het al vroeg donker buiten."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Licht",
+      "english_word": "Light/Bright",
+      "meaning": "Having a lot of light.",
+      "example_sentence": "In de zomer is het al om vijf uur 's ochtends licht."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het middagslaapje",
+      "english_word": "The afternoon nap",
+      "meaning": "A short sleep taken in the middle of the day.",
+      "example_sentence": "De baby doet elke middag een middagslaapje."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De droom",
+      "english_word": "The dream",
+      "meaning": "The images and feelings you have while sleeping.",
+      "example_sentence": "Ik kan me mijn droom van vannacht niet herinneren."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het slaaptekort",
+      "english_word": "The sleep deprivation/shortage",
+      "meaning": "The condition of not having enough sleep.",
+      "example_sentence": "Door mijn slaaptekort kan ik me niet goed concentreren."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De regelmaat",
+      "english_word": "The regularity",
+      "meaning": "Doing things at the same time or in the same way.",
+      "example_sentence": "Regelmaat is erg belangrijk voor een goede gezondheid."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De vrije dag",
+      "english_word": "The day off",
+      "meaning": "A day when you do not have to work or go to school.",
+      "example_sentence": "Morgen heb ik een vrije dag en ga ik naar het strand."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De herinnering",
+      "english_word": "The memory/reminder",
+      "meaning": "Something that helps you remember a task in your routine.",
+      "example_sentence": "Ik zet een herinnering in mijn telefoon voor de afspraak."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het ritme",
+      "english_word": "The rhythm/routine",
+      "meaning": "A regular pattern of activities.",
+      "example_sentence": "Ik moet weer even in mijn werkritme komen na de vakantie."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De rusttijd",
+      "english_word": "The rest time",
+      "meaning": "A period set aside for resting.",
+      "example_sentence": "In de middag hebben we een korte rusttijd."
+    }
+  ]
+}

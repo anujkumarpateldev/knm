@@ -1,0 +1,708 @@
+{
+  "title_reading": "A2 Vocabulary Master",
+  "category": "Neighbourhood",
+  "total_words_target": 100,
+  "batch": 1,
+  "vocabulary_list": [
+    {
+      "type": "Profession",
+      "dutch_word": "De buurman",
+      "english_word": "The male neighbor",
+      "meaning": "A man who lives in the house or apartment next to you.",
+      "example_sentence": "Mijn buurman helpt me vaak met het maaien van het gras."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De buurvrouw",
+      "english_word": "The female neighbor",
+      "meaning": "A woman who lives in the house or apartment next to you.",
+      "example_sentence": "De buurvrouw past op mijn kat als ik op vakantie ben."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De wijkagent",
+      "english_word": "The neighborhood police officer",
+      "meaning": "A police officer dedicated to a specific neighborhood.",
+      "example_sentence": "De wijkagent loopt elke middag een rondje door de straat."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De buurt",
+      "english_word": "The neighborhood",
+      "meaning": "The area and the people living near a particular place.",
+      "example_sentence": "Ik woon in een hele gezellige buurt met veel kinderen."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De wijk",
+      "english_word": "The district/quarter",
+      "meaning": "A larger part of a town or city.",
+      "example_sentence": "Onze wijk is erg modern en heeft veel nieuwe huizen."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De straat",
+      "english_word": "The street",
+      "meaning": "A public road in a city or town that has houses on it.",
+      "example_sentence": "De kinderen spelen veilig buiten op de straat."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het plein",
+      "english_word": "The square",
+      "meaning": "An open area in a town, usually surrounded by buildings.",
+      "example_sentence": "Er staat een mooie fontein op het plein in het centrum."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het park",
+      "english_word": "The park",
+      "meaning": "A large public garden or area of land used for recreation.",
+      "example_sentence": "In de zomer gaan we vaak picknicken in het park."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De speeltuin",
+      "english_word": "The playground",
+      "meaning": "An outdoor area provided for children to play in.",
+      "example_sentence": "Er is een kleine speeltuin met een glijbaan om de hoek."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De stoep",
+      "english_word": "The sidewalk/pavement",
+      "meaning": "The raised path for pedestrians at the side of a road.",
+      "example_sentence": "Je mag niet fietsen op de stoep, dat is voor voetgangers."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De lantaarnpaal",
+      "english_word": "The lamppost",
+      "meaning": "A tall post with a light at the top to illuminate the street.",
+      "example_sentence": "De lantaarnpaal voor ons huis is kapot en geeft geen licht."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De vuilnisbak",
+      "english_word": "The trash can",
+      "meaning": "A container for waste.",
+      "example_sentence": "Gooi je afval alsjeblieft in de vuilnisbak."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De bank",
+      "english_word": "The bench",
+      "meaning": "A long seat for several people, usually found in parks.",
+      "example_sentence": "Op de bank in het park zitten twee oude mensen te praten."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Wonen",
+      "english_word": "To live",
+      "meaning": "To have your permanent home in a particular place.",
+      "example_sentence": "Ik woon al tien jaar met veel plezier in deze straat."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Groeten",
+      "english_word": "To greet",
+      "meaning": "To say hello to someone you see in the neighborhood.",
+      "example_sentence": "In dit dorp groeten de mensen elkaar nog op straat."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Wandelen",
+      "english_word": "To walk",
+      "meaning": "To walk for pleasure or exercise.",
+      "example_sentence": "Ik ga elke avond een rondje wandelen door de wijk."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Spelen",
+      "english_word": "To play",
+      "meaning": "To engage in activity for enjoyment and recreation.",
+      "example_sentence": "Mijn kinderen spelen elke middag met de buurkinderen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Rustig",
+      "english_word": "Quiet/Peaceful",
+      "meaning": "Without much noise or activity.",
+      "example_sentence": "Onze buurt is erg rustig, er is bijna geen verkeer."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Druk",
+      "english_word": "Busy/Crowded",
+      "meaning": "Full of people or activity.",
+      "example_sentence": "Het plein in de stad is altijd erg druk op zaterdag."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Schoon",
+      "english_word": "Clean",
+      "meaning": "Free from dirt or litter.",
+      "example_sentence": "De gemeente zorgt ervoor dat de straten schoon blijven."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Veilig",
+      "english_word": "Safe",
+      "meaning": "Protected from danger or risk.",
+      "example_sentence": "Ik voel me hier erg veilig, ook als ik 's avonds laat loop."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het verkeer",
+      "english_word": "The traffic",
+      "meaning": "The vehicles moving on a public highway.",
+      "example_sentence": "Er is veel zwaar verkeer in deze smalle straat."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De sfeer",
+      "english_word": "The atmosphere",
+      "meaning": "The feeling or mood of a place.",
+      "example_sentence": "Er hangt een goede sfeer in de buurt tijdens het buurtfeest."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De overlast",
+      "english_word": "The nuisance/disturbance",
+      "meaning": "Something that causes trouble or annoyance (e.g., noise).",
+      "example_sentence": "Wij hebben soms last van geluidsoverlast door de buren."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De parkeerplek",
+      "english_word": "The parking spot",
+      "meaning": "A place designated for parking a vehicle.",
+      "example_sentence": "Het is lastig om een vrije parkeerplek te vinden in deze wijk."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De postbode",
+      "english_word": "The mail carrier",
+      "meaning": "A person who delivers letters and small packages to houses.",
+      "example_sentence": "De postbode stopt de brieven in de brievenbus."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De vuilnisman",
+      "english_word": "The garbage collector",
+      "meaning": "A person who collects trash from the street.",
+      "example_sentence": "De vuilnisman komt elke woensdag de grijze bakken legen."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De brievenbus",
+      "english_word": "The mailbox",
+      "meaning": "A public box where you drop letters to be mailed.",
+      "example_sentence": "Er staat een oranje brievenbus op de hoek van de straat."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De bushalte",
+      "english_word": "The bus stop",
+      "meaning": "A designated place where a bus stops for passengers.",
+      "example_sentence": "Ik moet rennen om de bus bij de halte te halen."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De supermarkt",
+      "english_word": "The supermarket",
+      "meaning": "A large shop that sells food and household goods.",
+      "example_sentence": "De supermarkt in onze buurt is tot tien uur 's avonds open."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De bibliotheek",
+      "english_word": "The library",
+      "meaning": "A building where you can borrow books and movies.",
+      "example_sentence": "Ik ga elke week naar de bibliotheek om nieuwe boeken te halen."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De basisschool",
+      "english_word": "The primary school",
+      "meaning": "A school for children between the ages of 4 and 12.",
+      "example_sentence": "Er is een grote basisschool midden in de woonwijk."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het buurthuis",
+      "english_word": "The community center",
+      "meaning": "A place where local people meet for activities and social events.",
+      "example_sentence": "In het buurthuis worden computerlessen voor ouderen gegeven."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het verkeersbord",
+      "english_word": "The traffic sign",
+      "meaning": "A sign by the road giving instructions or information to drivers.",
+      "example_sentence": "Het verkeersbord geeft aan dat je hier niet mag parkeren."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het zebrapad",
+      "english_word": "The zebra crossing",
+      "meaning": "White stripes on the road where pedestrians have priority to cross.",
+      "example_sentence": "Auto's moeten stoppen voor mensen die op het zebrapad lopen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De lantaarn",
+      "english_word": "The street light",
+      "meaning": "The light at the top of a pole that lights up the street.",
+      "example_sentence": "De lantaarn gaat vanzelf aan als het donker wordt."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verhuizen",
+      "english_word": "To move (house)",
+      "meaning": "To leave your home and go to live in a new one.",
+      "example_sentence": "Mijn buren gaan volgende maand verhuizen naar een andere stad."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Helpen",
+      "english_word": "To help",
+      "meaning": "To do something for someone to make it easier for them.",
+      "example_sentence": "Zal ik u helpen met die zware boodschappentassen?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Klaten",
+      "english_word": "To chat",
+      "meaning": "To talk in a friendly, informal way with someone.",
+      "example_sentence": "Ik sta vaak even te klaten met de overbuurman."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Parkeren",
+      "english_word": "To park",
+      "meaning": "To bring a vehicle to a halt and leave it in a certain place.",
+      "example_sentence": "U kunt uw auto gratis parkeren achter het gebouw."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Oversteken",
+      "english_word": "To cross (the street)",
+      "meaning": "To go from one side of the road to the other.",
+      "example_sentence": "Kijk goed naar links en rechts voor je gaat oversteken."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Gezellig",
+      "english_word": "Cozy/Pleasant",
+      "meaning": "Describing a friendly and social atmosphere in the area.",
+      "example_sentence": "Het is een gezellige buurt met veel sociale contacten."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Lawaaiig",
+      "english_word": "Noisy",
+      "meaning": "Making a lot of noise; not quiet.",
+      "example_sentence": "De straat is soms erg lawaaiig door het vele verkeer."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Dichtbij",
+      "english_word": "Nearby/Close by",
+      "meaning": "At a short distance away.",
+      "example_sentence": "De apotheek is heel dichtbij, het is maar twee minuten lopen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Ver",
+      "english_word": "Far",
+      "meaning": "At a great distance away.",
+      "example_sentence": "De dichtstbijzijnde treinhalte is helaas erg ver weg."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De veiligheid",
+      "english_word": "The safety",
+      "meaning": "The state of being safe and protected from danger.",
+      "example_sentence": "De veiligheid in onze wijk is verbeterd door extra verlichting."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De overlast",
+      "english_word": "The nuisance/disturbance",
+      "meaning": "Something that causes trouble, such as litter or noise.",
+      "example_sentence": "Er is veel overlast van zwerfvuil in het park."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het onderhoud",
+      "english_word": "The maintenance",
+      "meaning": "The work of keeping something in good condition.",
+      "example_sentence": "De gemeente is verantwoordelijk voor het onderhoud van de wegen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De buren",
+      "english_word": "The neighbors",
+      "meaning": "The people living near you (plural).",
+      "example_sentence": "Wij hebben heel goed contact met al onze buren."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het lawaai",
+      "english_word": "The noise",
+      "meaning": "A sound, especially one that is loud or unpleasant.",
+      "example_sentence": "Ik kan niet slapen door het lawaai van de buren."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De glazenwasser",
+      "english_word": "The window cleaner",
+      "meaning": "A person who cleans the windows of houses in the street.",
+      "example_sentence": "De glazenwasser komt om de maand langs in onze straat."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De klusjesman",
+      "english_word": "The handyman",
+      "meaning": "A person who does small repairs for people in the neighborhood.",
+      "example_sentence": "Onze buurman werkt als klusjesman voor de hele wijk."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De afvalcontainer",
+      "english_word": "The waste container/dumpster",
+      "meaning": "A large metal or plastic box for collecting household waste.",
+      "example_sentence": "Gooi de vuilniszak in de ondergrondse afvalcontainer."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het fietspad",
+      "english_word": "The cycle path",
+      "meaning": "A part of the road or a separate path designated for bicycles.",
+      "example_sentence": "In Nederland zijn er overal veilige fietspaden."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De parkeergarage",
+      "english_word": "The parking garage",
+      "meaning": "A building designed for parking cars.",
+      "example_sentence": "Je kunt je auto parkeren in de parkeergarage onder het plein."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De vijver",
+      "english_word": "The pond",
+      "meaning": "A small body of still water in a park or garden.",
+      "example_sentence": "Er zwemmen veel eenden in de vijver van het park."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De hondenpoep",
+      "english_word": "The dog poop",
+      "meaning": "Waste from dogs (often a topic of neighborhood rules/complaints).",
+      "example_sentence": "Je moet de hondenpoep zelf opruimen met een zakje."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het grofvuil",
+      "english_word": "The bulky waste",
+      "meaning": "Large items of waste like old furniture that don't fit in a bin.",
+      "example_sentence": "Vandaag wordt het grofvuil opgehaald door de gemeente."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De brievenbus",
+      "english_word": "The mailbox",
+      "meaning": "The slot in your door where the mail arrives.",
+      "example_sentence": "Er ligt een kaartje van de buren in de brievenbus."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Scheiden",
+      "english_word": "To separate/sort",
+      "meaning": "To sort waste into different categories (paper, glass, plastic).",
+      "example_sentence": "In deze buurt moeten we ons afval goed scheiden."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Veroorzaken",
+      "english_word": "To cause",
+      "meaning": "To make something happen, often something negative.",
+      "example_sentence": "De wegwerkzaamheden veroorzaken veel file in de wijk."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verbeteren",
+      "english_word": "To improve",
+      "meaning": "To make the neighborhood better or more beautiful.",
+      "example_sentence": "De gemeente gaat de verlichting in de straat verbeteren."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Organiseren",
+      "english_word": "To organize",
+      "meaning": "To plan and coordinate a social event.",
+      "example_sentence": "Wij organiseren elke zomer een buurtbarbecue."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Klaten",
+      "english_word": "To complain",
+      "meaning": "To say that something is wrong or not satisfactory.",
+      "example_sentence": "De buren klaten over het lawaai van de verbouwing."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Kindvriendelijk",
+      "english_word": "Child-friendly",
+      "meaning": "Safe and pleasant for children.",
+      "example_sentence": "Dit is een kindvriendelijke wijk met veel speeltuinen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Groen",
+      "english_word": "Green",
+      "meaning": "Having many plants, trees, and parks.",
+      "example_sentence": "Ik woon graag in een groene omgeving met veel natuur."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Verlicht",
+      "english_word": "Lit/Illuminated",
+      "meaning": "Provided with light.",
+      "example_sentence": "De straten zijn hier 's avonds heel goed verlicht."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Social",
+      "english_word": "Social",
+      "meaning": "Relating to people and their interactions.",
+      "example_sentence": "Er is veel sociale controle in onze kleine straat."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De verlichting",
+      "english_word": "The lighting",
+      "meaning": "The lights in the street or neighborhood.",
+      "example_sentence": "De straatverlichting gaat aan als de zon ondergaat."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De vergunning",
+      "english_word": "The permit",
+      "meaning": "Official permission to do something (like parking).",
+      "example_sentence": "Je hebt een parkeervergunning nodig om hier te staan."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het buurtfeest",
+      "english_word": "The neighborhood party",
+      "meaning": "A social event for everyone living in the same area.",
+      "example_sentence": "Tijdens het buurtfeest leer je je nieuwe buren kennen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De omgeving",
+      "english_word": "The surroundings/environment",
+      "meaning": "The area around a specific place.",
+      "example_sentence": "De omgeving van de stad is erg bosrijk."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De gemeente",
+      "english_word": "The municipality/local council",
+      "meaning": "The local government of a city or town.",
+      "example_sentence": "De gemeente haalt het vuilnis op elke dinsdag."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De regel",
+      "english_word": "The rule",
+      "meaning": "An instruction on what is allowed or not.",
+      "example_sentence": "Wat zijn de regels voor het parkeren in deze straat?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De rust",
+      "english_word": "The peace/quiet",
+      "meaning": "A state of being calm and without noise.",
+      "example_sentence": "Ik geniet van de rust in deze afgelegen wijk."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De stadsplanner",
+      "english_word": "The city planner",
+      "meaning": "A person who designs the layout of neighborhoods and infrastructure.",
+      "example_sentence": "De stadsplanner ontwerpt een nieuw park in de wijk."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De vrijwilliger",
+      "english_word": "The volunteer",
+      "meaning": "A person who does work for the community without being paid.",
+      "example_sentence": "De vrijwilliger ruimt zwerfvuil op in de buurt."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De ondergrondse container",
+      "english_word": "The underground container",
+      "meaning": "A waste bin built into the ground, common in Dutch cities.",
+      "example_sentence": "Je hebt een pasje nodig voor de ondergrondse container."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het kruispunt",
+      "english_word": "The intersection/crossroads",
+      "meaning": "The place where two or more roads meet.",
+      "example_sentence": "Er gebeuren vaak ongelukken op dit drukke kruispunt."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De rotonde",
+      "english_word": "The roundabout",
+      "meaning": "A circular intersection where traffic moves in one direction.",
+      "example_sentence": "Neem op de rotonde de tweede afslag naar rechts."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het station",
+      "english_word": "The station",
+      "meaning": "A place where trains or buses stop regularly.",
+      "example_sentence": "Het station is slechts tien minuten fietsen van mijn huis."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De lantaarnpaal",
+      "english_word": "The lamppost",
+      "meaning": "A tall pole with a light used to illuminate the street.",
+      "example_sentence": "De lantaarnpaal is kapot en moet gerepareerd worden."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De oplaadpaal",
+      "english_word": "The charging station",
+      "meaning": "A post used to charge electric cars in the street.",
+      "example_sentence": "Er staat een oplaadpaal voor de deur voor mijn elektrische auto."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De verkeerslichten",
+      "english_word": "The traffic lights",
+      "meaning": "Lights that control the flow of traffic (red, orange, green).",
+      "example_sentence": "Je moet stoppen als de verkeerslichten op rood staan."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Parkeren",
+      "english_word": "To park",
+      "meaning": "To leave a vehicle in a specific place.",
+      "example_sentence": "Hier mag je alleen parkeren met een vergunning."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Oversteken",
+      "english_word": "To cross over",
+      "meaning": "To go from one side of a road or water to the other.",
+      "example_sentence": "Kijk goed uit voor je de drukke weg gaat oversteken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Samenwerken",
+      "english_word": "To cooperate/work together",
+      "meaning": "To work with others to achieve a common goal in the community.",
+      "example_sentence": "De buren gaan samenwerken om de speeltuin op te knappen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Handhaven",
+      "english_word": "To enforce/maintain",
+      "meaning": "To ensure that rules (like parking or noise) are followed.",
+      "example_sentence": "De politie moet de regels in de wijk beter handhaven."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Waarschuwen",
+      "english_word": "To warn",
+      "meaning": "To tell someone about a possible danger or problem.",
+      "example_sentence": "De buren waarschuwen elkaar voor inbrekers via WhatsApp."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Gezellig",
+      "english_word": "Cozy/Sociable",
+      "meaning": "A pleasant, social atmosphere (very common for neighborhood descriptions).",
+      "example_sentence": "Onze straat is erg gezellig tijdens de feestdagen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Lawaaiig",
+      "english_word": "Noisy",
+      "meaning": "Making a lot of noise; opposite of quiet.",
+      "example_sentence": "Het is hier erg lawaaiig door de snelweg dichtbij."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Bereikbaar",
+      "english_word": "Accessible",
+      "meaning": "Easy to reach by car or public transport.",
+      "example_sentence": "De wijk is goed bereikbaar met de bus en de trein."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Veilig",
+      "english_word": "Safe",
+      "meaning": "Protected from danger; not risky.",
+      "example_sentence": "In deze buurt voelen de mensen zich erg veilig."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De inspraak",
+      "english_word": "The say/participation",
+      "meaning": "The right to give an opinion on local government decisions.",
+      "example_sentence": "Bewoners hebben inspraak in de nieuwe plannen voor de wijk."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De veiligheid",
+      "english_word": "The safety/security",
+      "meaning": "The state of being safe.",
+      "example_sentence": "De veiligheid op straat is een belangrijk thema voor de gemeente."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De wegwerkzaamheden",
+      "english_word": "The roadworks",
+      "meaning": "Repairs or construction work on the roads.",
+      "example_sentence": "Door de wegwerkzaamheden is de straat tijdelijk afgesloten."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De sociale controle",
+      "english_word": "The social control",
+      "meaning": "When neighbors look out for each other to keep the area safe.",
+      "example_sentence": "Er is veel sociale controle in dit kleine dorp."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het bestemmingsplan",
+      "english_word": "The zoning plan",
+      "meaning": "A legal plan that determines what buildings can be used for.",
+      "example_sentence": "Volgens het bestemmingsplan mag hier geen winkel komen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De saamhorigheid",
+      "english_word": "The sense of community/togetherness",
+      "meaning": "The feeling of being part of a group that helps each other.",
+      "example_sentence": "De saamhorigheid in de wijk is na het buurtfeest gegroeid."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De woonomgeving",
+      "english_word": "The living environment",
+      "meaning": "The general area where a person lives.",
+      "example_sentence": "Een groene woonomgeving is goed voor de gezondheid."
+    }
+  ]
+}

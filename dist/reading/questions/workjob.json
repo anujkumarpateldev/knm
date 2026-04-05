@@ -1,0 +1,768 @@
+{
+  "module_id": "M17_Reading",
+  "module_title_nl": "Werk en beroepen",
+  "module_title_en": "Work and Jobs",
+  "total_questions": 20,
+  "questions": [
+    {
+      "id": "M17_R001",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Vacature",
+      "topic_en": "Job vacancy",
+      "source_text_nl": "Vacature: Wij zoeken een enthousiaste verkoopmedewerker voor onze kledingwinkel. Je werkt 24 uur per week, ook op zaterdag. Ervaring is niet nodig.",
+      "question_nl": "Moet je al eerder in een winkel hebben gewerkt voor deze baan?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Ja, dat is verplicht"
+        },
+        {
+          "id": "B",
+          "text_nl": "Nee, ervaring is niet nodig"
+        },
+        {
+          "id": "C",
+          "text_nl": "Alleen als je op zaterdag werkt"
+        },
+        {
+          "id": "D",
+          "text_nl": "Dat staat niet in de tekst"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst zegt expliciet: 'Ervaring is niet nodig'.",
+        "en": "The text explicitly states: 'Experience is not necessary'."
+      },
+      "source_text_en": "Vacancy: We are looking for an enthusiastic sales assistant for our clothing store. You will work 24 hours a week, including Saturdays. Experience is not necessary.",
+      "tags": [
+        "werk",
+        "vacature",
+        "ervaring"
+      ]
+    },
+    {
+      "id": "M17_R002",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Ziek melden",
+      "topic_en": "Reporting sick",
+      "source_text_nl": "Bedrijfsregels: Ben je ziek? Bel dan voor 09:00 uur naar je leidinggevende. Een e-mail of appje sturen is niet voldoende.",
+      "question_nl": "Hoe moet je je ziek melden?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Via een e-mail"
+        },
+        {
+          "id": "B",
+          "text_nl": "Door te bellen"
+        },
+        {
+          "id": "C",
+          "text_nl": "Met een berichtje op WhatsApp"
+        },
+        {
+          "id": "D",
+          "text_nl": "Door een collega te sturen"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De regels zeggen dat je moet bellen; een tekstbericht of e-mail is niet genoeg.",
+        "en": "The rules state that you must call; a text message or email is not enough."
+      },
+      "source_text_en": "Company rules: Are you sick? Then call your supervisor before 09:00 AM. Sending an email or text message is not sufficient.",
+      "tags": [
+        "werk",
+        "ziekte",
+        "regels"
+      ]
+    },
+    {
+      "id": "M17_R003",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Sollicitatiegesprek",
+      "topic_en": "Job interview",
+      "source_text_nl": "Beste meneer Jansen, wij nodigen u graag uit voor een gesprek op donderdag 15 mei om 10:00 uur. Het gesprek vindt plaats op ons kantoor in Utrecht.",
+      "question_nl": "Waar moet meneer Jansen naartoe voor het gesprek?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Naar Amsterdam"
+        },
+        {
+          "id": "B",
+          "text_nl": "Naar de bank"
+        },
+        {
+          "id": "C",
+          "text_nl": "Naar het kantoor in Utrecht"
+        },
+        {
+          "id": "D",
+          "text_nl": "Naar zijn eigen huis"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De locatie van het gesprek is het kantoor in Utrecht.",
+        "en": "The location of the interview is the office in Utrecht."
+      },
+      "source_text_en": "Dear Mr. Jansen, we would like to invite you for an interview on Thursday, May 15 at 10:00 AM. The interview will take place at our office in Utrecht.",
+      "tags": [
+        "sollicitatie",
+        "gesprek",
+        "locatie"
+      ]
+    },
+    {
+      "id": "M17_R004",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Arbeidscontract",
+      "topic_en": "Employment contract",
+      "source_text_nl": "In je contract staat dat je een proeftijd hebt van één maand. Tijdens deze maand kunnen jij en de werkgever beslissen om direct te stoppen.",
+      "question_nl": "Hoe lang duurt de proeftijd?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Eén week"
+        },
+        {
+          "id": "B",
+          "text_nl": "Eén maand"
+        },
+        {
+          "id": "C",
+          "text_nl": "Eén jaar"
+        },
+        {
+          "id": "D",
+          "text_nl": "Er is geen proeftijd"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst vermeldt een proeftijd van één maand.",
+        "en": "The text mentions a probation period of one month."
+      },
+      "source_text_en": "Your contract states that you have a probation period of one month. During this month, both you and the employer can decide to stop immediately.",
+      "tags": [
+        "contract",
+        "proeftijd",
+        "werk"
+      ]
+    },
+    {
+      "id": "M17_R005",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Salaris",
+      "topic_en": "Salary",
+      "source_text_nl": "Uw loonstrook staat online in het personeelsportaal. Het salaris wordt elke maand op de 25e overgemaakt naar uw bankrekening.",
+      "question_nl": "Op welke dag krijgt de medewerker zijn salaris?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Op de eerste dag van de maand"
+        },
+        {
+          "id": "B",
+          "text_nl": "Op de 15e"
+        },
+        {
+          "id": "C",
+          "text_nl": "Op de 25e"
+        },
+        {
+          "id": "D",
+          "text_nl": "Elke vrijdag"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "Het salaris wordt op de 25e van de maand uitbetaald.",
+        "en": "The salary is paid on the 25th of the month."
+      },
+      "source_text_en": "Your payslip is available online in the staff portal. The salary is transferred to your bank account on the 25th of each month.",
+      "tags": [
+        "geld",
+        "salaris",
+        "datum"
+      ]
+    },
+    {
+      "id": "M17_R006",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Werktijden",
+      "topic_en": "Working hours",
+      "source_text_nl": "Wij werken in ploegendienst. De ochtenddienst begint om 06:00 uur en de middagdienst begint om 14:00 uur. Je werkt elke week 40 uur.",
+      "question_nl": "Hoe laat begint de ochtenddienst?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Om 06:00 uur"
+        },
+        {
+          "id": "B",
+          "text_nl": "Om 08:00 uur"
+        },
+        {
+          "id": "C",
+          "text_nl": "Om 14:00 uur"
+        },
+        {
+          "id": "D",
+          "text_nl": "Om middernacht"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": {
+        "nl": "De ochtenddienst start volgens de tekst om 06:00 uur.",
+        "en": "The morning shift starts at 06:00 AM according to the text."
+      },
+      "source_text_en": "We work in shifts. The morning shift starts at 06:00 AM and the afternoon shift starts at 02:00 PM. You work 40 hours every week.",
+      "tags": [
+        "werk",
+        "tijd",
+        "ploegendienst"
+      ]
+    },
+    {
+      "id": "M17_R007",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Vakantie aanvragen",
+      "topic_en": "Requesting holiday",
+      "source_text_nl": "Wil je op vakantie gaan? Vraag dit minimaal twee weken van tevoren aan bij je manager. Tijdens de drukke kerstperiode is vakantie niet mogelijk.",
+      "question_nl": "Wanneer kun je GEEN vakantie krijgen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "In de zomer"
+        },
+        {
+          "id": "B",
+          "text_nl": "Tijdens de kerstperiode"
+        },
+        {
+          "id": "C",
+          "text_nl": "Op maandag"
+        },
+        {
+          "id": "D",
+          "text_nl": "Als je manager weg is"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst stelt dat vakantie tijdens de kerstperiode niet mogelijk is.",
+        "en": "The text states that holiday during the Christmas period is not possible."
+      },
+      "source_text_en": "Do you want to go on holiday? Request this at least two weeks in advance from your manager. During the busy Christmas period, holiday is not possible.",
+      "tags": [
+        "vakantie",
+        "werk",
+        "planning"
+      ]
+    },
+    {
+      "id": "M17_R008",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Veiligheid op het werk",
+      "topic_en": "Safety at work",
+      "source_text_nl": "Veiligheid voor alles: In het magazijn is het verplicht om veiligheidsschoenen en een helm te dragen. Bezoekers moeten zich melden bij de receptie.",
+      "question_nl": "Wat moet je dragen als je in het magazijn werkt?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Een net pak"
+        },
+        {
+          "id": "B",
+          "text_nl": "Veiligheidsschoenen en een helm"
+        },
+        {
+          "id": "C",
+          "text_nl": "Alleen een jas"
+        },
+        {
+          "id": "D",
+          "text_nl": "Niets bijzonders"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Schoenen en een helm zijn verplicht voor de veiligheid in het magazijn.",
+        "en": "Shoes and a helmet are mandatory for safety in the warehouse."
+      },
+      "source_text_en": "Safety first: In the warehouse, it is mandatory to wear safety shoes and a helmet. Visitors must report to the reception.",
+      "tags": [
+        "veiligheid",
+        "magazijn",
+        "kleding"
+      ]
+    },
+    {
+      "id": "M17_R009",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Ontslag",
+      "topic_en": "Resignation",
+      "source_text_nl": "Als je ontslag wilt nemen, moet je een brief schrijven naar de afdeling Personeelszaken. De opzegtermijn is meestal één maand.",
+      "question_nl": "Naar welke afdeling moet je de brief sturen als je wilt stoppen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De kantine"
+        },
+        {
+          "id": "B",
+          "text_nl": "De receptie"
+        },
+        {
+          "id": "C",
+          "text_nl": "Personeelszaken (HR)"
+        },
+        {
+          "id": "D",
+          "text_nl": "De technische dienst"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "Personeelszaken regelt alle zaken rondom contracten en ontslag.",
+        "en": "Human Resources (Personeelszaken) handles all matters regarding contracts and resignation."
+      },
+      "source_text_en": "If you want to resign, you must write a letter to the Human Resources department. The notice period is usually one month.",
+      "tags": [
+        "werk",
+        "ontslag",
+        "afdeling"
+      ]
+    },
+    {
+      "id": "M17_R010",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Thuiswerken",
+      "topic_en": "Working from home",
+      "source_text_nl": "Bij dit bedrijf mag je twee dagen per week thuiswerken. Op maandag en donderdag moet iedereen op kantoor aanwezig zijn voor de vergadering.",
+      "question_nl": "Op welke dagen moet je verplicht naar kantoor?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Alleen op vrijdag"
+        },
+        {
+          "id": "B",
+          "text_nl": "Op maandag en donderdag"
+        },
+        {
+          "id": "C",
+          "text_nl": "Elke dag"
+        },
+        {
+          "id": "D",
+          "text_nl": "Nooit, je mag altijd thuiswerken"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De vergaderingen op maandag en donderdag vereisen dat iedereen op kantoor is.",
+        "en": "The meetings on Monday and Thursday require everyone to be at the office."
+      },
+      "source_text_en": "At this company, you are allowed to work from home two days a week. On Monday and Thursday, everyone must be present at the office for the meeting.",
+      "tags": [
+        "thuiswerken",
+        "kantoor",
+        "vergadering"
+      ]
+    },
+    {
+      "id": "M17_R011",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Pauze",
+      "topic_en": "Break",
+      "source_text_nl": "De lunchpauze duurt 30 minuten. Je kunt eten in de kantine of buiten wandelen. Het is niet toegestaan om te eten achter je computer.",
+      "question_nl": "Hoe lang mag je pauze houden om te lunchen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "15 minuten"
+        },
+        {
+          "id": "B",
+          "text_nl": "30 minuten"
+        },
+        {
+          "id": "C",
+          "text_nl": "Eén uur"
+        },
+        {
+          "id": "D",
+          "text_nl": "Zolang je wilt"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De pauzetijd is vastgesteld op 30 minuten.",
+        "en": "The break time is set at 30 minutes."
+      },
+      "source_text_en": "The lunch break lasts 30 minutes. You can eat in the canteen or walk outside. It is not allowed to eat at your computer.",
+      "tags": [
+        "pauze",
+        "werk",
+        "regels"
+      ]
+    },
+    {
+      "id": "M17_R012",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Bedrijfskleding",
+      "topic_en": "Company clothing",
+      "source_text_nl": "Alle medewerkers in de bediening dragen een wit overhemd en een zwarte broek. De kleding wordt door het restaurant betaald.",
+      "question_nl": "Wie betaalt de kleding van het personeel?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "De medewerkers zelf"
+        },
+        {
+          "id": "B",
+          "text_nl": "Het restaurant"
+        },
+        {
+          "id": "C",
+          "text_nl": "De gasten"
+        },
+        {
+          "id": "D",
+          "text_nl": "De gemeente"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In de tekst staat: 'De kleding wordt door het restaurant betaald'.",
+        "en": "The text states: 'The clothing is paid for by the restaurant'."
+      },
+      "source_text_en": "All waitstaff wear a white shirt and black trousers. The clothing is paid for by the restaurant.",
+      "tags": [
+        "kleding",
+        "restaurant",
+        "kosten"
+      ]
+    },
+    {
+      "id": "M17_R013",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Opleiding",
+      "topic_en": "Training/Education",
+      "source_text_nl": "Vind je het leuk om nieuwe dingen te leren? Wij bieden onze medewerkers elk jaar een gratis cursus aan om beter te worden in hun werk.",
+      "question_nl": "Moet de medewerker betalen voor de cursus?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Ja, dat kost veel geld"
+        },
+        {
+          "id": "B",
+          "text_nl": "Alleen als de cursus moeilijk is"
+        },
+        {
+          "id": "C",
+          "text_nl": "Nee, de cursus is gratis"
+        },
+        {
+          "id": "D",
+          "text_nl": "Dat staat niet in de tekst"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "De tekst vermeldt dat het bedrijf een 'gratis cursus' aanbiedt.",
+        "en": "The text mentions that the company offers a 'free course'."
+      },
+      "source_text_en": "Do you enjoy learning new things? We offer our employees a free course every year to improve at their work.",
+      "tags": [
+        "opleiding",
+        "cursus",
+        "gratis"
+      ]
+    },
+    {
+      "id": "M17_R014",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Reiskostenvergoeding",
+      "topic_en": "Travel allowance",
+      "source_text_nl": "Woon je ver van je werk? Je krijgt een reiskostenvergoeding van 23 cent per kilometer als je met de auto of de fiets komt.",
+      "question_nl": "Krijg je ook geld als je met de fiets naar je werk komt?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Nee, alleen met de auto"
+        },
+        {
+          "id": "B",
+          "text_nl": "Ja, je krijgt ook een vergoeding voor de fiets"
+        },
+        {
+          "id": "C",
+          "text_nl": "Alleen als het regent"
+        },
+        {
+          "id": "D",
+          "text_nl": "Nee, fietsen is gratis"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De vergoeding geldt voor zowel de auto als de fiets.",
+        "en": "The allowance applies to both the car and the bicycle."
+      },
+      "source_text_en": "Do you live far from work? You get a travel allowance of 23 cents per kilometer if you come by car or bike.",
+      "tags": [
+        "reiskosten",
+        "fiets",
+        "geld"
+      ]
+    },
+    {
+      "id": "M17_R015",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Uitzendbureau",
+      "topic_en": "Employment agency",
+      "source_text_nl": "Zoek je tijdelijk werk voor de vakantie? Schrijf je dan in bij het uitzendbureau. Zij hebben veel banen in de productie en in de schoonmaak.",
+      "question_nl": "Wat voor werk kun je via dit uitzendbureau doen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Werken als dokter"
+        },
+        {
+          "id": "B",
+          "text_nl": "Productie en schoonmaak"
+        },
+        {
+          "id": "C",
+          "text_nl": "Alleen bij de politie"
+        },
+        {
+          "id": "D",
+          "text_nl": "Geen werk, alleen vakantie vieren"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst noemt banen in de productie en schoonmaak.",
+        "en": "The text mentions jobs in production and cleaning."
+      },
+      "source_text_en": "Looking for temporary work for the holidays? Register at the employment agency. They have many jobs in production and cleaning.",
+      "tags": [
+        "werk",
+        "uitzendbureau",
+        "tijdelijk"
+      ]
+    },
+    {
+      "id": "M17_R016",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Pensioen",
+      "topic_en": "Pension",
+      "source_text_nl": "Als je werkt, bouw je meestal pensioen op voor later. Dit geld krijg je pas als je stopt met werken omdat je oud bent.",
+      "question_nl": "Wanneer krijg je pensioen?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Zodra je begint met werken"
+        },
+        {
+          "id": "B",
+          "text_nl": "Elke maand bij je salaris"
+        },
+        {
+          "id": "C",
+          "text_nl": "Als je stopt met werken omdat je oud bent"
+        },
+        {
+          "id": "D",
+          "text_nl": "Als je op vakantie gaat"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "Pensioen is geld voor de periode na je werkende leven.",
+        "en": "Pension is money for the period after your working life."
+      },
+      "source_text_en": "When you work, you usually build up a pension for later. You only receive this money when you stop working because you are old.",
+      "tags": [
+        "pensioen",
+        "geld",
+        "later"
+      ]
+    },
+    {
+      "id": "M17_R017",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Evaluatiegesprek",
+      "topic_en": "Performance review",
+      "source_text_nl": "Eén keer per jaar heb je een evaluatiegesprek. Je praat dan met je baas over wat er goed gaat en wat je nog wilt leren.",
+      "question_nl": "Waarover praat je tijdens een evaluatiegesprek?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Over het weer"
+        },
+        {
+          "id": "B",
+          "text_nl": "Over hoe het werk gaat"
+        },
+        {
+          "id": "C",
+          "text_nl": "Alleen over het salaris"
+        },
+        {
+          "id": "D",
+          "text_nl": "Over de vakantie van de baas"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In het gesprek bespreek je de voortgang en doelen van je werk.",
+        "en": "In the meeting, you discuss the progress and goals of your work."
+      },
+      "source_text_en": "Once a year you have a performance review. You then talk to your boss about what is going well and what you still want to learn.",
+      "tags": [
+        "werk",
+        "gesprek",
+        "baas"
+      ]
+    },
+    {
+      "id": "M17_R018",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Overwerken",
+      "topic_en": "Overtime",
+      "source_text_nl": "Is het erg druk? Dan vraagt de manager soms of je wilt overwerken. Je krijgt voor deze extra uren meer geld of extra vrije tijd.",
+      "question_nl": "Wat krijg je als je overwerkt?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Niets, dat hoort erbij"
+        },
+        {
+          "id": "B",
+          "text_nl": "Een boete"
+        },
+        {
+          "id": "C",
+          "text_nl": "Meer geld of vrije tijd"
+        },
+        {
+          "id": "D",
+          "text_nl": "Een nieuwe computer"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "Extra werk wordt beloond met extra loon of extra vrije uren.",
+        "en": "Extra work is rewarded with extra pay or extra free hours."
+      },
+      "source_text_en": "Is it very busy? Then the manager sometimes asks if you want to work overtime. You receive more money or extra free time for these extra hours.",
+      "tags": [
+        "werk",
+        "overuren",
+        "geld"
+      ]
+    },
+    {
+      "id": "M17_R019",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Klantenservice",
+      "topic_en": "Customer service",
+      "source_text_nl": "Als medewerker klantenservice ben je het eerste aanspreekpunt voor klanten. Je beantwoordt vragen via de telefoon en de e-mail.",
+      "question_nl": "Hoe beantwoordt deze medewerker de vragen van klanten?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Alleen met brieven"
+        },
+        {
+          "id": "B",
+          "text_nl": "Via de telefoon en e-mail"
+        },
+        {
+          "id": "C",
+          "text_nl": "Door bij de klanten thuis langs te gaan"
+        },
+        {
+          "id": "D",
+          "text_nl": "Dat staat niet in de tekst"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De tekst noemt telefoon en e-mail als communicatiemiddelen.",
+        "en": "The text mentions phone and email as means of communication."
+      },
+      "source_text_en": "As a customer service representative, you are the first point of contact for customers. You answer questions via phone and email.",
+      "tags": [
+        "klantenservice",
+        "telefoon",
+        "werk"
+      ]
+    },
+    {
+      "id": "M17_R020",
+      "type": "reading_comprehension",
+      "difficulty": "A2",
+      "topic_nl": "Bedrijfsfeest",
+      "topic_en": "Company party",
+      "source_text_nl": "Feest! Op vrijdagavond 20 juni vieren we het 10-jarig bestaan van ons bedrijf. Er is muziek en eten voor alle medewerkers en hun partners.",
+      "question_nl": "Wie zijn er uitgenodigd voor het feest?",
+      "options": [
+        {
+          "id": "A",
+          "text_nl": "Alleen de baas"
+        },
+        {
+          "id": "B",
+          "text_nl": "Alle medewerkers en hun partners"
+        },
+        {
+          "id": "C",
+          "text_nl": "Alleen de klanten"
+        },
+        {
+          "id": "D",
+          "text_nl": "Iedereen in de stad"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het feest is voor het personeel en hun partners.",
+        "en": "The party is for the staff and their partners."
+      },
+      "source_text_en": "Party! On Friday evening, June 20, we are celebrating our company's 10th anniversary. There is music and food for all employees and their partners.",
+      "tags": [
+        "feest",
+        "medewerkers",
+        "bedrijf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,708 @@
+{
+  "title_reading": "A2 Vocabulary Master",
+  "category": "Shopping & Money",
+  "total_words_target": 100,
+  "batch": 1,
+  "vocabulary_list": [
+    {
+      "type": "Profession",
+      "dutch_word": "De caissière",
+      "english_word": "The cashier",
+      "meaning": "The person who scans your items and takes your payment.",
+      "example_sentence": "De caissière vraagt of ik een bonnetje wil."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De verkoper",
+      "english_word": "The salesman/shop assistant",
+      "meaning": "A person who helps customers and sells products.",
+      "example_sentence": "De verkoper legt uit hoe de nieuwe televisie werkt."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De bankadviseur",
+      "english_word": "The bank advisor",
+      "meaning": "A person at the bank who gives financial advice.",
+      "example_sentence": "De bankadviseur helpt me bij het openen van een rekening."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het winkelcentrum",
+      "english_word": "The shopping center/mall",
+      "meaning": "A large building with many different shops inside.",
+      "example_sentence": "In het weekend is het erg druk in het winkelcentrum."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De kassa",
+      "english_word": "The checkout/cash desk",
+      "meaning": "The place in a shop where you pay for your goods.",
+      "example_sentence": "Er staat een lange rij voor de kassa."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De bank",
+      "english_word": "The bank",
+      "meaning": "An institution where you can keep and borrow money.",
+      "example_sentence": "Ik moet even naar de bank om een nieuwe pas aan te vragen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De pinpas",
+      "english_word": "The debit card",
+      "meaning": "The card used to pay electronically from your bank account.",
+      "example_sentence": "Oeps, ik ben mijn pinpas thuis vergeten."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het contant geld",
+      "english_word": "The cash",
+      "meaning": "Money in the form of coins or banknotes.",
+      "example_sentence": "Kun je hier ook met contant geld betalen?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De portemonnee",
+      "english_word": "The wallet/purse",
+      "meaning": "A small case for carrying money and cards.",
+      "example_sentence": "Er zit bijna geen geld meer in mijn portemonnee."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De kassabon",
+      "english_word": "The receipt",
+      "meaning": "A piece of paper showing what you bought and paid.",
+      "example_sentence": "Bewaar de kassabon goed voor de garantie."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De aanbieding",
+      "english_word": "The offer/sale",
+      "meaning": "A product sold at a lower price than usual.",
+      "example_sentence": "Deze kaas is nu in de aanbieding: twee voor de prijs van één."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De boodschappenwagen",
+      "english_word": "The shopping trolley/cart",
+      "meaning": "A metal basket on wheels used in a supermarket.",
+      "example_sentence": "Ik heb een muntje nodig voor de boodschappenwagen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Winkelen",
+      "english_word": "To shop",
+      "meaning": "To go to shops to buy things.",
+      "example_sentence": "Ik ga graag winkelen in Amsterdam."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Betalen",
+      "english_word": "To pay",
+      "meaning": "To give money for something you buy.",
+      "example_sentence": "Hoe wilt u betalen, met pin of contant?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Pinnen",
+      "english_word": "To pay by card",
+      "meaning": "A specific Dutch verb for using a debit card at a terminal.",
+      "example_sentence": "In Nederland kun je bijna overal pinnen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Kosten",
+      "english_word": "To cost",
+      "meaning": "To have a specific price.",
+      "example_sentence": "Hoeveel kosten deze schoenen?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Bestellen",
+      "english_word": "To order",
+      "meaning": "To ask for a product, often online.",
+      "example_sentence": "Ik heb een nieuw boek besteld via internet."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Sparen",
+      "english_word": "To save (money)",
+      "meaning": "To keep money for future use instead of spending it.",
+      "example_sentence": "Ik spaar geld voor een nieuwe auto."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Duur",
+      "english_word": "Expensive",
+      "meaning": "Costing a lot of money.",
+      "example_sentence": "Deze jas is veel te duur voor mij."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Goedkoop",
+      "english_word": "Cheap",
+      "meaning": "Not costing much money.",
+      "example_sentence": "Op de markt is groente vaak goedkoop."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Gratis",
+      "english_word": "Free",
+      "meaning": "Costing no money at all.",
+      "example_sentence": "Bij dit tijdschrift krijg je een gratis pen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Verlaagd",
+      "english_word": "Reduced",
+      "meaning": "When a price has been made lower.",
+      "example_sentence": "De prijs van de laptop is met vijftig euro verlaagd."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De prijs",
+      "english_word": "The price",
+      "meaning": "The amount of money something costs.",
+      "example_sentence": "De prijs van benzine is weer gestegen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De korting",
+      "english_word": "The discount",
+      "meaning": "A reduction in the usual price.",
+      "example_sentence": "Met deze kaart krijg je 10% korting op alles."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De bankrekening",
+      "english_word": "The bank account",
+      "meaning": "An arrangement with a bank to keep your money.",
+      "example_sentence": "Er staat genoeg geld op mijn bankrekening."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De filiaalmanager",
+      "english_word": "The branch manager",
+      "meaning": "The person in charge of a specific shop location.",
+      "example_sentence": "De filiaalmanager lost het probleem met de klant op."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De vakkenvuller",
+      "english_word": "The shelf stacker",
+      "meaning": "A person who puts products on the shelves in a supermarket.",
+      "example_sentence": "De vakkenvuller zet de nieuwe pakken melk in het schap."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De paskamer",
+      "english_word": "The fitting room",
+      "meaning": "A small room in a clothing store where you can try on clothes.",
+      "example_sentence": "Ik neem deze drie broeken mee naar de paskamer."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De markt",
+      "english_word": "The market",
+      "meaning": "An outdoor area where people sell fresh food and goods from stalls.",
+      "example_sentence": "Op zaterdag koop ik altijd verse bloemen op de markt."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De klantenservice",
+      "english_word": "The customer service",
+      "meaning": "The department that handles questions and complaints.",
+      "example_sentence": "U kunt uw kapotte apparaat inleveren bij de klantenservice."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het prijskaartje",
+      "english_word": "The price tag",
+      "meaning": "A small label on a product that shows how much it costs.",
+      "example_sentence": "Ik kan het prijskaartje op dit shirt niet vinden."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De creditcard",
+      "english_word": "The credit card",
+      "meaning": "A card that allows you to buy things and pay for them later.",
+      "example_sentence": "In het buitenland betaal ik vaak met mijn creditcard."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De kleingeld",
+      "english_word": "The small change/coins",
+      "meaning": "Coins of low value.",
+      "example_sentence": "Heb je wat kleingeld voor de parkeermeter?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De tas",
+      "english_word": "The bag",
+      "meaning": "A container used for carrying your purchases.",
+      "example_sentence": "Wilt u een plastic tasje bij uw boodschappen?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De portokosten",
+      "english_word": "The postage costs/shipping",
+      "meaning": "The money you pay to have a package delivered.",
+      "example_sentence": "De portokosten voor dit pakketje zijn zeven euro."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Ruilen",
+      "english_word": "To exchange",
+      "meaning": "To give back a product and get a different one instead.",
+      "example_sentence": "Deze trui is te klein, mag ik hem ruilen voor een grotere maat?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Inleveren",
+      "english_word": "To hand in/return",
+      "meaning": "To return an item to a shop or office.",
+      "example_sentence": "Je kunt lege flessen inleveren bij de automaat."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Geld opnemen",
+      "english_word": "To withdraw money",
+      "meaning": "To take money out of an ATM or bank account.",
+      "example_sentence": "Ik moet even geld opnemen bij de pinautomaat."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Lenen",
+      "english_word": "To borrow/To lend",
+      "meaning": "To take or give money with the intent of returning it.",
+      "example_sentence": "Kun jij mij een tientje lenen tot morgen?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Passen",
+      "english_word": "To fit/To try on",
+      "meaning": "To check if clothes are the right size or look good.",
+      "example_sentence": "Ik wil deze jas graag even passen voor ik hem koop."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Vergelijken",
+      "english_word": "To compare",
+      "meaning": "To look at prices or quality of different products.",
+      "example_sentence": "Het is slim om prijzen op internet te vergelijken."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Blut",
+      "english_word": "Broke",
+      "meaning": "Having no money at all.",
+      "example_sentence": "Aan het eind van de maand ben ik vaak helemaal blut."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Rijk",
+      "english_word": "Rich",
+      "meaning": "Having a lot of money or assets.",
+      "example_sentence": "Als ik rijk was, zou ik een groot huis kopen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Arm",
+      "english_word": "Poor",
+      "meaning": "Having very little money.",
+      "example_sentence": "Vroeger was de familie erg arm."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Tweedehands",
+      "english_word": "Second-hand",
+      "meaning": "Used goods; previously owned by someone else.",
+      "example_sentence": "Ik koop mijn meubels vaak tweedehands op internet."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De schuld",
+      "english_word": "The debt",
+      "meaning": "Money that is owed to someone else.",
+      "example_sentence": "Het is vervelend om een schuld bij de bank te hebben."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De garantie",
+      "english_word": "The warranty/guarantee",
+      "meaning": "A promise that a product will be repaired or replaced if it breaks.",
+      "example_sentence": "Op deze wasmachine zit twee jaar garantie."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De rente",
+      "english_word": "The interest",
+      "meaning": "The extra money you pay on a loan or receive on savings.",
+      "example_sentence": "De rente op spaarrekeningen is momenteel erg laag."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De uitverkoop",
+      "english_word": "The sale",
+      "meaning": "A period when many items in a shop are cheaper.",
+      "example_sentence": "In januari begint de grote uitverkoop van winterkleding."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het bedrag",
+      "english_word": "The amount",
+      "meaning": "The total quantity of money.",
+      "example_sentence": "Kunt u het totale bedrag op de bon controleren?"
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De bezorger",
+      "english_word": "The delivery person",
+      "meaning": "A person who brings your online orders to your house.",
+      "example_sentence": "De bezorger van de supermarkt brengt de boodschappen tot aan de deur."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De beveiliger",
+      "english_word": "The security guard",
+      "meaning": "A person who protects the shop and prevents theft.",
+      "example_sentence": "De beveiliger staat bij de ingang van de grote kledingwinkel."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De pinautomaat",
+      "english_word": "The ATM/Cash machine",
+      "meaning": "A machine where you can get cash using your bank card.",
+      "example_sentence": "Ik moet even stoppen bij de pinautomaat om geld te halen."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De webshop",
+      "english_word": "The online store",
+      "meaning": "A website where you can buy products.",
+      "example_sentence": "Deze webshop heeft vaak gratis verzending."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De drogisterij",
+      "english_word": "The drugstore/chemist",
+      "meaning": "A shop that sells medicine (non-prescription), soap, and makeup.",
+      "example_sentence": "Ik haal mijn shampoo en tandpasta bij de drogisterij."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De pincode",
+      "english_word": "The PIN code",
+      "meaning": "The secret four-digit number used for your bank card.",
+      "example_sentence": "Houd je hand boven de toetsen als je je pincode invult."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het bankbiljet",
+      "english_word": "The banknote",
+      "meaning": "A piece of paper money.",
+      "example_sentence": "Ik heb alleen een bankbiljet van vijftig euro."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De spaarpot",
+      "english_word": "The piggy bank/savings jar",
+      "meaning": "A container for saving small amounts of money at home.",
+      "example_sentence": "Mijn zoontje doet elke week een euro in zijn spaarpot."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De reclamefolder",
+      "english_word": "The advertising flyer/leaflet",
+      "meaning": "A booklet with the latest deals from a shop.",
+      "example_sentence": "In de reclamefolder staan alle aanbiedingen van deze week."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De barcode",
+      "english_word": "The barcode",
+      "meaning": "A series of black lines on a product scanned by a machine.",
+      "example_sentence": "De caissière scant de barcode op het pak melk."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Betalen",
+      "english_word": "To pay",
+      "meaning": "To give money for goods or services.",
+      "example_sentence": "Je kunt hier alleen met een bankpas betalen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Geld overmaken",
+      "english_word": "To transfer money",
+      "meaning": "To move money from one bank account to another digitally.",
+      "example_sentence": "Ik zal het geld voor de lunch vanavond naar je overmaken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Besparen",
+      "english_word": "To save/economize",
+      "meaning": "To reduce costs or use less money.",
+      "example_sentence": "We proberen te besparen op onze maandelijkse kosten."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verkopen",
+      "english_word": "To sell",
+      "meaning": "To give something to someone in exchange for money.",
+      "example_sentence": "Ik ga mijn oude fiets verkopen op internet."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Inleveren",
+      "english_word": "To hand in/return",
+      "meaning": "To return something, like a bottle for deposit (statiegeld).",
+      "example_sentence": "Vergeet niet je lege flessen in te leveren voor het geld."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Kiezen",
+      "english_word": "To choose",
+      "meaning": "To pick one thing out of several options.",
+      "example_sentence": "Het is moeilijk om te kiezen uit zoveel mooie schoenen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Veilig",
+      "english_word": "Safe/Secure",
+      "meaning": "Protected from danger or theft.",
+      "meaning": "Online betalen is tegenwoordig erg veilig."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Beperkt",
+      "english_word": "Limited",
+      "meaning": "Only a small amount available.",
+      "example_sentence": "Deze aanbieding is maar beperkt geldig."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Handig",
+      "english_word": "Handy/Useful",
+      "meaning": "Useful or easy to use.",
+      "example_sentence": "De app van de bank is erg handig voor snelle betalingen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Verplicht",
+      "english_word": "Mandatory",
+      "meaning": "Something you must do by rule or law.",
+      "example_sentence": "Het is verplicht om je pinpas te gebruiken bij deze kassa."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De lening",
+      "english_word": "The loan",
+      "meaning": "Money borrowed that must be paid back later.",
+      "example_sentence": "Ik heb een lening bij de bank voor mijn studie."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De belasting",
+      "english_word": "The tax",
+      "meaning": "Money you must pay to the government.",
+      "example_sentence": "De prijzen in de winkel zijn inclusief belasting (btw)."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De verzekering",
+      "english_word": "The insurance",
+      "meaning": "Protection against financial loss.",
+      "example_sentence": "Heb je een verzekering voor je nieuwe smartphone?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het statiegeld",
+      "english_word": "The deposit (on bottles/cans)",
+      "meaning": "Money you get back when you return empty bottles or cans.",
+      "example_sentence": "Er zit 25 cent statiegeld op deze grote fles."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De voorraad",
+      "english_word": "The stock/supply",
+      "meaning": "The amount of a product available in the shop.",
+      "example_sentence": "Helaas is dit product momenteel niet op voorraad."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De schuldhulpverlener",
+      "english_word": "The debt counselor",
+      "meaning": "A person who helps people manage and pay off their debts.",
+      "example_sentence": "De schuldhulpverlener helpt de familie met hun financiële problemen."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De eigenaar",
+      "english_word": "The owner",
+      "meaning": "The person who owns the shop or business.",
+      "example_sentence": "De eigenaar van de winkel staat zelf achter de kassa."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De bouwmarkt",
+      "english_word": "The hardware store/DIY store",
+      "meaning": "A large shop selling tools and materials for house repairs.",
+      "example_sentence": "Ik moet naar de bouwmarkt voor verf en hout."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De boekenwinkel",
+      "english_word": "The bookstore",
+      "meaning": "A shop that sells books and magazines.",
+      "example_sentence": "De boekenwinkel in de stad heeft een grote collectie romans."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De juwelier",
+      "english_word": "The jeweler",
+      "meaning": "A shop that sells watches and jewelry.",
+      "example_sentence": "We kopen onze trouwringen bij de juwelier."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De cadeaukaart",
+      "english_word": "The gift card",
+      "meaning": "A card with a certain amount of money to spend in a specific shop.",
+      "example_sentence": "Ik heb een cadeaukaart van twintig euro gekregen voor mijn verjaardag."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De scanner",
+      "english_word": "The scanner",
+      "meaning": "A device used to read barcodes or hand-scanned items.",
+      "example_sentence": "Met de zelfscanner in de supermarkt hoef je niet te wachten bij de kassa."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De lening",
+      "english_word": "The loan",
+      "meaning": "An amount of money borrowed from a bank or person.",
+      "example_sentence": "De lening voor mijn nieuwe auto moet ik in drie jaar terugbetalen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het wisselgeld",
+      "english_word": "The change (returned money)",
+      "meaning": "The money you get back when you pay with a larger bill.",
+      "example_sentence": "Vergeet niet je wisselgeld mee te nemen van de balie."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De herinnering",
+      "english_word": "The reminder/late notice",
+      "meaning": "A letter sent when you have forgotten to pay a bill.",
+      "example_sentence": "Ik heb een betalingsherinnering gekregen voor de telefoonrekening."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Terugbetalen",
+      "english_word": "To pay back/To refund",
+      "meaning": "To give money back that was borrowed or paid.",
+      "example_sentence": "De winkel gaat het bedrag binnen drie dagen terugbetalen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Uitgeven",
+      "english_word": "To spend",
+      "meaning": "To use money to buy things.",
+      "example_sentence": "Ik geef te veel geld uit aan kleding."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Ontvangen",
+      "english_word": "To receive",
+      "meaning": "To get money or goods.",
+      "example_sentence": "Heeft u het pakketje al in goede staat ontvangen?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Onderhandelen",
+      "english_word": "To bargain/negotiate",
+      "meaning": "To discuss the price to get a better deal.",
+      "example_sentence": "Op de rommelmarkt kun je vaak onderhandelen over de prijs."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Blokkeren",
+      "english_word": "To block",
+      "meaning": "To stop a bank card from working (e.g., if stolen).",
+      "example_sentence": "Ik moet direct mijn bankpas blokkeren omdat ik hem ben verloren."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Betaalbaar",
+      "english_word": "Affordable",
+      "meaning": "Having a price that is not too high.",
+      "example_sentence": "Het is lastig om een betaalbaar huis te vinden in Amsterdam."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Waardevol",
+      "english_word": "Valuable",
+      "meaning": "Worth a lot of money.",
+      "example_sentence": "Dit gouden horloge is erg waardevol voor mij."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Nep",
+      "english_word": "Fake",
+      "meaning": "Not real; an imitation of a brand or product.",
+      "example_sentence": "Kijk uit voor neppe producten op deze website."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Financieel",
+      "english_word": "Financial",
+      "meaning": "Relating to money matters.",
+      "example_sentence": "Wij hebben momenteel een financieel probleem."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De koopkracht",
+      "english_word": "Purchasing power",
+      "meaning": "The ability of people to buy goods and services.",
+      "example_sentence": "De koopkracht van de mensen is dit jaar gedaald."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De inkomsten",
+      "english_word": "The income",
+      "meaning": "The money you receive (usually from work).",
+      "example_sentence": "Zijn inkomsten zijn niet hoog genoeg voor deze lening."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De uitgaven",
+      "english_word": "The expenses/spending",
+      "meaning": "The money you spend on things.",
+      "example_sentence": "Je moet je uitgaven goed bijhouden in een schriftje."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De fraude",
+      "english_word": "The fraud",
+      "meaning": "Illegal activity involving money or identity theft.",
+      "example_sentence": "De bank waarschuwt klanten voor online fraude."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De waarde",
+      "english_word": "The value",
+      "meaning": "The amount of money something is worth.",
+      "example_sentence": "De waarde van het huis is de afgelopen jaren gestegen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De afschrijving",
+      "english_word": "The direct debit/deduction",
+      "meaning": "When money is automatically taken from your bank account.",
+      "example_sentence": "De maandelijkse afschrijving voor de huur is morgen."
+    }
+  ]
+}

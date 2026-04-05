@@ -1,0 +1,708 @@
+{
+  "title_reading": "A2 Vocabulary Master",
+  "category": "Health & Body",
+  "total_words_target": 100,
+  "batch": 1,
+  "vocabulary_list": [
+    {
+      "type": "Profession",
+      "dutch_word": "De huisarts",
+      "english_word": "The GP/General Practitioner",
+      "meaning": "The first doctor you go to for any health problem.",
+      "example_sentence": "Ik heb morgenochtend een afspraak bij de huisarts."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De tandarts",
+      "english_word": "The dentist",
+      "meaning": "A person who takes care of your teeth and gums.",
+      "example_sentence": "De tandarts controleert of ik gaatjes heb."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De apotheker",
+      "english_word": "The pharmacist",
+      "meaning": "A person who prepares and sells medicines.",
+      "example_sentence": "De apotheker legt uit hoe ik de medicijnen moet gebruiken."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De fysiotherapeut",
+      "english_word": "The physiotherapist",
+      "meaning": "A person who helps people with physical injuries through exercise.",
+      "example_sentence": "De fysiotherapeut helpt mij met mijn rugklachten."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "Het ziekenhuis",
+      "english_word": "The hospital",
+      "meaning": "A place where people go for operations or serious illnesses.",
+      "example_sentence": "Mijn opa ligt in het ziekenhuis voor een operatie."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De praktijk",
+      "english_word": "The practice/office",
+      "meaning": "The office where a doctor or dentist works.",
+      "example_sentence": "De praktijk van de dokter is gesloten in het weekend."
+    },
+    {
+      "type": "Place",
+      "dutch_word": "De apotheek",
+      "english_word": "The pharmacy",
+      "meaning": "The shop where you get your medicine.",
+      "example_sentence": "Ik haal mijn neusspray bij de apotheek om de hoek."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het medicijn",
+      "english_word": "The medicine",
+      "meaning": "A substance used to treat an illness.",
+      "example_sentence": "Dit medicijn moet je drie keer per dag innemen."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het recept",
+      "english_word": "The prescription",
+      "meaning": "An official note from a doctor for medicine.",
+      "example_sentence": "De huisarts stuurt het recept direct naar de apotheek."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De pleister",
+      "english_word": "The plaster/band-aid",
+      "meaning": "A small piece of sticky tape for covering a cut.",
+      "example_sentence": "Heb je een pleister voor de snee in mijn vinger?"
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De pil",
+      "english_word": "The pill/tablet",
+      "meaning": "A small round piece of medicine you swallow.",
+      "example_sentence": "Ik neem elke avond een pil tegen de pijn."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De thermometer",
+      "english_word": "The thermometer",
+      "meaning": "A device used to measure body temperature.",
+      "example_sentence": "Ik gebruik de thermometer om te kijken of ik koorts heb."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Ziek zijn",
+      "english_word": "To be sick/ill",
+      "meaning": "To not feel well or have a disease.",
+      "example_sentence": "Ik kan niet komen werken omdat ik ziek ben."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Pijn hebben",
+      "english_word": "To have pain/To hurt",
+      "meaning": "To feel physical suffering in a part of your body.",
+      "example_sentence": "Ik heb al drie dagen pijn in mijn knie."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Hoesten",
+      "english_word": "To cough",
+      "meaning": "To force air out of your lungs with a sharp sound.",
+      "example_sentence": "Hij moet veel hoesten omdat hij verkouden is."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Niesen",
+      "english_word": "To sneeze",
+      "meaning": "To suddenly burst air out through the nose.",
+      "example_sentence": "Gezondheid! Je moet veel niesen vandaag."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Bewegen",
+      "english_word": "To move/exercise",
+      "meaning": "To be physically active.",
+      "example_sentence": "Het is gezond om elke dag dertig minuten te bewegen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Beter worden",
+      "english_word": "To get better/recover",
+      "meaning": "To return to health after being ill.",
+      "example_sentence": "Ik hoop dat je snel weer beter wordt."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Verkouden",
+      "english_word": "To have a cold",
+      "meaning": "Having a runny nose and coughing.",
+      "example_sentence": "In de winter zijn veel mensen verkouden."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Moe",
+      "english_word": "Tired",
+      "meaning": "Feeling a need for rest or sleep.",
+      "example_sentence": "Als ik ziek ben, voel ik me vaak heel moe."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Gezond",
+      "english_word": "Healthy",
+      "meaning": "In good physical or mental condition.",
+      "example_sentence": "Zij leeft heel gezond en sport veel."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Zwak",
+      "english_word": "Weak",
+      "meaning": "Not having strength or energy.",
+      "example_sentence": "Na de griep voel ik me nog een beetje zwak."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De koorts",
+      "english_word": "The fever",
+      "meaning": "A high body temperature.",
+      "example_sentence": "Het kind heeft dertien graden koorts."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De afspraak",
+      "english_word": "The appointment",
+      "meaning": "A fixed time to see a doctor.",
+      "example_sentence": "Ik moet mijn afspraak bij de dokter verzetten."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De zorgverzekering",
+      "english_word": "The health insurance",
+      "meaning": "The system that pays for your medical costs.",
+      "example_sentence": "In Nederland is een zorgverzekering verplicht."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De verpleegkundige",
+      "english_word": "The nurse",
+      "meaning": "A person trained to care for sick or injured people in a hospital.",
+      "example_sentence": "De verpleegkundige komt mijn bloeddruk meten."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De assistente",
+      "english_word": "The assistant",
+      "meaning": "The person who answers the phone at the GP's office and makes appointments.",
+      "example_sentence": "De assistente van de huisarts vraagt wat mijn klachten zijn."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "Het hoofd",
+      "english_word": "The head",
+      "meaning": "The part of the body above the neck.",
+      "example_sentence": "Ik heb hoofdpijn door het slechte slapen."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "De rug",
+      "english_word": "The back",
+      "meaning": "The rear part of the human body from the shoulders to the hips.",
+      "example_sentence": "Ik heb last van mijn rug na het tillen van die zware doos."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "De buik",
+      "english_word": "The stomach/belly",
+      "meaning": "The front part of the body below the chest.",
+      "example_sentence": "Het kind heeft buikpijn omdat het te veel gesnoept heeft."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "De arm",
+      "english_word": "The arm",
+      "meaning": "The limb extending from the shoulder to the hand.",
+      "example_sentence": "Hij heeft zijn arm gebroken tijdens het voetballen."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "Het been",
+      "english_word": "The leg",
+      "meaning": "The limb used for standing and walking.",
+      "example_sentence": "Mijn benen zijn moe na de lange wandeling."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "De voet",
+      "english_word": "The foot",
+      "meaning": "The part of the leg that touches the ground.",
+      "example_sentence": "Ik heb nieuwe schoenen nodig want mijn voeten doen pijn."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "De hand",
+      "english_word": "The hand",
+      "meaning": "The part of the arm used for holding things.",
+      "example_sentence": "Was je handen altijd goed met zeep."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "De vinger",
+      "english_word": "The finger",
+      "meaning": "One of the five long parts at the end of the hand.",
+      "example_sentence": "Ik heb een snee in mijn vinger door het mes."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "De knie",
+      "english_word": "The knee",
+      "meaning": "The joint between the upper and lower leg.",
+      "example_sentence": "Zij is op haar knie gevallen tijdens het hardlopen."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "De schouder",
+      "english_word": "The shoulder",
+      "meaning": "The joint connecting the arm to the body.",
+      "example_sentence": "Ik draag mijn zware tas altijd op mijn rechter schouder."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Onderzoeken",
+      "english_word": "To examine",
+      "meaning": "When a doctor looks closely at your body to find a problem.",
+      "example_sentence": "De dokter gaat mijn keel onderzoeken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Meten",
+      "english_word": "To measure",
+      "meaning": "To find out the size, weight, or temperature of something.",
+      "example_sentence": "Kunt u mijn temperatuur even meten?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Ademen",
+      "english_word": "To breathe",
+      "meaning": "To take air into and out of your lungs.",
+      "example_sentence": "Haal diep adem terwijl ik naar je longen luister."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Bloeden",
+      "english_word": "To bleed",
+      "meaning": "To lose blood from the body.",
+      "example_sentence": "De wond begint weer te bloeden."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Rusten",
+      "english_word": "To rest",
+      "meaning": "To relax to recover your health.",
+      "example_sentence": "U moet een paar dagen rusten om beter te worden."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Dik",
+      "english_word": "Swollen/Thick",
+      "meaning": "Larger than normal, often due to injury.",
+      "example_sentence": "Mijn enkel is erg dik geworden na de val."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Rood",
+      "english_word": "Red",
+      "meaning": "Color often associated with inflammation or irritation.",
+      "example_sentence": "Mijn ogen zijn rood en ze jeuken een beetje."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Ernstig",
+      "english_word": "Serious/Severe",
+      "meaning": "Very bad or dangerous (health condition).",
+      "example_sentence": "Gelukkig is de ziekte niet ernstig."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Besmettelijk",
+      "english_word": "Contagious",
+      "meaning": "A disease that can be passed from person to person.",
+      "example_sentence": "Griep is een erg besmettelijke ziekte."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De griep",
+      "english_word": "The flu",
+      "meaning": "A common viral infection with fever and muscle aches.",
+      "example_sentence": "Ik heb de griep en lig de hele dag in bed."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De pijnstiller",
+      "english_word": "The painkiller",
+      "meaning": "A medicine used to reduce or stop pain.",
+      "example_sentence": "Paracetamol is een bekende pijnstiller."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De klacht",
+      "english_word": "The complaint/symptom",
+      "meaning": "A physical problem that you tell the doctor about.",
+      "example_sentence": "Wat zijn uw medische klachten precies?"
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De gezondheidszorg",
+      "english_word": "The healthcare",
+      "meaning": "The organized provision of medical care.",
+      "example_sentence": "De gezondheidszorg in Nederland is goed geregeld."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De oogarts",
+      "english_word": "The ophthalmologist/eye doctor",
+      "meaning": "A specialist doctor who treats eye diseases and vision.",
+      "example_sentence": "Ik moet naar de oogarts omdat ik minder goed zie."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De chirurg",
+      "english_word": "The surgeon",
+      "meaning": "A doctor who performs operations.",
+      "example_sentence": "De chirurg legt uit hoe de operatie gaat verlopen."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "Het oog",
+      "english_word": "The eye",
+      "meaning": "The organ used for seeing.",
+      "example_sentence": "Mijn ogen zijn droog door het werken achter de computer."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "Het oor",
+      "english_word": "The ear",
+      "meaning": "The organ used for hearing.",
+      "example_sentence": "Ik heb last van mijn rechteroor."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "De neus",
+      "english_word": "The nose",
+      "meaning": "The part of the face used for smelling and breathing.",
+      "example_sentence": "Mijn neus zit verstopt door de verkoudheid."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "De mond",
+      "english_word": "The mouth",
+      "meaning": "The opening through which food is taken and sounds are made.",
+      "example_sentence": "Doe uw mond maar ver open voor het onderzoek."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "De keel",
+      "english_word": "The throat",
+      "meaning": "The passage from the back of the mouth to the stomach/lungs.",
+      "example_sentence": "Ik heb keelpijn en kan moeilijk slikken."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "De borst",
+      "english_word": "The chest",
+      "meaning": "The front surface of the body between the neck and stomach.",
+      "example_sentence": "Hij heeft een drukkend gevoel op zijn borst."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "De hart",
+      "english_word": "The heart",
+      "meaning": "The organ that pumps blood through the body.",
+      "example_sentence": "Het hart slaat sneller tijdens het sporten."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "De longen",
+      "english_word": "The lungs",
+      "meaning": "The organs used for breathing.",
+      "example_sentence": "Roken is erg slecht voor je longen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Slikken",
+      "english_word": "To swallow",
+      "meaning": "To move food or drink from the mouth down the throat.",
+      "example_sentence": "Deze pil moet je in één keer doorslikken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Lopen",
+      "english_word": "To walk/To run",
+      "meaning": "To move on foot.",
+      "example_sentence": "Ik kan niet goed lopen door de pijn in mijn voet."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Zich voelen",
+      "english_word": "To feel (oneself)",
+      "meaning": "To experience a physical or mental state.",
+      "example_sentence": "Hoe voel je je vandaag?"
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Vallen",
+      "english_word": "To fall",
+      "meaning": "To drop down to the ground accidentally.",
+      "example_sentence": "Pas op dat je niet valt op de gladde weg."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verbranden",
+      "english_word": "To burn",
+      "meaning": "To damage the skin by heat or sun.",
+      "example_sentence": "Ik ben verbrand in de zon omdat ik me niet had ingesmeerd."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Gebroken",
+      "english_word": "Broken",
+      "meaning": "A bone that has snapped or cracked.",
+      "example_sentence": "Hij heeft een gebroken been na het ongeluk."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Gezwollen",
+      "english_word": "Swollen",
+      "meaning": "Larger than normal due to fluid or injury.",
+      "example_sentence": "Mijn enkel is gezwollen en blauw."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Duizelig",
+      "english_word": "Dizzy",
+      "meaning": "Feeling as if everything is spinning around.",
+      "example_sentence": "Ik voel me een beetje duizelig als ik te snel opsta."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Misselijk",
+      "english_word": "Nauseous",
+      "meaning": "Feeling as if you are going to vomit.",
+      "example_sentence": "Ik ben misselijk geworden van het eten."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De wond",
+      "english_word": "The wound",
+      "meaning": "An injury to living tissue, often involving a cut.",
+      "example_sentence": "De verpleegkundige maakt de wond schoon."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De operatie",
+      "english_word": "The surgery/operation",
+      "meaning": "A medical procedure involving cutting into the body.",
+      "example_sentence": "De operatie aan mijn knie is goed gegaan."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De bijwerking",
+      "english_word": "The side effect",
+      "meaning": "An unwanted effect of a medicine.",
+      "example_sentence": "Een mogelijke bijwerking van dit medicijn is hoofdpijn."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De spoed",
+      "english_word": "The emergency/urgency",
+      "meaning": "Requiring immediate action or attention.",
+      "example_sentence": "Bel bij spoed direct naar het noodnummer."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De conditie",
+      "english_word": "The fitness/condition",
+      "meaning": "Physical fitness or general state of health.",
+      "example_sentence": "Zij heeft een hele goede conditie door het hardlopen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het bloed",
+      "english_word": "The blood",
+      "meaning": "The red liquid that circulates in the body.",
+      "example_sentence": "De dokter doet een onderzoek naar mijn bloed."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De psycholoog",
+      "english_word": "The psychologist",
+      "meaning": "A professional who treats mental health and emotional issues.",
+      "example_sentence": "De psycholoog helpt me om beter om te gaan met stress."
+    },
+    {
+      "type": "Profession",
+      "dutch_word": "De opticien",
+      "english_word": "The optician",
+      "meaning": "A person who tests eyes and sells glasses or contact lenses.",
+      "example_sentence": "De opticien meet mijn ogen op voor een nieuwe bril."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "De huid",
+      "english_word": "The skin",
+      "meaning": "The natural outer covering of the human body.",
+      "example_sentence": "Mijn huid is erg droog in de winter."
+    },
+    {
+      "type": "Body Part",
+      "dutch_word": "Het gebit",
+      "english_word": "The set of teeth/dentures",
+      "meaning": "The collection of teeth in someone's mouth.",
+      "example_sentence": "Hij heeft een heel sterk en wit gebit."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "Het verband",
+      "english_word": "The bandage",
+      "meaning": "A strip of fabric used to wrap and support an injury.",
+      "example_sentence": "De dokter doet een schoon verband om mijn enkel."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De krukken",
+      "english_word": "The crutches",
+      "meaning": "Supports used to help a person walk when they have a leg injury.",
+      "example_sentence": "Omdat ik mijn been heb gebroken, loop ik op krukken."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De rolstoel",
+      "english_word": "The wheelchair",
+      "meaning": "A chair with wheels for people who cannot walk.",
+      "example_sentence": "In het ziekenhuis staan rolstoelen bij de ingang."
+    },
+    {
+      "type": "Object",
+      "dutch_word": "De bril",
+      "english_word": "The glasses",
+      "meaning": "Lenses worn in a frame to help someone see better.",
+      "example_sentence": "Zonder bril kan ik de krant niet lezen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Overgeven",
+      "english_word": "To vomit/throw up",
+      "meaning": "To eject matter from the stomach through the mouth.",
+      "example_sentence": "Ik was zo misselijk dat ik moest overgeven."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Ontspannen",
+      "english_word": "To relax",
+      "meaning": "To become less tense or anxious.",
+      "example_sentence": "Het is belangrijk om elke dag even te ontspannen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Jeuken",
+      "english_word": "To itch",
+      "meaning": "To have an uncomfortable feeling on the skin that makes you want to scratch.",
+      "example_sentence": "Mijn muggenbult begint heel erg te jeuken."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verbeteren",
+      "english_word": "To improve",
+      "meaning": "To become better or make something better.",
+      "example_sentence": "Mijn conditie gaat verbeteren door elke dag te wandelen."
+    },
+    {
+      "type": "Verb",
+      "dutch_word": "Verzorgen",
+      "english_word": "To take care of/nurse",
+      "meaning": "To look after someone who is sick or a wound.",
+      "example_sentence": "Ik ga de wond elke dag goed verzorgen."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Zwak",
+      "english_word": "Weak",
+      "meaning": "Lacking physical strength or energy.",
+      "example_sentence": "Na de zware operatie voelde ik me erg zwak."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Sterk",
+      "english_word": "Strong",
+      "meaning": "Having great physical power.",
+      "example_sentence": "Hij is weer helemaal sterk en gezond."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Gestoord",
+      "english_word": "Disturbed/Crazy",
+      "meaning": "Often used in a medical sense for a mental disturbance.",
+      "example_sentence": "Mijn nachtrust werd gestoord door het lawaai."
+    },
+    {
+      "type": "Adjective",
+      "dutch_word": "Pijnlijk",
+      "english_word": "Painful",
+      "meaning": "Causing physical pain.",
+      "example_sentence": "Het onderzoek was een beetje pijnlijk."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De uitslag",
+      "english_word": "The rash/The result",
+      "meaning": "A skin irritation or the result of a medical test.",
+      "example_sentence": "Ik heb een rode uitslag op mijn arm."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De bloeddruk",
+      "english_word": "The blood pressure",
+      "meaning": "The pressure of blood in the circulatory system.",
+      "example_sentence": "De huisarts zegt dat mijn bloeddruk te hoog is."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De stress",
+      "english_word": "The stress",
+      "meaning": "A state of mental or emotional strain.",
+      "example_sentence": "Te veel stress op het werk is niet gezond."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De vitamine",
+      "english_word": "The vitamin",
+      "meaning": "Organic compounds essential for normal growth and nutrition.",
+      "example_sentence": "Fruit eten is een goede manier om vitamine C binnen te krijgen."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "Het gewicht",
+      "english_word": "The weight",
+      "meaning": "How heavy a person or object is.",
+      "example_sentence": "De dokter controleert mijn gewicht op de weegschaal."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De behandeling",
+      "english_word": "The treatment",
+      "meaning": "Medical care given to a patient for an illness or injury.",
+      "example_sentence": "De behandeling van de infectie duurt een week."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De verwijsbrief",
+      "english_word": "The referral letter",
+      "meaning": "A letter from a GP to a specialist.",
+      "example_sentence": "Ik heb een verwijsbrief nodig voor de oogarts."
+    },
+    {
+      "type": "Abstract",
+      "dutch_word": "De EHBO (Eerste Hulp Bij Ongelukken)",
+      "english_word": "First Aid",
+      "meaning": "Help given to a sick or injured person until full medical treatment is available.",
+      "example_sentence": "Hij heeft een diploma voor EHBO gehaald."
+    }
+  ]
+}
