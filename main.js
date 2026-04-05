@@ -16,6 +16,10 @@ let currentModule = null;
 let currentQuestionIndex = 0;
 let userProgress = {}; // { [moduleId]: { [questionId]: boolean (true if answered correctly on first try) } }
 
+let isExamMode = false;
+let examTimeRemaining = 45 * 60;
+let timerInterval = null;
+
 let sessionStats = { correct: 0, wrong: 0 };
 let sessionWrongQuestions = [];
 let flashcardIndex = 0;
@@ -29,9 +33,14 @@ async function init() {
   loadProgress();
   setupTheme();
   
+  const logoHome = document.getElementById('logo-home');
+  if (logoHome) {
+    logoHome.addEventListener('click', renderLandingPage);
+  }
+  
   try {
     await fetchModules();
-    renderDashboard();
+    renderLandingPage();
   } catch (err) {
     appContent.innerHTML = `<div class="results-container">
       <h2 style="color:var(--danger)">Error Loading Data</h2>
@@ -81,20 +90,111 @@ function setupTheme() {
   const isDark = document.body.classList.contains('dark-theme');
   themeToggle.addEventListener('click', () => {
     document.body.classList.toggle('dark-theme');
-    const sunIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>`;
+    const sunIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>`;
     const moonIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>`;
     themeToggle.innerHTML = document.body.classList.contains('dark-theme') ? sunIcon : moonIcon;
   });
 }
 
-function renderDashboard() {
+function renderLandingPage() {
+  isExamMode = false;
   document.body.classList.add('in-dashboard');
   document.body.classList.remove('in-quiz');
+  document.getElementById('exam-timer').style.display = 'none';
+  clearInterval(timerInterval);
+  
+  let html = `
+    <div class="view active" id="landing-page">
+      <div class="landing-container">
+        <h1 class="landing-title">Welcome to KNM A2</h1>
+        <p class="landing-subtitle">Prepare for your Dutch integration exam based on the Knowledge of Dutch Society curriculum.</p>
+        <div class="landing-options">
+          <div class="landing-card" id="btn-practice-mode">
+            <div class="landing-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+            </div>
+            <h3>Practice by Section</h3>
+            <p>Study specific topics at your own pace with instant feedback.</p>
+          </div>
+          <div class="landing-card" id="btn-exam-mode">
+            <div class="landing-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3>Take Full Exam</h3>
+            <p>45 minutes, 40 questions. Real KNM exam simulation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+  appContent.innerHTML = html;
+  
+  document.getElementById('btn-practice-mode').addEventListener('click', renderDashboard);
+  document.getElementById('btn-exam-mode').addEventListener('click', startExamMode);
+}
+
+function startExamMode() {
+  isExamMode = true;
+  examTimeRemaining = 45 * 60;
+  sessionStats = { correct: 0, wrong: 0 };
+  sessionWrongQuestions = [];
+  
+  let examQuestions = [];
+  modulesData.forEach(mod => {
+    if (mod.questions) {
+      let shuffled = [...mod.questions].sort(() => 0.5 - Math.random());
+      let selected = shuffled.slice(0, 5);
+      examQuestions.push(...selected);
+    }
+  });
+  
+  examQuestions.sort(() => 0.5 - Math.random());
+  
+  currentModule = {
+    module_id: 'EXAM',
+    module_title_en: 'Full Practice Exam',
+    module_title_nl: 'Oefenexamen',
+    questions: examQuestions
+  };
+  
+  userProgress['EXAM'] = {}; 
+  currentQuestionIndex = 0;
+  
+  document.getElementById('exam-timer').style.display = 'block';
+  updateTimerDisplay();
+  timerInterval = setInterval(() => {
+    examTimeRemaining--;
+    updateTimerDisplay();
+    if (examTimeRemaining <= 0) {
+      clearInterval(timerInterval);
+      renderResults();
+    }
+  }, 1000);
+  
+  renderQuestion();
+}
+
+function updateTimerDisplay() {
+  const m = Math.floor(examTimeRemaining / 60).toString().padStart(2, '0');
+  const s = (examTimeRemaining % 60).toString().padStart(2, '0');
+  document.getElementById('exam-timer').textContent = `${m}:${s}`;
+}
+
+function renderDashboard() {
+  isExamMode = false;
+  document.body.classList.add('in-dashboard');
+  document.body.classList.remove('in-quiz');
+  document.getElementById('exam-timer').style.display = 'none';
+  clearInterval(timerInterval);
+  
   let html = `
     <div class="view active" id="dashboard">
-      <div class="dashboard-header">
-        <h1>Welcome to Study Mode</h1>
-        <p>Select a module to test your knowledge.</p>
+      <div class="dashboard-header" style="display:flex; justify-content:space-between; align-items:center;">
+        <div>
+          <h1>Practice by Section</h1>
+          <p>Select a module to test your knowledge.</p>
+        </div>
+        <button class="btn-secondary" id="btn-back-landing">Back to Home</button>
       </div>
       <div class="modules-grid">
   `;
@@ -126,7 +226,7 @@ function renderDashboard() {
   
   appContent.innerHTML = html;
   
-  // Attach event listeners
+  document.getElementById('btn-back-landing').addEventListener('click', renderLandingPage);
   document.querySelectorAll('.module-card').forEach(card => {
     card.addEventListener('click', () => {
       const modId = card.getAttribute('data-module-id');
@@ -174,20 +274,23 @@ function renderQuestion() {
   
   if (q.type === 'multiple_choice' && q.options) {
     q.options.forEach((opt) => {
+      const isSel = q.userSelectedAnswer === String(opt.id) ? 'selected' : '';
       optionsHtml += `
-        <button class="option-btn" data-answer-id="${opt.id}">
+        <button class="option-btn ${isSel}" data-answer-id="${opt.id}">
           <div class="option-letter">${opt.id}</div>
           <div class="option-text">${opt.text_nl}</div>
         </button>
       `;
     });
   } else if (q.type === 'true_false') {
+    const isTrueSel = q.userSelectedAnswer === 'true' ? 'selected' : '';
+    const isFalseSel = q.userSelectedAnswer === 'false' ? 'selected' : '';
     optionsHtml += `
-      <button class="option-btn" data-answer-id="true">
+      <button class="option-btn ${isTrueSel}" data-answer-id="true">
         <div class="option-letter">T</div>
         <div class="option-text">Waar (True)</div>
       </button>
-      <button class="option-btn" data-answer-id="false">
+      <button class="option-btn ${isFalseSel}" data-answer-id="false">
         <div class="option-letter">F</div>
         <div class="option-text">Niet waar (False)</div>
       </button>
@@ -198,21 +301,21 @@ function renderQuestion() {
     <div class="view active" id="quiz-view">
       <div class="quiz-header">
         <button class="btn-back" id="btn-back-dash">
-           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg> Dashboard
+           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg> Home
         </button>
         <div>
           <div class="quiz-progress-text">Question ${currentQuestionIndex + 1} of ${total}</div>
-          <div class="session-stats">
+          ${isExamMode ? '' : `<div class="session-stats">
             <span style="color:var(--success)">Correct: ${sessionStats.correct}</span> | 
             <span style="color:var(--danger)">Wrong: ${sessionStats.wrong}</span>
-          </div>
+          </div>`}
         </div>
       </div>
       
       <div class="quiz-container">
         <div class="question-tags">
           <span class="tag">${currentModule.module_id}</span>
-          <span class="tag">${q.difficulty}</span>
+          <span class="tag">${q.difficulty || 'medium'}</span>
           ${q.tags ? q.tags.map(t => `<span class="tag">${t}</span>`).join('') : ''}
         </div>
         
@@ -243,7 +346,7 @@ function renderQuestion() {
         <div class="quiz-footer">
           <button class="btn-secondary" id="btn-prev" ${currentQuestionIndex === 0 ? 'disabled' : ''}>Previous Question</button>
           <button class="btn-secondary" id="btn-finish" style="margin-left:auto; margin-right: 1rem;">Finish Early</button>
-          <button class="btn-primary" id="btn-next" style="display:none">
+          <button class="btn-primary" id="btn-next" style="display:${isExamMode && q.userSelectedAnswer ? 'flex' : 'none'}">
              Next Question <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
           </button>
         </div>
@@ -253,8 +356,18 @@ function renderQuestion() {
 
   appContent.innerHTML = html;
 
+  // Next Button State (Exam mode dynamic)
+  const nextBtn = document.getElementById('btn-next');
+  if (currentQuestionIndex === currentModule.questions.length - 1) {
+    nextBtn.innerHTML = 'Finish Section <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>';
+  }
+
   // Events
-  document.getElementById('btn-back-dash').addEventListener('click', renderDashboard);
+  document.getElementById('btn-back-dash').addEventListener('click', () => {
+    clearInterval(timerInterval);
+    renderLandingPage();
+  });
+  
   document.getElementById('btn-finish').addEventListener('click', renderResults);
   
   document.getElementById('btn-prev').addEventListener('click', () => {
@@ -264,7 +377,6 @@ function renderQuestion() {
     }
   });
   
-  const nextBtn = document.getElementById('btn-next');
   nextBtn.addEventListener('click', () => {
     if (currentQuestionIndex >= currentModule.questions.length - 1) {
       renderResults();
@@ -297,7 +409,6 @@ let lastSpokenText = "";
 function speakDutch(text) {
   if (!('speechSynthesis' in window)) return;
   
-  // If we are already speaking the exact same text, toggle pause/resume
   if (window.speechSynthesis.speaking && text === lastSpokenText) {
     if (window.speechSynthesis.paused) {
       window.speechSynthesis.resume();
@@ -307,7 +418,6 @@ function speakDutch(text) {
     return;
   }
   
-  // Otherwise, cancel any ongoing speech and start fresh
   window.speechSynthesis.cancel();
   lastSpokenText = text;
   
@@ -319,7 +429,6 @@ function speakDutch(text) {
     lastSpokenText = "";
   };
   
-  // Try to grab a specific Dutch voice if loaded
   const voices = window.speechSynthesis.getVoices();
   const dutchVoice = voices.find(v => v.lang.startsWith('nl'));
   if (dutchVoice) {
@@ -330,6 +439,15 @@ function speakDutch(text) {
 }
 
 function handleAnswer(selectedBtn, correctAnswer, questionData) {
+  if (isExamMode) {
+    document.querySelectorAll('.option-btn').forEach(btn => btn.classList.remove('selected'));
+    selectedBtn.classList.add('selected');
+    questionData.userSelectedAnswer = String(selectedBtn.getAttribute('data-answer-id'));
+    const nextBtn = document.getElementById('btn-next');
+    nextBtn.style.display = 'flex';
+    return;
+  }
+
   if (hasAnsweredCurrent) return;
   hasAnsweredCurrent = true;
   
@@ -382,7 +500,6 @@ function handleAnswer(selectedBtn, correctAnswer, questionData) {
     saveProgress();
   } else {
     sessionStats.wrong++;
-    // Avoid duplicates if user revisits same question
     if (!sessionWrongQuestions.find(q => q.id === questionData.id)) {
       sessionWrongQuestions.push(questionData);
     }
@@ -391,35 +508,58 @@ function handleAnswer(selectedBtn, correctAnswer, questionData) {
   // Show Next Button
   const nextBtn = document.getElementById('btn-next');
   nextBtn.style.display = 'flex';
-  if (currentQuestionIndex === currentModule.questions.length - 1) {
-    nextBtn.innerHTML = 'Finish Section <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>';
-  }
 }
 
 function renderResults() {
   document.body.classList.remove('in-dashboard');
   document.body.classList.remove('in-quiz');
+  clearInterval(timerInterval);
+  document.getElementById('exam-timer').style.display = 'none';
+
+  if (isExamMode) {
+    sessionStats.correct = 0;
+    sessionStats.wrong = 0;
+    sessionWrongQuestions = [];
+    currentModule.questions.forEach(q => {
+      if(q.userSelectedAnswer && String(q.userSelectedAnswer).toLowerCase() === String(q.correct_answer).toLowerCase()) {
+         sessionStats.correct++;
+      } else {
+         sessionStats.wrong++;
+         sessionWrongQuestions.push(q);
+      }
+    });
+  }
+
   const modId = currentModule.module_id;
-  const progress = getModuleProgress(modId);
   const total = currentModule.questions.length;
-  const pc = total > 0 ? Math.round((progress.completed / total) * 100) : 100;
+  // If exam mode, rely only on session Stats. Else rely on progress for module stats
+  const pc = total > 0 ? Math.round((sessionStats.correct / total) * 100) : 100;
   
+  let subtitleText = isExamMode 
+     ? `You scored ${sessionStats.correct} out of ${total} on the Full Practice Exam.`
+     : `You have correctly answered ${sessionStats.correct} out of ${total} questions this session.`;
+     
+  let passFailHtml = isExamMode ? `<h3 style="margin-top: 1rem; margin-bottom: 0.5rem; font-size: 1.5rem; color: ${pc >= 65 ? 'var(--success)' : 'var(--danger)'};">${pc >= 65 ? 'EXAM PASSED!' : 'EXAM FAILED'}</h3>` : '';
+
   let html = `
     <div class="view active" id="results-view">
       <div class="results-container">
         <div class="results-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          ${isExamMode && pc < 65 
+            ? '<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" stroke="var(--danger)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>' 
+            : '<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>'}
         </div>
-        <h2>Module Completed!</h2>
-        <div class="results-score">${pc}%</div>
-        <p class="results-subtitle">You have correctly answered ${progress.completed} out of ${total} questions in ${currentModule.module_title_en}.</p>
+        <h2>${isExamMode ? 'Exam Completed' : 'Module Completed!'}</h2>
+        <div class="results-score" style="${isExamMode && pc < 65 ? 'color: var(--danger)' : ''}">${pc}%</div>
+        ${passFailHtml}
+        <p class="results-subtitle">${subtitleText}</p>
         
         <div class="results-actions" style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem; align-items: center;">
           <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
-            <button class="btn-secondary" id="btn-results-dash">Return to Dashboard</button>
-            <button class="btn-primary" id="btn-results-retry">Retry Module</button>
+            <button class="btn-secondary" id="btn-results-dash">Return to Home</button>
+            <button class="btn-primary" id="btn-results-retry">${isExamMode ? 'Take Another Exam' : 'Retry Module'}</button>
           </div>
-          ${sessionWrongQuestions.length > 0 ? `<button class="btn-primary" id="btn-results-flashcards" style="background-color: var(--warning); color: #fff;">Create Flashcards for Wrong Answers (${sessionWrongQuestions.length})</button>` : ''}
+          ${sessionWrongQuestions.length > 0 ? `<button class="btn-primary" id="btn-results-flashcards" style="background-color: var(--warning); color: #fff;">Review Wrong Answers (${sessionWrongQuestions.length})</button>` : ''}
         </div>
       </div>
     </div>
@@ -427,12 +567,16 @@ function renderResults() {
   
   appContent.innerHTML = html;
   
-  document.getElementById('btn-results-dash').addEventListener('click', renderDashboard);
+  document.getElementById('btn-results-dash').addEventListener('click', renderLandingPage);
   document.getElementById('btn-results-retry').addEventListener('click', () => {
-    currentQuestionIndex = 0;
-    sessionStats = { correct: 0, wrong: 0 };
-    sessionWrongQuestions = [];
-    renderQuestion();
+    if (isExamMode) {
+      startExamMode();
+    } else {
+      currentQuestionIndex = 0;
+      sessionStats = { correct: 0, wrong: 0 };
+      sessionWrongQuestions = [];
+      renderQuestion();
+    }
   });
   
   const btnFlashcards = document.getElementById('btn-results-flashcards');
@@ -456,6 +600,9 @@ function renderSingleFlashcard() {
   
   const q = sessionWrongQuestions[flashcardIndex];
   
+  // Show user's actual selection safely, or say "None selected"
+  const userAns = q.userSelectedAnswer || 'None';
+  
   let html = `
     <div class="view active" id="flashcard-view">
       <div class="quiz-header">
@@ -463,7 +610,7 @@ function renderSingleFlashcard() {
            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg> Back to Results
         </button>
         <div>
-          <div class="quiz-progress-text">Flashcard ${flashcardIndex + 1} of ${sessionWrongQuestions.length}</div>
+          <div class="quiz-progress-text">Review ${flashcardIndex + 1} of ${sessionWrongQuestions.length}</div>
         </div>
       </div>
       
@@ -475,6 +622,7 @@ function renderSingleFlashcard() {
             </button>
             <h3 style="margin-bottom: 2rem; font-size: 1.5rem;">${q.question_nl}</h3>
             ${q.question_en ? `<p style="color:var(--text-muted); margin-bottom: 2rem;">${q.question_en}</p>` : ''}
+            ${isExamMode ? `<p style="color:var(--danger); margin-bottom: 1rem;">Your Answer: ${userAns}</p>` : ''}
             <p style="color:var(--text-muted)">Click to flip and see the answer.</p>
           </div>
           <div class="flashcard-back">
@@ -491,7 +639,7 @@ function renderSingleFlashcard() {
       
       <div class="quiz-footer">
         <button class="btn-secondary" id="btn-fc-prev" ${flashcardIndex === 0 ? 'disabled' : ''}>Previous</button>
-        <button class="btn-primary" id="btn-fc-next">${flashcardIndex === sessionWrongQuestions.length - 1 ? 'Finish Flashcards' : 'Next Flashcard'} <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></button>
+        <button class="btn-primary" id="btn-fc-next">${flashcardIndex === sessionWrongQuestions.length - 1 ? 'Finish Review' : 'Next Question'} <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></button>
       </div>
     </div>
   `;
