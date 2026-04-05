@@ -1,0 +1,1292 @@
+{
+  "module_id": "M2",
+  "module_title_nl": "Omgangsvormen, normen en waarden",
+  "module_title_en": "Social norms, values and etiquette",
+  "total_questions": 80,
+  "questions": [
+    {
+      "id": "M2_Q001", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Normen en waarden", "topic_en": "Norms and values",
+      "question_nl": "Wat zijn normen?",
+      "options": [
+        {"id": "A", "text_nl": "Dingen die je leuk vindt"},
+        {"id": "B", "text_nl": "Regels over hoe mensen zich moeten gedragen"},
+        {"id": "C", "text_nl": "Gevoelens van mensen"},
+        {"id": "D", "text_nl": "Wetten die alleen voor bedrijven gelden"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Normen zijn regels over hoe mensen zich moeten gedragen. Sommige normen staan in de wet, andere normen zijn ongeschreven regels die iedereen kent.",
+        "en": "Norms are rules about how people should behave. Some norms are written in law; others are unwritten rules that everyone knows."
+      },
+      "source_text_nl": "Normen zeggen iets over hoe mensen zich moeten gedragen. Dit zijn dus regels.",
+      "tags": ["normen", "gedrag", "regels"]
+    },
+    {
+      "id": "M2_Q002", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Normen en waarden", "topic_en": "Norms and values",
+      "question_nl": "Wat zijn waarden?",
+      "options": [
+        {"id": "A", "text_nl": "Regels die in de wet staan"},
+        {"id": "B", "text_nl": "Dingen die je zelf belangrijk vindt in het leven"},
+        {"id": "C", "text_nl": "Geld dat je verdient"},
+        {"id": "D", "text_nl": "Regels van de werkgever"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Waarden hebben te maken met wat je zelf belangrijk vindt. Iedere samenleving heeft eigen waarden, zoals vrijheid, gelijkheid en rechtvaardigheid.",
+        "en": "Values are about what you personally find important. Every society has its own values, such as freedom, equality and justice."
+      },
+      "source_text_nl": "Waarden hebben te maken met wat je zelf belangrijk vindt.",
+      "tags": ["waarden", "samenleving", "vrijheid"]
+    },
+    {
+      "id": "M2_Q003", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Omgangsvormen", "topic_en": "Social customs",
+      "question_nl": "Wat zijn omgangsvormen?",
+      "options": [
+        {"id": "A", "text_nl": "Wetten die door de regering worden gemaakt"},
+        {"id": "B", "text_nl": "Regels over hoe je met andere mensen omgaat"},
+        {"id": "C", "text_nl": "Regels op de werkplek"},
+        {"id": "D", "text_nl": "Regels over hoe je je huis inricht"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Omgangsvormen zijn regels over hoe je met andere mensen omgaat. Elk land heeft zijn eigen omgangsvormen.",
+        "en": "Social customs are rules about how you interact with other people. Every country has its own social customs."
+      },
+      "source_text_nl": "Omgangsvormen zijn regels over hoe je met iemand omgaat.",
+      "tags": ["omgangsvormen", "regels", "gedrag"]
+    },
+    {
+      "id": "M2_Q004", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gelijkheid mannen en vrouwen", "topic_en": "Gender equality",
+      "question_nl": "Wat zegt de Nederlandse wet over mannen en vrouwen?",
+      "options": [
+        {"id": "A", "text_nl": "Mannen mogen meer verdienen dan vrouwen"},
+        {"id": "B", "text_nl": "Mannen en vrouwen zijn gelijk en hebben dezelfde rechten"},
+        {"id": "C", "text_nl": "Vrouwen mogen niet werken"},
+        {"id": "D", "text_nl": "Mannen mogen alleen stemmen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In Nederland zegt de wet dat mannen en vrouwen gelijk zijn. Ze hebben dezelfde rechten, zoals het recht om te stemmen, te werken en naar school te gaan.",
+        "en": "In the Netherlands, the law states that men and women are equal. They have the same rights, such as the right to vote, work and go to school."
+      },
+      "source_text_nl": "Mannen en vrouwen zijn gelijk. Dat betekent dat mannen en vrouwen dezelfde rechten hebben.",
+      "tags": ["gelijkheid", "vrouwen", "rechten"]
+    },
+    {
+      "id": "M2_Q005", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Groeten", "topic_en": "Greeting customs",
+      "question_nl": "Hoe groeten familie en vrienden elkaar in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Ze geven elkaar één zoen op de wang"},
+        {"id": "B", "text_nl": "Ze geven elkaar drie zoenen op de wang"},
+        {"id": "C", "text_nl": "Ze maken een buiging"},
+        {"id": "D", "text_nl": "Ze geven elkaar een knuffel"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Familie en vrienden geven elkaar in Nederland drie zoenen op de wang: eerst links, dan rechts en dan weer links.",
+        "en": "In the Netherlands, family and friends greet each other with three kisses on the cheek: first on the left, then on the right, and then on the left again."
+      },
+      "source_text_nl": "Ze geven elkaar drie zoenen op de wang. Eerst links, dan rechts en dan weer links.",
+      "tags": ["groeten", "zoenen", "Nederland"]
+    },
+    {
+      "id": "M2_Q006", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Groeten", "topic_en": "Greeting customs",
+      "question_nl": "Mogen mannen en vrouwen in Nederland elkaars hand schudden?",
+      "options": [
+        {"id": "A", "text_nl": "Nee, dat is niet gebruikelijk"},
+        {"id": "B", "text_nl": "Ja, dat is normaal"},
+        {"id": "C", "text_nl": "Alleen op het werk"},
+        {"id": "D", "text_nl": "Alleen bij formele gelegenheden"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Ja, mannen en vrouwen mogen en kunnen elkaars hand schudden in Nederland. Dat is een normale manier van begroeten.",
+        "en": "Yes, men and women can and do shake each other's hands in the Netherlands. That is a normal way of greeting."
+      },
+      "source_text_nl": "Mannen en vrouwen mogen elkaars hand schudden.",
+      "tags": ["groeten", "handdruk", "mannen vrouwen"]
+    },
+    {
+      "id": "M2_Q007", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Op visite gaan", "topic_en": "Visiting someone",
+      "question_nl": "Wat is het aardig om mee te nemen als je bij iemand op visite gaat?",
+      "options": [
+        {"id": "A", "text_nl": "Niets, je hoeft niets mee te nemen"},
+        {"id": "B", "text_nl": "Bloemen of iets lekkers"},
+        {"id": "C", "text_nl": "Geld"},
+        {"id": "D", "text_nl": "Een brief"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je bij iemand op visite gaat, is het aardig om iets mee te nemen. Bijvoorbeeld een bos bloemen of een taart die je zelf gebakken hebt.",
+        "en": "When visiting someone, it is nice to bring something. For example, a bunch of flowers or a cake you baked yourself."
+      },
+      "source_text_nl": "Dan is het aardig om wat te geven. Bijvoorbeeld een bos bloemen.",
+      "tags": ["visite", "cadeau", "etiquette"]
+    },
+    {
+      "id": "M2_Q008", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Afspraak maken", "topic_en": "Making an appointment",
+      "question_nl": "Hoe maak je een afspraak om bij iemand op visite te gaan?",
+      "options": [
+        {"id": "A", "text_nl": "Je gaat gewoon langs zonder te bellen"},
+        {"id": "B", "text_nl": "Je belt of vraagt van tevoren of het schikt"},
+        {"id": "C", "text_nl": "Je stuurt een formele brief"},
+        {"id": "D", "text_nl": "Je vraagt de gemeente om toestemming"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je maakt eerst een afspraak. Je belt of vraagt van tevoren of het schikt om langs te komen.",
+        "en": "You first make an appointment. You call or ask in advance whether it is convenient to come over."
+      },
+      "source_text_nl": "Je moet dan eerst een afspraak maken.",
+      "tags": ["afspraak", "visite", "bellen"]
+    },
+    {
+      "id": "M2_Q009", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Homoseksualiteit", "topic_en": "Homosexuality",
+      "question_nl": "Mogen homoseksuele mensen trouwen in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Nee, dat is niet toegestaan"},
+        {"id": "B", "text_nl": "Ja, homoseksuele mensen mogen trouwen in Nederland"},
+        {"id": "C", "text_nl": "Alleen als de gemeente toestemming geeft"},
+        {"id": "D", "text_nl": "Alleen als ze lang genoeg in Nederland wonen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Ja, in Nederland mogen homoseksuele mensen trouwen. Mannen mogen met mannen trouwen en vrouwen mogen met vrouwen trouwen.",
+        "en": "Yes, in the Netherlands homosexual people may marry. Men may marry men and women may marry women."
+      },
+      "source_text_nl": "Ook homoseksuele mensen mogen trouwen in Nederland.",
+      "tags": ["homoseksualiteit", "trouwen", "rechten"]
+    },
+    {
+      "id": "M2_Q010", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Samenwonen", "topic_en": "Cohabitation",
+      "question_nl": "Wat is samenwonen?",
+      "options": [
+        {"id": "A", "text_nl": "Trouwen in een kerk"},
+        {"id": "B", "text_nl": "Samen in een huis wonen zonder getrouwd te zijn"},
+        {"id": "C", "text_nl": "Met je ouders in huis wonen"},
+        {"id": "D", "text_nl": "Met collega's in een huis wonen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Samenwonen betekent dat mensen samen in één huis wonen zonder getrouwd te zijn. Dit is in Nederland heel normaal.",
+        "en": "Cohabitation means that people live together in one house without being married. This is very normal in the Netherlands."
+      },
+      "source_text_nl": "Als mensen een tijd verkering hebben, gaan ze vaak samenwonen. Ze gaan dan samen in een huis wonen. Ze zijn dan niet getrouwd.",
+      "tags": ["samenwonen", "relatie", "trouwen"]
+    },
+    {
+      "id": "M2_Q011", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Feestdagen", "topic_en": "Public holidays",
+      "question_nl": "Welke feestdag heeft te maken met de verjaardag van de Koning?",
+      "options": [
+        {"id": "A", "text_nl": "Kerstmis"},
+        {"id": "B", "text_nl": "Koningsdag"},
+        {"id": "C", "text_nl": "Bevrijdingsdag"},
+        {"id": "D", "text_nl": "Prinsjesdag"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Koningsdag (27 april) is de verjaardag van de Koning. Op deze dag vieren Nederlanders feest met oranje kleding en vrijmarkten.",
+        "en": "King's Day (27 April) is the King's birthday. On this day, Dutch people celebrate with orange clothing and outdoor markets."
+      },
+      "source_text_nl": "Op Koningsdag viert Nederland de verjaardag van de Koning.",
+      "tags": ["Koningsdag", "feestdag", "Koning"]
+    },
+    {
+      "id": "M2_Q012", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Feestdagen", "topic_en": "Public holidays",
+      "question_nl": "Wat vieren Nederlanders op Bevrijdingsdag (5 mei)?",
+      "options": [
+        {"id": "A", "text_nl": "Het einde van de Eerste Wereldoorlog"},
+        {"id": "B", "text_nl": "De bevrijding van Nederland aan het einde van de Tweede Wereldoorlog"},
+        {"id": "C", "text_nl": "De verjaardag van de Koningin"},
+        {"id": "D", "text_nl": "Het begin van de zomer"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Op Bevrijdingsdag (5 mei) vieren Nederlanders dat Nederland bevrijd werd aan het einde van de Tweede Wereldoorlog in 1945.",
+        "en": "On Liberation Day (5 May), the Dutch celebrate the liberation of the Netherlands at the end of the Second World War in 1945."
+      },
+      "source_text_nl": "Op Bevrijdingsdag viert Nederland de bevrijding na de Tweede Wereldoorlog.",
+      "tags": ["Bevrijdingsdag", "feestdag", "Tweede Wereldoorlog"]
+    },
+    {
+      "id": "M2_Q013", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gedrag bij overlast", "topic_en": "Behaviour in nuisance situations",
+      "question_nl": "Je buren maken 's nachts veel lawaai. Wat doe je als eerste?",
+      "options": [
+        {"id": "A", "text_nl": "Direct de politie bellen"},
+        {"id": "B", "text_nl": "Vriendelijk vragen of ze minder lawaai willen maken"},
+        {"id": "C", "text_nl": "Niets doen en het accepteren"},
+        {"id": "D", "text_nl": "Naar de gemeente gaan"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je last hebt van je buren, zeg dat dan duidelijk maar vriendelijk. Vraag of ze minder lawaai willen maken. Dat doen ze dan vast meteen.",
+        "en": "If you are bothered by your neighbours, say so clearly but in a friendly way. Ask them to make less noise. They will probably do so right away."
+      },
+      "source_text_nl": "Zeg daarom duidelijk, maar vriendelijk dat je last hebt van het lawaai. Vraag ook of de muziek wat zachter kan.",
+      "tags": ["overlast", "buren", "gedrag"]
+    },
+    {
+      "id": "M2_Q014", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Overlast politie", "topic_en": "Nuisance and police",
+      "question_nl": "Welk nummer bel je als je de politie nodig hebt voor overlast?",
+      "options": [
+        {"id": "A", "text_nl": "112"},
+        {"id": "B", "text_nl": "0900-8844"},
+        {"id": "C", "text_nl": "0800-9000"},
+        {"id": "D", "text_nl": "140"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Voor overlast, als je de politie nodig hebt maar het is niet heel urgent, bel je 0900-8844. Voor noodgevallen bel je 112.",
+        "en": "For nuisance situations where you need the police but it is not urgent, you call 0900-8844. For emergencies, you call 112."
+      },
+      "source_text_nl": "Hier is een speciaal nummer voor: 0900-8844. Dit nummer bel je als je de politie nodig hebt.",
+      "tags": ["politie", "overlast", "telefoonnummer"]
+    },
+    {
+      "id": "M2_Q015", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kaartjes sturen", "topic_en": "Sending cards",
+      "question_nl": "Wanneer sturen mensen in Nederland een trouwkaart?",
+      "options": [
+        {"id": "A", "text_nl": "Als ze jarig zijn"},
+        {"id": "B", "text_nl": "Als ze gaan trouwen"},
+        {"id": "C", "text_nl": "Als iemand ziek is"},
+        {"id": "D", "text_nl": "Als ze op vakantie gaan"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als mensen gaan trouwen, sturen ze een trouwkaart aan familie en vrienden. Vaak zit er een uitnodiging voor de bruiloft bij.",
+        "en": "When people are getting married, they send a wedding card to family and friends. Often there is an invitation to the wedding inside."
+      },
+      "source_text_nl": "Als mensen gaan trouwen, sturen ze een kaartje.",
+      "tags": ["kaartje", "trouwen", "uitnodiging"]
+    },
+    {
+      "id": "M2_Q016", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kaartjes sturen", "topic_en": "Sending cards",
+      "question_nl": "Wat stuur je als iemand ziek is?",
+      "options": [
+        {"id": "A", "text_nl": "Een verhuiskaart"},
+        {"id": "B", "text_nl": "Een beterschapskaart"},
+        {"id": "C", "text_nl": "Een geboortekaart"},
+        {"id": "D", "text_nl": "Een vakantiekaart"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als iemand ziek is, is het aardig om een beterschapskaart te sturen. Hierop staat: 'Beterschap!' Dat betekent: je hoopt dat hij of zij snel beter wordt.",
+        "en": "When someone is ill, it is nice to send a 'get well soon' card. It says 'Beterschap!' meaning you hope they recover quickly."
+      },
+      "source_text_nl": "Ligt er iemand in het ziekenhuis? Of is iemand erg ziek? Dan is het aardig om een kaart te sturen. Hier staat op: Beterschap!",
+      "tags": ["beterschapskaart", "ziek", "kaartje"]
+    },
+    {
+      "id": "M2_Q017", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kaartjes sturen", "topic_en": "Sending cards",
+      "question_nl": "Wat is een rouwkaart?",
+      "options": [
+        {"id": "A", "text_nl": "Een kaart die je stuurt als iemand geslaagd is"},
+        {"id": "B", "text_nl": "Een kaart die de familie stuurt als iemand is overleden"},
+        {"id": "C", "text_nl": "Een kaart die je stuurt als je gaat verhuizen"},
+        {"id": "D", "text_nl": "Een kaart die je stuurt op Kerstmis"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een rouwkaart stuurt de familie als iemand is overleden. Erop staat wie er is overleden en wanneer de begrafenis is.",
+        "en": "A condolence card is sent by the family when someone has died. It states who has died and when the funeral is."
+      },
+      "source_text_nl": "Als er iemand overleden is, stuurt de familie een rouwkaart. Daar staat op wie er overleden is.",
+      "tags": ["rouwkaart", "overlijden", "begrafenis"]
+    },
+    {
+      "id": "M2_Q018", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Verkering", "topic_en": "Dating/relationship",
+      "question_nl": "Wat is verkering?",
+      "options": [
+        {"id": "A", "text_nl": "Samenwonen zonder getrouwd te zijn"},
+        {"id": "B", "text_nl": "Een relatie waarbij je nog niet samenwoont"},
+        {"id": "C", "text_nl": "Een huwelijk gesloten bij de gemeente"},
+        {"id": "D", "text_nl": "Een vriendschap tussen buren"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Verkering is een relatie waarbij je verliefd bent op iemand. Je woont dan nog niet samen. Verkering gaat vaak vooraf aan samenwonen of trouwen.",
+        "en": "Verkering (dating/being in a relationship) means you are in a relationship with someone. You are not yet living together. It often precedes cohabitation or marriage."
+      },
+      "source_text_nl": "Twee mensen kunnen verliefd op elkaar worden. Als ze een relatie met elkaar hebben, noem je dat verkering.",
+      "tags": ["verkering", "relatie", "verliefd"]
+    },
+    {
+      "id": "M2_Q019", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Vrijheid van godsdienst", "topic_en": "Freedom of religion",
+      "question_nl": "Wat zegt de Nederlandse wet over religie?",
+      "options": [
+        {"id": "A", "text_nl": "Iedereen moet christelijk zijn"},
+        {"id": "B", "text_nl": "Iedereen heeft de vrijheid om zijn eigen geloof te kiezen"},
+        {"id": "C", "text_nl": "Religie is verboden op het werk"},
+        {"id": "D", "text_nl": "Alleen Nederlanders mogen hun eigen religie volgen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In Nederland heeft iedereen de vrijheid van godsdienst. Dit betekent dat je zelf mag kiezen welk geloof je hebt, of geen geloof.",
+        "en": "In the Netherlands, everyone has freedom of religion. This means you are free to choose your own faith, or no faith at all."
+      },
+      "source_text_nl": "In Nederland heeft iedereen vrijheid van godsdienst.",
+      "tags": ["godsdienst", "vrijheid", "religie"]
+    },
+    {
+      "id": "M2_Q020", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Normen in de wet", "topic_en": "Norms in the law",
+      "question_nl": "Welke van deze dingen is een wettelijke norm in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Je mag geen varkensvlees eten"},
+        {"id": "B", "text_nl": "Je mag niet stelen"},
+        {"id": "C", "text_nl": "Je mag niet op zondag werken"},
+        {"id": "D", "text_nl": "Je mag geen muziek spelen op vrijdag"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je mag niet stelen. Dit is een wettelijke norm in Nederland. Het staat in de wet en geldt voor iedereen.",
+        "en": "You must not steal. This is a legal norm in the Netherlands. It is written in the law and applies to everyone."
+      },
+      "source_text_nl": "Je mag niet stelen. Dit is een norm die in de wet staat.",
+      "tags": ["normen", "wet", "diefstal"]
+    },
+    {
+      "id": "M2_Q021", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Gelijkheid", "topic_en": "Equality",
+      "question_nl": "In Nederland zijn mannen en vrouwen wettelijk gelijk.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In Nederland zegt de wet dat mannen en vrouwen gelijk zijn en dezelfde rechten hebben.",
+        "en": "That is correct. In the Netherlands, the law states that men and women are equal and have the same rights."
+      },
+      "source_text_nl": "Mannen en vrouwen zijn gelijk. Dat is een belangrijke wet in Nederland.",
+      "tags": ["gelijkheid", "mannen", "vrouwen", "wet"]
+    },
+    {
+      "id": "M2_Q022", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Groeten", "topic_en": "Greeting customs",
+      "question_nl": "In Nederland geven familie en vrienden elkaar twee zoenen op de wang.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. In Nederland geven familie en vrienden elkaar drie zoenen op de wang: eerst links, dan rechts, dan weer links.",
+        "en": "This is incorrect. In the Netherlands, family and friends give each other three kisses on the cheek: first left, then right, then left again."
+      },
+      "source_text_nl": "Ze geven elkaar drie zoenen op de wang. Eerst links, dan rechts en dan weer links.",
+      "tags": ["groeten", "zoenen", "etiquette"]
+    },
+    {
+      "id": "M2_Q023", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Samenwonen", "topic_en": "Cohabitation",
+      "question_nl": "In Nederland is samenwonen zonder getrouwd te zijn heel normaal.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In Nederland gaan veel mensen eerst samenwonen voordat ze trouwen. Dit is heel normaal.",
+        "en": "That is correct. In the Netherlands, many people live together before getting married. This is very normal."
+      },
+      "source_text_nl": "In Nederland gaan mensen vaak eerst samenwonen. Dat is heel normaal.",
+      "tags": ["samenwonen", "relatie", "Nederland"]
+    },
+    {
+      "id": "M2_Q024", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Overlast", "topic_en": "Nuisance",
+      "question_nl": "Als je last hebt van je buren, moet je als eerste direct de politie bellen.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Je moet eerst vriendelijk aan je buren vragen of ze minder lawaai kunnen maken. Pas als dat niet helpt, bel je de politie.",
+        "en": "This is incorrect. You should first politely ask your neighbours to make less noise. Only if that does not help do you call the police."
+      },
+      "source_text_nl": "Stap 1: Word niet meteen boos. Zeg duidelijk maar vriendelijk dat je last hebt.",
+      "tags": ["overlast", "buren", "politie"]
+    },
+    {
+      "id": "M2_Q025", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Homoseksualiteit", "topic_en": "Homosexuality",
+      "question_nl": "Twee mannen mogen trouwen in Nederland.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In Nederland mogen twee mannen met elkaar trouwen. Ook twee vrouwen mogen met elkaar trouwen.",
+        "en": "That is correct. In the Netherlands, two men may marry each other. Two women may also marry each other."
+      },
+      "source_text_nl": "Mannen mogen ook met mannen trouwen, en vrouwen met vrouwen.",
+      "tags": ["homoseksualiteit", "trouwen", "rechten"]
+    },
+    {
+      "id": "M2_Q026", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Vrijheid van meningsuiting", "topic_en": "Freedom of speech",
+      "question_nl": "Wat houdt vrijheid van meningsuiting in?",
+      "options": [
+        {"id": "A", "text_nl": "Je mag alles zeggen wat je wilt, zelfs als het nep is"},
+        {"id": "B", "text_nl": "Je mag je mening geven, maar je moet wel de wet naleven"},
+        {"id": "C", "text_nl": "Alleen de overheid mag zijn mening geven"},
+        {"id": "D", "text_nl": "Je mag alleen positieve dingen zeggen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Vrijheid van meningsuiting betekent dat je je mening mag geven. Maar je moet wel de wet naleven. Je mag bijvoorbeeld geen mensen beledigen of aanzetten tot haat.",
+        "en": "Freedom of speech means you are allowed to express your opinion. But you must still obey the law. You may not, for example, insult people or incite hatred."
+      },
+      "source_text_nl": "In Nederland heeft iedereen vrijheid van meningsuiting.",
+      "tags": ["vrijheid van meningsuiting", "grondrechten"]
+    },
+    {
+      "id": "M2_Q027", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Verenigingen", "topic_en": "Associations/clubs",
+      "question_nl": "Wat is contributie bij een vereniging?",
+      "options": [
+        {"id": "A", "text_nl": "Een beloning die je krijgt als je lid bent"},
+        {"id": "B", "text_nl": "Geld dat je jaarlijks betaalt voor je lidmaatschap"},
+        {"id": "C", "text_nl": "Een cursus die je volgt bij de vereniging"},
+        {"id": "D", "text_nl": "Een document dat bewijst dat je lid bent"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Contributie is het bedrag dat je elk jaar betaalt om lid te zijn van een vereniging. De hoogte van de contributie verschilt per vereniging.",
+        "en": "Membership dues (contributie) is the amount you pay each year to be a member of an association. The amount varies between associations."
+      },
+      "source_text_nl": "Een vereniging is niet gratis. Je moet geld betalen. Dat heet contributie. De contributie betaal je ieder jaar.",
+      "tags": ["vereniging", "contributie", "lidmaatschap"]
+    },
+    {
+      "id": "M2_Q028", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Vrijwilligerswerk", "topic_en": "Voluntary work",
+      "question_nl": "Wat is vrijwilligerswerk?",
+      "options": [
+        {"id": "A", "text_nl": "Werk waarvoor je veel geld ontvangt"},
+        {"id": "B", "text_nl": "Werk dat je gratis doet voor anderen"},
+        {"id": "C", "text_nl": "Werk dat de gemeente verplicht stelt"},
+        {"id": "D", "text_nl": "Werk dat je doet voor je eigen bedrijf"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Vrijwilligerswerk is werk dat je gratis doet voor anderen. Je ontvangt er geen betaling voor. Veel mensen in Nederland doen vrijwilligerswerk.",
+        "en": "Voluntary work is work you do for others for free. You receive no payment for it. Many people in the Netherlands do voluntary work."
+      },
+      "source_text_nl": "Vrijwilligerswerk is werk dat je gratis doet voor anderen.",
+      "tags": ["vrijwilligerswerk", "gemeenschap", "onbetaald"]
+    },
+    {
+      "id": "M2_Q029", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Feestdagen – Sinterklaas", "topic_en": "Holidays – Sinterklaas",
+      "question_nl": "Op welke datum viert Nederland Sinterklaasavond?",
+      "options": [
+        {"id": "A", "text_nl": "5 december"},
+        {"id": "B", "text_nl": "25 december"},
+        {"id": "C", "text_nl": "6 januari"},
+        {"id": "D", "text_nl": "31 oktober"}
+      ],
+      "correct_answer": "A",
+      "explanation": {
+        "nl": "Sinterklaasavond is op 5 december. Op deze avond krijgen kinderen cadeautjes van Sinterklaas.",
+        "en": "Sinterklaas Eve is on 5 December. On this evening, children receive presents from Sinterklaas."
+      },
+      "source_text_nl": "Sinterklaasavond is op 5 december.",
+      "tags": ["Sinterklaas", "feestdag", "kinderen"]
+    },
+    {
+      "id": "M2_Q030", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Feestdagen – Kerstmis", "topic_en": "Holidays – Christmas",
+      "question_nl": "Op welke data viert Nederland Kerstmis?",
+      "options": [
+        {"id": "A", "text_nl": "24 en 25 december"},
+        {"id": "B", "text_nl": "25 en 26 december"},
+        {"id": "C", "text_nl": "24 en 31 december"},
+        {"id": "D", "text_nl": "26 december en 1 januari"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nederland viert Kerstmis op 25 en 26 december. Beide dagen zijn officiële feestdagen, ook wel Eerste en Tweede Kerstdag genoemd.",
+        "en": "The Netherlands celebrates Christmas on 25 and 26 December. Both days are official public holidays, also called First and Second Christmas Day."
+      },
+      "source_text_nl": "Nederland viert Kerstmis op 25 en 26 december.",
+      "tags": ["Kerstmis", "feestdag", "december"]
+    },
+    {
+      "id": "M2_Q031", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Waarden – vrijheid", "topic_en": "Values – freedom",
+      "question_nl": "Welke van deze dingen is een voorbeeld van een waarde in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Je rijbewijs halen"},
+        {"id": "B", "text_nl": "Vrijheid en gelijkheid"},
+        {"id": "C", "text_nl": "Een huis kopen"},
+        {"id": "D", "text_nl": "Je paspoort verlengen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Vrijheid en gelijkheid zijn voorbeelden van waarden. Andere waarden zijn liefde, rechtvaardigheid, veiligheid en betrokkenheid.",
+        "en": "Freedom and equality are examples of values. Other values include love, justice, safety and engagement."
+      },
+      "source_text_nl": "Andere voorbeelden van waarden: vrijheid, gelijkheid, liefde, gerechtigheid, veiligheid.",
+      "tags": ["waarden", "vrijheid", "gelijkheid"]
+    },
+    {
+      "id": "M2_Q032", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Omgangsvormen – werk", "topic_en": "Social customs – work",
+      "question_nl": "Hoe praat je anders met je baas dan met je collega's?",
+      "options": [
+        {"id": "A", "text_nl": "Je gebruikt met je baas dezelfde taal als met je collega's"},
+        {"id": "B", "text_nl": "Je praat formeler en respectvoller met je baas dan met je collega's"},
+        {"id": "C", "text_nl": "Je hoeft helemaal niet anders te praten"},
+        {"id": "D", "text_nl": "Je spreekt je baas altijd aan met 'jij'"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Tegen je baas praat je anders dan tegen je collega's. Met je baas ben je formeler. Je gebruikt 'u' in plaats van 'jij'.",
+        "en": "You speak differently to your boss than to your colleagues. You are more formal with your boss. You use 'u' (formal 'you') instead of 'jij'."
+      },
+      "source_text_nl": "Tegen je baas praat je anders dan tegen je collega's.",
+      "tags": ["omgangsvormen", "werk", "formeel"]
+    },
+    {
+      "id": "M2_Q033", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Deuren openhouden", "topic_en": "Holding doors open",
+      "question_nl": "Wat is netjes om te doen bij een deur als er iemand achter je loopt?",
+      "options": [
+        {"id": "A", "text_nl": "De deur dichtgooien"},
+        {"id": "B", "text_nl": "De deur openhouden voor de persoon achter je"},
+        {"id": "C", "text_nl": "Doorlopen en de deur loslaten"},
+        {"id": "D", "text_nl": "De deur dichthouden zodat de ander niet binnen kan"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het is netjes om de deur open te houden voor iemand die achter je loopt. Dit is een normale omgangsvorm in Nederland.",
+        "en": "It is polite to hold the door open for someone walking behind you. This is a normal social custom in the Netherlands."
+      },
+      "source_text_nl": "Het is netjes om voor iemand de deur open te houden.",
+      "tags": ["omgangsvormen", "deur", "beleefdheid"]
+    },
+    {
+      "id": "M2_Q034", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Wachten in de rij", "topic_en": "Waiting in line",
+      "question_nl": "Wat moet je doen als je in een winkel bent en er veel mensen zijn?",
+      "options": [
+        {"id": "A", "text_nl": "Direct naar voren lopen en geholpen worden"},
+        {"id": "B", "text_nl": "Op je beurt wachten"},
+        {"id": "C", "text_nl": "Schreeuwen totdat je geholpen wordt"},
+        {"id": "D", "text_nl": "De winkel verlaten en later terugkomen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In een winkel moet je op je beurt wachten. Je moet in de winkel op je beurt wachten. Dit is een normale omgangsvorm in Nederland.",
+        "en": "In a shop, you must wait your turn. Waiting in a queue is a normal social custom in the Netherlands."
+      },
+      "source_text_nl": "Je moet in een winkel op je beurt wachten.",
+      "tags": ["wachten", "omgangsvormen", "winkel"]
+    },
+    {
+      "id": "M2_Q035", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Afval op straat", "topic_en": "Littering",
+      "question_nl": "Wat is een norm over afval in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Je mag afval overal gooien"},
+        {"id": "B", "text_nl": "Je mag geen afval op straat gooien"},
+        {"id": "C", "text_nl": "Je hoeft thuis geen afval te scheiden"},
+        {"id": "D", "text_nl": "Afval hoef je pas op te ruimen als de buurt rommel is"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je mag geen afval op straat gooien. Dit is een norm in Nederland. Overal in Nederland staan prullenbakken voor je afval.",
+        "en": "You must not litter (throw rubbish on the street). This is a norm in the Netherlands. Rubbish bins are placed throughout the Netherlands for your waste."
+      },
+      "source_text_nl": "Je moet geen afval op straat gooien.",
+      "tags": ["afval", "normen", "milieu"]
+    },
+    {
+      "id": "M2_Q036", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Visite", "topic_en": "Visiting",
+      "question_nl": "Als je bij iemand op visite gaat, is het aardig om iets mee te nemen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Het is een mooie gewoonte om iets mee te nemen als je op visite gaat, zoals bloemen of iets lekkers.",
+        "en": "That is correct. It is a nice custom to bring something when you visit someone, such as flowers or something tasty."
+      },
+      "source_text_nl": "Dan is het aardig om wat te geven. Bijvoorbeeld een bos bloemen.",
+      "tags": ["visite", "cadeau", "etiquette"]
+    },
+    {
+      "id": "M2_Q037", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Godsdienst", "topic_en": "Religion",
+      "question_nl": "In Nederland mag je zelf kiezen welk geloof je hebt.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In Nederland heeft iedereen vrijheid van godsdienst. Je mag zelf kiezen of je gelooft en welk geloof je hebt.",
+        "en": "That is correct. In the Netherlands, everyone has freedom of religion. You may choose for yourself whether you believe and which faith you follow."
+      },
+      "source_text_nl": "In Nederland heeft iedereen vrijheid van godsdienst.",
+      "tags": ["godsdienst", "vrijheid", "keuze"]
+    },
+    {
+      "id": "M2_Q038", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Feestdagen", "topic_en": "Public holidays",
+      "question_nl": "Koningsdag is op 27 april.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Koningsdag wordt gevierd op 27 april, de verjaardag van Koning Willem-Alexander.",
+        "en": "That is correct. King's Day is celebrated on 27 April, the birthday of King Willem-Alexander."
+      },
+      "source_text_nl": "Koningsdag is op 27 april.",
+      "tags": ["Koningsdag", "feestdag", "april"]
+    },
+    {
+      "id": "M2_Q039", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Normen", "topic_en": "Norms",
+      "question_nl": "Normen zijn alleen van toepassing in de werksfeer.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Normen gelden in alle situaties van het dagelijks leven, niet alleen op het werk. Ze gelden thuis, op straat, in de winkel, overal.",
+        "en": "This is incorrect. Norms apply in all situations of daily life, not only at work. They apply at home, on the street, in shops, everywhere."
+      },
+      "source_text_nl": "Normen gelden voor iedereen in alle situaties.",
+      "tags": ["normen", "samenleving", "dagelijks leven"]
+    },
+    {
+      "id": "M2_Q040", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Kaartje sturen", "topic_en": "Sending a card",
+      "question_nl": "Als je een rouwkaart krijgt, hoef je niet te reageren.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Als je een rouwkaart krijgt, kun je een kaart terugsturen. Er zijn speciale kaarten voor. Je kunt de familie ook bellen.",
+        "en": "This is incorrect. When you receive a condolence card, you can send a card back. There are special cards for this. You can also phone the family."
+      },
+      "source_text_nl": "Als je een rouwkaart krijgt, kun je een kaart terugsturen.",
+      "tags": ["rouwkaart", "reactie", "overlijden"]
+    },
+    {
+      "id": "M2_Q041", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Ongeschreven regels", "topic_en": "Unwritten rules",
+      "question_nl": "Wat is een ongeschreven norm?",
+      "options": [
+        {"id": "A", "text_nl": "Een norm die in de Grondwet staat"},
+        {"id": "B", "text_nl": "Een norm die nergens is opgeschreven maar die iedereen wel kent en volgt"},
+        {"id": "C", "text_nl": "Een norm die de werkgever oplegt"},
+        {"id": "D", "text_nl": "Een norm die de gemeente bepaalt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een ongeschreven norm is een regel die nergens is opgeschreven, maar die iedereen wel kent. Bijvoorbeeld: je staat op voor een oudere persoon in de bus.",
+        "en": "An unwritten norm is a rule that is not written anywhere, but that everyone knows. For example: you stand up for an elderly person on the bus."
+      },
+      "source_text_nl": "Maar normen zijn niet altijd ergens opgeschreven. Van sommige dingen weet iedereen gewoon dat het zo hoort.",
+      "tags": ["ongeschreven regels", "normen", "gedrag"]
+    },
+    {
+      "id": "M2_Q042", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Bus – etiquette", "topic_en": "Bus etiquette",
+      "question_nl": "Wat is een ongeschreven norm als de bus vol is?",
+      "options": [
+        {"id": "A", "text_nl": "Je zit rustig en doet niets"},
+        {"id": "B", "text_nl": "Je staat op voor oudere mensen"},
+        {"id": "C", "text_nl": "Je vraagt de bestuurder om te stoppen"},
+        {"id": "D", "text_nl": "Je gaat op de grond zitten"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als de bus vol is, is het een ongeschreven norm om op te staan voor oudere mensen zodat zij kunnen zitten.",
+        "en": "When the bus is full, it is an unwritten norm to stand up for elderly people so they can sit down."
+      },
+      "source_text_nl": "Als de bus vol is, moet je opstaan voor oudere mensen.",
+      "tags": ["bus", "ongeschreven regels", "etiquette"]
+    },
+    {
+      "id": "M2_Q043", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Feestdagen – Pasen", "topic_en": "Public holidays – Easter",
+      "question_nl": "Hoeveel officiële Paasdagen heeft Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Één dag"},
+        {"id": "B", "text_nl": "Twee dagen: Eerste en Tweede Paasdag"},
+        {"id": "C", "text_nl": "Drie dagen"},
+        {"id": "D", "text_nl": "Vier dagen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nederland heeft twee officiële Paasdagen: Eerste Paasdag (Paaszondag) en Tweede Paasdag (Paasmaandag).",
+        "en": "The Netherlands has two official Easter holidays: Easter Sunday (First Easter Day) and Easter Monday (Second Easter Day)."
+      },
+      "source_text_nl": "Nederland heeft twee officiële Paasdagen.",
+      "tags": ["Pasen", "feestdagen", "officieel"]
+    },
+    {
+      "id": "M2_Q044", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Dodenherdenking", "topic_en": "Remembrance Day",
+      "question_nl": "Wanneer is Dodenherdenking in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "4 mei"},
+        {"id": "B", "text_nl": "5 mei"},
+        {"id": "C", "text_nl": "11 november"},
+        {"id": "D", "text_nl": "1 september"}
+      ],
+      "correct_answer": "A",
+      "explanation": {
+        "nl": "Dodenherdenking is op 4 mei. Op deze dag herdenken Nederlanders de mensen die zijn gestorven in de Tweede Wereldoorlog en andere conflicten. Om 20:00 uur is er twee minuten stilte.",
+        "en": "Remembrance Day is on 4 May. On this day, the Dutch remember those who died in the Second World War and other conflicts. At 20:00 there are two minutes of silence."
+      },
+      "source_text_nl": "Dodenherdenking is op 4 mei.",
+      "tags": ["Dodenherdenking", "4 mei", "herdenking"]
+    },
+    {
+      "id": "M2_Q045", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Nederlanders en directheid", "topic_en": "Dutch directness",
+      "question_nl": "Hoe worden Nederlanders vaak omschreven in hun manier van communiceren?",
+      "options": [
+        {"id": "A", "text_nl": "Erg indirect en verlegen"},
+        {"id": "B", "text_nl": "Direct en eerlijk in hun communicatie"},
+        {"id": "C", "text_nl": "Altijd formeel en stijf"},
+        {"id": "D", "text_nl": "Nooit kritisch op anderen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nederlanders staan bekend om hun directheid. Ze zeggen wat ze denken en zijn eerlijk, ook als het niet altijd positief is.",
+        "en": "Dutch people are known for their directness. They say what they think and are honest, even when it is not always positive."
+      },
+      "source_text_nl": "Nederlanders zijn vaak direct en eerlijk in hun communicatie.",
+      "tags": ["directheid", "communicatie", "Nederlanders"]
+    },
+    {
+      "id": "M2_Q046", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Sportclubs", "topic_en": "Sports clubs",
+      "question_nl": "Waarom worden mensen lid van een sportclub?",
+      "options": [
+        {"id": "A", "text_nl": "Omdat de gemeente het verplicht"},
+        {"id": "B", "text_nl": "Om een sport te doen, contacten te leggen en plezier te hebben"},
+        {"id": "C", "text_nl": "Om korting te krijgen bij de supermarkt"},
+        {"id": "D", "text_nl": "Omdat ze dan minder belasting betalen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Mensen worden lid van een sportclub om een sport te doen, nieuwe mensen te leren kennen en plezier te hebben. Het is goed voor de conditie en voor sociale contacten.",
+        "en": "People join sports clubs to play a sport, meet new people and have fun. It is good for fitness and social contacts."
+      },
+      "source_text_nl": "Mensen worden lid van een vereniging om een sport of hobby te doen en nieuwe mensen te leren kennen.",
+      "tags": ["sportclub", "vereniging", "hobby"]
+    },
+    {
+      "id": "M2_Q047", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Trouwen", "topic_en": "Marriage",
+      "question_nl": "Waar trouw je officieel in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen in een kerk"},
+        {"id": "B", "text_nl": "Bij de gemeente (stadhuis)"},
+        {"id": "C", "text_nl": "Bij het UWV"},
+        {"id": "D", "text_nl": "Bij de notaris"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je trouwt officieel bij de gemeente, in het stadhuis. Een kerkelijk huwelijk is niet wettelijk verplicht in Nederland.",
+        "en": "You officially get married at the municipality (town hall). A church wedding is not legally required in the Netherlands."
+      },
+      "source_text_nl": "Je trouwt officieel bij de gemeente.",
+      "tags": ["trouwen", "gemeente", "officieel"]
+    },
+    {
+      "id": "M2_Q048", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Omgangsvormen – bus", "topic_en": "Social customs – bus driver",
+      "question_nl": "Hoe ga je anders om met de buschauffeur dan met je familie?",
+      "options": [
+        {"id": "A", "text_nl": "Je behandelt de buschauffeur hetzelfde als je familie"},
+        {"id": "B", "text_nl": "Je hebt een andere omgangsvorm met de buschauffeur"},
+        {"id": "C", "text_nl": "Je praat helemaal niet met de buschauffeur"},
+        {"id": "D", "text_nl": "Je geeft de buschauffeur een zoen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je hebt met de buschauffeur een andere omgangsvorm dan met je familie. Met een onbekende zoals een buschauffeur ben je formeler.",
+        "en": "You have a different way of interacting with a bus driver than with your family. With a stranger like a bus driver, you are more formal."
+      },
+      "source_text_nl": "Je hebt met iedereen een andere omgangsvorm. Met de buschauffeur ga je anders om dan met je familie.",
+      "tags": ["omgangsvormen", "bus", "formeel"]
+    },
+    {
+      "id": "M2_Q049", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Normen – eerwraak", "topic_en": "Norms – honour violence",
+      "question_nl": "Is eerwraak (iemand iets aandoen vanwege eer) toegestaan in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Ja, als het om familie gaat"},
+        {"id": "B", "text_nl": "Nee, dat is verboden in Nederland"},
+        {"id": "C", "text_nl": "Ja, maar alleen in bepaalde gevallen"},
+        {"id": "D", "text_nl": "Alleen als de rechter het goedkeurt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Eerwraak is in Nederland verboden. Het slaan van kinderen of je vrouw is ook verboden. In Nederland zijn geweld en mishandeling strafbaar.",
+        "en": "Honour violence is prohibited in the Netherlands. Hitting children or your spouse is also prohibited. In the Netherlands, violence and abuse are criminal offences."
+      },
+      "source_text_nl": "En dingen als eerwraak, en het slaan van de kinderen of je vrouw? Nou, dat is gelukkig ook allemaal verboden!",
+      "tags": ["eerwraak", "verbod", "geweld"]
+    },
+    {
+      "id": "M2_Q050", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Abortus", "topic_en": "Abortion",
+      "question_nl": "Tot hoeveel weken is abortus toegestaan in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Tot 12 weken"},
+        {"id": "B", "text_nl": "Tot de 24e week van de zwangerschap"},
+        {"id": "C", "text_nl": "Tot 6 weken"},
+        {"id": "D", "text_nl": "Abortus is niet toegestaan in Nederland"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In Nederland is abortus toegestaan tot de 24e week van de zwangerschap, maar alleen als de moeder in een noodsituatie zit. De moeder overlegt dit met een arts.",
+        "en": "In the Netherlands, abortion is permitted up to the 24th week of pregnancy, but only if the mother is in an emergency situation. The mother discusses this with a doctor."
+      },
+      "source_text_nl": "Abortus is het afbreken van een zwangerschap. Dat mag in Nederland tot de 24e week van de zwangerschap.",
+      "tags": ["abortus", "wet", "zwangerschap"]
+    },
+    {
+      "id": "M2_Q051", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Vrijheid van meningsuiting", "topic_en": "Freedom of speech",
+      "question_nl": "In Nederland mag je altijd alles zeggen zonder gevolgen.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Je hebt vrijheid van meningsuiting, maar je moet wel de wet naleven. Je mag mensen niet beledigen of aanzetten tot haat.",
+        "en": "This is incorrect. You have freedom of speech, but you must still obey the law. You may not insult people or incite hatred."
+      },
+      "source_text_nl": "Vrijheid van meningsuiting heeft grenzen. Je moet de wet naleven.",
+      "tags": ["vrijheid van meningsuiting", "grenzen", "wet"]
+    },
+    {
+      "id": "M2_Q052", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Eenwording", "topic_en": "Equality in practice",
+      "question_nl": "In Nederland moeten mannen en vrouwen hetzelfde loon ontvangen voor hetzelfde werk.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De wet zegt dat mannen en vrouwen evenveel moeten verdienen voor hetzelfde werk. Gelijkheid op de werkvloer is wettelijk verplicht.",
+        "en": "That is correct. The law says that men and women must earn the same for the same work. Equality in the workplace is legally required."
+      },
+      "source_text_nl": "Mannen en vrouwen moeten evenveel verdienen voor hetzelfde werk.",
+      "tags": ["gelijkheid", "loon", "werk"]
+    },
+    {
+      "id": "M2_Q053", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Feestdagen", "topic_en": "Public holidays",
+      "question_nl": "Bevrijdingsdag wordt gevierd op 5 mei.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Bevrijdingsdag is op 5 mei. Op deze dag viert Nederland dat het in 1945 bevrijd werd van de Duitse bezetting.",
+        "en": "That is correct. Liberation Day is on 5 May. On this day, the Netherlands celebrates its liberation from German occupation in 1945."
+      },
+      "source_text_nl": "Bevrijdingsdag is op 5 mei.",
+      "tags": ["Bevrijdingsdag", "5 mei", "feestdag"]
+    },
+    {
+      "id": "M2_Q054", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Euthanasie", "topic_en": "Euthanasia",
+      "question_nl": "Euthanasie is in Nederland volledig verboden.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Euthanasie is in Nederland toegestaan onder strenge voorwaarden. De patiënt moet heel ziek zijn en het zelf gewild hebben.",
+        "en": "This is incorrect. Euthanasia is permitted in the Netherlands under strict conditions. The patient must be very ill and must have requested it themselves."
+      },
+      "source_text_nl": "Bij euthanasie zorgt een arts ervoor dat een ernstig zieke patiënt kan sterven zonder veel pijn. De patiënt moet wel hebben gezegd dat hij dat echt wil.",
+      "tags": ["euthanasie", "wet", "Nederland"]
+    },
+    {
+      "id": "M2_Q055", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Sportvereniging", "topic_en": "Sports club",
+      "question_nl": "Lidmaatschap van een sportvereniging in Nederland is altijd gratis.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Lidmaatschap van een sportvereniging is niet gratis. Je moet elk jaar contributie betalen.",
+        "en": "This is incorrect. Membership of a sports club is not free. You have to pay membership dues every year."
+      },
+      "source_text_nl": "Een vereniging is niet gratis. Je moet geld betalen. Dat heet contributie.",
+      "tags": ["sportvereniging", "contributie", "lidmaatschap"]
+    },
+    {
+      "id": "M2_Q056", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kraambvisite", "topic_en": "Visiting a newborn",
+      "question_nl": "Hoe heet het als je iemand bezoekt die net een baby heeft gekregen?",
+      "options": [
+        {"id": "A", "text_nl": "Ziekenbezoek"},
+        {"id": "B", "text_nl": "Kraamvisite"},
+        {"id": "C", "text_nl": "Condoleancebezoek"},
+        {"id": "D", "text_nl": "Kennismakingsbezoek"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als iemand een baby heeft gekregen, kun je op kraamvisite gaan. Je belt dan wel eerst even om te vragen of het uitkomt.",
+        "en": "When someone has had a baby, you can go on a newborn visit (kraamvisite). You should call first to check it is convenient."
+      },
+      "source_text_nl": "Je kunt ook op visite gaan. Dat heet kraamvisite. Je moet dan wel even bellen.",
+      "tags": ["kraamvisite", "baby", "bezoek"]
+    },
+    {
+      "id": "M2_Q057", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Feestdag – Oudejaarsavond", "topic_en": "New Year's Eve",
+      "question_nl": "Wanneer is Oudejaarsavond?",
+      "options": [
+        {"id": "A", "text_nl": "1 januari"},
+        {"id": "B", "text_nl": "31 december"},
+        {"id": "C", "text_nl": "24 december"},
+        {"id": "D", "text_nl": "26 december"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Oudejaarsavond is op 31 december. Op deze avond vieren Nederlanders het einde van het jaar met vuurwerk om middernacht.",
+        "en": "New Year's Eve is on 31 December. On this evening, the Dutch celebrate the end of the year with fireworks at midnight."
+      },
+      "source_text_nl": "Oudejaarsavond is op 31 december.",
+      "tags": ["Oudejaarsavond", "31 december", "feestdag"]
+    },
+    {
+      "id": "M2_Q058", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "E-card", "topic_en": "E-card",
+      "question_nl": "Wat is een e-card?",
+      "options": [
+        {"id": "A", "text_nl": "Een identiteitskaart op internet"},
+        {"id": "B", "text_nl": "Een digitale kaart die je via internet stuurt"},
+        {"id": "C", "text_nl": "Een bankpas voor online aankopen"},
+        {"id": "D", "text_nl": "Een e-mail van de gemeente"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een e-card is een digitale kaart die je via internet verstuurt. Tegenwoordig sturen mensen ook kaarten via internet in plaats van een papieren kaart.",
+        "en": "An e-card is a digital card sent via the internet. Nowadays people also send cards over the internet instead of a paper card."
+      },
+      "source_text_nl": "Tegenwoordig sturen mensen ook kaarten via internet. Dit heet een e-card.",
+      "tags": ["e-card", "internet", "kaartje"]
+    },
+    {
+      "id": "M2_Q059", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Normen – rijden", "topic_en": "Norms – driving",
+      "question_nl": "Welke norm geldt voor autorijders in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Je mag zo hard rijden als je wilt"},
+        {"id": "B", "text_nl": "Je mag niet te hard rijden"},
+        {"id": "C", "text_nl": "Je hoeft alleen overdag te stoppen voor rood licht"},
+        {"id": "D", "text_nl": "Je mag de maximumsnelheid altijd overschrijden als het nodig is"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je mag niet te hard rijden. Dit is een wettelijke norm in Nederland. Als je te hard rijdt, kun je een boete krijgen.",
+        "en": "You must not drive too fast. This is a legal norm in the Netherlands. If you drive too fast, you can receive a fine."
+      },
+      "source_text_nl": "Je mag niet te hard rijden met je auto.",
+      "tags": ["rijden", "snelheid", "normen"]
+    },
+    {
+      "id": "M2_Q060", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gelijkheid – samenleving", "topic_en": "Equality – society",
+      "question_nl": "Wat betekent de waarde 'gelijkheid' in de Nederlandse samenleving?",
+      "options": [
+        {"id": "A", "text_nl": "Iedereen verdient hetzelfde salaris"},
+        {"id": "B", "text_nl": "Iedereen heeft dezelfde rechten en wordt gelijk behandeld"},
+        {"id": "C", "text_nl": "Iedereen woont in hetzelfde soort huis"},
+        {"id": "D", "text_nl": "Iedereen gaat naar dezelfde school"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Gelijkheid als waarde betekent dat iedereen dezelfde rechten heeft en gelijk behandeld wordt, ongeacht afkomst, geslacht of religie.",
+        "en": "Equality as a value means that everyone has the same rights and is treated equally, regardless of background, gender or religion."
+      },
+      "source_text_nl": "Bij de waarde gelijkheid bedenken we de norm: mannen en vrouwen zijn gelijk.",
+      "tags": ["gelijkheid", "waarden", "samenleving"]
+    },
+    {
+      "id": "M2_Q061", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Dodenherdenking", "topic_en": "Remembrance",
+      "question_nl": "Op 4 mei om 20:00 uur is er twee minuten stilte ter ere van de oorlogsslachtoffers.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Op 4 mei (Dodenherdenking) staat Nederland om 20:00 uur twee minuten stil ter nagedachtenis aan de mensen die zijn gevallen in oorlogen.",
+        "en": "That is correct. On 4 May (Remembrance Day), the Netherlands observes two minutes of silence at 20:00 in memory of those who fell in wars."
+      },
+      "source_text_nl": "Op 4 mei om 20:00 uur is er twee minuten stilte.",
+      "tags": ["Dodenherdenking", "4 mei", "stilte"]
+    },
+    {
+      "id": "M2_Q062", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Normen", "topic_en": "Norms",
+      "question_nl": "Elke samenleving heeft dezelfde normen en waarden.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Elke samenleving heeft haar eigen normen en waarden. Die kunnen verschillen van land tot land en van cultuur tot cultuur.",
+        "en": "This is incorrect. Every society has its own norms and values. These can differ from country to country and from culture to culture."
+      },
+      "source_text_nl": "Elk land heeft zijn eigen omgangsvormen.",
+      "tags": ["normen", "waarden", "cultuur"]
+    },
+    {
+      "id": "M2_Q063", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Trouwen – religie", "topic_en": "Marriage – religion",
+      "question_nl": "Je moet in Nederland verplicht trouwen in een kerk of moskee.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. In Nederland is een burgerlijk huwelijk (bij de gemeente) verplicht. Een religieus huwelijk is optioneel en niet wettelijk vereist.",
+        "en": "This is incorrect. In the Netherlands, a civil marriage (at the municipality) is compulsory. A religious marriage is optional and not legally required."
+      },
+      "source_text_nl": "Je trouwt officieel bij de gemeente. Een kerkelijk huwelijk is niet verplicht.",
+      "tags": ["trouwen", "kerk", "gemeente"]
+    },
+    {
+      "id": "M2_Q064", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Vrijwilligerswerk", "topic_en": "Voluntary work",
+      "question_nl": "Vrijwilligerswerk is werk waarvoor je betaald wordt.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Vrijwilligerswerk is gratis werk dat je doet voor anderen. Je ontvangt er geen betaling voor.",
+        "en": "This is incorrect. Voluntary work is work you do for others for free. You receive no payment for it."
+      },
+      "source_text_nl": "Vrijwilligerswerk is werk dat je gratis doet voor anderen.",
+      "tags": ["vrijwilligerswerk", "betaling", "gratis"]
+    },
+    {
+      "id": "M2_Q065", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Sinterklaas", "topic_en": "Sinterklaas",
+      "question_nl": "Sinterklaas is een Nederlandse feestdag voor kinderen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Sinterklaas is een traditioneel Nederlands feest voor kinderen. Op 5 december krijgen kinderen cadeaus van Sinterklaas.",
+        "en": "That is correct. Sinterklaas is a traditional Dutch celebration for children. On 5 December, children receive presents from Sinterklaas."
+      },
+      "source_text_nl": "Sinterklaas is een feest voor kinderen. Op Sinterklaasavond (5 december) krijgen kinderen cadeaus.",
+      "tags": ["Sinterklaas", "kinderen", "feest"]
+    },
+    {
+      "id": "M2_Q066", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Samenleving", "topic_en": "Society",
+      "question_nl": "Wat is de Grondwet?",
+      "options": [
+        {"id": "A", "text_nl": "De regels van de gemeente"},
+        {"id": "B", "text_nl": "De belangrijkste wet van Nederland met de basisrechten van burgers"},
+        {"id": "C", "text_nl": "Een boek met normen en waarden"},
+        {"id": "D", "text_nl": "De regels van een school"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De Grondwet is de belangrijkste wet van Nederland. Daarin staan de basisrechten van burgers, zoals vrijheid van meningsuiting en godsdienstvrijheid.",
+        "en": "The Constitution (Grondwet) is the most important law of the Netherlands. It contains the basic rights of citizens, such as freedom of speech and freedom of religion."
+      },
+      "source_text_nl": "De Grondwet is de belangrijkste wet van Nederland.",
+      "tags": ["Grondwet", "wet", "basisrechten"]
+    },
+    {
+      "id": "M2_Q067", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Verjaardagskaart", "topic_en": "Birthday card",
+      "question_nl": "Wanneer stuur je een verjaardagskaart?",
+      "options": [
+        {"id": "A", "text_nl": "Als iemand geslaagd is voor een examen"},
+        {"id": "B", "text_nl": "Als iemand jarig is"},
+        {"id": "C", "text_nl": "Als iemand een nieuw huis heeft"},
+        {"id": "D", "text_nl": "Als iemand een baby krijgt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je stuurt een verjaardagskaart als iemand jarig is. Op de kaart staat: 'Gefeliciteerd met je verjaardag!'",
+        "en": "You send a birthday card when it is someone's birthday. The card says: 'Happy birthday!' (Gefeliciteerd met je verjaardag!)"
+      },
+      "source_text_nl": "Het is leuk om een kaart te krijgen als je jarig bent. Als iemand jarig is, kun je een verjaardagskaart sturen.",
+      "tags": ["verjaardagskaart", "verjaardag", "kaartje"]
+    },
+    {
+      "id": "M2_Q068", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Feestdagen – Pinksteren", "topic_en": "Whitsun",
+      "question_nl": "Welke christelijke feestdag viert Nederland zeven weken na Pasen?",
+      "options": [
+        {"id": "A", "text_nl": "Kerstmis"},
+        {"id": "B", "text_nl": "Pinksteren"},
+        {"id": "C", "text_nl": "Hemelvaart"},
+        {"id": "D", "text_nl": "Sinterklaas"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Pinksteren wordt gevierd zeven weken na Pasen. Het is een christelijke feestdag. Nederland heeft ook hier twee officiële vrije dagen: Eerste en Tweede Pinksterdag.",
+        "en": "Whitsun is celebrated seven weeks after Easter. It is a Christian holiday. The Netherlands also has two official days off: Whit Sunday and Whit Monday."
+      },
+      "source_text_nl": "Pinksteren is zeven weken na Pasen.",
+      "tags": ["Pinksteren", "feestdag", "christelijk"]
+    },
+    {
+      "id": "M2_Q069", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Omgaan met verschillen", "topic_en": "Dealing with differences",
+      "question_nl": "Wat moet je doen als je in Nederland woont en andere omgangsvormen hebt dan Nederlanders?",
+      "options": [
+        {"id": "A", "text_nl": "Je hoeft je helemaal niet aan te passen"},
+        {"id": "B", "text_nl": "Je moet de Nederlandse omgangsvormen leren begrijpen en respecteren"},
+        {"id": "C", "text_nl": "Je mag je eigen omgangsvormen opleggen aan anderen"},
+        {"id": "D", "text_nl": "Je hoeft niets te leren"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je in Nederland woont, moet je leren wat de Nederlandse omgangsvormen zijn en die respecteren. Je hoeft je eigen cultuur niet op te geven, maar je moet de Nederlandse normen kennen.",
+        "en": "When living in the Netherlands, you need to learn and respect Dutch social customs. You do not have to give up your own culture, but you should know the Dutch norms."
+      },
+      "source_text_nl": "Je moet leren over de Nederlandse omgangsvormen en die respecteren.",
+      "tags": ["omgangsvormen", "aanpassen", "integratie"]
+    },
+    {
+      "id": "M2_Q070", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Deelname samenleving", "topic_en": "Participation in society",
+      "question_nl": "Wat is een goede manier om deel te nemen aan de Nederlandse samenleving?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen thuis blijven"},
+        {"id": "B", "text_nl": "Lid worden van een vereniging of club"},
+        {"id": "C", "text_nl": "Nooit met buren praten"},
+        {"id": "D", "text_nl": "Werk vermijden"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Lid worden van een vereniging of club is een goede manier om deel te nemen aan de samenleving. Je leert nieuwe mensen kennen en wordt onderdeel van de gemeenschap.",
+        "en": "Joining an association or club is a good way to participate in society. You meet new people and become part of the community."
+      },
+      "source_text_nl": "Lid worden van een vereniging is een goede manier om deel te nemen aan de samenleving.",
+      "tags": ["deelname", "samenleving", "vereniging"]
+    },
+    {
+      "id": "M2_Q071", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Kaartjes sturen", "topic_en": "Sending cards",
+      "question_nl": "Als je een baby krijgt, is het aardig om een kaart te sturen naar de ouders.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Als mensen een baby hebben gekregen, sturen ze een geboortekaartje. Je kunt dan een felicitatiekaart terugsturen.",
+        "en": "That is correct. When people have had a baby, they send a birth announcement. You can then send a congratulations card back."
+      },
+      "source_text_nl": "Als mensen een baby hebben gekregen, sturen ze een kaartje. Gefeliciteerd met jullie baby!",
+      "tags": ["geboorte", "kaartje", "baby"]
+    },
+    {
+      "id": "M2_Q072", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Normen en regels", "topic_en": "Norms and rules",
+      "question_nl": "Als je te hard rijdt in Nederland, kun je een boete krijgen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Als je de maximumsnelheid overschrijdt in Nederland, kun je een boete krijgen van de politie.",
+        "en": "That is correct. If you exceed the speed limit in the Netherlands, you can receive a fine from the police."
+      },
+      "source_text_nl": "Je mag niet te hard rijden. Anders krijg je een boete.",
+      "tags": ["snelheid", "boete", "politie"]
+    },
+    {
+      "id": "M2_Q073", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Trouwen", "topic_en": "Marriage",
+      "question_nl": "In Nederland kunnen twee vrouwen met elkaar trouwen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In Nederland mogen vrouwen ook met vrouwen trouwen. Dit is al wettelijk geregeld sinds 2001.",
+        "en": "That is correct. In the Netherlands, women may also marry women. This has been legally regulated since 2001."
+      },
+      "source_text_nl": "Vrouwen mogen met vrouwen trouwen.",
+      "tags": ["trouwen", "vrouwen", "wet"]
+    },
+    {
+      "id": "M2_Q074", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Omgangsvormen", "topic_en": "Social customs",
+      "question_nl": "Elk land heeft zijn eigen omgangsvormen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Elk land heeft zijn eigen omgangsvormen. Misschien heeft Nederland andere omgangsvormen dan jouw land.",
+        "en": "That is correct. Every country has its own social customs. The Netherlands may have different customs from your country."
+      },
+      "source_text_nl": "Elk land heeft zijn eigen omgangsvormen.",
+      "tags": ["omgangsvormen", "landen", "cultuur"]
+    },
+    {
+      "id": "M2_Q075", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Verhuiskaart", "topic_en": "Moving card",
+      "question_nl": "Als je gaat verhuizen, stuur je een verhuiskaart zodat mensen je nieuwe adres weten.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Als je gaat verhuizen, stuur je een verhuiskaart naar vrienden en familie, zodat ze je nieuwe adres weten.",
+        "en": "That is correct. When you are moving house, you send a moving card to friends and family so they know your new address."
+      },
+      "source_text_nl": "Ga je verhuizen? Stuur al je vrienden en familie een kaart. Dan weten ze wat je nieuwe adres is.",
+      "tags": ["verhuiskaart", "adres", "verhuizen"]
+    },
+    {
+      "id": "M2_Q076", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Samenleving – tolerantie", "topic_en": "Society – tolerance",
+      "question_nl": "Wat wordt bedoeld met tolerantie in de Nederlandse samenleving?",
+      "options": [
+        {"id": "A", "text_nl": "Dat je anderen negeert"},
+        {"id": "B", "text_nl": "Dat je anderen respecteert, ook als ze anders zijn"},
+        {"id": "C", "text_nl": "Dat je altijd akkoord gaat met alles"},
+        {"id": "D", "text_nl": "Dat je alleen met Nederlanders omgaat"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Tolerantie betekent dat je anderen respecteert, ook als ze anders zijn dan jijzelf. Dit is een belangrijke waarde in de Nederlandse samenleving.",
+        "en": "Tolerance means that you respect others, even if they are different from yourself. This is an important value in Dutch society."
+      },
+      "source_text_nl": "Tolerantie betekent anderen respecteren, ook als ze anders zijn.",
+      "tags": ["tolerantie", "respect", "samenleving"]
+    },
+    {
+      "id": "M2_Q077", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Nieuwjaarsdag", "topic_en": "New Year's Day",
+      "question_nl": "Wanneer is Nieuwjaarsdag in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "31 december"},
+        {"id": "B", "text_nl": "1 januari"},
+        {"id": "C", "text_nl": "6 januari"},
+        {"id": "D", "text_nl": "1 februari"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nieuwjaarsdag is op 1 januari. Dit is een officiële feestdag in Nederland. Mensen wensen elkaar een gelukkig nieuwjaar.",
+        "en": "New Year's Day is on 1 January. This is an official public holiday in the Netherlands. People wish each other a happy new year."
+      },
+      "source_text_nl": "Nieuwjaarsdag is op 1 januari.",
+      "tags": ["Nieuwjaarsdag", "1 januari", "feestdag"]
+    },
+    {
+      "id": "M2_Q078", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Verjaardagen vieren", "topic_en": "Celebrating birthdays",
+      "question_nl": "Hoe wordt een verjaardag in Nederland traditioneel gevierd?",
+      "options": [
+        {"id": "A", "text_nl": "Met een groot avondfeest met dans"},
+        {"id": "B", "text_nl": "Met taart eten en bezoek van familie en vrienden"},
+        {"id": "C", "text_nl": "Alleen thuis, geen bezoekers"},
+        {"id": "D", "text_nl": "Met een kaartspel bij de buren"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In Nederland is het traditie om op je verjaardag taart te eten met familie en vrienden die op bezoek komen. De jarige trakteert op zijn of haar werk of school.",
+        "en": "In the Netherlands, it is traditional to eat cake with family and friends who come to visit on your birthday. The birthday person treats colleagues or classmates."
+      },
+      "source_text_nl": "Op je verjaardag eet je taart met familie en vrienden.",
+      "tags": ["verjaardag", "taart", "traditie"]
+    },
+    {
+      "id": "M2_Q079", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Normen en wet", "topic_en": "Norms and law",
+      "question_nl": "Welke norm staat in de Nederlandse wet?",
+      "options": [
+        {"id": "A", "text_nl": "Je mag geen groente eten op zondag"},
+        {"id": "B", "text_nl": "Je moet mannen en vrouwen hetzelfde behandelen"},
+        {"id": "C", "text_nl": "Je moet elke zondag naar de kerk"},
+        {"id": "D", "text_nl": "Je moet alleen met Nederlanders trouwen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De wet zegt dat je mannen en vrouwen hetzelfde moet behandelen. Op het werk moeten mannen en vrouwen hetzelfde behandeld worden.",
+        "en": "The law says that you must treat men and women equally. At work, men and women must be treated the same."
+      },
+      "source_text_nl": "Je moet mannen en vrouwen hetzelfde behandelen. Dat staat in de wet.",
+      "tags": ["gelijkheid", "wet", "mannen vrouwen"]
+    },
+    {
+      "id": "M2_Q080", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Koningsdag", "topic_en": "King's Day",
+      "question_nl": "Op Koningsdag dragen veel Nederlanders oranje kleding.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Op Koningsdag (27 april) dragen veel Nederlanders oranje kleding. Oranje is de kleur van de Nederlandse koninklijke familie.",
+        "en": "That is correct. On King's Day (27 April), many Dutch people wear orange clothing. Orange is the colour of the Dutch royal family."
+      },
+      "source_text_nl": "Op Koningsdag dragen veel mensen oranje kleding.",
+      "tags": ["Koningsdag", "oranje", "koninklijke familie"]
+    }
+  ]
+}

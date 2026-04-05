@@ -1,0 +1,1268 @@
+{
+  "module_id": "M8",
+  "module_title_nl": "Opvoeding en onderwijs",
+  "module_title_en": "Parenting and Education",
+  "total_questions": 80,
+  "questions": [
+    {
+      "id": "M8_Q001", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kinderopvang", "topic_en": "Childcare",
+      "question_nl": "Wat is kinderopvang?",
+      "options": [
+        {"id": "A", "text_nl": "Een school voor kinderen van 12 jaar en ouder"},
+        {"id": "B", "text_nl": "Een plek waar kinderen overdag kunnen zijn als de ouders werken"},
+        {"id": "C", "text_nl": "Een ziekenhuis speciaal voor kinderen"},
+        {"id": "D", "text_nl": "Een sportclub voor jonge kinderen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Kinderopvang zijn plekken waar kinderen overdag kunnen zijn als de ouders werken. Er zijn verschillende soorten kinderopvang.",
+        "en": "Childcare refers to places where children can stay during the day when parents are working. There are different types of childcare."
+      },
+      "source_text_nl": "Kinderopvang: dat zijn plekken waar kinderen overdag kunnen zijn. Er zijn verschillende soorten kinderopvang.",
+      "tags": ["kinderopvang", "ouders", "werken"]
+    },
+    {
+      "id": "M8_Q002", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kinderdagverblijf", "topic_en": "Day nursery",
+      "question_nl": "Wat is een kinderdagverblijf?",
+      "options": [
+        {"id": "A", "text_nl": "Een school voor kinderen van 4 jaar en ouder"},
+        {"id": "B", "text_nl": "Een gebouw waar kinderen van 0 tot 4 jaar kunnen spelen en verzorgd worden"},
+        {"id": "C", "text_nl": "Een ziekenhuis voor zieke kinderen"},
+        {"id": "D", "text_nl": "Een buitenschoolse opvang voor oudere kinderen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een kinderdagverblijf is een gebouw waar kinderen van 0 tot 4 jaar kunnen spelen. Werkende ouders brengen hun kind hier naartoe. Het wordt ook wel crèche genoemd.",
+        "en": "A day nursery is a building where children aged 0 to 4 can play and be looked after. Working parents take their child here. It is also called a crèche."
+      },
+      "source_text_nl": "Werkende ouders brengen hun kind meestal naar een kinderdagverblijf. Dat is een gebouw waar kinderen kunnen spelen. Het is voor kinderen van 0 tot 4 jaar.",
+      "tags": ["kinderdagverblijf", "0-4 jaar", "crèche"]
+    },
+    {
+      "id": "M8_Q003", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Crèche", "topic_en": "Crèche",
+      "question_nl": "Wat is een ander woord voor kinderdagverblijf?",
+      "options": [
+        {"id": "A", "text_nl": "Kleuterschool"},
+        {"id": "B", "text_nl": "Crèche"},
+        {"id": "C", "text_nl": "Peuterspeelzaal"},
+        {"id": "D", "text_nl": "Naschoolse opvang"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een ander woord voor kinderdagverblijf is crèche. Het is hetzelfde: een plek voor kinderen van 0 tot 4 jaar terwijl de ouders werken.",
+        "en": "Another word for day nursery (kinderdagverblijf) is crèche. It is the same thing: a place for children aged 0 to 4 while the parents work."
+      },
+      "source_text_nl": "Een ander woord voor kinderdagverblijf is crèche.",
+      "tags": ["crèche", "kinderdagverblijf", "synoniem"]
+    },
+    {
+      "id": "M8_Q004", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Peuterspeelzaal", "topic_en": "Toddler playgroup",
+      "question_nl": "Voor welke leeftijd is de peuterspeelzaal?",
+      "options": [
+        {"id": "A", "text_nl": "Voor kinderen van 0 tot 1 jaar"},
+        {"id": "B", "text_nl": "Voor kinderen vanaf 2 jaar"},
+        {"id": "C", "text_nl": "Voor kinderen van 5 tot 7 jaar"},
+        {"id": "D", "text_nl": "Voor kinderen van 6 tot 12 jaar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De peuterspeelzaal is voor kinderen vanaf 2 jaar. Kinderen leren er samen spelen. Ze gaan er meestal maar 2 ochtenden per week naartoe.",
+        "en": "The toddler playgroup (peuterspeelzaal) is for children from the age of 2. Children learn to play together there. They usually only go 2 mornings a week."
+      },
+      "source_text_nl": "De peuterspeelzaal is voor kinderen vanaf 2 jaar. Kinderen leren daar samen spelen. Ze gaan er maar 2 ochtenden per week.",
+      "tags": ["peuterspeelzaal", "2 jaar", "samen spelen"]
+    },
+    {
+      "id": "M8_Q005", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Voorschool", "topic_en": "Pre-school",
+      "question_nl": "Waarvoor is de voorschool?",
+      "options": [
+        {"id": "A", "text_nl": "Voor kinderen die goed kunnen lezen"},
+        {"id": "B", "text_nl": "Voor kinderen van 2 tot 5 jaar met taalachterstand, voor extra aandacht voor taal"},
+        {"id": "C", "text_nl": "Voor kinderen van 6 tot 12 jaar"},
+        {"id": "D", "text_nl": "Voor kinderen die naar de universiteit gaan"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De voorschool is voor kinderen van 2 tot 5 jaar die een taalachterstand hebben. Er is extra aandacht voor de Nederlandse taal.",
+        "en": "The pre-school is for children aged 2 to 5 who have a language delay. There is extra attention for the Dutch language."
+      },
+      "source_text_nl": "De voorschool is voor kinderen van 2 tot 5 jaar. Daar is extra aandacht voor de Nederlandse taal.",
+      "tags": ["voorschool", "taalachterstand", "taal"]
+    },
+    {
+      "id": "M8_Q006", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kinderopvangtoeslag", "topic_en": "Childcare allowance",
+      "question_nl": "Wie betaalt mee aan de kosten van kinderopvang?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen de ouders betalen alles zelf"},
+        {"id": "B", "text_nl": "De Belastingdienst betaalt een deel via kinderopvangtoeslag"},
+        {"id": "C", "text_nl": "De gemeente betaalt alles"},
+        {"id": "D", "text_nl": "Het kinderdagverblijf is altijd gratis"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Kinderopvang kost geld. De ouders moeten zelf een deel betalen, maar de Belastingdienst betaalt ook een deel via kinderopvangtoeslag.",
+        "en": "Childcare costs money. The parents must pay part themselves, but the Tax Authority also pays a part through childcare allowance (kinderopvangtoeslag)."
+      },
+      "source_text_nl": "Kinderopvang kost geld. De ouders moeten zelf een deel betalen. De Belastingdienst betaalt ook een deel. Dit gebeurt via kinderopvangtoeslag.",
+      "tags": ["kinderopvangtoeslag", "Belastingdienst", "kosten"]
+    },
+    {
+      "id": "M8_Q007", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kinderopvangtoeslag aanvragen", "topic_en": "Applying for childcare allowance",
+      "question_nl": "Hoe vraag je kinderopvangtoeslag aan?",
+      "options": [
+        {"id": "A", "text_nl": "Via het kinderdagverblijf"},
+        {"id": "B", "text_nl": "Met een formulier bij de Belastingdienst"},
+        {"id": "C", "text_nl": "Via de gemeente"},
+        {"id": "D", "text_nl": "Via het consultatiebureau"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Kinderopvangtoeslag vraag je aan via een formulier bij de Belastingdienst. Je moet de toeslag wel aanvragen; het gaat niet automatisch.",
+        "en": "You apply for childcare allowance via a form at the Tax Authority. You must actively apply for the benefit; it does not happen automatically."
+      },
+      "source_text_nl": "Je moet de toeslag wel aanvragen, met een formulier bij de Belastingdienst.",
+      "tags": ["kinderopvangtoeslag", "aanvragen", "Belastingdienst"]
+    },
+    {
+      "id": "M8_Q008", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Basisschool – leeftijd", "topic_en": "Primary school – age",
+      "question_nl": "Vanaf welke leeftijd gaan kinderen naar de basisschool?",
+      "options": [
+        {"id": "A", "text_nl": "Vanaf 3 jaar"},
+        {"id": "B", "text_nl": "Vanaf 4 of 5 jaar"},
+        {"id": "C", "text_nl": "Vanaf 6 jaar"},
+        {"id": "D", "text_nl": "Vanaf 7 jaar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Kinderen gaan naar de basisschool vanaf 4 of 5 jaar. Ze zijn dan verplicht op school. De basisschool duurt 8 jaar.",
+        "en": "Children go to primary school from the age of 4 or 5. They are then required to attend school. Primary school lasts 8 years."
+      },
+      "source_text_nl": "Kinderen moeten naar de basisschool vanaf 4 of 5 jaar.",
+      "tags": ["basisschool", "4 jaar", "leeftijd"]
+    },
+    {
+      "id": "M8_Q009", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Basisschool – duur", "topic_en": "Primary school – duration",
+      "question_nl": "Hoeveel jaar duurt de basisschool in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "6 jaar"},
+        {"id": "B", "text_nl": "8 jaar"},
+        {"id": "C", "text_nl": "10 jaar"},
+        {"id": "D", "text_nl": "4 jaar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De basisschool duurt 8 jaar. Kinderen gaan er naar toe van groep 1 tot en met groep 8.",
+        "en": "Primary school lasts 8 years. Children attend from group 1 through to group 8."
+      },
+      "source_text_nl": "Basisschool 8 jaar.",
+      "tags": ["basisschool", "8 jaar", "duur"]
+    },
+    {
+      "id": "M8_Q010", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Voortgezet onderwijs – types", "topic_en": "Secondary education – types",
+      "question_nl": "Hoeveel soorten voortgezet onderwijs zijn er in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Twee: havo en vwo"},
+        {"id": "B", "text_nl": "Vier: praktijkonderwijs, vmbo, havo en vwo"},
+        {"id": "C", "text_nl": "Drie: vmbo, havo en vwo"},
+        {"id": "D", "text_nl": "Vijf soorten"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Er zijn vier soorten voortgezet onderwijs: praktijkonderwijs, vmbo, havo en vwo.",
+        "en": "There are four types of secondary education: practical education, vmbo, havo and vwo."
+      },
+      "source_text_nl": "Er zijn vier soorten voortgezet onderwijs: praktijkonderwijs, vmbo, havo en vwo.",
+      "tags": ["voortgezet onderwijs", "vier soorten", "types"]
+    },
+    {
+      "id": "M8_Q011", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "VMBO – duur", "topic_en": "VMBO – duration",
+      "question_nl": "Hoeveel jaar duurt het vmbo?",
+      "options": [
+        {"id": "A", "text_nl": "3 jaar"},
+        {"id": "B", "text_nl": "4 jaar"},
+        {"id": "C", "text_nl": "5 jaar"},
+        {"id": "D", "text_nl": "6 jaar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het vmbo duurt 4 jaar. Na het vmbo kun je naar het mbo (middelbaar beroepsonderwijs).",
+        "en": "Vmbo lasts 4 years. After vmbo you can go to mbo (senior secondary vocational education)."
+      },
+      "source_text_nl": "Het vmbo duurt vier jaar.",
+      "tags": ["vmbo", "4 jaar", "duur"]
+    },
+    {
+      "id": "M8_Q012", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "HAVO – duur", "topic_en": "HAVO – duration",
+      "question_nl": "Hoeveel jaar duurt de havo?",
+      "options": [
+        {"id": "A", "text_nl": "4 jaar"},
+        {"id": "B", "text_nl": "5 jaar"},
+        {"id": "C", "text_nl": "6 jaar"},
+        {"id": "D", "text_nl": "3 jaar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De havo duurt 5 jaar. Na de havo kun je naar het hbo (hoger beroepsonderwijs).",
+        "en": "Havo lasts 5 years. After havo you can go to hbo (higher professional education)."
+      },
+      "source_text_nl": "De havo duurt vijf jaar.",
+      "tags": ["havo", "5 jaar", "duur"]
+    },
+    {
+      "id": "M8_Q013", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "VWO – duur", "topic_en": "VWO – duration",
+      "question_nl": "Hoeveel jaar duurt het vwo?",
+      "options": [
+        {"id": "A", "text_nl": "4 jaar"},
+        {"id": "B", "text_nl": "6 jaar"},
+        {"id": "C", "text_nl": "5 jaar"},
+        {"id": "D", "text_nl": "7 jaar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het vwo duurt 6 jaar. Na het vwo kun je naar de universiteit.",
+        "en": "Vwo lasts 6 years. After vwo you can go to university."
+      },
+      "source_text_nl": "Het vwo duurt zes jaar.",
+      "tags": ["vwo", "6 jaar", "duur"]
+    },
+    {
+      "id": "M8_Q014", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "VMBO na diploma", "topic_en": "After vmbo diploma",
+      "question_nl": "Naar welk soort onderwijs kun je na het vmbo?",
+      "options": [
+        {"id": "A", "text_nl": "Naar de universiteit"},
+        {"id": "B", "text_nl": "Naar het mbo"},
+        {"id": "C", "text_nl": "Naar het hbo"},
+        {"id": "D", "text_nl": "Direct naar de arbeidsmarkt, zonder verder studeren"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Met een vmbo-diploma kun je naar het mbo (middelbaar beroepsonderwijs). Op het mbo leer je een beroep.",
+        "en": "With a vmbo diploma you can go to mbo (senior secondary vocational education). At mbo you learn a profession."
+      },
+      "source_text_nl": "Met een vmbo-diploma kun je naar het mbo.",
+      "tags": ["vmbo", "mbo", "vervolgonderwijs"]
+    },
+    {
+      "id": "M8_Q015", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "MBO – wat is het", "topic_en": "MBO – what is it",
+      "question_nl": "Wat is het mbo?",
+      "options": [
+        {"id": "A", "text_nl": "Een basisschool voor volwassenen"},
+        {"id": "B", "text_nl": "Middelbaar beroepsonderwijs waar je een beroep leert"},
+        {"id": "C", "text_nl": "Een hogeschool"},
+        {"id": "D", "text_nl": "Een universiteit voor techniek"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Mbo staat voor middelbaar beroepsonderwijs. Op het mbo leer je een beroep. Je kunt kiezen uit heel veel beroepen, zoals automonteur, kapper of werken in een restaurant.",
+        "en": "Mbo stands for senior secondary vocational education. At mbo you learn a profession. You can choose from many different professions, such as car mechanic, hairdresser or working in a restaurant."
+      },
+      "source_text_nl": "Het mbo is een beroepsopleiding. Op het mbo leer je een beroep. Je kunt kiezen uit heel veel beroepen.",
+      "tags": ["mbo", "beroepsopleiding", "beroep"]
+    },
+    {
+      "id": "M8_Q016", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "HAVO na diploma", "topic_en": "After havo diploma",
+      "question_nl": "Naar welk soort onderwijs kun je na de havo?",
+      "options": [
+        {"id": "A", "text_nl": "Naar de universiteit"},
+        {"id": "B", "text_nl": "Naar het hbo"},
+        {"id": "C", "text_nl": "Naar het vmbo"},
+        {"id": "D", "text_nl": "Naar het mbo"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Met een havodiploma kun je naar het hbo (hoger beroepsonderwijs). Op het hbo studeer je voor een hoger beroep.",
+        "en": "With a havo diploma you can go to hbo (higher professional education). At hbo you study for a higher professional qualification."
+      },
+      "source_text_nl": "Met een havodiploma kun je naar het hbo.",
+      "tags": ["havo", "hbo", "vervolgonderwijs"]
+    },
+    {
+      "id": "M8_Q017", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "VWO na diploma", "topic_en": "After vwo diploma",
+      "question_nl": "Naar welk soort onderwijs kun je na het vwo?",
+      "options": [
+        {"id": "A", "text_nl": "Naar het mbo"},
+        {"id": "B", "text_nl": "Naar de universiteit"},
+        {"id": "C", "text_nl": "Naar het hbo"},
+        {"id": "D", "text_nl": "Naar de havo"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Met een vwo-diploma kun je naar de universiteit. Op de universiteit doe je wetenschappelijk onderzoek en word je doctor of master.",
+        "en": "With a vwo diploma you can go to university. At university you do academic research and become a doctor or master."
+      },
+      "source_text_nl": "Met een vwo-diploma kun je naar de universiteit.",
+      "tags": ["vwo", "universiteit", "vervolgonderwijs"]
+    },
+    {
+      "id": "M8_Q018", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "HBO – wat is het", "topic_en": "HBO – what is it",
+      "question_nl": "Wat is het hbo?",
+      "options": [
+        {"id": "A", "text_nl": "Hoger beroepsonderwijs, ook wel hogeschool genoemd"},
+        {"id": "B", "text_nl": "Een middelbare school"},
+        {"id": "C", "text_nl": "Een basisschool"},
+        {"id": "D", "text_nl": "Een technische universiteit"}
+      ],
+      "correct_answer": "A",
+      "explanation": {
+        "nl": "Hbo staat voor hoger beroepsonderwijs. Het hbo wordt ook wel hogeschool genoemd. Je gaat er na de havo naartoe.",
+        "en": "Hbo stands for higher professional education. Hbo is also called hogeschool (university of applied sciences). You go there after havo."
+      },
+      "source_text_nl": "Hbo staat voor hoger beroepsonderwijs, ook wel hogeschool.",
+      "tags": ["hbo", "hogeschool", "hoger onderwijs"]
+    },
+    {
+      "id": "M8_Q019", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Praktijkonderwijs", "topic_en": "Practical education",
+      "question_nl": "Voor welke kinderen is het praktijkonderwijs bedoeld?",
+      "options": [
+        {"id": "A", "text_nl": "Voor de slimste kinderen"},
+        {"id": "B", "text_nl": "Voor kinderen die moeite hebben met leren uit boeken en liever praktisch werken"},
+        {"id": "C", "text_nl": "Voor kinderen met een taalachterstand"},
+        {"id": "D", "text_nl": "Voor kinderen die naar de universiteit willen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het praktijkonderwijs is voor kinderen die moeite hebben met leren uit boeken. Ze leren liever met hun handen. Het is een snelle voorbereiding op een baan.",
+        "en": "Practical education (praktijkonderwijs) is for children who struggle with learning from books. They prefer to learn with their hands. It is a quick preparation for a job."
+      },
+      "source_text_nl": "Er is ook praktijkonderwijs. Dat is een snelle voorbereiding op een baan. Het is voor kinderen die moeite hebben met leren.",
+      "tags": ["praktijkonderwijs", "praktisch", "baan"]
+    },
+    {
+      "id": "M8_Q020", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "VMBO – karakter", "topic_en": "VMBO – character",
+      "question_nl": "Wat is kenmerkend voor het vmbo?",
+      "options": [
+        {"id": "A", "text_nl": "Veel theorie en weinig praktijk"},
+        {"id": "B", "text_nl": "Veel praktijk en een beetje theorie leren uit boeken"},
+        {"id": "C", "text_nl": "Alleen wetenschappelijke vakken"},
+        {"id": "D", "text_nl": "Alleen taalonderwijs"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Op het vmbo doen leerlingen veel praktisch werk. Ze werken veel met de handen. Ze moeten ook een klein beetje leren uit boeken.",
+        "en": "At vmbo, pupils do a lot of practical work. They work a lot with their hands. They also need to learn a little from books."
+      },
+      "source_text_nl": "De meeste kinderen gaan naar het vmbo. Ze doen daar veel praktisch. Ze werken veel met de handen.",
+      "tags": ["vmbo", "praktijk", "handen"]
+    },
+    {
+      "id": "M8_Q021", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Leerplicht", "topic_en": "Compulsory education",
+      "question_nl": "Wat is de leerplicht in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "De plicht om te leren lezen en schrijven"},
+        {"id": "B", "text_nl": "De verplichting voor kinderen om naar school te gaan"},
+        {"id": "C", "text_nl": "De verplichting voor ouders om hun kinderen te leren koken"},
+        {"id": "D", "text_nl": "De verplichting voor studenten om colleges bij te wonen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De leerplicht is de verplichting voor kinderen om naar school te gaan. In Nederland zijn kinderen verplicht om naar school te gaan.",
+        "en": "Compulsory education (leerplicht) is the obligation for children to attend school. In the Netherlands, children are required to go to school."
+      },
+      "source_text_nl": "Kinderen moeten in Nederland naar school. Dit heet de leerplicht.",
+      "tags": ["leerplicht", "school", "verplicht"]
+    },
+    {
+      "id": "M8_Q022", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Aansprakelijkheid – 0-14 jaar", "topic_en": "Liability – 0-14 years",
+      "question_nl": "Wie is aansprakelijk als een kind jonger dan 14 jaar schade veroorzaakt?",
+      "options": [
+        {"id": "A", "text_nl": "Het kind zelf"},
+        {"id": "B", "text_nl": "De ouders"},
+        {"id": "C", "text_nl": "De school"},
+        {"id": "D", "text_nl": "De gemeente"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Ouders zijn altijd aansprakelijk voor hun kind van 0 tot 14 jaar. De ouders moeten de schade betalen als het kind iets per ongeluk kapot maakt.",
+        "en": "Parents are always liable for their child aged 0 to 14. The parents must pay for any damage caused accidentally by the child."
+      },
+      "source_text_nl": "Ouders zijn altijd aansprakelijk voor hun kind van 0 tot 14 jaar.",
+      "tags": ["aansprakelijkheid", "ouders", "0-14 jaar"]
+    },
+    {
+      "id": "M8_Q023", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Aansprakelijkheid – 14-18 jaar", "topic_en": "Liability – 14-18 years",
+      "question_nl": "Wie is aansprakelijk als een kind van 14 tot 18 jaar schade veroorzaakt?",
+      "options": [
+        {"id": "A", "text_nl": "Altijd de ouders"},
+        {"id": "B", "text_nl": "Het kind zelf is aansprakelijk, maar soms ook de ouders"},
+        {"id": "C", "text_nl": "Altijd het kind zelf"},
+        {"id": "D", "text_nl": "De school"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Kinderen van 14 tot 18 jaar zijn zelf aansprakelijk voor schade en schulden. Maar soms zijn de ouders ook aansprakelijk, bijvoorbeeld als het kind zonder verzekering op een brommer rijdt.",
+        "en": "Children aged 14 to 18 are themselves liable for damage and debts. But sometimes the parents are also liable — for example if the child rides a moped without insurance."
+      },
+      "source_text_nl": "Kinderen van 14 tot 18 jaar zijn zelf aansprakelijk voor schade en schulden. Maar soms zijn de ouders aansprakelijk.",
+      "tags": ["aansprakelijkheid", "14-18 jaar", "kind en ouders"]
+    },
+    {
+      "id": "M8_Q024", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Aansprakelijkheid – 18+", "topic_en": "Liability – 18+",
+      "question_nl": "Wie is aansprakelijk als iemand van 18 jaar of ouder schade veroorzaakt?",
+      "options": [
+        {"id": "A", "text_nl": "De ouders"},
+        {"id": "B", "text_nl": "Iemand van 18 jaar of ouder is altijd zelf aansprakelijk"},
+        {"id": "C", "text_nl": "De verzekering"},
+        {"id": "D", "text_nl": "De gemeente"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Iemand van 18 jaar of ouder is altijd zelf aansprakelijk. Als hij iets kapot maakt, moet hij zelf de schade betalen.",
+        "en": "Someone aged 18 or over is always personally liable. If they cause damage, they must pay for it themselves."
+      },
+      "source_text_nl": "Iemand van 18 jaar of ouder is altijd zelf aansprakelijk.",
+      "tags": ["aansprakelijkheid", "18+", "zelf betalen"]
+    },
+    {
+      "id": "M8_Q025", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Aansprakelijkheid – definitie", "topic_en": "Liability – definition",
+      "question_nl": "Wat betekent aansprakelijk zijn?",
+      "options": [
+        {"id": "A", "text_nl": "Dat je het fijn vindt om verantwoordelijk te zijn"},
+        {"id": "B", "text_nl": "Dat je verantwoordelijk bent voor wat er gebeurt en de kosten moet betalen"},
+        {"id": "C", "text_nl": "Dat je een brief van de rechtbank krijgt"},
+        {"id": "D", "text_nl": "Dat je meer belasting moet betalen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Aansprakelijk betekent verantwoordelijk voor wat er gebeurt. Als je aansprakelijk bent voor schade, moet jij de schade betalen.",
+        "en": "Being liable means being responsible for what happens. If you are liable for damage, you must pay for that damage."
+      },
+      "source_text_nl": "Aansprakelijk betekent: verantwoordelijk voor wat er gebeurt.",
+      "tags": ["aansprakelijkheid", "verantwoordelijk", "schade betalen"]
+    },
+    {
+      "id": "M8_Q026", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Opvoedingsproblemen – hulp", "topic_en": "Parenting problems – help",
+      "question_nl": "Waar kun je terecht als je problemen hebt met de opvoeding van je kind?",
+      "options": [
+        {"id": "A", "text_nl": "Bij de Belastingdienst"},
+        {"id": "B", "text_nl": "Bij een maatschappelijk werker of Bureau Jeugdzorg via de huisarts"},
+        {"id": "C", "text_nl": "Bij het UWV"},
+        {"id": "D", "text_nl": "Bij de woningbouwvereniging"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je problemen hebt met de opvoeding, kun je hulp vragen aan een maatschappelijk werker of iemand van Bureau Jeugdzorg. Je gaat dan eerst naar de huisarts.",
+        "en": "If you have problems with parenting, you can ask for help from a social worker or someone from Bureau Jeugdzorg. You first go to the GP."
+      },
+      "source_text_nl": "Denk je dat je een maatschappelijk werker nodig hebt? Of iemand van Bureau Jeugdzorg? Dan moet je eerst naar je huisarts gaan.",
+      "tags": ["opvoeding", "problemen", "Bureau Jeugdzorg"]
+    },
+    {
+      "id": "M8_Q027", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Schoolkeuze na basisschool", "topic_en": "School choice after primary school",
+      "question_nl": "Hoe wordt bepaald naar welk voortgezet onderwijs een kind gaat?",
+      "options": [
+        {"id": "A", "text_nl": "De ouders kiezen zelf zonder advies"},
+        {"id": "B", "text_nl": "Op basis van het schooladvies van de basisschool en de Cito-toets"},
+        {"id": "C", "text_nl": "De gemeente bepaalt het"},
+        {"id": "D", "text_nl": "Het kind kiest zelf zonder advies"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Op basis van het schooladvies van de basisschool en de Cito-toets wordt bepaald welk type voortgezet onderwijs het beste bij een kind past.",
+        "en": "Based on the primary school's recommendation and the Cito test, it is determined which type of secondary education best suits a child."
+      },
+      "source_text_nl": "Op basis van het schooladvies en de Cito-toets wordt bepaald naar welk voortgezet onderwijs een kind gaat.",
+      "tags": ["schooladvies", "Cito-toets", "voortgezet onderwijs"]
+    },
+    {
+      "id": "M8_Q028", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kinderdagverblijf – diploma medewerkers", "topic_en": "Day nursery – staff qualifications",
+      "question_nl": "Welke opleiding hebben medewerkers in een kinderdagverblijf?",
+      "options": [
+        {"id": "A", "text_nl": "Ze hoeven geen opleiding te hebben"},
+        {"id": "B", "text_nl": "Ze hebben een diploma voor het werken met kinderen"},
+        {"id": "C", "text_nl": "Ze zijn altijd verpleegkundige"},
+        {"id": "D", "text_nl": "Ze zijn altijd onderwijzer"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De medewerkers van een kinderdagverblijf hebben een diploma voor het werken met kinderen.",
+        "en": "The staff at a day nursery hold a qualification for working with children."
+      },
+      "source_text_nl": "De volwassenen passen op de kinderen. Ze hebben hier een diploma voor.",
+      "tags": ["kinderdagverblijf", "medewerkers", "diploma"]
+    },
+    {
+      "id": "M8_Q029", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Rapport", "topic_en": "Report card",
+      "question_nl": "Wat is een rapport op school?",
+      "options": [
+        {"id": "A", "text_nl": "Een brief van de school aan de gemeente"},
+        {"id": "B", "text_nl": "Een overzicht van de cijfers en prestaties van een leerling"},
+        {"id": "C", "text_nl": "Een dagboek van de leraar"},
+        {"id": "D", "text_nl": "Een bewijs van inschrijving op school"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een rapport is een overzicht van de cijfers en prestaties van een leerling. Het wordt aan het eind van een periode meegegeven.",
+        "en": "A report card (rapport) is an overview of a pupil's grades and performance. It is given out at the end of a period."
+      },
+      "source_text_nl": "Een rapport is een overzicht van de cijfers en prestaties van een leerling.",
+      "tags": ["rapport", "cijfers", "prestaties"]
+    },
+    {
+      "id": "M8_Q030", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Ouderavond", "topic_en": "Parents' evening",
+      "question_nl": "Wat is een ouderavond op school?",
+      "options": [
+        {"id": "A", "text_nl": "Een avond waarop alleen leraren vergaderen"},
+        {"id": "B", "text_nl": "Een avond waarop ouders met de leraren praten over de voortgang van hun kind"},
+        {"id": "C", "text_nl": "Een avond waarop kinderen hun werkstukken presenteren"},
+        {"id": "D", "text_nl": "Een avond waarop de school geld inzamelt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Op een ouderavond praten ouders met de leraren over de voortgang van hun kind op school.",
+        "en": "At a parents' evening (ouderavond), parents talk with teachers about their child's progress at school."
+      },
+      "source_text_nl": "Op een ouderavond praten ouders met leraren over de voortgang van hun kind.",
+      "tags": ["ouderavond", "leraren", "voortgang"]
+    },
+    {
+      "id": "M8_Q031", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Schoolverzuim", "topic_en": "Truancy",
+      "question_nl": "Wat is schoolverzuim?",
+      "options": [
+        {"id": "A", "text_nl": "Wanneer een school sluit vanwege een feestdag"},
+        {"id": "B", "text_nl": "Wanneer een kind zonder geldige reden niet naar school gaat"},
+        {"id": "C", "text_nl": "Wanneer een kind ziek is en thuis blijft"},
+        {"id": "D", "text_nl": "Wanneer een kind naar een andere school gaat"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Schoolverzuim is wanneer een kind zonder geldige reden niet naar school gaat. Dit is niet toegestaan vanwege de leerplicht.",
+        "en": "Truancy (schoolverzuim) is when a child does not attend school without a valid reason. This is not permitted due to compulsory education."
+      },
+      "source_text_nl": "Schoolverzuim is wanneer een kind zonder geldige reden niet naar school gaat.",
+      "tags": ["schoolverzuim", "leerplicht", "school"]
+    },
+    {
+      "id": "M8_Q032", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Leerplicht – leeftijd", "topic_en": "Compulsory education – age",
+      "question_nl": "Tot welke leeftijd zijn kinderen in Nederland leerplichtig?",
+      "options": [
+        {"id": "A", "text_nl": "Tot 14 jaar"},
+        {"id": "B", "text_nl": "Tot 16 jaar (en daarna nog gedeeltelijk tot 18)"},
+        {"id": "C", "text_nl": "Tot 12 jaar"},
+        {"id": "D", "text_nl": "Tot 21 jaar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Kinderen zijn leerplichtig tot ze 16 jaar zijn. Daarna geldt de kwalificatieplicht tot 18 jaar: ze moeten dan een startkwalificatie halen.",
+        "en": "Children are subject to compulsory education until age 16. After that, the qualification obligation applies until age 18: they must obtain a basic qualification."
+      },
+      "source_text_nl": "Kinderen zijn leerplichtig tot ze 16 jaar zijn.",
+      "tags": ["leerplicht", "16 jaar", "kwalificatieplicht"]
+    },
+    {
+      "id": "M8_Q033", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Inschrijven kinderopvang", "topic_en": "Enrolling in childcare",
+      "question_nl": "Hoe zoek je kinderopvang voor je kind?",
+      "options": [
+        {"id": "A", "text_nl": "Via de gemeente"},
+        {"id": "B", "text_nl": "Zelf op internet zoeken naar adressen en je kind inschrijven"},
+        {"id": "C", "text_nl": "Via het UWV"},
+        {"id": "D", "text_nl": "Via de school van je kind"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je moet zelf kinderopvang voor je kind zoeken. Je kunt adressen vinden op internet. Schrijf je kind op tijd in, want er zijn vaak wachtlijsten.",
+        "en": "You must find childcare for your child yourself. You can find addresses on the internet. Register your child on time, as there are often waiting lists."
+      },
+      "source_text_nl": "Je moet zelf kinderopvang voor je kind zoeken. Je kunt adressen vinden op internet. Schrijf je kind dan op tijd in! Vaak zijn er wachtlijsten.",
+      "tags": ["kinderopvang", "inschrijven", "wachtlijst"]
+    },
+    {
+      "id": "M8_Q034", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Naschoolse opvang", "topic_en": "After-school care",
+      "question_nl": "Wat is buitenschoolse opvang (BSO)?",
+      "options": [
+        {"id": "A", "text_nl": "Een school buiten de stad"},
+        {"id": "B", "text_nl": "Opvang voor kinderen voor en na schooltijd"},
+        {"id": "C", "text_nl": "Opvang voor kinderen in het weekend"},
+        {"id": "D", "text_nl": "Een sportschool voor kinderen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Buitenschoolse opvang (BSO) is opvang voor kinderen voor en na schooltijd. Als ouders werken terwijl de school al begint of de school al uit is.",
+        "en": "After-school care (BSO) is childcare for children before and after school hours. For when parents work while school has already started or finished."
+      },
+      "source_text_nl": "Buitenschoolse opvang is voor kinderen voor en na schooltijd.",
+      "tags": ["BSO", "buitenschoolse opvang", "schooltijd"]
+    },
+    {
+      "id": "M8_Q035", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Universiteit – niveau", "topic_en": "University – level",
+      "question_nl": "Wat is het hoogste niveau van onderwijs in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Het mbo"},
+        {"id": "B", "text_nl": "De universiteit"},
+        {"id": "C", "text_nl": "Het hbo"},
+        {"id": "D", "text_nl": "Het vwo"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De universiteit is het hoogste niveau van onderwijs in Nederland. Je kunt er naartoe na het vwo.",
+        "en": "University is the highest level of education in the Netherlands. You can go there after completing vwo."
+      },
+      "source_text_nl": "De universiteit is het hoogste niveau van onderwijs.",
+      "tags": ["universiteit", "hoogste niveau", "onderwijs"]
+    },
+    {
+      "id": "M8_Q036", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Kinderdagverblijf – leeftijd", "topic_en": "Day nursery – age",
+      "question_nl": "Een kinderdagverblijf is voor kinderen van 0 tot 4 jaar.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Een kinderdagverblijf is voor jonge kinderen van 0 tot 4 jaar.",
+        "en": "That is correct. A day nursery is for young children aged 0 to 4."
+      },
+      "source_text_nl": "Het is voor kinderen van 0 tot 4 jaar.",
+      "tags": ["kinderdagverblijf", "0-4 jaar", "leeftijd"]
+    },
+    {
+      "id": "M8_Q037", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Peuterspeelzaal – 2 ochtenden", "topic_en": "Toddler playgroup – 2 mornings",
+      "question_nl": "Kinderen gaan meestal 2 ochtenden per week naar de peuterspeelzaal.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Kinderen gaan meestal maar 2 ochtenden per week naar de peuterspeelzaal.",
+        "en": "That is correct. Children usually go to the toddler playgroup only 2 mornings a week."
+      },
+      "source_text_nl": "Ze gaan meestal maar 2 ochtenden per week naar de peuterspeelzaal.",
+      "tags": ["peuterspeelzaal", "2 ochtenden", "week"]
+    },
+    {
+      "id": "M8_Q038", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Basisschool – 8 jaar", "topic_en": "Primary school – 8 years",
+      "question_nl": "De basisschool duurt 8 jaar.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De basisschool duurt 8 jaar, van groep 1 tot en met groep 8.",
+        "en": "That is correct. Primary school lasts 8 years, from group 1 to group 8."
+      },
+      "source_text_nl": "Basisschool 8 jaar.",
+      "tags": ["basisschool", "8 jaar", "duur"]
+    },
+    {
+      "id": "M8_Q039", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Vmbo – mbo", "topic_en": "Vmbo – mbo",
+      "question_nl": "Na het vmbo kun je naar het mbo.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Met een vmbo-diploma kun je naar het mbo (middelbaar beroepsonderwijs).",
+        "en": "That is correct. With a vmbo diploma you can go to mbo (senior secondary vocational education)."
+      },
+      "source_text_nl": "Met een vmbo-diploma kun je naar het mbo.",
+      "tags": ["vmbo", "mbo", "vervolg"]
+    },
+    {
+      "id": "M8_Q040", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Havo – hbo", "topic_en": "Havo – hbo",
+      "question_nl": "Na de havo kun je naar het hbo.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Met een havodiploma kun je naar het hbo (hoger beroepsonderwijs).",
+        "en": "That is correct. With a havo diploma you can go to hbo (higher professional education)."
+      },
+      "source_text_nl": "Met een havodiploma kun je naar het hbo.",
+      "tags": ["havo", "hbo", "vervolg"]
+    },
+    {
+      "id": "M8_Q041", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Vwo – universiteit", "topic_en": "Vwo – university",
+      "question_nl": "Na het vwo kun je naar de universiteit.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Met een vwo-diploma kun je naar de universiteit.",
+        "en": "That is correct. With a vwo diploma you can go to university."
+      },
+      "source_text_nl": "Met een vwo-diploma kun je naar de universiteit.",
+      "tags": ["vwo", "universiteit", "vervolg"]
+    },
+    {
+      "id": "M8_Q042", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Aansprakelijkheid – ouders 14+", "topic_en": "Liability – parents 14+",
+      "question_nl": "Ouders zijn altijd aansprakelijk voor schade veroorzaakt door kinderen van 14 tot 18 jaar.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Kinderen van 14 tot 18 jaar zijn zelf aansprakelijk, maar soms ook de ouders. Het is niet altijd de ouders.",
+        "en": "This is incorrect. Children aged 14 to 18 are themselves liable, but sometimes the parents too. It is not always the parents."
+      },
+      "source_text_nl": "Kinderen van 14 tot 18 jaar zijn zelf aansprakelijk. Maar soms zijn de ouders aansprakelijk.",
+      "tags": ["aansprakelijkheid", "14-18", "ouders"]
+    },
+    {
+      "id": "M8_Q043", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Kinderopvangtoeslag – Belastingdienst", "topic_en": "Childcare allowance – Tax Authority",
+      "question_nl": "Kinderopvangtoeslag vraag je aan bij de Belastingdienst.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Je moet de kinderopvangtoeslag aanvragen bij de Belastingdienst.",
+        "en": "That is correct. You must apply for childcare allowance at the Tax Authority."
+      },
+      "source_text_nl": "Je moet de toeslag aanvragen met een formulier bij de Belastingdienst.",
+      "tags": ["kinderopvangtoeslag", "Belastingdienst", "aanvragen"]
+    },
+    {
+      "id": "M8_Q044", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Vmbo – 4 jaar", "topic_en": "Vmbo – 4 years",
+      "question_nl": "Het vmbo duurt 4 jaar.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Het vmbo duurt 4 jaar.",
+        "en": "That is correct. Vmbo lasts 4 years."
+      },
+      "source_text_nl": "Het vmbo duurt vier jaar.",
+      "tags": ["vmbo", "4 jaar", "duur"]
+    },
+    {
+      "id": "M8_Q045", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Vwo – 4 jaar", "topic_en": "Vwo – 4 years",
+      "question_nl": "Het vwo duurt 4 jaar.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Het vwo duurt 6 jaar, niet 4 jaar.",
+        "en": "This is incorrect. Vwo lasts 6 years, not 4 years."
+      },
+      "source_text_nl": "Het vwo duurt zes jaar.",
+      "tags": ["vwo", "6 jaar", "niet 4 jaar"]
+    },
+    {
+      "id": "M8_Q046", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Mbo – beroepsopleiding", "topic_en": "Mbo – vocational training",
+      "question_nl": "Op het mbo leer je een beroep.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Het mbo is een beroepsopleiding. Je leert er een vak, zoals automonteur of kapper.",
+        "en": "That is correct. Mbo is vocational training. You learn a trade there, such as car mechanic or hairdresser."
+      },
+      "source_text_nl": "Op het mbo leer je een beroep.",
+      "tags": ["mbo", "beroep", "opleiding"]
+    },
+    {
+      "id": "M8_Q047", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Wachtlijst kinderopvang", "topic_en": "Childcare waiting list",
+      "question_nl": "Er zijn vaak wachtlijsten voor kinderopvang in Nederland.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Er zijn vaak wachtlijsten voor kinderopvang. Daarom is het belangrijk je kind op tijd in te schrijven.",
+        "en": "That is correct. There are often waiting lists for childcare. That is why it is important to register your child on time."
+      },
+      "source_text_nl": "Schrijf je kind dan op tijd in! Vaak zijn er wachtlijsten.",
+      "tags": ["wachtlijst", "kinderopvang", "inschrijven"]
+    },
+    {
+      "id": "M8_Q048", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Aansprakelijkheid – 18+ zelf", "topic_en": "Liability – 18+ themselves",
+      "question_nl": "Iemand van 18 jaar of ouder is altijd zelf aansprakelijk voor schade die hij veroorzaakt.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Vanaf 18 jaar ben je volledig zelf aansprakelijk voor je eigen daden.",
+        "en": "That is correct. From age 18 you are fully personally liable for your own actions."
+      },
+      "source_text_nl": "Iemand van 18 jaar of ouder is altijd zelf aansprakelijk.",
+      "tags": ["aansprakelijkheid", "18+", "zelf"]
+    },
+    {
+      "id": "M8_Q049", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Praktijkonderwijs – universiteit", "topic_en": "Practical education – university",
+      "question_nl": "Na het praktijkonderwijs kun je direct naar de universiteit.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Na praktijkonderwijs ga je niet naar de universiteit. Praktijkonderwijs is een snelle voorbereiding op een baan.",
+        "en": "This is incorrect. After practical education you do not go to university. Practical education is a quick preparation for a job."
+      },
+      "source_text_nl": "Er is ook praktijkonderwijs. Dat is een snelle voorbereiding op een baan.",
+      "tags": ["praktijkonderwijs", "universiteit", "niet mogelijk"]
+    },
+    {
+      "id": "M8_Q050", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Voorschool – taalachterstand", "topic_en": "Pre-school – language delay",
+      "question_nl": "De voorschool is speciaal voor kinderen met een taalachterstand.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De voorschool is voor kinderen van 2 tot 5 jaar die een taalachterstand hebben. Er is extra aandacht voor de Nederlandse taal.",
+        "en": "That is correct. The pre-school is for children aged 2 to 5 who have a language delay. There is extra attention for the Dutch language."
+      },
+      "source_text_nl": "De voorschool is voor kinderen van 2 tot 5 jaar. Daar is extra aandacht voor de Nederlandse taal.",
+      "tags": ["voorschool", "taalachterstand", "taal"]
+    },
+    {
+      "id": "M8_Q051", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Scholen – openbaar vs bijzonder", "topic_en": "Schools – public vs faith schools",
+      "question_nl": "Wat is het verschil tussen een openbare school en een bijzondere school?",
+      "options": [
+        {"id": "A", "text_nl": "Een openbare school is duurder"},
+        {"id": "B", "text_nl": "Een openbare school is voor iedereen; een bijzondere school heeft een religieuze of levensbeschouwelijke grondslag"},
+        {"id": "C", "text_nl": "Een bijzondere school is een internationale school"},
+        {"id": "D", "text_nl": "Er is geen verschil"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een openbare school is voor iedereen, ongeacht religie. Een bijzondere school heeft een religieuze of levensbeschouwelijke grondslag, zoals een christelijke of islamitische school.",
+        "en": "A public school is for everyone, regardless of religion. A faith school (bijzondere school) has a religious or philosophical basis, such as a Christian or Islamic school."
+      },
+      "source_text_nl": "Een openbare school is voor iedereen. Een bijzondere school heeft een religieuze grondslag.",
+      "tags": ["openbare school", "bijzondere school", "religie"]
+    },
+    {
+      "id": "M8_Q052", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Havo – theorie", "topic_en": "Havo – theory",
+      "question_nl": "Wat moeten leerlingen op de havo meer doen dan op het vmbo?",
+      "options": [
+        {"id": "A", "text_nl": "Meer praktisch werk"},
+        {"id": "B", "text_nl": "Meer boeken lezen en theorie leren"},
+        {"id": "C", "text_nl": "Meer sport doen"},
+        {"id": "D", "text_nl": "Meer talen spreken"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Op de havo en het vwo moeten kinderen veel meer boeken lezen en theorie leren dan op het vmbo. Ze leren minder praktisch.",
+        "en": "At havo and vwo, children must read many more books and learn more theory than at vmbo. They learn less practically."
+      },
+      "source_text_nl": "Op de havo en het vwo moeten kinderen veel meer boeken lezen en theorie leren.",
+      "tags": ["havo", "theorie", "boeken lezen"]
+    },
+    {
+      "id": "M8_Q053", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Onderwijs – gratis", "topic_en": "Education – free",
+      "question_nl": "Is onderwijs in Nederland gratis?",
+      "options": [
+        {"id": "A", "text_nl": "Nee, alle onderwijs kost veel geld"},
+        {"id": "B", "text_nl": "De basisschool en het voortgezet onderwijs zijn gratis; hogere studies kosten collegegeld"},
+        {"id": "C", "text_nl": "Alles is gratis tot de universiteit"},
+        {"id": "D", "text_nl": "Alleen de universiteit is gratis"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In Nederland is de basisschool en het voortgezet onderwijs (bijna) gratis. Voor het mbo, hbo en de universiteit betaal je collegegeld.",
+        "en": "In the Netherlands, primary and secondary school are (almost) free. For mbo, hbo and university you pay tuition fees (collegegeld)."
+      },
+      "source_text_nl": "Basisschool en voortgezet onderwijs zijn gratis. Voor hogere studies betaal je collegegeld.",
+      "tags": ["gratis", "collegegeld", "onderwijs"]
+    },
+    {
+      "id": "M8_Q054", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Schoolverlaten zonder diploma", "topic_en": "Leaving school without a diploma",
+      "question_nl": "Hoe heet iemand die school verlaat zonder diploma?",
+      "options": [
+        {"id": "A", "text_nl": "Een stagiair"},
+        {"id": "B", "text_nl": "Een voortijdig schoolverlater"},
+        {"id": "C", "text_nl": "Een buitenschoolse leerling"},
+        {"id": "D", "text_nl": "Een thuisleerling"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Iemand die school verlaat zonder diploma heet een voortijdig schoolverlater. Dit wordt in Nederland geprobeerd te voorkomen.",
+        "en": "Someone who leaves school without a diploma is called a school dropout (voortijdig schoolverlater). This is something the Netherlands tries to prevent."
+      },
+      "source_text_nl": "Iemand die school verlaat zonder diploma heet een voortijdig schoolverlater.",
+      "tags": ["voortijdig schoolverlater", "diploma", "school verlaten"]
+    },
+    {
+      "id": "M8_Q055", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Opvoeden – problemen", "topic_en": "Parenting – problems",
+      "question_nl": "Wat kun je doen als je problemen hebt met het opvoeden van je kind?",
+      "options": [
+        {"id": "A", "text_nl": "Niets, je lost het zelf op"},
+        {"id": "B", "text_nl": "Hulp vragen via de huisarts aan een maatschappelijk werker of Bureau Jeugdzorg"},
+        {"id": "C", "text_nl": "Je kind naar een kinderboerderij sturen"},
+        {"id": "D", "text_nl": "De school vragen om je kind op te vangen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je problemen hebt met opvoeden, kun je hulp vragen. Je gaat dan eerst naar de huisarts. Die vertelt je waar je het beste naartoe kunt, zoals een maatschappelijk werker of Bureau Jeugdzorg.",
+        "en": "If you have problems with parenting, you can ask for help. You first go to the GP. They tell you where to go, such as a social worker or Bureau Jeugdzorg."
+      },
+      "source_text_nl": "Dan moet je eerst naar je huisarts gaan. De huisarts zegt dan waar je het beste naartoe kunt gaan.",
+      "tags": ["opvoeding", "hulp", "Bureau Jeugdzorg"]
+    },
+    {
+      "id": "M8_Q056", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Toetsing – Cito", "topic_en": "Assessment – Cito test",
+      "question_nl": "Wat is de Cito-toets?",
+      "options": [
+        {"id": "A", "text_nl": "Een rijexamen voor jongeren"},
+        {"id": "B", "text_nl": "Een toets aan het eind van de basisschool om het niveau te meten"},
+        {"id": "C", "text_nl": "Een toets voor inburgering"},
+        {"id": "D", "text_nl": "Een toelatingsexamen voor de universiteit"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De Cito-toets is een toets die kinderen aan het eind van de basisschool maken. Het meet het niveau van een kind en helpt bepalen welk voortgezet onderwijs het beste past.",
+        "en": "The Cito test is a test that children take at the end of primary school. It measures a child's level and helps determine which type of secondary school suits them best."
+      },
+      "source_text_nl": "De Cito-toets is een toets aan het eind van de basisschool om het niveau te meten.",
+      "tags": ["Cito-toets", "basisschool", "niveau"]
+    },
+    {
+      "id": "M8_Q057", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kinderdagverblijf – kosten", "topic_en": "Day nursery – costs",
+      "question_nl": "Is een kinderdagverblijf gratis?",
+      "options": [
+        {"id": "A", "text_nl": "Ja, het is altijd gratis"},
+        {"id": "B", "text_nl": "Nee, kinderopvang kost geld maar ouders kunnen kinderopvangtoeslag aanvragen"},
+        {"id": "C", "text_nl": "Ja, als je een laag inkomen hebt"},
+        {"id": "D", "text_nl": "Nee, het kost altijd veel geld en er is geen subsidie"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een kinderdagverblijf kost geld. Ouders moeten zelf een deel betalen. Ze kunnen kinderopvangtoeslag aanvragen bij de Belastingdienst.",
+        "en": "A day nursery costs money. Parents must pay part themselves. They can apply for childcare allowance at the Tax Authority."
+      },
+      "source_text_nl": "Kinderopvang kost geld. De ouders moeten zelf een deel betalen. De Belastingdienst betaalt ook een deel.",
+      "tags": ["kinderdagverblijf", "kosten", "toeslag"]
+    },
+    {
+      "id": "M8_Q058", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Studiefinanciering", "topic_en": "Student finance",
+      "question_nl": "Wat is studiefinanciering?",
+      "options": [
+        {"id": "A", "text_nl": "Gratis onderwijs voor iedereen"},
+        {"id": "B", "text_nl": "Financiële ondersteuning van de overheid voor studenten in het hoger onderwijs"},
+        {"id": "C", "text_nl": "Een lening bij de bank voor schoolspullen"},
+        {"id": "D", "text_nl": "Geld van de gemeente voor de basisschool"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Studiefinanciering is financiële ondersteuning van de overheid voor studenten in het hoger onderwijs (mbo, hbo, universiteit). Je vraagt het aan bij DUO.",
+        "en": "Student finance (studiefinanciering) is financial support from the government for students in higher education (mbo, hbo, university). You apply for it at DUO."
+      },
+      "source_text_nl": "Studiefinanciering is financiële ondersteuning voor studenten in het hoger onderwijs.",
+      "tags": ["studiefinanciering", "DUO", "hoger onderwijs"]
+    },
+    {
+      "id": "M8_Q059", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Groep 8 – eindgroep", "topic_en": "Group 8 – final group",
+      "question_nl": "In welke groep zitten kinderen als ze de basisschool verlaten?",
+      "options": [
+        {"id": "A", "text_nl": "Groep 6"},
+        {"id": "B", "text_nl": "Groep 8"},
+        {"id": "C", "text_nl": "Groep 10"},
+        {"id": "D", "text_nl": "Groep 4"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Kinderen verlaten de basisschool na groep 8. Ze zijn dan 11 of 12 jaar oud en gaan naar het voortgezet onderwijs.",
+        "en": "Children leave primary school after group 8. They are then 11 or 12 years old and move on to secondary education."
+      },
+      "source_text_nl": "Kinderen verlaten de basisschool na groep 8.",
+      "tags": ["groep 8", "basisschool", "verlaten"]
+    },
+    {
+      "id": "M8_Q060", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Inschrijven basisschool", "topic_en": "Enrolling at primary school",
+      "question_nl": "Waar schrijf je je kind in voor de basisschool?",
+      "options": [
+        {"id": "A", "text_nl": "Bij het gemeentehuis"},
+        {"id": "B", "text_nl": "Rechtstreeks bij de school zelf"},
+        {"id": "C", "text_nl": "Bij het UWV"},
+        {"id": "D", "text_nl": "Bij de Belastingdienst"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je schrijft je kind in voor de basisschool bij de school zelf. Je gaat naar de school en vraagt om een inschrijfformulier.",
+        "en": "You enrol your child at primary school by going to the school itself. You go to the school and ask for an enrolment form."
+      },
+      "source_text_nl": "Je schrijft je kind in bij de school zelf.",
+      "tags": ["inschrijven", "basisschool", "school"]
+    },
+    {
+      "id": "M8_Q061", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Havo – 5 jaar", "topic_en": "Havo – 5 years",
+      "question_nl": "De havo duurt 5 jaar.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De havo duurt 5 jaar.",
+        "en": "That is correct. Havo lasts 5 years."
+      },
+      "source_text_nl": "De havo duurt vijf jaar.",
+      "tags": ["havo", "5 jaar", "duur"]
+    },
+    {
+      "id": "M8_Q062", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Voorschool – ieder kind", "topic_en": "Pre-school – all children",
+      "question_nl": "Alle kinderen in Nederland moeten naar de voorschool.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. De voorschool is speciaal voor kinderen met een taalachterstand, niet voor alle kinderen.",
+        "en": "This is incorrect. The pre-school is specifically for children with a language delay, not for all children."
+      },
+      "source_text_nl": "De voorschool is voor kinderen van 2 tot 5 jaar. Daar is extra aandacht voor de Nederlandse taal.",
+      "tags": ["voorschool", "niet verplicht", "taalachterstand"]
+    },
+    {
+      "id": "M8_Q063", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Bureau Jeugdzorg – hulp opvoeding", "topic_en": "Bureau Jeugdzorg – parenting help",
+      "question_nl": "Bureau Jeugdzorg helpt gezinnen met problemen bij de opvoeding.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Bureau Jeugdzorg biedt hulp aan gezinnen met opvoedingsproblemen.",
+        "en": "That is correct. Bureau Jeugdzorg provides help to families with parenting problems."
+      },
+      "source_text_nl": "Bureau Jeugdzorg helpt kinderen en gezinnen met problemen bij de opvoeding.",
+      "tags": ["Bureau Jeugdzorg", "opvoeding", "hulp"]
+    },
+    {
+      "id": "M8_Q064", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Kinderopvang – wachtlijst", "topic_en": "Childcare – waiting list",
+      "question_nl": "Je moet je kind op tijd inschrijven voor kinderopvang vanwege wachtlijsten.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Er zijn vaak wachtlijsten bij kinderdagverblijven. Schrijf je kind op tijd in.",
+        "en": "That is correct. There are often waiting lists at day nurseries. Register your child on time."
+      },
+      "source_text_nl": "Schrijf je kind dan op tijd in! Vaak zijn er wachtlijsten.",
+      "tags": ["kinderopvang", "wachtlijst", "op tijd inschrijven"]
+    },
+    {
+      "id": "M8_Q065", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Basisschool – leerplichtig", "topic_en": "Primary school – compulsory",
+      "question_nl": "In Nederland zijn kinderen verplicht naar school te gaan (leerplicht).",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In Nederland geldt de leerplicht. Kinderen zijn verplicht om naar school te gaan.",
+        "en": "That is correct. In the Netherlands, compulsory education applies. Children are required to go to school."
+      },
+      "source_text_nl": "Kinderen moeten in Nederland naar school. Dit heet de leerplicht.",
+      "tags": ["leerplicht", "verplicht", "school"]
+    },
+    {
+      "id": "M8_Q066", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Aansprakelijkheid – ouders 0-14", "topic_en": "Liability – parents 0-14",
+      "question_nl": "Ouders zijn aansprakelijk voor schade veroorzaakt door kinderen jonger dan 14 jaar.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Ouders zijn altijd aansprakelijk voor hun kind van 0 tot 14 jaar.",
+        "en": "That is correct. Parents are always liable for their child aged 0 to 14."
+      },
+      "source_text_nl": "Ouders zijn altijd aansprakelijk voor hun kind van 0 tot 14 jaar.",
+      "tags": ["aansprakelijkheid", "ouders", "0-14 jaar"]
+    },
+    {
+      "id": "M8_Q067", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "BSO – voor en na school", "topic_en": "BSO – before and after school",
+      "question_nl": "Buitenschoolse opvang (BSO) is opvang voor kinderen voor en na schooltijd.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. BSO is er voor kinderen die voor of na school worden opgevangen terwijl de ouders werken.",
+        "en": "That is correct. BSO is childcare for children before or after school while the parents work."
+      },
+      "source_text_nl": "Buitenschoolse opvang is voor kinderen voor en na schooltijd.",
+      "tags": ["BSO", "voor school", "na school"]
+    },
+    {
+      "id": "M8_Q068", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Vwo – 6 jaar", "topic_en": "Vwo – 6 years",
+      "question_nl": "Het vwo duurt 6 jaar.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Het vwo duurt 6 jaar.",
+        "en": "That is correct. Vwo lasts 6 years."
+      },
+      "source_text_nl": "Het vwo duurt zes jaar.",
+      "tags": ["vwo", "6 jaar", "duur"]
+    },
+    {
+      "id": "M8_Q069", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Peuterspeelzaal – 2 jaar", "topic_en": "Toddler playgroup – 2 years",
+      "question_nl": "De peuterspeelzaal is voor kinderen vanaf 2 jaar.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De peuterspeelzaal is voor kinderen vanaf 2 jaar.",
+        "en": "That is correct. The toddler playgroup is for children from age 2."
+      },
+      "source_text_nl": "De peuterspeelzaal is voor kinderen vanaf 2 jaar.",
+      "tags": ["peuterspeelzaal", "2 jaar", "leeftijd"]
+    },
+    {
+      "id": "M8_Q070", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Mbo – hbo vervolgonderwijs", "topic_en": "Mbo – hbo further education",
+      "question_nl": "Na het mbo kun je altijd direct naar de universiteit.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Na het mbo ga je normaal gesproken naar het hbo, niet direct naar de universiteit.",
+        "en": "This is incorrect. After mbo you normally go to hbo, not directly to university."
+      },
+      "source_text_nl": "Na het mbo ga je naar het hbo, niet naar de universiteit.",
+      "tags": ["mbo", "universiteit", "niet direct"]
+    },
+    {
+      "id": "M8_Q071", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Schooladvies – basisschool", "topic_en": "School recommendation – primary school",
+      "question_nl": "Wie geeft het schooladvies aan het einde van de basisschool?",
+      "options": [
+        {"id": "A", "text_nl": "De ouders van het kind"},
+        {"id": "B", "text_nl": "De leerkracht en de basisschool"},
+        {"id": "C", "text_nl": "De gemeente"},
+        {"id": "D", "text_nl": "De middelbare school"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De leerkracht en de basisschool geven het schooladvies. Ze beoordelen welk type voortgezet onderwijs het beste bij het kind past.",
+        "en": "The teacher and primary school give the school recommendation. They assess which type of secondary education best suits the child."
+      },
+      "source_text_nl": "De leerkracht en de basisschool geven het schooladvies.",
+      "tags": ["schooladvies", "leerkracht", "basisschool"]
+    },
+    {
+      "id": "M8_Q072", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Onderwijs – religieus", "topic_en": "Education – religious",
+      "question_nl": "Mogen ouders in Nederland kiezen voor een school met een religieuze grondslag?",
+      "options": [
+        {"id": "A", "text_nl": "Nee, alle scholen moeten openbaar zijn"},
+        {"id": "B", "text_nl": "Ja, ouders mogen kiezen voor een openbare of een bijzondere (religieuze) school"},
+        {"id": "C", "text_nl": "Alleen als de gemeente toestemming geeft"},
+        {"id": "D", "text_nl": "Alleen voor hogere scholen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Ouders mogen in Nederland kiezen voor een openbare school of een bijzondere school met een religieuze grondslag. Dit is de vrijheid van onderwijs.",
+        "en": "In the Netherlands, parents may choose a public school or a faith school with a religious foundation. This is freedom of education."
+      },
+      "source_text_nl": "Ouders mogen kiezen voor een openbare of een bijzondere school.",
+      "tags": ["vrijheid van onderwijs", "religieuze school", "keuze"]
+    },
+    {
+      "id": "M8_Q073", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Opvoeding – slaan verboden", "topic_en": "Parenting – hitting forbidden",
+      "question_nl": "Mag je je kind slaan in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Ja, als het kind stout is geweest"},
+        {"id": "B", "text_nl": "Nee, kinderen slaan is verboden in Nederland"},
+        {"id": "C", "text_nl": "Ja, maar alleen als het niet te hard is"},
+        {"id": "D", "text_nl": "Alleen als de school het toestaat"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nee, in Nederland is het verboden om je kind te slaan. Lichamelijke straf van kinderen is wettelijk verboden.",
+        "en": "No, in the Netherlands it is forbidden to hit your child. Physical punishment of children is prohibited by law."
+      },
+      "source_text_nl": "Het slaan van kinderen is verboden in Nederland.",
+      "tags": ["slaan", "verboden", "opvoeding"]
+    },
+    {
+      "id": "M8_Q074", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kinderbijslag – doel", "topic_en": "Child benefit – purpose",
+      "question_nl": "Waarvoor is kinderbijslag bedoeld?",
+      "options": [
+        {"id": "A", "text_nl": "Om schoolgeld te betalen"},
+        {"id": "B", "text_nl": "Om ouders te helpen met de kosten van het opgroeien van kinderen"},
+        {"id": "C", "text_nl": "Om kinderopvang te betalen"},
+        {"id": "D", "text_nl": "Om te sparen voor de universiteit"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Kinderbijslag is bedoeld om ouders te helpen met de kosten van het opgroeien van kinderen, zoals kleding, eten en school.",
+        "en": "Child benefit is intended to help parents with the costs of raising children, such as clothing, food and school."
+      },
+      "source_text_nl": "Kinderbijslag helpt ouders met de kosten van het opgroeien van kinderen.",
+      "tags": ["kinderbijslag", "kosten", "opgroeien"]
+    },
+    {
+      "id": "M8_Q075", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kinderopvang – soorten", "topic_en": "Childcare – types",
+      "question_nl": "Welke soorten kinderopvang zijn er in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen kinderdagverblijven"},
+        {"id": "B", "text_nl": "Kinderdagverblijf, peuterspeelzaal, voorschool en buitenschoolse opvang"},
+        {"id": "C", "text_nl": "Alleen gastouders"},
+        {"id": "D", "text_nl": "Alleen buitenschoolse opvang"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Er zijn verschillende soorten kinderopvang: het kinderdagverblijf (crèche), de peuterspeelzaal, de voorschool en de buitenschoolse opvang (BSO).",
+        "en": "There are different types of childcare: the day nursery (crèche), the toddler playgroup, the pre-school and after-school care (BSO)."
+      },
+      "source_text_nl": "Er zijn verschillende soorten kinderopvang: kinderdagverblijf, peuterspeelzaal, voorschool en buitenschoolse opvang.",
+      "tags": ["kinderopvang", "soorten", "overzicht"]
+    },
+    {
+      "id": "M8_Q076", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Slaan kind – verboden", "topic_en": "Hitting child – forbidden",
+      "question_nl": "In Nederland is het verboden om je kind te slaan.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Het slaan van kinderen is in Nederland wettelijk verboden.",
+        "en": "That is correct. Hitting children is legally prohibited in the Netherlands."
+      },
+      "source_text_nl": "Het slaan van kinderen is verboden in Nederland.",
+      "tags": ["slaan", "verboden", "wet"]
+    },
+    {
+      "id": "M8_Q077", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Praktijkonderwijs – handen", "topic_en": "Practical education – hands",
+      "question_nl": "Bij praktijkonderwijs leer je vooral met je handen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Bij praktijkonderwijs leer je met de handen. Het is voor kinderen die liever praktisch werken dan uit boeken leren.",
+        "en": "That is correct. In practical education you learn with your hands. It is for children who prefer working practically to learning from books."
+      },
+      "source_text_nl": "Ze werken veel met de handen. Ze houden niet van leren.",
+      "tags": ["praktijkonderwijs", "handen", "praktisch"]
+    },
+    {
+      "id": "M8_Q078", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Mbo – universiteit opvolgend", "topic_en": "Mbo – university sequential",
+      "question_nl": "Met een mbo-diploma kun je direct naar de universiteit.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Met een mbo-diploma ga je naar het hbo, niet direct naar de universiteit.",
+        "en": "This is incorrect. With an mbo diploma you go to hbo, not directly to university."
+      },
+      "source_text_nl": "Met een mbo-diploma kun je naar het hbo. Niet direct naar de universiteit.",
+      "tags": ["mbo", "universiteit", "hbo verplicht"]
+    },
+    {
+      "id": "M8_Q079", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Kinderdagverblijf – diploma medewerkers", "topic_en": "Day nursery – qualified staff",
+      "question_nl": "Medewerkers in een kinderdagverblijf hebben een diploma voor het werken met kinderen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De medewerkers hebben een diploma voor het werken met kinderen. Dit is verplicht.",
+        "en": "That is correct. The staff hold a qualification for working with children. This is required."
+      },
+      "source_text_nl": "De volwassenen passen op de kinderen. Ze hebben hier een diploma voor.",
+      "tags": ["kinderdagverblijf", "diploma", "medewerkers"]
+    },
+    {
+      "id": "M8_Q080", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Aansprakelijkheid – definitie", "topic_en": "Liability – definition",
+      "question_nl": "Aansprakelijk zijn betekent verantwoordelijk zijn voor de kosten van schade die je hebt veroorzaakt.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Als je aansprakelijk bent voor schade, betekent dat dat jij de kosten moet betalen om de schade te herstellen.",
+        "en": "That is correct. If you are liable for damage, it means you must pay the costs to repair the damage."
+      },
+      "source_text_nl": "Aansprakelijk betekent: verantwoordelijk voor wat er gebeurt en de schade betalen.",
+      "tags": ["aansprakelijkheid", "verantwoordelijk", "schade"]
+    }
+  ]
+}

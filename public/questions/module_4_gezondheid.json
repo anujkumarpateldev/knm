@@ -1,0 +1,1286 @@
+{
+  "module_id": "M4",
+  "module_title_nl": "Gezondheid en gezondheidszorg",
+  "module_title_en": "Health and Healthcare",
+  "total_questions": 80,
+  "questions": [
+    {
+      "id": "M4_Q001", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "De huisarts", "topic_en": "General practitioner",
+      "question_nl": "Wat is een huisarts?",
+      "options": [
+        {"id": "A", "text_nl": "Een dokter die alleen in het ziekenhuis werkt"},
+        {"id": "B", "text_nl": "Je eigen dokter in de buurt waar je naartoe gaat als je ziek bent"},
+        {"id": "C", "text_nl": "Een specialist in het ziekenhuis"},
+        {"id": "D", "text_nl": "Een dokter die alleen kinderen behandelt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De huisarts is je eigen dokter. Je gaat naar de huisarts als je ziek bent. De huisarts is je eerste aanspreekpunt voor gezondheidsproblemen.",
+        "en": "The GP (huisarts) is your own doctor. You go to the GP when you are ill. The GP is your first point of contact for health problems."
+      },
+      "source_text_nl": "De huisarts is je eigen dokter waar je naartoe gaat als je ziek bent.",
+      "tags": ["huisarts", "dokter", "ziek"]
+    },
+    {
+      "id": "M4_Q002", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huisarts kiezen", "topic_en": "Choosing a GP",
+      "question_nl": "Hoe vind je een huisarts bij jou in de buurt?",
+      "options": [
+        {"id": "A", "text_nl": "Via de gemeente"},
+        {"id": "B", "text_nl": "Via de Gouden Gids of internet"},
+        {"id": "C", "text_nl": "Via het UWV WERKbedrijf"},
+        {"id": "D", "text_nl": "Via de woningbouwvereniging"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je kunt een huisarts vinden via de Gouden Gids of op internet. In de Gouden Gids staan adressen en telefoonnummers van huisartsen bij jou in de buurt.",
+        "en": "You can find a GP via the Gouden Gids (yellow pages) or on the internet. The Gouden Gids lists addresses and phone numbers of GPs near you."
+      },
+      "source_text_nl": "Je kunt bijvoorbeeld in de Gouden Gids kijken. In de Gouden Gids staan adressen en telefoonnummers.",
+      "tags": ["huisarts", "Gouden Gids", "zoeken"]
+    },
+    {
+      "id": "M4_Q003", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Afspraak huisarts", "topic_en": "Making a GP appointment",
+      "question_nl": "Hoe maak je een afspraak bij de huisarts?",
+      "options": [
+        {"id": "A", "text_nl": "Je gaat gewoon langs zonder afspraak"},
+        {"id": "B", "text_nl": "Je belt de huisarts op en vraagt om een afspraak"},
+        {"id": "C", "text_nl": "Je gaat naar het ziekenhuis"},
+        {"id": "D", "text_nl": "Je vraagt de apotheek om een verwijzing"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Meestal moet je eerst bellen voor een afspraak bij de huisarts. Aan de telefoon maak je dan een afspraak voor een kennismakingsgesprek of een consult.",
+        "en": "You usually have to call first to make an appointment with the GP. On the phone you arrange an introductory meeting or consultation."
+      },
+      "source_text_nl": "Heb je een huisarts gevonden? Dan bel je hem op. Je vraagt of je bij deze arts kunt laten inschrijven.",
+      "tags": ["afspraak", "huisarts", "bellen"]
+    },
+    {
+      "id": "M4_Q004", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Telefonisch spreekuur", "topic_en": "Telephone consultation",
+      "question_nl": "Wat is het telefonisch spreekuur bij de huisarts?",
+      "options": [
+        {"id": "A", "text_nl": "Een spreekuur alleen voor spoedeisende gevallen"},
+        {"id": "B", "text_nl": "Een tijdstip waarop je de huisarts kunt bellen met een korte vraag"},
+        {"id": "C", "text_nl": "Een telefoonnummer voor het ziekenhuis"},
+        {"id": "D", "text_nl": "Een dienst van de apotheek"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Tijdens het telefonisch spreekuur kun je de huisarts bellen met een korte vraag. Je hoeft dan niet persoonlijk langs te komen.",
+        "en": "During the telephone consultation hour you can call the GP with a short question. You do not need to come in person."
+      },
+      "source_text_nl": "Als je een korte vraag hebt, kun je ook met je huisarts bellen tijdens het telefonisch spreekuur.",
+      "tags": ["telefonisch spreekuur", "huisarts", "bellen"]
+    },
+    {
+      "id": "M4_Q005", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Recept", "topic_en": "Prescription",
+      "question_nl": "Wat is een recept bij de huisarts?",
+      "options": [
+        {"id": "A", "text_nl": "Een brief van de huisarts naar de specialist"},
+        {"id": "B", "text_nl": "Een briefje van de huisarts waarmee je medicijnen kunt ophalen bij de apotheek"},
+        {"id": "C", "text_nl": "Een formulier voor de zorgverzekering"},
+        {"id": "D", "text_nl": "Een nota voor de behandeling"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je medicijnen nodig hebt, schrijft de huisarts een recept. Met dit briefje ga je naar de apotheek om je medicijnen op te halen.",
+        "en": "If you need medication, the GP writes a prescription. With this document you go to the pharmacy to collect your medicine."
+      },
+      "source_text_nl": "Als je een medicijn nodig hebt, schrijft de huisarts een recept. Dit is een briefje waarmee je naar de apotheek gaat.",
+      "tags": ["recept", "medicijnen", "apotheek"]
+    },
+    {
+      "id": "M4_Q006", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Apotheek", "topic_en": "Pharmacy",
+      "question_nl": "Waarvoor ga je naar de apotheek?",
+      "options": [
+        {"id": "A", "text_nl": "Om een afspraak te maken met de huisarts"},
+        {"id": "B", "text_nl": "Om medicijnen op te halen met een recept"},
+        {"id": "C", "text_nl": "Om een specialist te zien"},
+        {"id": "D", "text_nl": "Om je zorgverzekering af te sluiten"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je gaat naar de apotheek om medicijnen op te halen. Je hebt dan een recept van de huisarts nodig.",
+        "en": "You go to the pharmacy to collect medicine. You need a prescription from the GP for this."
+      },
+      "source_text_nl": "Dit is een briefje waarmee je naar de apotheek gaat, om je medicijn op te halen.",
+      "tags": ["apotheek", "medicijnen", "recept"]
+    },
+    {
+      "id": "M4_Q007", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Klachten – wanneer huisarts", "topic_en": "When to see the GP",
+      "question_nl": "Wanneer hoef je NIET direct naar de huisarts?",
+      "options": [
+        {"id": "A", "text_nl": "Als je erge pijn hebt"},
+        {"id": "B", "text_nl": "Als je een kleine klacht hebt zoals griep die vanzelf overgaat"},
+        {"id": "C", "text_nl": "Als je lang ziek bent"},
+        {"id": "D", "text_nl": "Als je erg ziek voelt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Met kleine klachten zoals griep hoef je niet meteen naar de huisarts. Je kunt beter wachten totdat het vanzelf overgaat. Gaat het niet over of voel je je echt ziek? Dan ga je wel naar de huisarts.",
+        "en": "With minor complaints like the flu, you do not need to go to the GP immediately. It is better to wait for it to pass on its own. If it does not improve or you feel really ill, then you go to the GP."
+      },
+      "source_text_nl": "Met sommige klachten (zoals griep) hoef je niet meteen naar de huisarts. Je kunt beter wachten totdat het vanzelf overgaat.",
+      "tags": ["klachten", "griep", "huisarts"]
+    },
+    {
+      "id": "M4_Q008", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huisbezoek", "topic_en": "Home visit",
+      "question_nl": "Wanneer gaat de huisarts bij iemand op huisbezoek?",
+      "options": [
+        {"id": "A", "text_nl": "Als de patiënt een vraag heeft"},
+        {"id": "B", "text_nl": "Als iemand te ziek is om zelf naar de huisarts te gaan"},
+        {"id": "C", "text_nl": "Als de apotheek geen medicijnen heeft"},
+        {"id": "D", "text_nl": "Als de patiënt een specialist nodig heeft"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De huisarts gaat ook bij mensen op huisbezoek. Dit zijn mensen die te ziek zijn om zelf naar de huisarts te gaan.",
+        "en": "The GP also makes home visits. These are for people who are too ill to go to the GP themselves."
+      },
+      "source_text_nl": "De huisarts gaat ook bij mensen op huisbezoek. Deze mensen zijn te ziek om zelf naar de huisarts te gaan.",
+      "tags": ["huisbezoek", "ziek", "huisarts"]
+    },
+    {
+      "id": "M4_Q009", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Specialist", "topic_en": "Medical specialist",
+      "question_nl": "Hoe kom je bij een specialist in het ziekenhuis?",
+      "options": [
+        {"id": "A", "text_nl": "Je belt zelf het ziekenhuis voor een afspraak"},
+        {"id": "B", "text_nl": "Je hebt een verwijzing van de huisarts nodig"},
+        {"id": "C", "text_nl": "Je gaat direct naar de afdeling van de specialist"},
+        {"id": "D", "text_nl": "Je vraagt de apotheek om een doorverwijzing"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Om bij een specialist in het ziekenhuis te komen, heb je een verwijzing van de huisarts nodig. De huisarts stuurt je door naar de juiste specialist.",
+        "en": "To see a specialist at the hospital, you need a referral from your GP. The GP refers you to the appropriate specialist."
+      },
+      "source_text_nl": "Als je naar een specialist in het ziekenhuis moet, krijg je een verwijzing van de huisarts.",
+      "tags": ["specialist", "verwijzing", "ziekenhuis"]
+    },
+    {
+      "id": "M4_Q010", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Zorgverzekering – verplicht", "topic_en": "Health insurance – compulsory",
+      "question_nl": "Is een zorgverzekering verplicht in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Nee, het is vrijwillig"},
+        {"id": "B", "text_nl": "Ja, iedereen in Nederland moet een zorgverzekering hebben"},
+        {"id": "C", "text_nl": "Alleen mensen die ziek zijn moeten zich verzekeren"},
+        {"id": "D", "text_nl": "Alleen mensen met een laag inkomen hoeven een verzekering"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In Nederland is het verplicht om een zorgverzekering te hebben. Iedereen die in Nederland woont of werkt, moet zich verzekeren.",
+        "en": "In the Netherlands, having health insurance is compulsory. Everyone who lives or works in the Netherlands must have insurance."
+      },
+      "source_text_nl": "Iedereen heeft een zorgverzekering. Dit is verplicht in Nederland.",
+      "tags": ["zorgverzekering", "verplicht", "Nederland"]
+    },
+    {
+      "id": "M4_Q011", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Zorgverzekering – premie", "topic_en": "Health insurance – premium",
+      "question_nl": "Wat is de premie van een zorgverzekering?",
+      "options": [
+        {"id": "A", "text_nl": "Het bedrag dat de zorgverzekeraar uitbetaalt als je ziek bent"},
+        {"id": "B", "text_nl": "Het bedrag dat je maandelijks betaalt voor je zorgverzekering"},
+        {"id": "C", "text_nl": "Het eigen risico bij de zorgverzekering"},
+        {"id": "D", "text_nl": "De naam van het verzekeringspakket"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De premie is het bedrag dat jij maandelijks betaalt aan de zorgverzekeraar. De verzekeraar betaalt dan de kosten als je ziek bent.",
+        "en": "The premium is the amount you pay monthly to the health insurer. The insurer then pays the costs when you are ill."
+      },
+      "source_text_nl": "Jij betaalt de zorgverzekering geld. Dat heet premie.",
+      "tags": ["premie", "zorgverzekering", "maandelijks"]
+    },
+    {
+      "id": "M4_Q012", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Basispakket", "topic_en": "Basic insurance package",
+      "question_nl": "Wat dekt het basispakket van de zorgverzekering?",
+      "options": [
+        {"id": "A", "text_nl": "Fysiotherapie en tandarts"},
+        {"id": "B", "text_nl": "De meest belangrijke medische zorg, zoals bezoek aan de huisarts en het ziekenhuis"},
+        {"id": "C", "text_nl": "Alle medische zorg inclusief cosmetische behandelingen"},
+        {"id": "D", "text_nl": "Alleen ziekenhuisbezoek"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het basispakket betaalt de meest belangrijke medische zorg. Bijvoorbeeld een bezoek aan de huisarts of het ziekenhuis en medicijnen.",
+        "en": "The basic package covers the most important medical care — for example, a visit to the GP or hospital, and medication."
+      },
+      "source_text_nl": "Het basispakket betaalt de meest belangrijke medische zorg. Bijvoorbeeld een bezoek aan de huisarts of het ziekenhuis.",
+      "tags": ["basispakket", "zorgverzekering", "medische zorg"]
+    },
+    {
+      "id": "M4_Q013", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Aanvullende verzekering", "topic_en": "Supplementary insurance",
+      "question_nl": "Waarvoor is de aanvullende verzekering?",
+      "options": [
+        {"id": "A", "text_nl": "Voor dezelfde zorg als het basispakket"},
+        {"id": "B", "text_nl": "Voor extra zorg die niet in het basispakket zit, zoals fysiotherapie en tandarts"},
+        {"id": "C", "text_nl": "Voor het betalen van medicijnen"},
+        {"id": "D", "text_nl": "Voor zorg in het buitenland"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De aanvullende verzekering is voor extra zorg die niet in het basispakket zit. Bijvoorbeeld fysiotherapie, een bezoek aan de tandarts of psychologische hulp.",
+        "en": "Supplementary insurance covers extra care not included in the basic package — for example physiotherapy, dentist visits or psychological help."
+      },
+      "source_text_nl": "De aanvullende verzekering is voor de overige kosten. Bijvoorbeeld van fysiotherapie, een bezoek aan de tandarts of psychische hulp.",
+      "tags": ["aanvullende verzekering", "fysiotherapie", "tandarts"]
+    },
+    {
+      "id": "M4_Q014", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Zorgpas", "topic_en": "Health insurance card",
+      "question_nl": "Waarvoor gebruik je de zorgpas in de apotheek?",
+      "options": [
+        {"id": "A", "text_nl": "Om te betalen voor medicijnen"},
+        {"id": "B", "text_nl": "Om te laten zien welke zorgverzekeraar je medicijnen betaalt"},
+        {"id": "C", "text_nl": "Om je identiteit te bewijzen"},
+        {"id": "D", "text_nl": "Om korting te krijgen op medicijnen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In de apotheek laat je je zorgpas zien. De apotheker kan dan zien welke verzekeraar de medicijnen betaalt. Je hoeft dan zelf geen geld te geven.",
+        "en": "At the pharmacy you show your health insurance card. The pharmacist can then see which insurer pays for the medication. You then do not have to pay yourself."
+      },
+      "source_text_nl": "Meestal hoef je die niet zelf te betalen. De verzekeraar betaalt de kosten. Je moet dan je zorgpas laten zien in de apotheek.",
+      "tags": ["zorgpas", "apotheek", "verzekeraar"]
+    },
+    {
+      "id": "M4_Q015", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Declareren", "topic_en": "Claiming reimbursement",
+      "question_nl": "Wat is declareren bij de zorgverzekering?",
+      "options": [
+        {"id": "A", "text_nl": "Je premie betalen aan de verzekeraar"},
+        {"id": "B", "text_nl": "Een nota insturen bij de verzekeraar om je geld terug te krijgen"},
+        {"id": "C", "text_nl": "Je zorgverzekering opzeggen"},
+        {"id": "D", "text_nl": "Een recept ophalen bij de apotheek"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Soms moet je zelf medicijnen of een ziekenhuisbezoek betalen. Je kunt dan de nota opsturen naar de verzekeraar om je geld terug te krijgen. Dat heet declareren.",
+        "en": "Sometimes you have to pay for medication or a hospital visit yourself first. You can then send the invoice to the insurer to get your money back. This is called claiming (declareren)."
+      },
+      "source_text_nl": "Om te declareren moet je een formulier invullen. Je stuurt de nota op naar de verzekeraar. Dan krijg je het geld terug.",
+      "tags": ["declareren", "nota", "verzekeraar"]
+    },
+    {
+      "id": "M4_Q016", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Declaratieformulier", "topic_en": "Claim form",
+      "question_nl": "Wat doe je met een declaratieformulier?",
+      "options": [
+        {"id": "A", "text_nl": "Je geeft het aan de huisarts"},
+        {"id": "B", "text_nl": "Je vult het in en stuurt het met de nota op naar de zorgverzekeraar"},
+        {"id": "C", "text_nl": "Je geeft het aan de apotheek"},
+        {"id": "D", "text_nl": "Je neemt het mee naar het ziekenhuis"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je vult het declaratieformulier in en stuurt het samen met de nota op naar de zorgverzekeraar. Als alles goed is, krijg je het geld terug op je bankrekening.",
+        "en": "You fill in the claim form and send it together with the invoice to the health insurer. If everything is in order, you get the money back in your bank account."
+      },
+      "source_text_nl": "Om te declareren moet je een formulier invullen en de nota meesturen naar de zorgverzekeraar.",
+      "tags": ["declaratieformulier", "nota", "zorgverzekeraar"]
+    },
+    {
+      "id": "M4_Q017", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Consultatiebureau", "topic_en": "Child health clinic",
+      "question_nl": "Wat is het consultatiebureau?",
+      "options": [
+        {"id": "A", "text_nl": "Een afdeling van het ziekenhuis voor volwassenen"},
+        {"id": "B", "text_nl": "Een plek waar een dokter je baby of kind onderzoekt op groei en gezondheid"},
+        {"id": "C", "text_nl": "Een apotheek speciaal voor kinderen"},
+        {"id": "D", "text_nl": "Een instelling voor ouderenzorg"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Bij het consultatiebureau onderzoekt een dokter je baby. Hij kijkt of de baby gezond is en goed groeit. Kinderen gaan naar het consultatiebureau tot ze vier jaar zijn.",
+        "en": "At the child health clinic (consultatiebureau), a doctor examines your baby. They check whether the baby is healthy and growing well. Children go to the clinic until they are four years old."
+      },
+      "source_text_nl": "Bij het consultatiebureau onderzoekt een dokter je baby. Hij kijkt dan of de baby gezond is. Kinderen gaan naar het consultatiebureau tot ze vier jaar zijn.",
+      "tags": ["consultatiebureau", "baby", "kind"]
+    },
+    {
+      "id": "M4_Q018", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Inentingen", "topic_en": "Vaccinations",
+      "question_nl": "Wat krijgt een kind bij het consultatiebureau om ziektes te voorkomen?",
+      "options": [
+        {"id": "A", "text_nl": "Medicijnen"},
+        {"id": "B", "text_nl": "Inentingen (prikken tegen ziektes)"},
+        {"id": "C", "text_nl": "Een speciaal dieet"},
+        {"id": "D", "text_nl": "Een recept voor de apotheek"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Bij het consultatiebureau krijgt een kind inentingen van de dokter. Dit zijn prikken tegen ziektes. Zo wordt het kind beschermd tegen gevaarlijke ziektes.",
+        "en": "At the child health clinic, a child receives vaccinations from the doctor. These are injections against diseases. This protects the child from dangerous illnesses."
+      },
+      "source_text_nl": "Amina krijgt dan ook inentingen van de dokter. Dat zijn prikken tegen ziektes.",
+      "tags": ["inentingen", "prikken", "consultatiebureau"]
+    },
+    {
+      "id": "M4_Q019", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Groeiboekje", "topic_en": "Growth booklet",
+      "question_nl": "Wat is een groeiboekje?",
+      "options": [
+        {"id": "A", "text_nl": "Een boek over het opvoeden van kinderen"},
+        {"id": "B", "text_nl": "Een boekje waarin de dokter de groei en gezondheid van een kind bijhoudt"},
+        {"id": "C", "text_nl": "Een schoolboek"},
+        {"id": "D", "text_nl": "Een boekje van de zorgverzekeraar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In het groeiboekje schrijft de dokter op hoe het kind groeit en of het gezond is. Dit wordt bijgehouden bij elk bezoek aan het consultatiebureau.",
+        "en": "In the growth booklet, the doctor records how the child is growing and whether they are healthy. This is updated at each visit to the child health clinic."
+      },
+      "source_text_nl": "Dit schrijft de dokter op in het groeiboekje.",
+      "tags": ["groeiboekje", "kind", "consultatiebureau"]
+    },
+    {
+      "id": "M4_Q020", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Consultatiebureau – kosten", "topic_en": "Child clinic – costs",
+      "question_nl": "Moet je betalen voor het consultatiebureau?",
+      "options": [
+        {"id": "A", "text_nl": "Ja, je betaalt elke keer"},
+        {"id": "B", "text_nl": "Nee, het consultatiebureau is gratis"},
+        {"id": "C", "text_nl": "Ja, maar de zorgverzekeraar betaalt het terug"},
+        {"id": "D", "text_nl": "Nee, maar je hebt wel een zorgverzekering nodig"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het consultatiebureau is gratis. Je hoeft er niets voor te betalen. Je hebt wel een zorgverzekering nodig.",
+        "en": "The child health clinic is free. You do not have to pay for it. You do need to have health insurance though."
+      },
+      "source_text_nl": "Het consultatiebureau is gratis. Je moet natuurlijk wel een ziektekostenverzekering hebben.",
+      "tags": ["consultatiebureau", "gratis", "kosten"]
+    },
+    {
+      "id": "M4_Q021", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Thuiszorg", "topic_en": "Home care",
+      "question_nl": "Wat is thuiszorg?",
+      "options": [
+        {"id": "A", "text_nl": "Zorg die je krijgt in een verzorgingshuis"},
+        {"id": "B", "text_nl": "Zorg die aan huis wordt geleverd voor mensen die niet zelfstandig kunnen"},
+        {"id": "C", "text_nl": "Zorg die de huisarts geeft"},
+        {"id": "D", "text_nl": "Zorg van familieleden"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Bij thuiszorg komt de zorg naar jou thuis toe. Je blijft thuis wonen en krijgt hulp bij bijvoorbeeld douchen, aankleden of eten. Het is bedoeld voor ouderen, gehandicapten en chronisch zieken.",
+        "en": "With home care (thuiszorg), the care comes to you at home. You continue to live at home and receive help with showering, dressing or eating, for example. It is intended for the elderly, disabled and chronically ill."
+      },
+      "source_text_nl": "Bij thuiszorg komt de zorg naar je huis toe. Je blijft thuis wonen.",
+      "tags": ["thuiszorg", "thuis", "hulp"]
+    },
+    {
+      "id": "M4_Q022", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "CIZ", "topic_en": "Care assessment centre",
+      "question_nl": "Waarvoor ga je naar het CIZ (Centrum Indicatiestelling Zorg)?",
+      "options": [
+        {"id": "A", "text_nl": "Om een zorgverzekering af te sluiten"},
+        {"id": "B", "text_nl": "Om te bepalen welke zorg je nodig hebt en kunt krijgen"},
+        {"id": "C", "text_nl": "Om een afspraak te maken met de huisarts"},
+        {"id": "D", "text_nl": "Om medicijnen op te halen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het CIZ beslist wat voor zorg je kunt krijgen. Ze kijken of je in aanmerking komt voor thuiszorg of een plek in een instelling. Dat heet een indicatie.",
+        "en": "The CIZ decides what care you can receive. They assess whether you qualify for home care or a place in a care facility. This is called an indication."
+      },
+      "source_text_nl": "Eerst moet je naar het Centrum Indicatiestelling Zorg (CIZ). Het CIZ kijkt of je zorg kunt krijgen.",
+      "tags": ["CIZ", "indicatie", "zorg aanvragen"]
+    },
+    {
+      "id": "M4_Q023", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Verzorgingshuis", "topic_en": "Care home",
+      "question_nl": "Voor wie is een verzorgingshuis?",
+      "options": [
+        {"id": "A", "text_nl": "Voor jonge mensen die tijdelijk hulp nodig hebben"},
+        {"id": "B", "text_nl": "Voor ouderen die niet meer zelfstandig thuis kunnen wonen"},
+        {"id": "C", "text_nl": "Voor mensen die geopereerd worden"},
+        {"id": "D", "text_nl": "Voor kinderen die ziek zijn"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een verzorgingshuis is voor ouderen die niet meer goed zelfstandig thuis kunnen wonen. Er zijn altijd mensen in de buurt die voor hen zorgen.",
+        "en": "A care home (verzorgingshuis) is for elderly people who can no longer live independently at home. There are always people nearby to care for them."
+      },
+      "source_text_nl": "Als je oud bent, kun je in een verzorgingshuis wonen. Dan zijn er altijd mensen in de buurt die voor je zorgen.",
+      "tags": ["verzorgingshuis", "ouderen", "zorg"]
+    },
+    {
+      "id": "M4_Q024", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Verpleeghuis", "topic_en": "Nursing home",
+      "question_nl": "Wat is het verschil tussen een verzorgingshuis en een verpleeghuis?",
+      "options": [
+        {"id": "A", "text_nl": "Er is geen verschil"},
+        {"id": "B", "text_nl": "In een verpleeghuis is intensievere medische zorg omdat bewoners ernstiger ziek zijn"},
+        {"id": "C", "text_nl": "Een verpleeghuis is goedkoper"},
+        {"id": "D", "text_nl": "In een verpleeghuis wonen alleen kinderen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In een verpleeghuis is meer en intensievere medische zorg aanwezig dan in een verzorgingshuis. Bewoners van een verpleeghuis zijn vaak ernstiger ziek of hebben meer hulp nodig.",
+        "en": "A nursing home (verpleeghuis) provides more intensive medical care than a care home. Residents of a nursing home are often more seriously ill or need more help."
+      },
+      "source_text_nl": "Voor zware zorg verblijf je in een verpleeghuis, voor lichtere zorg in een verzorgingshuis.",
+      "tags": ["verpleeghuis", "verzorgingshuis", "verschil"]
+    },
+    {
+      "id": "M4_Q025", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Fysiotherapeut", "topic_en": "Physiotherapist",
+      "question_nl": "Waarvoor ga je naar een fysiotherapeut?",
+      "options": [
+        {"id": "A", "text_nl": "Voor medicijnen"},
+        {"id": "B", "text_nl": "Voor behandeling van spieren, gewrichten en bewegingsproblemen"},
+        {"id": "C", "text_nl": "Voor een oogonderzoek"},
+        {"id": "D", "text_nl": "Voor een bloedonderzoek"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een fysiotherapeut behandelt problemen met spieren, gewrichten en beweging. Denk aan rugpijn, kniepijn of herstel na een operatie.",
+        "en": "A physiotherapist treats problems with muscles, joints and movement — such as back pain, knee pain or recovery after an operation."
+      },
+      "source_text_nl": "Voorbeelden van zorg buiten een instelling zijn de fysiotherapeut, de psycholoog of de psychiater.",
+      "tags": ["fysiotherapeut", "spieren", "beweging"]
+    },
+    {
+      "id": "M4_Q026", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Chronisch ziek", "topic_en": "Chronically ill",
+      "question_nl": "Wat betekent chronisch ziek zijn?",
+      "options": [
+        {"id": "A", "text_nl": "Tijdelijk ziek zijn door een griep"},
+        {"id": "B", "text_nl": "Heel lang ziek zijn, soms wordt iemand dan ook niet meer beter"},
+        {"id": "C", "text_nl": "Opgenomen zijn in het ziekenhuis"},
+        {"id": "D", "text_nl": "Lichte klachten hebben die snel overgaan"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Iemand die chronisch ziek is, is heel lang ziek. Soms wordt iemand dan ook niet meer beter. Chronisch zieken hebben vaak langdurige zorg nodig.",
+        "en": "Someone who is chronically ill has been sick for a very long time. Sometimes they will not get better. Chronically ill people often need long-term care."
+      },
+      "source_text_nl": "Iemand die chronisch ziek is, is heel lang ziek. Soms wordt iemand dan ook niet meer beter.",
+      "tags": ["chronisch ziek", "langdurig", "zorg"]
+    },
+    {
+      "id": "M4_Q027", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gezond leven", "topic_en": "Healthy living",
+      "question_nl": "Hoe kun je zelf op je gezondheid letten?",
+      "options": [
+        {"id": "A", "text_nl": "Door elke dag naar de huisarts te gaan"},
+        {"id": "B", "text_nl": "Door veel te bewegen en gezond te eten"},
+        {"id": "C", "text_nl": "Door elke dag medicijnen te nemen"},
+        {"id": "D", "text_nl": "Door nooit naar buiten te gaan"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je kunt zelf op je gezondheid letten door veel te bewegen en gezond te eten. Als je dat doet, word je minder snel ziek.",
+        "en": "You can take care of your own health by exercising regularly and eating healthily. If you do, you are less likely to become ill."
+      },
+      "source_text_nl": "Je gezondheid is erg belangrijk. Je kunt zelf op je gezondheid letten. Dit doe je door veel te bewegen en gezond te eten.",
+      "tags": ["gezond leven", "bewegen", "eten"]
+    },
+    {
+      "id": "M4_Q028", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Tandarts", "topic_en": "Dentist",
+      "question_nl": "Zit een bezoek aan de tandarts in het basispakket van de zorgverzekering?",
+      "options": [
+        {"id": "A", "text_nl": "Ja, altijd"},
+        {"id": "B", "text_nl": "Nee, voor tandarts heb je een aanvullende verzekering nodig"},
+        {"id": "C", "text_nl": "Ja, maar alleen voor noodgevallen"},
+        {"id": "D", "text_nl": "Nee, tandarts betaal je altijd zelf volledig"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een bezoek aan de tandarts zit niet in het basispakket. Hiervoor heb je een aanvullende verzekering nodig. Kinderen tot 18 jaar zijn wel vergoed via het basispakket.",
+        "en": "A visit to the dentist is not included in the basic package. You need supplementary insurance for this. Children under 18 are covered via the basic package."
+      },
+      "source_text_nl": "De aanvullende verzekering is voor de overige kosten. Bijvoorbeeld van een bezoek aan de tandarts.",
+      "tags": ["tandarts", "aanvullende verzekering", "basispakket"]
+    },
+    {
+      "id": "M4_Q029", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kennismakingsgesprek", "topic_en": "Introductory consultation",
+      "question_nl": "Wat is een kennismakingsgesprek bij de huisarts?",
+      "options": [
+        {"id": "A", "text_nl": "Een gesprek als je heel ziek bent"},
+        {"id": "B", "text_nl": "Een eerste gesprek om kennis te maken met een nieuwe huisarts"},
+        {"id": "C", "text_nl": "Een gesprek met de specialist"},
+        {"id": "D", "text_nl": "Een gesprek over je zorgverzekering"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Bij een kennismakingsgesprek maak je kennis met je nieuwe huisarts. Je leert de huisarts kennen en de huisarts leert jou kennen.",
+        "en": "At an introductory consultation, you get to know your new GP. You learn about the GP and the GP learns about you."
+      },
+      "source_text_nl": "Aan de telefoon maak je dan een afspraak voor een kennismakingsgesprek. Tijdens het kennismakingsgesprek leer je de huisarts kennen.",
+      "tags": ["kennismakingsgesprek", "huisarts", "inschrijven"]
+    },
+    {
+      "id": "M4_Q030", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Zorgverzekeraar kiezen", "topic_en": "Choosing a health insurer",
+      "question_nl": "Wie kiest jouw zorgverzekeraar?",
+      "options": [
+        {"id": "A", "text_nl": "De overheid kiest voor jou"},
+        {"id": "B", "text_nl": "Jij kiest zelf welke zorgverzekeraar je wilt"},
+        {"id": "C", "text_nl": "De huisarts kiest voor jou"},
+        {"id": "D", "text_nl": "De gemeente kiest voor jou"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Er zijn veel zorgverzekeraars in Nederland. Jij kiest zelf welke zorgverzekeraar bij jou past. Je kunt elk jaar van verzekeraar wisselen.",
+        "en": "There are many health insurers in the Netherlands. You choose for yourself which insurer suits you. You can switch insurer every year."
+      },
+      "source_text_nl": "Er zijn veel zorgverzekeraars. Dat zijn bedrijven waar je een zorgverzekering afsluit. Jij betaalt de zorgverzekering geld.",
+      "tags": ["zorgverzekeraar", "keuze", "wisselen"]
+    },
+    {
+      "id": "M4_Q031", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Spreekuur huisarts", "topic_en": "GP surgery hours",
+      "question_nl": "Wat is het spreekuur van de huisarts?",
+      "options": [
+        {"id": "A", "text_nl": "De dag dat de huisarts vrij is"},
+        {"id": "B", "text_nl": "De tijd dat je bij de huisarts terechtkunt voor een afspraak"},
+        {"id": "C", "text_nl": "Een telefonische dienst van de zorgverzekeraar"},
+        {"id": "D", "text_nl": "Een avondspreekuur in het ziekenhuis"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het spreekuur is de tijd waarop je bij de huisarts terechtkunt. Tijdens het spreekuur kun je met je klachten naar de huisarts.",
+        "en": "The surgery hours are the times when you can visit the GP. During surgery hours you can attend with your complaints."
+      },
+      "source_text_nl": "Als je ziek bent, kun je naar het spreekuur van je huisarts gaan.",
+      "tags": ["spreekuur", "huisarts", "tijden"]
+    },
+    {
+      "id": "M4_Q032", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Noodgeval – ambulance", "topic_en": "Emergency – ambulance",
+      "question_nl": "Welk nummer bel je als er een medisch noodgeval is?",
+      "options": [
+        {"id": "A", "text_nl": "0900-8844"},
+        {"id": "B", "text_nl": "112"},
+        {"id": "C", "text_nl": "0800-9000"},
+        {"id": "D", "text_nl": "140"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als er een medisch noodgeval is, bel je 112. Dit is het alarmnummer in Nederland voor ambulance, politie en brandweer.",
+        "en": "If there is a medical emergency, you call 112. This is the emergency number in the Netherlands for ambulance, police and fire brigade."
+      },
+      "source_text_nl": "Bij een noodgeval bel je 112 voor de ambulance.",
+      "tags": ["ambulance", "112", "noodgeval"]
+    },
+    {
+      "id": "M4_Q033", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "GGD", "topic_en": "Municipal health service",
+      "question_nl": "Wat is de GGD?",
+      "options": [
+        {"id": "A", "text_nl": "Een ziekenhuis voor kinderen"},
+        {"id": "B", "text_nl": "De Gemeentelijke Gezondheidsdienst die de volksgezondheid bewaakt"},
+        {"id": "C", "text_nl": "Een particuliere zorgverzekeringsdienst"},
+        {"id": "D", "text_nl": "Een apotheek van de overheid"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De GGD staat voor Gemeentelijke Gezondheidsdienst. De GGD bewaakt de gezondheid van mensen in de gemeente en geeft voorlichting over gezondheid.",
+        "en": "The GGD stands for Municipal Health Service. The GGD monitors the health of people in the municipality and provides health information."
+      },
+      "source_text_nl": "De GGD staat voor Gemeentelijke Gezondheidsdienst.",
+      "tags": ["GGD", "volksgezondheid", "gemeente"]
+    },
+    {
+      "id": "M4_Q034", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Wijkverpleegster", "topic_en": "District nurse",
+      "question_nl": "Wat doet een wijkverpleegster?",
+      "options": [
+        {"id": "A", "text_nl": "Ze werkt alleen in het ziekenhuis"},
+        {"id": "B", "text_nl": "Ze geeft zorg aan mensen thuis in de wijk"},
+        {"id": "C", "text_nl": "Ze werkt op het consultatiebureau"},
+        {"id": "D", "text_nl": "Ze verkoopt medicijnen in de apotheek"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een wijkverpleegster geeft zorg aan mensen thuis in de wijk. Ze helpt mensen die niet goed voor zichzelf kunnen zorgen.",
+        "en": "A district nurse provides care to people at home in the neighbourhood. She helps people who cannot look after themselves well."
+      },
+      "source_text_nl": "Fatima wordt gebeld door de wijkverpleegster. Ze geeft zorg aan mensen thuis.",
+      "tags": ["wijkverpleegster", "thuiszorg", "wijk"]
+    },
+    {
+      "id": "M4_Q035", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Eigen risico", "topic_en": "Excess / deductible",
+      "question_nl": "Wat is het eigen risico bij de zorgverzekering?",
+      "options": [
+        {"id": "A", "text_nl": "De premie die je maandelijks betaalt"},
+        {"id": "B", "text_nl": "Een bedrag dat je per jaar zelf betaalt voordat de verzekeraar meebetaalt"},
+        {"id": "C", "text_nl": "De kosten van het basispakket"},
+        {"id": "D", "text_nl": "Het bedrag dat je bij de apotheek betaalt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het eigen risico is een bedrag dat je per jaar zelf betaalt voordat de zorgverzekeraar de kosten vergoedt. In 2024 is dat minimaal €385 per jaar.",
+        "en": "The deductible (eigen risico) is an amount you pay yourself per year before the health insurer covers the costs. In 2024 it is at least €385 per year."
+      },
+      "source_text_nl": "Het eigen risico is een bedrag dat je per jaar zelf betaalt voordat de verzekeraar betaalt.",
+      "tags": ["eigen risico", "zorgverzekering", "zelf betalen"]
+    },
+    {
+      "id": "M4_Q036", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Zorgverzekering verplicht", "topic_en": "Health insurance compulsory",
+      "question_nl": "In Nederland is het verplicht om een zorgverzekering te hebben.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Iedereen die in Nederland woont of werkt, is verplicht een zorgverzekering af te sluiten.",
+        "en": "That is correct. Everyone who lives or works in the Netherlands is required to take out health insurance."
+      },
+      "source_text_nl": "Iedereen heeft een zorgverzekering. Dit is verplicht in Nederland.",
+      "tags": ["zorgverzekering", "verplicht", "Nederland"]
+    },
+    {
+      "id": "M4_Q037", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Recept en apotheek", "topic_en": "Prescription and pharmacy",
+      "question_nl": "Je hebt een recept van de huisarts nodig om medicijnen op te halen bij de apotheek.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Voor de meeste medicijnen heb je een recept van de huisarts nodig. Met dit recept ga je naar de apotheek.",
+        "en": "That is correct. For most medicines you need a prescription from the GP. With this prescription you go to the pharmacy."
+      },
+      "source_text_nl": "Als je een medicijn nodig hebt, schrijft de huisarts een recept. Dit is een briefje waarmee je naar de apotheek gaat.",
+      "tags": ["recept", "apotheek", "medicijnen"]
+    },
+    {
+      "id": "M4_Q038", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Huisarts – griep", "topic_en": "GP – flu",
+      "question_nl": "Als je griep hebt, moet je altijd direct naar de huisarts.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Met griep hoef je niet altijd direct naar de huisarts. Je kunt beter wachten totdat het vanzelf overgaat. Gaat het niet over? Dan ga je wel.",
+        "en": "This is incorrect. With the flu you do not always need to go straight to the GP. It is better to wait for it to pass on its own. If it does not improve, then you go."
+      },
+      "source_text_nl": "Met sommige klachten (zoals griep) hoef je niet meteen naar de huisarts.",
+      "tags": ["griep", "huisarts", "wachten"]
+    },
+    {
+      "id": "M4_Q039", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Consultatiebureau gratis", "topic_en": "Child clinic free",
+      "question_nl": "Het consultatiebureau is gratis voor ouders en kinderen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Het consultatiebureau is gratis. Je hoeft er niets voor te betalen.",
+        "en": "That is correct. The child health clinic is free. You do not have to pay anything for it."
+      },
+      "source_text_nl": "Nee, het consultatiebureau is gratis.",
+      "tags": ["consultatiebureau", "gratis", "kinderen"]
+    },
+    {
+      "id": "M4_Q040", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Zorgpas", "topic_en": "Health card",
+      "question_nl": "Je laat je zorgpas zien in de apotheek zodat de verzekeraar kan betalen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In de apotheek laat je je zorgpas zien. De apotheker ziet dan welke verzekeraar de medicijnen betaalt.",
+        "en": "That is correct. At the pharmacy you show your health insurance card. The pharmacist then sees which insurer pays for the medicine."
+      },
+      "source_text_nl": "Je moet dan je zorgpas laten zien in de apotheek. De apotheker kan dan zien welke verzekeraar de medicijnen gaat betalen.",
+      "tags": ["zorgpas", "apotheek", "verzekeraar"]
+    },
+    {
+      "id": "M4_Q041", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Specialist – verwijzing", "topic_en": "Specialist – referral",
+      "question_nl": "Je kunt zonder verwijzing van de huisarts direct naar een specialist in het ziekenhuis.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Je hebt in de meeste gevallen een verwijzing van de huisarts nodig om bij een specialist te komen.",
+        "en": "This is incorrect. In most cases you need a referral from your GP to see a specialist."
+      },
+      "source_text_nl": "Als je naar een specialist in het ziekenhuis moet, krijg je een verwijzing van de huisarts.",
+      "tags": ["specialist", "verwijzing", "huisarts"]
+    },
+    {
+      "id": "M4_Q042", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Basispakket – tandarts", "topic_en": "Basic package – dentist",
+      "question_nl": "Een bezoek aan de tandarts zit in het basispakket van de zorgverzekering voor volwassenen.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Een bezoek aan de tandarts zit niet in het basispakket voor volwassenen. Hiervoor heb je een aanvullende verzekering nodig.",
+        "en": "This is incorrect. A visit to the dentist is not included in the basic package for adults. You need supplementary insurance for this."
+      },
+      "source_text_nl": "De aanvullende verzekering is voor zorg die niet in het basispakket zit, zoals de tandarts.",
+      "tags": ["tandarts", "basispakket", "aanvullende verzekering"]
+    },
+    {
+      "id": "M4_Q043", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Huisbezoek", "topic_en": "Home visit",
+      "question_nl": "De huisarts gaat ook bij mensen op huisbezoek als ze te ziek zijn om zelf te komen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Als iemand te ziek is om zelf naar de huisarts te gaan, kan de huisarts bij die persoon op huisbezoek komen.",
+        "en": "That is correct. If someone is too ill to go to the GP themselves, the GP can make a home visit."
+      },
+      "source_text_nl": "De huisarts gaat ook bij mensen op huisbezoek. Deze mensen zijn te ziek om zelf naar de huisarts te gaan.",
+      "tags": ["huisbezoek", "huisarts", "ziek thuis"]
+    },
+    {
+      "id": "M4_Q044", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Noodgeval 112", "topic_en": "Emergency 112",
+      "question_nl": "Bij een medisch noodgeval bel je 112 voor de ambulance.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. 112 is het alarmnummer in Nederland. Je belt dit nummer bij levensgevaar, brand of een zwaar ongeluk.",
+        "en": "That is correct. 112 is the emergency number in the Netherlands. You call this number when there is danger to life, a fire or a serious accident."
+      },
+      "source_text_nl": "Bij een noodgeval bel je 112 voor de ambulance.",
+      "tags": ["112", "ambulance", "noodgeval"]
+    },
+    {
+      "id": "M4_Q045", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "CIZ indicatie", "topic_en": "CIZ assessment",
+      "question_nl": "Het CIZ beslist welke zorg je kunt krijgen, zoals thuiszorg of een plek in een instelling.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Het CIZ (Centrum Indicatiestelling Zorg) beoordeelt welke zorg je nodig hebt en beslist wat je kunt krijgen.",
+        "en": "That is correct. The CIZ (Care Needs Assessment Centre) assesses what care you need and decides what you can receive."
+      },
+      "source_text_nl": "Het CIZ kijkt of je zorg kunt krijgen. Ook beslist het CIZ wat voor zorg je krijgt.",
+      "tags": ["CIZ", "indicatie", "zorg"]
+    },
+    {
+      "id": "M4_Q046", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Inentingen kinderen", "topic_en": "Children vaccinations",
+      "question_nl": "Kinderen krijgen inentingen bij het consultatiebureau.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Bij het consultatiebureau krijgen kinderen inentingen. Dit zijn prikken die kinderen beschermen tegen gevaarlijke ziektes.",
+        "en": "That is correct. At the child health clinic, children receive vaccinations. These are injections that protect children from dangerous diseases."
+      },
+      "source_text_nl": "Amina krijgt dan ook inentingen van de dokter. Dat zijn prikken tegen ziektes.",
+      "tags": ["inentingen", "consultatiebureau", "kinderen"]
+    },
+    {
+      "id": "M4_Q047", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Declareren", "topic_en": "Claiming",
+      "question_nl": "Als je zelf medische kosten hebt betaald, kun je die declareren bij je zorgverzekeraar.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Als je zelf medische kosten hebt betaald, stuur je de nota op naar de verzekeraar. Je krijgt dan het geld terug.",
+        "en": "That is correct. If you have paid medical costs yourself, you send the invoice to the insurer. You then get the money back."
+      },
+      "source_text_nl": "Als je alles hebt opgestuurd, krijg je het geld terug van de verzekering.",
+      "tags": ["declareren", "nota", "vergoeding"]
+    },
+    {
+      "id": "M4_Q048", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Gezond leven", "topic_en": "Healthy lifestyle",
+      "question_nl": "Als je veel beweegt en gezond eet, word je minder snel ziek.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Door veel te bewegen en gezond te eten, blijf je gezonder en word je minder snel ziek.",
+        "en": "That is correct. By exercising regularly and eating healthily, you stay healthier and are less likely to become ill."
+      },
+      "source_text_nl": "Als je veel beweegt en gezond eet, word je minder snel ziek.",
+      "tags": ["gezond leven", "bewegen", "eten"]
+    },
+    {
+      "id": "M4_Q049", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Thuiszorg", "topic_en": "Home care",
+      "question_nl": "Bij thuiszorg hoef je niet naar een instelling; de zorg komt naar jou thuis.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Bij thuiszorg komt de zorg naar jou thuis. Je blijft thuis wonen en krijgt hulp van zorgverleners.",
+        "en": "That is correct. With home care, the care comes to you at home. You continue to live at home and receive help from care workers."
+      },
+      "source_text_nl": "Bij thuiszorg komt de zorg naar je huis toe. Je blijft thuis wonen.",
+      "tags": ["thuiszorg", "thuis", "zorgverlener"]
+    },
+    {
+      "id": "M4_Q050", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Zorgverzekeraar wisselen", "topic_en": "Switching health insurer",
+      "question_nl": "Je kunt elk jaar van zorgverzekeraar wisselen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Je kunt elk jaar, aan het einde van het jaar, beslissen of je wilt wisselen van zorgverzekeraar.",
+        "en": "That is correct. Every year, at the end of the year, you can decide whether you want to switch health insurer."
+      },
+      "source_text_nl": "Je kunt elk jaar van zorgverzekeraar wisselen.",
+      "tags": ["zorgverzekeraar", "wisselen", "jaarlijks"]
+    },
+    {
+      "id": "M4_Q051", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Psycholoog", "topic_en": "Psychologist",
+      "question_nl": "Wanneer ga je naar een psycholoog?",
+      "options": [
+        {"id": "A", "text_nl": "Als je lichamelijke klachten hebt"},
+        {"id": "B", "text_nl": "Als je psychische of emotionele problemen hebt"},
+        {"id": "C", "text_nl": "Als je tanden pijn doen"},
+        {"id": "D", "text_nl": "Als je een gebroken been hebt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je gaat naar een psycholoog als je psychische of emotionele problemen hebt. Denk aan angst, depressie of stress.",
+        "en": "You go to a psychologist when you have psychological or emotional problems — such as anxiety, depression or stress."
+      },
+      "source_text_nl": "Voorbeelden van zorg buiten een instelling zijn de fysiotherapeut, de psycholoog of de psychiater.",
+      "tags": ["psycholoog", "psychisch", "emotioneel"]
+    },
+    {
+      "id": "M4_Q052", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Zorgverzekering afsluiten", "topic_en": "Taking out health insurance",
+      "question_nl": "Wat doe je als je een zorgverzekering afsluit?",
+      "options": [
+        {"id": "A", "text_nl": "Je koopt medicijnen bij de apotheek"},
+        {"id": "B", "text_nl": "Je begint een verzekering bij een zorgverzekeraar"},
+        {"id": "C", "text_nl": "Je schrijft je in bij de huisarts"},
+        {"id": "D", "text_nl": "Je vraagt huurtoeslag aan"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een zorgverzekering afsluiten betekent dat je een verzekering begint bij een zorgverzekeraar. Je betaalt dan elke maand premie.",
+        "en": "Taking out health insurance means you start a policy with a health insurer. You then pay a monthly premium."
+      },
+      "source_text_nl": "Je moet zelf een zorgverzekeraar kiezen. Afsluiten betekent dat je een verzekering begint.",
+      "tags": ["zorgverzekering", "afsluiten", "verzekeraar"]
+    },
+    {
+      "id": "M4_Q053", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Ziek melden bij werk", "topic_en": "Reporting sick at work",
+      "question_nl": "Wat doe je als je ziek bent en niet kunt werken?",
+      "options": [
+        {"id": "A", "text_nl": "Je gaat direct naar het ziekenhuis"},
+        {"id": "B", "text_nl": "Je meldt je zo snel mogelijk ziek bij je werkgever"},
+        {"id": "C", "text_nl": "Je belt de zorgverzekeraar"},
+        {"id": "D", "text_nl": "Je meldt je bij het UWV"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je ziek bent en niet kunt werken, moet je je zo snel mogelijk ziek melden bij je werkgever. Dat doe je meestal door te bellen.",
+        "en": "If you are ill and cannot work, you must report sick to your employer as soon as possible. You usually do this by calling."
+      },
+      "source_text_nl": "Als je ziek bent, moet je je ziek melden bij je werkgever.",
+      "tags": ["ziek melden", "werkgever", "ziekte"]
+    },
+    {
+      "id": "M4_Q054", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kraamvisite – consultatiebureau", "topic_en": "Newborn – health checks",
+      "question_nl": "Tot welke leeftijd gaan kinderen naar het consultatiebureau?",
+      "options": [
+        {"id": "A", "text_nl": "Tot 1 jaar"},
+        {"id": "B", "text_nl": "Tot 4 jaar"},
+        {"id": "C", "text_nl": "Tot 12 jaar"},
+        {"id": "D", "text_nl": "Tot 18 jaar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Kinderen gaan naar het consultatiebureau tot ze vier jaar zijn. Ze gaan er ongeveer vijftien keer naartoe in die periode.",
+        "en": "Children go to the child health clinic until they are four years old. They visit approximately fifteen times during that period."
+      },
+      "source_text_nl": "Kinderen gaan naar het consultatiebureau tot ze vier jaar zijn. Ze gaan er ongeveer vijftien keer.",
+      "tags": ["consultatiebureau", "leeftijd", "vier jaar"]
+    },
+    {
+      "id": "M4_Q055", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Zorg – kosten", "topic_en": "Healthcare costs",
+      "question_nl": "Waarom is het belangrijk dat je een zorgverzekering hebt?",
+      "options": [
+        {"id": "A", "text_nl": "Omdat je anders niet bij de huisarts kunt"},
+        {"id": "B", "text_nl": "Omdat medische zorg veel kan kosten en je dat niet altijd zelf kunt betalen"},
+        {"id": "C", "text_nl": "Omdat de wet zegt dat je het nodig hebt voor werk"},
+        {"id": "D", "text_nl": "Omdat je anders geen uitkering krijgt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Medische zorg kan veel geld kosten. Als je naar een dokter, specialist of ziekenhuis moet, kost dat geld. De zorgverzekering betaalt die kosten.",
+        "en": "Medical care can cost a lot of money. Going to a doctor, specialist or hospital costs money. Health insurance pays those costs."
+      },
+      "source_text_nl": "Als je ziek wordt, kan dat veel geld kosten. Daarom is het belangrijk je te verzekeren.",
+      "tags": ["zorgverzekering", "kosten", "belang"]
+    },
+    {
+      "id": "M4_Q056", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Zorg – instelling", "topic_en": "Care in a facility",
+      "question_nl": "Wat is zorg binnen een instelling?",
+      "options": [
+        {"id": "A", "text_nl": "Zorg die thuis wordt gegeven"},
+        {"id": "B", "text_nl": "Zorg waarbij je in een ziekenhuis, verpleeghuis of verzorgingshuis verblijft"},
+        {"id": "C", "text_nl": "Zorg van de wijkverpleegster"},
+        {"id": "D", "text_nl": "Zorg van de fysiotherapeut"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Zorg binnen een instelling betekent dat je in een gebouw verblijft waar je zorg krijgt. Bijvoorbeeld in een ziekenhuis, verpleeghuis of verzorgingshuis.",
+        "en": "Care within a facility means you stay in a building where you receive care — for example in a hospital, nursing home or care home."
+      },
+      "source_text_nl": "Voor zorg binnen een instelling verblijf je in een ziekenhuis, verpleeghuis of verzorgingshuis.",
+      "tags": ["zorg instelling", "ziekenhuis", "verpleeghuis"]
+    },
+    {
+      "id": "M4_Q057", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Bureau Jeugdzorg", "topic_en": "Youth care bureau",
+      "question_nl": "Wat doet Bureau Jeugdzorg?",
+      "options": [
+        {"id": "A", "text_nl": "Bureau Jeugdzorg helpt bij het vinden van werk voor jongeren"},
+        {"id": "B", "text_nl": "Bureau Jeugdzorg helpt kinderen en gezinnen met problemen bij de opvoeding"},
+        {"id": "C", "text_nl": "Bureau Jeugdzorg geeft lessen op school"},
+        {"id": "D", "text_nl": "Bureau Jeugdzorg regelt de zorgverzekering voor kinderen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Bureau Jeugdzorg helpt kinderen en gezinnen die problemen hebben met de opvoeding. Ze geven advies en hulp.",
+        "en": "Bureau Jeugdzorg helps children and families who have problems with parenting. They provide advice and support."
+      },
+      "source_text_nl": "Denk je dat je een maatschappelijk werker nodig hebt? Of iemand van Bureau Jeugdzorg? Dan moet je eerst naar je huisarts gaan.",
+      "tags": ["Bureau Jeugdzorg", "opvoeding", "gezin"]
+    },
+    {
+      "id": "M4_Q058", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Maatschappelijk werker", "topic_en": "Social worker",
+      "question_nl": "Hoe kun je hulp krijgen van een maatschappelijk werker?",
+      "options": [
+        {"id": "A", "text_nl": "Je gaat direct naar de maatschappelijk werker"},
+        {"id": "B", "text_nl": "Je gaat eerst naar de huisarts; die vertelt je waar je naartoe kunt"},
+        {"id": "C", "text_nl": "Je belt de gemeente"},
+        {"id": "D", "text_nl": "Je meldt je aan bij de zorgverzekeraar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je denkt dat je hulp van een maatschappelijk werker nodig hebt, ga je eerst naar de huisarts. De huisarts vertelt je dan waar je het beste naartoe kunt gaan.",
+        "en": "If you think you need help from a social worker, you first go to the GP. The GP then tells you where to go for the best help."
+      },
+      "source_text_nl": "Dan moet je eerst naar je huisarts gaan. De huisarts zegt dan waar je het beste naar toe kunt gaan.",
+      "tags": ["maatschappelijk werker", "huisarts", "hulp"]
+    },
+    {
+      "id": "M4_Q059", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "EHBO", "topic_en": "First aid",
+      "question_nl": "Waar kun je terecht als je gewond bent geraakt maar het geen noodgeval is?",
+      "options": [
+        {"id": "A", "text_nl": "Je belt direct 112"},
+        {"id": "B", "text_nl": "Je gaat naar de huisarts of de huisartsenpost"},
+        {"id": "C", "text_nl": "Je gaat naar de apotheek"},
+        {"id": "D", "text_nl": "Je belt het consultatiebureau"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je gewond bent maar het geen noodgeval is, ga je naar de huisarts of de huisartsenpost. De huisartsenpost is open als de huisarts dicht is.",
+        "en": "If you are injured but it is not an emergency, you go to the GP or the out-of-hours GP service (huisartsenpost). The out-of-hours service is open when the GP surgery is closed."
+      },
+      "source_text_nl": "Als je gewond bent maar het geen noodgeval is, ga je naar de huisarts.",
+      "tags": ["gewond", "huisarts", "huisartsenpost"]
+    },
+    {
+      "id": "M4_Q060", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gezondheid en bewegen", "topic_en": "Health and exercise",
+      "question_nl": "Waarom is bewegen goed voor je gezondheid?",
+      "options": [
+        {"id": "A", "text_nl": "Omdat je dan minder hoeft te slapen"},
+        {"id": "B", "text_nl": "Omdat je conditie beter wordt en je minder snel ziek wordt"},
+        {"id": "C", "text_nl": "Omdat je dan goedkoper kunt eten"},
+        {"id": "D", "text_nl": "Omdat je dan geen zorgverzekering nodig hebt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Bewegen is goed voor je gezondheid omdat je conditie beter wordt en je minder snel ziek wordt. Dat zegt ook Bob in de tekst over de tennisvereniging.",
+        "en": "Exercise is good for your health because your fitness improves and you are less likely to become ill. This is also what Bob says in the text about the tennis club."
+      },
+      "source_text_nl": "Tennissen is niet alleen leuk. Het is ook erg goed voor mijn conditie! Dat is ook belangrijk.",
+      "tags": ["bewegen", "conditie", "gezondheid"]
+    },
+    {
+      "id": "M4_Q061", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Premie zorgverzekering", "topic_en": "Insurance premium",
+      "question_nl": "De premie van de zorgverzekering is het bedrag dat je maandelijks betaalt.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De premie is het maandelijkse bedrag dat je aan de zorgverzekeraar betaalt voor je verzekering.",
+        "en": "That is correct. The premium is the monthly amount you pay to the health insurer for your insurance."
+      },
+      "source_text_nl": "Jij betaalt de zorgverzekering geld. Dat heet premie.",
+      "tags": ["premie", "maandelijks", "zorgverzekering"]
+    },
+    {
+      "id": "M4_Q062", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Fysiotherapie basispakket", "topic_en": "Physiotherapy basic package",
+      "question_nl": "Fysiotherapie zit altijd in het basispakket van de zorgverzekering.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Fysiotherapie zit niet automatisch in het basispakket. Voor fysiotherapie heb je een aanvullende verzekering nodig.",
+        "en": "This is incorrect. Physiotherapy is not automatically included in the basic package. You need supplementary insurance for physiotherapy."
+      },
+      "source_text_nl": "De aanvullende verzekering is voor de overige kosten. Bijvoorbeeld van fysiotherapie.",
+      "tags": ["fysiotherapie", "basispakket", "aanvullende verzekering"]
+    },
+    {
+      "id": "M4_Q063", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Groeiboekje", "topic_en": "Growth booklet",
+      "question_nl": "In het groeiboekje schrijft de dokter op hoe het kind groeit.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In het groeiboekje wordt bijgehouden hoe het kind groeit en of het gezond is.",
+        "en": "That is correct. The growth booklet records how the child is growing and whether they are healthy."
+      },
+      "source_text_nl": "Dit schrijft de dokter op in het groeiboekje.",
+      "tags": ["groeiboekje", "groei", "kind"]
+    },
+    {
+      "id": "M4_Q064", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Telefonisch spreekuur", "topic_en": "Telephone surgery",
+      "question_nl": "Tijdens het telefonisch spreekuur kun je de huisarts bellen met een korte vraag.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Het telefonisch spreekuur is bedoeld voor korte vragen, zodat je niet altijd persoonlijk naar de huisarts hoeft.",
+        "en": "That is correct. The telephone surgery is for short questions, so you do not always have to visit the GP in person."
+      },
+      "source_text_nl": "Als je een korte vraag hebt, kun je ook met je huisarts bellen tijdens het telefonisch spreekuur.",
+      "tags": ["telefonisch spreekuur", "korte vraag", "huisarts"]
+    },
+    {
+      "id": "M4_Q065", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Verzorgingshuis", "topic_en": "Care home",
+      "question_nl": "In een verzorgingshuis zijn er altijd mensen die voor de bewoners zorgen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In een verzorgingshuis zijn altijd medewerkers aanwezig die voor de bewoners zorgen.",
+        "en": "That is correct. In a care home, there are always staff members present to care for the residents."
+      },
+      "source_text_nl": "Dan zijn er altijd mensen in de buurt die voor je zorgen.",
+      "tags": ["verzorgingshuis", "personeel", "zorg"]
+    },
+    {
+      "id": "M4_Q066", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Declaratieformulier", "topic_en": "Claim form",
+      "question_nl": "Je stuurt het declaratieformulier met de nota op naar de zorgverzekeraar.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Om geld terug te krijgen van de zorgverzekeraar, vul je een declaratieformulier in en stuur je dat samen met de nota op.",
+        "en": "That is correct. To get money back from the health insurer, you fill in a claim form and send it together with the invoice."
+      },
+      "source_text_nl": "Om te declareren moet je een formulier invullen. Je stuurt de nota op naar de verzekeraar.",
+      "tags": ["declaratieformulier", "nota", "opsturen"]
+    },
+    {
+      "id": "M4_Q067", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huisarts inschrijven", "topic_en": "Registering with a GP",
+      "question_nl": "Wat doe je als je een nieuwe huisarts hebt gevonden?",
+      "options": [
+        {"id": "A", "text_nl": "Je gaat direct langs als je ziek bent"},
+        {"id": "B", "text_nl": "Je belt op en vraagt of je je kunt laten inschrijven"},
+        {"id": "C", "text_nl": "Je vraagt de gemeente om je in te schrijven"},
+        {"id": "D", "text_nl": "Je stuurt een brief naar de zorgverzekeraar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je een huisarts hebt gevonden, bel je hem op. Je vraagt of je bij deze arts kunt laten inschrijven. Meestal kan dat.",
+        "en": "When you have found a GP, you call them. You ask whether you can register with this doctor. Usually this is possible."
+      },
+      "source_text_nl": "Heb je een huisarts gevonden? Dan bel je hem op. Je vraagt of je bij deze arts kunt laten inschrijven.",
+      "tags": ["huisarts", "inschrijven", "bellen"]
+    },
+    {
+      "id": "M4_Q068", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Zorgverzekering – pakket", "topic_en": "Health insurance – packages",
+      "question_nl": "Uit hoeveel pakketten bestaat de zorgverzekering?",
+      "options": [
+        {"id": "A", "text_nl": "Één pakket"},
+        {"id": "B", "text_nl": "Twee pakketten: een basispakket en een aanvullende verzekering"},
+        {"id": "C", "text_nl": "Drie pakketten"},
+        {"id": "D", "text_nl": "Vier pakketten"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De zorgverzekering bestaat uit twee pakketten: het basispakket en de aanvullende verzekering. Het basispakket is verplicht, de aanvullende verzekering is optioneel.",
+        "en": "Health insurance consists of two packages: the basic package and supplementary insurance. The basic package is compulsory; supplementary insurance is optional."
+      },
+      "source_text_nl": "De zorgverzekering bestaat uit twee pakketten. Je hebt een basispakket en de aanvullende verzekering.",
+      "tags": ["zorgverzekering", "basispakket", "aanvullend"]
+    },
+    {
+      "id": "M4_Q069", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Geldterugboeking zorgverzekering", "topic_en": "Insurance refund",
+      "question_nl": "Hoe krijg je geld terug als je medische kosten hebt gedeclareerd?",
+      "options": [
+        {"id": "A", "text_nl": "De apotheek geeft je het geld terug"},
+        {"id": "B", "text_nl": "De verzekering zet het geld op je bankrekening"},
+        {"id": "C", "text_nl": "Je krijgt een cheque van de dokter"},
+        {"id": "D", "text_nl": "Je haalt het geld op bij de verzekeraar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je alles hebt opgestuurd naar de verzekeraar, zet de verzekering het geld terug op je bankrekening.",
+        "en": "Once you have sent everything to the insurer, the insurer puts the money back into your bank account."
+      },
+      "source_text_nl": "De verzekering zet het geld op je bankrekening.",
+      "tags": ["terugbetaling", "bankrekening", "declareren"]
+    },
+    {
+      "id": "M4_Q070", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Zorg buiten instelling", "topic_en": "Care outside a facility",
+      "question_nl": "Wat is een voorbeeld van zorg buiten een instelling?",
+      "options": [
+        {"id": "A", "text_nl": "Verblijf in een verpleeghuis"},
+        {"id": "B", "text_nl": "Een bezoek aan de fysiotherapeut"},
+        {"id": "C", "text_nl": "Een operatie in het ziekenhuis"},
+        {"id": "D", "text_nl": "Verblijf in een verzorgingshuis"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Zorg buiten een instelling is zorg waarbij je niet hoeft te verblijven. Een bezoek aan de fysiotherapeut, psycholoog of de huisarts is zorg buiten een instelling.",
+        "en": "Care outside a facility is care where you do not need to stay. A visit to the physiotherapist, psychologist or GP is care outside a facility."
+      },
+      "source_text_nl": "Voorbeelden van zorg buiten een instelling zijn de fysiotherapeut, de psycholoog of de psychiater.",
+      "tags": ["zorg buiten instelling", "fysiotherapeut", "ambulant"]
+    },
+    {
+      "id": "M4_Q071", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Psycholoog aanvullend", "topic_en": "Psychologist supplementary",
+      "question_nl": "Psychologische hulp valt onder de aanvullende verzekering.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is gedeeltelijk onjuist. Basis geestelijke gezondheidszorg (GGZ) valt onder het basispakket. Specialistische GGZ ook. Aanvullend is voor bepaalde extra behandelingen.",
+        "en": "This is partially incorrect. Basic mental health care (GGZ) falls under the basic package. Specialist mental health care too. Supplementary is for certain extra treatments."
+      },
+      "source_text_nl": "De aanvullende verzekering is voor de overige kosten, zoals psychische hulp die niet in het basispakket valt.",
+      "tags": ["psycholoog", "GGZ", "basispakket"]
+    },
+    {
+      "id": "M4_Q072", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Wijkverpleegster", "topic_en": "District nurse",
+      "question_nl": "Een wijkverpleegster werkt alleen in het ziekenhuis.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Een wijkverpleegster geeft zorg aan mensen thuis in de wijk. Ze werkt juist niet in het ziekenhuis maar bij mensen thuis.",
+        "en": "This is incorrect. A district nurse provides care to people at home in the neighbourhood. She works precisely not in a hospital but in people's homes."
+      },
+      "source_text_nl": "De wijkverpleegster geeft zorg aan mensen thuis.",
+      "tags": ["wijkverpleegster", "thuis", "wijk"]
+    },
+    {
+      "id": "M4_Q073", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Bureau Jeugdzorg – huisarts", "topic_en": "Youth care – GP referral",
+      "question_nl": "Als je hulp wilt van Bureau Jeugdzorg, ga je eerst naar je huisarts.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Als je denkt dat je hulp van Bureau Jeugdzorg nodig hebt, ga je eerst naar de huisarts. Die vertelt je waar je naartoe kunt.",
+        "en": "That is correct. If you think you need help from Bureau Jeugdzorg, you first go to the GP. They tell you where to go."
+      },
+      "source_text_nl": "Denk je dat je iemand van Bureau Jeugdzorg nodig hebt? Dan moet je eerst naar je huisarts gaan.",
+      "tags": ["Bureau Jeugdzorg", "huisarts", "verwijzing"]
+    },
+    {
+      "id": "M4_Q074", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Ambulance – 112", "topic_en": "Ambulance – 112",
+      "question_nl": "112 is het alarmnummer voor politie, brandweer én ambulance.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. 112 is het algemene alarmnummer in Nederland voor alle hulpdiensten: politie, brandweer en ambulance.",
+        "en": "That is correct. 112 is the general emergency number in the Netherlands for all emergency services: police, fire brigade and ambulance."
+      },
+      "source_text_nl": "Bij een noodgeval bel je 112 voor de ambulance, politie of brandweer.",
+      "tags": ["112", "alarmnummer", "ambulance"]
+    },
+    {
+      "id": "M4_Q075", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "CIZ – thuiszorg", "topic_en": "CIZ – home care",
+      "question_nl": "Het CIZ beslist of je recht hebt op thuiszorg.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Het CIZ beoordeelt of je recht hebt op thuiszorg of een plek in een zorginstelling. Ze geven een indicatie.",
+        "en": "That is correct. The CIZ assesses whether you are entitled to home care or a place in a care facility. They issue an indication."
+      },
+      "source_text_nl": "Het CIZ kijkt of je zorg kunt krijgen. Ook beslist het CIZ wat voor zorg je krijgt.",
+      "tags": ["CIZ", "thuiszorg", "indicatie"]
+    },
+    {
+      "id": "M4_Q076", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huisartsenpraktijk – locatie", "topic_en": "GP surgery location",
+      "question_nl": "Hoe kun je de website van de Gouden Gids bereiken om een huisarts te vinden?",
+      "options": [
+        {"id": "A", "text_nl": "www.werk.nl"},
+        {"id": "B", "text_nl": "www.goudengids.nl"},
+        {"id": "C", "text_nl": "www.funda.nl"},
+        {"id": "D", "text_nl": "www.kvk.nl"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je kunt de Gouden Gids ook online bekijken via www.goudengids.nl. Zo vind je een huisarts bij jou in de buurt.",
+        "en": "You can also view the Gouden Gids online at www.goudengids.nl. This way you can find a GP near you."
+      },
+      "source_text_nl": "Je kunt de Gouden Gids ook op het internet bekijken: http://www.goudengids.nl/.",
+      "tags": ["Gouden Gids", "internet", "huisarts zoeken"]
+    },
+    {
+      "id": "M4_Q077", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Gehandicapt", "topic_en": "Disabled",
+      "question_nl": "Voor wie is thuiszorg ook bedoeld naast ouderen?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen voor kinderen"},
+        {"id": "B", "text_nl": "Voor gehandicapten en chronisch zieken"},
+        {"id": "C", "text_nl": "Alleen voor mensen met een hoog inkomen"},
+        {"id": "D", "text_nl": "Alleen voor mensen met een zorgverzekering"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Thuiszorg is bedoeld voor ouderen, gehandicapten en chronisch zieken. Zij kunnen niet altijd goed voor zichzelf zorgen.",
+        "en": "Home care is intended for the elderly, disabled people and the chronically ill. They cannot always look after themselves well."
+      },
+      "source_text_nl": "Thuiszorg is bedoeld voor ouderen, gehandicapten en chronisch zieken.",
+      "tags": ["thuiszorg", "gehandicapten", "chronisch ziek"]
+    },
+    {
+      "id": "M4_Q078", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huisarts – raad opvolgen", "topic_en": "Following GP advice",
+      "question_nl": "Waarom is het belangrijk om naar de raad van je huisarts te luisteren?",
+      "options": [
+        {"id": "A", "text_nl": "Omdat je anders een boete krijgt"},
+        {"id": "B", "text_nl": "Omdat je dan hopelijk snel beter wordt"},
+        {"id": "C", "text_nl": "Omdat de verzekeraar het verplicht"},
+        {"id": "D", "text_nl": "Omdat de gemeente dit vereist"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het is belangrijk dat je goed luistert naar de raad van je huisarts. Als je doet wat de huisarts zegt, ben je hopelijk snel beter.",
+        "en": "It is important to listen carefully to the GP's advice. If you do what the GP says, you will hopefully recover quickly."
+      },
+      "source_text_nl": "Het is belangrijk dat je goed naar de raad van je huisarts luistert. Als je doet wat de huisarts zegt, ben je hopelijk snel beter.",
+      "tags": ["huisarts", "raad", "beter worden"]
+    },
+    {
+      "id": "M4_Q079", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Zorg aanvragen – procedure", "topic_en": "Applying for care – procedure",
+      "question_nl": "Wat is de juiste volgorde om thuiszorg aan te vragen?",
+      "options": [
+        {"id": "A", "text_nl": "Direct contact opnemen met een thuiszorginstelling"},
+        {"id": "B", "text_nl": "Eerst naar het CIZ, dan contact opnemen met een thuiszorginstelling"},
+        {"id": "C", "text_nl": "Eerst bellen met de gemeente, dan naar de huisarts"},
+        {"id": "D", "text_nl": "Direct contact opnemen met de zorgverzekeraar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Om thuiszorg te krijgen, ga je eerst naar het CIZ. Het CIZ geeft een indicatie. Daarna neem je contact op met een instelling of thuiszorgorganisatie bij jou in de buurt.",
+        "en": "To receive home care, you first go to the CIZ. The CIZ issues an indication. After that you contact a facility or home care organisation near you."
+      },
+      "source_text_nl": "Eerst moet je naar het CIZ. Daarna neem je contact op met een instelling of thuiszorg bij jou in de buurt.",
+      "tags": ["thuiszorg aanvragen", "CIZ", "procedure"]
+    },
+    {
+      "id": "M4_Q080", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Gouden Gids – huisarts", "topic_en": "Yellow pages – GP",
+      "question_nl": "Je kunt een huisarts vinden via de Gouden Gids of op internet.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In de Gouden Gids staan adressen en telefoonnummers van huisartsen bij jou in de buurt. Je kunt de Gouden Gids ook op internet bekijken.",
+        "en": "That is correct. The Gouden Gids lists addresses and phone numbers of GPs near you. You can also view it on the internet."
+      },
+      "source_text_nl": "Je kunt bijvoorbeeld in de Gouden Gids kijken. Je kunt de Gouden Gids ook op het internet bekijken.",
+      "tags": ["Gouden Gids", "huisarts", "internet"]
+    }
+  ]
+}

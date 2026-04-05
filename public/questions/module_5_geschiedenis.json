@@ -1,0 +1,1274 @@
+{
+  "module_id": "M5",
+  "module_title_nl": "Geschiedenis en geografie",
+  "module_title_en": "History and Geography",
+  "total_questions": 80,
+  "questions": [
+    {
+      "id": "M5_Q001", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "De gouden eeuw", "topic_en": "The Golden Age",
+      "question_nl": "Hoe heet de periode in de 17e eeuw waarin Nederland heel rijk en machtig was?",
+      "options": [
+        {"id": "A", "text_nl": "De IJzeren Eeuw"},
+        {"id": "B", "text_nl": "De Gouden Eeuw"},
+        {"id": "C", "text_nl": "De Zilveren Eeuw"},
+        {"id": "D", "text_nl": "De Renaissance"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De 17e eeuw wordt de Gouden Eeuw genoemd. In die tijd was Nederland één van de rijkste landen ter wereld door de handel.",
+        "en": "The 17th century is called the Golden Age. During this time, the Netherlands was one of the richest countries in the world due to trade."
+      },
+      "source_text_nl": "Daarom wordt de zeventiende eeuw ook de gouden eeuw genoemd.",
+      "tags": ["gouden eeuw", "17e eeuw", "rijkdom"]
+    },
+    {
+      "id": "M5_Q002", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "VOC", "topic_en": "VOC",
+      "question_nl": "Wat betekent VOC?",
+      "options": [
+        {"id": "A", "text_nl": "Vluchtelingen Opvang Centrum"},
+        {"id": "B", "text_nl": "Verenigde Oost-Indische Compagnie"},
+        {"id": "C", "text_nl": "Vrije Ondernemers Club"},
+        {"id": "D", "text_nl": "Vereniging voor Oost-Europese Cultuur"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "VOC staat voor Verenigde Oost-Indische Compagnie. De VOC werd in 1602 opgericht en bouwde schepen voor de handel met verre landen.",
+        "en": "VOC stands for United East India Company. The VOC was founded in 1602 and built ships for trade with distant countries."
+      },
+      "source_text_nl": "In 1602 werd de VOC (Verenigde Oost-Indische Compagnie) opgericht.",
+      "tags": ["VOC", "handel", "schepen"]
+    },
+    {
+      "id": "M5_Q003", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "VOC – handel", "topic_en": "VOC – trade",
+      "question_nl": "Waarheen gingen de schepen van de VOC vooral?",
+      "options": [
+        {"id": "A", "text_nl": "Naar Amerika"},
+        {"id": "B", "text_nl": "Naar Azië"},
+        {"id": "C", "text_nl": "Naar Afrika"},
+        {"id": "D", "text_nl": "Naar Australië"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De schepen van de VOC gingen vooral naar Azië. Ze namen specerijen, koffie, thee, cacao en suiker mee terug naar Nederland.",
+        "en": "The VOC ships went mainly to Asia. They brought back spices, coffee, tea, cocoa and sugar to the Netherlands."
+      },
+      "source_text_nl": "Die schepen gingen vooral naar Azië. Ze namen specerijen, koffie, thee, cacao en suiker mee terug naar Nederland.",
+      "tags": ["VOC", "Azië", "specerijen"]
+    },
+    {
+      "id": "M5_Q004", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kolonies", "topic_en": "Colonies",
+      "question_nl": "Wat is een kolonie?",
+      "options": [
+        {"id": "A", "text_nl": "Een schip van de VOC"},
+        {"id": "B", "text_nl": "Een land dat door een ander land ver weg wordt bestuurd"},
+        {"id": "C", "text_nl": "Een haven in Nederland"},
+        {"id": "D", "text_nl": "Een provincie van Nederland"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een kolonie is een land dat door een ander land ver weg wordt bestuurd. Nederland had kolonies in Amerika, Azië en Afrika.",
+        "en": "A colony is a country that is governed by another country far away. The Netherlands had colonies in America, Asia and Africa."
+      },
+      "source_text_nl": "Een kolonie is een land dat door een ander land ver weg wordt bestuurd.",
+      "tags": ["kolonie", "bestuur", "ver weg"]
+    },
+    {
+      "id": "M5_Q005", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Nederlandse kolonies", "topic_en": "Dutch colonies",
+      "question_nl": "Welke landen waren de belangrijkste kolonies van Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Egypte en Marokko"},
+        {"id": "B", "text_nl": "Nederlands-Indië (nu Indonesië) en Suriname"},
+        {"id": "C", "text_nl": "China en Japan"},
+        {"id": "D", "text_nl": "Canada en Australië"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De belangrijkste kolonies van Nederland waren Nederlands-Indië (nu Indonesië) en Suriname.",
+        "en": "The most important Dutch colonies were the Dutch East Indies (now Indonesia) and Suriname."
+      },
+      "source_text_nl": "De belangrijkste kolonies waren Nederlands-Indië (nu Indonesië) en Suriname.",
+      "tags": ["kolonies", "Indonesië", "Suriname"]
+    },
+    {
+      "id": "M5_Q006", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Slavernij", "topic_en": "Slavery",
+      "question_nl": "Wat gebeurde er met slaven in de Nederlandse kolonies?",
+      "options": [
+        {"id": "A", "text_nl": "Ze werden goed betaald voor hun werk"},
+        {"id": "B", "text_nl": "Ze werden verkocht door Nederlanders en hadden geen rechten"},
+        {"id": "C", "text_nl": "Ze mochten vrij reizen"},
+        {"id": "D", "text_nl": "Ze werden beschermd door de VOC"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In sommige kolonies werden slaven gehouden. Ze werden verkocht door de Nederlanders en hadden geen rechten. Dit is een donkere bladzijde in de Nederlandse geschiedenis.",
+        "en": "In some colonies, slaves were kept. They were sold by the Dutch and had no rights. This is a dark chapter in Dutch history."
+      },
+      "source_text_nl": "In sommige kolonies werden slaven gehouden. Zij werden verkocht door de Nederlanders en hadden geen rechten.",
+      "tags": ["slavernij", "kolonies", "rechten"]
+    },
+    {
+      "id": "M5_Q007", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Rembrandt", "topic_en": "Rembrandt",
+      "question_nl": "Wie is Rembrandt van Rijn?",
+      "options": [
+        {"id": "A", "text_nl": "Een bekende Nederlandse zeevaarder"},
+        {"id": "B", "text_nl": "Een beroemde Nederlandse schilder uit de Gouden Eeuw"},
+        {"id": "C", "text_nl": "Een Nederlandse ontdekkingsreiziger"},
+        {"id": "D", "text_nl": "Een Nederlandse politicus"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Rembrandt van Rijn is een beroemde Nederlandse schilder uit de Gouden Eeuw. Hij maakte in 1642 het schilderij 'De Nachtwacht'.",
+        "en": "Rembrandt van Rijn is a famous Dutch painter from the Golden Age. In 1642 he painted 'The Night Watch' (De Nachtwacht)."
+      },
+      "source_text_nl": "Eén van de beroemdste schilders is Rembrandt van Rijn. Hij maakte in 1642 het schilderij 'De Nachtwacht'.",
+      "tags": ["Rembrandt", "schilder", "gouden eeuw"]
+    },
+    {
+      "id": "M5_Q008", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "De Nachtwacht", "topic_en": "The Night Watch",
+      "question_nl": "In welk jaar maakte Rembrandt het beroemde schilderij 'De Nachtwacht'?",
+      "options": [
+        {"id": "A", "text_nl": "1492"},
+        {"id": "B", "text_nl": "1642"},
+        {"id": "C", "text_nl": "1789"},
+        {"id": "D", "text_nl": "1945"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Rembrandt maakte 'De Nachtwacht' in 1642. Dit is een van de beroemdste schilderijen ter wereld.",
+        "en": "Rembrandt painted 'The Night Watch' in 1642. It is one of the most famous paintings in the world."
+      },
+      "source_text_nl": "Hij maakte in 1642 het schilderij 'De Nachtwacht', dat erg bekend is.",
+      "tags": ["De Nachtwacht", "Rembrandt", "1642"]
+    },
+    {
+      "id": "M5_Q009", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Grachtenhuizen", "topic_en": "Canal houses",
+      "question_nl": "Waarom staan er grote huizen aan de grachten in Amsterdam?",
+      "options": [
+        {"id": "A", "text_nl": "Omdat de gemeente dit verplicht heeft gesteld"},
+        {"id": "B", "text_nl": "Omdat rijke kooplieden ze lieten bouwen in de Gouden Eeuw"},
+        {"id": "C", "text_nl": "Omdat ze gebouwd zijn na de Tweede Wereldoorlog"},
+        {"id": "D", "text_nl": "Omdat de VOC ze heeft gebouwd"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In Amsterdam zie je veel grote huizen aan de grachten. Deze huizen zijn gebouwd in de Gouden Eeuw door rijke handelaren.",
+        "en": "In Amsterdam you see many large houses along the canals. These houses were built during the Golden Age by wealthy merchants."
+      },
+      "source_text_nl": "In Amsterdam zie je veel grote huizen aan de grachten. Deze huizen zijn gebouwd in de gouden eeuw toen de handelaren rijk waren.",
+      "tags": ["grachtenhuizen", "Amsterdam", "gouden eeuw"]
+    },
+    {
+      "id": "M5_Q010", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Grachten – water transport", "topic_en": "Canals – water transport",
+      "question_nl": "Waarom staan de huizen in Amsterdam aan de grachten?",
+      "options": [
+        {"id": "A", "text_nl": "Omdat het mooi uitziet"},
+        {"id": "B", "text_nl": "Omdat veel spullen vroeger met schepen over het water vervoerd werden"},
+        {"id": "C", "text_nl": "Omdat er geen wegen waren"},
+        {"id": "D", "text_nl": "Omdat de huizen anders overstromen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De huizen staan aan grachten omdat veel spullen vroeger met schepen over het water vervoerd werden. Zo konden handelaren hun goederen makkelijk laden en lossen.",
+        "en": "The houses are on canals because many goods were transported by ship over water in the past. This allowed merchants to easily load and unload their goods."
+      },
+      "source_text_nl": "De huizen staan aan grachten, omdat veel spullen met schepen over het water vervoerd werden.",
+      "tags": ["grachten", "transport", "schepen"]
+    },
+    {
+      "id": "M5_Q011", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Tweede Wereldoorlog", "topic_en": "Second World War",
+      "question_nl": "Wanneer werd Nederland bevrijd aan het einde van de Tweede Wereldoorlog?",
+      "options": [
+        {"id": "A", "text_nl": "1939"},
+        {"id": "B", "text_nl": "1945"},
+        {"id": "C", "text_nl": "1918"},
+        {"id": "D", "text_nl": "1940"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nederland werd in 1945 bevrijd van de Duitse bezetting. Dit vieren we elk jaar op 5 mei (Bevrijdingsdag).",
+        "en": "The Netherlands was liberated from German occupation in 1945. We celebrate this every year on 5 May (Liberation Day)."
+      },
+      "source_text_nl": "Op Bevrijdingsdag viert Nederland dat het in 1945 bevrijd werd.",
+      "tags": ["Tweede Wereldoorlog", "bevrijding", "1945"]
+    },
+    {
+      "id": "M5_Q012", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Bezetting WOII", "topic_en": "Occupation WWII",
+      "question_nl": "Door welk land werd Nederland bezet tijdens de Tweede Wereldoorlog?",
+      "options": [
+        {"id": "A", "text_nl": "Frankrijk"},
+        {"id": "B", "text_nl": "Duitsland"},
+        {"id": "C", "text_nl": "Engeland"},
+        {"id": "D", "text_nl": "België"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nederland werd bezet door Duitsland tijdens de Tweede Wereldoorlog, van 1940 tot 1945. In 1945 werd Nederland bevrijd.",
+        "en": "The Netherlands was occupied by Germany during the Second World War, from 1940 to 1945. In 1945 the Netherlands was liberated."
+      },
+      "source_text_nl": "Nederland werd bezet door Duitsland van 1940 tot 1945.",
+      "tags": ["bezetting", "Duitsland", "Tweede Wereldoorlog"]
+    },
+    {
+      "id": "M5_Q013", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Nederland en water", "topic_en": "The Netherlands and water",
+      "question_nl": "Hoe is een groot deel van Nederland ontstaan?",
+      "options": [
+        {"id": "A", "text_nl": "Door bosontginning"},
+        {"id": "B", "text_nl": "Door het droogleggen van land dat onder water stond (polders)"},
+        {"id": "C", "text_nl": "Door aardbevingen"},
+        {"id": "D", "text_nl": "Door vulkaanuitbarstingen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een groot deel van Nederland ligt onder zeeniveau. De Nederlanders hebben het land drooggelegd met dijken en gemalen. Dit droogleggen heet polderen.",
+        "en": "A large part of the Netherlands lies below sea level. The Dutch reclaimed the land using dikes and pumping stations. This land reclamation is called poldering."
+      },
+      "source_text_nl": "Een groot deel van Nederland is gewonnen op het water. Nederlanders hebben land drooggelegd.",
+      "tags": ["polders", "droogleggen", "water"]
+    },
+    {
+      "id": "M5_Q014", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Dijken", "topic_en": "Dikes",
+      "question_nl": "Waarvoor dienen dijken in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Om wegen te bouwen"},
+        {"id": "B", "text_nl": "Om het land te beschermen tegen overstromingen vanuit zee en rivieren"},
+        {"id": "C", "text_nl": "Om boerderijen te scheiden"},
+        {"id": "D", "text_nl": "Om boten een veilige ligplaats te geven"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Dijken zijn grote wallen die het land beschermen tegen overstromingen vanuit de zee en rivieren. Zonder dijken zou een groot deel van Nederland onder water staan.",
+        "en": "Dikes are large embankments that protect the land from flooding from the sea and rivers. Without dikes, a large part of the Netherlands would be underwater."
+      },
+      "source_text_nl": "Dijken beschermen het land tegen het water van de zee en de rivieren.",
+      "tags": ["dijken", "overstromingen", "bescherming"]
+    },
+    {
+      "id": "M5_Q015", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Windmolens", "topic_en": "Windmills",
+      "question_nl": "Waarvoor werden windmolens vroeger gebruikt in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Om toeristen aan te trekken"},
+        {"id": "B", "text_nl": "Om water weg te pompen en graan te malen"},
+        {"id": "C", "text_nl": "Om elektriciteit op te wekken"},
+        {"id": "D", "text_nl": "Om het weer te voorspellen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Vroeger gebruikten Nederlanders windmolens om water weg te pompen uit de polders en om graan te malen. Windmolens zijn een belangrijk symbool van Nederland.",
+        "en": "The Dutch used windmills in the past to pump water out of the polders and to grind grain. Windmills are an important symbol of the Netherlands."
+      },
+      "source_text_nl": "Vroeger werden windmolens gebruikt om water weg te pompen en graan te malen.",
+      "tags": ["windmolens", "pompen", "graan"]
+    },
+    {
+      "id": "M5_Q016", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Rivieren in Nederland", "topic_en": "Rivers in the Netherlands",
+      "question_nl": "Welke grote rivieren stromen door Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "De Amazone en de Nijl"},
+        {"id": "B", "text_nl": "De Rijn, de Maas en de Schelde"},
+        {"id": "C", "text_nl": "De Theems en de Seine"},
+        {"id": "D", "text_nl": "De Donau en de Elbe"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De grote rivieren die door Nederland stromen zijn de Rijn, de Maas en de Schelde. Deze rivieren stromen uiteindelijk in de Noordzee.",
+        "en": "The major rivers flowing through the Netherlands are the Rhine, the Maas (Meuse) and the Scheldt. These rivers eventually flow into the North Sea."
+      },
+      "source_text_nl": "Door Nederland stromen grote rivieren: de Rijn, de Maas en de Schelde.",
+      "tags": ["rivieren", "Rijn", "Maas"]
+    },
+    {
+      "id": "M5_Q017", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Provincies", "topic_en": "Provinces",
+      "question_nl": "Hoeveel provincies heeft Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "10"},
+        {"id": "B", "text_nl": "12"},
+        {"id": "C", "text_nl": "15"},
+        {"id": "D", "text_nl": "8"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nederland heeft 12 provincies. Elke provincie heeft een eigen provinciebestuur.",
+        "en": "The Netherlands has 12 provinces. Each province has its own provincial government."
+      },
+      "source_text_nl": "Er zijn ook 12 provincies in Nederland.",
+      "tags": ["provincies", "12", "Nederland"]
+    },
+    {
+      "id": "M5_Q018", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Ligging Nederland", "topic_en": "Location of the Netherlands",
+      "question_nl": "Waar ligt Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "In Zuid-Europa aan de Middellandse Zee"},
+        {"id": "B", "text_nl": "In West-Europa aan de Noordzee"},
+        {"id": "C", "text_nl": "In Oost-Europa aan de Baltische Zee"},
+        {"id": "D", "text_nl": "In Noord-Europa aan de Atlantische Oceaan"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nederland ligt in West-Europa aan de Noordzee. Het grenst aan Duitsland en België.",
+        "en": "The Netherlands is located in Western Europe on the North Sea. It borders Germany and Belgium."
+      },
+      "source_text_nl": "Nederland ligt in West-Europa aan de Noordzee.",
+      "tags": ["ligging", "West-Europa", "Noordzee"]
+    },
+    {
+      "id": "M5_Q019", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Handelsnatie", "topic_en": "Trading nation",
+      "question_nl": "Waarom was Nederland een rijke handelsnatie in de Gouden Eeuw?",
+      "options": [
+        {"id": "A", "text_nl": "Omdat Nederland veel goud en zilver had"},
+        {"id": "B", "text_nl": "Omdat Nederland aan zee ligt en Nederlanders goed waren in het bouwen van schepen"},
+        {"id": "C", "text_nl": "Omdat Nederland de grootste kolonie ter wereld had"},
+        {"id": "D", "text_nl": "Omdat Nederland het meeste goud ter wereld bezat"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nederland ligt aan zee en er zijn veel rivieren. Daardoor waren Nederlanders goed in het bouwen van schepen en de handel over zee.",
+        "en": "The Netherlands lies on the sea and has many rivers. This is why the Dutch were good at building ships and sea trade."
+      },
+      "source_text_nl": "Nederland ligt aan zee en er zijn veel rivieren. Daarom waren Nederlanders goed in het bouwen van schepen.",
+      "tags": ["handel", "zee", "schepen", "rijkdom"]
+    },
+    {
+      "id": "M5_Q020", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Specerijen", "topic_en": "Spices",
+      "question_nl": "Welke producten brachten de VOC-schepen mee terug naar Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Goud en diamanten"},
+        {"id": "B", "text_nl": "Specerijen, koffie, thee, cacao en suiker"},
+        {"id": "C", "text_nl": "Katoen en zijde"},
+        {"id": "D", "text_nl": "Olie en gas"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De VOC-schepen brachten specerijen, koffie, thee, cacao en suiker mee terug naar Nederland. In Nederland werden deze producten verkocht.",
+        "en": "The VOC ships brought back spices, coffee, tea, cocoa and sugar to the Netherlands. These products were then sold in the Netherlands."
+      },
+      "source_text_nl": "Ze namen specerijen, koffie, thee, cacao en suiker mee terug naar Nederland. In Nederland werden deze producten weer verkocht.",
+      "tags": ["specerijen", "koffie", "thee", "handel"]
+    },
+    {
+      "id": "M5_Q021", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Schilderijen Gouden Eeuw", "topic_en": "Golden Age paintings",
+      "question_nl": "Wat lieten rijke handelaren in de Gouden Eeuw maken?",
+      "options": [
+        {"id": "A", "text_nl": "Grote schepen"},
+        {"id": "B", "text_nl": "Mooie huizen en schilderijen"},
+        {"id": "C", "text_nl": "Nieuwe wegen"},
+        {"id": "D", "text_nl": "Grote dijken"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Rijke handelaren lieten mooie huizen bouwen en schilderijen maken. Ze toonden zo hun rijkdom.",
+        "en": "Wealthy merchants had beautiful houses built and paintings made. This is how they displayed their wealth."
+      },
+      "source_text_nl": "Ze lieten mooie huizen bouwen en kochten mooie spullen. Ze lieten ook schilderijen maken.",
+      "tags": ["schilderijen", "huizen", "rijkdom", "gouden eeuw"]
+    },
+    {
+      "id": "M5_Q022", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Anne Frank", "topic_en": "Anne Frank",
+      "question_nl": "Wie was Anne Frank?",
+      "options": [
+        {"id": "A", "text_nl": "Een Nederlandse koningin"},
+        {"id": "B", "text_nl": "Een Joods meisje dat zich tijdens de Tweede Wereldoorlog verstopte en een dagboek schreef"},
+        {"id": "C", "text_nl": "Een Nederlandse schilder"},
+        {"id": "D", "text_nl": "Een Nederlandse politica"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Anne Frank was een Joods meisje dat zich met haar familie verstopte tijdens de Tweede Wereldoorlog in Amsterdam. Ze schreef een beroemd dagboek.",
+        "en": "Anne Frank was a Jewish girl who hid with her family during the Second World War in Amsterdam. She wrote a famous diary."
+      },
+      "source_text_nl": "Anne Frank was een Joods meisje dat zich verstopte in Amsterdam tijdens de Tweede Wereldoorlog en een dagboek schreef.",
+      "tags": ["Anne Frank", "dagboek", "Tweede Wereldoorlog"]
+    },
+    {
+      "id": "M5_Q023", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Polders", "topic_en": "Polders",
+      "question_nl": "Wat is een polder?",
+      "options": [
+        {"id": "A", "text_nl": "Een berg in Nederland"},
+        {"id": "B", "text_nl": "Land dat gewonnen is op het water door droogleggen"},
+        {"id": "C", "text_nl": "Een gracht in Amsterdam"},
+        {"id": "D", "text_nl": "Een haven in Rotterdam"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een polder is land dat gewonnen is op het water. Nederlanders hebben het water weggepompt en het land drooggelegd.",
+        "en": "A polder is land reclaimed from the water. The Dutch pumped out the water and drained the land."
+      },
+      "source_text_nl": "Een polder is land dat door droogleggen gewonnen is op het water.",
+      "tags": ["polder", "droogleggen", "water"]
+    },
+    {
+      "id": "M5_Q024", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Hoofdstad", "topic_en": "Capital city",
+      "question_nl": "Wat is de hoofdstad van Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Rotterdam"},
+        {"id": "B", "text_nl": "Amsterdam"},
+        {"id": "C", "text_nl": "Den Haag"},
+        {"id": "D", "text_nl": "Utrecht"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Amsterdam is de hoofdstad van Nederland. Den Haag is de regeringsstad waar de regering en het parlement zetelen.",
+        "en": "Amsterdam is the capital of the Netherlands. The Hague is the seat of government where the government and parliament are located."
+      },
+      "source_text_nl": "Amsterdam is de hoofdstad van Nederland.",
+      "tags": ["Amsterdam", "hoofdstad", "Nederland"]
+    },
+    {
+      "id": "M5_Q025", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Den Haag", "topic_en": "The Hague",
+      "question_nl": "Wat is Den Haag in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "De hoofdstad van Nederland"},
+        {"id": "B", "text_nl": "De regeringsstad waar de regering en het parlement zitten"},
+        {"id": "C", "text_nl": "De grootste havenstad van Nederland"},
+        {"id": "D", "text_nl": "De stad met de meeste inwoners"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Den Haag is de regeringsstad van Nederland. Hier zitten het parlement, de ministers en de koning.",
+        "en": "The Hague is the governmental city of the Netherlands. This is where parliament, ministers and the King are based."
+      },
+      "source_text_nl": "Den Haag is de regeringsstad van Nederland. Hier zetelen het parlement en de ministers.",
+      "tags": ["Den Haag", "regering", "parlement"]
+    },
+    {
+      "id": "M5_Q026", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Rotterdam – haven", "topic_en": "Rotterdam – port",
+      "question_nl": "Waarvoor staat Rotterdam bekend?",
+      "options": [
+        {"id": "A", "text_nl": "Als culturele hoofdstad"},
+        {"id": "B", "text_nl": "Als stad met de grootste haven van Europa"},
+        {"id": "C", "text_nl": "Als stad met de meeste windmolens"},
+        {"id": "D", "text_nl": "Als stad waar de VOC werd opgericht"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Rotterdam staat bekend als stad met de grootste haven van Europa, en zelfs één van de grootste havens ter wereld.",
+        "en": "Rotterdam is known as the city with the largest port in Europe, and even one of the largest ports in the world."
+      },
+      "source_text_nl": "Rotterdam heeft de grootste haven van Europa.",
+      "tags": ["Rotterdam", "haven", "Europa"]
+    },
+    {
+      "id": "M5_Q027", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Tulpen", "topic_en": "Tulips",
+      "question_nl": "Welk bloemenproduct is wereldwijd beroemd als symbool van Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Rozen"},
+        {"id": "B", "text_nl": "Tulpen"},
+        {"id": "C", "text_nl": "Zonneblomen"},
+        {"id": "D", "text_nl": "Narcissen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Tulpen zijn wereldwijd beroemd als symbool van Nederland. Nederland is een van de grootste producenten van bloembollen ter wereld.",
+        "en": "Tulips are world-famous as a symbol of the Netherlands. The Netherlands is one of the world's largest producers of flower bulbs."
+      },
+      "source_text_nl": "Tulpen zijn een bekend symbool van Nederland.",
+      "tags": ["tulpen", "bloemen", "symbool"]
+    },
+    {
+      "id": "M5_Q028", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Taal in Nederland", "topic_en": "Language in the Netherlands",
+      "question_nl": "Welke taal spreken de meeste mensen in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Fries"},
+        {"id": "B", "text_nl": "Nederlands"},
+        {"id": "C", "text_nl": "Duits"},
+        {"id": "D", "text_nl": "Engels"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De officiële taal van Nederland is het Nederlands. In de provincie Friesland is ook Fries een officiële taal.",
+        "en": "The official language of the Netherlands is Dutch. In the province of Friesland, Frisian is also an official language."
+      },
+      "source_text_nl": "De officiële taal van Nederland is het Nederlands.",
+      "tags": ["Nederlands", "taal", "officieel"]
+    },
+    {
+      "id": "M5_Q029", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "1602 – VOC opgericht", "topic_en": "1602 – VOC founded",
+      "question_nl": "In welk jaar werd de VOC opgericht?",
+      "options": [
+        {"id": "A", "text_nl": "1492"},
+        {"id": "B", "text_nl": "1602"},
+        {"id": "C", "text_nl": "1789"},
+        {"id": "D", "text_nl": "1648"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De VOC (Verenigde Oost-Indische Compagnie) werd in 1602 opgericht. Dit was het begin van de Nederlandse handelsexpansie naar Azië.",
+        "en": "The VOC (United East India Company) was founded in 1602. This was the beginning of Dutch trade expansion to Asia."
+      },
+      "source_text_nl": "In 1602 werd de VOC (Verenigde Oost-Indische Compagnie) opgericht.",
+      "tags": ["VOC", "1602", "oprichting"]
+    },
+    {
+      "id": "M5_Q030", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kooplieden", "topic_en": "Merchants",
+      "question_nl": "Hoe verdienden kooplieden in de Gouden Eeuw geld?",
+      "options": [
+        {"id": "A", "text_nl": "Door belasting te heffen"},
+        {"id": "B", "text_nl": "Door producten uit verre landen te halen en in Nederland te verkopen"},
+        {"id": "C", "text_nl": "Door schilderijen te maken"},
+        {"id": "D", "text_nl": "Door goud te delven"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Kooplieden verdienden geld door producten uit verre landen te halen en die in Nederland te verkopen. Hiermee verdienden de koopmannen veel geld.",
+        "en": "Merchants made money by bringing products from distant countries and selling them in the Netherlands. This is how the merchants earned a great deal of money."
+      },
+      "source_text_nl": "In Nederland werden deze producten weer verkocht. Hiermee verdienden de koopmannen veel geld.",
+      "tags": ["kooplieden", "handel", "geld verdienen"]
+    },
+    {
+      "id": "M5_Q031", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Grens Nederland", "topic_en": "Dutch borders",
+      "question_nl": "Welke landen grenzen aan Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Frankrijk en Zwitserland"},
+        {"id": "B", "text_nl": "Duitsland en België"},
+        {"id": "C", "text_nl": "Engeland en Denemarken"},
+        {"id": "D", "text_nl": "Luxemburg en Oostenrijk"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nederland grenst aan Duitsland in het oosten en aan België in het zuiden. In het westen en noorden grenst het aan de Noordzee.",
+        "en": "The Netherlands borders Germany to the east and Belgium to the south. To the west and north it borders the North Sea."
+      },
+      "source_text_nl": "Nederland grenst aan Duitsland en België.",
+      "tags": ["grenzen", "Duitsland", "België"]
+    },
+    {
+      "id": "M5_Q032", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Onder zeeniveau", "topic_en": "Below sea level",
+      "question_nl": "Hoe ligt een groot deel van Nederland ten opzichte van de zeespiegel?",
+      "options": [
+        {"id": "A", "text_nl": "Hoger dan de zeespiegel"},
+        {"id": "B", "text_nl": "Onder de zeespiegel"},
+        {"id": "C", "text_nl": "Op exact hetzelfde niveau"},
+        {"id": "D", "text_nl": "Ver boven de zeespiegel"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een groot deel van Nederland ligt onder de zeespiegel. Zonder dijken zou dit deel van Nederland onder water staan.",
+        "en": "A large part of the Netherlands lies below sea level. Without dikes, this part of the Netherlands would be underwater."
+      },
+      "source_text_nl": "Een groot deel van Nederland ligt onder de zeespiegel.",
+      "tags": ["zeespiegel", "laagland", "dijken"]
+    },
+    {
+      "id": "M5_Q033", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Watersnoodramp", "topic_en": "Flood disaster",
+      "question_nl": "Wanneer was de grote Watersnoodramp in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "1940"},
+        {"id": "B", "text_nl": "1953"},
+        {"id": "C", "text_nl": "1970"},
+        {"id": "D", "text_nl": "1900"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De grote Watersnoodramp was in 1953. Dijken braken door en grote delen van Zeeland, Noord-Brabant en Zuid-Holland overstroomden. Veel mensen kwamen om het leven.",
+        "en": "The great Flood Disaster was in 1953. Dikes broke and large parts of Zeeland, North Brabant and South Holland were flooded. Many people lost their lives."
+      },
+      "source_text_nl": "In 1953 was de grote Watersnoodramp. Dijken braken en grote gebieden overstroomden.",
+      "tags": ["Watersnoodramp", "1953", "overstromingen"]
+    },
+    {
+      "id": "M5_Q034", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Deltawerken", "topic_en": "Delta Works",
+      "question_nl": "Waarvoor zijn de Deltawerken gebouwd?",
+      "options": [
+        {"id": "A", "text_nl": "Om elektriciteit op te wekken"},
+        {"id": "B", "text_nl": "Om Nederland te beschermen tegen overstromingen na de ramp van 1953"},
+        {"id": "C", "text_nl": "Om schepen veiliger te laten varen"},
+        {"id": "D", "text_nl": "Om drinkwater op te slaan"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Na de Watersnoodramp van 1953 heeft Nederland de Deltawerken gebouwd. Dit is een groot waterbouwkundig project om Nederland te beschermen tegen overstromingen.",
+        "en": "After the 1953 Flood Disaster, the Netherlands built the Delta Works. This is a major hydraulic engineering project to protect the Netherlands from flooding."
+      },
+      "source_text_nl": "Na de Watersnoodramp van 1953 zijn de Deltawerken gebouwd om Nederland te beschermen.",
+      "tags": ["Deltawerken", "bescherming", "water"]
+    },
+    {
+      "id": "M5_Q035", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Fietsland", "topic_en": "Cycling country",
+      "question_nl": "Waarvoor staat Nederland ook bekend naast zijn tulpen en windmolens?",
+      "options": [
+        {"id": "A", "text_nl": "Bergen en ski-gebieden"},
+        {"id": "B", "text_nl": "Fietsen; Nederland heeft heel veel fietspaden"},
+        {"id": "C", "text_nl": "Tropische stranden"},
+        {"id": "D", "text_nl": "Grote bossen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nederland is bekend als fietsland. Er zijn heel veel fietspaden en Nederlanders fietsen veel. Het vlakke land maakt fietsen makkelijk.",
+        "en": "The Netherlands is known as a cycling country. There are many cycle paths and Dutch people cycle a lot. The flat landscape makes cycling easy."
+      },
+      "source_text_nl": "Nederland is bekend als fietsland met veel fietspaden.",
+      "tags": ["fietsen", "fietspaden", "Nederland"]
+    },
+    {
+      "id": "M5_Q036", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Gouden Eeuw", "topic_en": "Golden Age",
+      "question_nl": "De 17e eeuw wordt de Gouden Eeuw genoemd omdat Nederland toen heel rijk en machtig was.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In de 17e eeuw was Nederland een van de rijkste landen ter wereld door de handel. Daarom wordt die periode de Gouden Eeuw genoemd.",
+        "en": "That is correct. In the 17th century, the Netherlands was one of the richest countries in the world due to trade. That is why this period is called the Golden Age."
+      },
+      "source_text_nl": "Daarom wordt de zeventiende eeuw ook de gouden eeuw genoemd.",
+      "tags": ["gouden eeuw", "17e eeuw", "rijk"]
+    },
+    {
+      "id": "M5_Q037", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "VOC oprichting", "topic_en": "VOC founding",
+      "question_nl": "De VOC werd in 1602 opgericht.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In 1602 werd de VOC (Verenigde Oost-Indische Compagnie) opgericht.",
+        "en": "That is correct. In 1602 the VOC (United East India Company) was founded."
+      },
+      "source_text_nl": "In 1602 werd de VOC (Verenigde Oost-Indische Compagnie) opgericht.",
+      "tags": ["VOC", "1602", "oprichting"]
+    },
+    {
+      "id": "M5_Q038", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Rembrandt – De Nachtwacht", "topic_en": "Rembrandt – The Night Watch",
+      "question_nl": "Het schilderij 'De Nachtwacht' is gemaakt door Rembrandt van Rijn.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. 'De Nachtwacht' is in 1642 geschilderd door Rembrandt van Rijn. Het is een van de beroemdste schilderijen in de wereld.",
+        "en": "That is correct. 'The Night Watch' was painted in 1642 by Rembrandt van Rijn. It is one of the most famous paintings in the world."
+      },
+      "source_text_nl": "Eén van de beroemdste schilders is Rembrandt van Rijn. Hij maakte in 1642 het schilderij 'De Nachtwacht'.",
+      "tags": ["Rembrandt", "De Nachtwacht", "schilderij"]
+    },
+    {
+      "id": "M5_Q039", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Kolonies – slavernij", "topic_en": "Colonies – slavery",
+      "question_nl": "In de Nederlandse kolonies werden slaven gehouden die geen rechten hadden.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In sommige kolonies werden slaven gehouden. Ze hadden geen rechten en werden verkocht.",
+        "en": "That is correct. In some colonies, slaves were kept. They had no rights and were sold."
+      },
+      "source_text_nl": "In sommige kolonies werden slaven gehouden. Zij werden verkocht door de Nederlanders en hadden geen rechten.",
+      "tags": ["slavernij", "rechten", "kolonies"]
+    },
+    {
+      "id": "M5_Q040", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Bevrijding 1945", "topic_en": "Liberation 1945",
+      "question_nl": "Nederland werd in 1944 bevrijd van de Duitse bezetting.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Nederland werd in 1945 bevrijd, niet in 1944. We vieren dit elk jaar op 5 mei.",
+        "en": "This is incorrect. The Netherlands was liberated in 1945, not in 1944. We celebrate this every year on 5 May."
+      },
+      "source_text_nl": "Op Bevrijdingsdag viert Nederland dat het in 1945 bevrijd werd.",
+      "tags": ["bevrijding", "1945", "Tweede Wereldoorlog"]
+    },
+    {
+      "id": "M5_Q041", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Nederland – 12 provincies", "topic_en": "Netherlands – 12 provinces",
+      "question_nl": "Nederland heeft 12 provincies.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Nederland heeft 12 provincies, elk met een eigen provinciebestuur.",
+        "en": "That is correct. The Netherlands has 12 provinces, each with its own provincial government."
+      },
+      "source_text_nl": "Er zijn ook 12 provincies in Nederland.",
+      "tags": ["provincies", "12", "bestuur"]
+    },
+    {
+      "id": "M5_Q042", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Amsterdam – hoofdstad", "topic_en": "Amsterdam – capital",
+      "question_nl": "Amsterdam is de hoofdstad van Nederland.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Amsterdam is de hoofdstad van Nederland. Den Haag is de regeringsstad.",
+        "en": "That is correct. Amsterdam is the capital of the Netherlands. The Hague is the seat of government."
+      },
+      "source_text_nl": "Amsterdam is de hoofdstad van Nederland.",
+      "tags": ["Amsterdam", "hoofdstad"]
+    },
+    {
+      "id": "M5_Q043", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Nederland – laagland", "topic_en": "Netherlands – lowland",
+      "question_nl": "Een groot deel van Nederland ligt onder de zeespiegel.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Nederland is een laagland. Een groot deel ligt zelfs onder zeeniveau.",
+        "en": "That is correct. The Netherlands is a lowland country. A large part lies even below sea level."
+      },
+      "source_text_nl": "Een groot deel van Nederland ligt onder de zeespiegel.",
+      "tags": ["zeespiegel", "laagland", "Nederland"]
+    },
+    {
+      "id": "M5_Q044", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Indonesië – voormalige kolonie", "topic_en": "Indonesia – former colony",
+      "question_nl": "Indonesië heette vroeger Nederlands-Indië en was een kolonie van Nederland.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Indonesië heette vroeger Nederlands-Indië en was een van de belangrijkste kolonies van Nederland.",
+        "en": "That is correct. Indonesia was formerly called the Dutch East Indies and was one of the most important Dutch colonies."
+      },
+      "source_text_nl": "De belangrijkste kolonies waren Nederlands-Indië (nu Indonesië) en Suriname.",
+      "tags": ["Indonesië", "Nederlands-Indië", "kolonie"]
+    },
+    {
+      "id": "M5_Q045", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Grachtenhuizen Amsterdam", "topic_en": "Amsterdam canal houses",
+      "question_nl": "De grachtenhuizen in Amsterdam zijn gebouwd in de Gouden Eeuw.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De grote grachtenhuizen in Amsterdam zijn gebouwd in de Gouden Eeuw door rijke handelaren.",
+        "en": "That is correct. The large canal houses in Amsterdam were built during the Golden Age by wealthy merchants."
+      },
+      "source_text_nl": "De huizen staan aan grachten. Ze zijn gebouwd in de gouden eeuw toen de handelaren rijk waren.",
+      "tags": ["grachtenhuizen", "Amsterdam", "gouden eeuw"]
+    },
+    {
+      "id": "M5_Q046", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Windmolens", "topic_en": "Windmills",
+      "question_nl": "Windmolens werden vroeger in Nederland gebruikt om water weg te pompen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Vroeger gebruikten Nederlanders windmolens om water weg te pompen uit de polders.",
+        "en": "That is correct. The Dutch used windmills in the past to pump water out of the polders."
+      },
+      "source_text_nl": "Vroeger werden windmolens gebruikt om water weg te pompen.",
+      "tags": ["windmolens", "water pompen", "polders"]
+    },
+    {
+      "id": "M5_Q047", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Rotterdam – haven", "topic_en": "Rotterdam – port",
+      "question_nl": "Rotterdam heeft de grootste haven van Europa.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Rotterdam heeft de grootste haven van Europa en is een van de grootste havens ter wereld.",
+        "en": "That is correct. Rotterdam has the largest port in Europe and is one of the largest ports in the world."
+      },
+      "source_text_nl": "Rotterdam heeft de grootste haven van Europa.",
+      "tags": ["Rotterdam", "haven", "grootste"]
+    },
+    {
+      "id": "M5_Q048", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "VOC – Azië", "topic_en": "VOC – Asia",
+      "question_nl": "De VOC-schepen gingen vooral naar Amerika.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. De VOC-schepen gingen vooral naar Azië, niet naar Amerika.",
+        "en": "This is incorrect. The VOC ships went mainly to Asia, not to America."
+      },
+      "source_text_nl": "Die schepen gingen vooral naar Azië.",
+      "tags": ["VOC", "Azië", "schepen"]
+    },
+    {
+      "id": "M5_Q049", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Dijken bescherming", "topic_en": "Dikes protection",
+      "question_nl": "Dijken beschermen het land tegen overstromingen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Dijken zijn gebouwd om het land te beschermen tegen het water van de zee en de rivieren.",
+        "en": "That is correct. Dikes are built to protect the land from the water of the sea and rivers."
+      },
+      "source_text_nl": "Dijken beschermen het land tegen het water van de zee en de rivieren.",
+      "tags": ["dijken", "bescherming", "overstromingen"]
+    },
+    {
+      "id": "M5_Q050", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "De Nachtwacht – 1642", "topic_en": "The Night Watch – 1642",
+      "question_nl": "Het schilderij 'De Nachtwacht' is gemaakt in 1642.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Rembrandt maakte 'De Nachtwacht' in 1642.",
+        "en": "That is correct. Rembrandt painted 'The Night Watch' in 1642."
+      },
+      "source_text_nl": "Hij maakte in 1642 het schilderij 'De Nachtwacht'.",
+      "tags": ["De Nachtwacht", "1642", "Rembrandt"]
+    },
+    {
+      "id": "M5_Q051", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Tweede Wereldoorlog – bezetting begin", "topic_en": "WWII – start of occupation",
+      "question_nl": "Wanneer bezette Duitsland Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "1939"},
+        {"id": "B", "text_nl": "1940"},
+        {"id": "C", "text_nl": "1942"},
+        {"id": "D", "text_nl": "1944"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Duitsland bezette Nederland in 1940. De bezetting duurde tot 1945, toen Nederland bevrijd werd.",
+        "en": "Germany occupied the Netherlands in 1940. The occupation lasted until 1945, when the Netherlands was liberated."
+      },
+      "source_text_nl": "Duitsland bezette Nederland van 1940 tot 1945.",
+      "tags": ["bezetting", "1940", "Duitsland"]
+    },
+    {
+      "id": "M5_Q052", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Scheepvaart", "topic_en": "Shipping",
+      "question_nl": "Waarom waren Nederlanders in de Gouden Eeuw zo goed in de scheepvaart?",
+      "options": [
+        {"id": "A", "text_nl": "Omdat ze het meeste geld hadden"},
+        {"id": "B", "text_nl": "Omdat Nederland aan zee ligt en er veel rivieren zijn"},
+        {"id": "C", "text_nl": "Omdat ze de beste zeevaarders ter wereld waren"},
+        {"id": "D", "text_nl": "Omdat de kolonies hen dwongen schepen te bouwen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nederland ligt aan zee en er zijn veel rivieren. Daardoor hadden Nederlanders van jongs af aan ervaring met varen en bouwen van schepen.",
+        "en": "The Netherlands is on the sea and has many rivers. As a result, the Dutch had experience with sailing and shipbuilding from an early age."
+      },
+      "source_text_nl": "Nederland ligt aan zee en er zijn veel rivieren. Daarom waren Nederlanders goed in het bouwen van schepen.",
+      "tags": ["scheepvaart", "zee", "rivieren"]
+    },
+    {
+      "id": "M5_Q053", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Fries – taal", "topic_en": "Frisian – language",
+      "question_nl": "In welke Nederlandse provincie is Fries ook een officiële taal naast het Nederlands?",
+      "options": [
+        {"id": "A", "text_nl": "Zeeland"},
+        {"id": "B", "text_nl": "Friesland"},
+        {"id": "C", "text_nl": "Limburg"},
+        {"id": "D", "text_nl": "Groningen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In de provincie Friesland is Fries ook een officiële taal naast het Nederlands.",
+        "en": "In the province of Friesland, Frisian is also an official language alongside Dutch."
+      },
+      "source_text_nl": "In de provincie Friesland is Fries ook een officiële taal.",
+      "tags": ["Fries", "Friesland", "taal"]
+    },
+    {
+      "id": "M5_Q054", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Watersnoodramp gevolg", "topic_en": "Flood disaster consequence",
+      "question_nl": "Wat was een direct gevolg van de Watersnoodramp van 1953?",
+      "options": [
+        {"id": "A", "text_nl": "Nederland sloot zijn grenzen"},
+        {"id": "B", "text_nl": "Nederland bouwde de Deltawerken om overstromingen te voorkomen"},
+        {"id": "C", "text_nl": "Nederland verloor een provincie"},
+        {"id": "D", "text_nl": "Nederland stapte uit de EU"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Na de Watersnoodramp van 1953 besloot Nederland de Deltawerken te bouwen. Dit grote project moest toekomstige overstromingen voorkomen.",
+        "en": "After the 1953 flood disaster, the Netherlands decided to build the Delta Works. This major project was meant to prevent future flooding."
+      },
+      "source_text_nl": "Na de ramp van 1953 zijn de Deltawerken gebouwd.",
+      "tags": ["Deltawerken", "Watersnoodramp", "gevolg"]
+    },
+    {
+      "id": "M5_Q055", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Geografie – vlak land", "topic_en": "Geography – flat land",
+      "question_nl": "Hoe is het landschap van Nederland vergeleken met andere landen?",
+      "options": [
+        {"id": "A", "text_nl": "Nederland is erg bergachtig"},
+        {"id": "B", "text_nl": "Nederland is erg vlak"},
+        {"id": "C", "text_nl": "Nederland heeft veel woestijnen"},
+        {"id": "D", "text_nl": "Nederland heeft veel tropisch regenwoud"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nederland is een erg vlak land. Er zijn nauwelijks heuvels of bergen. Dit vlakke landschap maakt Nederland ook geschikt om te fietsen.",
+        "en": "The Netherlands is a very flat country. There are hardly any hills or mountains. This flat landscape also makes the Netherlands suitable for cycling."
+      },
+      "source_text_nl": "Nederland is een vlak land, zonder grote bergen.",
+      "tags": ["vlak", "landschap", "geografie"]
+    },
+    {
+      "id": "M5_Q056", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Vlag Nederland", "topic_en": "Dutch flag",
+      "question_nl": "Wat zijn de kleuren van de Nederlandse vlag?",
+      "options": [
+        {"id": "A", "text_nl": "Blauw, wit en geel"},
+        {"id": "B", "text_nl": "Rood, wit en blauw"},
+        {"id": "C", "text_nl": "Oranje, wit en groen"},
+        {"id": "D", "text_nl": "Rood, geel en zwart"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De Nederlandse vlag heeft drie horizontale strepen: rood (boven), wit (midden) en blauw (onder).",
+        "en": "The Dutch flag has three horizontal stripes: red (top), white (middle) and blue (bottom)."
+      },
+      "source_text_nl": "De Nederlandse vlag is rood, wit en blauw.",
+      "tags": ["vlag", "rood wit blauw", "Nederland"]
+    },
+    {
+      "id": "M5_Q057", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Inwonertal", "topic_en": "Population",
+      "question_nl": "Hoeveel mensen wonen er ongeveer in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "5 miljoen"},
+        {"id": "B", "text_nl": "17 miljoen"},
+        {"id": "C", "text_nl": "30 miljoen"},
+        {"id": "D", "text_nl": "50 miljoen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In Nederland wonen ongeveer 17 miljoen mensen. Nederland is daarmee een dichtbevolkt land.",
+        "en": "About 17 million people live in the Netherlands. This makes the Netherlands a densely populated country."
+      },
+      "source_text_nl": "Je kunt niet 16,7 miljoen bazen hebben in een land.",
+      "tags": ["bevolking", "17 miljoen", "Nederland"]
+    },
+    {
+      "id": "M5_Q058", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Nederlanders wereldwijd", "topic_en": "Dutch worldwide",
+      "question_nl": "Waarom reisden Nederlanders in de Gouden Eeuw naar verre landen?",
+      "options": [
+        {"id": "A", "text_nl": "Om te emigreren"},
+        {"id": "B", "text_nl": "Om te handelen en nieuwe producten te vinden"},
+        {"id": "C", "text_nl": "Om te vechten"},
+        {"id": "D", "text_nl": "Om nieuwe talen te leren"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nederlanders reisden naar verre landen om te handelen. Ze brachten producten mee terug naar Nederland die ze hier konden verkopen voor veel geld.",
+        "en": "The Dutch travelled to distant countries to trade. They brought back products to the Netherlands that they could sell there for a lot of money."
+      },
+      "source_text_nl": "In de zeventiende eeuw gingen Nederlanders steeds meer handelen.",
+      "tags": ["handel", "reizen", "verre landen"]
+    },
+    {
+      "id": "M5_Q059", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Noordzee", "topic_en": "North Sea",
+      "question_nl": "Welke zee grenst aan Nederland in het westen en noorden?",
+      "options": [
+        {"id": "A", "text_nl": "De Middellandse Zee"},
+        {"id": "B", "text_nl": "De Noordzee"},
+        {"id": "C", "text_nl": "De Baltische Zee"},
+        {"id": "D", "text_nl": "De Atlantische Oceaan"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In het westen en noorden grenst Nederland aan de Noordzee.",
+        "en": "To the west and north, the Netherlands borders the North Sea."
+      },
+      "source_text_nl": "Nederland ligt aan de Noordzee.",
+      "tags": ["Noordzee", "grens", "zee"]
+    },
+    {
+      "id": "M5_Q060", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Rijkdom – schilderijen", "topic_en": "Wealth – paintings",
+      "question_nl": "Waarmee toonden rijke kooplieden in de Gouden Eeuw hun rijkdom?",
+      "options": [
+        {"id": "A", "text_nl": "Met grote legers"},
+        {"id": "B", "text_nl": "Met mooie huizen, schilderijen en dure spullen"},
+        {"id": "C", "text_nl": "Met grote schepen"},
+        {"id": "D", "text_nl": "Met veel land"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Rijke kooplieden lieten mooie huizen bouwen en schilderijen maken. Ze kochten ook dure spullen voor in hun huizen om hun rijkdom te tonen.",
+        "en": "Wealthy merchants had beautiful houses built and paintings made. They also bought expensive items for their homes to display their wealth."
+      },
+      "source_text_nl": "Ze lieten mooie huizen bouwen en kochten mooie spullen voor in hun huizen. Ze lieten ook schilderijen maken.",
+      "tags": ["rijkdom", "huizen", "schilderijen"]
+    },
+    {
+      "id": "M5_Q061", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Den Haag – regering", "topic_en": "The Hague – government",
+      "question_nl": "Den Haag is de stad waar de Nederlandse regering zetelt.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Den Haag is de regeringsstad. Hier zijn het parlement, de ministers en de Koning.",
+        "en": "That is correct. The Hague is the governmental city. Parliament, ministers and the King are based here."
+      },
+      "source_text_nl": "Den Haag is de regeringsstad van Nederland.",
+      "tags": ["Den Haag", "regering", "parlement"]
+    },
+    {
+      "id": "M5_Q062", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Tulpen – symbool", "topic_en": "Tulips – symbol",
+      "question_nl": "Tulpen zijn een bekend symbool van Nederland.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Tulpen zijn wereldwijd bekend als symbool van Nederland.",
+        "en": "That is correct. Tulips are world-famous as a symbol of the Netherlands."
+      },
+      "source_text_nl": "Tulpen zijn een bekend symbool van Nederland.",
+      "tags": ["tulpen", "symbool", "Nederland"]
+    },
+    {
+      "id": "M5_Q063", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Rijn – rivier", "topic_en": "Rhine – river",
+      "question_nl": "De Rijn is een grote rivier die door Nederland stroomt.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De Rijn is een van de grote rivieren die door Nederland stroomt en in de Noordzee uitmondt.",
+        "en": "That is correct. The Rhine is one of the major rivers flowing through the Netherlands and emptying into the North Sea."
+      },
+      "source_text_nl": "Door Nederland stromen grote rivieren: de Rijn, de Maas en de Schelde.",
+      "tags": ["Rijn", "rivier", "Nederland"]
+    },
+    {
+      "id": "M5_Q064", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Kolonies – handel", "topic_en": "Colonies – trade",
+      "question_nl": "Kolonies waren belangrijk voor de Nederlandse handel.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Kolonies waren erg belangrijk voor de handel. Vanuit de kolonies kwamen producten die in Nederland verkocht werden.",
+        "en": "That is correct. Colonies were very important for trade. Products came from the colonies to be sold in the Netherlands."
+      },
+      "source_text_nl": "Koloniën waren belangrijk voor de handel.",
+      "tags": ["kolonies", "handel", "producten"]
+    },
+    {
+      "id": "M5_Q065", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Watersnoodramp 1953", "topic_en": "Flood disaster 1953",
+      "question_nl": "De Watersnoodramp was in 1953.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In 1953 brak een grote Watersnoodramp uit. Dijken braken door en grote gebieden overstroomden.",
+        "en": "That is correct. In 1953, a major flood disaster occurred. Dikes broke and large areas were flooded."
+      },
+      "source_text_nl": "In 1953 was de grote Watersnoodramp.",
+      "tags": ["Watersnoodramp", "1953", "dijken"]
+    },
+    {
+      "id": "M5_Q066", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Suriname – kolonie", "topic_en": "Suriname – colony",
+      "question_nl": "Suriname was vroeger een kolonie van Nederland.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Suriname was een van de belangrijkste kolonies van Nederland.",
+        "en": "That is correct. Suriname was one of the most important Dutch colonies."
+      },
+      "source_text_nl": "De belangrijkste kolonies waren Nederlands-Indië (nu Indonesië) en Suriname.",
+      "tags": ["Suriname", "kolonie", "Nederland"]
+    },
+    {
+      "id": "M5_Q067", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Nederland – fietsland", "topic_en": "Netherlands – cycling country",
+      "question_nl": "Nederland heeft heel veel fietspaden en Nederlanders fietsen veel.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Nederland is een van de meest fietsvriendelijke landen ter wereld. Er zijn heel veel fietspaden.",
+        "en": "That is correct. The Netherlands is one of the most cycling-friendly countries in the world. There are very many cycle paths."
+      },
+      "source_text_nl": "Nederland is bekend als fietsland met veel fietspaden.",
+      "tags": ["fietspaden", "fietsen", "Nederland"]
+    },
+    {
+      "id": "M5_Q068", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Nederland – bergachtig", "topic_en": "Netherlands – mountainous",
+      "question_nl": "Nederland is een bergachtig land met veel bergen.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Nederland is juist een erg vlak land. Er zijn nauwelijks heuvels of bergen.",
+        "en": "This is incorrect. The Netherlands is in fact a very flat country. There are hardly any hills or mountains."
+      },
+      "source_text_nl": "Nederland is een vlak land, zonder grote bergen.",
+      "tags": ["vlak", "geen bergen", "landschap"]
+    },
+    {
+      "id": "M5_Q069", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Eerste Wereldoorlog", "topic_en": "First World War",
+      "question_nl": "Wat was de positie van Nederland tijdens de Eerste Wereldoorlog?",
+      "options": [
+        {"id": "A", "text_nl": "Nederland vocht mee aan de kant van Duitsland"},
+        {"id": "B", "text_nl": "Nederland bleef neutraal en vocht niet mee"},
+        {"id": "C", "text_nl": "Nederland vocht mee aan de kant van de geallieerden"},
+        {"id": "D", "text_nl": "Nederland werd bezet door Duitsland"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Tijdens de Eerste Wereldoorlog (1914-1918) bleef Nederland neutraal. Nederland vocht niet mee.",
+        "en": "During the First World War (1914-1918), the Netherlands remained neutral. The Netherlands did not participate in the fighting."
+      },
+      "source_text_nl": "Tijdens de Eerste Wereldoorlog bleef Nederland neutraal.",
+      "tags": ["Eerste Wereldoorlog", "neutraal", "niet gevochten"]
+    },
+    {
+      "id": "M5_Q070", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Herdenkingen WOII", "topic_en": "WWII commemorations",
+      "question_nl": "Op welke datum herdenkt Nederland de slachtoffers van de Tweede Wereldoorlog?",
+      "options": [
+        {"id": "A", "text_nl": "11 november"},
+        {"id": "B", "text_nl": "4 mei"},
+        {"id": "C", "text_nl": "5 mei"},
+        {"id": "D", "text_nl": "1 september"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Op 4 mei (Dodenherdenking) herdenkt Nederland de slachtoffers van de Tweede Wereldoorlog. Op 5 mei viert Nederland de bevrijding.",
+        "en": "On 4 May (Remembrance Day), the Netherlands commemorates the victims of the Second World War. On 5 May, the Netherlands celebrates liberation."
+      },
+      "source_text_nl": "Op 4 mei is Dodenherdenking. Dan herdenken we de mensen die zijn gestorven in de oorlog.",
+      "tags": ["Dodenherdenking", "4 mei", "Tweede Wereldoorlog"]
+    },
+    {
+      "id": "M5_Q071", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Vlag – rood wit blauw", "topic_en": "Flag – red white blue",
+      "question_nl": "De Nederlandse vlag is rood, wit en blauw.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De Nederlandse vlag heeft drie horizontale strepen: rood, wit en blauw.",
+        "en": "That is correct. The Dutch flag has three horizontal stripes: red, white and blue."
+      },
+      "source_text_nl": "De Nederlandse vlag is rood, wit en blauw.",
+      "tags": ["vlag", "rood wit blauw"]
+    },
+    {
+      "id": "M5_Q072", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Tweede Wereldoorlog – begin bezetting", "topic_en": "WWII – start occupation",
+      "question_nl": "Duitsland bezette Nederland vanaf 1940.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In mei 1940 viel Duitsland Nederland binnen. De bezetting duurde tot 1945.",
+        "en": "That is correct. In May 1940, Germany invaded the Netherlands. The occupation lasted until 1945."
+      },
+      "source_text_nl": "Duitsland bezette Nederland van 1940 tot 1945.",
+      "tags": ["bezetting", "1940", "Duitsland"]
+    },
+    {
+      "id": "M5_Q073", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Polders – droogleggen", "topic_en": "Polders – reclamation",
+      "question_nl": "Polders zijn stukken land die de Nederlanders op het water hebben gewonnen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Polders zijn stukken land die zijn drooggelegd. Nederlanders hebben het water weggepompt en zo nieuw land gecreëerd.",
+        "en": "That is correct. Polders are pieces of land reclaimed from the water. The Dutch pumped out the water and thus created new land."
+      },
+      "source_text_nl": "Een polder is land dat gewonnen is op het water door droogleggen.",
+      "tags": ["polders", "droogleggen", "nieuw land"]
+    },
+    {
+      "id": "M5_Q074", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Kooplieden – rijkdom", "topic_en": "Merchants – wealth",
+      "question_nl": "In de Gouden Eeuw was niet iedereen rijk in Nederland.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Niet alle Nederlanders waren rijk. Er waren ook veel arme mensen. De rijkdom was niet goed verdeeld.",
+        "en": "That is correct. Not all Dutch people were wealthy. There were also many poor people. The wealth was not evenly distributed."
+      },
+      "source_text_nl": "Niet alle Nederlanders waren rijk. Er waren ook veel arme mensen. De rijkdom was niet goed verdeeld.",
+      "tags": ["rijkdom", "arm", "gouden eeuw"]
+    },
+    {
+      "id": "M5_Q075", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Fries – officieel", "topic_en": "Frisian – official",
+      "question_nl": "Fries is in heel Nederland een officiële taal.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Fries is alleen in de provincie Friesland een officiële taal, niet in heel Nederland.",
+        "en": "This is incorrect. Frisian is only an official language in the province of Friesland, not throughout the Netherlands."
+      },
+      "source_text_nl": "In de provincie Friesland is Fries ook een officiële taal.",
+      "tags": ["Fries", "Friesland", "officieel"]
+    },
+    {
+      "id": "M5_Q076", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Grachtengordel – UNESCO", "topic_en": "Canal ring – UNESCO",
+      "question_nl": "Waarvoor staat de grachtengordel van Amsterdam bekend?",
+      "options": [
+        {"id": "A", "text_nl": "Als het grootste winkelcentrum van Europa"},
+        {"id": "B", "text_nl": "Als historisch werelderfgoed en symbool van de Gouden Eeuw"},
+        {"id": "C", "text_nl": "Als de drukste verkeersweg van Nederland"},
+        {"id": "D", "text_nl": "Als locatie van het Nederlandse parlement"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De grachtengordel van Amsterdam is een UNESCO Werelderfgoed. Het is een symbool van de Gouden Eeuw en de rijkdom van de Amsterdamse kooplieden.",
+        "en": "Amsterdam's canal ring is a UNESCO World Heritage Site. It is a symbol of the Golden Age and the wealth of Amsterdam's merchants."
+      },
+      "source_text_nl": "De grachtengordel van Amsterdam is een UNESCO Werelderfgoed.",
+      "tags": ["grachtengordel", "UNESCO", "Amsterdam"]
+    },
+    {
+      "id": "M5_Q077", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Geografie – buurlanden", "topic_en": "Geography – neighbouring countries",
+      "question_nl": "Welke zee kun je vanuit Nederland over varen naar Engeland?",
+      "options": [
+        {"id": "A", "text_nl": "De Middellandse Zee"},
+        {"id": "B", "text_nl": "De Noordzee"},
+        {"id": "C", "text_nl": "De Atlantische Oceaan"},
+        {"id": "D", "text_nl": "De Zwarte Zee"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Over de Noordzee kun je vanuit Nederland naar Engeland varen. Nederland en Engeland liggen aan de Noordzee.",
+        "en": "You can sail from the Netherlands to England across the North Sea. The Netherlands and England are both on the North Sea."
+      },
+      "source_text_nl": "Nederland ligt aan de Noordzee. Via de Noordzee kun je naar Engeland varen.",
+      "tags": ["Noordzee", "Engeland", "zee"]
+    },
+    {
+      "id": "M5_Q078", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Rijksmuseum", "topic_en": "Rijksmuseum",
+      "question_nl": "Waar hangt het schilderij 'De Nachtwacht' van Rembrandt?",
+      "options": [
+        {"id": "A", "text_nl": "In het Louvre in Parijs"},
+        {"id": "B", "text_nl": "In het Rijksmuseum in Amsterdam"},
+        {"id": "C", "text_nl": "In het Haags Gemeentemuseum"},
+        {"id": "D", "text_nl": "In het Van Gogh Museum"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "'De Nachtwacht' hangt in het Rijksmuseum in Amsterdam. Het is een van de meest bezochte musea van de wereld.",
+        "en": "'The Night Watch' hangs in the Rijksmuseum in Amsterdam. It is one of the most visited museums in the world."
+      },
+      "source_text_nl": "De Nachtwacht hangt in het Rijksmuseum in Amsterdam.",
+      "tags": ["Rijksmuseum", "De Nachtwacht", "Amsterdam"]
+    },
+    {
+      "id": "M5_Q079", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Vincent van Gogh", "topic_en": "Vincent van Gogh",
+      "question_nl": "Wie was Vincent van Gogh?",
+      "options": [
+        {"id": "A", "text_nl": "Een bekende Nederlandse politicus"},
+        {"id": "B", "text_nl": "Een beroemde Nederlandse schilder bekend om zijn kleurrijke schilderijen"},
+        {"id": "C", "text_nl": "Een Nederlandse zeevaarder"},
+        {"id": "D", "text_nl": "Een Nederlandse uitvinder"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Vincent van Gogh is een beroemde Nederlandse schilder. Hij is bekend om zijn kleurrijke schilderijen zoals 'De Sterrennacht'. Hij leefde in de 19e eeuw.",
+        "en": "Vincent van Gogh is a famous Dutch painter. He is known for his colourful paintings such as 'Starry Night'. He lived in the 19th century."
+      },
+      "source_text_nl": "Vincent van Gogh is een beroemde Nederlandse schilder uit de 19e eeuw.",
+      "tags": ["Van Gogh", "schilder", "schilderijen"]
+    },
+    {
+      "id": "M5_Q080", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Eerste Wereldoorlog – neutraal", "topic_en": "First World War – neutral",
+      "question_nl": "Nederland was neutraal tijdens de Eerste Wereldoorlog.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Tijdens de Eerste Wereldoorlog (1914-1918) bleef Nederland neutraal en vocht het niet mee.",
+        "en": "That is correct. During the First World War (1914-1918), the Netherlands remained neutral and did not participate in the fighting."
+      },
+      "source_text_nl": "Tijdens de Eerste Wereldoorlog bleef Nederland neutraal.",
+      "tags": ["Eerste Wereldoorlog", "neutraal", "1914-1918"]
+    }
+  ]
+}

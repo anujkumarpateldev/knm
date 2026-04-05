@@ -1,0 +1,1268 @@
+{
+  "module_id": "M7",
+  "module_title_nl": "Staatsinrichting en rechtsstaat",
+  "module_title_en": "Government structure and rule of law",
+  "total_questions": 80,
+  "questions": [
+    {
+      "id": "M7_Q001", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Democratie", "topic_en": "Democracy",
+      "question_nl": "Wat voor soort land is Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Een dictatuur"},
+        {"id": "B", "text_nl": "Een democratie"},
+        {"id": "C", "text_nl": "Een koninkrijk zonder parlement"},
+        {"id": "D", "text_nl": "Een republiek"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nederland is een democratie. Dat betekent dat de bevolking de baas is. De mensen mogen stemmen op politici die hen vertegenwoordigen.",
+        "en": "The Netherlands is a democracy. That means the people are in charge. People are allowed to vote for politicians who represent them."
+      },
+      "source_text_nl": "Nederland is een democratie. Dat betekent: de bevolking is de baas.",
+      "tags": ["democratie", "bevolking", "stemmen"]
+    },
+    {
+      "id": "M7_Q002", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Verkiezingen", "topic_en": "Elections",
+      "question_nl": "Waarom zijn er verkiezingen in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Omdat de koning het zo wil"},
+        {"id": "B", "text_nl": "Omdat je niet met 17 miljoen mensen tegelijk kunt beslissen, kiest de bevolking vertegenwoordigers"},
+        {"id": "C", "text_nl": "Omdat de ministers niet zelf kunnen beslissen"},
+        {"id": "D", "text_nl": "Omdat de EU het verplicht stelt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je kunt niet met 17 miljoen mensen tegelijk over alles beslissen. Daarom zijn er verkiezingen. De bevolking kiest vertegenwoordigers die namens hen beslissen.",
+        "en": "You cannot have 17 million people deciding everything at once. That is why there are elections. The population elects representatives who decide on their behalf."
+      },
+      "source_text_nl": "Maar je kunt niet 16,7 miljoen bazen hebben in een land. Daarom zijn er verkiezingen.",
+      "tags": ["verkiezingen", "vertegenwoordiging", "democratie"]
+    },
+    {
+      "id": "M7_Q003", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Parlement", "topic_en": "Parliament",
+      "question_nl": "Wat is het parlement in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen de Tweede Kamer"},
+        {"id": "B", "text_nl": "De Eerste Kamer, de Tweede Kamer, de ministers en de minister-president samen"},
+        {"id": "C", "text_nl": "Alleen de ministers"},
+        {"id": "D", "text_nl": "De Eerste en Tweede Kamer samen, zonder de ministers"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het parlement bestaat uit de Eerste Kamer, de Tweede Kamer én de ministers en minister-president samen. Het parlement neemt belangrijke beslissingen voor het hele land.",
+        "en": "Parliament consists of the First Chamber, the Second Chamber, and the ministers and prime minister together. Parliament makes important decisions for the whole country."
+      },
+      "source_text_nl": "Het parlement is de Eerste Kamer, de Tweede Kamer én de ministers en de minister-president samen.",
+      "tags": ["parlement", "Eerste Kamer", "Tweede Kamer"]
+    },
+    {
+      "id": "M7_Q004", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Tweede Kamer – leden", "topic_en": "Second Chamber – members",
+      "question_nl": "Hoeveel mensen zitten er in de Tweede Kamer?",
+      "options": [
+        {"id": "A", "text_nl": "75"},
+        {"id": "B", "text_nl": "150"},
+        {"id": "C", "text_nl": "200"},
+        {"id": "D", "text_nl": "100"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In de Tweede Kamer zitten 150 mensen. Die mensen zijn van verschillende politieke partijen. Ze zijn door de bevolking gekozen.",
+        "en": "The Second Chamber (Tweede Kamer) has 150 members. These people are from different political parties. They are elected by the population."
+      },
+      "source_text_nl": "In de Tweede Kamer zitten 150 mensen.",
+      "tags": ["Tweede Kamer", "150 leden", "politieke partijen"]
+    },
+    {
+      "id": "M7_Q005", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Tweede Kamer – gekozen", "topic_en": "Second Chamber – elected",
+      "question_nl": "Door wie wordt de Tweede Kamer gekozen?",
+      "options": [
+        {"id": "A", "text_nl": "Door het provinciebestuur"},
+        {"id": "B", "text_nl": "Door de bevolking van Nederland"},
+        {"id": "C", "text_nl": "Door de Eerste Kamer"},
+        {"id": "D", "text_nl": "Door de ministers"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De Tweede Kamer wordt gekozen door de bevolking van Nederland. Iedereen van 18 jaar of ouder mag stemmen.",
+        "en": "The Second Chamber is elected by the population of the Netherlands. Everyone aged 18 or over may vote."
+      },
+      "source_text_nl": "Ze zijn allemaal door de bevolking gekozen.",
+      "tags": ["Tweede Kamer", "bevolking", "gekozen"]
+    },
+    {
+      "id": "M7_Q006", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Politieke partijen", "topic_en": "Political parties",
+      "question_nl": "Wat zijn politieke partijen?",
+      "options": [
+        {"id": "A", "text_nl": "Feesten die politici organiseren"},
+        {"id": "B", "text_nl": "Groepen mensen met dezelfde politieke ideeën die samen meedoen aan verkiezingen"},
+        {"id": "C", "text_nl": "Clubs voor de burgemeester"},
+        {"id": "D", "text_nl": "Afdelingen van het gemeentehuis"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Politieke partijen zijn groepen mensen met dezelfde politieke ideeën. Zij doen mee aan verkiezingen. Voorbeelden zijn het CDA en de VVD.",
+        "en": "Political parties are groups of people with the same political ideas. They participate in elections. Examples are the CDA and the VVD."
+      },
+      "source_text_nl": "Die mensen zijn van verschillende politieke partijen, bijvoorbeeld van het CDA of de VVD.",
+      "tags": ["politieke partijen", "CDA", "VVD"]
+    },
+    {
+      "id": "M7_Q007", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Minister-president", "topic_en": "Prime minister",
+      "question_nl": "Wat is de rol van de minister-president?",
+      "options": [
+        {"id": "A", "text_nl": "De minister-president is het staatshoofd van Nederland"},
+        {"id": "B", "text_nl": "De minister-president is de voorzitter van de groep ministers"},
+        {"id": "C", "text_nl": "De minister-president kiest de leden van de Tweede Kamer"},
+        {"id": "D", "text_nl": "De minister-president spreekt de troonrede uit"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De minister-president is de voorzitter van de groep ministers. Hij of zij leidt de ministerraad en is het hoofd van de regering.",
+        "en": "The prime minister (minister-president) is the chair of the group of ministers. They lead the Council of Ministers and head the government."
+      },
+      "source_text_nl": "De minister-president is de voorzitter van de groep ministers.",
+      "tags": ["minister-president", "voorzitter", "ministers"]
+    },
+    {
+      "id": "M7_Q008", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Ministers – taken", "topic_en": "Ministers – tasks",
+      "question_nl": "Waarvoor is elke minister verantwoordelijk?",
+      "options": [
+        {"id": "A", "text_nl": "Een minister is verantwoordelijk voor heel Nederland"},
+        {"id": "B", "text_nl": "Elke minister is verantwoordelijk voor één onderwerp, zoals onderwijs of economie"},
+        {"id": "C", "text_nl": "Een minister is verantwoordelijk voor een provincie"},
+        {"id": "D", "text_nl": "Elke minister is verantwoordelijk voor een politieke partij"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Elke minister is verantwoordelijk voor één onderwerp. Er is bijvoorbeeld een minister van Onderwijs en een minister van Economische Zaken.",
+        "en": "Each minister is responsible for one topic. For example, there is a Minister of Education and a Minister of Economic Affairs."
+      },
+      "source_text_nl": "Elke minister is er speciaal voor één onderwerp, bijvoorbeeld onderwijs of economie.",
+      "tags": ["minister", "onderwerp", "verantwoordelijkheid"]
+    },
+    {
+      "id": "M7_Q009", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Regering", "topic_en": "Government",
+      "question_nl": "Uit wie bestaat de Nederlandse regering?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen de minister-president"},
+        {"id": "B", "text_nl": "De ministers, de minister-president en de koning"},
+        {"id": "C", "text_nl": "De Tweede Kamer en de Eerste Kamer"},
+        {"id": "D", "text_nl": "De burgemeester en de wethouders"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De regering bestaat uit de ministers, de minister-president en de koning. De koning heeft een ceremoniële rol.",
+        "en": "The government consists of the ministers, the prime minister and the King. The King has a ceremonial role."
+      },
+      "source_text_nl": "De ministers, de minister-president en de koning zijn samen de regering.",
+      "tags": ["regering", "ministers", "koning"]
+    },
+    {
+      "id": "M7_Q010", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Tweede Kamer – taak", "topic_en": "Second Chamber – task",
+      "question_nl": "Wat doet de Tweede Kamer?",
+      "options": [
+        {"id": "A", "text_nl": "De Tweede Kamer stelt de belastingen vast"},
+        {"id": "B", "text_nl": "De Tweede Kamer stemt over nieuwe wetten en controleert de ministers"},
+        {"id": "C", "text_nl": "De Tweede Kamer kiest de burgemeester"},
+        {"id": "D", "text_nl": "De Tweede Kamer spreekt de troonrede uit"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De Tweede Kamer stemt over nieuwe wetten en controleert de ministers. De regering stelt nieuwe regels en wetten voor en de Tweede Kamer stemt of ze die wil.",
+        "en": "The Second Chamber votes on new laws and monitors the ministers. The government proposes new rules and laws and the Second Chamber votes on whether it wants them."
+      },
+      "source_text_nl": "De regering stelt nieuwe regels en wetten voor. De Tweede Kamer stemt dan of ze de nieuwe wetten echt wil.",
+      "tags": ["Tweede Kamer", "wetten", "stemmen"]
+    },
+    {
+      "id": "M7_Q011", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Troonrede", "topic_en": "Speech from the Throne",
+      "question_nl": "Wat is de troonrede?",
+      "options": [
+        {"id": "A", "text_nl": "Een toespraak van de minister-president voor het parlement"},
+        {"id": "B", "text_nl": "Een jaarlijkse toespraak van de koning over de plannen van de regering"},
+        {"id": "C", "text_nl": "Een toespraak van de burgemeester op Koningsdag"},
+        {"id": "D", "text_nl": "Een beslissing van de Tweede Kamer over nieuwe wetten"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De troonrede is een jaarlijkse toespraak van de koning. De koning vertelt daarin de ideeën van de regering voor het komende jaar.",
+        "en": "The Speech from the Throne (troonrede) is an annual speech by the King. In it, the King outlines the government's plans for the coming year."
+      },
+      "source_text_nl": "De koning vertelt elk jaar de ideeën van de regering. Dit heet de troonrede.",
+      "tags": ["troonrede", "koning", "regering"]
+    },
+    {
+      "id": "M7_Q012", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Prinsjesdag", "topic_en": "Budget Day",
+      "question_nl": "Wanneer is Prinsjesdag?",
+      "options": [
+        {"id": "A", "text_nl": "Op de eerste dinsdag van januari"},
+        {"id": "B", "text_nl": "Op de derde dinsdag van september"},
+        {"id": "C", "text_nl": "Op 27 april"},
+        {"id": "D", "text_nl": "Op de eerste dinsdag van mei"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Prinsjesdag is altijd op de derde dinsdag van september. Op die dag spreekt de koning de troonrede uit.",
+        "en": "Budget Day (Prinsjesdag) is always on the third Tuesday of September. On that day the King delivers the Speech from the Throne."
+      },
+      "source_text_nl": "Prinsjesdag is altijd op de derde dinsdag in september.",
+      "tags": ["Prinsjesdag", "september", "troonrede"]
+    },
+    {
+      "id": "M7_Q013", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Eerste Kamer – leden", "topic_en": "First Chamber – members",
+      "question_nl": "Hoeveel mensen zitten er in de Eerste Kamer?",
+      "options": [
+        {"id": "A", "text_nl": "150"},
+        {"id": "B", "text_nl": "75"},
+        {"id": "C", "text_nl": "100"},
+        {"id": "D", "text_nl": "50"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In de Eerste Kamer zitten 75 mensen. Je kunt niet direct op Eerste Kamerleden stemmen.",
+        "en": "The First Chamber (Eerste Kamer) has 75 members. You cannot vote directly for members of the First Chamber."
+      },
+      "source_text_nl": "In de Eerste Kamer zitten 75 mensen.",
+      "tags": ["Eerste Kamer", "75 leden", "parlement"]
+    },
+    {
+      "id": "M7_Q014", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Eerste Kamer – gekozen", "topic_en": "First Chamber – elected",
+      "question_nl": "Door wie worden de leden van de Eerste Kamer gekozen?",
+      "options": [
+        {"id": "A", "text_nl": "Door de bevolking van Nederland"},
+        {"id": "B", "text_nl": "Door de provinciebesturen"},
+        {"id": "C", "text_nl": "Door de minister-president"},
+        {"id": "D", "text_nl": "Door de Tweede Kamer"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De leden van de Eerste Kamer worden gekozen door de provinciebesturen. De bevolking kiest niet rechtstreeks op hen.",
+        "en": "The members of the First Chamber are elected by the provincial governments. The public does not vote for them directly."
+      },
+      "source_text_nl": "Ze worden gekozen door het provinciebestuur.",
+      "tags": ["Eerste Kamer", "provinciebestuur", "gekozen"]
+    },
+    {
+      "id": "M7_Q015", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Eerste Kamer – rol", "topic_en": "First Chamber – role",
+      "question_nl": "Wat mag de Eerste Kamer doen met nieuwe wetten?",
+      "options": [
+        {"id": "A", "text_nl": "De Eerste Kamer mag wetten aanpassen"},
+        {"id": "B", "text_nl": "De Eerste Kamer mag alleen ja of nee zeggen op wetten"},
+        {"id": "C", "text_nl": "De Eerste Kamer stelt zelf wetten voor"},
+        {"id": "D", "text_nl": "De Eerste Kamer controleert de ministers"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De Eerste Kamer mag alleen ja of nee zeggen over wetten. Ze kunnen wetten niet aanpassen. De Tweede Kamer stemt altijd eerst over een wetsvoorstel.",
+        "en": "The First Chamber may only say yes or no to laws. They cannot amend laws. The Second Chamber always votes first on a legislative proposal."
+      },
+      "source_text_nl": "De Eerste Kamer mag alleen ja of nee zeggen.",
+      "tags": ["Eerste Kamer", "ja of nee", "wetten"]
+    },
+    {
+      "id": "M7_Q016", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Wetsvoorstel – procedure", "topic_en": "Bill – procedure",
+      "question_nl": "Wat is de volgorde bij het maken van een nieuwe wet?",
+      "options": [
+        {"id": "A", "text_nl": "Eerst Eerste Kamer, dan Tweede Kamer"},
+        {"id": "B", "text_nl": "Eerst Tweede Kamer, daarna Eerste Kamer"},
+        {"id": "C", "text_nl": "Alleen de minister-president beslist"},
+        {"id": "D", "text_nl": "De bevolking stemt direct"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De Tweede Kamer stemt altijd eerst over een wetsvoorstel. Daarna pas de Eerste Kamer. Als beide kamers akkoord gaan, wordt het een wet.",
+        "en": "The Second Chamber always votes first on a bill. After that, the First Chamber votes. If both chambers agree, it becomes a law."
+      },
+      "source_text_nl": "De Tweede Kamer stemt altijd eerst over een wetsvoorstel. Daarna pas de Eerste Kamer.",
+      "tags": ["wetsvoorstel", "Tweede Kamer", "Eerste Kamer"]
+    },
+    {
+      "id": "M7_Q017", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Stemmen – leeftijd", "topic_en": "Voting – age",
+      "question_nl": "Vanaf welke leeftijd mag je stemmen in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "16 jaar"},
+        {"id": "B", "text_nl": "18 jaar"},
+        {"id": "C", "text_nl": "21 jaar"},
+        {"id": "D", "text_nl": "20 jaar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In Nederland mag je stemmen vanaf 18 jaar. Zowel mannen als vrouwen mogen stemmen.",
+        "en": "In the Netherlands you may vote from the age of 18. Both men and women may vote."
+      },
+      "source_text_nl": "Iedereen van 18 jaar of ouder mag stemmen.",
+      "tags": ["stemmen", "18 jaar", "kiesrecht"]
+    },
+    {
+      "id": "M7_Q018", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Europese Unie", "topic_en": "European Union",
+      "question_nl": "Hoeveel landen zijn er lid van de Europese Unie?",
+      "options": [
+        {"id": "A", "text_nl": "15"},
+        {"id": "B", "text_nl": "27"},
+        {"id": "C", "text_nl": "50"},
+        {"id": "D", "text_nl": "12"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De Europese Unie (EU) heeft 27 lidstaten. De EU doet dingen die voor heel Europa belangrijk zijn, zoals de euro.",
+        "en": "The European Union (EU) has 27 member states. The EU does things that are important for all of Europe, such as the euro."
+      },
+      "source_text_nl": "De Europese Unie (EU) is een samenwerking van landen in Europa. Er zitten nu 27 landen in de EU.",
+      "tags": ["Europese Unie", "27 landen", "EU"]
+    },
+    {
+      "id": "M7_Q019", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Euro", "topic_en": "Euro",
+      "question_nl": "Wat is de euro?",
+      "options": [
+        {"id": "A", "text_nl": "Het geld van alleen Nederland"},
+        {"id": "B", "text_nl": "De gemeenschappelijke munteenheid van de Europese Unie"},
+        {"id": "C", "text_nl": "Een politieke partij in Europa"},
+        {"id": "D", "text_nl": "Een Europese organisatie voor handel"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De euro is het geld van de Europese Unie. Veel landen in de EU gebruiken de euro als munteenheid.",
+        "en": "The euro is the currency of the European Union. Many countries in the EU use the euro as their currency."
+      },
+      "source_text_nl": "Bijvoorbeeld de euro, dat is het geld van de Europese Unie.",
+      "tags": ["euro", "munteenheid", "EU"]
+    },
+    {
+      "id": "M7_Q020", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Rechtsstaat", "topic_en": "Rule of law",
+      "question_nl": "Wat betekent dat Nederland een rechtsstaat is?",
+      "options": [
+        {"id": "A", "text_nl": "Dat de koning de baas is over alles"},
+        {"id": "B", "text_nl": "Dat iedereen zich aan de wet moet houden, ook de overheid"},
+        {"id": "C", "text_nl": "Dat alleen rechters wetten mogen maken"},
+        {"id": "D", "text_nl": "Dat de Tweede Kamer alle beslissingen neemt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In een rechtsstaat moet iedereen zich aan de wet houden, ook de overheid. De rechten van burgers zijn beschermd door de Grondwet.",
+        "en": "In a rule-of-law state, everyone must obey the law, including the government. Citizens' rights are protected by the Constitution."
+      },
+      "source_text_nl": "Nederland is een rechtsstaat. Dat betekent dat iedereen zich aan de wet moet houden, ook de overheid.",
+      "tags": ["rechtsstaat", "wet", "overheid"]
+    },
+    {
+      "id": "M7_Q021", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Grondwet", "topic_en": "Constitution",
+      "question_nl": "Wat is de Grondwet?",
+      "options": [
+        {"id": "A", "text_nl": "De wet over belastingen"},
+        {"id": "B", "text_nl": "De belangrijkste wet van Nederland met de basisrechten van burgers"},
+        {"id": "C", "text_nl": "Een verzameling van gemeentelijke regels"},
+        {"id": "D", "text_nl": "Het reglement van de Tweede Kamer"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De Grondwet is de belangrijkste wet van Nederland. Daarin staan de basisrechten van burgers en de regels voor het bestuur van Nederland.",
+        "en": "The Constitution (Grondwet) is the most important law in the Netherlands. It contains the basic rights of citizens and the rules for governing the Netherlands."
+      },
+      "source_text_nl": "De Grondwet is de belangrijkste wet van Nederland.",
+      "tags": ["Grondwet", "basisrechten", "wet"]
+    },
+    {
+      "id": "M7_Q022", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Scheiding der machten", "topic_en": "Separation of powers",
+      "question_nl": "Waarom zijn er drie machten in Nederland: de wetgevende, uitvoerende en rechterlijke macht?",
+      "options": [
+        {"id": "A", "text_nl": "Om meer mensen aan werk te helpen"},
+        {"id": "B", "text_nl": "Zodat geen één persoon of groep te veel macht heeft"},
+        {"id": "C", "text_nl": "Omdat de EU dit verplicht stelt"},
+        {"id": "D", "text_nl": "Omdat de koning dit heeft besloten"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De drie machten bestaan zodat geen één persoon of groep te veel macht heeft. Dit is de scheiding der machten.",
+        "en": "The three powers exist so that no one person or group has too much power. This is the separation of powers."
+      },
+      "source_text_nl": "De drie machten bestaan zodat geen één groep te veel macht heeft. Dit heet de scheiding der machten.",
+      "tags": ["scheiding der machten", "macht", "democratie"]
+    },
+    {
+      "id": "M7_Q023", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Koninkrijk", "topic_en": "Kingdom",
+      "question_nl": "Wat voor soort monarchie is Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Een absolute monarchie waarbij de koning alles beslist"},
+        {"id": "B", "text_nl": "Een constitutionele monarchie waarbij de koning een ceremoniële rol heeft"},
+        {"id": "C", "text_nl": "Een republiek met een president"},
+        {"id": "D", "text_nl": "Een militaire dictatuur"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nederland is een constitutionele monarchie. De koning heeft een ceremoniële rol maar beslist niet over de politiek. De gekozen politici regeren het land.",
+        "en": "The Netherlands is a constitutional monarchy. The King has a ceremonial role but does not decide on politics. Elected politicians govern the country."
+      },
+      "source_text_nl": "Nederland is een constitutionele monarchie. De koning heeft een ceremoniële rol.",
+      "tags": ["constitutionele monarchie", "koning", "ceremonieel"]
+    },
+    {
+      "id": "M7_Q024", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Coalitie", "topic_en": "Coalition",
+      "question_nl": "Wat is een coalitie in de politiek?",
+      "options": [
+        {"id": "A", "text_nl": "Een politieke partij die de meeste stemmen heeft gewonnen"},
+        {"id": "B", "text_nl": "Een samenwerking van meerdere politieke partijen die samen de regering vormen"},
+        {"id": "C", "text_nl": "Een overleg van alle burgemeesters"},
+        {"id": "D", "text_nl": "Een vergadering van de Eerste Kamer"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een coalitie is een samenwerking van meerdere politieke partijen die samen de meerderheid hebben en de regering vormen.",
+        "en": "A coalition is a collaboration of several political parties that together have a majority and form the government."
+      },
+      "source_text_nl": "Een coalitie is een samenwerking van partijen die samen de regering vormen.",
+      "tags": ["coalitie", "politieke partijen", "samenwerking"]
+    },
+    {
+      "id": "M7_Q025", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Rechten – vrijheid", "topic_en": "Rights – freedom",
+      "question_nl": "Welk recht beschermt de Grondwet van alle Nederlanders?",
+      "options": [
+        {"id": "A", "text_nl": "Het recht om altijd gelijk te krijgen"},
+        {"id": "B", "text_nl": "Basisrechten zoals vrijheid van meningsuiting, godsdienstvrijheid en gelijkheid"},
+        {"id": "C", "text_nl": "Het recht om niet te werken"},
+        {"id": "D", "text_nl": "Het recht om gratis wonen te krijgen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De Grondwet beschermt basisrechten van burgers, zoals vrijheid van meningsuiting, godsdienstvrijheid en het gelijkheidsbeginsel.",
+        "en": "The Constitution protects the basic rights of citizens, such as freedom of speech, freedom of religion and the principle of equality."
+      },
+      "source_text_nl": "De Grondwet beschermt basisrechten zoals vrijheid van meningsuiting en godsdienstvrijheid.",
+      "tags": ["Grondwet", "basisrechten", "vrijheid"]
+    },
+    {
+      "id": "M7_Q026", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Politieke partij – links rechts", "topic_en": "Political parties – left right",
+      "question_nl": "Wat wordt bedoeld met 'links' en 'rechts' in de politiek?",
+      "options": [
+        {"id": "A", "text_nl": "De kant waar een politicus zit in de Tweede Kamer"},
+        {"id": "B", "text_nl": "Termen die de politieke richting aangeven: links is meer gericht op gelijkheid, rechts meer op individuele vrijheid"},
+        {"id": "C", "text_nl": "De volgorde van stemmen in de Kamer"},
+        {"id": "D", "text_nl": "De kleur van de vlag van een partij"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In de politiek verwijst 'links' naar partijen die meer gericht zijn op gelijkheid en solidariteit. 'Rechts' verwijst naar partijen die meer gericht zijn op individuele vrijheid en de vrije markt.",
+        "en": "In politics, 'left' refers to parties more focused on equality and solidarity. 'Right' refers to parties more focused on individual freedom and the free market."
+      },
+      "source_text_nl": "Links en rechts zijn termen die de politieke richting aangeven.",
+      "tags": ["links", "rechts", "politiek"]
+    },
+    {
+      "id": "M7_Q027", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Recht – wat is misdaad", "topic_en": "Law – what is a crime",
+      "question_nl": "Wat is een misdrijf?",
+      "options": [
+        {"id": "A", "text_nl": "Iets wat je niet leuk vindt"},
+        {"id": "B", "text_nl": "Een ernstige overtreding van de wet die strafbaar is"},
+        {"id": "C", "text_nl": "Een verkeersfout"},
+        {"id": "D", "text_nl": "Een conflict met je buren"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een misdrijf is een ernstige overtreding van de wet. De rechter bepaalt of iemand schuldig is en welke straf hij krijgt.",
+        "en": "A crime (misdrijf) is a serious violation of the law. The judge determines whether someone is guilty and what punishment they receive."
+      },
+      "source_text_nl": "Een misdrijf is een ernstige overtreding van de wet.",
+      "tags": ["misdrijf", "wet", "straf"]
+    },
+    {
+      "id": "M7_Q028", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Rechter – onafhankelijk", "topic_en": "Judge – independent",
+      "question_nl": "Waarom is het belangrijk dat rechters onafhankelijk zijn?",
+      "options": [
+        {"id": "A", "text_nl": "Zodat ze meer geld verdienen"},
+        {"id": "B", "text_nl": "Zodat ze eerlijk recht kunnen spreken zonder politieke druk"},
+        {"id": "C", "text_nl": "Zodat ze zelf wetten kunnen maken"},
+        {"id": "D", "text_nl": "Zodat ze de minister-president kunnen ontslaan"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Rechters moeten onafhankelijk zijn. Dat betekent dat ze eerlijk recht kunnen spreken zonder druk van de politiek of andere machten.",
+        "en": "Judges must be independent. That means they can administer justice fairly without pressure from politics or other powers."
+      },
+      "source_text_nl": "Rechters moeten onafhankelijk zijn zodat ze eerlijk recht kunnen spreken.",
+      "tags": ["rechter", "onafhankelijk", "rechtsstaat"]
+    },
+    {
+      "id": "M7_Q029", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "EU – doel", "topic_en": "EU – purpose",
+      "question_nl": "Wat is het doel van de Europese Unie?",
+      "options": [
+        {"id": "A", "text_nl": "Om Europa militair te verdedigen"},
+        {"id": "B", "text_nl": "Om samenwerking tussen Europese landen te bevorderen op economisch en politiek gebied"},
+        {"id": "C", "text_nl": "Om één Europese staat te vormen"},
+        {"id": "D", "text_nl": "Om emigratie naar Europa te beperken"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De EU doet dingen die voor heel Europa belangrijk zijn. Ze bevorderen samenwerking op economisch en politiek gebied.",
+        "en": "The EU does things that are important for all of Europe. They promote cooperation on economic and political matters."
+      },
+      "source_text_nl": "De EU doet dingen die voor heel Europa belangrijk zijn.",
+      "tags": ["EU", "doel", "samenwerking"]
+    },
+    {
+      "id": "M7_Q030", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Recht op eerlijk proces", "topic_en": "Right to a fair trial",
+      "question_nl": "Wat is het recht op een eerlijk proces?",
+      "options": [
+        {"id": "A", "text_nl": "Het recht om nooit gestraft te worden"},
+        {"id": "B", "text_nl": "Het recht om door een onafhankelijke rechter beoordeeld te worden als je wordt beschuldigd"},
+        {"id": "C", "text_nl": "Het recht om zelf rechter te zijn"},
+        {"id": "D", "text_nl": "Het recht om gratis een advocaat te kiezen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Iedereen heeft recht op een eerlijk proces. Als je beschuldigd wordt van iets, heb je het recht om door een onafhankelijke rechter beoordeeld te worden.",
+        "en": "Everyone has the right to a fair trial. If you are accused of something, you have the right to be judged by an independent judge."
+      },
+      "source_text_nl": "Iedereen heeft recht op een eerlijk proces.",
+      "tags": ["eerlijk proces", "rechter", "recht"]
+    },
+    {
+      "id": "M7_Q031", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Stemrecht – mannen vrouwen", "topic_en": "Voting rights – men women",
+      "question_nl": "Mogen vrouwen ook stemmen in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Nee, alleen mannen mogen stemmen"},
+        {"id": "B", "text_nl": "Ja, zowel mannen als vrouwen mogen stemmen"},
+        {"id": "C", "text_nl": "Alleen vrouwen boven de 25 mogen stemmen"},
+        {"id": "D", "text_nl": "Vrouwen mogen alleen bij lokale verkiezingen stemmen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Ja, zowel mannen als vrouwen mogen stemmen in Nederland. Mannen en vrouwen mogen stemmen.",
+        "en": "Yes, both men and women may vote in the Netherlands. Men and women are allowed to vote."
+      },
+      "source_text_nl": "Mannen en vrouwen mogen stemmen.",
+      "tags": ["stemmen", "vrouwen", "gelijkheid"]
+    },
+    {
+      "id": "M7_Q032", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Abortus – wet", "topic_en": "Abortion – law",
+      "question_nl": "Tot hoeveel weken van de zwangerschap is abortus toegestaan in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Tot 12 weken"},
+        {"id": "B", "text_nl": "Tot de 24e week"},
+        {"id": "C", "text_nl": "Tot 6 weken"},
+        {"id": "D", "text_nl": "Abortus is verboden in Nederland"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Abortus mag in Nederland tot de 24e week van de zwangerschap, maar alleen als de moeder in een noodsituatie zit. Ze overlegt dit met een arts.",
+        "en": "Abortion is permitted in the Netherlands up to the 24th week of pregnancy, but only if the mother is in an emergency situation. She discusses this with a doctor."
+      },
+      "source_text_nl": "Abortus is het afbreken van een zwangerschap. Dat mag in Nederland tot de 24e week.",
+      "tags": ["abortus", "24 weken", "wet"]
+    },
+    {
+      "id": "M7_Q033", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Euthanasie – wet", "topic_en": "Euthanasia – law",
+      "question_nl": "Wanneer is euthanasie toegestaan in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Nooit, euthanasie is verboden"},
+        {"id": "B", "text_nl": "Onder strenge voorwaarden als een ernstig zieke patiënt het zelf wil"},
+        {"id": "C", "text_nl": "Altijd, als een familielid het vraagt"},
+        {"id": "D", "text_nl": "Alleen voor mensen ouder dan 80"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Euthanasie is toegestaan onder strenge voorwaarden. De patiënt moet ernstig en ondraaglijk ziek zijn en het zelf gewild hebben.",
+        "en": "Euthanasia is permitted under strict conditions. The patient must be seriously and unbearably ill and must have requested it themselves."
+      },
+      "source_text_nl": "Bij euthanasie zorgt een arts dat een ernstig zieke patiënt kan sterven zonder veel pijn. De patiënt moet hebben gezegd dat hij dat echt wil.",
+      "tags": ["euthanasie", "patiënt", "strenge voorwaarden"]
+    },
+    {
+      "id": "M7_Q034", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Eerwraak – verbod", "topic_en": "Honour violence – prohibition",
+      "question_nl": "Is eerwraak (geweld vanwege eer) toegestaan in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Ja, als het om familie gaat"},
+        {"id": "B", "text_nl": "Nee, eerwraak is verboden in Nederland"},
+        {"id": "C", "text_nl": "Ja, bij ernstige eeraantasting"},
+        {"id": "D", "text_nl": "Alleen als de rechter het goedkeurt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Eerwraak is in Nederland verboden. Ook het slaan van kinderen of je partner is verboden. Geweld en mishandeling zijn strafbaar.",
+        "en": "Honour violence is prohibited in the Netherlands. Hitting children or your partner is also prohibited. Violence and abuse are criminal offences."
+      },
+      "source_text_nl": "Eerwraak en het slaan van kinderen of je vrouw is verboden!",
+      "tags": ["eerwraak", "verbod", "geweld"]
+    },
+    {
+      "id": "M7_Q035", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Homoseksualiteit – wet", "topic_en": "Homosexuality – law",
+      "question_nl": "Wat zegt de Nederlandse wet over homoseksualiteit?",
+      "options": [
+        {"id": "A", "text_nl": "Homoseksualiteit is verboden in Nederland"},
+        {"id": "B", "text_nl": "Homoseksualiteit is toegestaan; homo's mogen ook trouwen"},
+        {"id": "C", "text_nl": "Homoseksualiteit mag maar is niet wettelijk erkend"},
+        {"id": "D", "text_nl": "Alleen een religieuze huwelijk tussen homostellen is toegestaan"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Homoseksualiteit is in Nederland toegestaan en erkend. Homoseksuele mensen mogen trouwen: mannen met mannen en vrouwen met vrouwen.",
+        "en": "Homosexuality is permitted and recognised in the Netherlands. Homosexual people are allowed to marry: men with men and women with women."
+      },
+      "source_text_nl": "Ik geloof dat homoseksualiteit van bijna alle partijen mag. Mannen mogen ook met mannen trouwen, en vrouwen met vrouwen.",
+      "tags": ["homoseksualiteit", "trouwen", "wet"]
+    },
+    {
+      "id": "M7_Q036", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Democratie – bevolking", "topic_en": "Democracy – population",
+      "question_nl": "In een democratie is de bevolking de baas.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In een democratie is de bevolking de baas. Via verkiezingen kiest de bevolking vertegenwoordigers.",
+        "en": "That is correct. In a democracy, the people are in charge. Through elections, the population chooses representatives."
+      },
+      "source_text_nl": "Nederland is een democratie. Dat betekent: de bevolking is de baas.",
+      "tags": ["democratie", "bevolking", "verkiezingen"]
+    },
+    {
+      "id": "M7_Q037", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Tweede Kamer – 150 leden", "topic_en": "Second Chamber – 150 members",
+      "question_nl": "De Tweede Kamer heeft 150 leden.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In de Tweede Kamer zitten 150 mensen van verschillende politieke partijen.",
+        "en": "That is correct. The Second Chamber has 150 members from different political parties."
+      },
+      "source_text_nl": "In de Tweede Kamer zitten 150 mensen.",
+      "tags": ["Tweede Kamer", "150 leden"]
+    },
+    {
+      "id": "M7_Q038", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Eerste Kamer – 75 leden", "topic_en": "First Chamber – 75 members",
+      "question_nl": "De Eerste Kamer heeft 75 leden.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In de Eerste Kamer zitten 75 mensen.",
+        "en": "That is correct. The First Chamber has 75 members."
+      },
+      "source_text_nl": "In de Eerste Kamer zitten 75 mensen.",
+      "tags": ["Eerste Kamer", "75 leden"]
+    },
+    {
+      "id": "M7_Q039", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Prinsjesdag – september", "topic_en": "Budget Day – September",
+      "question_nl": "Prinsjesdag is op de derde dinsdag van september.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Prinsjesdag is elk jaar op de derde dinsdag van september.",
+        "en": "That is correct. Budget Day is every year on the third Tuesday of September."
+      },
+      "source_text_nl": "Prinsjesdag is altijd op de derde dinsdag in september.",
+      "tags": ["Prinsjesdag", "derde dinsdag", "september"]
+    },
+    {
+      "id": "M7_Q040", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Eerste Kamer – bevolking kiest", "topic_en": "First Chamber – public election",
+      "question_nl": "De bevolking kiest de Eerste Kamer rechtstreeks.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. De Eerste Kamer wordt gekozen door de provinciebesturen, niet rechtstreeks door de bevolking.",
+        "en": "This is incorrect. The First Chamber is elected by the provincial governments, not directly by the population."
+      },
+      "source_text_nl": "Je kunt niet stemmen op die mensen. Ze worden gekozen door het provinciebestuur.",
+      "tags": ["Eerste Kamer", "niet direct", "provinciebestuur"]
+    },
+    {
+      "id": "M7_Q041", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "EU – 27 landen", "topic_en": "EU – 27 countries",
+      "question_nl": "De Europese Unie heeft 27 lidstaten.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De EU heeft 27 lidstaten.",
+        "en": "That is correct. The EU has 27 member states."
+      },
+      "source_text_nl": "Er zitten nu 27 landen in de EU.",
+      "tags": ["EU", "27 landen", "lidstaten"]
+    },
+    {
+      "id": "M7_Q042", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Stemrecht – 18 jaar", "topic_en": "Voting right – 18 years",
+      "question_nl": "Je mag in Nederland stemmen vanaf 18 jaar.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Iedereen van 18 jaar of ouder mag stemmen in Nederland.",
+        "en": "That is correct. Everyone aged 18 or over may vote in the Netherlands."
+      },
+      "source_text_nl": "Iedereen van 18 jaar of ouder mag stemmen.",
+      "tags": ["stemmen", "18 jaar", "kiesrecht"]
+    },
+    {
+      "id": "M7_Q043", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Troonrede – minister-president", "topic_en": "Throne speech – prime minister",
+      "question_nl": "De minister-president spreekt de troonrede uit.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. De troonrede wordt uitgesproken door de koning, niet de minister-president.",
+        "en": "This is incorrect. The Speech from the Throne is delivered by the King, not the prime minister."
+      },
+      "source_text_nl": "De koning vertelt elk jaar de ideeën van de regering. Dit heet de troonrede.",
+      "tags": ["troonrede", "koning", "minister-president"]
+    },
+    {
+      "id": "M7_Q044", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Grondwet – basisrechten", "topic_en": "Constitution – basic rights",
+      "question_nl": "In de Grondwet staan de basisrechten van burgers.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De Grondwet bevat de basisrechten van alle burgers in Nederland.",
+        "en": "That is correct. The Constitution contains the basic rights of all citizens in the Netherlands."
+      },
+      "source_text_nl": "De Grondwet is de belangrijkste wet van Nederland. Daarin staan de basisrechten van burgers.",
+      "tags": ["Grondwet", "basisrechten", "burgers"]
+    },
+    {
+      "id": "M7_Q045", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Eerwraak verbod", "topic_en": "Honour violence ban",
+      "question_nl": "Eerwraak is verboden in Nederland.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Eerwraak is verboden in Nederland. Geweld en mishandeling zijn strafbaar.",
+        "en": "That is correct. Honour violence is prohibited in the Netherlands. Violence and abuse are criminal offences."
+      },
+      "source_text_nl": "Eerwraak en het slaan van kinderen of je vrouw is verboden!",
+      "tags": ["eerwraak", "verbod", "strafbaar"]
+    },
+    {
+      "id": "M7_Q046", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Homoseksueel huwelijk", "topic_en": "Same-sex marriage",
+      "question_nl": "Twee mannen mogen in Nederland met elkaar trouwen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In Nederland mogen twee mannen of twee vrouwen met elkaar trouwen.",
+        "en": "That is correct. In the Netherlands, two men or two women may marry each other."
+      },
+      "source_text_nl": "Mannen mogen ook met mannen trouwen, en vrouwen met vrouwen.",
+      "tags": ["homoseksueel huwelijk", "trouwen", "wet"]
+    },
+    {
+      "id": "M7_Q047", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Regering – koning", "topic_en": "Government – king",
+      "question_nl": "De koning is onderdeel van de Nederlandse regering.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De ministers, de minister-president en de koning zijn samen de Nederlandse regering. De koning heeft echter een ceremoniële rol.",
+        "en": "That is correct. The ministers, prime minister and King together form the Dutch government. However, the King has a ceremonial role."
+      },
+      "source_text_nl": "De ministers, de minister-president en de koning zijn samen de regering.",
+      "tags": ["regering", "koning", "samenstelling"]
+    },
+    {
+      "id": "M7_Q048", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Tweede Kamer – wetten aanpassen", "topic_en": "Second Chamber – amending laws",
+      "question_nl": "De Tweede Kamer kan voorgestelde wetten aanpassen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De Tweede Kamer kan ideeën geven hoe wetten anders kunnen. De Eerste Kamer mag dit niet.",
+        "en": "That is correct. The Second Chamber can propose how laws can be amended. The First Chamber may not do this."
+      },
+      "source_text_nl": "En ze geeft ideeën hoe het anders kan.",
+      "tags": ["Tweede Kamer", "wetten aanpassen", "ideeën"]
+    },
+    {
+      "id": "M7_Q049", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Eerste Kamer – wetten aanpassen", "topic_en": "First Chamber – amending laws",
+      "question_nl": "De Eerste Kamer mag voorgestelde wetten aanpassen.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. De Eerste Kamer mag alleen ja of nee zeggen over wetten. Ze mogen ze niet aanpassen.",
+        "en": "This is incorrect. The First Chamber may only say yes or no to laws. They may not amend them."
+      },
+      "source_text_nl": "De Eerste Kamer mag alleen ja of nee zeggen.",
+      "tags": ["Eerste Kamer", "aanpassen verboden", "wetten"]
+    },
+    {
+      "id": "M7_Q050", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Euthanasie – verbod", "topic_en": "Euthanasia – ban",
+      "question_nl": "Euthanasie is in Nederland volledig verboden.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Euthanasie is in Nederland toegestaan onder strenge voorwaarden.",
+        "en": "This is incorrect. Euthanasia is permitted in the Netherlands under strict conditions."
+      },
+      "source_text_nl": "Bij euthanasie zorgt een arts dat een ernstig zieke patiënt kan sterven zonder veel pijn.",
+      "tags": ["euthanasie", "niet verboden", "voorwaarden"]
+    },
+    {
+      "id": "M7_Q051", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Kiesrecht – wie mag stemmen", "topic_en": "Who may vote",
+      "question_nl": "Wie mag stemmen bij de Tweede Kamerverkiezingen in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen mensen die in Nederland zijn geboren"},
+        {"id": "B", "text_nl": "Alle Nederlanders van 18 jaar en ouder"},
+        {"id": "C", "text_nl": "Alle mensen die in Nederland wonen"},
+        {"id": "D", "text_nl": "Alleen mensen met een vaste baan"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Bij de Tweede Kamerverkiezingen mogen alle Nederlanders van 18 jaar en ouder stemmen.",
+        "en": "In Second Chamber elections, all Dutch citizens aged 18 and over may vote."
+      },
+      "source_text_nl": "Iedereen van 18 jaar of ouder mag stemmen.",
+      "tags": ["kiesrecht", "Nederlanders", "18 jaar"]
+    },
+    {
+      "id": "M7_Q052", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Minister – verantwoording", "topic_en": "Minister – accountability",
+      "question_nl": "Aan wie legt een minister verantwoording af over zijn beleid?",
+      "options": [
+        {"id": "A", "text_nl": "Aan de koning"},
+        {"id": "B", "text_nl": "Aan de Tweede Kamer"},
+        {"id": "C", "text_nl": "Aan de provinciebesturen"},
+        {"id": "D", "text_nl": "Aan de burgemeester"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een minister legt verantwoording af aan de Tweede Kamer. De Tweede Kamer controleert de ministers.",
+        "en": "A minister is accountable to the Second Chamber. The Second Chamber monitors the ministers."
+      },
+      "source_text_nl": "De Tweede Kamer controleert de ministers.",
+      "tags": ["minister", "verantwoording", "Tweede Kamer"]
+    },
+    {
+      "id": "M7_Q053", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Wetgevende macht", "topic_en": "Legislative power",
+      "question_nl": "Wie heeft de wetgevende macht in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "De rechter"},
+        {"id": "B", "text_nl": "Het parlement (Eerste en Tweede Kamer samen met de regering)"},
+        {"id": "C", "text_nl": "De koning"},
+        {"id": "D", "text_nl": "De burgemeester"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De wetgevende macht ligt bij het parlement: de Eerste Kamer, de Tweede Kamer en de regering samen.",
+        "en": "The legislative power rests with parliament: the First Chamber, the Second Chamber and the government together."
+      },
+      "source_text_nl": "De wetgevende macht ligt bij het parlement.",
+      "tags": ["wetgevende macht", "parlement", "wetten"]
+    },
+    {
+      "id": "M7_Q054", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Rechterlijke macht", "topic_en": "Judicial power",
+      "question_nl": "Wie heeft de rechterlijke macht in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "De ministers"},
+        {"id": "B", "text_nl": "De rechters en rechtbanken"},
+        {"id": "C", "text_nl": "De Tweede Kamer"},
+        {"id": "D", "text_nl": "De politie"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De rechterlijke macht ligt bij de rechters en rechtbanken. Zij spreken recht en zijn onafhankelijk van de politiek.",
+        "en": "The judicial power rests with judges and courts. They administer justice and are independent of politics."
+      },
+      "source_text_nl": "De rechterlijke macht ligt bij de rechters en rechtbanken.",
+      "tags": ["rechterlijke macht", "rechters", "rechtbanken"]
+    },
+    {
+      "id": "M7_Q055", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Uitvoerende macht", "topic_en": "Executive power",
+      "question_nl": "Wie heeft de uitvoerende macht in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "De rechtbanken"},
+        {"id": "B", "text_nl": "De regering (ministers en minister-president)"},
+        {"id": "C", "text_nl": "De Tweede Kamer"},
+        {"id": "D", "text_nl": "De provinciebesturen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De uitvoerende macht ligt bij de regering: de ministers en de minister-president. Zij voeren de wetten uit.",
+        "en": "The executive power rests with the government: the ministers and prime minister. They implement the laws."
+      },
+      "source_text_nl": "De uitvoerende macht ligt bij de regering.",
+      "tags": ["uitvoerende macht", "regering", "ministers"]
+    },
+    {
+      "id": "M7_Q056", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "EU – Nederland zelf beslissen", "topic_en": "EU – Netherlands own decisions",
+      "question_nl": "Kan Nederland altijd zelf alle beslissingen nemen?",
+      "options": [
+        {"id": "A", "text_nl": "Ja, Nederland is volledig onafhankelijk"},
+        {"id": "B", "text_nl": "Nee, Nederland moet ook naar de afspraken van de EU kijken"},
+        {"id": "C", "text_nl": "Ja, zolang de Tweede Kamer akkoord gaat"},
+        {"id": "D", "text_nl": "Nee, de VN beslist over Nederland"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "We kunnen in Nederland niet alles zelf beslissen. We moeten ook naar de afspraken van de EU kijken.",
+        "en": "In the Netherlands, we cannot decide everything ourselves. We must also look at the agreements of the EU."
+      },
+      "source_text_nl": "We kunnen in Nederland niet alles zelf beslissen. We moeten ook naar de afspraken van de EU kijken.",
+      "tags": ["EU", "zelf beslissen", "afspraken"]
+    },
+    {
+      "id": "M7_Q057", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Politieke partij – naam", "topic_en": "Political party – name",
+      "question_nl": "Welke partijen zijn voorbeelden van politieke partijen in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "FIFA en UEFA"},
+        {"id": "B", "text_nl": "CDA en VVD"},
+        {"id": "C", "text_nl": "COA en IND"},
+        {"id": "D", "text_nl": "UWV en SVB"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het CDA en de VVD zijn voorbeelden van politieke partijen in Nederland. Er zijn veel meer partijen.",
+        "en": "The CDA and the VVD are examples of political parties in the Netherlands. There are many more parties."
+      },
+      "source_text_nl": "Die mensen zijn van verschillende politieke partijen, bijvoorbeeld van het CDA of de VVD.",
+      "tags": ["CDA", "VVD", "politieke partijen"]
+    },
+    {
+      "id": "M7_Q058", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Drugsbeleid", "topic_en": "Drug policy",
+      "question_nl": "Hoe is het beleid rondom softdrugs zoals cannabis in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Cannabis is volledig legaal in Nederland"},
+        {"id": "B", "text_nl": "Cannabis wordt gedoogd in coffeeshops, maar is niet officieel legaal"},
+        {"id": "C", "text_nl": "Cannabis is volledig verboden en streng bestraft"},
+        {"id": "D", "text_nl": "Cannabis mag alleen thuis worden gebruikt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Nederland heeft een gedoogbeleid voor softdrugs. Dat betekent dat de verkoop in coffeeshops wordt gedoogd maar officieel niet legaal is.",
+        "en": "The Netherlands has a tolerance policy for soft drugs. This means sales in coffee shops are tolerated but not officially legal."
+      },
+      "source_text_nl": "Nederland heeft een gedoogbeleid voor softdrugs zoals cannabis.",
+      "tags": ["softdrugs", "gedoogbeleid", "coffeeshop"]
+    },
+    {
+      "id": "M7_Q059", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Onschuldpresumptie", "topic_en": "Presumption of innocence",
+      "question_nl": "Wat houdt 'onschuldig totdat het tegendeel bewezen is' in?",
+      "options": [
+        {"id": "A", "text_nl": "Iedereen die verdacht wordt is schuldig"},
+        {"id": "B", "text_nl": "Iemand is onschuldig totdat de rechter hem schuldig heeft verklaard"},
+        {"id": "C", "text_nl": "De politie bepaalt wie schuldig is"},
+        {"id": "D", "text_nl": "De slachtoffers bepalen wie schuldig is"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In een rechtsstaat geldt dat iemand onschuldig is totdat de rechter hem schuldig heeft verklaard. Dit heet de onschuldpresumptie.",
+        "en": "In a rule-of-law state, a person is innocent until the judge declares them guilty. This is called the presumption of innocence."
+      },
+      "source_text_nl": "Iemand is onschuldig totdat de rechter hem schuldig heeft verklaard.",
+      "tags": ["onschuldpresumptie", "rechter", "rechtsstaat"]
+    },
+    {
+      "id": "M7_Q060", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Straf – wie bepaalt", "topic_en": "Punishment – who decides",
+      "question_nl": "Wie bepaalt de straf als iemand een misdrijf heeft gepleegd?",
+      "options": [
+        {"id": "A", "text_nl": "De politie"},
+        {"id": "B", "text_nl": "De rechter"},
+        {"id": "C", "text_nl": "De minister van Justitie"},
+        {"id": "D", "text_nl": "De burgemeester"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De rechter bepaalt de straf als iemand een misdrijf heeft gepleegd. De rechter is onafhankelijk.",
+        "en": "The judge determines the punishment when someone has committed a crime. The judge is independent."
+      },
+      "source_text_nl": "De rechter bepaalt de straf als iemand een misdrijf heeft gepleegd.",
+      "tags": ["straf", "rechter", "misdrijf"]
+    },
+    {
+      "id": "M7_Q061", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Abortus – 24 weken", "topic_en": "Abortion – 24 weeks",
+      "question_nl": "Abortus is in Nederland toegestaan tot de 24e week van de zwangerschap.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Abortus mag in Nederland tot de 24e week, maar alleen als de moeder in een noodsituatie zit.",
+        "en": "That is correct. Abortion is permitted in the Netherlands up to the 24th week, but only if the mother is in an emergency situation."
+      },
+      "source_text_nl": "Abortus is het afbreken van een zwangerschap. Dat mag in Nederland tot de 24e week.",
+      "tags": ["abortus", "24 weken", "toegestaan"]
+    },
+    {
+      "id": "M7_Q062", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Parlement – beslissingen", "topic_en": "Parliament – decisions",
+      "question_nl": "Het parlement neemt de belangrijkste beslissingen voor heel Nederland.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Het parlement neemt belangrijke beslissingen voor het hele land.",
+        "en": "That is correct. Parliament makes important decisions for the whole country."
+      },
+      "source_text_nl": "Het parlement neemt belangrijke beslissingen voor het hele land.",
+      "tags": ["parlement", "beslissingen", "Nederland"]
+    },
+    {
+      "id": "M7_Q063", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Rechtsstaat – iedereen wet", "topic_en": "Rule of law – everyone",
+      "question_nl": "In een rechtsstaat moet ook de overheid zich aan de wet houden.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In een rechtsstaat geldt de wet voor iedereen, ook voor de overheid.",
+        "en": "That is correct. In a rule-of-law state, the law applies to everyone, including the government."
+      },
+      "source_text_nl": "In een rechtsstaat moet iedereen zich aan de wet houden, ook de overheid.",
+      "tags": ["rechtsstaat", "overheid", "wet"]
+    },
+    {
+      "id": "M7_Q064", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Euro – EU munt", "topic_en": "Euro – EU currency",
+      "question_nl": "De euro is de gemeenschappelijke munt van de Europese Unie.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De euro is de gemeenschappelijke munt van de Europese Unie.",
+        "en": "That is correct. The euro is the common currency of the European Union."
+      },
+      "source_text_nl": "Bijvoorbeeld de euro, dat is het geld van de Europese Unie.",
+      "tags": ["euro", "EU", "munt"]
+    },
+    {
+      "id": "M7_Q065", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Minister-president – staatshoofd", "topic_en": "Prime minister – head of state",
+      "question_nl": "De minister-president is het staatshoofd van Nederland.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Het staatshoofd van Nederland is de koning. De minister-president leidt de regering.",
+        "en": "This is incorrect. The head of state of the Netherlands is the King. The prime minister leads the government."
+      },
+      "source_text_nl": "De koning is het staatshoofd van Nederland. De minister-president leidt de regering.",
+      "tags": ["minister-president", "staatshoofd", "koning"]
+    },
+    {
+      "id": "M7_Q066", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Stemrecht – verplicht", "topic_en": "Voting – compulsory",
+      "question_nl": "In Nederland is stemmen verplicht.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Stemmen is in Nederland niet verplicht. Het is een recht maar geen plicht.",
+        "en": "This is incorrect. Voting is not compulsory in the Netherlands. It is a right but not an obligation."
+      },
+      "source_text_nl": "Stemmen is in Nederland een recht maar geen plicht.",
+      "tags": ["stemrecht", "vrijwillig", "niet verplicht"]
+    },
+    {
+      "id": "M7_Q067", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Scheiding der machten", "topic_en": "Separation of powers",
+      "question_nl": "In Nederland zijn de wetgevende, uitvoerende en rechterlijke macht van elkaar gescheiden.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Dit heet de scheiding der machten. Het zorgt ervoor dat geen enkele groep te veel macht heeft.",
+        "en": "That is correct. This is called the separation of powers. It ensures no single group has too much power."
+      },
+      "source_text_nl": "In Nederland zijn de drie machten van elkaar gescheiden.",
+      "tags": ["scheiding der machten", "drie machten", "democratie"]
+    },
+    {
+      "id": "M7_Q068", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Nederland – coalitie", "topic_en": "Netherlands – coalition",
+      "question_nl": "In Nederland werken meerdere politieke partijen vaak samen in een coalitie om te regeren.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Omdat er veel partijen zijn en geen enkele partij de meerderheid haalt, is een coalitie nodig.",
+        "en": "That is correct. Because there are many parties and no single party gets a majority, a coalition is needed."
+      },
+      "source_text_nl": "In Nederland is een coalitie nodig omdat geen enkele partij de meerderheid haalt.",
+      "tags": ["coalitie", "meerderheid", "partijen"]
+    },
+    {
+      "id": "M7_Q069", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Grondwet – aanpassen", "topic_en": "Constitution – amending",
+      "question_nl": "De Grondwet kan makkelijk worden veranderd door de Tweede Kamer.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. De Grondwet is moeilijk aan te passen. Er is een bijzondere procedure voor nodig, waarbij twee opeenvolgende parlementen moeten instemmen.",
+        "en": "This is incorrect. The Constitution is difficult to amend. A special procedure is required, in which two successive parliaments must agree."
+      },
+      "source_text_nl": "De Grondwet is moeilijk te veranderen. Er is een speciale procedure voor nodig.",
+      "tags": ["Grondwet", "aanpassen", "moeilijk"]
+    },
+    {
+      "id": "M7_Q070", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Rechter – onafhankelijk", "topic_en": "Judge – independent",
+      "question_nl": "Rechters in Nederland zijn onafhankelijk van de politiek.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Rechters zijn onafhankelijk. Ze mogen niet beïnvloed worden door de politiek.",
+        "en": "That is correct. Judges are independent. They must not be influenced by politics."
+      },
+      "source_text_nl": "Rechters zijn onafhankelijk van de politiek.",
+      "tags": ["rechters", "onafhankelijk", "politiek"]
+    },
+    {
+      "id": "M7_Q071", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Formatie", "topic_en": "Formation",
+      "question_nl": "Wat is een formatie in de Nederlandse politiek?",
+      "options": [
+        {"id": "A", "text_nl": "Een militaire oefening"},
+        {"id": "B", "text_nl": "Het proces van het vormen van een nieuwe regering na de verkiezingen"},
+        {"id": "C", "text_nl": "Een bijeenkomst van alle burgemeesters"},
+        {"id": "D", "text_nl": "Een vergadering van de Eerste Kamer"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Na de verkiezingen moeten partijen onderhandelen over wie de regering vormt. Dit proces heet de formatie.",
+        "en": "After the elections, parties must negotiate about who forms the government. This process is called the formation."
+      },
+      "source_text_nl": "De formatie is het proces van het vormen van een nieuwe regering na verkiezingen.",
+      "tags": ["formatie", "regering", "verkiezingen"]
+    },
+    {
+      "id": "M7_Q072", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Informateur – formateur", "topic_en": "Informateur – formateur",
+      "question_nl": "Wat doet een informateur na de verkiezingen?",
+      "options": [
+        {"id": "A", "text_nl": "Hij telt de stemmen"},
+        {"id": "B", "text_nl": "Hij onderzoekt welke partijen samen een coalitie kunnen vormen"},
+        {"id": "C", "text_nl": "Hij schrijft de nieuwe wetten"},
+        {"id": "D", "text_nl": "Hij spreekt de troonrede uit"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een informateur onderzoekt na de verkiezingen welke partijen samen een coalitie kunnen vormen en een meerderheid hebben.",
+        "en": "After the elections, an informateur investigates which parties can form a coalition together and have a majority."
+      },
+      "source_text_nl": "Een informateur onderzoekt welke partijen samen een coalitie kunnen vormen.",
+      "tags": ["informateur", "coalitie", "verkiezingen"]
+    },
+    {
+      "id": "M7_Q073", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Vrijheid godsdienst – wet", "topic_en": "Freedom of religion – law",
+      "question_nl": "Wat staat er in de Grondwet over godsdienst?",
+      "options": [
+        {"id": "A", "text_nl": "Iedereen moet christelijk zijn"},
+        {"id": "B", "text_nl": "Iedereen heeft vrijheid van godsdienst"},
+        {"id": "C", "text_nl": "Religie is verboden op het werk"},
+        {"id": "D", "text_nl": "Alleen Nederlanders mogen hun eigen geloof volgen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In de Grondwet staat dat iedereen vrijheid van godsdienst heeft. Je mag zelf kiezen wat je gelooft.",
+        "en": "The Constitution states that everyone has freedom of religion. You may choose for yourself what you believe."
+      },
+      "source_text_nl": "De Grondwet garandeert vrijheid van godsdienst.",
+      "tags": ["godsdienst", "vrijheid", "Grondwet"]
+    },
+    {
+      "id": "M7_Q074", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Politiek debat", "topic_en": "Political debate",
+      "question_nl": "Wat is een politiek debat?",
+      "options": [
+        {"id": "A", "text_nl": "Een vergadering waar alleen de minister-president spreekt"},
+        {"id": "B", "text_nl": "Een discussie in de Kamer waarbij politici hun mening geven over een onderwerp"},
+        {"id": "C", "text_nl": "Een bijeenkomst van burgemeesters"},
+        {"id": "D", "text_nl": "Een rechtszaak in de rechtbank"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een politiek debat is een discussie in de Tweede Kamer waarbij politici hun mening geven en met elkaar debatteren over een onderwerp.",
+        "en": "A political debate is a discussion in the Second Chamber where politicians give their views and debate with each other about a topic."
+      },
+      "source_text_nl": "In de Tweede Kamer wordt gedebatteerd over nieuwe wetten en beleid.",
+      "tags": ["debat", "Tweede Kamer", "politici"]
+    },
+    {
+      "id": "M7_Q075", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Staatsrecht", "topic_en": "Constitutional law",
+      "question_nl": "Wat regelt het staatsrecht in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "De regels over belastingen"},
+        {"id": "B", "text_nl": "De organisatie van de staat en de rechten en plichten van burgers"},
+        {"id": "C", "text_nl": "De regels over de arbeidsmarkt"},
+        {"id": "D", "text_nl": "De regels over de woningmarkt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het staatsrecht regelt de organisatie van de staat en de rechten en plichten van burgers.",
+        "en": "Constitutional law regulates the organisation of the state and the rights and duties of citizens."
+      },
+      "source_text_nl": "Het staatsrecht regelt de organisatie van de staat en de rechten van burgers.",
+      "tags": ["staatsrecht", "organisatie", "rechten"]
+    },
+    {
+      "id": "M7_Q076", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Drugsbeleid gedogen", "topic_en": "Drug policy tolerance",
+      "question_nl": "In Nederland wordt de verkoop van softdrugs in coffeeshops gedoogd.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Nederland heeft een gedoogbeleid. Dat betekent dat de verkoop in coffeeshops niet officieel is toegestaan maar ook niet wordt vervolgd.",
+        "en": "That is correct. The Netherlands has a tolerance policy. This means that sales in coffee shops are not officially permitted but are also not prosecuted."
+      },
+      "source_text_nl": "Nederland heeft een gedoogbeleid voor softdrugs.",
+      "tags": ["gedoogbeleid", "softdrugs", "coffeeshop"]
+    },
+    {
+      "id": "M7_Q077", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Constitutionele monarchie", "topic_en": "Constitutional monarchy",
+      "question_nl": "Nederland is een constitutionele monarchie.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Nederland is een constitutionele monarchie. Er is een koning maar zijn macht is beperkt door de Grondwet.",
+        "en": "That is correct. The Netherlands is a constitutional monarchy. There is a king but his power is limited by the Constitution."
+      },
+      "source_text_nl": "Nederland is een constitutionele monarchie.",
+      "tags": ["constitutionele monarchie", "koning", "Grondwet"]
+    },
+    {
+      "id": "M7_Q078", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Vrijheid meningsuiting – Grondwet", "topic_en": "Freedom of speech – Constitution",
+      "question_nl": "De vrijheid van meningsuiting is vastgelegd in de Nederlandse Grondwet.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De vrijheid van meningsuiting is een grondrecht dat vastgelegd is in de Grondwet.",
+        "en": "That is correct. Freedom of speech is a constitutional right established in the Constitution."
+      },
+      "source_text_nl": "De vrijheid van meningsuiting is een grondrecht vastgelegd in de Grondwet.",
+      "tags": ["vrijheid meningsuiting", "Grondwet", "grondrecht"]
+    },
+    {
+      "id": "M7_Q079", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Wetsvoorstel – Tweede Kamer eerst", "topic_en": "Bill – Second Chamber first",
+      "question_nl": "De Tweede Kamer stemt altijd als eerste over een nieuw wetsvoorstel.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De Tweede Kamer stemt altijd eerst over een wetsvoorstel. Daarna pas de Eerste Kamer.",
+        "en": "That is correct. The Second Chamber always votes first on a bill. After that, the First Chamber votes."
+      },
+      "source_text_nl": "De Tweede Kamer stemt altijd eerst over een wetsvoorstel. Daarna pas de Eerste Kamer.",
+      "tags": ["wetsvoorstel", "Tweede Kamer", "volgorde"]
+    },
+    {
+      "id": "M7_Q080", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Onschuldig – bewezen schuldig", "topic_en": "Innocent until proven guilty",
+      "question_nl": "In Nederland is iemand onschuldig totdat de rechter hem schuldig heeft verklaard.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Dit is het principe van de onschuldpresumptie. Het is een belangrijk principe van de rechtsstaat.",
+        "en": "That is correct. This is the principle of the presumption of innocence. It is an important principle of the rule of law."
+      },
+      "source_text_nl": "Iemand is onschuldig totdat de rechter hem schuldig heeft verklaard.",
+      "tags": ["onschuldpresumptie", "rechtsstaat", "rechter"]
+    }
+  ]
+}

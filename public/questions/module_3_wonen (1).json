@@ -1,0 +1,1292 @@
+{
+  "module_id": "M3",
+  "module_title_nl": "Wonen",
+  "module_title_en": "Housing",
+  "total_questions": 80,
+  "questions": [
+    {
+      "id": "M3_Q001", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huurwoning zoeken", "topic_en": "Finding a rental home",
+      "question_nl": "Waar moet je je inschrijven als je een huurhuis wilt?",
+      "options": [
+        {"id": "A", "text_nl": "Bij het UWV WERKbedrijf"},
+        {"id": "B", "text_nl": "Bij een woningbouwvereniging"},
+        {"id": "C", "text_nl": "Bij de notaris"},
+        {"id": "D", "text_nl": "Bij de Kamer van Koophandel"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je een huurhuis wilt, moet je je inschrijven bij een woningbouwvereniging. Een woningbouwvereniging is een bedrijf dat woningen verhuurt.",
+        "en": "If you want to rent a house, you must register with a housing corporation. A housing corporation is a company that rents out homes."
+      },
+      "source_text_nl": "Als je een huis wilt huren, dan moet je je inschrijven bij een woningbouwvereniging.",
+      "tags": ["huren", "woningbouwvereniging", "inschrijven"]
+    },
+    {
+      "id": "M3_Q002", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Woningbouwvereniging", "topic_en": "Housing corporation",
+      "question_nl": "Wat is een woningbouwvereniging?",
+      "options": [
+        {"id": "A", "text_nl": "Een bank die hypotheken geeft"},
+        {"id": "B", "text_nl": "Een bedrijf dat woningen verhuurt"},
+        {"id": "C", "text_nl": "Een overheidsinstelling die bouwvergunningen geeft"},
+        {"id": "D", "text_nl": "Een makelaarskantoor"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een woningbouwvereniging is een bedrijf dat woningen verhuurt. Je inschrijven bij een woningbouwvereniging kost geld.",
+        "en": "A housing corporation is a company that rents out homes. Registering with a housing corporation costs money."
+      },
+      "source_text_nl": "Een woningbouwvereniging is een bedrijf dat woningen verhuurt. Je inschrijven kost geld.",
+      "tags": ["woningbouwvereniging", "huren"]
+    },
+    {
+      "id": "M3_Q003", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Woonwensen", "topic_en": "Housing preferences",
+      "question_nl": "Wat zijn woonwensen?",
+      "options": [
+        {"id": "A", "text_nl": "De regels van de woningbouwvereniging"},
+        {"id": "B", "text_nl": "Alles wat jij belangrijk vindt voor je nieuwe huis"},
+        {"id": "C", "text_nl": "De vereisten van de verhuurder"},
+        {"id": "D", "text_nl": "De maximale huurprijs die de gemeente stelt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Woonwensen zijn alles wat jij belangrijk vindt voor je nieuwe huis. Hoe groot moet het zijn? In welke buurt wil je wonen? Hoeveel mag het kosten?",
+        "en": "Housing preferences are everything you find important for your new home — how big it should be, which neighbourhood, how much it may cost."
+      },
+      "source_text_nl": "Woonwensen zijn dus alles wat jij belangrijk vindt voor je nieuwe huis.",
+      "tags": ["woonwensen", "huis zoeken"]
+    },
+    {
+      "id": "M3_Q004", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huurprijs", "topic_en": "Rent price",
+      "question_nl": "Wat is de kale huurprijs?",
+      "options": [
+        {"id": "A", "text_nl": "De totale huurprijs inclusief gas, water en licht"},
+        {"id": "B", "text_nl": "De huurprijs zonder servicekosten en stookkosten"},
+        {"id": "C", "text_nl": "De huurprijs inclusief de hypotheek"},
+        {"id": "D", "text_nl": "De laagste huurprijs in de buurt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De kale huurprijs is de huurprijs zonder servicekosten en stookkosten. Die kosten betaal je apart bovenop de kale huur.",
+        "en": "The bare rent is the rent price without service costs and heating costs. Those costs are paid separately on top of the bare rent."
+      },
+      "source_text_nl": "Kale huurprijs is de huurprijs zonder servicekosten en stookkosten.",
+      "tags": ["huurprijs", "kale huur", "kosten"]
+    },
+    {
+      "id": "M3_Q005", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Reageren op woning", "topic_en": "Responding to a property listing",
+      "question_nl": "Hoe kun je reageren als je een woning bij de woningbouwvereniging wilt huren?",
+      "options": [
+        {"id": "A", "text_nl": "Je betaalt direct de eerste maand huur"},
+        {"id": "B", "text_nl": "Je vult een bon in, belt of reageert op de website"},
+        {"id": "C", "text_nl": "Je stuurt een brief naar de gemeente"},
+        {"id": "D", "text_nl": "Je gaat direct bij de notaris langs"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je een woning wilt huren, kun je reageren door een bon in te vullen en op te sturen. Je kunt ook bellen of reageren op de website van de woningbouwvereniging.",
+        "en": "If you want to rent a home, you can respond by filling in a response form and sending it. You can also call or respond on the housing corporation's website."
+      },
+      "source_text_nl": "Je kunt reageren door een bon in te vullen en op te sturen. Je kunt ook bellen of reageren op de website.",
+      "tags": ["reageren", "huurwoning", "woningbouwvereniging"]
+    },
+    {
+      "id": "M3_Q006", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Koophuis – vraagprijs", "topic_en": "Buying – asking price",
+      "question_nl": "Wat is de vraagprijs van een huis?",
+      "options": [
+        {"id": "A", "text_nl": "Het bedrag dat de koper wil betalen"},
+        {"id": "B", "text_nl": "Het bedrag dat de verkoper graag wil hebben voor zijn huis"},
+        {"id": "C", "text_nl": "De kosten van de notaris"},
+        {"id": "D", "text_nl": "De hoogte van de hypotheek"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De vraagprijs is het bedrag dat de verkoper graag wil hebben voor zijn huis. Jij kunt een bod doen dat hoger of lager is dan de vraagprijs.",
+        "en": "The asking price is the amount the seller wants for their house. You can make a bid that is higher or lower than the asking price."
+      },
+      "source_text_nl": "Het huis heeft een vraagprijs. Dat is het bedrag dat de verkoper graag wil hebben.",
+      "tags": ["vraagprijs", "koophuis", "bod"]
+    },
+    {
+      "id": "M3_Q007", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Bod uitbrengen", "topic_en": "Making a bid",
+      "question_nl": "Wat is een bod bij het kopen van een huis?",
+      "options": [
+        {"id": "A", "text_nl": "De prijs die de woningbouwvereniging vraagt"},
+        {"id": "B", "text_nl": "Het bedrag dat jij voor het huis wilt betalen"},
+        {"id": "C", "text_nl": "De kosten van de makelaar"},
+        {"id": "D", "text_nl": "Het bedrag dat de bank leent"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een bod is het bedrag dat jij voor het huis wilt betalen. Dit hoeft niet hetzelfde te zijn als de vraagprijs.",
+        "en": "A bid is the amount you want to pay for the house. This does not have to be the same as the asking price."
+      },
+      "source_text_nl": "Een bod is wat jij voor het huis wilt betalen.",
+      "tags": ["bod", "koophuis", "kopen"]
+    },
+    {
+      "id": "M3_Q008", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Hypotheek", "topic_en": "Mortgage",
+      "question_nl": "Wat is een hypotheek?",
+      "options": [
+        {"id": "A", "text_nl": "Een huurcontract voor lange tijd"},
+        {"id": "B", "text_nl": "Een lening bij de bank om een huis te kopen"},
+        {"id": "C", "text_nl": "Een vergunning van de gemeente om te bouwen"},
+        {"id": "D", "text_nl": "Een inschrijfformulier voor de woningbouwvereniging"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een hypotheek is een lening die je bij de bank afsluit om een huis te kopen. Je betaalt de lening elke maand terug aan de bank.",
+        "en": "A mortgage is a loan you take out at the bank to buy a house. You pay the loan back to the bank every month."
+      },
+      "source_text_nl": "Nu moet je de hypotheek regelen. Met de hypotheek en het koopcontract ga je naar de notaris.",
+      "tags": ["hypotheek", "bank", "koophuis"]
+    },
+    {
+      "id": "M3_Q009", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Makelaar", "topic_en": "Estate agent",
+      "question_nl": "Waarvoor kun je een makelaar inschakelen?",
+      "options": [
+        {"id": "A", "text_nl": "Om je huurcontract op te zeggen"},
+        {"id": "B", "text_nl": "Om je te helpen bij het kopen of verkopen van een huis"},
+        {"id": "C", "text_nl": "Om een hypotheek te regelen"},
+        {"id": "D", "text_nl": "Om een bouwvergunning aan te vragen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een makelaar is iemand die mensen helpt bij het kopen of verkopen van een huis. De makelaar vraagt naar je woonwensen en zoekt een huis dat erbij past.",
+        "en": "An estate agent is someone who helps people buy or sell a house. The agent asks about your preferences and searches for a matching property."
+      },
+      "source_text_nl": "Een makelaar is iemand die mensen helpt bij het kopen of verkopen van een huis.",
+      "tags": ["makelaar", "kopen", "verkopen"]
+    },
+    {
+      "id": "M3_Q010", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Notaris", "topic_en": "Notary",
+      "question_nl": "Waarvoor ga je naar de notaris als je een huis koopt?",
+      "options": [
+        {"id": "A", "text_nl": "Om je in te schrijven bij de woningbouwvereniging"},
+        {"id": "B", "text_nl": "Om de koopakte te ondertekenen en eigenaar te worden"},
+        {"id": "C", "text_nl": "Om een huurcontract op te stellen"},
+        {"id": "D", "text_nl": "Om een bouwvergunning te krijgen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je gaat naar de notaris om de koopakte te ondertekenen. De notaris maakt de koopakte. Dit is een officieel papier dat bewijst dat jij het huis gekocht hebt.",
+        "en": "You go to the notary to sign the deed of purchase. The notary draws up the deed. This is an official document proving you have bought the house."
+      },
+      "source_text_nl": "De notaris maakt een koopakte. Dit is een officieel papier dat bewijst dat jij het huis gekocht hebt.",
+      "tags": ["notaris", "koopakte", "koophuis"]
+    },
+    {
+      "id": "M3_Q011", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Afval scheiden – gft", "topic_en": "Waste separation – organic",
+      "question_nl": "In welke container doe je groente-, fruit- en tuinafval?",
+      "options": [
+        {"id": "A", "text_nl": "In de grijze container"},
+        {"id": "B", "text_nl": "In de groene container"},
+        {"id": "C", "text_nl": "In de glasbak"},
+        {"id": "D", "text_nl": "In de plastic container"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Groente-, fruit- en tuinafval (gft) doe je in de groene container. Dit afval wordt apart verwerkt tot compost.",
+        "en": "Vegetable, fruit and garden waste (gft) goes in the green container. This waste is processed separately into compost."
+      },
+      "source_text_nl": "In de groene container doe je gft-afval. Dat is groente-, fruit- en tuinafval.",
+      "tags": ["gft", "groene container", "afval scheiden"]
+    },
+    {
+      "id": "M3_Q012", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Afval scheiden – restafval", "topic_en": "Waste separation – general waste",
+      "question_nl": "In welke container gooi je het gewone huishoudelijk afval?",
+      "options": [
+        {"id": "A", "text_nl": "In de groene container"},
+        {"id": "B", "text_nl": "In de grijze container"},
+        {"id": "C", "text_nl": "In de glasbak"},
+        {"id": "D", "text_nl": "Bij de chemokar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het gewone huishoudelijk afval — het restafval — gooi je in de grijze container. Dit is al het afval dat je niet apart kunt inleveren.",
+        "en": "Ordinary household waste — residual waste — goes in the grey container. This is all waste that cannot be handed in separately."
+      },
+      "source_text_nl": "Je andere huishoudelijke afval doe je in de grijze container. We noemen dit het restafval.",
+      "tags": ["restafval", "grijze container", "afval"]
+    },
+    {
+      "id": "M3_Q013", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Glasbak", "topic_en": "Glass recycling bank",
+      "question_nl": "Waar breng je oud glas naartoe?",
+      "options": [
+        {"id": "A", "text_nl": "In de grijze container"},
+        {"id": "B", "text_nl": "In de glasbak in de buurt"},
+        {"id": "C", "text_nl": "Bij de chemokar"},
+        {"id": "D", "text_nl": "In de groene container"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Oud glas gooi je in de glasbak. In elke buurt staan glasbakken voor verschillende kleuren glas.",
+        "en": "Old glass goes in the glass bank. Every neighbourhood has glass banks for different colours of glass."
+      },
+      "source_text_nl": "In elke buurt staan glasbakken voor verschillende kleuren glas.",
+      "tags": ["glasbak", "glas", "afval scheiden"]
+    },
+    {
+      "id": "M3_Q014", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Klein chemisch afval", "topic_en": "Small chemical waste",
+      "question_nl": "Waar breng je klein chemisch afval (kca) zoals batterijen en verf naartoe?",
+      "options": [
+        {"id": "A", "text_nl": "In de groene container"},
+        {"id": "B", "text_nl": "Bij de chemokar of de milieustraat"},
+        {"id": "C", "text_nl": "In de grijze container"},
+        {"id": "D", "text_nl": "In de glasbak"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Klein chemisch afval (kca) zoals batterijen en verf mag je niet in de gewone container gooien. Je brengt dit naar de chemokar of de milieustraat.",
+        "en": "Small chemical waste (kca) such as batteries and paint must not go in the regular container. You take it to the chemical waste collection point or the recycling centre."
+      },
+      "source_text_nl": "Voor het klein chemisch afval (kca) komt in veel gemeentes de chemokar langs. Hier kun je batterijen en verf inleveren.",
+      "tags": ["kca", "chemokar", "milieustraat", "batterijen"]
+    },
+    {
+      "id": "M3_Q015", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Grofvuil", "topic_en": "Bulky waste",
+      "question_nl": "Wat is grofvuil?",
+      "options": [
+        {"id": "A", "text_nl": "Klein chemisch afval zoals batterijen"},
+        {"id": "B", "text_nl": "Groot afval dat niet in de container past, zoals een oud meubel"},
+        {"id": "C", "text_nl": "Afval van de tuin"},
+        {"id": "D", "text_nl": "Afval dat je in de glasbak gooit"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Grofvuil is afval dat niet in de container past. Bijvoorbeeld een oud, kapot bankstel. Je kunt de afhaaldienst bellen om het op te halen.",
+        "en": "Bulky waste is waste that does not fit in the container — for example an old, broken sofa. You can call the collection service to have it collected."
+      },
+      "source_text_nl": "Grofvuil is afval dat niet in de container past. Bijvoorbeeld een oud, kapot bankstel.",
+      "tags": ["grofvuil", "ophalen", "groot afval"]
+    },
+    {
+      "id": "M3_Q016", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Afvalkalender", "topic_en": "Waste collection calendar",
+      "question_nl": "Waarvoor gebruik je een afvalkalender?",
+      "options": [
+        {"id": "A", "text_nl": "Om te zien welke afvalcontainer je moet kopen"},
+        {"id": "B", "text_nl": "Om te zien op welke dag de afvalwagen je afval ophaalt"},
+        {"id": "C", "text_nl": "Om je afscheiding bij te houden"},
+        {"id": "D", "text_nl": "Om een nieuwe container aan te vragen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Op de afvalkalender kun je zien wanneer de ophaaldienst komt. Zo weet je op welke dag je het afval buiten moet zetten.",
+        "en": "The waste calendar shows you when the collection service comes. This tells you which day to put your waste out."
+      },
+      "source_text_nl": "Op de afvalkalender kun je zien wanneer de ophaaldienst komt.",
+      "tags": ["afvalkalender", "ophaaldienst", "ophaaldag"]
+    },
+    {
+      "id": "M3_Q017", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Schone woonomgeving", "topic_en": "Clean living environment",
+      "question_nl": "Waarom vinden Nederlanders het belangrijk om de omgeving schoon te houden?",
+      "options": [
+        {"id": "A", "text_nl": "Omdat de belasting lager is als de buurt schoon is"},
+        {"id": "B", "text_nl": "Omdat mensen dicht bij elkaar wonen en niemand er last van mag hebben"},
+        {"id": "C", "text_nl": "Omdat de gemeente het verplicht stelt bij wet"},
+        {"id": "D", "text_nl": "Omdat je anders geen huursubsidie krijgt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In Nederland wonen mensen dicht bij elkaar. Nederlanders vinden een schone omgeving belangrijk en willen dat niemand last heeft van rommel.",
+        "en": "In the Netherlands, people live close together. Dutch people consider a clean environment important and want no one to be bothered by litter."
+      },
+      "source_text_nl": "In Nederland wonen veel mensen dicht bij elkaar. Nederlanders vinden een schoon milieu belangrijk.",
+      "tags": ["schone omgeving", "milieu", "woonomgeving"]
+    },
+    {
+      "id": "M3_Q018", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Textiel inleveren", "topic_en": "Handing in textiles",
+      "question_nl": "Waar breng je oude kleren naartoe?",
+      "options": [
+        {"id": "A", "text_nl": "In de groene container"},
+        {"id": "B", "text_nl": "In een kledingcontainer of textielcontainer"},
+        {"id": "C", "text_nl": "In de grijze container"},
+        {"id": "D", "text_nl": "Bij de chemokar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Oude kleren en textiel breng je naar een kledingcontainer of textielcontainer. Textiel wordt apart ingezameld en gerecycled of hergebruikt.",
+        "en": "Old clothes and textiles go in a clothing or textile container. Textiles are collected separately and recycled or reused."
+      },
+      "source_text_nl": "Er staat ook een container voor textiel. Met textiel bedoelen we oude kleren.",
+      "tags": ["textiel", "kleren", "kledingcontainer"]
+    },
+    {
+      "id": "M3_Q019", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Plastic inleveren", "topic_en": "Plastic recycling",
+      "question_nl": "Waar gooi je plastic afval in?",
+      "options": [
+        {"id": "A", "text_nl": "In de groene container"},
+        {"id": "B", "text_nl": "In de aparte plasticbak of plastic container"},
+        {"id": "C", "text_nl": "In de glasbak"},
+        {"id": "D", "text_nl": "In de grijze container"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Plastic afval gooi je in de aparte plasticbak of plastic container. Plastic wordt apart ingezameld zodat het gerecycled kan worden.",
+        "en": "Plastic waste goes in the separate plastic bin or plastic container. Plastic is collected separately so it can be recycled."
+      },
+      "source_text_nl": "Er staat ook een container voor plastic.",
+      "tags": ["plastic", "recycling", "container"]
+    },
+    {
+      "id": "M3_Q020", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Oud papier", "topic_en": "Paper recycling",
+      "question_nl": "Waar breng je oud papier naartoe?",
+      "options": [
+        {"id": "A", "text_nl": "In de groene container"},
+        {"id": "B", "text_nl": "In de oud-papiercontainer of papiercontainer"},
+        {"id": "C", "text_nl": "In de glasbak"},
+        {"id": "D", "text_nl": "Bij de chemokar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Oud papier en karton doe je in de oud-papiercontainer. Papier wordt apart ingezameld en gerecycled.",
+        "en": "Old paper and cardboard go in the paper recycling container. Paper is collected separately and recycled."
+      },
+      "source_text_nl": "Er staat ook een container voor oud papier.",
+      "tags": ["papier", "oud papier", "recycling"]
+    },
+    {
+      "id": "M3_Q021", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huurwoning advertentie", "topic_en": "Rental listing",
+      "question_nl": "Wat staat er in een advertentie van een huurwoning?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen de naam van de verhuurder"},
+        {"id": "B", "text_nl": "Het adres, de huurprijs, het aantal kamers en voor hoeveel personen het huis is"},
+        {"id": "C", "text_nl": "Alleen de huurprijs"},
+        {"id": "D", "text_nl": "De naam van de vorige huurder"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In een advertentie van een huurwoning staat het adres, de huurprijs, het aantal kamers en andere informatie over het huis.",
+        "en": "A rental listing contains the address, rent price, number of rooms and other information about the property."
+      },
+      "source_text_nl": "Je lees je informatie over de huizen. Bijvoorbeeld het adres, de huurprijs en voor hoeveel mensen het huis is.",
+      "tags": ["advertentie", "huurwoning", "informatie"]
+    },
+    {
+      "id": "M3_Q022", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Servicekosten", "topic_en": "Service costs",
+      "question_nl": "Wat zijn servicekosten bij een huurwoning?",
+      "options": [
+        {"id": "A", "text_nl": "De kosten voor de inschrijving bij de woningbouwvereniging"},
+        {"id": "B", "text_nl": "Extra kosten naast de huur voor onderhoud en gemeenschappelijke voorzieningen"},
+        {"id": "C", "text_nl": "De kosten van de hypotheek"},
+        {"id": "D", "text_nl": "De kosten voor het schilderen van je huis"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Servicekosten zijn extra kosten naast de kale huur. Ze zijn voor onderhoud en gemeenschappelijke voorzieningen zoals de lift of het trappenhuis.",
+        "en": "Service costs are extra charges on top of the bare rent. They cover maintenance and communal facilities such as the lift or stairwell."
+      },
+      "source_text_nl": "Servicekosten: € 18,27.",
+      "tags": ["servicekosten", "huur", "kosten"]
+    },
+    {
+      "id": "M3_Q023", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Stookkosten", "topic_en": "Heating costs",
+      "question_nl": "Wat zijn stookkosten?",
+      "options": [
+        {"id": "A", "text_nl": "Kosten voor het koken"},
+        {"id": "B", "text_nl": "Kosten voor het verwarmen van de woning"},
+        {"id": "C", "text_nl": "Kosten voor watergebruik"},
+        {"id": "D", "text_nl": "Kosten voor het onderhoud van de tuin"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Stookkosten zijn de kosten voor het verwarmen van je woning. Bij sommige huurwoningen zijn de stookkosten afhankelijk van verbruik.",
+        "en": "Heating costs are the costs for heating your home. For some rental properties, heating costs depend on usage."
+      },
+      "source_text_nl": "Stookkosten: afh. verbruik (afhankelijk van verbruik).",
+      "tags": ["stookkosten", "verwarming", "huur"]
+    },
+    {
+      "id": "M3_Q024", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Portiekwoning", "topic_en": "Stairwell flat",
+      "question_nl": "Wat is een portiekwoning?",
+      "options": [
+        {"id": "A", "text_nl": "Een vrijstaand huis met een grote tuin"},
+        {"id": "B", "text_nl": "Een appartement bereikbaar via een gemeenschappelijk trappenhuis"},
+        {"id": "C", "text_nl": "Een huis aan het water"},
+        {"id": "D", "text_nl": "Een tijdelijke woning"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een portiekwoning is een appartement dat bereikbaar is via een gemeenschappelijk trappenhuis. Dit is een veelvoorkomend woningtype in Nederland.",
+        "en": "A stairwell flat is an apartment accessible via a communal stairwell. This is a very common type of housing in the Netherlands."
+      },
+      "source_text_nl": "Portiekwoning, 3e etage, 3 kamers.",
+      "tags": ["portiekwoning", "appartement", "trappenhuis"]
+    },
+    {
+      "id": "M3_Q025", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Woonruimte grootte", "topic_en": "Living space size",
+      "question_nl": "Hoe wordt de grootte van een woning gemeten?",
+      "options": [
+        {"id": "A", "text_nl": "In aantal verdiepingen"},
+        {"id": "B", "text_nl": "In vierkante meters (m²)"},
+        {"id": "C", "text_nl": "In het aantal ramen"},
+        {"id": "D", "text_nl": "In kubieke meters"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De grootte van een woning wordt gemeten in vierkante meters (m²). In een advertentie zie je hoeveel m² de woonkamer of slaapkamer heeft.",
+        "en": "The size of a home is measured in square metres (m²). In an advertisement you can see how many m² the living room or bedroom has."
+      },
+      "source_text_nl": "Woonkamer 29m², Slaapkamers 7m².",
+      "tags": ["grootte", "vierkante meters", "woning"]
+    },
+    {
+      "id": "M3_Q026", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huurtoeslag", "topic_en": "Housing benefit",
+      "question_nl": "Wat is huurtoeslag?",
+      "options": [
+        {"id": "A", "text_nl": "Extra huur die de woningbouwvereniging rekent"},
+        {"id": "B", "text_nl": "Een bijdrage van de overheid voor huurders met een laag inkomen"},
+        {"id": "C", "text_nl": "Een lening voor je huurwaarborg"},
+        {"id": "D", "text_nl": "Geld dat je terugkrijgt als je verhuist"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Huurtoeslag is een bijdrage van de overheid voor huurders met een laag inkomen wiens huur te hoog is. Je vraagt dit aan bij de Belastingdienst.",
+        "en": "Housing benefit (huurtoeslag) is a government contribution for renters with a low income whose rent is too high. You apply for it at the Tax Authority."
+      },
+      "source_text_nl": "Voor personen onder de 23 jaar geen huurtoeslag mogelijk.",
+      "tags": ["huurtoeslag", "overheid", "laag inkomen"]
+    },
+    {
+      "id": "M3_Q027", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huurwoning – aantal personen", "topic_en": "Rental – number of occupants",
+      "question_nl": "Waarom staat er in een huuradvertentie voor hoeveel personen een huis is?",
+      "options": [
+        {"id": "A", "text_nl": "Om te laten zien hoe groot de woning is"},
+        {"id": "B", "text_nl": "Omdat de woningbouwvereniging regels heeft over wie er mag wonen"},
+        {"id": "C", "text_nl": "Om de huurprijs te bepalen"},
+        {"id": "D", "text_nl": "Om de stookkosten te berekenen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Woningbouwverenigingen hebben regels over wie er in een woning mag wonen. Een woning voor 2-3 personen mag niet bewoond worden door een gezin van 6.",
+        "en": "Housing corporations have rules about who may live in a property. A home for 2-3 people may not be occupied by a family of 6."
+      },
+      "source_text_nl": "Beschikbaar voor: min. 2 personen, max. 3 personen.",
+      "tags": ["huurwoning", "personen", "regels"]
+    },
+    {
+      "id": "M3_Q028", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Woning zoeken – koopwoning", "topic_en": "Finding a home to buy",
+      "question_nl": "Op welke website kun je koopwoningen vinden in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "www.werk.nl"},
+        {"id": "B", "text_nl": "www.funda.nl"},
+        {"id": "C", "text_nl": "www.kvk.nl"},
+        {"id": "D", "text_nl": "www.belastingdienst.nl"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Op www.funda.nl kun je koopwoningen vinden in Nederland. Dit is een bekende website voor woningzoekers.",
+        "en": "On www.funda.nl you can find homes for sale in the Netherlands. This is a well-known website for house hunters."
+      },
+      "source_text_nl": "Een bekende website met koophuizen is http://www.funda.nl/.",
+      "tags": ["funda", "koopwoning", "internet"]
+    },
+    {
+      "id": "M3_Q029", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Koopakte", "topic_en": "Deed of purchase",
+      "question_nl": "Wat is een koopakte?",
+      "options": [
+        {"id": "A", "text_nl": "Een huurcontract"},
+        {"id": "B", "text_nl": "Een officieel papier dat bewijst dat jij het huis hebt gekocht"},
+        {"id": "C", "text_nl": "Een brief van de bank over de hypotheek"},
+        {"id": "D", "text_nl": "Een vergunning van de gemeente"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een koopakte is een officieel papier dat de notaris opstelt en dat bewijst dat jij het huis hebt gekocht.",
+        "en": "A deed of purchase (koopakte) is an official document drawn up by the notary proving that you have bought the house."
+      },
+      "source_text_nl": "De notaris maakt een koopakte. Dit is een officieel papier dat bewijst dat jij het huis gekocht hebt.",
+      "tags": ["koopakte", "notaris", "officieel"]
+    },
+    {
+      "id": "M3_Q030", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huis verkopen", "topic_en": "Selling a house",
+      "question_nl": "Hoe kan een makelaar je helpen bij het verkopen van je huis?",
+      "options": [
+        {"id": "A", "text_nl": "De makelaar betaalt de hypotheek voor je"},
+        {"id": "B", "text_nl": "De makelaar bepaalt een goede vraagprijs en zoekt kopers"},
+        {"id": "C", "text_nl": "De makelaar regelt de huurtoeslag"},
+        {"id": "D", "text_nl": "De makelaar schrijft het huurcontract"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je je huis wilt verkopen, kan een makelaar je helpen. Hij bedenkt een goede vraagprijs, zet advertenties en regelt dat mensen je huis kunnen bekijken.",
+        "en": "If you want to sell your house, an estate agent can help. They determine a good asking price, place advertisements and arrange viewings."
+      },
+      "source_text_nl": "Een makelaar kan je ook helpen je huis te verkopen. Hij bedenkt een goede vraagprijs en zet advertenties.",
+      "tags": ["makelaar", "huis verkopen", "vraagprijs"]
+    },
+    {
+      "id": "M3_Q031", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huurwoning – wachttijd", "topic_en": "Waiting time for rental",
+      "question_nl": "Waarom moeten mensen soms lang wachten op een huurwoning?",
+      "options": [
+        {"id": "A", "text_nl": "Omdat ze het verkeerde formulier hebben ingevuld"},
+        {"id": "B", "text_nl": "Omdat er meer mensen zijn die een woning willen dan er woningen zijn"},
+        {"id": "C", "text_nl": "Omdat ze te weinig verdienen"},
+        {"id": "D", "text_nl": "Omdat de gemeente wachttijden oplegt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Er zijn meer mensen die een huurwoning willen dan er woningen beschikbaar zijn. Daardoor staan veel mensen op een wachtlijst.",
+        "en": "There are more people wanting a rental home than there are homes available. As a result, many people are on a waiting list."
+      },
+      "source_text_nl": "Schrijf je kind dan op tijd in! Vaak zijn er wachtlijsten.",
+      "tags": ["wachtlijst", "huurwoning", "woningnood"]
+    },
+    {
+      "id": "M3_Q032", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Onderhoud huurwoning", "topic_en": "Maintenance of rental property",
+      "question_nl": "Wie is verantwoordelijk voor groot onderhoud van een huurwoning?",
+      "options": [
+        {"id": "A", "text_nl": "De huurder"},
+        {"id": "B", "text_nl": "De verhuurder of woningbouwvereniging"},
+        {"id": "C", "text_nl": "De gemeente"},
+        {"id": "D", "text_nl": "De buren"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De verhuurder of woningbouwvereniging is verantwoordelijk voor groot onderhoud zoals het dak of de verwarmingsketel.",
+        "en": "The landlord or housing corporation is responsible for major maintenance such as the roof or central heating boiler."
+      },
+      "source_text_nl": "De verhuurder is verantwoordelijk voor het groot onderhoud van een huurwoning.",
+      "tags": ["onderhoud", "verhuurder", "huurwoning"]
+    },
+    {
+      "id": "M3_Q033", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Schoon huis en tuin", "topic_en": "Clean house and garden",
+      "question_nl": "Wat hoort bij het schoon en netjes houden van je huis?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen binnen schoonmaken"},
+        {"id": "B", "text_nl": "Ramen wassen, kozijnen schilderen, gras maaien en onkruid weghalen"},
+        {"id": "C", "text_nl": "Alleen de tuin onderhouden"},
+        {"id": "D", "text_nl": "Alleen stofzuigen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het schoon en netjes houden van je huis betekent: de ramen wassen, de kozijnen schilderen, het gras maaien en onkruid weghalen.",
+        "en": "Keeping your house clean and tidy means: washing the windows, painting the window frames, mowing the grass and removing weeds."
+      },
+      "source_text_nl": "De ramen wassen, de kozijnen schilderen, het gras maaien en onkruid weghalen.",
+      "tags": ["schoon", "huis", "tuin", "netjes"]
+    },
+    {
+      "id": "M3_Q034", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Inschrijftijd huurwoning", "topic_en": "Registration time rental",
+      "question_nl": "Hoe lang je al ingeschreven staat bij een woningbouwvereniging bepaalt...",
+      "options": [
+        {"id": "A", "text_nl": "Hoeveel huur je betaalt"},
+        {"id": "B", "text_nl": "Hoe groot je kans is op een woning"},
+        {"id": "C", "text_nl": "In welke buurt je mag wonen"},
+        {"id": "D", "text_nl": "Hoe groot de woning is die je krijgt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Hoe langer je ingeschreven staat, hoe groter je kans op een woning. Daarom is het goed om je vroeg in te schrijven.",
+        "en": "The longer you have been registered, the greater your chance of getting a home. That is why it is good to register early."
+      },
+      "source_text_nl": "Hoe langer je ingeschreven staat, hoe groter de kans op een woning.",
+      "tags": ["inschrijfduur", "woning", "kans"]
+    },
+    {
+      "id": "M3_Q035", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Afval buiten zetten", "topic_en": "Putting waste out",
+      "question_nl": "Wat kan er gebeuren als je je afval te vroeg buiten zet?",
+      "options": [
+        {"id": "A", "text_nl": "Je krijgt minder huursubsidie"},
+        {"id": "B", "text_nl": "Je kunt een boete krijgen"},
+        {"id": "C", "text_nl": "De woningbouwvereniging stuurt je een brief"},
+        {"id": "D", "text_nl": "Je verliest je huurcontract"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je je afval te vroeg buiten zet, kun je een boete krijgen. Je moet het afval op tijd buiten zetten, maar niet te vroeg.",
+        "en": "If you put your waste out too early, you can receive a fine. You should put waste out on time, but not too early."
+      },
+      "source_text_nl": "Zet het afval op tijd buiten maar niet te vroeg! Je kunt hiervoor een boete krijgen.",
+      "tags": ["afval", "boete", "buiten zetten"]
+    },
+    {
+      "id": "M3_Q036", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Huurwoning", "topic_en": "Rental home",
+      "question_nl": "Als je een huurhuis wilt, moet je je inschrijven bij een woningbouwvereniging.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Je schrijft je in bij een woningbouwvereniging om in aanmerking te komen voor een huurwoning.",
+        "en": "That is correct. You register with a housing corporation to be eligible for a rental home."
+      },
+      "source_text_nl": "Als je een huis wilt huren, dan moet je je inschrijven bij een woningbouwvereniging.",
+      "tags": ["inschrijven", "huurwoning", "woningbouwvereniging"]
+    },
+    {
+      "id": "M3_Q037", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Afval scheiden", "topic_en": "Waste separation",
+      "question_nl": "Groente-, fruit- en tuinafval gooi je in de grijze container.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Groente-, fruit- en tuinafval (gft) gooi je in de groene container, niet de grijze.",
+        "en": "This is incorrect. Vegetable, fruit and garden waste (gft) goes in the green container, not the grey one."
+      },
+      "source_text_nl": "In de groene container doe je gft-afval.",
+      "tags": ["gft", "groene container", "afval scheiden"]
+    },
+    {
+      "id": "M3_Q038", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Hypotheek", "topic_en": "Mortgage",
+      "question_nl": "Een hypotheek is een lening die je bij de bank afsluit om een huis te kopen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Een hypotheek is een lening specifiek voor het kopen van een huis.",
+        "en": "That is correct. A mortgage is a loan specifically for buying a house."
+      },
+      "source_text_nl": "Nu moet je de hypotheek regelen bij de bank.",
+      "tags": ["hypotheek", "lening", "bank"]
+    },
+    {
+      "id": "M3_Q039", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Afval te vroeg buiten", "topic_en": "Waste out too early",
+      "question_nl": "Je mag een boete krijgen als je je afval te vroeg buiten zet.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Je kunt een boete krijgen als je je afval te vroeg buiten zet, vóór de toegestane tijd.",
+        "en": "That is correct. You can receive a fine if you put your waste out too early, before the permitted time."
+      },
+      "source_text_nl": "Zet het afval op tijd buiten maar niet te vroeg! Je kunt hiervoor een boete krijgen.",
+      "tags": ["afval", "boete", "te vroeg"]
+    },
+    {
+      "id": "M3_Q040", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Makelaar", "topic_en": "Estate agent",
+      "question_nl": "Een makelaar helpt je gratis bij het kopen van een huis.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Een makelaar kost geld. Je betaalt de makelaar voor zijn of haar diensten.",
+        "en": "This is incorrect. An estate agent costs money. You pay the agent for their services."
+      },
+      "source_text_nl": "Een makelaar kost geld. Daarmee gaat hij een huis voor je zoeken.",
+      "tags": ["makelaar", "kosten"]
+    },
+    {
+      "id": "M3_Q041", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Koopwoning online", "topic_en": "Buying online",
+      "question_nl": "Op www.funda.nl kun je koopwoningen vinden in Nederland.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Funda.nl is een bekende Nederlandse website waar je koopwoningen kunt vinden.",
+        "en": "That is correct. Funda.nl is a well-known Dutch website where you can find homes for sale."
+      },
+      "source_text_nl": "Een bekende website met koophuizen is http://www.funda.nl/.",
+      "tags": ["funda", "koopwoning", "internet"]
+    },
+    {
+      "id": "M3_Q042", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Huurcontract", "topic_en": "Rental contract",
+      "question_nl": "Je hoeft geen huurcontract te tekenen als je een woning gaat huren.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Je moet altijd een huurcontract tekenen als je een woning huurt. Daarin staan alle afspraken.",
+        "en": "This is incorrect. You must always sign a rental contract when renting a home. All agreements are stated in it."
+      },
+      "source_text_nl": "Als je een woning huurt, moet je een huurcontract tekenen.",
+      "tags": ["huurcontract", "tekenen", "afspraken"]
+    },
+    {
+      "id": "M3_Q043", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Afval scheiden verplicht", "topic_en": "Waste separation required",
+      "question_nl": "Je moet in Nederland je afval scheiden in verschillende soorten.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In Nederland moet je afval scheiden in gft, restafval, plastic, papier, glas en textiel.",
+        "en": "That is correct. In the Netherlands you must separate waste into organic, residual, plastic, paper, glass and textiles."
+      },
+      "source_text_nl": "Er zijn veel soorten afval. Voor elk soort afval is er een container.",
+      "tags": ["afval scheiden", "verplicht", "recycling"]
+    },
+    {
+      "id": "M3_Q044", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Glasbak – kleuren", "topic_en": "Glass bank – colours",
+      "question_nl": "Je kunt glas van alle kleuren door elkaar in dezelfde glasbak gooien.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Glas moet je scheiden op kleur. Er zijn glasbakken voor verschillende kleuren glas.",
+        "en": "This is incorrect. Glass must be sorted by colour. There are glass banks for different colours of glass."
+      },
+      "source_text_nl": "In elke buurt staan glasbakken voor verschillende kleuren glas.",
+      "tags": ["glasbak", "kleuren glas", "scheiden"]
+    },
+    {
+      "id": "M3_Q045", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Huurtoeslag aanvragen", "topic_en": "Applying for housing benefit",
+      "question_nl": "Huurtoeslag vraag je aan bij de Belastingdienst.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Je vraagt huurtoeslag aan bij de Belastingdienst als je een laag inkomen hebt en in een huurwoning woont.",
+        "en": "That is correct. You apply for housing benefit at the Tax Authority if you have a low income and live in a rental property."
+      },
+      "source_text_nl": "Huurtoeslag vraag je aan bij de Belastingdienst.",
+      "tags": ["huurtoeslag", "Belastingdienst", "aanvragen"]
+    },
+    {
+      "id": "M3_Q046", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Koopakte", "topic_en": "Deed of purchase",
+      "question_nl": "De notaris maakt de koopakte als je een huis koopt.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De notaris maakt de koopakte. Dit is het officiële bewijs dat jij het huis hebt gekocht.",
+        "en": "That is correct. The notary draws up the deed of purchase. This is the official proof that you have bought the house."
+      },
+      "source_text_nl": "De notaris maakt een koopakte.",
+      "tags": ["notaris", "koopakte", "koophuis"]
+    },
+    {
+      "id": "M3_Q047", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Batterijen afval", "topic_en": "Battery disposal",
+      "question_nl": "Batterijen mag je gewoon in de grijze container gooien.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Batterijen zijn klein chemisch afval (kca) en mogen niet in de grijze container. Je brengt ze naar de chemokar of de milieustraat.",
+        "en": "This is incorrect. Batteries are small chemical waste (kca) and must not go in the grey container. You take them to the chemical waste collection point or recycling centre."
+      },
+      "source_text_nl": "Voor het klein chemisch afval (kca) kom je bij de chemokar. Hier kun je oude batterijen inleveren.",
+      "tags": ["batterijen", "kca", "chemokar"]
+    },
+    {
+      "id": "M3_Q048", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Woningbouwvereniging – krant", "topic_en": "Housing corporation newsletter",
+      "question_nl": "Veel woningbouwverenigingen maken een gratis krant met hun woningaanbod.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Veel woningbouwverenigingen maken een gratis krant waarin het woningaanbod staat. Die krant ligt gratis bij winkels of wordt thuisbezorgd.",
+        "en": "That is correct. Many housing corporations publish a free newspaper listing their available properties. This paper is available free at shops or delivered to your home."
+      },
+      "source_text_nl": "Veel woningbouwverenigingen maken een gratis krant.",
+      "tags": ["woningbouwvereniging", "krant", "woningaanbod"]
+    },
+    {
+      "id": "M3_Q049", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Grofvuil ophalen", "topic_en": "Bulky waste collection",
+      "question_nl": "Je kunt de afhaaldienst bellen om grofvuil op te laten halen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Je kunt de afhaaldienst bellen als je grofvuil hebt. Zij komen het dan ophalen.",
+        "en": "That is correct. You can call the collection service for bulky waste. They will come and collect it."
+      },
+      "source_text_nl": "Je kunt de afhaaldienst bellen om het te laten ophalen.",
+      "tags": ["grofvuil", "afhaaldienst", "ophalen"]
+    },
+    {
+      "id": "M3_Q050", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Huis kopen – bod", "topic_en": "Buying – bid",
+      "question_nl": "Bij het kopen van een huis moet je altijd de volledige vraagprijs betalen.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Je kunt een bod doen dat lager of hoger is dan de vraagprijs. Onderhandelen over de prijs is normaal.",
+        "en": "This is incorrect. You can make a bid that is lower or higher than the asking price. Negotiating about the price is normal."
+      },
+      "source_text_nl": "Een bod is wat jij voor het huis wilt betalen. Je hoeft niet altijd de vraagprijs te betalen.",
+      "tags": ["bod", "vraagprijs", "onderhandelen"]
+    },
+    {
+      "id": "M3_Q051", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Schone buurt", "topic_en": "Clean neighbourhood",
+      "question_nl": "Nederlanders vinden het belangrijk dat de buurt schoon en netjes is.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Nederlanders vinden een schone omgeving erg belangrijk. Ze willen dat iedereen zijn huis en omgeving netjes houdt.",
+        "en": "That is correct. Dutch people consider a clean environment very important. They want everyone to keep their home and surroundings tidy."
+      },
+      "source_text_nl": "Nederlanders vinden een schoon milieu belangrijk.",
+      "tags": ["schone buurt", "Nederlanders", "omgeving"]
+    },
+    {
+      "id": "M3_Q052", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Plastic afval", "topic_en": "Plastic waste",
+      "question_nl": "Plastic afval mag je in de grijze container gooien.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Plastic afval moet je in de aparte plasticbak gooien, niet in de grijze container. Plastic wordt apart ingezameld.",
+        "en": "This is incorrect. Plastic waste must go in the separate plastic bin, not the grey container. Plastic is collected separately."
+      },
+      "source_text_nl": "Er staat ook een container voor plastic.",
+      "tags": ["plastic", "aparte container", "afval"]
+    },
+    {
+      "id": "M3_Q053", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Woningbouwvereniging – inschrijfkosten", "topic_en": "Registration fee",
+      "question_nl": "Inschrijven bij een woningbouwvereniging is altijd gratis.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Inschrijven bij een woningbouwvereniging kost geld. Je betaalt een inschrijfgeld.",
+        "en": "This is incorrect. Registering with a housing corporation costs money. You pay a registration fee."
+      },
+      "source_text_nl": "Je inschrijven kost geld.",
+      "tags": ["inschrijven", "kosten", "woningbouwvereniging"]
+    },
+    {
+      "id": "M3_Q054", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Oud papier recycling", "topic_en": "Paper recycling",
+      "question_nl": "Oud papier doe je in een aparte papiercontainer.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Oud papier doe je in de aparte oud-papiercontainer. Zo wordt het apart ingezameld en gerecycled.",
+        "en": "That is correct. Old paper goes in the separate paper recycling container. This way it is collected and recycled separately."
+      },
+      "source_text_nl": "Er staat ook een container voor oud papier.",
+      "tags": ["oud papier", "papiercontainer", "recycling"]
+    },
+    {
+      "id": "M3_Q055", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Stookkosten", "topic_en": "Heating costs",
+      "question_nl": "Stookkosten zijn kosten voor het verwarmen van je woning.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Stookkosten zijn de kosten voor verwarming. Ze staan apart op de huurafrekening.",
+        "en": "That is correct. Heating costs are the costs for heating. They appear separately on the rental bill."
+      },
+      "source_text_nl": "Stookkosten zijn kosten voor het verwarmen van de woning.",
+      "tags": ["stookkosten", "verwarming", "huur"]
+    },
+    {
+      "id": "M3_Q056", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Wonen – buurt kiezen", "topic_en": "Choosing a neighbourhood",
+      "question_nl": "Welke woonwens heeft te maken met de locatie van het huis?",
+      "options": [
+        {"id": "A", "text_nl": "De kleur van de muren"},
+        {"id": "B", "text_nl": "Dicht bij een school of het station wonen"},
+        {"id": "C", "text_nl": "Het aantal slaapkamers"},
+        {"id": "D", "text_nl": "De hoogte van de plafonds"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Dicht bij een school of station wonen is een woonwens die te maken heeft met de locatie. Dit is een belangrijke overweging bij het zoeken naar een huis.",
+        "en": "Living close to a school or train station is a housing preference related to location. This is an important consideration when looking for a home."
+      },
+      "source_text_nl": "In welke buurt wil je wonen? Wil je dicht bij een school wonen? Of bij het station?",
+      "tags": ["buurt", "locatie", "woonwens"]
+    },
+    {
+      "id": "M3_Q057", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Afval – prullenbak", "topic_en": "Rubbish bins on the street",
+      "question_nl": "Waar gooi je klein afval op straat in?",
+      "options": [
+        {"id": "A", "text_nl": "Op de grond"},
+        {"id": "B", "text_nl": "In een prullenbak"},
+        {"id": "C", "text_nl": "In de glasbak"},
+        {"id": "D", "text_nl": "In de grijze container thuis"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Klein afval op straat gooi je in een prullenbak. Overal in Nederland staan prullenbakken op straat.",
+        "en": "Small waste on the street goes in a rubbish bin. Rubbish bins are placed all over the streets in the Netherlands."
+      },
+      "source_text_nl": "Overal in Nederland staan daarom prullenbakken.",
+      "tags": ["prullenbak", "straat", "afval"]
+    },
+    {
+      "id": "M3_Q058", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Energielabel woning", "topic_en": "Energy label",
+      "question_nl": "Wat laat een energielabel van een woning zien?",
+      "options": [
+        {"id": "A", "text_nl": "Het bouwjaar van de woning"},
+        {"id": "B", "text_nl": "Hoe energiezuinig de woning is"},
+        {"id": "C", "text_nl": "De naam van de energieleverancier"},
+        {"id": "D", "text_nl": "De hoogte van de energierekening"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een energielabel laat zien hoe energiezuinig een woning is. Het loopt van A (heel zuinig) tot G (niet zuinig).",
+        "en": "An energy label shows how energy-efficient a home is. It ranges from A (very efficient) to G (not efficient)."
+      },
+      "source_text_nl": "Een energielabel laat zien hoe energiezuinig een woning is.",
+      "tags": ["energielabel", "energie", "zuinig"]
+    },
+    {
+      "id": "M3_Q059", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huur opzeggen", "topic_en": "Cancelling a rental",
+      "question_nl": "Wat moet je doen als je een huurwoning wilt verlaten?",
+      "options": [
+        {"id": "A", "text_nl": "Je gaat gewoon weg zonder iets te zeggen"},
+        {"id": "B", "text_nl": "Je moet de huur opzeggen met een opzegtermijn"},
+        {"id": "C", "text_nl": "Je belt de gemeente"},
+        {"id": "D", "text_nl": "Je vraagt de notaris de woning vrij te geven"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je een huurwoning wilt verlaten, moet je de huur opzeggen. Je houdt daarbij een opzegtermijn aan, meestal één maand.",
+        "en": "If you want to leave a rental property, you must give notice to end the tenancy. You observe a notice period, usually one month."
+      },
+      "source_text_nl": "Als je een huurwoning wilt verlaten, moet je de huur opzeggen met een opzegtermijn.",
+      "tags": ["huur opzeggen", "opzegtermijn", "vertrekken"]
+    },
+    {
+      "id": "M3_Q060", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Woningtype", "topic_en": "Types of housing",
+      "question_nl": "Welk soort woning heeft geen buren aan de zijkanten?",
+      "options": [
+        {"id": "A", "text_nl": "Een rij woning"},
+        {"id": "B", "text_nl": "Een vrijstaand huis"},
+        {"id": "C", "text_nl": "Een appartement"},
+        {"id": "D", "text_nl": "Een portiekwoning"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een vrijstaand huis heeft geen buren aan de zijkanten. Het staat op zichzelf. Dit type woning is duurder dan een rijtjeshuis of appartement.",
+        "en": "A detached house has no neighbours on the sides. It stands alone. This type of property is more expensive than a terraced house or apartment."
+      },
+      "source_text_nl": "Een vrijstaand huis staat op zichzelf en heeft geen buren aan de zijkanten.",
+      "tags": ["vrijstaand huis", "woningtype", "buren"]
+    },
+    {
+      "id": "M3_Q061", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huurwoning – inkomen eis", "topic_en": "Rental – income requirement",
+      "question_nl": "Waarom is er een maximuminkomen voor sommige huurwoningen?",
+      "options": [
+        {"id": "A", "text_nl": "Omdat rijkere mensen meer huur kunnen betalen"},
+        {"id": "B", "text_nl": "Omdat sociale huurwoningen bedoeld zijn voor mensen met een lager inkomen"},
+        {"id": "C", "text_nl": "Omdat de gemeente dit bepaalt"},
+        {"id": "D", "text_nl": "Omdat de woningbouwvereniging winst wil maken"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Sociale huurwoningen zijn bedoeld voor mensen met een lager inkomen. Daardoor geldt er een maximuminkomen om in aanmerking te komen.",
+        "en": "Social rental properties are intended for people with lower incomes. Therefore there is a maximum income requirement to qualify."
+      },
+      "source_text_nl": "Inkomen meerpersoons t/m € 2420 — er is een maximuminkomen voor sociale huurwoningen.",
+      "tags": ["inkomen", "sociale huurwoning", "maximuminkomen"]
+    },
+    {
+      "id": "M3_Q062", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Berging", "topic_en": "Storage room",
+      "question_nl": "Wat is een berging in een woning?",
+      "options": [
+        {"id": "A", "text_nl": "Een extra slaapkamer"},
+        {"id": "B", "text_nl": "Een opslagruimte voor spullen"},
+        {"id": "C", "text_nl": "Een gemeenschappelijke ruimte in het portiek"},
+        {"id": "D", "text_nl": "Een bijkeuken"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een berging is een opslagruimte in of bij de woning voor spullen zoals een fiets of gereedschap.",
+        "en": "A storage room (berging) is a storage space in or near the home for items such as a bicycle or tools."
+      },
+      "source_text_nl": "Berging 9m².",
+      "tags": ["berging", "opslag", "woning"]
+    },
+    {
+      "id": "M3_Q063", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huurwoning – verhuurder", "topic_en": "Rental – landlord",
+      "question_nl": "Wie is de verhuurder van een sociale huurwoning?",
+      "options": [
+        {"id": "A", "text_nl": "De gemeente"},
+        {"id": "B", "text_nl": "De woningbouwvereniging"},
+        {"id": "C", "text_nl": "De Belastingdienst"},
+        {"id": "D", "text_nl": "Het UWV"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De woningbouwvereniging is de verhuurder van sociale huurwoningen. Zij verhuren de woningen en zijn verantwoordelijk voor onderhoud.",
+        "en": "The housing corporation is the landlord of social rental properties. They rent out the homes and are responsible for maintenance."
+      },
+      "source_text_nl": "Verhuurder: Staedion Escamp (een woningbouwvereniging).",
+      "tags": ["verhuurder", "woningbouwvereniging", "sociaal"]
+    },
+    {
+      "id": "M3_Q064", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huurwoning aanbod bekijken", "topic_en": "Viewing rental listings",
+      "question_nl": "Hoe kun je te weten komen welke woningen er te huur zijn?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen via het gemeentehuis"},
+        {"id": "B", "text_nl": "Via een gratis krant van de woningbouwvereniging of op internet"},
+        {"id": "C", "text_nl": "Via de Belastingdienst"},
+        {"id": "D", "text_nl": "Via het UWV WERKbedrijf"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je kunt via een gratis krant van de woningbouwvereniging of op internet bekijken welke woningen er te huur zijn.",
+        "en": "You can find out which homes are available to rent via a free newsletter from the housing corporation or on the internet."
+      },
+      "source_text_nl": "Veel woningbouwverenigingen maken een gratis krant. Ook op internet kun je het woningaanbod zien.",
+      "tags": ["woningaanbod", "krant", "internet"]
+    },
+    {
+      "id": "M3_Q065", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huis kopen – koopcontract", "topic_en": "Buying – purchase contract",
+      "question_nl": "Wat staat er in een koopcontract?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen de naam van de koper"},
+        {"id": "B", "text_nl": "Alle afspraken over de aankoop van het huis"},
+        {"id": "C", "text_nl": "Informatie over de buurt"},
+        {"id": "D", "text_nl": "Regels over afval"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In een koopcontract staan alle afspraken over de aankoop van het huis, zoals de prijs en de opleverdatum.",
+        "en": "A purchase contract contains all the agreements about the purchase of the house, such as the price and completion date."
+      },
+      "source_text_nl": "In het koopcontract staan alle afspraken over het kopen van het huis.",
+      "tags": ["koopcontract", "afspraken", "kopen"]
+    },
+    {
+      "id": "M3_Q066", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Afval – gratis ophalen", "topic_en": "Waste collection service",
+      "question_nl": "Hoe werkt de afvalophaaldienst in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Je betaalt elke keer als de wagen langskomt"},
+        {"id": "B", "text_nl": "Een speciale wagen komt op vaste dagen je afval ophalen"},
+        {"id": "C", "text_nl": "Je brengt zelf al je afval naar het gemeentehuis"},
+        {"id": "D", "text_nl": "De buren regelen het ophalen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De afvalophaaldienst werkt met een speciale wagen die op vaste dagen langs jouw huis komt om het afval op te halen.",
+        "en": "The waste collection service uses a special vehicle that comes past your home on fixed days to collect the waste."
+      },
+      "source_text_nl": "Alle gemeenten hebben een afvalophaaldienst. Een speciale wagen komt het afval ophalen op vaste dagen.",
+      "tags": ["afvalophaaldienst", "ophaalwagen", "vaste dag"]
+    },
+    {
+      "id": "M3_Q067", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Woning huren – reageren deadline", "topic_en": "Rental response deadline",
+      "question_nl": "Waarom moet je snel reageren op een woning die je wilt huren?",
+      "options": [
+        {"id": "A", "text_nl": "Omdat de gemeente anders voor jou kiest"},
+        {"id": "B", "text_nl": "Omdat veel mensen reageren en de woning anders weg is"},
+        {"id": "C", "text_nl": "Omdat de verhuurder anders de prijs verhoogt"},
+        {"id": "D", "text_nl": "Omdat je anders je inschrijving verliest"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Er zijn vaak veel mensen die op dezelfde woning reageren. Als je snel reageert, maak je meer kans om de woning te krijgen.",
+        "en": "Often many people respond to the same property. If you respond quickly, you have a better chance of getting the home."
+      },
+      "source_text_nl": "Schrijf je op tijd in! Vaak zijn er wachtlijsten en reageert iedereen snel.",
+      "tags": ["reageren", "snel", "concurrentie"]
+    },
+    {
+      "id": "M3_Q068", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huurwoning oplevering", "topic_en": "Rental property handover",
+      "question_nl": "Wanneer moet je een huurwoning in goede staat achterlaten?",
+      "options": [
+        {"id": "A", "text_nl": "Nooit, de verhuurder regelt alles"},
+        {"id": "B", "text_nl": "Als je de woning verlaat aan het einde van het huurcontract"},
+        {"id": "C", "text_nl": "Alleen als je er langer dan 5 jaar hebt gewoond"},
+        {"id": "D", "text_nl": "Alleen als je eigenaar bent"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je een huurwoning verlaat, moet je de woning in goede staat achterlaten. Schade die jij hebt veroorzaakt, moet jij betalen.",
+        "en": "When you leave a rental property, you must leave it in good condition. Damage you have caused must be paid for by you."
+      },
+      "source_text_nl": "Als je de woning verlaat, moet je deze in goede staat achterlaten.",
+      "tags": ["oplevering", "goede staat", "huurcontract"]
+    },
+    {
+      "id": "M3_Q069", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huurwoning – inkomenseis", "topic_en": "Rental – income requirement",
+      "question_nl": "Waarom is er soms een minimuminkomen vereist voor een huurwoning?",
+      "options": [
+        {"id": "A", "text_nl": "Om te bewijzen dat je in Nederland werkt"},
+        {"id": "B", "text_nl": "Om zeker te weten dat je de huur kunt betalen"},
+        {"id": "C", "text_nl": "Omdat de gemeente dit verplicht stelt"},
+        {"id": "D", "text_nl": "Omdat de notaris het vereist"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een verhuurder vraagt soms een minimuminkomen om zeker te weten dat je de huur kunt betalen.",
+        "en": "A landlord sometimes requires a minimum income to be sure you can pay the rent."
+      },
+      "source_text_nl": "Inkomen meerpersoons t/m € 2420 — de verhuurder stelt een inkomeneis.",
+      "tags": ["inkomen", "minimuminkomen", "huur betalen"]
+    },
+    {
+      "id": "M3_Q070", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Woning zoeken – buurt", "topic_en": "Finding a home – neighbourhood",
+      "question_nl": "Wat is een goede reden om de buurt te bezoeken voordat je een woning huurt?",
+      "options": [
+        {"id": "A", "text_nl": "Om de verhuurder persoonlijk te ontmoeten"},
+        {"id": "B", "text_nl": "Om te zien of de buurt bij jou past en of er voorzieningen zijn"},
+        {"id": "C", "text_nl": "Om te controleren of de huurprijs klopt"},
+        {"id": "D", "text_nl": "Om de notaris te ontmoeten"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het is slim om de buurt te bezoeken om te zien of het bij jou past. Zijn er winkels, scholen en openbaar vervoer in de buurt?",
+        "en": "It is smart to visit the neighbourhood to see if it suits you. Are there shops, schools and public transport nearby?"
+      },
+      "source_text_nl": "Het is belangrijk dat je weet wat voor huis je zoekt en in welke buurt.",
+      "tags": ["buurt bezoeken", "voorzieningen", "woning zoeken"]
+    },
+    {
+      "id": "M3_Q071", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Afval – te vroeg buiten", "topic_en": "Waste – too early",
+      "question_nl": "Het maakt niet uit wanneer je je afvalcontainer buiten zet.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Je moet je afval op de juiste dag en tijd buiten zetten. Als je het te vroeg doet, kun je een boete krijgen.",
+        "en": "This is incorrect. You must put your waste out on the correct day and at the correct time. If you do it too early, you can receive a fine."
+      },
+      "source_text_nl": "Zet het afval op tijd buiten maar niet te vroeg!",
+      "tags": ["afval", "tijdstip", "boete"]
+    },
+    {
+      "id": "M3_Q072", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Huis kopen – notaris verplicht", "topic_en": "Buying – notary required",
+      "question_nl": "Als je een huis koopt, moet je naar de notaris.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Als je een huis koopt, ga je naar de notaris om de koopakte te tekenen en de eigendom officieel over te dragen.",
+        "en": "That is correct. When you buy a house, you go to the notary to sign the deed of purchase and officially transfer ownership."
+      },
+      "source_text_nl": "Met de hypotheek en het koopcontract ga je naar de notaris.",
+      "tags": ["notaris", "verplicht", "koophuis"]
+    },
+    {
+      "id": "M3_Q073", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Woningbouwvereniging – informatie", "topic_en": "Housing corporation – information",
+      "question_nl": "De woningbouwvereniging geeft ook informatie over de huizen in hun aanbod.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De woningbouwvereniging geeft informatie over de woningen, zoals het adres, de huurprijs en voor hoeveel personen het huis is.",
+        "en": "That is correct. The housing corporation provides information about the properties, such as the address, rent price and how many people can live there."
+      },
+      "source_text_nl": "Ook lees je informatie over de huizen. Bijvoorbeeld het adres, de huurprijs.",
+      "tags": ["woningbouwvereniging", "informatie", "woning"]
+    },
+    {
+      "id": "M3_Q074", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Kca – grijze container", "topic_en": "Chemical waste – grey bin",
+      "question_nl": "Klein chemisch afval mag je in de grijze container gooien.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Klein chemisch afval (kca) mag absoluut niet in de grijze container. Je brengt het naar de chemokar of milieustraat.",
+        "en": "This is incorrect. Small chemical waste (kca) must absolutely not go in the grey container. You take it to the chemical waste point or recycling centre."
+      },
+      "source_text_nl": "Voor het klein chemisch afval (kca) ga je naar de chemokar of de milieustraat.",
+      "tags": ["kca", "grijze container", "verboden"]
+    },
+    {
+      "id": "M3_Q075", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Huurwoning – advertentie internet", "topic_en": "Rental listing online",
+      "question_nl": "Je kunt ook op internet kijken welke huurwoningen er beschikbaar zijn.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Naast de gratis krant van de woningbouwvereniging kun je ook op internet het woningaanbod bekijken.",
+        "en": "That is correct. In addition to the free newsletter from the housing corporation, you can also view available properties on the internet."
+      },
+      "source_text_nl": "Ook op internet kun je zien welke huizen te huur zijn.",
+      "tags": ["internet", "huurwoning", "aanbod"]
+    },
+    {
+      "id": "M3_Q076", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Woning – eigenaar vs huurder", "topic_en": "Owner vs tenant",
+      "question_nl": "Wat is het verschil tussen een huurder en een eigenaar?",
+      "options": [
+        {"id": "A", "text_nl": "Een huurder betaalt maandelijks huur; een eigenaar heeft het huis gekocht"},
+        {"id": "B", "text_nl": "Een huurder woont tijdelijk; een eigenaar woont permanent"},
+        {"id": "C", "text_nl": "Een huurder betaalt belasting; een eigenaar niet"},
+        {"id": "D", "text_nl": "Er is geen verschil"}
+      ],
+      "correct_answer": "A",
+      "explanation": {
+        "nl": "Een huurder betaalt elke maand huur aan de verhuurder. Een eigenaar heeft het huis gekocht en betaalt een hypotheek aan de bank.",
+        "en": "A tenant pays monthly rent to the landlord. An owner has bought the house and pays a mortgage to the bank."
+      },
+      "source_text_nl": "Een huurder betaalt huur. Een eigenaar heeft het huis gekocht.",
+      "tags": ["huurder", "eigenaar", "huren vs kopen"]
+    },
+    {
+      "id": "M3_Q077", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Individuele CV", "topic_en": "Central heating",
+      "question_nl": "Wat is een individuele CV in een woning?",
+      "options": [
+        {"id": "A", "text_nl": "Een gemeenschappelijk verwarmingssysteem voor alle bewoners"},
+        {"id": "B", "text_nl": "Een eigen verwarmingsketel in de woning"},
+        {"id": "C", "text_nl": "Een cv-ketel van de woningbouwvereniging"},
+        {"id": "D", "text_nl": "Een zonne-energiepaneel"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Individuele CV betekent dat de woning een eigen centrale verwarmingsketel heeft. Je regelt zelf je verwarming.",
+        "en": "Individual central heating (individuele CV) means the home has its own central heating boiler. You control your own heating."
+      },
+      "source_text_nl": "Individuele CV — de woning heeft een eigen centrale verwarmingsketel.",
+      "tags": ["individuele CV", "verwarming", "ketel"]
+    },
+    {
+      "id": "M3_Q078", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Huurcontract opzeggen", "topic_en": "Giving notice to end tenancy",
+      "question_nl": "Hoeveel opzegtermijn houd je meestal aan bij een huurwoning?",
+      "options": [
+        {"id": "A", "text_nl": "1 week"},
+        {"id": "B", "text_nl": "1 maand"},
+        {"id": "C", "text_nl": "6 maanden"},
+        {"id": "D", "text_nl": "1 jaar"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Bij een huurwoning houd je meestal een opzegtermijn van 1 maand aan. Dat staat in het huurcontract.",
+        "en": "For a rental property, you usually observe a notice period of 1 month. This is stated in the rental contract."
+      },
+      "source_text_nl": "De opzegtermijn voor een huurwoning is meestal 1 maand.",
+      "tags": ["opzegtermijn", "huurcontract", "maand"]
+    },
+    {
+      "id": "M3_Q079", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Milieustraat", "topic_en": "Recycling centre",
+      "question_nl": "Wat is een milieustraat?",
+      "options": [
+        {"id": "A", "text_nl": "Een straat zonder auto's"},
+        {"id": "B", "text_nl": "Een plek waar je verschillende soorten afval kunt inleveren"},
+        {"id": "C", "text_nl": "Een winkelstraat met milieuvriendelijke producten"},
+        {"id": "D", "text_nl": "Een gemeente-instelling voor bouwvergunningen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een milieustraat is een plek in de gemeente waar je verschillende soorten afval kunt inleveren, zoals grofvuil en klein chemisch afval.",
+        "en": "A recycling centre (milieustraat) is a place in the municipality where you can drop off various types of waste, such as bulky waste and small chemical waste."
+      },
+      "source_text_nl": "Je kunt het zelf naar de milieustraat brengen.",
+      "tags": ["milieustraat", "afval inleveren", "gemeente"]
+    },
+    {
+      "id": "M3_Q080", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Woning zoeken – inschrijving", "topic_en": "Housing search – early registration",
+      "question_nl": "Het is slim om je vroeg in te schrijven bij een woningbouwvereniging, omdat inschrijfduur meespeelt bij de toewijzing.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Hoe langer je ingeschreven staat, hoe groter je kans op een woning. Schrijf je dus zo vroeg mogelijk in.",
+        "en": "That is correct. The longer you have been registered, the greater your chance of getting a home. So register as early as possible."
+      },
+      "source_text_nl": "Hoe langer je ingeschreven staat, hoe groter de kans op een woning.",
+      "tags": ["inschrijfduur", "toewijzing", "vroeg inschrijven"]
+    }
+  ]
+}

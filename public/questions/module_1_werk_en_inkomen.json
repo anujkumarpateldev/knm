@@ -1,0 +1,1292 @@
+{
+  "module_id": "M1",
+  "module_title_nl": "Werk en inkomen",
+  "module_title_en": "Work and Income",
+  "total_questions": 80,
+  "questions": [
+    {
+      "id": "M1_Q001", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werk zoeken", "topic_en": "Finding work",
+      "question_nl": "Je bent werkloos. Waar moet je je als eerste melden?",
+      "options": [
+        {"id": "A", "text_nl": "Bij het uitzendbureau"},
+        {"id": "B", "text_nl": "Bij het UWV WERKbedrijf"},
+        {"id": "C", "text_nl": "Bij de gemeente"},
+        {"id": "D", "text_nl": "Bij de Kamer van Koophandel"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je werkloos bent, moet je je altijd eerst melden bij het UWV WERKbedrijf in jouw woonplaats. Zij helpen je met het zoeken naar werk.",
+        "en": "When you are unemployed, you must first register at the UWV WERKbedrijf (employment centre) in your city. They help you find a job."
+      },
+      "source_text_nl": "Als je werkloos bent, moet je altijd eerst naar het UWV WERKbedrijf in jouw woonplaats.",
+      "tags": ["werk zoeken", "UWV", "werkloosheid"]
+    },
+    {
+      "id": "M1_Q002", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werk zoeken", "topic_en": "Finding work",
+      "question_nl": "Wat is een open sollicitatie?",
+      "options": [
+        {"id": "A", "text_nl": "Je solliciteert op een advertentie in de krant"},
+        {"id": "B", "text_nl": "Je solliciteert zonder dat er een vacature is"},
+        {"id": "C", "text_nl": "Je solliciteert via het uitzendbureau"},
+        {"id": "D", "text_nl": "Je solliciteert online via internet"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een open sollicitatie betekent dat je solliciteert bij een bedrijf zonder dat er een vacature is. Je stuurt een brief naar een bedrijf dat jij leuk vindt.",
+        "en": "An open application means you apply to a company even when there is no job opening. You send a letter to a company you like."
+      },
+      "source_text_nl": "Een open sollicitatie betekent dat je solliciteert, zonder dat er een vacature is.",
+      "tags": ["solliciteren", "open sollicitatie"]
+    },
+    {
+      "id": "M1_Q003", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werk zoeken", "topic_en": "Finding work",
+      "question_nl": "Wat is een vacature?",
+      "options": [
+        {"id": "A", "text_nl": "Een baan waar al iemand voor gevonden is"},
+        {"id": "B", "text_nl": "Een baan waar nog niemand voor gevonden is"},
+        {"id": "C", "text_nl": "Een cursus bij het UWV WERKbedrijf"},
+        {"id": "D", "text_nl": "Een contract bij een uitzendbureau"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een vacature is een baan waar nog niemand voor gevonden is. Je kunt zelf naar de vacatures gaan kijken op het kantoor van het UWV WERKbedrijf.",
+        "en": "A vacancy is a job that has not yet been filled. You can look at job vacancies at the UWV WERKbedrijf office."
+      },
+      "source_text_nl": "Een baan waar nog niemand voor gevonden is, heet een vacature.",
+      "tags": ["vacature", "werk zoeken"]
+    },
+    {
+      "id": "M1_Q004", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Solliciteren", "topic_en": "Applying for a job",
+      "question_nl": "Wat moet je meenemen naar een sollicitatiegesprek?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen je paspoort"},
+        {"id": "B", "text_nl": "Alleen een motivatiebrief"},
+        {"id": "C", "text_nl": "Een diploma, een IDW of een EVC"},
+        {"id": "D", "text_nl": "Een brief van de gemeente"}
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "Bij een sollicitatiegesprek moet je meestal een diploma laten zien, of een IDW of een EVC. Dit bewijst jouw opleiding en werkervaring.",
+        "en": "At a job interview, you usually need to show a diploma, IDW (international diploma evaluation) or EVC (recognition of prior learning). These prove your qualifications and experience."
+      },
+      "source_text_nl": "Je moet meestal een diploma laten zien, of een IDW of een EVC.",
+      "tags": ["solliciteren", "diploma", "IDW", "EVC"]
+    },
+    {
+      "id": "M1_Q005", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Opleiding", "topic_en": "Education and training",
+      "question_nl": "Wat is een IDW?",
+      "options": [
+        {"id": "A", "text_nl": "Een Nederlandse werkvergunning"},
+        {"id": "B", "text_nl": "Een Internationale Diploma Waardering"},
+        {"id": "C", "text_nl": "Een inburgeringsdiploma"},
+        {"id": "D", "text_nl": "Een identiteitsbewijs voor werknemers"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "IDW staat voor Internationale Diploma Waardering. Als je een diploma uit je eigen land hebt, kun je een IDW aanvragen om het diploma ook in Nederland geldig te maken.",
+        "en": "IDW stands for International Diploma Assessment. If you have a diploma from your home country, you can apply for an IDW to make it valid in the Netherlands too."
+      },
+      "source_text_nl": "Je kunt een Internationale Diploma Waardering (IDW) aanvragen. Je diploma is hier dan ook geldig.",
+      "tags": ["opleiding", "IDW", "diploma"]
+    },
+    {
+      "id": "M1_Q006", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Uitzendbureau", "topic_en": "Temp agency",
+      "question_nl": "Wat doet een uitzendbureau?",
+      "options": [
+        {"id": "A", "text_nl": "Het uitzendbureau geeft een uitkering aan werklozen"},
+        {"id": "B", "text_nl": "Het uitzendbureau zoekt naar mensen voor vacatures"},
+        {"id": "C", "text_nl": "Het uitzendbureau geeft cursussen voor beter Nederlands"},
+        {"id": "D", "text_nl": "Het uitzendbureau regelt je zorgverzekering"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een uitzendbureau zoekt naar mensen voor vacatures. Je moet je eerst inschrijven. Het uitzendbureau probeert dan een baan voor je te vinden.",
+        "en": "A temp agency searches for people to fill vacancies. You first need to register. The agency then tries to find a job for you."
+      },
+      "source_text_nl": "Het uitzendbureau zoekt naar mensen voor vacatures. Je moet je eerst inschrijven.",
+      "tags": ["uitzendbureau", "werk zoeken"]
+    },
+    {
+      "id": "M1_Q007", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werk zoeken", "topic_en": "Finding work",
+      "question_nl": "Via welke website kun je vacatures zoeken van het UWV WERKbedrijf?",
+      "options": [
+        {"id": "A", "text_nl": "www.werk.nl"},
+        {"id": "B", "text_nl": "www.gemeente.nl"},
+        {"id": "C", "text_nl": "www.kvk.nl"},
+        {"id": "D", "text_nl": "www.uwv.werkzoeker.nl"}
+      ],
+      "correct_answer": "A",
+      "explanation": {
+        "nl": "De advertenties van het UWV WERKbedrijf staan op internet via www.werk.nl. Hier kun je vacatures bekijken en je kunt er ook informatie over opleidingen vinden.",
+        "en": "The UWV WERKbedrijf job listings are available on the internet at www.werk.nl. You can browse vacancies there and also find information about training courses."
+      },
+      "source_text_nl": "De advertenties van het UWV WERKbedrijf staan ook op internet: http://www.werk.nl/.",
+      "tags": ["werk zoeken", "internet", "UWV"]
+    },
+    {
+      "id": "M1_Q008", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Eigen bedrijf", "topic_en": "Starting a business",
+      "question_nl": "Waar moet je je inschrijven als je een eigen bedrijf wilt beginnen?",
+      "options": [
+        {"id": "A", "text_nl": "Bij het UWV WERKbedrijf"},
+        {"id": "B", "text_nl": "Bij de Kamer van Koophandel"},
+        {"id": "C", "text_nl": "Bij de Belastingdienst"},
+        {"id": "D", "text_nl": "Bij de gemeente"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je een eigen bedrijf wilt beginnen, moet je je inschrijven bij de Kamer van Koophandel (KvK). Zij kunnen je ook informatie en advies geven over het starten van een bedrijf.",
+        "en": "If you want to start your own business, you must register with the Chamber of Commerce (KvK). They can also provide you with information and advice on starting a business."
+      },
+      "source_text_nl": "Wil je meer weten over het opstarten van een bedrijf? Kijk dan op de website van de Kamer van Koophandel: http://www.kvk.nl/.",
+      "tags": ["eigen bedrijf", "Kamer van Koophandel", "ondernemen"]
+    },
+    {
+      "id": "M1_Q009", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Solliciteren", "topic_en": "Applying for a job",
+      "question_nl": "Wat is een sollicitatietraining?",
+      "options": [
+        {"id": "A", "text_nl": "Een training waarbij je leert hoe je een bedrijf opricht"},
+        {"id": "B", "text_nl": "Een cursus waarbij je leert wat belangrijk is bij het solliciteren"},
+        {"id": "C", "text_nl": "Een cursus waarbij je beter Nederlands leert spreken"},
+        {"id": "D", "text_nl": "Een training waarbij je leert hoe je een contract opstelt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je het moeilijk vindt om te solliciteren, kun je een sollicitatietraining doen. Je leert dan wat belangrijk is bij het solliciteren en wat je moet doen.",
+        "en": "If you find it difficult to apply for jobs, you can take an application training course. You learn what is important when applying and what you need to do."
+      },
+      "source_text_nl": "Als je het moeilijk vindt om te solliciteren, kun je een sollicitatietraining doen.",
+      "tags": ["solliciteren", "training"]
+    },
+    {
+      "id": "M1_Q010", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werk zoeken", "topic_en": "Finding work",
+      "question_nl": "Hoe kun je ook werk zoeken via andere mensen?",
+      "options": [
+        {"id": "A", "text_nl": "Via de Kamer van Koophandel"},
+        {"id": "B", "text_nl": "Via mensen uit de buurt of familie"},
+        {"id": "C", "text_nl": "Via het consultatiebureau"},
+        {"id": "D", "text_nl": "Via de woningbouwvereniging"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je kunt ook aan andere mensen vragen of ze weten waar banen zijn. Ken je mensen uit de buurt of heb je familie hier? Vraag eens of zij weten waar er nog banen zijn.",
+        "en": "You can also ask other people if they know of any job openings. Do you know people in the neighbourhood or have family here? Ask if they know of any vacancies."
+      },
+      "source_text_nl": "Je kunt het ook aan andere mensen vragen. Ken je mensen uit de buurt of heb je familie hier?",
+      "tags": ["werk zoeken", "netwerk"]
+    },
+    {
+      "id": "M1_Q011", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Solliciteren", "topic_en": "Applying for a job",
+      "question_nl": "Wat wil een werkgever weten over jouw beschikbaarheid?",
+      "options": [
+        {"id": "A", "text_nl": "Hoeveel geld je wilt verdienen"},
+        {"id": "B", "text_nl": "Op welke dagen en welke tijden je kunt werken"},
+        {"id": "C", "text_nl": "Welke hobby's je hebt"},
+        {"id": "D", "text_nl": "Waar je vroeger hebt gewoond"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De werkgever wil weten hoeveel en wanneer je beschikbaar bent. Dus op welke dagen en welke tijden je kunt werken.",
+        "en": "The employer wants to know how much and when you are available to work — which days and at which times."
+      },
+      "source_text_nl": "Hij wil weten hoeveel en wanneer je beschikbaar bent. Dus op welke dagen en welke tijden je kunt werken.",
+      "tags": ["solliciteren", "beschikbaarheid"]
+    },
+    {
+      "id": "M1_Q012", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "EVC", "topic_en": "Recognition of prior learning",
+      "question_nl": "Wat is een EVC?",
+      "options": [
+        {"id": "A", "text_nl": "Een Europese Verblijfsvergunning voor Cursisten"},
+        {"id": "B", "text_nl": "Een Erkenning van Verworven Competenties"},
+        {"id": "C", "text_nl": "Een Erkend Vak Certificaat"},
+        {"id": "D", "text_nl": "Een Europese Vakbond voor Cursussen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "EVC staat voor Erkenning van Verworven Competenties. Je kunt een bewijs van je ervaring (EVC) krijgen, zodat een werkgever kan zien wat je kent en kunt.",
+        "en": "EVC stands for Recognition of Prior Learning. You can obtain an EVC document to show an employer what knowledge and skills you have gained through experience."
+      },
+      "source_text_nl": "Je kunt een bewijs van je ervaring (EVC) krijgen. Hierin staat alles over je kennis en ervaring.",
+      "tags": ["EVC", "opleiding", "ervaring"]
+    },
+    {
+      "id": "M1_Q013", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werk en woonplaats", "topic_en": "Work and location",
+      "question_nl": "Waarom is je woonplaats belangrijk bij het solliciteren?",
+      "options": [
+        {"id": "A", "text_nl": "Omdat de gemeente toestemming moet geven"},
+        {"id": "B", "text_nl": "Omdat het goedkoper is voor je nieuwe baas als je dichtbij woont"},
+        {"id": "C", "text_nl": "Omdat je dan geen visum nodig hebt"},
+        {"id": "D", "text_nl": "Omdat de werkgever dan je huur betaalt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Woonplaats is ook erg belangrijk. Het is goedkoper voor je nieuwe baas als je dichtbij woont, omdat reiskosten dan lager zijn.",
+        "en": "Your location is also very important. It is cheaper for your new employer if you live nearby, as travel costs are lower."
+      },
+      "source_text_nl": "Je woonplaats is ook erg belangrijk. Het is goedkoper voor je nieuwe baas als je dichtbij woont.",
+      "tags": ["solliciteren", "woonplaats"]
+    },
+    {
+      "id": "M1_Q014", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Tijdelijk werk", "topic_en": "Temporary work",
+      "question_nl": "Welk soort werk regelt een uitzendbureau meestal?",
+      "options": [
+        {"id": "A", "text_nl": "Vast werk voor altijd"},
+        {"id": "B", "text_nl": "Tijdelijk werk"},
+        {"id": "C", "text_nl": "Parttime werk in de overheid"},
+        {"id": "D", "text_nl": "Zelfstandig ondernemerschap"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Werk via een uitzendbureau gaat meestal om tijdelijk werk. Het uitzendbureau probeert een baan voor je te vinden voor een bepaalde periode.",
+        "en": "Work through a temp agency is usually temporary. The agency tries to find you a job for a set period of time."
+      },
+      "source_text_nl": "Meestal gaat het om tijdelijk werk.",
+      "tags": ["uitzendbureau", "tijdelijk werk"]
+    },
+    {
+      "id": "M1_Q015", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Solliciteren", "topic_en": "Applying for a job",
+      "question_nl": "Wat schrijf je in een sollicitatiebrief?",
+      "options": [
+        {"id": "A", "text_nl": "Dat je graag bij dat bedrijf wilt werken"},
+        {"id": "B", "text_nl": "Dat je een hoog salaris wilt"},
+        {"id": "C", "text_nl": "Dat je al lang werkloos bent"},
+        {"id": "D", "text_nl": "Dat je al eerder afgewezen bent"}
+      ],
+      "correct_answer": "A",
+      "explanation": {
+        "nl": "In een sollicitatiebrief schrijf je dat je graag bij dat bedrijf wilt werken. Je vertelt ook over je ervaring en opleiding.",
+        "en": "In an application letter, you write that you would like to work at that company. You also mention your experience and education."
+      },
+      "source_text_nl": "Daarin schrijf je dat je graag bij dat bedrijf wilt werken.",
+      "tags": ["solliciteren", "brief"]
+    },
+    {
+      "id": "M1_Q016", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werk zoeken", "topic_en": "Finding work",
+      "question_nl": "Waar kun je vacatures vinden in de krant of op internet?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen via het UWV WERKbedrijf"},
+        {"id": "B", "text_nl": "Via google of websites zoals www.nationalevacaturebank.nl"},
+        {"id": "C", "text_nl": "Via de bibliotheek"},
+        {"id": "D", "text_nl": "Alleen via het gemeentehuis"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je kunt ook zelf in kranten kijken naar vacatures of op internet. Via Google kun je vacatures zoeken via verschillende soorten websites, zoals www.nationalevacaturebank.nl.",
+        "en": "You can also look for vacancies in newspapers or online. Via Google you can find vacancies through various websites, such as www.nationalevacaturebank.nl."
+      },
+      "source_text_nl": "Via google kun je vacatures zoeken of via verschillende soorten websites.",
+      "tags": ["werk zoeken", "internet", "vacature"]
+    },
+    {
+      "id": "M1_Q017", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Motivatie bij solliciteren", "topic_en": "Motivation at interview",
+      "question_nl": "Wat bespreek je bij een sollicitatiegesprek over je motivatie?",
+      "options": [
+        {"id": "A", "text_nl": "Waarom je een hoog salaris wilt"},
+        {"id": "B", "text_nl": "Waarom je graag die baan wilt en of je het werk goed kunt"},
+        {"id": "C", "text_nl": "Waarom je gestopt bent met school"},
+        {"id": "D", "text_nl": "Waarom je in Nederland woont"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Bij een sollicitatiegesprek praat je over je motivatie: waarom wil je graag die baan? En of je het werk goed kunt.",
+        "en": "At a job interview, you discuss your motivation: why do you want this job? And whether you can do the work well."
+      },
+      "source_text_nl": "Je praat bij een sollicitatie ook over je motivatie: waarom wil je graag die baan? Bijvoorbeeld omdat je het werk goed kunt.",
+      "tags": ["solliciteren", "motivatie"]
+    },
+    {
+      "id": "M1_Q018", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Opleiding en werk", "topic_en": "Education and work",
+      "question_nl": "Wat is nodig om een opleiding te doen?",
+      "options": [
+        {"id": "A", "text_nl": "Je hebt een IDW en een EVC nodig"},
+        {"id": "B", "text_nl": "Je hebt een diploma, een IDW of een EVC nodig en je Nederlands moet goed genoeg zijn"},
+        {"id": "C", "text_nl": "Je hebt alleen toestemming van de gemeente nodig"},
+        {"id": "D", "text_nl": "Je hoeft niets te doen, je schrijft je gewoon in"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Om een opleiding te doen, moet je een diploma, een IDW of een EVC hebben. En je Nederlands moet goed genoeg zijn. Je kunt via het UWV WERKbedrijf informatie over opleidingen vragen.",
+        "en": "To take a training course, you need a diploma, IDW, or EVC, and your Dutch must be good enough. You can ask the UWV WERKbedrijf for information about training courses."
+      },
+      "source_text_nl": "Je moet een diploma, een IDW of een EVC hebben. En je Nederlands moet goed genoeg zijn.",
+      "tags": ["opleiding", "diploma", "IDW", "EVC"]
+    },
+    {
+      "id": "M1_Q019", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Eigen bedrijf", "topic_en": "Starting a business",
+      "question_nl": "Wat moet je doen voordat je een eigen bedrijf begint?",
+      "options": [
+        {"id": "A", "text_nl": "Je moet toestemming vragen aan de Belastingdienst"},
+        {"id": "B", "text_nl": "Je moet veel informatie opzoeken, want er zijn veel dingen om aan te denken"},
+        {"id": "C", "text_nl": "Je moet een contract tekenen bij het UWV WERKbedrijf"},
+        {"id": "D", "text_nl": "Je moet een cursus volgen bij de gemeente"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Er zijn veel dingen om aan te denken als je een eigen bedrijf wilt beginnen. Het is het beste om eerst bij de Kamer van Koophandel langs te gaan voor informatie en advies.",
+        "en": "There are many things to consider when starting your own business. It is best to first visit the Chamber of Commerce for information and advice."
+      },
+      "source_text_nl": "Er zijn nog veel dingen waar je aan moet denken. Het is het beste om eerst bij de Kamer van Koophandel langs te gaan.",
+      "tags": ["eigen bedrijf", "Kamer van Koophandel"]
+    },
+    {
+      "id": "M1_Q020", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werkervaring", "topic_en": "Work experience",
+      "question_nl": "Wat moet je tijdens een sollicitatiegesprek vertellen over je werkervaring?",
+      "options": [
+        {"id": "A", "text_nl": "Hoeveel salaris je eerder verdiende"},
+        {"id": "B", "text_nl": "Je werkervaring en wat je kunt"},
+        {"id": "C", "text_nl": "Waarom je ontslagen bent bij je vorige baan"},
+        {"id": "D", "text_nl": "Hoeveel uren je wil werken"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Je moet ook over je werkervaring vertellen. De werkgever wil weten wat je al eerder hebt gedaan en wat je kunt.",
+        "en": "You also need to talk about your work experience. The employer wants to know what you have done before and what you are capable of."
+      },
+      "source_text_nl": "Je moet ook over je werkervaring vertellen.",
+      "tags": ["solliciteren", "werkervaring"]
+    },
+    {
+      "id": "M1_Q021", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Werk zoeken", "topic_en": "Finding work",
+      "question_nl": "Als je werkloos bent, mag je direct naar een uitzendbureau gaan zonder je eerst te melden bij het UWV WERKbedrijf.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is niet juist. Als je werkloos bent, moet je je altijd eerst melden bij het UWV WERKbedrijf. Daarna kun je ook naar een uitzendbureau gaan.",
+        "en": "This is incorrect. When you are unemployed, you must always first register at the UWV WERKbedrijf. After that, you can also go to a temp agency."
+      },
+      "source_text_nl": "Als je werkloos bent, moet je altijd eerst naar het UWV WERKbedrijf in jouw woonplaats.",
+      "tags": ["werk zoeken", "UWV", "werkloosheid"]
+    },
+    {
+      "id": "M1_Q022", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Werk zoeken", "topic_en": "Finding work",
+      "question_nl": "Je kunt vacatures van het UWV WERKbedrijf ook op internet vinden.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De advertenties van het UWV WERKbedrijf staan ook op internet via www.werk.nl.",
+        "en": "That is correct. The job listings from the UWV WERKbedrijf are also available online at www.werk.nl."
+      },
+      "source_text_nl": "De advertenties van het UWV WERKbedrijf staan ook op internet: http://www.werk.nl/.",
+      "tags": ["werk zoeken", "internet", "UWV"]
+    },
+    {
+      "id": "M1_Q023", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Solliciteren", "topic_en": "Applying for a job",
+      "question_nl": "Bij een sollicitatiegesprek hoef je je werkervaring niet te noemen.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Je moet bij een sollicitatiegesprek juist ook over je werkervaring vertellen, zodat de werkgever weet wat je kunt.",
+        "en": "This is incorrect. At a job interview, you absolutely must talk about your work experience so the employer knows what you can do."
+      },
+      "source_text_nl": "Je moet ook over je werkervaring vertellen.",
+      "tags": ["solliciteren", "werkervaring"]
+    },
+    {
+      "id": "M1_Q024", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Eigen bedrijf", "topic_en": "Starting a business",
+      "question_nl": "Als je een eigen bedrijf wilt beginnen, moet je je inschrijven bij de Kamer van Koophandel.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Als je een eigen bedrijf wilt beginnen, moet je je inschrijven bij de Kamer van Koophandel.",
+        "en": "That is correct. If you want to start your own business, you must register with the Chamber of Commerce."
+      },
+      "source_text_nl": "Wil je meer weten over het opstarten van een bedrijf? Kijk dan op de website van de Kamer van Koophandel.",
+      "tags": ["eigen bedrijf", "Kamer van Koophandel"]
+    },
+    {
+      "id": "M1_Q025", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "IDW", "topic_en": "International diploma assessment",
+      "question_nl": "Een diploma uit het buitenland is automatisch geldig in Nederland.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is niet juist. Een buitenlands diploma is niet automatisch geldig in Nederland. Je kunt een IDW (Internationale Diploma Waardering) aanvragen om je diploma ook hier geldig te maken.",
+        "en": "This is incorrect. A foreign diploma is not automatically valid in the Netherlands. You can apply for an IDW (International Diploma Assessment) to make it valid here."
+      },
+      "source_text_nl": "Is je diploma hier niet geldig? Je kunt een Internationale Diploma Waardering (IDW) aanvragen.",
+      "tags": ["IDW", "diploma", "buitenland"]
+    },
+    {
+      "id": "M1_Q026", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werk en salaris", "topic_en": "Work and salary",
+      "question_nl": "Wat is het minimumloon?",
+      "options": [
+        {"id": "A", "text_nl": "Het hoogste loon dat je mag verdienen"},
+        {"id": "B", "text_nl": "Het laagste loon dat een werkgever wettelijk mag betalen"},
+        {"id": "C", "text_nl": "Het gemiddelde loon in Nederland"},
+        {"id": "D", "text_nl": "Het loon dat je bij het UWV WERKbedrijf verdient"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Het minimumloon is het laagste loon dat een werkgever wettelijk mag betalen. In Nederland heeft bijna iedere werknemer recht op het minimumloon.",
+        "en": "The minimum wage is the lowest wage an employer is legally allowed to pay. In the Netherlands, almost every employee is entitled to the minimum wage."
+      },
+      "source_text_nl": "In Nederland is er een minimumloon. Dat is het laagste loon dat een werkgever mag betalen.",
+      "tags": ["loon", "minimumloon", "werk"]
+    },
+    {
+      "id": "M1_Q027", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Arbeidscontract", "topic_en": "Employment contract",
+      "question_nl": "Wat is een arbeidscontract?",
+      "options": [
+        {"id": "A", "text_nl": "Een brief waarmee je solliciteert"},
+        {"id": "B", "text_nl": "Een papier met afspraken tussen jou en je werkgever"},
+        {"id": "C", "text_nl": "Een formulier van het UWV WERKbedrijf"},
+        {"id": "D", "text_nl": "Een diploma dat je werkt in Nederland"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een arbeidscontract is een papier waarop de afspraken staan tussen jou en je werkgever, zoals je salaris, werktijden en vakantiedagen.",
+        "en": "An employment contract is a document containing the agreements between you and your employer, such as your salary, working hours, and holiday entitlement."
+      },
+      "source_text_nl": "Als je een baan hebt gevonden, sluit je een arbeidscontract af met je werkgever.",
+      "tags": ["arbeidscontract", "werk"]
+    },
+    {
+      "id": "M1_Q028", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "WW-uitkering", "topic_en": "Unemployment benefit",
+      "question_nl": "Wat is een WW-uitkering?",
+      "options": [
+        {"id": "A", "text_nl": "Een betaling van de werkgever als je ziek bent"},
+        {"id": "B", "text_nl": "Een uitkering van de overheid als je werkloos bent en eerder gewerkt hebt"},
+        {"id": "C", "text_nl": "Een subsidie om een eigen bedrijf te starten"},
+        {"id": "D", "text_nl": "Een toelage voor studeren"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een WW-uitkering (Werkloosheidswet) is een uitkering die je van de overheid krijgt als je werkloos bent. Je hebt er recht op als je eerder hebt gewerkt en aan de voorwaarden voldoet.",
+        "en": "WW (unemployment benefit) is a payment you receive from the government when you are unemployed. You are entitled to it if you have previously worked and meet the conditions."
+      },
+      "source_text_nl": "Als je werkloos wordt, heb je misschien recht op een WW-uitkering.",
+      "tags": ["WW-uitkering", "werkloosheid"]
+    },
+    {
+      "id": "M1_Q029", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Vakbond", "topic_en": "Trade union",
+      "question_nl": "Wat doet een vakbond?",
+      "options": [
+        {"id": "A", "text_nl": "Een vakbond zoekt vacatures voor werknemers"},
+        {"id": "B", "text_nl": "Een vakbond beschermt de rechten van werknemers"},
+        {"id": "C", "text_nl": "Een vakbond geeft opleidingen aan werklozen"},
+        {"id": "D", "text_nl": "Een vakbond verhuurt kantoorruimte"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een vakbond is een organisatie die de rechten van werknemers beschermt. Ze onderhandelen met werkgevers over loon, werktijden en werkomstandigheden.",
+        "en": "A trade union is an organisation that protects the rights of workers. They negotiate with employers about wages, working hours and working conditions."
+      },
+      "source_text_nl": "Een vakbond beschermt de rechten van werknemers.",
+      "tags": ["vakbond", "rechten werknemers"]
+    },
+    {
+      "id": "M1_Q030", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Loonstrook", "topic_en": "Pay slip",
+      "question_nl": "Wat is een loonstrook?",
+      "options": [
+        {"id": "A", "text_nl": "Een bewijs dat je werkloos bent"},
+        {"id": "B", "text_nl": "Een overzicht van je loon en inhoudingen"},
+        {"id": "C", "text_nl": "Een brief van de werkgever met je contract"},
+        {"id": "D", "text_nl": "Een factuur voor diensten die je hebt geleverd"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een loonstrook is een overzicht dat je van je werkgever krijgt. Hierop staat hoeveel je hebt verdiend en hoeveel is ingehouden voor belasting en sociale verzekeringen.",
+        "en": "A payslip is an overview provided by your employer showing how much you have earned and how much has been deducted for tax and social insurance."
+      },
+      "source_text_nl": "Iedere maand krijg je een loonstrook. Daarop staat hoeveel je hebt verdiend.",
+      "tags": ["loonstrook", "salaris"]
+    },
+    {
+      "id": "M1_Q031", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Pensioen", "topic_en": "Pension",
+      "question_nl": "Wat is pensioen?",
+      "options": [
+        {"id": "A", "text_nl": "Geld dat je spaart voor je huis"},
+        {"id": "B", "text_nl": "Geld dat je ontvangt als je oud genoeg bent om te stoppen met werken"},
+        {"id": "C", "text_nl": "Geld dat je ontvangt als je ziek bent"},
+        {"id": "D", "text_nl": "Geld dat je van de gemeente krijgt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Pensioen is geld dat je ontvangt als je oud genoeg bent om te stoppen met werken. In Nederland krijg je AOW (Algemene Ouderdomswet) van de overheid als je de pensioenleeftijd bereikt.",
+        "en": "Pension is money you receive when you are old enough to stop working. In the Netherlands, you receive AOW (state pension) from the government when you reach retirement age."
+      },
+      "source_text_nl": "Als je oud bent, krijg je pensioen. Dat is geld voor als je niet meer werkt.",
+      "tags": ["pensioen", "AOW"]
+    },
+    {
+      "id": "M1_Q032", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Belasting", "topic_en": "Tax",
+      "question_nl": "Wie betaalt belasting in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen mensen die veel verdienen"},
+        {"id": "B", "text_nl": "Iedereen die in Nederland werkt en inkomen heeft"},
+        {"id": "C", "text_nl": "Alleen mensen met een eigen bedrijf"},
+        {"id": "D", "text_nl": "Alleen mensen met een vast contract"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Iedereen die in Nederland werkt en inkomen heeft, betaalt belasting. De Belastingdienst int de belastingen in Nederland.",
+        "en": "Everyone who works and earns income in the Netherlands pays tax. The Tax and Customs Administration (Belastingdienst) collects taxes in the Netherlands."
+      },
+      "source_text_nl": "Iedereen die inkomen heeft, betaalt belasting in Nederland.",
+      "tags": ["belasting", "Belastingdienst"]
+    },
+    {
+      "id": "M1_Q033", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Zwangerschapsverlof", "topic_en": "Maternity leave",
+      "question_nl": "Hoeveel weken zwangerschapsverlof heeft een vrouw recht op in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "8 weken"},
+        {"id": "B", "text_nl": "16 weken"},
+        {"id": "C", "text_nl": "6 weken"},
+        {"id": "D", "text_nl": "12 weken"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In Nederland heeft een vrouw recht op 16 weken zwangerschaps- en bevallingsverlof. Dit verlof begint 6 weken voor de uitgerekende bevallingsdatum.",
+        "en": "In the Netherlands, a woman is entitled to 16 weeks of maternity leave. This leave starts 6 weeks before the expected delivery date."
+      },
+      "source_text_nl": "Een vrouw heeft recht op 16 weken zwangerschapsverlof.",
+      "tags": ["zwangerschapsverlof", "werk", "rechten"]
+    },
+    {
+      "id": "M1_Q034", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werktijden", "topic_en": "Working hours",
+      "question_nl": "Hoeveel uren per week mag je maximaal werken in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "40 uur"},
+        {"id": "B", "text_nl": "60 uur"},
+        {"id": "C", "text_nl": "48 uur"},
+        {"id": "D", "text_nl": "36 uur"}
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "Volgens de Arbeidstijdenwet mag je gemiddeld niet meer dan 48 uur per week werken. Dit is de wettelijke maximumtijd.",
+        "en": "According to the Working Hours Act, you may not work more than an average of 48 hours per week. This is the legal maximum."
+      },
+      "source_text_nl": "Je mag gemiddeld niet meer dan 48 uur per week werken.",
+      "tags": ["werktijden", "Arbeidstijdenwet"]
+    },
+    {
+      "id": "M1_Q035", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werk en ziekte", "topic_en": "Work and illness",
+      "question_nl": "Wat moet je doen als je ziek bent en niet kunt werken?",
+      "options": [
+        {"id": "A", "text_nl": "Je hoeft niets te doen"},
+        {"id": "B", "text_nl": "Je moet je ziek melden bij je werkgever"},
+        {"id": "C", "text_nl": "Je moet direct naar het UWV gaan"},
+        {"id": "D", "text_nl": "Je moet een brief sturen naar de gemeente"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je ziek bent en niet kunt werken, moet je je ziek melden bij je werkgever. Dat doe je zo snel mogelijk, meestal door te bellen.",
+        "en": "If you are sick and cannot work, you must report sick to your employer. You do this as soon as possible, usually by calling."
+      },
+      "source_text_nl": "Als je ziek bent, moet je je ziek melden bij je werkgever.",
+      "tags": ["ziekte", "ziekmelden", "werk"]
+    },
+    {
+      "id": "M1_Q036", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Werk zoeken", "topic_en": "Finding work",
+      "question_nl": "Het UWV WERKbedrijf kan je helpen met het zoeken naar werk.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De mensen van het UWV WERKbedrijf helpen je met werk vinden. Dat kan op verschillende manieren.",
+        "en": "That is correct. The staff at the UWV WERKbedrijf help you find work in various ways."
+      },
+      "source_text_nl": "De mensen van het UWV WERKbedrijf helpen je met werk vinden.",
+      "tags": ["UWV", "werk zoeken"]
+    },
+    {
+      "id": "M1_Q037", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Loon", "topic_en": "Wages",
+      "question_nl": "In Nederland mag een werkgever je minder betalen dan het minimumloon.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. In Nederland mag een werkgever je niet minder betalen dan het wettelijk minimumloon. Dat is de wet.",
+        "en": "This is incorrect. In the Netherlands, an employer is not allowed to pay you less than the statutory minimum wage. That is the law."
+      },
+      "source_text_nl": "In Nederland is er een minimumloon. Dat is het laagste loon dat een werkgever mag betalen.",
+      "tags": ["minimumloon", "loon", "werkgever"]
+    },
+    {
+      "id": "M1_Q038", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Belasting", "topic_en": "Tax",
+      "question_nl": "Iedereen die in Nederland werkt en inkomen heeft, moet belasting betalen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Iedereen die in Nederland werkt en inkomen heeft, moet belasting betalen aan de Belastingdienst.",
+        "en": "That is correct. Everyone who works and earns income in the Netherlands must pay tax to the Tax and Customs Administration."
+      },
+      "source_text_nl": "Iedereen die inkomen heeft, betaalt belasting in Nederland.",
+      "tags": ["belasting", "inkomen"]
+    },
+    {
+      "id": "M1_Q039", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Uitzendbureau", "topic_en": "Temp agency",
+      "question_nl": "Je hoeft je niet in te schrijven bij een uitzendbureau. Je kunt direct beginnen met werken.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Je moet je eerst inschrijven bij het uitzendbureau. Daarna probeert het bureau een baan voor je te vinden.",
+        "en": "This is incorrect. You must first register at the temp agency. After that, the agency tries to find a job for you."
+      },
+      "source_text_nl": "Je moet je eerst inschrijven. Het uitzendbureau probeert een baan voor je te vinden.",
+      "tags": ["uitzendbureau", "inschrijven"]
+    },
+    {
+      "id": "M1_Q040", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Opleiding", "topic_en": "Education",
+      "question_nl": "Je kunt via het UWV WERKbedrijf informatie krijgen over cursussen en opleidingen.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Het UWV WERKbedrijf heeft informatie over cursussen en opleidingen. Je kunt daar meer informatie vragen.",
+        "en": "That is correct. The UWV WERKbedrijf has information about courses and training programmes. You can ask for more information there."
+      },
+      "source_text_nl": "Het UWV WERKbedrijf heeft informatie over cursussen en opleidingen.",
+      "tags": ["opleiding", "cursus", "UWV"]
+    },
+    {
+      "id": "M1_Q041", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werknemer rechten", "topic_en": "Employee rights",
+      "question_nl": "Hoeveel vakantiedagen heeft een fulltimewerknemer minimaal recht op in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "10 vakantiedagen"},
+        {"id": "B", "text_nl": "20 vakantiedagen"},
+        {"id": "C", "text_nl": "30 vakantiedagen"},
+        {"id": "D", "text_nl": "15 vakantiedagen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een fulltimewerknemer heeft minimaal recht op 20 vakantiedagen per jaar. Dit is het wettelijk minimum. Veel werkgevers geven meer vakantiedagen.",
+        "en": "A full-time employee is entitled to a minimum of 20 holiday days per year. This is the legal minimum. Many employers offer more holiday days."
+      },
+      "source_text_nl": "Een fulltimewerknemer heeft minimaal recht op 20 vakantiedagen.",
+      "tags": ["vakantiedagen", "rechten werknemers"]
+    },
+    {
+      "id": "M1_Q042", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Parttime werken", "topic_en": "Part-time work",
+      "question_nl": "Wat is parttime werken?",
+      "options": [
+        {"id": "A", "text_nl": "Meer dan 40 uur per week werken"},
+        {"id": "B", "text_nl": "Minder dan de normale fulltime uren per week werken"},
+        {"id": "C", "text_nl": "Werken in de avond en nacht"},
+        {"id": "D", "text_nl": "Werken via een uitzendbureau"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Parttime werken betekent dat je minder uren per week werkt dan een voltijds baan. Dat is dus minder dan de normale fulltime uren.",
+        "en": "Part-time working means you work fewer hours per week than a full-time position. That is less than the normal full-time hours."
+      },
+      "source_text_nl": "Parttime werken betekent minder uren werken dan fulltime.",
+      "tags": ["parttime", "werktijden"]
+    },
+    {
+      "id": "M1_Q043", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Sociale verzekeringen", "topic_en": "Social insurance",
+      "question_nl": "Wat houdt de werkgever in op je loon?",
+      "options": [
+        {"id": "A", "text_nl": "Niets, je ontvangt altijd je volle loon"},
+        {"id": "B", "text_nl": "Belasting en sociale verzekeringspremies"},
+        {"id": "C", "text_nl": "Alleen huurkosten"},
+        {"id": "D", "text_nl": "Alleen de kosten voor reizen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De werkgever houdt op je loon belasting in en premies voor sociale verzekeringen. Dit zie je op je loonstrook.",
+        "en": "Your employer deducts tax and social insurance premiums from your wages. You can see this on your payslip."
+      },
+      "source_text_nl": "Op je loon worden belasting en sociale verzekeringspremies ingehouden.",
+      "tags": ["loon", "belasting", "sociale verzekering"]
+    },
+    {
+      "id": "M1_Q044", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Re-integratie", "topic_en": "Re-integration",
+      "question_nl": "Wat is re-integratie?",
+      "options": [
+        {"id": "A", "text_nl": "Terugkeren naar je geboorteland"},
+        {"id": "B", "text_nl": "Terugkeren naar werk na ziekte of werkloosheid"},
+        {"id": "C", "text_nl": "Een nieuwe opleiding beginnen"},
+        {"id": "D", "text_nl": "Een nieuw huis zoeken"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Re-integratie is het proces van terugkeren naar werk na een periode van ziekte of werkloosheid. Het UWV helpt mensen hierbij.",
+        "en": "Re-integration is the process of returning to work after a period of illness or unemployment. The UWV helps people with this."
+      },
+      "source_text_nl": "Re-integratie betekent dat je weer terugkeert naar werk.",
+      "tags": ["re-integratie", "werk", "UWV"]
+    },
+    {
+      "id": "M1_Q045", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Ontslag", "topic_en": "Dismissal",
+      "question_nl": "Wat is ontslag op staande voet?",
+      "options": [
+        {"id": "A", "text_nl": "Je neemt zelf ontslag na een maand opzegtermijn"},
+        {"id": "B", "text_nl": "Je wordt direct ontslagen zonder opzegtermijn vanwege ernstig wangedrag"},
+        {"id": "C", "text_nl": "Je gaat met pensioen"},
+        {"id": "D", "text_nl": "Je contract wordt niet verlengd"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Ontslag op staande voet betekent dat je direct wordt ontslagen, zonder opzegtermijn. Dit gebeurt bij ernstig wangedrag, zoals diefstal.",
+        "en": "Summary dismissal means you are fired immediately, without any notice period. This happens in cases of serious misconduct, such as theft."
+      },
+      "source_text_nl": "Ontslag op staande voet betekent dat je direct ontslagen wordt.",
+      "tags": ["ontslag", "arbeidsrecht"]
+    },
+    {
+      "id": "M1_Q046", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Bijstand", "topic_en": "Social assistance",
+      "question_nl": "Wat is een bijstandsuitkering?",
+      "options": [
+        {"id": "A", "text_nl": "Een uitkering voor mensen die nooit gewerkt hebben en geen inkomen hebben"},
+        {"id": "B", "text_nl": "Een uitkering voor gepensioneerden"},
+        {"id": "C", "text_nl": "Een uitkering voor zieke werknemers"},
+        {"id": "D", "text_nl": "Een uitkering voor studenten"}
+      ],
+      "correct_answer": "A",
+      "explanation": {
+        "nl": "Een bijstandsuitkering is een minimuminkomen voor mensen die geen werk hebben en geen andere uitkering krijgen. De gemeente betaalt de bijstand.",
+        "en": "Social assistance (bijstand) is a minimum income for people who have no work and receive no other benefit. The municipality pays the social assistance."
+      },
+      "source_text_nl": "De bijstand is voor mensen die geen werk hebben en ook geen andere uitkering krijgen.",
+      "tags": ["bijstand", "uitkering", "gemeente"]
+    },
+    {
+      "id": "M1_Q047", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Loonbetaling", "topic_en": "Wage payment",
+      "question_nl": "Hoe vaak ontvang je normaal gesproken je loon?",
+      "options": [
+        {"id": "A", "text_nl": "Elke week"},
+        {"id": "B", "text_nl": "Elke maand"},
+        {"id": "C", "text_nl": "Elk kwartaal"},
+        {"id": "D", "text_nl": "Elke twee weken"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In Nederland wordt het loon normaal gesproken elke maand betaald. Je ontvangt het op je bankrekening.",
+        "en": "In the Netherlands, wages are normally paid every month. You receive them in your bank account."
+      },
+      "source_text_nl": "Normaal gesproken ontvang je je loon elke maand.",
+      "tags": ["loon", "betaling"]
+    },
+    {
+      "id": "M1_Q048", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werken en taal", "topic_en": "Working and language",
+      "question_nl": "Waarom is het belangrijk dat je Nederlands goed genoeg is als je wilt werken?",
+      "options": [
+        {"id": "A", "text_nl": "Omdat je anders meer belasting betaalt"},
+        {"id": "B", "text_nl": "Omdat je anders geen visum krijgt"},
+        {"id": "C", "text_nl": "Omdat je met collega's en klanten moet kunnen communiceren"},
+        {"id": "D", "text_nl": "Omdat de gemeente het verplicht stelt"}
+      ],
+      "correct_answer": "C",
+      "explanation": {
+        "nl": "Het is belangrijk dat je Nederlands goed genoeg is, zodat je kunt communiceren met collega's en klanten op het werk.",
+        "en": "It is important that your Dutch is good enough so that you can communicate with colleagues and customers at work."
+      },
+      "source_text_nl": "Wil je een opleiding doen? Dan moet je Nederlands goed genoeg zijn.",
+      "tags": ["Nederlands", "werk", "communicatie"]
+    },
+    {
+      "id": "M1_Q049", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werk en inkomen", "topic_en": "Work and income",
+      "question_nl": "Wat is een uitkering?",
+      "options": [
+        {"id": "A", "text_nl": "Geld dat je verdient door te werken"},
+        {"id": "B", "text_nl": "Geld dat je van de overheid ontvangt als je niet werkt"},
+        {"id": "C", "text_nl": "Geld dat je spaart voor later"},
+        {"id": "D", "text_nl": "Geld dat je leent bij de bank"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een uitkering is geld dat je van de overheid ontvangt als je niet werkt of niet kunt werken. Bijvoorbeeld een WW-uitkering of een bijstandsuitkering.",
+        "en": "A benefit is money you receive from the government when you are not working or cannot work. For example, unemployment benefit or social assistance."
+      },
+      "source_text_nl": "Een uitkering is geld dat je van de overheid ontvangt als je geen werk hebt.",
+      "tags": ["uitkering", "overheid", "inkomen"]
+    },
+    {
+      "id": "M1_Q050", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werk zoeken – kranten", "topic_en": "Finding work – newspapers",
+      "question_nl": "Waar in de krant kun je vacatures vinden?",
+      "options": [
+        {"id": "A", "text_nl": "In de sportrubrieken"},
+        {"id": "B", "text_nl": "In de advertentierubriek of werkgeversadvertenties"},
+        {"id": "C", "text_nl": "Op de voorpagina"},
+        {"id": "D", "text_nl": "In de cultuurrubriek"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In de krant kun je vacatures vinden in de advertentierubrieken of werkgeversadvertenties. Dit is een bekende manier om werk te zoeken.",
+        "en": "In the newspaper, you can find vacancies in the advertisement sections or employer advertisements. This is a well-known way to look for work."
+      },
+      "source_text_nl": "Je kunt ook zelf in kranten kijken naar vacatures.",
+      "tags": ["vacature", "krant", "werk zoeken"]
+    },
+    {
+      "id": "M1_Q051", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Solliciteren", "topic_en": "Applying for a job",
+      "question_nl": "Bij een sollicitatiegesprek moet je goed voorbereid zijn.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Bereid je goed voor, want een werkgever wil veel weten over jou. Hij wil weten of je de juiste opleiding hebt, wat je werkervaring is en wanneer je beschikbaar bent.",
+        "en": "That is correct. Prepare well, as the employer wants to know a lot about you — your education, work experience and availability."
+      },
+      "source_text_nl": "Bereid je goed voor, want een werkgever wil veel weten.",
+      "tags": ["solliciteren", "voorbereiding"]
+    },
+    {
+      "id": "M1_Q052", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Pensioen", "topic_en": "Pension",
+      "question_nl": "Pensioen is geld dat je krijgt als je oud genoeg bent om te stoppen met werken.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Pensioen is geld voor als je niet meer werkt op hoge leeftijd. In Nederland heet dit ook AOW.",
+        "en": "That is correct. Pension is money for when you no longer work at an older age. In the Netherlands this is also called AOW."
+      },
+      "source_text_nl": "Als je oud bent, krijg je pensioen. Dat is geld voor als je niet meer werkt.",
+      "tags": ["pensioen", "AOW", "ouderdom"]
+    },
+    {
+      "id": "M1_Q053", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Arbeidscontract", "topic_en": "Employment contract",
+      "question_nl": "Je hoeft geen arbeidscontract te tekenen als je begint met werken.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Als je een baan hebt gevonden, sluit je een arbeidscontract af met je werkgever. Daarin staan alle afspraken.",
+        "en": "This is incorrect. When you find a job, you sign an employment contract with your employer. It contains all the agreements."
+      },
+      "source_text_nl": "Als je een baan hebt gevonden, sluit je een arbeidscontract af met je werkgever.",
+      "tags": ["arbeidscontract", "werk"]
+    },
+    {
+      "id": "M1_Q054", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "EVC", "topic_en": "Recognition of prior learning",
+      "question_nl": "Een EVC laat zien wat je kent en kunt op basis van werkervaring.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Een EVC (Erkenning van Verworven Competenties) is een bewijs van je werkervaring en competenties die je hebt opgedaan.",
+        "en": "That is correct. An EVC (Recognition of Prior Learning) is proof of your work experience and the competencies you have acquired."
+      },
+      "source_text_nl": "Je kunt een bewijs van je ervaring (EVC) krijgen. Hierin staat alles over je kennis en ervaring.",
+      "tags": ["EVC", "competentie", "ervaring"]
+    },
+    {
+      "id": "M1_Q055", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Werk zoeken", "topic_en": "Finding work",
+      "question_nl": "Een open sollicitatie stuur je als reactie op een advertentie.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Een open sollicitatie stuur je zonder dat er een vacature is. Je stuurt een brief naar een bedrijf dat je leuk vindt, ook als er geen advertentie is.",
+        "en": "This is incorrect. An open application is sent without there being a job vacancy. You write to a company you like, even if there is no advertisement."
+      },
+      "source_text_nl": "Een open sollicitatie betekent dat je solliciteert, zonder dat er een vacature is.",
+      "tags": ["open sollicitatie", "vacature"]
+    },
+    {
+      "id": "M1_Q056", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Loopbaanbegeleiding", "topic_en": "Career guidance",
+      "question_nl": "Wat doen de medewerkers van het UWV WERKbedrijf voor je als je werk zoekt?",
+      "options": [
+        {"id": "A", "text_nl": "Ze betalen je huur"},
+        {"id": "B", "text_nl": "Ze geven je advies over welke baan bij je past"},
+        {"id": "C", "text_nl": "Ze schrijven je sollicitatiebrief"},
+        {"id": "D", "text_nl": "Ze regelen je zorgverzekering"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De medewerkers van het UWV WERKbedrijf geven je advies over welke baan bij jou past en wat je goed kunt en wat je leuk vindt.",
+        "en": "The staff at the UWV WERKbedrijf advise you on which job suits you, what you are good at and what you enjoy."
+      },
+      "source_text_nl": "Wat kun je goed en wat vind je leuk? Welke baan past bij jou? De mensen van het UWV WERKbedrijf kunnen je hier advies over geven.",
+      "tags": ["UWV", "loopbaanadvies", "baan"]
+    },
+    {
+      "id": "M1_Q057", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Arbeidsmarkt", "topic_en": "Labour market",
+      "question_nl": "Wat is een werkgever?",
+      "options": [
+        {"id": "A", "text_nl": "Iemand die werk zoekt"},
+        {"id": "B", "text_nl": "Iemand die mensen in dienst neemt en betaalt"},
+        {"id": "C", "text_nl": "Iemand die werkloos is"},
+        {"id": "D", "text_nl": "Iemand die bij het UWV werkt"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een werkgever is iemand die mensen in dienst neemt en hen betaalt voor hun werk. Een werknemer is degene die werkt voor de werkgever.",
+        "en": "An employer is someone who takes people on and pays them for their work. An employee is the person who works for the employer."
+      },
+      "source_text_nl": "Een werkgever neemt mensen in dienst en betaalt hen voor hun werk.",
+      "tags": ["werkgever", "werknemer", "arbeidsmarkt"]
+    },
+    {
+      "id": "M1_Q058", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werk zoeken – computer", "topic_en": "Finding work – computer",
+      "question_nl": "Wat doen de medewerkers van het UWV WERKbedrijf met de computer?",
+      "options": [
+        {"id": "A", "text_nl": "Ze schrijven jouw sollicitatiebrief"},
+        {"id": "B", "text_nl": "Ze zoeken voor jou naar banen in de computer"},
+        {"id": "C", "text_nl": "Ze bestellen producten voor je bedrijf"},
+        {"id": "D", "text_nl": "Ze regelen je bankrekening"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De medewerkers van het UWV WERKbedrijf kunnen voor jou in de computer zoeken naar banen die bij jou passen.",
+        "en": "The staff at the UWV WERKbedrijf can search the computer for jobs that match your profile."
+      },
+      "source_text_nl": "De medewerkers kunnen voor je in de computer zoeken naar banen.",
+      "tags": ["UWV", "werk zoeken", "computer"]
+    },
+    {
+      "id": "M1_Q059", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Zelfstandig ondernemen", "topic_en": "Self-employment",
+      "question_nl": "Hoe heet iemand die een eigen bedrijf heeft?",
+      "options": [
+        {"id": "A", "text_nl": "Een werknemer"},
+        {"id": "B", "text_nl": "Een zelfstandige of ondernemer"},
+        {"id": "C", "text_nl": "Een vakbondslid"},
+        {"id": "D", "text_nl": "Een uitkeringsgerechtigde"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Iemand die een eigen bedrijf heeft, noem je een zelfstandige of een ondernemer. Ze werken voor zichzelf en hebben geen baas.",
+        "en": "Someone who has their own business is called a self-employed person or entrepreneur. They work for themselves and have no boss."
+      },
+      "source_text_nl": "Als je een eigen bedrijf hebt, ben je een zelfstandige.",
+      "tags": ["zelfstandige", "ondernemer", "eigen bedrijf"]
+    },
+    {
+      "id": "M1_Q060", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werk en rechten", "topic_en": "Work and rights",
+      "question_nl": "Wat is de Arbeidsinspectie?",
+      "options": [
+        {"id": "A", "text_nl": "Een bedrijf dat vacatures verzamelt"},
+        {"id": "B", "text_nl": "Een overheidsinstantie die controleert of werkgevers de wet naleven"},
+        {"id": "C", "text_nl": "Een organisatie die werklozen helpt"},
+        {"id": "D", "text_nl": "Een vakbond voor internationale werknemers"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De Arbeidsinspectie is een overheidsinstantie die controleert of werkgevers zich houden aan de arbeidswetten, zoals minimumloon en werktijden.",
+        "en": "The Labour Inspectorate is a government body that checks whether employers comply with labour laws, such as minimum wage and working hours rules."
+      },
+      "source_text_nl": "De Arbeidsinspectie controleert of werkgevers de wet naleven.",
+      "tags": ["Arbeidsinspectie", "arbeidsrecht", "overheid"]
+    },
+    {
+      "id": "M1_Q061", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Werk zoeken", "topic_en": "Finding work",
+      "question_nl": "Je kunt ook vacatures vinden via kranten.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Je kunt ook zelf in kranten kijken naar vacatures, naast internet en het UWV WERKbedrijf.",
+        "en": "That is correct. You can also look for vacancies in newspapers, in addition to the internet and the UWV WERKbedrijf."
+      },
+      "source_text_nl": "Je kunt ook zelf in kranten kijken naar vacatures.",
+      "tags": ["vacature", "krant", "werk zoeken"]
+    },
+    {
+      "id": "M1_Q062", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Arbeidsrecht", "topic_en": "Labour law",
+      "question_nl": "Een werkgever mag je zomaar ontslaan zonder reden.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. In Nederland mag een werkgever je niet zomaar ontslaan. Er zijn wettelijke regels die werknemers beschermen tegen ontslag.",
+        "en": "This is incorrect. In the Netherlands, an employer cannot simply dismiss you without reason. There are legal rules protecting employees against dismissal."
+      },
+      "source_text_nl": "In Nederland zijn er regels om werknemers te beschermen tegen ontslag.",
+      "tags": ["ontslag", "arbeidsrecht", "bescherming"]
+    },
+    {
+      "id": "M1_Q063", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "WW-uitkering", "topic_en": "Unemployment benefit",
+      "question_nl": "Je hebt altijd recht op een WW-uitkering als je werkloos wordt.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Je hebt alleen recht op een WW-uitkering als je aan bepaalde voorwaarden voldoet, zoals voldoende gewerkt hebben in de afgelopen jaren.",
+        "en": "This is incorrect. You are only entitled to unemployment benefit if you meet certain conditions, such as having worked enough in recent years."
+      },
+      "source_text_nl": "Als je werkloos wordt, heb je misschien recht op een WW-uitkering. Dit hangt af van de voorwaarden.",
+      "tags": ["WW-uitkering", "werkloosheid", "voorwaarden"]
+    },
+    {
+      "id": "M1_Q064", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Loonstrook", "topic_en": "Pay slip",
+      "question_nl": "Op een loonstrook staat hoeveel je hebt verdiend en hoeveel er is ingehouden.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Op een loonstrook staat je brutoloon, de inhoudingen voor belasting en sociale verzekeringen, en je nettoloon.",
+        "en": "That is correct. A payslip shows your gross wage, deductions for tax and social insurance, and your net wage."
+      },
+      "source_text_nl": "Op de loonstrook staat hoeveel je hebt verdiend en hoeveel is ingehouden.",
+      "tags": ["loonstrook", "bruto", "netto"]
+    },
+    {
+      "id": "M1_Q065", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Werk en taal", "topic_en": "Work and language",
+      "question_nl": "Je Nederlands hoeft niet goed te zijn om een opleiding te volgen in Nederland.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Om een opleiding te kunnen doen in Nederland, moet je Nederlands goed genoeg zijn.",
+        "en": "This is incorrect. To follow a training course in the Netherlands, your Dutch must be good enough."
+      },
+      "source_text_nl": "En je Nederlands moet goed genoeg zijn.",
+      "tags": ["Nederlands", "opleiding", "taal"]
+    },
+    {
+      "id": "M1_Q066", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Bijstand en gemeente", "topic_en": "Social assistance and municipality",
+      "question_nl": "Wie betaalt de bijstandsuitkering?",
+      "options": [
+        {"id": "A", "text_nl": "De werkgever"},
+        {"id": "B", "text_nl": "De gemeente"},
+        {"id": "C", "text_nl": "Het UWV"},
+        {"id": "D", "text_nl": "De vakbond"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "De bijstandsuitkering wordt betaald door de gemeente. Als je geen werk hebt en geen andere uitkering krijgt, kun je bijstand aanvragen bij de gemeente.",
+        "en": "Social assistance (bijstand) is paid by the municipality. If you have no work and receive no other benefit, you can apply for social assistance from the municipality."
+      },
+      "source_text_nl": "De gemeente betaalt de bijstand.",
+      "tags": ["bijstand", "gemeente", "uitkering"]
+    },
+    {
+      "id": "M1_Q067", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werknemer en rechten", "topic_en": "Employee and rights",
+      "question_nl": "Wat is een cao (collectieve arbeidsovereenkomst)?",
+      "options": [
+        {"id": "A", "text_nl": "Een persoonlijk arbeidscontract"},
+        {"id": "B", "text_nl": "Afspraken over loon en arbeidsomstandigheden voor een hele sector"},
+        {"id": "C", "text_nl": "Een uitkering bij ziekte"},
+        {"id": "D", "text_nl": "Een cursus voor nieuwe werknemers"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Een cao is een collectieve arbeidsovereenkomst. Daarin staan afspraken over loon, werktijden en arbeidsomstandigheden voor werknemers in een bepaalde sector of bij een bepaald bedrijf.",
+        "en": "A collective labour agreement (cao) contains agreements about wages, working hours and working conditions for employees in a particular sector or at a particular company."
+      },
+      "source_text_nl": "Een cao bevat afspraken over loon en arbeidsomstandigheden voor een hele sector.",
+      "tags": ["cao", "arbeidsrecht", "loon"]
+    },
+    {
+      "id": "M1_Q068", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werk en gezondheid", "topic_en": "Work and health",
+      "question_nl": "Hoe lang doet een werkgever je loon door als je ziek bent?",
+      "options": [
+        {"id": "A", "text_nl": "1 week"},
+        {"id": "B", "text_nl": "Tot 2 jaar"},
+        {"id": "C", "text_nl": "Onbeperkt"},
+        {"id": "D", "text_nl": "3 maanden"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je ziek bent, is je werkgever verplicht om maximaal 2 jaar je loon door te betalen, al is het vaak 70% van je loon.",
+        "en": "If you are sick, your employer is obliged to continue paying your wages for up to 2 years, although it is often 70% of your salary."
+      },
+      "source_text_nl": "Bij ziekte betaalt de werkgever maximaal 2 jaar je loon door.",
+      "tags": ["ziekte", "loon", "werkgever"]
+    },
+    {
+      "id": "M1_Q069", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werk zoeken – netwerk", "topic_en": "Finding work – networking",
+      "question_nl": "Wat wordt bedoeld met netwerken bij het zoeken naar werk?",
+      "options": [
+        {"id": "A", "text_nl": "Gebruik maken van computers en internet"},
+        {"id": "B", "text_nl": "Contacten leggen met mensen die je kunnen helpen een baan te vinden"},
+        {"id": "C", "text_nl": "Lid worden van een vakbond"},
+        {"id": "D", "text_nl": "Een uitzendbureau inschakelen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Netwerken bij het zoeken naar werk betekent dat je contacten legt met mensen die je kunnen helpen een baan te vinden. Denk aan familie, vrienden en kennissen.",
+        "en": "Networking when looking for work means making contacts with people who can help you find a job — such as family, friends and acquaintances."
+      },
+      "source_text_nl": "Je kunt het ook aan andere mensen vragen. Ken je mensen uit de buurt of heb je familie hier?",
+      "tags": ["netwerk", "werk zoeken", "contacten"]
+    },
+    {
+      "id": "M1_Q070", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Arbeidsbureau", "topic_en": "Employment office",
+      "question_nl": "Wat hing er op het kantoor van het UWV WERKbedrijf?",
+      "options": [
+        {"id": "A", "text_nl": "Cursusmateriaal"},
+        {"id": "B", "text_nl": "Advertenties van banen"},
+        {"id": "C", "text_nl": "Formulieren voor de gemeente"},
+        {"id": "D", "text_nl": "Informatie over uitkeringen"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Op het kantoor van het UWV WERKbedrijf hangen advertenties van banen. Je kunt zelf naar de vacatures gaan kijken.",
+        "en": "At the UWV WERKbedrijf office, job advertisements are displayed. You can go and look at the vacancies yourself."
+      },
+      "source_text_nl": "Op het kantoor van het UWV WERKbedrijf hangen advertenties van banen.",
+      "tags": ["UWV", "advertenties", "vacature"]
+    },
+    {
+      "id": "M1_Q071", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Zelfstandige", "topic_en": "Self-employed",
+      "question_nl": "Een zelfstandige werkt voor zichzelf en heeft geen werkgever.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Een zelfstandige heeft een eigen bedrijf en werkt voor zichzelf. Hij heeft geen werkgever die hem opdrachten geeft.",
+        "en": "That is correct. A self-employed person has their own business and works for themselves. They have no employer giving them instructions."
+      },
+      "source_text_nl": "Als je een eigen bedrijf hebt, werk je voor jezelf. Je bent dan een zelfstandige.",
+      "tags": ["zelfstandige", "eigen bedrijf"]
+    },
+    {
+      "id": "M1_Q072", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Werk en beschikbaarheid", "topic_en": "Work and availability",
+      "question_nl": "Een werkgever wil bij een sollicitatiegesprek ook weten op welke dagen je kunt werken.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De werkgever wil weten wanneer je beschikbaar bent: op welke dagen en tijden je kunt werken.",
+        "en": "That is correct. The employer wants to know when you are available — on which days and at which times you can work."
+      },
+      "source_text_nl": "Hij wil weten hoeveel en wanneer je beschikbaar bent. Dus op welke dagen en welke tijden je kunt werken.",
+      "tags": ["solliciteren", "beschikbaarheid"]
+    },
+    {
+      "id": "M1_Q073", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Belasting", "topic_en": "Tax",
+      "question_nl": "De Belastingdienst is de overheidsorganisatie die belastingen int in Nederland.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. De Belastingdienst is de overheidsorganisatie die verantwoordelijk is voor het innen van belastingen in Nederland.",
+        "en": "That is correct. The Belastingdienst (Tax and Customs Administration) is the government organisation responsible for collecting taxes in the Netherlands."
+      },
+      "source_text_nl": "De Belastingdienst int de belastingen in Nederland.",
+      "tags": ["Belastingdienst", "belasting"]
+    },
+    {
+      "id": "M1_Q074", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Werk en inkomen", "topic_en": "Work and income",
+      "question_nl": "Mensen die parttime werken, hebben geen recht op vakantiedagen.",
+      "correct_answer": "false",
+      "explanation": {
+        "nl": "Dit is onjuist. Mensen die parttime werken, hebben ook recht op vakantiedagen, maar naar rato van het aantal uren dat ze werken.",
+        "en": "This is incorrect. People who work part-time are also entitled to holiday days, but proportional to the number of hours they work."
+      },
+      "source_text_nl": "Parttime werknemers hebben ook recht op vakantiedagen naar rato.",
+      "tags": ["parttime", "vakantiedagen", "rechten"]
+    },
+    {
+      "id": "M1_Q075", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Uitkering aanvragen", "topic_en": "Applying for a benefit",
+      "question_nl": "Je vraagt een bijstandsuitkering aan bij de gemeente.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. Als je bijstand wilt aanvragen, ga je naar de gemeente. De gemeente beoordeelt of je er recht op hebt.",
+        "en": "That is correct. If you want to apply for social assistance, you go to the municipality. The municipality assesses whether you are entitled to it."
+      },
+      "source_text_nl": "Bijstand vraag je aan bij de gemeente.",
+      "tags": ["bijstand", "gemeente", "uitkering"]
+    },
+    {
+      "id": "M1_Q076", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werk en discriminatie", "topic_en": "Work and discrimination",
+      "question_nl": "Wat is verboden bij het werven van personeel in Nederland?",
+      "options": [
+        {"id": "A", "text_nl": "Vragen naar de opleiding van een sollicitant"},
+        {"id": "B", "text_nl": "Discrimineren op basis van afkomst of geslacht"},
+        {"id": "C", "text_nl": "Vragen naar werkervaring"},
+        {"id": "D", "text_nl": "Kijken of iemand een diploma heeft"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "In Nederland is discriminatie verboden, ook op de arbeidsmarkt. Je mag niet worden afgewezen voor een baan vanwege je afkomst, geslacht, religie of andere persoonlijke kenmerken.",
+        "en": "In the Netherlands, discrimination is prohibited, including in the labour market. You may not be rejected for a job because of your background, gender, religion or other personal characteristics."
+      },
+      "source_text_nl": "Discriminatie op de arbeidsmarkt is verboden in Nederland.",
+      "tags": ["discriminatie", "arbeidsmarkt", "gelijkheid"]
+    },
+    {
+      "id": "M1_Q077", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werk zoeken – advertentie", "topic_en": "Finding work – advertisement",
+      "question_nl": "Wat staat er in een vacatureadvertentie?",
+      "options": [
+        {"id": "A", "text_nl": "Informatie over de werkgever, de functie en de vereisten"},
+        {"id": "B", "text_nl": "Alleen het salaris"},
+        {"id": "C", "text_nl": "Alleen de werktijden"},
+        {"id": "D", "text_nl": "De adresgegevens van het UWV"}
+      ],
+      "correct_answer": "A",
+      "explanation": {
+        "nl": "In een vacatureadvertentie staat informatie over de werkgever, de functie die beschikbaar is en de vereisten, zoals opleiding en werkervaring.",
+        "en": "A job advertisement contains information about the employer, the available position and the requirements, such as education and work experience."
+      },
+      "source_text_nl": "In een vacatureadvertentie staat informatie over de werkgever en de baan.",
+      "tags": ["vacature", "advertentie", "baan"]
+    },
+    {
+      "id": "M1_Q078", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Ziekteverlof", "topic_en": "Sick leave",
+      "question_nl": "Hoe snel moet je je ziek melden bij je werkgever?",
+      "options": [
+        {"id": "A", "text_nl": "Binnen een week"},
+        {"id": "B", "text_nl": "Zo snel mogelijk, meestal op de eerste ziektedag"},
+        {"id": "C", "text_nl": "Pas als je naar de dokter geweest bent"},
+        {"id": "D", "text_nl": "Na twee weken"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je ziek bent en niet kunt werken, moet je je zo snel mogelijk ziek melden bij je werkgever, meestal op de eerste ziektedag.",
+        "en": "If you are sick and cannot work, you must report sick to your employer as soon as possible, usually on the first day of illness."
+      },
+      "source_text_nl": "Als je ziek bent, moet je je zo snel mogelijk ziek melden bij je werkgever.",
+      "tags": ["ziekte", "ziekmelden", "werk"]
+    },
+    {
+      "id": "M1_Q079", "type": "multiple_choice", "difficulty": "A2",
+      "topic_nl": "Werken in Nederland", "topic_en": "Working in the Netherlands",
+      "question_nl": "Welk document heb je nodig om legaal te mogen werken in Nederland als je geen EU-burger bent?",
+      "options": [
+        {"id": "A", "text_nl": "Alleen een paspoort"},
+        {"id": "B", "text_nl": "Een werkvergunning of tewerkstellingsvergunning"},
+        {"id": "C", "text_nl": "Een inburgeringsdiploma"},
+        {"id": "D", "text_nl": "Een rijbewijs"}
+      ],
+      "correct_answer": "B",
+      "explanation": {
+        "nl": "Als je geen EU-burger bent, heb je een werkvergunning (tewerkstellingsvergunning) nodig om legaal in Nederland te mogen werken.",
+        "en": "If you are not an EU citizen, you need a work permit to be allowed to work legally in the Netherlands."
+      },
+      "source_text_nl": "Als je geen EU-burger bent, heb je een werkvergunning nodig om in Nederland te werken.",
+      "tags": ["werkvergunning", "arbeidsmarkt", "niet-EU"]
+    },
+    {
+      "id": "M1_Q080", "type": "true_false", "difficulty": "A2",
+      "topic_nl": "Arbeidsrecht", "topic_en": "Labour law",
+      "question_nl": "In Nederland is discriminatie op de werkvloer wettelijk verboden.",
+      "correct_answer": "true",
+      "explanation": {
+        "nl": "Dat klopt. In Nederland is discriminatie op de werkvloer verboden bij wet. Dit geldt voor discriminatie op basis van afkomst, geslacht, religie en andere kenmerken.",
+        "en": "That is correct. In the Netherlands, discrimination in the workplace is prohibited by law. This applies to discrimination based on background, gender, religion and other characteristics."
+      },
+      "source_text_nl": "Discriminatie op de werkvloer is wettelijk verboden in Nederland.",
+      "tags": ["discriminatie", "arbeidsrecht", "wet"]
+    }
+  ]
+}
