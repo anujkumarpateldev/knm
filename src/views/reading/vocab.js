@@ -245,7 +245,6 @@ export function renderVocabCards() {
     </div>
   `;
 
-  document.getElementById('btn-back-vocab').addEventListener('click', () => nav.vocabDashboard());
   document.getElementById('btn-end-session').addEventListener('click', () => showSessionSummary());
 
   document.getElementById('btn-speak-word').addEventListener('click', e => {
@@ -280,4 +279,39 @@ export function renderVocabCards() {
       renderVocabCards();
     }
   });
+
+  // Keyboard arrow keys: left = previous, right = next
+  const handleKeyDown = e => {
+    if (e.key === 'ArrowRight') {
+      if (idx >= total - 1) { showSessionSummary(); } else { state.currentVocabIndex++; renderVocabCards(); }
+    } else if (e.key === 'ArrowLeft') {
+      if (idx > 0) { state.currentVocabIndex--; renderVocabCards(); }
+    }
+  };
+  document.addEventListener('keydown', handleKeyDown);
+  // Clean up listener when navigating away
+  document.getElementById('btn-back-vocab').addEventListener('click', () => {
+    document.removeEventListener('keydown', handleKeyDown);
+    nav.vocabDashboard();
+  }, { once: true });
+
+  // Swipe gestures: left = next, right = previous
+  const card = document.getElementById('vocab-card');
+  let touchStartX = null;
+  card.addEventListener('touchstart', e => {
+    touchStartX = e.touches[0].clientX;
+  }, { passive: true });
+  card.addEventListener('touchend', e => {
+    if (touchStartX === null) return;
+    const delta = e.changedTouches[0].clientX - touchStartX;
+    touchStartX = null;
+    if (Math.abs(delta) < 50) return; // too small — treat as tap (flip)
+    if (delta < 0) {
+      // swipe left → next
+      if (idx >= total - 1) { showSessionSummary(); } else { state.currentVocabIndex++; renderVocabCards(); }
+    } else {
+      // swipe right → previous
+      if (idx > 0) { state.currentVocabIndex--; renderVocabCards(); }
+    }
+  }, { passive: true });
 }
