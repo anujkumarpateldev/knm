@@ -24,9 +24,11 @@ export function renderResults() {
     });
   }
 
-  const total  = state.currentModule.questions.length;
-  const pc     = total > 0 ? Math.round((state.sessionStats.correct / total) * 100) : 100;
-  const passed = state.isExamMode ? pc >= 65 : null;
+  const total      = state.currentModule.questions.length;
+  const pc         = total > 0 ? Math.round((state.sessionStats.correct / total) * 100) : 100;
+  const isReadingExam = state.currentModule.module_id === 'READING_EXAM';
+  const passThreshold = isReadingExam ? 72 : 65;
+  const passed     = state.isExamMode ? pc >= passThreshold : null;
 
   // Log to activity history
   if (state.sessionStats.correct > 0 || state.sessionStats.wrong > 0) {
@@ -81,7 +83,7 @@ export function renderResults() {
   document.getElementById('btn-home').addEventListener('click', () => nav.landing());
   document.getElementById('btn-retry').addEventListener('click', () => {
     if (state.isExamMode) {
-      nav.exam();
+      isReadingExam ? nav.readingExam() : nav.exam();
     } else {
       state.currentQuestionIndex = 0;
       state.sessionStats = { correct: 0, wrong: 0 };

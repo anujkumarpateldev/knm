@@ -14,6 +14,7 @@ import { renderKNMDashboard }  from './src/views/knm/dashboard.js';
 import { startExamMode }       from './src/views/knm/exam.js';
 
 import { renderReadingDashboard } from './src/views/reading/dashboard.js';
+import { startReadingExamMode } from './src/views/reading/exam.js';
 import { renderVocabDashboard, renderVocabCards } from './src/views/reading/vocab.js';
 import { renderReadingQuizDashboard } from './src/views/reading/quizDashboard.js';
 
@@ -31,6 +32,7 @@ nav.flashcard        = renderSingleFlashcard;
 nav.knmDashboard     = renderKNMDashboard;
 nav.exam             = startExamMode;
 nav.readingDashboard     = renderReadingDashboard;
+nav.readingExam          = startReadingExamMode;
 nav.vocabDashboard       = renderVocabDashboard;
 nav.vocabCards           = renderVocabCards;
 nav.readingQuizDashboard = renderReadingQuizDashboard;

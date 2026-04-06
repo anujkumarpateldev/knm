@@ -12,7 +12,8 @@ export function renderLandingPage() {
   document.getElementById('main-content').innerHTML = `
     <div class="view active" id="landing-page">
       <div class="landing-container">
-        <h1 class="landing-title">Welcome to KNM A2</h1>
+        <h1 class="landing-title">Welcome to Dutch Learning App</h1>
+        <p class="landing-tagline">Learn Smarter. Pass Faster. Master A2.</p>
         <p class="landing-subtitle">Prepare for your Dutch integration exam based on the Knowledge of Dutch Society curriculum.</p>
         <div class="landing-options">
           <div class="landing-card" id="btn-practice-mode">

@@ -10,6 +10,7 @@ export const nav = {
   exam:           () => {},
   // Reading
   readingDashboard:    () => {},
+  readingExam:         () => {},
   vocabDashboard:      () => {},
   vocabCards:          () => {},
   readingQuizDashboard:() => {},
