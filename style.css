@@ -144,12 +144,14 @@ body.in-quiz {
   gap: 0.1rem;
 }
 
-@media (max-width: 480px) {
-  .header-logo-img { height: 38px; }
-  .header-brand-text { display: none; }
+@media (max-width: 640px) {
+  .app-header { height: 72px; padding: 0 1rem; }
+  .header-logo-img { height: 60px; }
+  .header-brand-name { font-size: 1rem; }
+  .header-brand-tagline { display: none; }
 }
 
-.header-controls button {
+#theme-toggle {
   background: transparent;
   border: none;
   color: var(--text-main);
@@ -162,7 +164,7 @@ body.in-quiz {
   transition: background-color 0.2s ease;
 }
 
-.header-controls button:hover {
+#theme-toggle:hover {
   background-color: var(--surface);
 }
 
@@ -1673,9 +1675,10 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
 /* ── Mobile Responsive Overhaul ───────────────────────────────────────── */
 @media (max-width: 640px) {
   /* Header */
-  .app-header { padding: 0.75rem 1rem; }
-  .logo { font-size: 1rem; }
-  .logo img { width: 28px; height: 28px; }
+  .app-header { padding: 0 1rem; height: 72px; }
+  .header-logo-img { height: 62px; width: auto; }
+  .header-brand-name { font-size: 0.95rem; }
+  .header-brand-tagline { display: none; }
 
   /* Main */
   #main-content { padding: 1rem; }
@@ -1809,3 +1812,58 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
   .marquee-track span { font-size: 0.75rem; }
   .marquee-cta { font-size: 0.72rem; padding: 0.45rem 0.85rem; }
 }
+
+/* ── Guest Dropdown ─────────────────────────────────────────────────────── */
+.dropdown-guest-header {
+  padding: 0.75rem 1rem 0.5rem;
+}
+
+.dropdown-guest-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 0.2rem;
+}
+
+.dropdown-guest-sub {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.dropdown-guest-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.6rem 0.6rem 0.6rem;
+}
+
+.dropdown-guest-register {
+  width: 100%;
+  padding: 0.65rem;
+  background: linear-gradient(135deg, var(--primary), #f59e40);
+  color: #fff;
+  border: none;
+  border-radius: 0.55rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.15s;
+  box-shadow: 0 2px 8px rgba(232,117,12,0.3);
+}
+.dropdown-guest-register:hover { opacity: 0.9; transform: translateY(-1px); }
+
+.dropdown-guest-login {
+  width: 100%;
+  padding: 0.6rem;
+  background: transparent;
+  border: 1.5px solid var(--border-color);
+  border-radius: 0.55rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--text-main);
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+.dropdown-guest-login:hover { border-color: var(--primary); background: rgba(232,117,12,0.04); }

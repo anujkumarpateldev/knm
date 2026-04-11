@@ -80,14 +80,15 @@ function updateHeader(user) {
         <span></span><span></span><span></span>
       </button>
       <div class="header-dropdown" id="header-dropdown">
-        <button class="dropdown-item" id="btn-login-drop">
-          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
-          Sign In
-        </button>
-        <button class="dropdown-item dropdown-item-primary" id="btn-register-drop">
-          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" y1="8" x2="19" y2="14"/><line x1="22" y1="11" x2="16" y2="11"/></svg>
-          Register Free
-        </button>
+        <div class="dropdown-guest-header">
+          <p class="dropdown-guest-title">Welcome!</p>
+          <p class="dropdown-guest-sub">Sign in to unlock all features</p>
+        </div>
+        <div class="dropdown-divider"></div>
+        <div class="dropdown-guest-actions">
+          <button class="dropdown-guest-login" id="btn-login-drop">Sign In</button>
+          <button class="dropdown-guest-register" id="btn-register-drop">Register Free</button>
+        </div>
       </div>
     `;
   }
