@@ -10,6 +10,8 @@ const ICONS = {
   prev:  `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>`,
   done:  `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>`,
   speaker: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>`,
+  eyeOn:  `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>`,
+  eyeOff: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>`,
 };
 
 export function renderQuestion() {
@@ -52,7 +54,7 @@ export function renderQuestion() {
     <div class="source-text-box">
       <p class="source-text-label">Tekst / Text</p>
       <p>${q.source_text_nl}</p>
-      ${q.source_text_en ? `<p class="source-text-en">${q.source_text_en}</p>` : ''}
+      ${q.source_text_en ? `<p class="source-text-en en-translation" style="display:none;">${q.source_text_en}</p>` : ''}
     </div>` : '';
 
   const nextLabel = isLast
@@ -86,12 +88,18 @@ export function renderQuestion() {
         <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom: 2rem; gap: 1rem;">
           <div style="flex:1;">
             <h2 class="question-text" style="margin-bottom: 0.5rem;">${q.question_nl}</h2>
-            ${q.question_en ? `<p style="color:var(--text-muted);">${q.question_en}</p>` : ''}
+            ${q.question_en ? `<p class="en-translation" style="color:var(--text-muted); display:none;">${q.question_en}</p>` : ''}
           </div>
-          <button class="btn-secondary" id="btn-speak" title="Listen in Dutch"
-            style="padding: 0.75rem; border-radius: 50%; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
-            ${ICONS.speaker}
-          </button>
+          <div style="display:flex; flex-direction:row; gap:0.4rem; flex-shrink:0;">
+            <button class="btn-secondary" id="btn-speak" title="Listen in Dutch"
+              style="padding: 0.5rem; border-radius: 50%; display:flex; align-items:center; justify-content:center;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+            </button>
+            <button class="btn-secondary" id="btn-toggle-en" title="Show/hide English translation"
+              style="padding: 0.5rem; border-radius: 50%; display:flex; align-items:center; justify-content:center;">
+              ${ICONS.eyeOn}
+            </button>
+          </div>
         </div>
 
         <div class="options-list" id="options-container">${optionsHtml}</div>
@@ -129,6 +137,14 @@ export function renderQuestion() {
   document.getElementById('btn-next').addEventListener('click', () => {
     if (isLast) { nav.results(); } else { state.currentQuestionIndex++; renderQuestion(); }
   });
+  document.getElementById('btn-toggle-en').addEventListener('click', () => {
+    const btn = document.getElementById('btn-toggle-en');
+    const translations = document.querySelectorAll('.en-translation');
+    const isHidden = translations.length > 0 && translations[0].style.display === 'none';
+    translations.forEach(el => { el.style.display = isHidden ? '' : 'none'; });
+    btn.innerHTML = isHidden ? `${ICONS.eyeOff} EN` : `${ICONS.eyeOn} EN`;
+  });
+
   document.getElementById('btn-speak').addEventListener('click', () => {
     let text = q.question_nl + '. ';
     if ((q.type === 'multiple_choice' || q.type === 'reading_comprehension') && q.options) {

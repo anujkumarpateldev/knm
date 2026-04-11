@@ -2,6 +2,7 @@
 // Functions are assigned in main.js after all view modules are imported,
 // avoiding circular dependency issues while keeping views decoupled.
 export const nav = {
+  auth:           () => {},
   landing:        () => {},
   categorySelect: () => {},
   progress:       () => {},
