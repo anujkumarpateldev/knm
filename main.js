@@ -41,33 +41,93 @@ nav.vocabDashboard       = renderVocabDashboard;
 nav.vocabCards           = renderVocabCards;
 nav.readingQuizDashboard = renderReadingQuizDashboard;
 
-// ── Header: user info + logout ──────────────────────────────────────────────
+// ── Header: user info + hamburger menu ──────────────────────────────────────
 function updateHeader(user) {
   const controls = document.querySelector('.header-controls');
   const existing = document.getElementById('user-info');
   if (existing) existing.remove();
 
+  const username = user ? user.email.split('@')[0] : null;
+
   const userEl = document.createElement('div');
   userEl.id = 'user-info';
-  userEl.style.cssText = 'display:flex; align-items:center; gap:0.75rem;';
+  userEl.style.cssText = 'display:flex; align-items:center; gap:0.5rem; position:relative;';
 
   if (user) {
     userEl.innerHTML = `
-      <span style="font-size:0.8rem; color:var(--text-muted); max-width:160px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${user.email}</span>
-      <button id="btn-logout" class="btn-secondary" style="padding:0.4rem 0.75rem; font-size:0.8rem;">Logout</button>
+      <span class="header-username">${username}</span>
+      <button id="btn-hamburger" class="hamburger-btn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="header-dropdown" id="header-dropdown">
+        <div class="dropdown-user">
+          <div class="dropdown-avatar">${username[0].toUpperCase()}</div>
+          <div>
+            <div class="dropdown-name">${username}</div>
+            <div class="dropdown-email">${user.email}</div>
+          </div>
+        </div>
+        <div class="dropdown-divider"></div>
+        <button class="dropdown-item dropdown-item-danger" id="btn-logout">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+          Logout
+        </button>
+      </div>
     `;
-    controls.prepend(userEl);
+  } else {
+    userEl.innerHTML = `
+      <button id="btn-hamburger" class="hamburger-btn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="header-dropdown" id="header-dropdown">
+        <button class="dropdown-item" id="btn-login-drop">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
+          Sign In
+        </button>
+        <button class="dropdown-item dropdown-item-primary" id="btn-register-drop">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" y1="8" x2="19" y2="14"/><line x1="22" y1="11" x2="16" y2="11"/></svg>
+          Register Free
+        </button>
+      </div>
+    `;
+  }
+
+  controls.prepend(userEl);
+
+  // Toggle dropdown — stop propagation on the whole dropdown so document handler doesn't fire inside it
+  const hamburger = document.getElementById('btn-hamburger');
+  const dropdown  = document.getElementById('header-dropdown');
+
+  dropdown.addEventListener('click', e => e.stopPropagation());
+
+  hamburger.addEventListener('click', e => {
+    e.stopPropagation();
+    const isOpen = dropdown.classList.toggle('open');
+    hamburger.classList.toggle('active', isOpen);
+    if (isOpen) {
+      // Single-use listener — closes dropdown when clicking anywhere outside
+      setTimeout(() => {
+        document.addEventListener('click', function closeDropdown() {
+          dropdown.classList.remove('open');
+          hamburger.classList.remove('active');
+          document.removeEventListener('click', closeDropdown);
+        });
+      }, 0);
+    }
+  });
+
+  if (user) {
     document.getElementById('btn-logout').addEventListener('click', async () => {
       await supabase.auth.signOut();
       updateHeader(null);
       renderLandingPage();
     });
   } else {
-    userEl.innerHTML = `
-      <button id="btn-login" class="btn-secondary" style="padding:0.4rem 0.75rem; font-size:0.8rem;">Login / Register</button>
-    `;
-    controls.prepend(userEl);
-    document.getElementById('btn-login').addEventListener('click', () => nav.auth());
+    document.getElementById('btn-login-drop').addEventListener('click', () => nav.auth());
+    document.getElementById('btn-register-drop').addEventListener('click', () => {
+      nav.auth();
+      setTimeout(() => document.getElementById('tab-register')?.click(), 50);
+    });
   }
 }
 

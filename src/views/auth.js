@@ -22,12 +22,10 @@ export function renderAuthPage() {
 
           <!-- Brand -->
           <div class="auth-brand">
-            <div class="auth-brand-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-            </div>
+            <img src="/logo.png" alt="DutchExamPro" style="width:48px;height:48px;object-fit:contain;flex-shrink:0;" />
             <div>
-              <h1 class="auth-brand-name">Dutch Learning</h1>
-              <p class="auth-brand-tagline">Master A2 · Pass your integration exam</p>
+              <h1 class="auth-brand-name"><span style="color:var(--primary)">Dutch</span><span style="color:var(--brand-blue)">e</span><span style="color:var(--primary)">✕</span><span style="color:var(--brand-blue)">ampro</span></h1>
+              <p class="auth-brand-tagline">Master Your Dutch Exam</p>
             </div>
           </div>
 
