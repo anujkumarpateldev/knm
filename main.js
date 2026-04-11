@@ -3,6 +3,7 @@ import { loadFromStorage } from './src/storage.js';
 import { setupTheme }      from './src/theme.js';
 import { nav }             from './src/router.js';
 import { supabase }        from './src/supabase.js';
+import { state }           from './src/state.js';
 
 import { renderAuthPage }        from './src/views/auth.js';
 import { renderLandingPage }     from './src/views/landing.js';
@@ -78,6 +79,7 @@ async function init() {
 
   // Check existing session
   const { data: { session } } = await supabase.auth.getSession();
+  state.currentUser = session?.user ?? null;
   updateHeader(session?.user ?? null);
 
   try {
@@ -94,6 +96,7 @@ async function init() {
 
 // Re-load data after login (auth state change)
 supabase.auth.onAuthStateChange((event, session) => {
+  state.currentUser = session?.user ?? null;
   updateHeader(session?.user ?? null);
   if (event === 'SIGNED_IN') nav.landing();
 });

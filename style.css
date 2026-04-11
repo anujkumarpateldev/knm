@@ -1296,3 +1296,102 @@ body.in-quiz {
   opacity: 0.6;
   margin-top: 0.5rem;
 }
+
+/* ── Auth Gate Modal ───────────────────────────────────────────────────── */
+.auth-gate-modal {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: 1.25rem;
+  padding: 2.25rem 2rem 2rem;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.4);
+  animation: authCardIn 0.3s cubic-bezier(0.16,1,0.3,1) both;
+  text-align: center;
+}
+
+.auth-gate-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(99,102,241,0.1);
+  border: 1.5px solid rgba(99,102,241,0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  margin: 0 auto 1.25rem;
+}
+
+.auth-gate-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 0.5rem;
+}
+
+.auth-gate-body {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.auth-gate-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.auth-gate-btn-primary {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(135deg, var(--primary), #818cf8);
+  color: #fff;
+  border: none;
+  border-radius: 0.65rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(99,102,241,0.35);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.auth-gate-btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(99,102,241,0.45);
+}
+
+.auth-gate-btn-secondary {
+  width: 100%;
+  padding: 0.7rem;
+  background: transparent;
+  border: 1.5px solid var(--border-color);
+  border-radius: 0.65rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+}
+.auth-gate-btn-secondary:hover {
+  border-color: var(--primary);
+  color: var(--text-main);
+}
+
+.auth-gate-dismiss {
+  position: absolute;
+  top: 0.9rem;
+  right: 0.9rem;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.3rem;
+  display: flex;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+.auth-gate-dismiss:hover { opacity: 1; }

@@ -1,5 +1,6 @@
 import { state } from '../state.js';
 import { nav } from '../router.js';
+import { showAuthModal } from '../utils/authModal.js';
 
 export function renderLandingPage() {
   state.isExamMode = false;
@@ -43,6 +44,12 @@ export function renderLandingPage() {
   `;
 
   document.getElementById('btn-practice-mode').addEventListener('click', () => nav.categorySelect('PRACTICE'));
-  document.getElementById('btn-exam-mode').addEventListener('click',    () => nav.categorySelect('EXAM'));
-  document.getElementById('btn-progress').addEventListener('click',     () => nav.progress());
+  document.getElementById('btn-exam-mode').addEventListener('click', () => {
+    if (state.currentUser) nav.categorySelect('EXAM');
+    else showAuthModal();
+  });
+  document.getElementById('btn-progress').addEventListener('click', () => {
+    if (state.currentUser) nav.progress();
+    else showAuthModal();
+  });
 }

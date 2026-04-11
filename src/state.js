@@ -31,4 +31,7 @@ export const state = {
   // Exam timer
   examTimeRemaining: 45 * 60,
   timerInterval: null,
+
+  // Auth
+  currentUser: null,
 };
