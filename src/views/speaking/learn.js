@@ -9,10 +9,13 @@ let activeCategoryId = null;
 let cardIndex = 0;
 // Flip state
 let flipped = false;
+// Keyboard handler reference — kept module-level so it can be removed
+let keyNavHandler = null;
 
 export function renderSpeakingLearn() {
   document.body.classList.add('in-dashboard');
   document.body.classList.remove('in-quiz');
+  if (keyNavHandler) { document.removeEventListener('keydown', keyNavHandler); keyNavHandler = null; }
   activeCategoryId = null;
   cardIndex = 0;
   flipped = false;
@@ -206,7 +209,7 @@ function renderCategoryCards() {
 
   document.querySelectorAll('.speaking-tab').forEach(btn => {
     btn.addEventListener('click', () => {
-      document.removeEventListener('keydown', handleKeyNav);
+      document.removeEventListener('keydown', keyNavHandler); keyNavHandler = null;
       activeTab = btn.dataset.tab;
       activeCategoryId = null;
       renderLearnView();
@@ -243,7 +246,8 @@ function renderCategoryCards() {
   });
 
   // ── Keyboard navigation ──────────────────────────────────────────────────────
-  function handleKeyNav(e) {
+  if (keyNavHandler) document.removeEventListener('keydown', keyNavHandler);
+  keyNavHandler = (e) => {
     if (e.key === 'ArrowRight' && cardIndex < total - 1) {
       window.speechSynthesis?.cancel();
       cardIndex++; flipped = false; renderCategoryCards();
@@ -255,8 +259,8 @@ function renderCategoryCards() {
       flipped = !flipped;
       document.getElementById('learn-card')?.classList.toggle('flipped', flipped);
     }
-  }
-  document.addEventListener('keydown', handleKeyNav);
+  };
+  document.addEventListener('keydown', keyNavHandler);
 
   // ── Swipe gestures (Tinder-style) ───────────────────────────────────────────
   const card = document.getElementById('learn-card');
@@ -317,6 +321,6 @@ function renderCategoryCards() {
   // Clean up keyboard listener when navigating away
   const origBack = document.getElementById('btn-back-cats').onclick;
   document.getElementById('btn-back-cats').addEventListener('click', () => {
-    document.removeEventListener('keydown', handleKeyNav);
+    document.removeEventListener('keydown', keyNavHandler); keyNavHandler = null;
   }, { once: true });
 }
