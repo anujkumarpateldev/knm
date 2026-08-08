@@ -2215,16 +2215,14 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
 .learn-flashcard {
   position: relative;
   width: 100%;
-  min-height: 220px;
   transform-style: preserve-3d;
   transition: transform 0.45s ease;
   cursor: pointer;
+  /* height driven by whichever face is taller */
 }
 .learn-flashcard.flipped { transform: rotateY(180deg); }
 .learn-card-front,
 .learn-card-back {
-  position: absolute;
-  inset: 0;
   backface-visibility: hidden;
   background: var(--surface);
   border: 1.5px solid var(--border-color);
@@ -2234,20 +2232,32 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 0.75rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  word-break: break-word;
 }
-.learn-card-back { transform: rotateY(180deg); background: #f0f7ff; }
+.learn-card-back {
+  position: absolute;
+  inset: 0;
+  transform: rotateY(180deg);
+  height: 100%;
+}
+.learn-card-back { background: #f0f7ff; }
 [data-theme="dark"] .learn-card-back { background: #1a2535; }
-.learn-card-dutch { font-size: 1.35rem; font-weight: 600; color: var(--text-main); line-height: 1.5; }
-.learn-card-english { font-size: 1.2rem; color: var(--brand-blue); font-weight: 500; line-height: 1.5; }
-.learn-card-title { font-size: 1rem; font-weight: 700; color: var(--primary); margin-bottom: 0.25rem; }
-.learn-card-scene { font-size: 0.9rem; color: var(--text-muted); margin: 0; }
+.learn-card-dutch { font-size: 1.35rem; font-weight: 600; color: var(--text-main); line-height: 1.5; text-align: center; }
+.learn-card-english { font-size: 1.2rem; color: var(--brand-blue); font-weight: 500; line-height: 1.5; text-align: center; }
+.learn-card-title { font-size: 1rem; font-weight: 700; color: var(--primary); margin-bottom: 0.25rem; text-align: center; }
+.learn-card-scene { font-size: 0.9rem; color: var(--text-muted); margin: 0; text-align: center; }
 .learn-card-questions {
   margin: 0.25rem 0 0 1rem;
   padding: 0;
   font-size: 0.9rem;
   color: var(--text-main);
   line-height: 1.8;
+  align-self: flex-start;
+  width: 100%;
 }
 .learn-answer-sentence {
   margin: 0;
@@ -2256,6 +2266,9 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
   line-height: 1.7;
   border-left: 3px solid var(--primary);
   padding-left: 0.75rem;
+  align-self: flex-start;
+  width: 100%;
+  box-sizing: border-box;
 }
 .learn-card-hint { font-size: 0.78rem; color: var(--text-muted); text-align: center; margin-top: auto; padding-top: 0.75rem; }
 
