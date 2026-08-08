@@ -2318,6 +2318,14 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
 .practice-question-box { border: 1.5px solid var(--border-color); border-radius: 0.75rem; padding: 1rem 1.25rem; background: var(--bg-color); }
 .practice-question-line { margin: 0 0 0.35rem; font-size: 1rem; color: var(--text-main); font-weight: 500; line-height: 1.5; }
 .practice-question-line:last-child { margin-bottom: 0; }
+.btn-speak-question {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  margin-top: 0.75rem; padding: 0.4rem 1rem; border-radius: 2rem;
+  border: 1.5px solid var(--border); background: var(--surface);
+  color: var(--text-muted); font-size: 0.85rem; font-family: inherit;
+  cursor: pointer; transition: all 0.2s;
+}
+.btn-speak-question:hover { border-color: var(--primary); color: var(--primary); background: var(--card-mint, #f0fdf4); }
 
 .practice-record-section { display: flex; flex-direction: column; gap: 0.75rem; }
 .record-status { font-size: 0.88rem; color: var(--text-muted); font-weight: 500; }

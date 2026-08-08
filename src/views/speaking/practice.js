@@ -95,6 +95,9 @@ function renderPracticeView() {
 
         <div class="practice-question-box">
           ${questionLines.map(line => `<p class="practice-question-line">${line}</p>`).join('')}
+          <button class="btn-speak-question" id="btn-speak-question" title="Listen to question">
+            <span id="speak-icon">🔊</span> Listen
+          </button>
         </div>
 
         <!-- Recording -->
@@ -196,6 +199,7 @@ function renderPracticeView() {
     revealBtn.textContent = answerBox.classList.contains('hidden') ? 'Show Sample Answer' : 'Hide Sample Answer';
   });
 
+  document.getElementById('btn-speak-question').addEventListener('click', () => speakText(q.question));
   document.getElementById('btn-record').addEventListener('click', handleRecordClick);
   document.getElementById('btn-play')?.addEventListener('click', handlePlayClick);
   document.getElementById('btn-rerecord')?.addEventListener('click', () => {
@@ -206,6 +210,31 @@ function renderPracticeView() {
 
   document.getElementById('btn-ai-validate')?.addEventListener('click', () => handleAIValidate(q));
   document.getElementById('btn-ai-validate-locked')?.addEventListener('click', () => showAuthModal());
+}
+
+// ── Text-to-Speech ────────────────────────────────────────────────────────────
+
+function speakText(text) {
+  if (!window.speechSynthesis) return;
+
+  // If already speaking, stop
+  if (window.speechSynthesis.speaking) {
+    window.speechSynthesis.cancel();
+    const icon = document.getElementById('speak-icon');
+    if (icon) icon.textContent = '🔊';
+    return;
+  }
+
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang  = 'nl-NL';
+  utterance.rate  = 0.85;
+
+  const icon = document.getElementById('speak-icon');
+  utterance.onstart = () => { if (icon) icon.textContent = '⏹'; };
+  utterance.onend   = () => { if (icon) icon.textContent = '🔊'; };
+  utterance.onerror = () => { if (icon) icon.textContent = '🔊'; };
+
+  window.speechSynthesis.speak(utterance);
 }
 
 // ── Recording ─────────────────────────────────────────────────────────────────
@@ -326,6 +355,7 @@ function stopAll() {
   recognition?.stop();
   recognition = null;
   if (micStream) { micStream.getTracks().forEach(t => t.stop()); micStream = null; }
+  window.speechSynthesis?.cancel();
 }
 
 // ── AI Validation ─────────────────────────────────────────────────────────────
