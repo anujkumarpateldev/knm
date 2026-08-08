@@ -9,14 +9,14 @@ let activeType    = 'single';
 let questionIndex = 0;
 
 // Per-question state keyed by `${type}-${index}`
-const recordings   = {};  // Blob URLs
-const transcripts  = {};  // SpeechRecognition transcripts
+const recordings  = {};  // Blob URLs
+const transcripts = {};  // Captured transcripts
 
 // MediaRecorder + SpeechRecognition state
 let mediaRecorder = null;
 let audioChunks   = [];
 let micStream     = null;
-let recognition   = null;  // SpeechRecognition instance
+let recognition   = null;
 
 const SpeechRecognition = window.SpeechRecognition ?? window.webkitSpeechRecognition ?? null;
 
@@ -31,14 +31,15 @@ function getQuestions() { return speakingPractice[activeType] ?? []; }
 function recordingKey()  { return `${activeType}-${questionIndex}`; }
 
 function renderPracticeView() {
-  const questions = getQuestions();
-  const q         = questions[questionIndex];
+  const questions    = getQuestions();
+  const q            = questions[questionIndex];
   if (!q) return;
 
   const total        = questions.length;
   const key          = recordingKey();
   const hasRecording = !!recordings[key];
   const transcript   = transcripts[key] ?? '';
+  const preferredModel = getPreferredModel();
 
   const TYPE_LABELS = { single: 'Enkele foto', double: "Twee foto's", triple: 'Verhaal (3 foto\'s)' };
   const TYPE_HINTS  = {
@@ -46,9 +47,7 @@ function renderPracticeView() {
     double: 'Choose one image, say which you choose, describe it, and explain why.',
     triple: 'Tell a short story using: Eerst … Daarna … Dan … Tot slot …',
   };
-
   const questionLines = q.question.split('\n').filter(Boolean);
-  const preferredModel = getPreferredModel();
 
   document.getElementById('main-content').innerHTML = `
     <div class="view active" id="speaking-practice">
@@ -114,15 +113,15 @@ function renderPracticeView() {
           </div>
           <audio id="audio-playback" style="display:none;"></audio>
 
-          ${transcript ? `
+          <!-- Transcript — always shown after recording so mobile users can type manually -->
+          ${hasRecording ? `
           <div class="transcript-box">
-            <div class="transcript-label">What we heard:</div>
-            <p class="transcript-text" id="transcript-text">${transcript}</p>
-            <button class="transcript-edit-btn" id="btn-edit-transcript">Edit</button>
-          </div>` : hasRecording && !SpeechRecognition ? `
-          <div class="transcript-box">
-            <div class="transcript-label">Type what you said (for AI validation):</div>
-            <textarea class="transcript-textarea" id="transcript-input" placeholder="Type your Dutch answer here…" rows="3"></textarea>
+            <div class="transcript-label">
+              ${transcript ? 'What we heard — edit if needed:' : 'Type what you said (for AI validation):'}
+            </div>
+            <textarea class="transcript-textarea" id="transcript-input"
+              placeholder="Type your Dutch answer here…"
+              rows="3">${transcript}</textarea>
           </div>` : ''}
         </div>
 
@@ -205,38 +204,25 @@ function renderPracticeView() {
     renderPracticeView();
   });
 
-  // Transcript edit: make text editable inline
-  document.getElementById('btn-edit-transcript')?.addEventListener('click', () => {
-    const p   = document.getElementById('transcript-text');
-    const btn = document.getElementById('btn-edit-transcript');
-    if (p.contentEditable === 'true') {
-      transcripts[recordingKey()] = p.textContent.trim();
-      p.contentEditable = 'false';
-      btn.textContent   = 'Edit';
-    } else {
-      p.contentEditable = 'true';
-      p.focus();
-      btn.textContent   = 'Save';
-    }
-  });
-
   document.getElementById('btn-ai-validate')?.addEventListener('click', () => handleAIValidate(q));
   document.getElementById('btn-ai-validate-locked')?.addEventListener('click', () => showAuthModal());
 }
 
-// ── Recording ────────────────────────────────────────────────────────────────
+// ── Recording ─────────────────────────────────────────────────────────────────
 
 async function handleRecordClick() {
   const btn    = document.getElementById('btn-record');
   const label  = document.getElementById('btn-record-label');
   const status = document.getElementById('record-status');
 
+  // Stop if already recording
   if (mediaRecorder && mediaRecorder.state === 'recording') {
     mediaRecorder.stop();
     recognition?.stop();
     return;
   }
 
+  // Request mic
   try {
     micStream = await navigator.mediaDevices.getUserMedia({ audio: true });
   } catch {
@@ -244,25 +230,28 @@ async function handleRecordClick() {
     return;
   }
 
-  audioChunks = [];
-  mediaRecorder = new MediaRecorder(micStream);
+  // Start MediaRecorder for audio playback
+  audioChunks    = [];
+  mediaRecorder  = new MediaRecorder(micStream);
   mediaRecorder.ondataavailable = e => { if (e.data.size > 0) audioChunks.push(e.data); };
   mediaRecorder.onstop = () => {
     recordings[recordingKey()] = URL.createObjectURL(new Blob(audioChunks, { type: 'audio/webm' }));
     micStream.getTracks().forEach(t => t.stop());
-    micStream = null;
+    micStream     = null;
     mediaRecorder = null;
     renderPracticeView();
   };
   mediaRecorder.start();
 
-  // Run SpeechRecognition in parallel if available
+  // Start SpeechRecognition in parallel for transcript
   if (SpeechRecognition) {
     recognition = new SpeechRecognition();
-    recognition.lang = 'nl-NL';
-    recognition.continuous = true;
-    recognition.interimResults = true;
+    recognition.lang             = 'nl-NL';
+    recognition.continuous       = true;
+    recognition.interimResults   = true;
+
     let finalTranscript = '';
+
     recognition.onresult = e => {
       let interim = '';
       for (let i = e.resultIndex; i < e.results.length; i++) {
@@ -270,39 +259,49 @@ async function handleRecordClick() {
         else interim += e.results[i][0].transcript;
       }
       const statusEl = document.getElementById('record-status');
-      if (statusEl) statusEl.textContent = `🔴 Recording… "${(finalTranscript + interim).trim()}"`;
+      if (statusEl) statusEl.textContent = `🔴 "${(finalTranscript + interim).trim()}"`;
     };
-    recognition.onend = () => {
-      if (finalTranscript.trim()) transcripts[recordingKey()] = finalTranscript.trim();
-    };
-    recognition.start();
 
-    // Need to capture finalTranscript in closure for onstop
-    let finalTranscriptClosure = '';
-    recognition.onresult = e => {
-      let interim = '';
-      for (let i = e.resultIndex; i < e.results.length; i++) {
-        if (e.results[i].isFinal) finalTranscriptClosure += e.results[i][0].transcript + ' ';
-        else interim += e.results[i][0].transcript;
-      }
-      const statusEl = document.getElementById('record-status');
-      if (statusEl) statusEl.textContent = `🔴 "${(finalTranscriptClosure + interim).trim()}"`;
-    };
     recognition.onend = () => {
-      if (finalTranscriptClosure.trim()) transcripts[recordingKey()] = finalTranscriptClosure.trim();
+      const saved = finalTranscript.trim();
+      if (saved) {
+        transcripts[recordingKey()] = saved;
+        // Update textarea live if it's visible
+        const textarea = document.getElementById('transcript-input');
+        if (textarea && !textarea.value.trim()) textarea.value = saved;
+      }
     };
+
+    recognition.onerror = e => {
+      // Log but don't crash — textarea fallback is always shown
+      console.warn('[SpeechRecognition] error:', e.error);
+    };
+
+    try {
+      recognition.start();
+    } catch (e) {
+      console.warn('[SpeechRecognition] could not start:', e);
+      recognition = null;
+    }
   }
 
   btn.classList.add('recording');
   label.textContent  = 'Stop Recording';
   status.textContent = '🔴 Recording…';
 
+  // Timer — only show seconds if speech recognition is not updating the status
   let secs = 0;
   const timer = setInterval(() => {
     secs++;
     const statusEl = document.getElementById('record-status');
-    if (!statusEl || !mediaRecorder || mediaRecorder.state !== 'recording') { clearInterval(timer); return; }
-    if (!SpeechRecognition) statusEl.textContent = `🔴 Recording… ${secs}s`;
+    if (!statusEl || !mediaRecorder || mediaRecorder.state !== 'recording') {
+      clearInterval(timer);
+      return;
+    }
+    // Only overwrite with timer if recognition hasn't produced any text yet
+    if (statusEl.textContent === '🔴 Recording…') {
+      statusEl.textContent = `🔴 Recording… ${secs}s`;
+    }
   }, 1000);
 }
 
@@ -319,39 +318,39 @@ function handlePlayClick() {
   audio.onplay  = () => { if (btn) btn.innerHTML = '<span>⏸</span> Pause'; };
   audio.onpause = () => { if (btn) btn.innerHTML = '<span>▶</span> Listen'; };
   audio.onended = () => { if (btn) btn.innerHTML = '<span>▶</span> Listen'; };
-
-  btn.onclick = () => { audio.paused ? audio.play() : audio.pause(); };
+  btn.onclick   = () => { audio.paused ? audio.play() : audio.pause(); };
 }
 
 function stopAll() {
   if (mediaRecorder?.state === 'recording') mediaRecorder.stop();
   recognition?.stop();
+  recognition = null;
   if (micStream) { micStream.getTracks().forEach(t => t.stop()); micStream = null; }
 }
 
 // ── AI Validation ─────────────────────────────────────────────────────────────
 
 async function handleAIValidate(q) {
-  const key          = recordingKey();
-  const btn          = document.getElementById('btn-ai-validate');
+  const key           = recordingKey();
+  const btn           = document.getElementById('btn-ai-validate');
   const feedbackPanel = document.getElementById('ai-feedback-panel');
 
-  // Get transcript — from SpeechRecognition, textarea fallback, or none
-  let transcript = transcripts[key] ?? '';
-  if (!transcript) {
-    const textarea = document.getElementById('transcript-input');
-    transcript = textarea?.value?.trim() ?? '';
-  }
+  // Read transcript from textarea first (user may have edited it), then stored value
+  const textarea   = document.getElementById('transcript-input');
+  const transcript = (textarea?.value?.trim()) || (transcripts[key] ?? '');
 
   if (!transcript) {
     feedbackPanel.innerHTML = `<div class="ai-feedback-error">
-      ⚠️ No transcript available. Speech recognition may not be supported in your browser.
-      Please type what you said in the text box above and try again.
+      ⚠️ Please type what you said in the text box above, then try again.
     </div>`;
+    textarea?.focus();
     return;
   }
 
-  btn.disabled = true;
+  // Save whatever is in the textarea back to transcripts
+  if (textarea?.value?.trim()) transcripts[key] = textarea.value.trim();
+
+  btn.disabled    = true;
   btn.textContent = '⏳ Evaluating…';
   feedbackPanel.innerHTML = `<div class="ai-feedback-loading">
     <div class="ai-feedback-spinner"></div>
@@ -359,18 +358,14 @@ async function handleAIValidate(q) {
   </div>`;
 
   const { askAI } = await import('../../ai/aiService.js');
-  const { getPreferredModel } = await import('../../ai/aiService.js');
-
-  let fullText = '';
 
   askAI({
     module:  'speaking',
     action:  'evaluate',
     context: speakingEvalContext(q.question, q.answer, transcript),
     model:   getPreferredModel(),
-    onChunk: (chunk) => {
-      fullText += chunk;
-      feedbackPanel.innerHTML = `<div class="ai-feedback-loading"><div class="ai-feedback-spinner"></div><span>Thinking…</span></div>`;
+    onChunk: () => {
+      // Keep spinner visible while streaming
     },
     onDone: (text) => {
       btn.disabled    = false;
@@ -386,12 +381,11 @@ async function handleAIValidate(q) {
 }
 
 function renderAIFeedback(container, rawText, transcript) {
-  // Try to parse JSON response from AI
   let data = null;
   try {
     const jsonMatch = rawText.match(/\{[\s\S]*\}/);
     if (jsonMatch) data = JSON.parse(jsonMatch[0]);
-  } catch { /* fallback to raw text */ }
+  } catch { /* fall through to raw text */ }
 
   if (!data) {
     container.innerHTML = `<div class="ai-feedback-box">
@@ -406,8 +400,8 @@ function renderAIFeedback(container, rawText, transcript) {
   const icon  = verdictIcon[data.verdict]  ?? '🟡';
   const label = verdictLabel[data.verdict] ?? 'Feedback';
 
-  const correctHtml  = (data.correct ?? []).map(c => `<li>✅ ${c}</li>`).join('');
-  const missingHtml  = (data.missing ?? []).map(m => `<li>❌ ${m}</li>`).join('');
+  const correctHtml = (data.correct ?? []).map(c => `<li>✅ ${c}</li>`).join('');
+  const missingHtml = (data.missing ?? []).map(m => `<li>❌ ${m}</li>`).join('');
 
   container.innerHTML = `
     <div class="ai-feedback-box">
@@ -415,31 +409,20 @@ function renderAIFeedback(container, rawText, transcript) {
         <span class="ai-feedback-verdict">${icon} ${label}</span>
         ${data.score ? `<span class="ai-feedback-score">${data.score}</span>` : ''}
       </div>
-
       <div class="ai-feedback-transcript">
         <span class="ai-feedback-section-label">You said:</span>
         <p class="ai-feedback-transcript-text">"${transcript}"</p>
       </div>
-
-      ${correctHtml ? `
-      <div class="ai-feedback-section">
+      ${correctHtml ? `<div class="ai-feedback-section">
         <span class="ai-feedback-section-label">What you got right</span>
         <ul class="ai-feedback-list">${correctHtml}</ul>
       </div>` : ''}
-
-      ${missingHtml ? `
-      <div class="ai-feedback-section">
+      ${missingHtml ? `<div class="ai-feedback-section">
         <span class="ai-feedback-section-label">What to improve</span>
         <ul class="ai-feedback-list">${missingHtml}</ul>
       </div>` : ''}
-
-      ${data.tip ? `
-      <div class="ai-feedback-tip">
-        <span>💡</span> ${data.tip}
-      </div>` : ''}
-
-      ${data.encouragement ? `
-      <div class="ai-feedback-encouragement">🇳🇱 ${data.encouragement}</div>` : ''}
+      ${data.tip ? `<div class="ai-feedback-tip"><span>💡</span> ${data.tip}</div>` : ''}
+      ${data.encouragement ? `<div class="ai-feedback-encouragement">🇳🇱 ${data.encouragement}</div>` : ''}
     </div>
   `;
 }
