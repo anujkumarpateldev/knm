@@ -1,22 +1,81 @@
 // supabase/functions/ai-chat/index.ts
-// Multi-model AI proxy — routes to DeepSeek (speed) or Claude (quality)
-// based on action type, or explicit caller preference.
+// Multi-model AI proxy with full exception handling and automatic fallback.
 //
-// Required env vars (set in Supabase → Settings → Edge Functions → Secrets):
-//   SUPABASE_URL              (auto-set)
-//   SUPABASE_SERVICE_ROLE_KEY (auto-set)
-//   ANTHROPIC_API_KEY         your Anthropic key
-//   DEEPSEEK_API_KEY          your DeepSeek key
+// Fallback chain:
+//   preferred model → other model → "There is an issue with the AI model"
+//
+// Handles: network errors, expired/invalid API keys, timeouts, rate limits,
+//          unreachable URLs, and mid-stream failures.
+//
+// Required secrets (Supabase → Edge Functions → Secrets):
+//   ANTHROPIC_API_KEY
+//   DEEPSEEK_API_KEY
 import { createClient } from 'npm:@supabase/supabase-js';
 
 const SUPABASE_URL     = Deno.env.get('SUPABASE_URL')!;
 const SUPABASE_SERVICE = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!;
-const ANTHROPIC_KEY    = Deno.env.get('ANTHROPIC_API_KEY')!;
-const DEEPSEEK_KEY     = Deno.env.get('DEEPSEEK_API_KEY')!;
+const ANTHROPIC_KEY    = Deno.env.get('ANTHROPIC_API_KEY') ?? '';
+const DEEPSEEK_KEY     = Deno.env.get('DEEPSEEK_API_KEY')  ?? '';
+
+const DEEPSEEK_MODEL = 'deepseek-chat';
+const CLAUDE_MODEL   = 'claude-haiku-4-5-20251001';
+
+// How long to wait for the API to respond before giving up (ms)
+const FETCH_TIMEOUT_MS = 15_000;
+
+const DAILY_LIMIT = 50;
+
+// ── Error classification ──────────────────────────────────────────────────────
+class AIProviderError extends Error {
+  constructor(
+    public provider: string,
+    public reason: 'auth' | 'rate_limit' | 'network' | 'timeout' | 'server' | 'config',
+    message: string,
+  ) {
+    super(message);
+    this.name = 'AIProviderError';
+  }
+}
+
+function classifyHttpError(provider: string, status: number, body: string): AIProviderError {
+  if (status === 401 || status === 403) {
+    return new AIProviderError(provider, 'auth',
+      `${provider} API key is invalid or expired (HTTP ${status})`);
+  }
+  if (status === 429) {
+    return new AIProviderError(provider, 'rate_limit',
+      `${provider} rate limit reached (HTTP 429)`);
+  }
+  if (status >= 500) {
+    return new AIProviderError(provider, 'server',
+      `${provider} server error (HTTP ${status})`);
+  }
+  return new AIProviderError(provider, 'server',
+    `${provider} returned HTTP ${status}: ${body.slice(0, 120)}`);
+}
+
+// ── Fetch with timeout ────────────────────────────────────────────────────────
+async function fetchWithTimeout(url: string, opts: RequestInit, provider: string): Promise<Response> {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+
+  try {
+    const res = await fetch(url, { ...opts, signal: controller.signal });
+    clearTimeout(timer);
+    return res;
+  } catch (err: unknown) {
+    clearTimeout(timer);
+    if (err instanceof Error && err.name === 'AbortError') {
+      throw new AIProviderError(provider, 'timeout',
+        `${provider} did not respond within ${FETCH_TIMEOUT_MS / 1000}s`);
+    }
+    // Network-level failure: DNS, connection refused, unreachable URL
+    throw new AIProviderError(provider, 'network',
+      `${provider} is unreachable: ${err instanceof Error ? err.message : String(err)}`);
+  }
+}
 
 // ── Model routing ─────────────────────────────────────────────────────────────
-// 'speed'   → DeepSeek chat (cheap, fast, great for simple tasks)
-// 'quality' → Claude (better reasoning, ideal for grading & evaluation)
 const ACTION_PRIORITY: Record<string, 'speed' | 'quality'> = {
   hint:      'speed',
   explain:   'speed',
@@ -24,23 +83,17 @@ const ACTION_PRIORITY: Record<string, 'speed' | 'quality'> = {
   mnemonic:  'speed',
   simplify:  'speed',
   grade:     'quality',
-  evaluate:  'quality',   // speaking evaluation
+  evaluate:  'quality',
   feedback:  'quality',
 };
 
-const DEEPSEEK_MODEL  = 'deepseek-chat';
-const CLAUDE_MODEL    = 'claude-haiku-4-5-20251001';  // fast Claude for quality tasks
-
-const DAILY_LIMIT = 50;
-
 // ── System prompts ────────────────────────────────────────────────────────────
 const SYSTEM_PROMPTS: Record<string, string> = {
-  quiz: `You are a helpful Dutch language tutor for the KNM (Kennis van de Nederlandse Maatschappij) integration exam. You help students understand Dutch civic knowledge and society.
+  quiz: `You are a helpful Dutch language tutor for the KNM (Kennis van de Nederlandse Maatschappij) integration exam.
 Always respond in both Dutch and English. Be concise — max 3 sentences per point.
 Never just give the answer outright. Guide the student to understand WHY.`,
 
   writing: `You are a Dutch language writing coach specialising in A2-level Dutch for the integration exam.
-Evaluate the student's Dutch writing for grammar, vocabulary, and sentence structure.
 Return your response in this exact format:
 SCORE: [1-10]/10
 ERRORS:
@@ -55,15 +108,11 @@ Use simple English for all explanations.`,
 Keep responses short and memorable. Always include both Dutch and English.`,
 
   reading: `You are a Dutch reading comprehension assistant. Help students understand Dutch texts at A2 level.
-Explain difficult words in context and guide students through comprehension questions without giving direct answers.
 Always respond in both Dutch and English.`,
 
-  speaking: `You are a Dutch A2 speaking exam coach. You evaluate spoken Dutch answers for the integration exam.
-Be encouraging, specific, and constructive. Focus on:
-- Key vocabulary used correctly
-- Sentence structure (Wie → Waar → Wat → Waarom → Persoonlijk)
-- Whether all parts of the question were answered
-Reply in simple English. Keep feedback concise and actionable.`,
+  speaking: `You are a Dutch A2 speaking exam coach. Evaluate spoken Dutch answers for the integration exam.
+Be encouraging, specific, and constructive. Focus on key vocabulary, sentence structure, and whether all question parts were answered.
+Reply in simple English. Keep feedback concise.`,
 };
 
 // ── User message builders ─────────────────────────────────────────────────────
@@ -71,51 +120,25 @@ function buildUserMessage(action: string, context: Record<string, unknown>, inpu
   switch (action) {
     case 'hint':
       return `Question: "${context.question_nl}"
-The student is struggling. Give a subtle 1–2 sentence hint without giving the answer away.`;
-
+Give a subtle 1–2 sentence hint without giving the answer away.`;
     case 'explain':
       return `Question: "${context.question_nl}"
-Correct answer: ${context.correct_answer}
-Student chose: ${context.user_answer}
+Correct answer: ${context.correct_answer}. Student chose: ${context.user_answer}.
 Explain clearly why the correct answer is right and why the student's choice was wrong.`;
-
     case 'grade':
-      return `Writing task: "${context.task}"
-Student's Dutch writing:\n"""\n${input}\n"""
+      return `Writing task: "${context.task}"\nStudent's Dutch writing:\n"""\n${input}\n"""
 Grade this writing according to A2 Dutch integration exam standards.`;
-
     case 'mnemonic':
       return `Dutch word: "${context.dutch_word}" (English: "${context.english_word}")
 Create a memorable, vivid mnemonic to help an English speaker remember this Dutch word.`;
-
     case 'translate':
       return `Explain the Dutch word "${context.word}" in the sentence: "${context.sentence}"
 Keep it simple for an A2 learner. Include meaning, a tip, and one more example sentence.`;
-
     case 'simplify':
-      return `Rewrite this Dutch text at A1 level (simple vocabulary, short sentences):\n"""\n${context.text}\n"""
+      return `Rewrite this Dutch text at A1 level:\n"""\n${context.text}\n"""
 Then provide an English summary in 2–3 sentences.`;
-
     case 'evaluate':
-      return `EXAM QUESTION:
-${context.question}
-
-MODEL ANSWER:
-${context.expected_answer}
-
-STUDENT SAID (transcribed from recording):
-"${context.transcript}"
-
-Evaluate the student's spoken answer. Reply as valid JSON only, no extra text:
-{
-  "verdict": "good" | "partial" | "retry",
-  "score": "X/5",
-  "correct": ["thing they got right", "..."],
-  "missing": ["thing missing or wrong", "..."],
-  "tip": "one specific improvement suggestion",
-  "encouragement": "short motivating sentence in Dutch"
-}`;
-
+      return `EXAM QUESTION:\n${context.question}\n\nMODEL ANSWER:\n${context.expected_answer}\n\nSTUDENT SAID:\n"${context.transcript}"\n\nEvaluate the student's spoken answer. Reply as valid JSON only:\n{"verdict":"good"|"partial"|"retry","score":"X/5","correct":["..."],"missing":["..."],"tip":"...","encouragement":"..."}`;
     default:
       return input || String(context.question_nl ?? '');
   }
@@ -133,45 +156,97 @@ function jsonError(msg: string, status: number) {
   });
 }
 
-// ── DeepSeek streaming (OpenAI-compatible SSE) ────────────────────────────────
-async function callDeepSeek(
-  system: string,
-  userMsg: string,
-  maxTokens: number,
-): Promise<{ stream: ReadableStream<Uint8Array>; provider: string; model: string }> {
-  const res = await fetch('https://api.deepseek.com/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      'Content-Type':  'application/json',
-      'Authorization': `Bearer ${DEEPSEEK_KEY}`,
-    },
-    body: JSON.stringify({
-      model: DEEPSEEK_MODEL,
-      messages: [
-        { role: 'system',    content: system },
-        { role: 'user',      content: userMsg },
-      ],
-      max_tokens: maxTokens,
-      stream:     true,
-    }),
-  });
-
-  if (!res.ok) {
-    const err = await res.text().catch(() => '');
-    throw new Error(`DeepSeek error ${res.status}: ${err}`);
+// ── DeepSeek call (OpenAI-compatible SSE) ─────────────────────────────────────
+async function callDeepSeek(system: string, userMsg: string, maxTokens: number) {
+  if (!DEEPSEEK_KEY) {
+    throw new AIProviderError('deepseek', 'config', 'DEEPSEEK_API_KEY secret is not set');
   }
 
-  const encoder = new TextEncoder();
-  const decoder = new TextDecoder();
-  let   buffer  = '';
+  const res = await fetchWithTimeout(
+    'https://api.deepseek.com/v1/chat/completions',
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${DEEPSEEK_KEY}` },
+      body: JSON.stringify({
+        model: DEEPSEEK_MODEL,
+        messages: [{ role: 'system', content: system }, { role: 'user', content: userMsg }],
+        max_tokens: maxTokens,
+        stream: true,
+      }),
+    },
+    'deepseek',
+  );
 
-  const stream = new ReadableStream<Uint8Array>({
+  if (!res.ok) {
+    const body = await res.text().catch(() => '');
+    throw classifyHttpError('deepseek', res.status, body);
+  }
+
+  return { response: res, provider: 'deepseek', model: DEEPSEEK_MODEL };
+}
+
+// ── Claude call (Anthropic SSE) ───────────────────────────────────────────────
+async function callClaude(system: string, userMsg: string, maxTokens: number) {
+  if (!ANTHROPIC_KEY) {
+    throw new AIProviderError('claude', 'config', 'ANTHROPIC_API_KEY secret is not set');
+  }
+
+  const res = await fetchWithTimeout(
+    'https://api.anthropic.com/v1/messages',
+    {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': ANTHROPIC_KEY,
+        'anthropic-version': '2023-06-01',
+      },
+      body: JSON.stringify({
+        model: CLAUDE_MODEL,
+        max_tokens: maxTokens,
+        system,
+        messages: [{ role: 'user', content: userMsg }],
+        stream: true,
+      }),
+    },
+    'claude',
+  );
+
+  if (!res.ok) {
+    const body = await res.text().catch(() => '');
+    throw classifyHttpError('claude', res.status, body);
+  }
+
+  return { response: res, provider: 'anthropic', model: CLAUDE_MODEL };
+}
+
+// ── Stream builder — wraps raw response into a clean text stream ──────────────
+// Handles both DeepSeek (OpenAI SSE) and Claude (Anthropic SSE) formats.
+// If the stream itself errors mid-way, enqueues an error marker and closes cleanly.
+function buildStream(
+  rawResponse: Response,
+  provider: string,
+  onComplete: () => void,
+): ReadableStream<Uint8Array> {
+  const encoder  = new TextEncoder();
+  const decoder  = new TextDecoder();
+  let   buffer   = '';
+  let   hasChunk = false;
+
+  return new ReadableStream<Uint8Array>({
     async start(controller) {
-      const reader = res.body!.getReader();
+      const reader = rawResponse.body?.getReader();
+      if (!reader) {
+        controller.enqueue(encoder.encode('⚠️ There is an issue with the AI model. Please try again.'));
+        controller.close();
+        onComplete();
+        return;
+      }
+
       try {
         while (true) {
           const { done, value } = await reader.read();
           if (done) break;
+
           buffer += decoder.decode(value, { stream: true });
           const lines = buffer.split('\n');
           buffer = lines.pop() ?? '';
@@ -180,82 +255,81 @@ async function callDeepSeek(
             if (!line.startsWith('data:')) continue;
             const raw = line.slice(5).trim();
             if (raw === '[DONE]') break;
+
             try {
               const parsed = JSON.parse(raw);
-              const text = parsed.choices?.[0]?.delta?.content;
-              if (text) controller.enqueue(encoder.encode(text));
-            } catch { /* skip malformed */ }
+
+              // DeepSeek / OpenAI format
+              const openaiText = parsed.choices?.[0]?.delta?.content;
+              if (openaiText) {
+                controller.enqueue(encoder.encode(openaiText));
+                hasChunk = true;
+                continue;
+              }
+
+              // Anthropic / Claude format
+              if (parsed.type === 'content_block_delta') {
+                const claudeText = parsed.delta?.text;
+                if (claudeText) {
+                  controller.enqueue(encoder.encode(claudeText));
+                  hasChunk = true;
+                }
+              }
+            } catch { /* malformed SSE line — skip */ }
           }
+        }
+
+        // If stream ended but we never got any content, treat as a failure
+        if (!hasChunk) {
+          controller.enqueue(encoder.encode('⚠️ There is an issue with the AI model. Please try again.'));
+        }
+      } catch (streamErr) {
+        // Mid-stream failure (connection dropped, read error)
+        console.error(`[ai-chat] stream error from ${provider}:`, streamErr);
+        if (!hasChunk) {
+          controller.enqueue(encoder.encode('⚠️ There is an issue with the AI model. Please try again.'));
         }
       } finally {
         controller.close();
+        onComplete();
       }
     },
   });
-
-  return { stream, provider: 'deepseek', model: DEEPSEEK_MODEL };
 }
 
-// ── Claude streaming (Anthropic SSE) ─────────────────────────────────────────
-async function callClaude(
+// ── Try providers in order, return first success ──────────────────────────────
+async function callWithFallback(
+  useDeepSeekFirst: boolean,
   system: string,
   userMsg: string,
   maxTokens: number,
-): Promise<{ stream: ReadableStream<Uint8Array>; provider: string; model: string }> {
-  const res = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'Content-Type':      'application/json',
-      'x-api-key':         ANTHROPIC_KEY,
-      'anthropic-version': '2023-06-01',
-    },
-    body: JSON.stringify({
-      model:      CLAUDE_MODEL,
-      max_tokens: maxTokens,
-      system,
-      messages: [{ role: 'user', content: userMsg }],
-      stream: true,
-    }),
-  });
+): Promise<{ response: Response; provider: string; model: string }> {
 
-  if (!res.ok) {
-    const err = await res.text().catch(() => '');
-    throw new Error(`Claude error ${res.status}: ${err}`);
+  const primary   = useDeepSeekFirst ? callDeepSeek : callClaude;
+  const secondary = useDeepSeekFirst ? callClaude   : callDeepSeek;
+  const primaryName   = useDeepSeekFirst ? 'deepseek' : 'claude';
+  const secondaryName = useDeepSeekFirst ? 'claude'   : 'deepseek';
+
+  // Try primary
+  try {
+    const result = await primary(system, userMsg, maxTokens);
+    console.log(`[ai-chat] using ${result.provider}:${result.model}`);
+    return result;
+  } catch (primaryErr) {
+    const reason = primaryErr instanceof AIProviderError ? primaryErr.reason : 'unknown';
+    console.warn(`[ai-chat] ${primaryName} failed (${reason}): ${(primaryErr as Error).message}`);
   }
 
-  const encoder = new TextEncoder();
-  const decoder = new TextDecoder();
-  let   buffer  = '';
-
-  const stream = new ReadableStream<Uint8Array>({
-    async start(controller) {
-      const reader = res.body!.getReader();
-      try {
-        while (true) {
-          const { done, value } = await reader.read();
-          if (done) break;
-          buffer += decoder.decode(value, { stream: true });
-          const lines = buffer.split('\n');
-          buffer = lines.pop() ?? '';
-
-          for (const line of lines) {
-            if (!line.startsWith('data:')) continue;
-            try {
-              const parsed = JSON.parse(line.slice(5).trim());
-              if (parsed.type === 'content_block_delta') {
-                const text = parsed.delta?.text;
-                if (text) controller.enqueue(encoder.encode(text));
-              }
-            } catch { /* skip */ }
-          }
-        }
-      } finally {
-        controller.close();
-      }
-    },
-  });
-
-  return { stream, provider: 'anthropic', model: CLAUDE_MODEL };
+  // Try secondary
+  try {
+    const result = await secondary(system, userMsg, maxTokens);
+    console.log(`[ai-chat] fell back to ${result.provider}:${result.model}`);
+    return result;
+  } catch (secondaryErr) {
+    const reason = secondaryErr instanceof AIProviderError ? secondaryErr.reason : 'unknown';
+    console.error(`[ai-chat] ${secondaryName} also failed (${reason}): ${(secondaryErr as Error).message}`);
+    throw new Error('both_failed');
+  }
 }
 
 // ── Main handler ──────────────────────────────────────────────────────────────
@@ -264,13 +338,17 @@ Deno.serve(async (req) => {
 
   // 1. Auth
   const authHeader = req.headers.get('Authorization');
-  if (!authHeader?.startsWith('Bearer ')) return jsonError('Sign in to use AI features.', 401);
+  if (!authHeader?.startsWith('Bearer ')) {
+    return jsonError('Sign in to use AI features.', 401);
+  }
 
   const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE);
   const { data: { user }, error: authError } = await supabase.auth.getUser(
     authHeader.replace('Bearer ', '')
   );
-  if (authError || !user) return jsonError('Invalid session. Please sign in again.', 401);
+  if (authError || !user) {
+    return jsonError('Your session has expired. Please sign in again.', 401);
+  }
 
   // 2. Parse body
   let body: { module: string; action: string; context: Record<string, unknown>; input: string; model?: string };
@@ -291,70 +369,38 @@ Deno.serve(async (req) => {
     return jsonError(`Daily AI limit reached (${DAILY_LIMIT} calls/day). Try again tomorrow.`, 429);
   }
 
-  // 4. Decide which model to use
-  // Caller can pass model: 'deepseek' | 'claude' | 'auto'
-  // 'auto' (default) uses the action priority mapping
+  // 4. Decide primary model
   const priority      = ACTION_PRIORITY[action] ?? 'speed';
   const useDeepSeek   = preferredModel === 'deepseek' || (preferredModel !== 'claude' && priority === 'speed');
   const maxTokens     = priority === 'quality' ? 800 : 400;
   const systemPrompt  = SYSTEM_PROMPTS[mod] ?? SYSTEM_PROMPTS.quiz;
   const userMessage   = buildUserMessage(action, context, input);
 
-  // 5. Call the selected provider
-  let result: { stream: ReadableStream<Uint8Array>; provider: string; model: string };
+  // 5. Call with automatic fallback
+  let callResult: { response: Response; provider: string; model: string };
   try {
-    result = useDeepSeek
-      ? await callDeepSeek(systemPrompt, userMessage, maxTokens)
-      : await callClaude(systemPrompt, userMessage, maxTokens);
-  } catch (err) {
-    // Fallback: if preferred model fails, try the other one
-    console.error(`[ai-chat] primary provider failed:`, err);
-    try {
-      result = useDeepSeek
-        ? await callClaude(systemPrompt, userMessage, maxTokens)
-        : await callDeepSeek(systemPrompt, userMessage, maxTokens);
-      console.log(`[ai-chat] fell back to ${result.provider}`);
-    } catch (fallbackErr) {
-      console.error(`[ai-chat] fallback also failed:`, fallbackErr);
-      return jsonError('AI service unavailable. Please try again.', 502);
-    }
+    callResult = await callWithFallback(useDeepSeek, systemPrompt, userMessage, maxTokens);
+  } catch {
+    // Both providers failed
+    return jsonError('There is an issue with the AI model. Please try again later.', 502);
   }
 
-  // 6. Stream response to client + log usage (fire-and-forget)
-  const { stream, provider, model } = result;
+  const { response: rawResponse, provider, model } = callResult;
 
-  // Log after stream closes
-  stream.pipeTo(new WritableStream()).catch(() => {}).finally(() => {
+  // 6. Log usage after stream completes (fire-and-forget)
+  function logUsage() {
     supabase.from('ai_usage').insert({
-      user_id: user.id, module: mod, action,
-      provider, model, input_tokens: 0, output_tokens: 0,
+      user_id: user.id, module: mod, action, provider, model,
+      input_tokens: 0, output_tokens: 0,
     }).then(({ error: logErr }) => {
       if (logErr) console.error('[ai-chat] usage log failed:', logErr.message);
     });
-  });
-
-  // Re-create stream since pipeTo consumed it — we need a tee
-  // Actually, let's re-call and use a proper tee approach
-  // Simpler: just stream directly and log separately
-  let logProvider = provider;
-  let logModel    = model;
-
-  const encoder = new TextEncoder();
-  const [streamA, streamB] = (result.stream as any).tee?.() ?? [result.stream, null];
-
-  // Log from streamB if tee is supported, else skip detailed logging
-  if (streamB) {
-    (async () => {
-      const reader = streamB.getReader();
-      try { while (!(await reader.read()).done) {} } catch {}
-      supabase.from('ai_usage').insert({
-        user_id: user.id, module: mod, action,
-        provider: logProvider, model: logModel, input_tokens: 0, output_tokens: 0,
-      }).catch(() => {});
-    })();
   }
 
-  return new Response(streamA ?? result.stream, {
+  // 7. Build the outgoing stream
+  const outStream = buildStream(rawResponse, provider, logUsage);
+
+  return new Response(outStream, {
     headers: {
       ...CORS,
       'Content-Type':      'text/plain; charset=utf-8',
