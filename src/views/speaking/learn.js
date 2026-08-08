@@ -43,6 +43,25 @@ const CATEGORY_ICONS = {
   work_office: '💼', transport_travel2: '✈️',
 };
 
+function speakLearnText(text, btn) {
+  if (!window.speechSynthesis) return;
+
+  if (window.speechSynthesis.speaking) {
+    window.speechSynthesis.cancel();
+    if (btn) btn.textContent = '🔊 Listen';
+    return;
+  }
+
+  const utterance  = new SpeechSynthesisUtterance(text);
+  utterance.lang   = 'nl-NL';
+  utterance.rate   = 0.85;
+  utterance.onstart = () => { if (btn) btn.textContent = '⏹ Stop'; };
+  utterance.onend   = () => { if (btn) btn.textContent = '🔊 Listen'; };
+  utterance.onerror = () => { if (btn) btn.textContent = '🔊 Listen'; };
+
+  window.speechSynthesis.speak(utterance);
+}
+
 function renderLearnView() {
   const categories = getActiveData();
 
@@ -122,13 +141,17 @@ function renderCategoryCards() {
 
   if (isScenario) {
     const qHtml = (item.questions ?? []).map(q => `<li>${q}</li>`).join('');
+    const speakText = (item.questions ?? []).join(' ');
     frontHtml = `
       <div class="learn-card-title">${item.title ?? ''}</div>
       ${item.scenario_en ? `<p class="learn-card-scene">${item.scenario_en}</p>` : ''}
-      ${qHtml ? `<ul class="learn-card-questions">${qHtml}</ul>` : ''}`;
+      ${qHtml ? `<ul class="learn-card-questions">${qHtml}</ul>` : ''}
+      ${speakText ? `<button class="btn-speak-card" id="btn-speak-card" title="Listen">🔊 Listen</button>` : ''}`;
     backHtml = (item.answer ?? []).map(s => `<p class="learn-answer-sentence">${s}</p>`).join('');
   } else {
-    frontHtml = `<div class="learn-card-dutch">${item.dutch}</div>`;
+    frontHtml = `
+      <div class="learn-card-dutch">${item.dutch}</div>
+      <button class="btn-speak-card" id="btn-speak-card" title="Listen">🔊 Listen</button>`;
     backHtml  = `<div class="learn-card-english">${item.english}</div>`;
   }
 
@@ -187,16 +210,27 @@ function renderCategoryCards() {
     });
   });
 
-  document.getElementById('learn-card').addEventListener('click', () => {
+  document.getElementById('learn-card').addEventListener('click', (e) => {
+    if (e.target.closest('#btn-speak-card')) return; // don't flip on speak button
     flipped = !flipped;
     document.getElementById('learn-card').classList.toggle('flipped', flipped);
   });
 
+  document.getElementById('btn-speak-card')?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const text = isScenario
+      ? (item.questions ?? []).join(' ')
+      : item.dutch;
+    speakLearnText(text, e.currentTarget);
+  });
+
   document.getElementById('btn-prev').addEventListener('click', () => {
+    window.speechSynthesis?.cancel();
     if (cardIndex > 0) { cardIndex--; flipped = false; renderCategoryCards(); }
   });
 
   document.getElementById('btn-next').addEventListener('click', () => {
+    window.speechSynthesis?.cancel();
     if (cardIndex < total - 1) { cardIndex++; flipped = false; renderCategoryCards(); }
   });
 }
