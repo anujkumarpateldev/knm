@@ -30,6 +30,62 @@ export function renderSpeakingPractice() {
 function getQuestions() { return speakingPractice[activeType] ?? []; }
 function recordingKey()  { return `${activeType}-${questionIndex}`; }
 
+function renderPracticeImages(q, type) {
+  // Single — one image
+  if (type === 'single') {
+    if (q.image) {
+      return `<div class="practice-images practice-images-single">
+        <img src="${q.image}" alt="${q.scenario_en}" class="practice-img" loading="lazy">
+      </div>`;
+    }
+    return `<div class="practice-scenario">
+      <div class="practice-scenario-icon">🖼️</div>
+      <p class="practice-scenario-text">${q.scenario_en}</p>
+    </div>`;
+  }
+
+  // Double — two images side by side
+  if (type === 'double') {
+    if (q.images?.length) {
+      return `<div class="practice-images practice-images-double">
+        ${q.images.map((url, i) => url
+          ? `<div class="practice-img-wrap">
+               <span class="practice-img-label">Foto ${i + 1}</span>
+               <img src="${url}" alt="Photo ${i + 1}" class="practice-img" loading="lazy">
+             </div>`
+          : `<div class="practice-img-placeholder">Foto ${i + 1}</div>`
+        ).join('')}
+      </div>`;
+    }
+    return `<div class="practice-scenario">
+      <div class="practice-scenario-icon">🖼️</div>
+      <p class="practice-scenario-text">${q.scenario_en}</p>
+    </div>`;
+  }
+
+  // Triple — three images as story strip
+  if (type === 'triple') {
+    if (q.images?.length) {
+      const labels = ['Eerst', 'Dan', 'Tot slot'];
+      return `<div class="practice-images practice-images-triple">
+        ${q.images.map((url, i) => url
+          ? `<div class="practice-img-wrap">
+               <span class="practice-img-label">${labels[i] ?? i + 1}</span>
+               <img src="${url}" alt="Scene ${i + 1}" class="practice-img" loading="lazy">
+             </div>`
+          : `<div class="practice-img-placeholder">${labels[i] ?? i + 1}</div>`
+        ).join('')}
+      </div>`;
+    }
+    return `<div class="practice-scenario">
+      <div class="practice-scenario-icon">🖼️</div>
+      <p class="practice-scenario-text">${q.scenario_en}</p>
+    </div>`;
+  }
+
+  return '';
+}
+
 function renderPracticeView() {
   const questions    = getQuestions();
   const q            = questions[questionIndex];
@@ -86,10 +142,7 @@ function renderPracticeView() {
           <span class="practice-type-badge">${TYPE_LABELS[activeType]}</span>
         </div>
 
-        <div class="practice-scenario">
-          <div class="practice-scenario-icon">🖼️</div>
-          <p class="practice-scenario-text">${q.scenario_en}</p>
-        </div>
+        ${renderPracticeImages(q, activeType)}
 
         <div class="practice-type-hint">${TYPE_HINTS[activeType]}</div>
 

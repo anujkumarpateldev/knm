@@ -146,6 +146,7 @@ function renderCategoryCards() {
     const qHtml = (item.questions ?? []).map(q => `<li>${q}</li>`).join('');
     const speakText = (item.questions ?? []).join(' ');
     frontHtml = `
+      ${item.image ? `<img src="${item.image}" alt="${item.title ?? ''}" class="learn-card-img" loading="lazy">` : ''}
       <div class="learn-card-title">${item.title ?? ''}</div>
       ${item.scenario_en ? `<p class="learn-card-scene">${item.scenario_en}</p>` : ''}
       ${qHtml ? `<ul class="learn-card-questions">${qHtml}</ul>` : ''}
@@ -155,6 +156,7 @@ function renderCategoryCards() {
       + (answerText ? `<button class="btn-speak-card" id="btn-speak-card-back" title="Listen">🔊 Listen</button>` : '');
   } else {
     frontHtml = `
+      ${item.image ? `<img src="${item.image}" alt="${item.dutch}" class="learn-card-img" loading="lazy">` : ''}
       <div class="learn-card-dutch">${item.dutch}</div>
       <button class="btn-speak-card" id="btn-speak-card" title="Listen">🔊 Listen</button>`;
     backHtml  = `<div class="learn-card-english">${item.english}</div>`;
