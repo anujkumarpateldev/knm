@@ -63,13 +63,13 @@ export async function fetchReadingData() {
 }
 
 export function getVocabLearnedCount(moduleId) {
-  const prog = state.userProgress[`READING:vocab:${moduleId}`];
+  const prog = state.userProgress[`vocab:${moduleId}`];
   if (!prog) return 0;
   return Object.values(prog).filter(Boolean).length;
 }
 
 export function getReadingQuizProgress(moduleId) {
-  const prog = state.userProgress[moduleId];
+  const prog = state.userProgress[`rq:${moduleId}`];
   if (!prog) return { completed: 0 };
   return { completed: Object.keys(prog).length };
 }

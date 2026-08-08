@@ -1,6 +1,6 @@
 import { state } from '../../state.js';
 import { nav } from '../../router.js';
-import { saveToStorage } from '../../storage.js';
+import { saveToStorage, setProgress, getProgress, getModuleProgressMap } from '../../storage.js';
 import { speakDutch } from '../../speech.js';
 import { getVocabLearnedCount } from '../../data/reading.js';
 
@@ -12,10 +12,6 @@ const TYPE_COLORS = {
   'Adjective':  '#06b6d4',
   'Abstract':   '#f43f5e',
 };
-
-function progressKey(moduleId) {
-  return `READING:vocab:${moduleId}`;
-}
 
 // Words marked as learned during the current session: Set of word indices
 let sessionLearnedIndices = new Set();
@@ -74,8 +70,6 @@ export function renderVocabDashboard() {
 
 function showSessionSummary() {
   const words = state.currentVocabSet.vocabulary_list;
-  const pKey  = progressKey(state.currentVocabSet.id);
-
   // Log to activity tracker
   const learnedCount = sessionLearnedIndices.size;
   const total        = words.length;
@@ -168,8 +162,7 @@ export function renderVocabCards() {
   const idx       = state.currentVocabIndex;
   const word      = words[idx];
   const total     = words.length;
-  const pKey      = progressKey(state.currentVocabSet.id);
-  const isLearned = !!(state.userProgress[pKey]?.[`w${idx}`]);
+  const isLearned = !!(getProgress('vocab', state.currentVocabSet.id, `w${idx}`));
   const learned   = getVocabLearnedCount(state.currentVocabSet.id);
   const typeColor = TYPE_COLORS[word.type] || 'var(--text-muted)';
   const progress  = Math.round((idx / total) * 100);
@@ -254,9 +247,8 @@ export function renderVocabCards() {
 
   document.getElementById('btn-mark').addEventListener('click', e => {
     e.stopPropagation();
-    if (!state.userProgress[pKey]) state.userProgress[pKey] = {};
     const nowLearned = !isLearned;
-    state.userProgress[pKey][`w${idx}`] = nowLearned;
+    setProgress('vocab', state.currentVocabSet.id, `w${idx}`, nowLearned);
     if (nowLearned) {
       sessionLearnedIndices.add(idx);
     } else {

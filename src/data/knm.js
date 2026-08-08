@@ -29,9 +29,8 @@ export async function fetchKNMModules() {
   );
 }
 
-// KNM progress uses bare module IDs (M1, M2 …) for backward-compat with saved data
 export function getKNMModuleProgress(moduleId) {
-  const prog = state.userProgress[moduleId];
+  const prog = state.userProgress[`knm:${moduleId}`];
   if (!prog) return { completed: 0 };
   return { completed: Object.keys(prog).length };
 }

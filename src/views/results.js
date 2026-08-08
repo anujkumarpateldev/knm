@@ -1,10 +1,11 @@
 import { state } from '../state.js';
 import { nav } from '../router.js';
 import { saveToStorage } from '../storage.js';
+import { stopExamTimer } from '../utils/examTimer.js';
 
 export function renderResults() {
   document.body.classList.remove('in-dashboard', 'in-quiz');
-  clearInterval(state.timerInterval);
+  stopExamTimer();
   const timerEl = document.getElementById('exam-timer');
   if (timerEl) timerEl.style.display = 'none';
 

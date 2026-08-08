@@ -1,6 +1,7 @@
 import { state } from '../../state.js';
 import { nav } from '../../router.js';
 import { getKNMModuleProgress } from '../../data/knm.js';
+import { getModuleProgressMap } from '../../storage.js';
 
 export function renderKNMDashboard() {
   state.isExamMode = false;
@@ -44,13 +45,13 @@ export function renderKNMDashboard() {
 
 function startKNMQuiz(moduleId) {
   state.currentModule = state.knmModules.find(m => m.module_id === moduleId);
-  if (!state.userProgress[moduleId]) state.userProgress[moduleId] = {};
 
   // Resume from first unanswered question
+  const progressMap = getModuleProgressMap('knm', moduleId);
   let firstUnanswered = 0;
   if (state.currentModule.questions) {
     for (let i = 0; i < state.currentModule.questions.length; i++) {
-      if (state.userProgress[moduleId][state.currentModule.questions[i].id] === undefined) {
+      if (progressMap[state.currentModule.questions[i].id] === undefined) {
         firstUnanswered = i;
         break;
       }

@@ -1,6 +1,7 @@
 import { state } from '../../state.js';
 import { nav } from '../../router.js';
 import { getReadingQuizProgress } from '../../data/reading.js';
+import { getModuleProgressMap } from '../../storage.js';
 
 export function renderReadingQuizDashboard() {
   document.body.classList.add('in-dashboard');
@@ -52,12 +53,12 @@ function startReadingQuiz(moduleId) {
   if (!mod) return;
 
   state.currentModule = mod;
-  if (!state.userProgress[moduleId]) state.userProgress[moduleId] = {};
 
   // Resume from first unanswered question
+  const progressMap = getModuleProgressMap('rq', moduleId);
   let firstUnanswered = 0;
   for (let i = 0; i < mod.questions.length; i++) {
-    if (state.userProgress[moduleId][mod.questions[i].id] === undefined) {
+    if (progressMap[mod.questions[i].id] === undefined) {
       firstUnanswered = i;
       break;
     }
