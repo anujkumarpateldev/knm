@@ -206,6 +206,7 @@ function renderCategoryCards() {
 
   document.querySelectorAll('.speaking-tab').forEach(btn => {
     btn.addEventListener('click', () => {
+      document.removeEventListener('keydown', handleKeyNav);
       activeTab = btn.dataset.tab;
       activeCategoryId = null;
       renderLearnView();
@@ -240,4 +241,82 @@ function renderCategoryCards() {
     window.speechSynthesis?.cancel();
     if (cardIndex < total - 1) { cardIndex++; flipped = false; renderCategoryCards(); }
   });
+
+  // ── Keyboard navigation ──────────────────────────────────────────────────────
+  function handleKeyNav(e) {
+    if (e.key === 'ArrowRight' && cardIndex < total - 1) {
+      window.speechSynthesis?.cancel();
+      cardIndex++; flipped = false; renderCategoryCards();
+    } else if (e.key === 'ArrowLeft' && cardIndex > 0) {
+      window.speechSynthesis?.cancel();
+      cardIndex--; flipped = false; renderCategoryCards();
+    } else if (e.key === ' ' || e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+      e.preventDefault();
+      flipped = !flipped;
+      document.getElementById('learn-card')?.classList.toggle('flipped', flipped);
+    }
+  }
+  document.addEventListener('keydown', handleKeyNav);
+
+  // ── Swipe gestures (Tinder-style) ───────────────────────────────────────────
+  const card = document.getElementById('learn-card');
+  let touchStartX = 0;
+  let touchStartY = 0;
+  let currentX = 0;
+  let isDragging = false;
+
+  card.addEventListener('touchstart', (e) => {
+    touchStartX = e.touches[0].clientX;
+    touchStartY = e.touches[0].clientY;
+    currentX = 0;
+    isDragging = false;
+    card.style.transition = 'none';
+  }, { passive: true });
+
+  card.addEventListener('touchmove', (e) => {
+    const dx = e.touches[0].clientX - touchStartX;
+    const dy = e.touches[0].clientY - touchStartY;
+    // Only hijack horizontal swipes
+    if (!isDragging && Math.abs(dx) < Math.abs(dy)) return;
+    isDragging = true;
+    currentX = dx;
+    const rotate = dx * 0.08;
+    const opacity = Math.max(0.4, 1 - Math.abs(dx) / 400);
+    card.style.transform = `${flipped ? 'rotateY(180deg) ' : ''}translateX(${dx}px) rotate(${rotate}deg)`;
+    card.style.opacity = opacity;
+  }, { passive: true });
+
+  card.addEventListener('touchend', () => {
+    card.style.transition = '';
+    card.style.opacity = '';
+    const threshold = window.innerWidth * 0.3;
+
+    if (isDragging && currentX < -threshold && cardIndex < total - 1) {
+      // Swipe left → next
+      card.style.transform = `translateX(-150%) rotate(-20deg)`;
+      card.style.opacity = '0';
+      setTimeout(() => {
+        window.speechSynthesis?.cancel();
+        cardIndex++; flipped = false; renderCategoryCards();
+      }, 220);
+    } else if (isDragging && currentX > threshold && cardIndex > 0) {
+      // Swipe right → previous
+      card.style.transform = `translateX(150%) rotate(20deg)`;
+      card.style.opacity = '0';
+      setTimeout(() => {
+        window.speechSynthesis?.cancel();
+        cardIndex--; flipped = false; renderCategoryCards();
+      }, 220);
+    } else {
+      // Snap back
+      card.style.transform = flipped ? 'rotateY(180deg)' : '';
+    }
+    isDragging = false;
+  });
+
+  // Clean up keyboard listener when navigating away
+  const origBack = document.getElementById('btn-back-cats').onclick;
+  document.getElementById('btn-back-cats').addEventListener('click', () => {
+    document.removeEventListener('keydown', handleKeyNav);
+  }, { once: true });
 }
