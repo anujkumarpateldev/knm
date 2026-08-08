@@ -36,9 +36,9 @@ const R2_ACCESS_KEY   = process.env.R2_ACCESS_KEY_ID;
 const R2_SECRET_KEY   = process.env.R2_SECRET_ACCESS_KEY;
 const R2_BUCKET       = 'knm';
 const R2_PUBLIC_URL   = 'https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev';
-const DELAY_MS        = 1500;
+const DELAY_MS        = 11000;  // 11s between calls — stays under 6 req/min rate limit
 const MAX_RETRIES     = 3;       // attempts per step (generate / upload)
-const RETRY_DELAY_MS  = 3000;   // wait between retry attempts
+const RETRY_DELAY_MS  = 8000;   // wait between retry attempts
 
 // ── Clients ───────────────────────────────────────────────────────────────────
 const replicate = new Replicate({ auth: REPLICATE_TOKEN });
@@ -115,8 +115,13 @@ async function withRetry(label, fn) {
       const isLast = attempt === MAX_RETRIES;
       console.warn(`     ⚠️  ${label} attempt ${attempt}/${MAX_RETRIES} failed: ${err.message}`);
       if (!isLast) {
-        console.warn(`     ↩️  retrying in ${RETRY_DELAY_MS / 1000}s...`);
-        await sleep(RETRY_DELAY_MS);
+        // Respect retry_after from Replicate 429 responses
+        const retryAfterMatch = err.message?.match(/retry_after["\s:]+(\d+)/);
+        const waitMs = retryAfterMatch
+          ? (parseInt(retryAfterMatch[1]) + 2) * 1000  // add 2s buffer
+          : RETRY_DELAY_MS;
+        console.warn(`     ↩️  retrying in ${waitMs / 1000}s...`);
+        await sleep(waitMs);
       }
     }
   }
