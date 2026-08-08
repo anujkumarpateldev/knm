@@ -1,4 +1,6 @@
 import { nav } from '../../router.js';
+import { state } from '../../state.js';
+import { showAuthModal } from '../../utils/authModal.js';
 
 export function renderSpeakingDashboard() {
   document.body.classList.add('in-dashboard');
@@ -28,7 +30,8 @@ export function renderSpeakingDashboard() {
           </div>
         </div>
 
-        <div class="module-card reading-mode-card speaking-mode-card" id="btn-speaking-practice">
+        <div class="module-card reading-mode-card speaking-mode-card" id="btn-speaking-practice" style="position:relative;">
+          ${!state.currentUser ? `<div class="landing-card-lock"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="10" height="8" rx="1.5"/><path d="M4 5V3.5a3 3 0 0 1 6 0V5"/></svg></div>` : ''}
           <div class="reading-mode-icon">🎙️</div>
           <h3>Oefenen</h3>
           <p class="reading-mode-subtitle">Practice</p>
@@ -38,6 +41,7 @@ export function renderSpeakingDashboard() {
           <div style="margin-top: 1rem;">
             <span class="tag">60 questions</span>
             <span class="tag" style="margin-left:0.5rem;">3 question types</span>
+            ${!state.currentUser ? `<span class="tag" style="margin-left:0.5rem;color:var(--primary);border-color:var(--primary);">Members only</span>` : ''}
           </div>
         </div>
       </div>
@@ -57,5 +61,8 @@ export function renderSpeakingDashboard() {
 
   document.getElementById('btn-back-categories').addEventListener('click', () => nav.categorySelect('PRACTICE'));
   document.getElementById('btn-speaking-learn').addEventListener('click', () => nav.speakingLearn());
-  document.getElementById('btn-speaking-practice').addEventListener('click', () => nav.speakingPractice());
+  document.getElementById('btn-speaking-practice').addEventListener('click', () => {
+    if (state.currentUser) nav.speakingPractice();
+    else showAuthModal();
+  });
 }
