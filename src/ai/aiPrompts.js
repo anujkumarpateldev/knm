@@ -82,3 +82,17 @@ export function readingHintContext(question, passage) {
     passage,
   };
 }
+
+/**
+ * Build context for speaking answer evaluation.
+ * @param {string}   questionText   - the Dutch exam question shown to the student
+ * @param {string[]} expectedAnswer - array of model answer sentences
+ * @param {string}   transcript     - what the student said (from SpeechRecognition or manual input)
+ */
+export function speakingEvalContext(questionText, expectedAnswer, transcript) {
+  return {
+    question:        questionText,
+    expected_answer: expectedAnswer.join('\n'),
+    transcript,
+  };
+}
