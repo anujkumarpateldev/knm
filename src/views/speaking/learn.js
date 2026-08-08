@@ -147,7 +147,9 @@ function renderCategoryCards() {
       ${item.scenario_en ? `<p class="learn-card-scene">${item.scenario_en}</p>` : ''}
       ${qHtml ? `<ul class="learn-card-questions">${qHtml}</ul>` : ''}
       ${speakText ? `<button class="btn-speak-card" id="btn-speak-card" title="Listen">🔊 Listen</button>` : ''}`;
-    backHtml = (item.answer ?? []).map(s => `<p class="learn-answer-sentence">${s}</p>`).join('');
+    const answerText = (item.answer ?? []).join(' ');
+    backHtml = (item.answer ?? []).map(s => `<p class="learn-answer-sentence">${s}</p>`).join('')
+      + (answerText ? `<button class="btn-speak-card" id="btn-speak-card-back" title="Listen">🔊 Listen</button>` : '');
   } else {
     frontHtml = `
       <div class="learn-card-dutch">${item.dutch}</div>
@@ -222,6 +224,11 @@ function renderCategoryCards() {
       ? (item.questions ?? []).join(' ')
       : item.dutch;
     speakLearnText(text, e.currentTarget);
+  });
+
+  document.getElementById('btn-speak-card-back')?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    speakLearnText((item.answer ?? []).join(' '), e.currentTarget);
   });
 
   document.getElementById('btn-prev').addEventListener('click', () => {
