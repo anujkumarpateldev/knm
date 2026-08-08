@@ -1,7 +1,9 @@
 import { nav } from '../../router.js';
+import { state } from '../../state.js';
 import { speakingPractice } from '../../data/speaking.js';
 import { speakingEvalContext } from '../../ai/aiPrompts.js';
 import { getPreferredModel } from '../../ai/aiService.js';
+import { showAuthModal } from '../../utils/authModal.js';
 
 let activeType    = 'single';
 let questionIndex = 0;
@@ -127,9 +129,12 @@ function renderPracticeView() {
         <!-- AI Validation -->
         ${hasRecording ? `
         <div class="practice-ai-section">
-          <button class="btn-ai-validate" id="btn-ai-validate">
-            ✨ Validate with AI
-          </button>
+          ${state.currentUser
+            ? `<button class="btn-ai-validate" id="btn-ai-validate">✨ Validate with AI</button>`
+            : `<button class="btn-ai-validate btn-ai-validate-locked" id="btn-ai-validate-locked">
+                 🔒 Validate with AI — Sign in to unlock
+               </button>`
+          }
           <div id="ai-feedback-panel"></div>
         </div>` : ''}
 
@@ -216,6 +221,7 @@ function renderPracticeView() {
   });
 
   document.getElementById('btn-ai-validate')?.addEventListener('click', () => handleAIValidate(q));
+  document.getElementById('btn-ai-validate-locked')?.addEventListener('click', () => showAuthModal());
 }
 
 // ── Recording ────────────────────────────────────────────────────────────────

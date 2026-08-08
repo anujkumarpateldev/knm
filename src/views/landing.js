@@ -1,4 +1,6 @@
+import { state } from '../state.js';
 import { nav } from '../router.js';
+import { showAuthModal } from '../utils/authModal.js';
 import { stopExamTimer } from '../utils/examTimer.js';
 
 export function renderLandingPage() {
@@ -8,8 +10,21 @@ export function renderLandingPage() {
   const timerEl = document.getElementById('exam-timer');
   if (timerEl) timerEl.style.display = 'none';
 
+  const isLoggedIn = !!state.currentUser;
+  const marqueeMsg = `✦ Register for free &nbsp;&nbsp; ✦ Unlock AI speaking validation &nbsp;&nbsp; ✦ Track your progress &nbsp;&nbsp; ✦ It's completely free &nbsp;&nbsp; ✦ Join hundreds of learners &nbsp;&nbsp; ✦ Pass your integration exam &nbsp;&nbsp; ✦ Free forever, no credit card &nbsp;&nbsp;`;
+
   document.getElementById('main-content').innerHTML = `
     <div class="view active" id="landing-page">
+
+      ${!isLoggedIn ? `
+      <div class="marquee-banner" id="marquee-banner">
+        <div class="marquee-track">
+          <span>${marqueeMsg}</span>
+          <span aria-hidden="true">${marqueeMsg}</span>
+        </div>
+        <button class="marquee-cta" id="marquee-register-btn">Register Free →</button>
+      </div>` : ''}
+
       <div class="landing-container">
         <div class="landing-eyebrow fade-up">
           <span>🇳🇱</span> A2 Integration Exam Prep
@@ -52,6 +67,11 @@ export function renderLandingPage() {
       </div>
     </div>
   `;
+
+  document.getElementById('marquee-register-btn')?.addEventListener('click', () => {
+    nav.auth();
+    setTimeout(() => document.getElementById('tab-register')?.click(), 50);
+  });
 
   document.getElementById('btn-practice-mode').addEventListener('click', () => nav.categorySelect('PRACTICE'));
   document.getElementById('btn-exam-mode').addEventListener('click', () => nav.categorySelect('EXAM'));

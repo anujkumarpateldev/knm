@@ -2471,6 +2471,13 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
 }
 .btn-ai-validate:hover:not(:disabled) { background: rgba(232,117,12,0.14); }
 .btn-ai-validate:disabled { opacity: 0.6; cursor: not-allowed; }
+.btn-ai-validate-locked {
+  border-color: var(--border-color);
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+.btn-ai-validate-locked:hover { border-color: var(--primary); color: var(--primary); background: rgba(232,117,12,0.06); }
 
 /* AI feedback panel */
 .ai-feedback-loading {
