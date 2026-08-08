@@ -1,0 +1,1458 @@
+{
+  "categories": [
+    {
+      "id": "apotheek",
+      "name": "Apotheek / Dokter",
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "At the pharmacy — picking up medicine",
+          "scenario_en": "A man is at the pharmacy.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom is hij daar?", "Wanneer ga jij naar de apotheek?", "Waarom?"],
+          "answer": ["Hij is bij de apotheek.", "Hij haalt medicijnen op.", "Hij is daar omdat hij ziek is.", "Ik ga naar de apotheek als ik medicijnen nodig heb.", "Ik ga daarheen omdat de dokter medicijnen heeft voorgeschreven."]
+        },
+        {
+          "id": 2,
+          "title": "At the pharmacy — paying",
+          "scenario_en": "A woman is at the pharmacy paying for her medicine.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?", "Wanneer ga jij naar de apotheek?"],
+          "answer": ["Zij is bij de apotheek.", "Zij betaalt voor haar medicijnen.", "Zij doet dat omdat zij de medicijnen nodig heeft.", "Ik betaal ook bij de apotheek als ik medicijnen koop.", "Ik doe dat omdat ik gezond wil worden."]
+        },
+        {
+          "id": 3,
+          "title": "Reading medicine instructions",
+          "scenario_en": "A man is reading the medicine instructions at home.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is thuis.", "Hij leest de bijsluiter van de medicijnen.", "Hij doet dat omdat hij wil weten hoe hij de medicijnen moet gebruiken.", "Ik lees de bijsluiter als ik nieuwe medicijnen krijg.", "Ik doe dat omdat ik geen fout wil maken."]
+        },
+        {
+          "id": 4,
+          "title": "In the waiting room",
+          "scenario_en": "A woman is sitting in a doctor's waiting room.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom is zij daar?"],
+          "answer": ["Zij is in de wachtkamer.", "Zij wacht op de huisarts.", "Zij is daar omdat zij zich niet goed voelt.", "Ik ga naar de huisarts als ik ziek ben.", "Ik ga daarheen omdat ik hulp nodig heb."]
+        },
+        {
+          "id": 5,
+          "title": "Talking to the doctor",
+          "scenario_en": "A man is talking to the doctor.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is bij de huisarts.", "Hij praat met de dokter.", "Hij vertelt dat hij pijn heeft.", "Ik praat met de dokter als ik klachten heb.", "Ik doe dat omdat de dokter mij kan helpen."]
+        },
+        {
+          "id": 6,
+          "title": "Showing an injured arm",
+          "scenario_en": "A woman is showing her injured arm to the doctor.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is bij de dokter.", "Zij laat haar arm zien.", "Zij doet dat omdat haar arm pijn doet.", "Ik ga naar de dokter als ik gewond ben.", "Ik doe dat omdat ik advies nodig heb."]
+        },
+        {
+          "id": 7,
+          "title": "Taking medicine",
+          "scenario_en": "A man is taking medicine at home.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is thuis.", "Hij neemt medicijnen in.", "Hij doet dat omdat hij ziek is.", "Ik neem medicijnen als de dokter dat zegt.", "Ik doe dat omdat ik beter wil worden."]
+        },
+        {
+          "id": 8,
+          "title": "Calling the doctor",
+          "scenario_en": "A woman is calling the doctor from home.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is thuis.", "Zij belt de huisarts.", "Zij doet dat omdat zij een afspraak wil maken.", "Ik bel de huisarts als ik ziek ben.", "Ik bel omdat ik een afspraak nodig heb."]
+        },
+        {
+          "id": 9,
+          "title": "Person has a headache",
+          "scenario_en": "A man is sitting on the couch with a headache.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is thuis.", "Hij zit op de bank en heeft hoofdpijn.", "Hij rust omdat hij zich niet goed voelt.", "Ik rust ook als ik hoofdpijn heb.", "Ik doe dat omdat rust helpt."]
+        },
+        {
+          "id": 10,
+          "title": "Person is coughing",
+          "scenario_en": "A woman is coughing at home.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom blijft zij thuis?"],
+          "answer": ["Zij is thuis.", "Zij hoest veel.", "Zij blijft thuis omdat zij ziek is.", "Ik blijf thuis als ik veel hoest.", "Ik doe dat omdat ik anderen niet ziek wil maken."]
+        },
+        {
+          "id": 11,
+          "title": "At the hospital reception",
+          "scenario_en": "A man is at the hospital reception desk.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in het ziekenhuis.", "Hij praat met de receptionist.", "Hij meldt zich aan voor zijn afspraak.", "Ik meld mij aan als ik een afspraak heb in het ziekenhuis.", "Ik doe dat omdat ze moeten weten dat ik er ben."]
+        },
+        {
+          "id": 12,
+          "title": "Doctor measures blood pressure",
+          "scenario_en": "The doctor is measuring a woman's blood pressure.",
+          "questions": ["Waar is zij?", "Wat doet de dokter?", "Waarom doet de dokter dat?"],
+          "answer": ["Zij is bij de huisarts.", "De dokter meet haar bloeddruk.", "De dokter doet dat om haar gezondheid te controleren.", "Ik laat mijn bloeddruk meten als de dokter dat nodig vindt.", "Dat is belangrijk voor mijn gezondheid."]
+        },
+        {
+          "id": 13,
+          "title": "At the dentist",
+          "scenario_en": "A man is sitting in the dentist's chair.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom is hij daar?"],
+          "answer": ["Hij is bij de tandarts.", "Hij zit in de tandartsstoel.", "Hij is daar omdat hij tandpijn heeft.", "Ik ga naar de tandarts als ik tandpijn heb.", "Ik ga daarheen omdat mijn tanden gezond moeten blijven."]
+        },
+        {
+          "id": 14,
+          "title": "Brushing teeth",
+          "scenario_en": "A woman is brushing her teeth in the bathroom.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de badkamer.", "Zij poetst haar tanden.", "Zij doet dat omdat zij schone tanden wil hebben.", "Ik poets mijn tanden elke ochtend en avond.", "Ik doe dat omdat het gezond is."]
+        },
+        {
+          "id": 15,
+          "title": "Washing hands",
+          "scenario_en": "A man is washing his hands in the bathroom.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de badkamer.", "Hij wast zijn handen.", "Hij doet dat omdat zijn handen vies zijn.", "Ik was mijn handen voor het eten.", "Ik doe dat omdat hygiëne belangrijk is."]
+        },
+        {
+          "id": 16,
+          "title": "Person has fallen",
+          "scenario_en": "A woman has fallen on the street.",
+          "questions": ["Waar is zij?", "Wat is er gebeurd?", "Wat doet zij?"],
+          "answer": ["Zij is op straat.", "Zij is gevallen.", "Zij heeft pijn aan haar knie.", "Ik vraag om hulp als ik val.", "Ik doe dat omdat ik misschien gewond ben."]
+        },
+        {
+          "id": 17,
+          "title": "Ambulance worker helping",
+          "scenario_en": "An ambulance worker is helping an injured person on the street.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op straat.", "Hij helpt een gewonde persoon.", "Hij doet dat omdat de persoon hulp nodig heeft.", "Ik bel 112 als er een noodgeval is.", "Ik doe dat omdat snel hulp nodig is."]
+        },
+        {
+          "id": 18,
+          "title": "Buying bandage",
+          "scenario_en": "A woman is buying bandage at the pharmacy.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is bij de apotheek.", "Zij koopt verband.", "Zij doet dat omdat zij een wond heeft.", "Ik koop verband als ik een wond heb.", "Ik doe dat om de wond schoon te houden."]
+        },
+        {
+          "id": 19,
+          "title": "Resting in bed",
+          "scenario_en": "A man is lying in bed resting because he is sick.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de slaapkamer.", "Hij ligt in bed.", "Hij rust omdat hij ziek is.", "Ik blijf in bed als ik griep heb.", "Ik doe dat omdat mijn lichaam rust nodig heeft."]
+        },
+        {
+          "id": 20,
+          "title": "Drinking tea when sick",
+          "scenario_en": "A woman is drinking warm tea at home because she has a sore throat.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is thuis.", "Zij drinkt warme thee.", "Zij doet dat omdat zij keelpijn heeft.", "Ik drink thee als ik verkouden ben.", "Ik doe dat omdat warme thee fijn is."]
+        }
+      ]
+    },
+    {
+      "id": "supermarkt",
+      "name": "Supermarkt / Winkelen",
+      "scenarios": [
+        {
+          "id": 21,
+          "title": "Taking bread from shelf",
+          "scenario_en": "A man is taking bread from the shelf in the supermarket.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de supermarkt.", "Hij pakt brood van de plank.", "Hij doet dat omdat hij brood wil kopen.", "Ik koop brood als ik boodschappen doe.", "Ik doe dat omdat ik brood nodig heb voor ontbijt."]
+        },
+        {
+          "id": 22,
+          "title": "Putting products in cart",
+          "scenario_en": "A woman is putting groceries in the shopping cart.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de supermarkt.", "Zij legt boodschappen in de winkelwagen.", "Zij doet dat omdat zij eten wil kopen.", "Ik doe boodschappen meestal in het weekend.", "Ik doe dat omdat ik eten nodig heb voor de week."]
+        },
+        {
+          "id": 23,
+          "title": "Pushing shopping cart",
+          "scenario_en": "A man is pushing a shopping cart in the supermarket.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de supermarkt.", "Hij duwt een winkelwagen.", "Hij doet dat omdat hij veel boodschappen heeft.", "Ik gebruik een winkelwagen als ik veel koop.", "Dat is makkelijk."]
+        },
+        {
+          "id": 24,
+          "title": "Carrying shopping basket",
+          "scenario_en": "A woman is carrying a shopping basket in the supermarket.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de supermarkt.", "Zij draagt een mandje.", "Zij doet dat omdat zij maar een paar dingen koopt.", "Ik gebruik een mandje als ik weinig boodschappen heb.", "Dat is handig."]
+        },
+        {
+          "id": 25,
+          "title": "Looking at price",
+          "scenario_en": "A man is looking at a price tag in the supermarket.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de supermarkt.", "Hij kijkt naar de prijs.", "Hij doet dat omdat hij goedkoop wil kopen.", "Ik kijk ook naar prijzen.", "Ik doe dat omdat ik geld wil besparen."]
+        },
+        {
+          "id": 26,
+          "title": "Reading label",
+          "scenario_en": "A woman is reading the label on a product in the supermarket.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de supermarkt.", "Zij leest het etiket.", "Zij doet dat omdat zij wil weten wat erin zit.", "Ik lees etiketten als ik nieuw eten koop.", "Ik doe dat omdat ik gezond wil eten."]
+        },
+        {
+          "id": 27,
+          "title": "Weighing vegetables",
+          "scenario_en": "A man is weighing tomatoes at the vegetable section.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is bij de groente-afdeling.", "Hij weegt tomaten.", "Hij doet dat omdat hij de prijs wil weten.", "Ik weeg groente als dat nodig is.", "Ik doe dat omdat ik moet betalen per kilo."]
+        },
+        {
+          "id": 28,
+          "title": "Choosing apples",
+          "scenario_en": "A woman is choosing apples in the supermarket.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de supermarkt.", "Zij kiest appels.", "Zij doet dat omdat zij fruit wil kopen.", "Ik koop fruit elke week.", "Ik doe dat omdat fruit gezond is."]
+        },
+        {
+          "id": 29,
+          "title": "Putting items on belt",
+          "scenario_en": "A man is putting groceries on the checkout belt.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is bij de kassa.", "Hij legt boodschappen op de band.", "Hij doet dat omdat hij wil betalen.", "Ik doe dat ook bij de kassa.", "Ik doe dat zodat de kassamedewerker kan scannen."]
+        },
+        {
+          "id": 30,
+          "title": "Standing in line",
+          "scenario_en": "A woman is standing in line at the checkout.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is bij de kassa.", "Zij staat in de rij.", "Zij wacht omdat zij wil betalen.", "Ik sta in de rij als het druk is.", "Ik wacht omdat iedereen aan de beurt komt."]
+        },
+        {
+          "id": 31,
+          "title": "Paying by card",
+          "scenario_en": "A man is paying by card at the checkout.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is bij de kassa.", "Hij betaalt met pin.", "Hij doet dat omdat hij boodschappen heeft gekocht.", "Ik betaal meestal met pin.", "Ik doe dat omdat het snel en makkelijk is."]
+        },
+        {
+          "id": 32,
+          "title": "Paying cash",
+          "scenario_en": "A woman is paying cash at the checkout.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is bij de kassa.", "Zij betaalt contant.", "Zij doet dat omdat zij geld bij zich heeft.", "Ik betaal soms contant.", "Ik doe dat als ik klein geld heb."]
+        },
+        {
+          "id": 33,
+          "title": "Cashier scanning products",
+          "scenario_en": "A cashier is scanning products at the register.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij werkt bij de kassa.", "Hij scant producten.", "Hij doet dat omdat hij kassamedewerker is.", "Een kassamedewerker helpt klanten.", "Dat werk is belangrijk in de supermarkt."]
+        },
+        {
+          "id": 34,
+          "title": "Cashier giving receipt",
+          "scenario_en": "A cashier is giving a receipt to a customer.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij werkt bij de kassa.", "Zij geeft een bonnetje aan de klant.", "Zij doet dat omdat de klant heeft betaald.", "Ik krijg een bon als ik iets koop.", "Dat is handig als ik iets wil terugbrengen."]
+        },
+        {
+          "id": 35,
+          "title": "Self-checkout",
+          "scenario_en": "A man is scanning his own groceries at the self-checkout.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is bij de zelfscan.", "Hij scant zijn boodschappen zelf.", "Hij doet dat omdat hij snel wil betalen.", "Ik gebruik de zelfscan als het rustig is.", "Ik doe dat omdat het makkelijk is."]
+        },
+        {
+          "id": 36,
+          "title": "Asking employee for help",
+          "scenario_en": "A woman is asking a supermarket employee for help finding a product.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de supermarkt.", "Zij vraagt hulp aan een medewerker.", "Zij doet dat omdat zij een product niet kan vinden.", "Ik vraag hulp als ik iets niet kan vinden.", "Dat is sneller."]
+        },
+        {
+          "id": 37,
+          "title": "Employee filling shelves",
+          "scenario_en": "A supermarket employee is filling the shelves with products.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij werkt in de supermarkt.", "Hij vult de schappen.", "Hij doet dat omdat de producten op zijn.", "Een vakkenvuller zet producten in het schap.", "Dat is belangrijk voor de klanten."]
+        },
+        {
+          "id": 38,
+          "title": "Putting milk in fridge section",
+          "scenario_en": "A supermarket employee is putting milk in the refrigerated section.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij werkt in de supermarkt.", "Zij zet melk in het koelschap.", "Zij doet dat omdat melk koud moet blijven.", "Ik koop melk in de supermarkt.", "Ik zet melk thuis ook in de koelkast."]
+        },
+        {
+          "id": 39,
+          "title": "Cleaning supermarket floor",
+          "scenario_en": "A worker is cleaning the supermarket floor.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij werkt in de supermarkt.", "Hij maakt de vloer schoon.", "Hij doet dat omdat de vloer vies is.", "Schoonmaken is belangrijk.", "Klanten kunnen dan veilig lopen."]
+        },
+        {
+          "id": 40,
+          "title": "Buying clothes",
+          "scenario_en": "A woman is buying a coat in a clothing store.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in een kledingwinkel.", "Zij koopt een jas.", "Zij doet dat omdat het koud is.", "Ik koop kleding als ik iets nodig heb.", "Ik doe dat meestal in het weekend."]
+        },
+        {
+          "id": 41,
+          "title": "Trying pants",
+          "scenario_en": "A man is trying on pants in a clothing store.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in een kledingwinkel.", "Hij past een broek.", "Hij doet dat omdat hij wil weten of de broek past.", "Ik pas kleding voordat ik koop.", "Ik doe dat omdat de maat goed moet zijn."]
+        },
+        {
+          "id": 42,
+          "title": "Looking in mirror",
+          "scenario_en": "A woman is looking in the mirror in a fitting room.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de paskamer.", "Zij kijkt in de spiegel.", "Zij doet dat omdat zij wil zien of de jurk mooi is.", "Ik kijk ook in de spiegel als ik kleding pas.", "Dat helpt bij kiezen."]
+        },
+        {
+          "id": 43,
+          "title": "Returning a shirt",
+          "scenario_en": "A man is returning a shirt to the store.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de winkel.", "Hij brengt een shirt terug.", "Hij doet dat omdat het shirt te klein is.", "Ik breng iets terug als het niet goed is.", "Ik neem dan de bon mee."]
+        },
+        {
+          "id": 44,
+          "title": "Buying shoes",
+          "scenario_en": "A woman is buying new shoes in a shoe store.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in een schoenenwinkel.", "Zij koopt nieuwe schoenen.", "Zij doet dat omdat haar oude schoenen kapot zijn.", "Ik koop schoenen als ik nieuwe nodig heb.", "Goede schoenen zijn belangrijk."]
+        },
+        {
+          "id": 45,
+          "title": "Market shopping",
+          "scenario_en": "A man is buying fresh vegetables and fruit at the market.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op de markt.", "Hij koopt groente en fruit.", "Hij doet dat omdat het vers is.", "Ik ga naar de markt als ik verse producten wil kopen.", "Ik vind de markt leuk."]
+        }
+      ]
+    },
+    {
+      "id": "keuken",
+      "name": "Keuken / Thuis",
+      "scenarios": [
+        {
+          "id": 46,
+          "title": "Cooking dinner",
+          "scenario_en": "A woman is cooking dinner in the kitchen.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de keuken.", "Zij is aan het koken.", "Zij kookt omdat het etenstijd is.", "Ik kook meestal in de avond.", "Ik doe dat omdat ik warm wil eten."]
+        },
+        {
+          "id": 47,
+          "title": "Cutting vegetables",
+          "scenario_en": "A man is cutting vegetables in the kitchen.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de keuken.", "Hij snijdt groenten.", "Hij doet dat omdat hij soep maakt.", "Ik snijd groenten als ik kook.", "Groenten zijn gezond."]
+        },
+        {
+          "id": 48,
+          "title": "Frying egg",
+          "scenario_en": "A woman is frying an egg in the kitchen.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de keuken.", "Zij bakt een ei.", "Zij doet dat omdat zij ontbijt maakt.", "Ik eet soms een ei bij ontbijt.", "Ik doe dat omdat het lekker is."]
+        },
+        {
+          "id": 49,
+          "title": "Stirring pan",
+          "scenario_en": "A man is stirring a pot on the stove.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de keuken.", "Hij roert in de pan.", "Hij doet dat omdat het eten niet mag aanbranden.", "Ik roer ook als ik soep maak.", "Dat is nodig bij koken."]
+        },
+        {
+          "id": 50,
+          "title": "Making coffee",
+          "scenario_en": "A woman is making coffee in the kitchen.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de keuken.", "Zij zet koffie.", "Zij doet dat omdat zij koffie wil drinken.", "Ik drink koffie in de ochtend.", "Ik doe dat omdat ik wakker wil worden."]
+        },
+        {
+          "id": 51,
+          "title": "Pouring tea",
+          "scenario_en": "A man is pouring tea in the kitchen.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de keuken.", "Hij schenkt thee in.", "Hij doet dat omdat hij dorst heeft.", "Ik drink thee in de avond.", "Ik vind thee rustig en lekker."]
+        },
+        {
+          "id": 52,
+          "title": "Opening fridge",
+          "scenario_en": "A woman is opening the refrigerator in the kitchen.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de keuken.", "Zij opent de koelkast.", "Zij doet dat omdat zij melk nodig heeft.", "Ik open de koelkast als ik eten of drinken zoek.", "Dat doe ik elke dag."]
+        },
+        {
+          "id": 53,
+          "title": "Setting table",
+          "scenario_en": "A man is setting the table in the dining room.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de eetkamer.", "Hij dekt de tafel.", "Hij doet dat omdat het gezin gaat eten.", "Ik dek de tafel voor het avondeten.", "Ik doe dat om te helpen."]
+        },
+        {
+          "id": 54,
+          "title": "Eating together",
+          "scenario_en": "A family is eating together at the table.",
+          "questions": ["Waar zijn zij?", "Wat doen zij?", "Waarom doen zij dat?"],
+          "answer": ["Ze zijn aan tafel.", "Ze zijn samen aan het eten.", "Ze doen dat omdat het eten klaar is.", "Ik eet vaak met mijn familie.", "Ik vind samen eten gezellig."]
+        },
+        {
+          "id": 55,
+          "title": "Doing dishes",
+          "scenario_en": "A woman is doing the dishes in the kitchen.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de keuken.", "Zij doet de afwas.", "Zij doet dat omdat de borden vies zijn.", "Ik doe de afwas na het eten.", "Ik doe dat omdat de keuken schoon moet zijn."]
+        },
+        {
+          "id": 56,
+          "title": "Loading dishwasher",
+          "scenario_en": "A man is loading the dishwasher in the kitchen.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de keuken.", "Hij zet borden in de vaatwasser.", "Hij doet dat omdat de afwas gedaan moet worden.", "Ik gebruik de vaatwasser na het eten.", "Dat bespaart tijd."]
+        },
+        {
+          "id": 57,
+          "title": "Taking trash out",
+          "scenario_en": "A woman is taking the trash out at home.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is thuis.", "Zij gooit afval in de container.", "Zij doet dat omdat de prullenbak vol is.", "Ik gooi afval weg als de zak vol is.", "Ik doe dat om het huis schoon te houden."]
+        },
+        {
+          "id": 58,
+          "title": "Vacuuming",
+          "scenario_en": "A man is vacuuming the living room floor.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de woonkamer.", "Hij stofzuigt de vloer.", "Hij doet dat omdat de vloer vies is.", "Ik stofzuig elke week.", "Ik doe dat omdat ik een schoon huis wil."]
+        },
+        {
+          "id": 59,
+          "title": "Cleaning window",
+          "scenario_en": "A woman is cleaning the window at home.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is thuis.", "Zij maakt het raam schoon.", "Zij doet dat omdat het raam vies is.", "Ik maak ramen schoon als ze vuil zijn.", "Dat maakt het huis netjes."]
+        },
+        {
+          "id": 60,
+          "title": "Mopping floor",
+          "scenario_en": "A man is mopping the floor at home.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in huis.", "Hij dweilt de vloer.", "Hij doet dat omdat er water op de vloer ligt.", "Ik dweil als de vloer vies is.", "Ik doe dat voor hygiëne."]
+        },
+        {
+          "id": 61,
+          "title": "Sitting on couch",
+          "scenario_en": "A woman is sitting on the couch resting.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de woonkamer.", "Zij zit op de bank.", "Zij rust omdat zij moe is.", "Ik zit op de bank na het werk.", "Ik doe dat om te ontspannen."]
+        },
+        {
+          "id": 62,
+          "title": "Watching TV",
+          "scenario_en": "A man is watching TV in the living room.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de woonkamer.", "Hij kijkt televisie.", "Hij doet dat omdat hij vrije tijd heeft.", "Ik kijk tv in de avond.", "Ik doe dat om te ontspannen."]
+        },
+        {
+          "id": 63,
+          "title": "Reading book",
+          "scenario_en": "A woman is reading a book at home.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is thuis.", "Zij leest een boek.", "Zij doet dat omdat zij lezen leuk vindt.", "Ik lees als ik tijd heb.", "Ik doe dat omdat ik Nederlands wil oefenen."]
+        },
+        {
+          "id": 64,
+          "title": "Playing with child",
+          "scenario_en": "A man is playing with his child at home.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is thuis.", "Hij speelt met zijn kind.", "Hij doet dat omdat het kind vrij is.", "Ik speel met kinderen als ik thuis ben.", "Dat is gezellig."]
+        },
+        {
+          "id": 65,
+          "title": "Doing laundry",
+          "scenario_en": "A woman is doing laundry at home.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is thuis.", "Zij doet de was.", "Zij doet dat omdat de kleren vies zijn.", "Ik doe de was in het weekend.", "Ik doe dat omdat ik schone kleren nodig heb."]
+        },
+        {
+          "id": 66,
+          "title": "Hanging laundry",
+          "scenario_en": "A man is hanging laundry to dry at home.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is thuis.", "Hij hangt de was op.", "Hij doet dat omdat de kleren nat zijn.", "Ik hang was op na het wassen.", "Dan kunnen de kleren drogen."]
+        },
+        {
+          "id": 67,
+          "title": "Folding clothes",
+          "scenario_en": "A woman is folding clothes in the bedroom.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de slaapkamer.", "Zij vouwt kleren op.", "Zij doet dat omdat de was droog is.", "Ik vouw kleren op na de was.", "Ik doe dat om mijn kast netjes te houden."]
+        },
+        {
+          "id": 68,
+          "title": "Making bed",
+          "scenario_en": "A man is making the bed in the bedroom.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de slaapkamer.", "Hij maakt het bed op.", "Hij doet dat omdat hij is opgestaan.", "Ik maak mijn bed in de ochtend.", "Dat maakt de kamer netjes."]
+        },
+        {
+          "id": 69,
+          "title": "Brushing hair",
+          "scenario_en": "A woman is combing her hair in the bathroom.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de badkamer.", "Zij kamt haar haar.", "Zij doet dat omdat zij naar buiten gaat.", "Ik kam mijn haar in de ochtend.", "Ik doe dat om er netjes uit te zien."]
+        },
+        {
+          "id": 70,
+          "title": "Getting dressed",
+          "scenario_en": "A man is getting dressed in the bedroom.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de slaapkamer.", "Hij kleedt zich aan.", "Hij doet dat omdat hij naar zijn werk gaat.", "Ik kleed mij aan na het douchen.", "Ik doe dat elke ochtend."]
+        }
+      ]
+    },
+    {
+      "id": "werk",
+      "name": "Werk / Kantoor",
+      "scenarios": [
+        {
+          "id": 71,
+          "title": "Office worker at computer",
+          "scenario_en": "A man is working at a computer in the office.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op kantoor.", "Hij werkt achter de computer.", "Hij doet dat omdat hij een kantoorbaan heeft.", "Ik werk op de computer als ik e-mails moet sturen.", "Dat is belangrijk voor mijn werk."]
+        },
+        {
+          "id": 72,
+          "title": "Typing email",
+          "scenario_en": "A woman is typing an email at the office.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is op kantoor.", "Zij typt een e-mail.", "Zij doet dat omdat zij informatie moet sturen.", "Ik stuur e-mails voor werk of afspraken.", "Dat is snel en handig."]
+        },
+        {
+          "id": 73,
+          "title": "Calling customer",
+          "scenario_en": "A man is calling a customer from the office.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op kantoor.", "Hij belt een klant.", "Hij doet dat omdat hij iets moet bespreken.", "Ik bel iemand als ik snel antwoord nodig heb.", "Bellen is soms makkelijker dan mailen."]
+        },
+        {
+          "id": 74,
+          "title": "Meeting",
+          "scenario_en": "Colleagues are having a meeting in a conference room.",
+          "questions": ["Waar zijn zij?", "Wat doen zij?", "Waarom doen zij dat?"],
+          "answer": ["Ze zijn in een vergaderruimte.", "Ze hebben een vergadering.", "Ze bespreken het werk.", "Ik heb soms een vergadering op mijn werk.", "Dat is nodig om afspraken te maken."]
+        },
+        {
+          "id": 75,
+          "title": "Giving presentation",
+          "scenario_en": "A woman is giving a presentation at the office.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is op kantoor.", "Zij geeft een presentatie.", "Zij doet dat omdat zij informatie wil geven.", "Ik geef een presentatie als ik iets moet uitleggen.", "Ik bereid mij dan goed voor."]
+        },
+        {
+          "id": 76,
+          "title": "Printing documents",
+          "scenario_en": "A man is printing documents in the office.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op kantoor.", "Hij print documenten.", "Hij doet dat omdat hij papieren nodig heeft.", "Ik print documenten als ik ze moet ondertekenen.", "Dat gebeurt soms op het werk."]
+        },
+        {
+          "id": 77,
+          "title": "Cleaning desk",
+          "scenario_en": "A woman is tidying her desk at the office.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is op kantoor.", "Zij ruimt haar bureau op.", "Zij doet dat omdat het bureau rommelig is.", "Ik ruim mijn werkplek op aan het einde van de dag.", "Dan kan ik beter werken."]
+        },
+        {
+          "id": 78,
+          "title": "Receptionist helping visitor",
+          "scenario_en": "A receptionist is helping a visitor at the front desk.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij werkt bij de receptie.", "Hij helpt een bezoeker.", "Hij doet dat omdat hij receptionist is.", "Een receptionist geeft informatie.", "Dat is belangrijk voor bezoekers."]
+        },
+        {
+          "id": 79,
+          "title": "Customer at reception",
+          "scenario_en": "A woman is checking in at the reception desk.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is bij de receptie.", "Zij meldt zich aan.", "Zij doet dat omdat zij een afspraak heeft.", "Ik meld mij aan als ik ergens een afspraak heb.", "Zo weten ze dat ik er ben."]
+        },
+        {
+          "id": 80,
+          "title": "Filling form",
+          "scenario_en": "A man is filling in a form at a counter.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is aan de balie.", "Hij vult een formulier in.", "Hij doet dat omdat zijn gegevens nodig zijn.", "Ik vul formulieren in bij afspraken of inschrijving.", "Dat is belangrijk voor administratie."]
+        },
+        {
+          "id": 81,
+          "title": "Security guard",
+          "scenario_en": "A security guard is checking access at the entrance.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is bij de ingang.", "Zij controleert de toegang.", "Zij doet dat omdat zij beveiliger is.", "Een beveiliger zorgt voor veiligheid.", "Dat is belangrijk in grote gebouwen."]
+        },
+        {
+          "id": 82,
+          "title": "Cleaner",
+          "scenario_en": "A cleaner is cleaning an office.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in een kantoor.", "Hij maakt schoon.", "Hij doet dat omdat hij schoonmaker is.", "Een schoonmaker houdt het gebouw schoon.", "Dat is belangrijk voor iedereen."]
+        },
+        {
+          "id": 83,
+          "title": "Nurse",
+          "scenario_en": "A nurse is helping a patient in the hospital.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in het ziekenhuis.", "Zij helpt een patiënt.", "Zij doet dat omdat zij verpleegkundige is.", "Een verpleegkundige zorgt voor zieke mensen.", "Dat werk is heel belangrijk."]
+        },
+        {
+          "id": 84,
+          "title": "Doctor",
+          "scenario_en": "A doctor is examining a patient in the consultation room.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de spreekkamer.", "Hij onderzoekt een patiënt.", "Hij doet dat omdat hij dokter is.", "Een dokter helpt mensen die ziek zijn.", "Ik ga naar de dokter als ik klachten heb."]
+        },
+        {
+          "id": 85,
+          "title": "Teacher",
+          "scenario_en": "A teacher is giving a lesson in the classroom.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de klas.", "Zij geeft les.", "Zij doet dat omdat zij leraar is.", "Een leraar helpt leerlingen leren.", "Ik vind onderwijs belangrijk."]
+        },
+        {
+          "id": 86,
+          "title": "Student",
+          "scenario_en": "A student is listening to the teacher in class.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de klas.", "Hij luistert naar de leraar.", "Hij doet dat omdat hij wil leren.", "Ik leer Nederlands voor mijn examen.", "Ik doe dat omdat ik wil slagen."]
+        },
+        {
+          "id": 87,
+          "title": "Mechanic",
+          "scenario_en": "A mechanic is repairing a car in a garage.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in een garage.", "Zij repareert een auto.", "Zij doet dat omdat zij monteur is.", "Een monteur repareert auto's.", "Ik ga naar de garage als mijn auto kapot is."]
+        },
+        {
+          "id": 88,
+          "title": "Plumber",
+          "scenario_en": "A plumber is repairing a tap in someone's house.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in een huis.", "Hij repareert de kraan.", "Hij doet dat omdat hij loodgieter is.", "Ik bel een loodgieter als er een lekkage is.", "Dat is nodig om schade te voorkomen."]
+        },
+        {
+          "id": 89,
+          "title": "Electrician",
+          "scenario_en": "An electrician is repairing a lamp in someone's home.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in een woning.", "Zij repareert een lamp.", "Zij doet dat omdat zij elektricien is.", "Ik bel een elektricien als er een probleem met stroom is.", "Dat is veiliger."]
+        },
+        {
+          "id": 90,
+          "title": "Hairdresser",
+          "scenario_en": "A hairdresser is cutting a customer's hair in a salon.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in een kapsalon.", "Hij knipt het haar van een klant.", "Hij doet dat omdat hij kapper is.", "Ik ga naar de kapper als mijn haar te lang is.", "Ik wil er netjes uitzien."]
+        },
+        {
+          "id": 91,
+          "title": "Cook / chef",
+          "scenario_en": "A chef is cooking food for customers in a restaurant kitchen.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in een restaurantkeuken.", "Zij kookt eten voor klanten.", "Zij doet dat omdat zij kok is.", "Een kok maakt eten in een restaurant.", "Ik ga naar een restaurant als ik buiten wil eten."]
+        },
+        {
+          "id": 92,
+          "title": "Waiter",
+          "scenario_en": "A waiter is bringing food to a table in a restaurant.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in een restaurant.", "Hij brengt eten naar de tafel.", "Hij doet dat omdat hij ober is.", "Een ober helpt klanten.", "Ik praat met de ober als ik iets wil bestellen."]
+        },
+        {
+          "id": 93,
+          "title": "Delivery driver",
+          "scenario_en": "A delivery driver is delivering a package on the street.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is op straat.", "Zij bezorgt een pakket.", "Zij doet dat omdat zij bezorger is.", "Ik ontvang pakketten als ik online iets koop.", "Dat is handig."]
+        },
+        {
+          "id": 94,
+          "title": "Construction worker",
+          "scenario_en": "A construction worker is building a wall on a construction site.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op een bouwplaats.", "Hij bouwt een muur.", "Hij doet dat omdat hij bouwvakker is.", "Een bouwvakker bouwt huizen en gebouwen.", "Dat werk is zwaar maar belangrijk."]
+        },
+        {
+          "id": 95,
+          "title": "Police officer",
+          "scenario_en": "A police officer is talking to people on the street.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is op straat.", "Zij praat met mensen.", "Zij doet dat omdat zij politieagent is.", "De politie helpt bij problemen.", "Ik bel de politie als er gevaar is."]
+        }
+      ]
+    },
+    {
+      "id": "school",
+      "name": "School / Familie",
+      "scenarios": [
+        {
+          "id": 96,
+          "title": "Bringing child to school",
+          "scenario_en": "A man is bringing his child to school.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is bij school.", "Hij brengt zijn kind naar school.", "Hij doet dat omdat het kind les heeft.", "Ouders brengen kinderen vaak in de ochtend.", "Dat is belangrijk voor school."]
+        },
+        {
+          "id": 97,
+          "title": "Picking child up",
+          "scenario_en": "A woman is picking up her child from school.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is bij school.", "Zij haalt haar kind op.", "Zij doet dat omdat de schooldag klaar is.", "Ouders halen kinderen op in de middag.", "Dat is normaal."]
+        },
+        {
+          "id": 98,
+          "title": "Child writing",
+          "scenario_en": "A boy is writing in his exercise book in class.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de klas.", "Hij schrijft in zijn schrift.", "Hij doet dat omdat hij een opdracht maakt.", "Ik schrijf ook als ik Nederlands oefen.", "Schrijven helpt bij leren."]
+        },
+        {
+          "id": 99,
+          "title": "Child reading",
+          "scenario_en": "A girl is reading a book in class.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de klas.", "Zij leest een boek.", "Zij doet dat omdat zij moet oefenen.", "Ik lees Nederlandse teksten voor mijn examen.", "Dat helpt mijn woordenschat."]
+        },
+        {
+          "id": 100,
+          "title": "Teacher writing on board",
+          "scenario_en": "A teacher is writing on the board in the classroom.",
+          "questions": ["Waar is de leraar?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["De leraar is in de klas.", "Hij schrijft op het bord.", "Hij doet dat om de les uit te leggen.", "Ik kijk naar het bord in de les.", "Dat helpt mij begrijpen."]
+        },
+        {
+          "id": 101,
+          "title": "Students listening",
+          "scenario_en": "Students are listening to the teacher in class.",
+          "questions": ["Waar zijn zij?", "Wat doen zij?", "Waarom doen zij dat?"],
+          "answer": ["Ze zijn in de klas.", "Ze luisteren naar de leraar.", "Ze doen dat omdat ze willen leren.", "Ik luister goed tijdens de les.", "Dat is belangrijk voor mijn examen."]
+        },
+        {
+          "id": 102,
+          "title": "Doing homework",
+          "scenario_en": "A mother is helping her child with homework at home.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is thuis.", "Zij helpt haar kind met huiswerk.", "Zij doet dat omdat het kind hulp nodig heeft.", "Ik help mijn kind als hij huiswerk heeft.", "Onderwijs is belangrijk."]
+        },
+        {
+          "id": 103,
+          "title": "Playing football",
+          "scenario_en": "A boy is playing football on a football field.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op het voetbalveld.", "Hij speelt voetbal.", "Hij doet dat omdat hij sport leuk vindt.", "Ik sport als ik tijd heb.", "Sport is gezond."]
+        },
+        {
+          "id": 104,
+          "title": "Children playing outside",
+          "scenario_en": "Children are playing together outside.",
+          "questions": ["Waar zijn zij?", "Wat doen zij?", "Waarom doen zij dat?"],
+          "answer": ["Ze zijn buiten.", "Ze spelen samen.", "Ze doen dat omdat ze vrije tijd hebben.", "Kinderen spelen buiten na school.", "Dat is goed voor gezondheid."]
+        },
+        {
+          "id": 105,
+          "title": "Playing in playground",
+          "scenario_en": "A girl is playing on a slide in the playground.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de speeltuin.", "Zij speelt op de glijbaan.", "Zij doet dat omdat zij plezier heeft.", "Ik ga met kinderen naar de speeltuin.", "Dat is leuk voor kinderen."]
+        },
+        {
+          "id": 106,
+          "title": "Riding bicycle",
+          "scenario_en": "A boy is cycling on the street.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op straat.", "Hij fietst.", "Hij doet dat omdat hij naar school gaat.", "Ik fiets vaak in Nederland.", "Fietsen is goedkoop en gezond."]
+        },
+        {
+          "id": 107,
+          "title": "Birthday party",
+          "scenario_en": "A family is celebrating a birthday at home.",
+          "questions": ["Waar zijn zij?", "Wat doen zij?", "Waarom doen zij dat?"],
+          "answer": ["Ze zijn thuis.", "Ze vieren een verjaardag.", "Ze doen dat omdat iemand jarig is.", "Ik vier mijn verjaardag met familie.", "Dat is gezellig."]
+        },
+        {
+          "id": 108,
+          "title": "Giving present",
+          "scenario_en": "A man is giving a present at a party.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op een feestje.", "Hij geeft een cadeau.", "Hij doet dat omdat iemand jarig is.", "Ik geef cadeaus bij verjaardagen.", "Dat is aardig."]
+        },
+        {
+          "id": 109,
+          "title": "Blowing candles",
+          "scenario_en": "A girl is blowing out candles on a birthday cake.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is aan tafel.", "Zij blaast kaarsjes uit.", "Zij doet dat omdat zij jarig is.", "Kinderen doen dat op hun verjaardag.", "Dat is een leuke traditie."]
+        },
+        {
+          "id": 110,
+          "title": "Family eating",
+          "scenario_en": "A family is eating together at home.",
+          "questions": ["Waar zijn zij?", "Wat doen zij?", "Waarom doen zij dat?"],
+          "answer": ["Ze zijn thuis.", "Ze eten samen.", "Ze doen dat omdat het avondeten klaar is.", "Ik eet graag met mijn familie.", "Dat is gezellig."]
+        },
+        {
+          "id": 111,
+          "title": "Walking with baby",
+          "scenario_en": "A woman is walking in the park with a pram.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in het park.", "Zij loopt met een kinderwagen.", "Zij doet dat omdat de baby frisse lucht nodig heeft.", "Ik wandel als het mooi weer is.", "Wandelen is gezond."]
+        },
+        {
+          "id": 112,
+          "title": "Feeding baby",
+          "scenario_en": "A man is feeding a baby at home.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is thuis.", "Hij geeft de baby eten.", "Hij doet dat omdat de baby honger heeft.", "Ouders geven baby's vaak eten.", "Dat is zorg voor het kind."]
+        },
+        {
+          "id": 113,
+          "title": "Child crying",
+          "scenario_en": "A child is crying at home.",
+          "questions": ["Waar is het kind?", "Wat doet het kind?", "Waarom huilt het?"],
+          "answer": ["Het kind is thuis.", "Het kind huilt.", "Het huilt omdat het pijn heeft of moe is.", "Ik help een kind als het huilt.", "Ik vraag wat er aan de hand is."]
+        },
+        {
+          "id": 114,
+          "title": "Parent comforting child",
+          "scenario_en": "A mother is comforting her sad child at home.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is thuis.", "Zij troost haar kind.", "Zij doet dat omdat het kind verdrietig is.", "Ik troost mijn kind als hij huilt.", "Dat is belangrijk."]
+        },
+        {
+          "id": 115,
+          "title": "Playing board game",
+          "scenario_en": "A family is playing a board game together at home.",
+          "questions": ["Waar zijn zij?", "Wat doen zij?", "Waarom doen zij dat?"],
+          "answer": ["Ze zijn thuis.", "Ze spelen een spelletje.", "Ze doen dat omdat ze vrije tijd hebben.", "Ik speel spelletjes met familie.", "Dat is leuk en gezellig."]
+        },
+        {
+          "id": 116,
+          "title": "Studying Dutch",
+          "scenario_en": "A man is studying Dutch at home.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is thuis.", "Hij leert Nederlands.", "Hij doet dat omdat hij examen heeft.", "Ik leer ook Nederlands voor mijn A2-examen.", "Ik doe dat omdat ik wil slagen."]
+        },
+        {
+          "id": 117,
+          "title": "Online lesson",
+          "scenario_en": "A woman is following an online Dutch lesson at home.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is thuis.", "Zij volgt een online les.", "Zij doet dat omdat zij Nederlands wil leren.", "Ik volg online lessen als ik thuis ben.", "Dat is handig."]
+        },
+        {
+          "id": 118,
+          "title": "Writing exercise",
+          "scenario_en": "A man is doing a writing exercise at the table.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij zit aan tafel.", "Hij maakt een oefening.", "Hij doet dat omdat hij wil oefenen.", "Ik maak oefeningen voor mijn examen.", "Oefenen helpt mij beter worden."]
+        },
+        {
+          "id": 119,
+          "title": "Library",
+          "scenario_en": "A woman is looking for a book in the library.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de bibliotheek.", "Zij zoekt een boek.", "Zij doet dat omdat zij wil lezen.", "Ik ga naar de bibliotheek om boeken te lenen.", "Dat is goed voor mijn Nederlands."]
+        },
+        {
+          "id": 120,
+          "title": "Borrowing book",
+          "scenario_en": "A man is borrowing a book from the library.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de bibliotheek.", "Hij leent een boek.", "Hij doet dat omdat hij thuis wil lezen.", "Ik leen boeken als ik wil oefenen.", "Lezen helpt mijn taal."]
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "name": "Transport / Reizen",
+      "scenarios": [
+        {
+          "id": 121,
+          "title": "Waiting for bus",
+          "scenario_en": "A man is waiting for the bus at the bus stop.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is bij de bushalte.", "Hij wacht op de bus.", "Hij doet dat omdat hij naar zijn werk gaat.", "Ik wacht op de bus als ik met openbaar vervoer reis.", "Dat is handig als ik geen auto gebruik."]
+        },
+        {
+          "id": 122,
+          "title": "Getting on bus",
+          "scenario_en": "A woman is getting on the bus at the bus stop.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is bij de bushalte.", "Zij stapt in de bus.", "Zij doet dat omdat de bus is gekomen.", "Ik stap in de bus als ik moet reizen.", "Ik check dan in."]
+        },
+        {
+          "id": 123,
+          "title": "Checking in OV card",
+          "scenario_en": "A man is checking in with his OV card on the bus.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de bus.", "Hij checkt in met zijn OV-chipkaart.", "Hij doet dat omdat hij moet betalen voor de reis.", "Ik check in bij bus, tram of trein.", "Dat is verplicht."]
+        },
+        {
+          "id": 124,
+          "title": "Getting off tram",
+          "scenario_en": "A woman is getting off the tram at a stop.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is bij een halte.", "Zij stapt uit de tram.", "Zij doet dat omdat zij op haar bestemming is.", "Ik stap uit als ik bij mijn halte ben.", "Daarna loop ik verder."]
+        },
+        {
+          "id": 125,
+          "title": "Waiting for train",
+          "scenario_en": "A man is waiting for the train at the station.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op het station.", "Hij wacht op de trein.", "Hij doet dat omdat hij naar een andere stad gaat.", "Ik neem de trein voor lange reizen.", "De trein is snel."]
+        },
+        {
+          "id": 126,
+          "title": "Looking at departure board",
+          "scenario_en": "A woman is looking at the departure board at the station.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is op het station.", "Zij kijkt op het bord.", "Zij doet dat omdat zij het perron wil weten.", "Ik kijk ook op het bord als ik reis.", "Dan weet ik waar ik moet zijn."]
+        },
+        {
+          "id": 127,
+          "title": "Buying ticket",
+          "scenario_en": "A man is buying a train ticket at the station.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op het station.", "Hij koopt een kaartje.", "Hij doet dat omdat hij met de trein wil reizen.", "Ik koop een kaartje als ik geen abonnement heb.", "Dat is nodig om te reizen."]
+        },
+        {
+          "id": 128,
+          "title": "Sitting in train",
+          "scenario_en": "A woman is sitting in the train travelling.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de trein.", "Zij zit op een stoel.", "Zij reist naar haar werk.", "Ik zit in de trein als ik naar een andere stad ga.", "Ik lees of luister muziek."]
+        },
+        {
+          "id": 129,
+          "title": "Standing in metro",
+          "scenario_en": "A man is standing in the metro because there are no seats.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom staat hij?"],
+          "answer": ["Hij is in de metro.", "Hij staat omdat er geen zitplaats is.", "Hij reist naar het centrum.", "Ik sta ook soms in de metro.", "Dat gebeurt als het druk is."]
+        },
+        {
+          "id": 130,
+          "title": "Cycling to work",
+          "scenario_en": "A woman is cycling to work.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is op de fiets.", "Zij fietst naar haar werk.", "Zij doet dat omdat haar werk dichtbij is.", "Ik fiets als het mooi weer is.", "Fietsen is gezond."]
+        },
+        {
+          "id": 131,
+          "title": "Locking bike",
+          "scenario_en": "A man is locking his bike at the station.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is bij het station.", "Hij zet zijn fiets op slot.", "Hij doet dat omdat hij diefstal wil voorkomen.", "Ik zet mijn fiets altijd op slot.", "Dat is belangrijk in Nederland."]
+        },
+        {
+          "id": 132,
+          "title": "Parking car",
+          "scenario_en": "A woman is parking her car in a parking lot.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is op een parkeerplaats.", "Zij parkeert de auto.", "Zij doet dat omdat zij bij de winkel is.", "Ik parkeer mijn auto als ik ergens aankom.", "Ik zoek een veilige plek."]
+        },
+        {
+          "id": 133,
+          "title": "Filling gas",
+          "scenario_en": "A man is filling up his car with petrol at a petrol station.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is bij het tankstation.", "Hij tankt benzine.", "Hij doet dat omdat de tank bijna leeg is.", "Ik tank als mijn auto weinig benzine heeft.", "Dat is nodig om te rijden."]
+        },
+        {
+          "id": 134,
+          "title": "Car problem",
+          "scenario_en": "A woman is next to her broken down car calling for help.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is naast haar auto.", "Zij belt hulp.", "Zij doet dat omdat haar auto kapot is.", "Ik bel hulp als mijn auto niet start.", "Dat is veiliger."]
+        },
+        {
+          "id": 135,
+          "title": "Crossing street",
+          "scenario_en": "A man is crossing the street at a zebra crossing.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is bij het zebrapad.", "Hij steekt de straat over.", "Hij doet dat omdat hij naar de andere kant wil.", "Ik steek over bij een zebrapad.", "Dat is veilig."]
+        },
+        {
+          "id": 136,
+          "title": "Asking directions",
+          "scenario_en": "A woman is asking someone for directions on the street.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is op straat.", "Zij vraagt de weg.", "Zij doet dat omdat zij de winkel niet kan vinden.", "Ik vraag de weg als ik verdwaald ben.", "Dat helpt mij snel."]
+        },
+        {
+          "id": 137,
+          "title": "Reading map",
+          "scenario_en": "A man is looking at a map in the city.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de stad.", "Hij kijkt op de kaart.", "Hij doet dat omdat hij de route zoekt.", "Ik gebruik mijn telefoon voor de route.", "Dat is handig."]
+        },
+        {
+          "id": 138,
+          "title": "Walking dog",
+          "scenario_en": "A woman is walking her dog in the park.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in het park.", "Zij laat de hond uit.", "Zij doet dat omdat de hond naar buiten moet.", "Ik wandel in het park als ik vrije tijd heb.", "Dat is gezond."]
+        },
+        {
+          "id": 139,
+          "title": "Jogging",
+          "scenario_en": "A man is jogging in the park.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in het park.", "Hij rent.", "Hij doet dat omdat hij wil sporten.", "Ik ren soms in de ochtend.", "Sporten is goed voor mijn gezondheid."]
+        },
+        {
+          "id": 140,
+          "title": "Sitting on bench",
+          "scenario_en": "A woman is resting on a bench in the park.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in het park.", "Zij zit op een bankje.", "Zij rust omdat zij moe is.", "Ik zit in het park als het mooi weer is.", "Ik vind dat rustig."]
+        },
+        {
+          "id": 141,
+          "title": "Rain umbrella",
+          "scenario_en": "A man is walking with an umbrella in the rain.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op straat.", "Hij loopt met een paraplu.", "Hij doet dat omdat het regent.", "Ik neem een paraplu mee als het regent.", "Dan blijf ik droog."]
+        },
+        {
+          "id": 142,
+          "title": "Slipping on street",
+          "scenario_en": "A woman has slipped on a slippery street.",
+          "questions": ["Waar is zij?", "Wat is er gebeurd?", "Waarom is zij gevallen?"],
+          "answer": ["Zij is op straat.", "Zij is uitgegleden.", "Zij is gevallen omdat de straat glad is.", "Ik loop voorzichtig als het glad is.", "Ik wil niet vallen."]
+        },
+        {
+          "id": 143,
+          "title": "Bus driver",
+          "scenario_en": "A man is driving a bus.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de bus.", "Hij rijdt de bus.", "Hij doet dat omdat hij buschauffeur is.", "Een buschauffeur brengt mensen naar hun bestemming.", "Dat is belangrijk werk."]
+        },
+        {
+          "id": 144,
+          "title": "Taxi driver",
+          "scenario_en": "A woman is driving a customer to the station in a taxi.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij zit in een taxi.", "Zij rijdt een klant naar het station.", "Zij doet dat omdat zij taxichauffeur is.", "Ik neem een taxi als ik haast heb.", "Dat is makkelijk maar duurder."]
+        },
+        {
+          "id": 145,
+          "title": "Delivery cyclist",
+          "scenario_en": "A man is delivering food by bicycle.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op de fiets.", "Hij bezorgt eten.", "Hij doet dat omdat hij bezorger is.", "Ik bestel eten als ik niet wil koken.", "Dan brengt een bezorger het eten."]
+        }
+      ]
+    },
+    {
+      "id": "restaurant",
+      "name": "Restaurant / Café",
+      "scenarios": [
+        {
+          "id": 146,
+          "title": "Ordering food",
+          "scenario_en": "A woman is ordering food in a restaurant.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in een restaurant.", "Zij bestelt eten.", "Zij doet dat omdat zij honger heeft.", "Ik bestel eten in een restaurant.", "Ik doe dat als ik buiten eet."]
+        },
+        {
+          "id": 147,
+          "title": "Waiter taking order",
+          "scenario_en": "A waiter is taking an order in a restaurant.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij werkt in een restaurant.", "Hij neemt de bestelling op.", "Hij doet dat omdat hij ober is.", "Een ober helpt klanten.", "Dat maakt het restaurant netjes."]
+        },
+        {
+          "id": 148,
+          "title": "Serving food",
+          "scenario_en": "A waitress is bringing food to a table in a restaurant.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij werkt in een restaurant.", "Zij brengt eten naar de tafel.", "Zij doet dat omdat het eten klaar is.", "Ik krijg eten van de ober.", "Daarna eet ik."]
+        },
+        {
+          "id": 149,
+          "title": "Paying restaurant bill",
+          "scenario_en": "A man is paying the restaurant bill.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in een restaurant.", "Hij betaalt de rekening.", "Hij doet dat omdat hij klaar is met eten.", "Ik betaal na het eten.", "Ik betaal meestal met pin."]
+        },
+        {
+          "id": 150,
+          "title": "Drinking coffee in café",
+          "scenario_en": "A woman is drinking coffee in a café.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in een café.", "Zij drinkt koffie.", "Zij doet dat omdat zij pauze heeft.", "Ik drink koffie in een café met vrienden.", "Dat is gezellig."]
+        },
+        {
+          "id": 151,
+          "title": "Working in café",
+          "scenario_en": "A man is working on his laptop in a café.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in een café.", "Hij werkt op zijn laptop.", "Hij doet dat omdat hij rustig wil werken.", "Ik werk soms buiten huis.", "Dat geeft afwisseling."]
+        },
+        {
+          "id": 152,
+          "title": "Buying bread at bakery",
+          "scenario_en": "A woman is buying bread at the bakery.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is bij de bakker.", "Zij koopt brood.", "Zij doet dat omdat zij vers brood wil.", "Ik ga naar de bakker voor brood of gebak.", "Vers brood is lekker."]
+        },
+        {
+          "id": 153,
+          "title": "Butcher",
+          "scenario_en": "A man is buying meat at the butcher.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is bij de slager.", "Hij koopt vlees.", "Hij doet dat omdat hij avondeten wil maken.", "Ik koop vlees als ik ga koken.", "Soms koop ik het bij de supermarkt."]
+        },
+        {
+          "id": 154,
+          "title": "Post office package",
+          "scenario_en": "A woman is sending a package at a package point.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is bij een pakketpunt.", "Zij verstuurt een pakket.", "Zij doet dat omdat zij iets wil opsturen.", "Ik stuur pakketten als ik iets verkoop of cadeau geef.", "Ik neem dan het adres mee."]
+        },
+        {
+          "id": 155,
+          "title": "Receiving package",
+          "scenario_en": "A man is receiving a package at home.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is thuis.", "Hij ontvangt een pakket.", "Hij doet dat omdat hij online iets heeft besteld.", "Ik ontvang pakketten als ik online koop.", "Dat is handig."]
+        },
+        {
+          "id": 156,
+          "title": "Bank counter",
+          "scenario_en": "A woman is talking to a bank employee at the counter.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is bij de bank.", "Zij praat met een medewerker.", "Zij doet dat omdat zij een vraag heeft over haar rekening.", "Ik ga naar de bank als ik hulp nodig heb.", "Vaak kan het ook online."]
+        },
+        {
+          "id": 157,
+          "title": "ATM",
+          "scenario_en": "A man is withdrawing cash from an ATM.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is bij de geldautomaat.", "Hij pint geld.", "Hij doet dat omdat hij contant geld nodig heeft.", "Ik pin geld als ik cash nodig heb.", "Meestal betaal ik met pin."]
+        },
+        {
+          "id": 158,
+          "title": "Municipality office",
+          "scenario_en": "A woman is requesting information at the municipality office.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is bij de gemeente.", "Zij vraagt informatie.", "Zij doet dat omdat zij een document nodig heeft.", "Ik ga naar de gemeente voor officiële zaken.", "Bijvoorbeeld voor inschrijving of paspoort."]
+        },
+        {
+          "id": 159,
+          "title": "Police station",
+          "scenario_en": "A man is making a report at the police station.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op het politiebureau.", "Hij doet aangifte.", "Hij doet dat omdat zijn fiets is gestolen.", "Ik ga naar de politie als er iets gestolen is.", "Dat is belangrijk."]
+        },
+        {
+          "id": 160,
+          "title": "Library desk",
+          "scenario_en": "A woman is asking a librarian for help finding a book.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de bibliotheek.", "Zij vraagt hulp aan de medewerker.", "Zij doet dat omdat zij een boek zoekt.", "Ik vraag hulp als ik iets niet kan vinden.", "Dat bespaart tijd."]
+        },
+        {
+          "id": 161,
+          "title": "Gym",
+          "scenario_en": "A man is training in the gym.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de sportschool.", "Hij traint.", "Hij doet dat omdat hij fit wil blijven.", "Ik sport als ik tijd heb.", "Sport is gezond."]
+        },
+        {
+          "id": 162,
+          "title": "Swimming pool",
+          "scenario_en": "A woman is swimming in a swimming pool.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in het zwembad.", "Zij zwemt.", "Zij doet dat omdat zij wil sporten.", "Ik zwem soms in het weekend.", "Dat is goed voor mijn lichaam."]
+        },
+        {
+          "id": 163,
+          "title": "Cinema",
+          "scenario_en": "People are watching a film in the cinema.",
+          "questions": ["Waar zijn zij?", "Wat doen zij?", "Waarom doen zij dat?"],
+          "answer": ["Ze zijn in de bioscoop.", "Ze kijken een film.", "Ze doen dat omdat ze vrije tijd hebben.", "Ik ga naar de bioscoop als er een leuke film is.", "Dat is ontspannend."]
+        },
+        {
+          "id": 164,
+          "title": "Museum",
+          "scenario_en": "A man is looking at a painting in a museum.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in een museum.", "Hij kijkt naar een schilderij.", "Hij doet dat omdat hij kunst interessant vindt.", "Ik ga naar een museum om iets te leren.", "Dat is leuk en leerzaam."]
+        },
+        {
+          "id": 165,
+          "title": "Church/mosque/temple",
+          "scenario_en": "A woman is praying in a place of worship.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in een gebedshuis.", "Zij bidt.", "Zij doet dat omdat geloof belangrijk voor haar is.", "Mensen gaan daarheen om te bidden.", "Dat geeft rust."]
+        }
+      ]
+    },
+    {
+      "id": "problemen",
+      "name": "Problemen / Hulp",
+      "scenarios": [
+        {
+          "id": 166,
+          "title": "Lost phone",
+          "scenario_en": "A man is looking for his lost phone on the street.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op straat.", "Hij zoekt zijn telefoon.", "Hij doet dat omdat hij zijn telefoon kwijt is.", "Ik zoek goed als ik iets kwijt ben.", "Daarna vraag ik hulp."]
+        },
+        {
+          "id": 167,
+          "title": "Asking lost and found",
+          "scenario_en": "A woman is asking about her lost bag at a service desk.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is bij de balie.", "Zij vraagt naar haar verloren tas.", "Zij doet dat omdat zij haar tas kwijt is.", "Ik ga naar de balie als ik iets verlies.", "Misschien heeft iemand het gevonden."]
+        },
+        {
+          "id": 168,
+          "title": "Broken product",
+          "scenario_en": "A man is complaining about a broken product in a shop.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de winkel.", "Hij klaagt over een kapot product.", "Hij doet dat omdat het product niet werkt.", "Ik ga terug naar de winkel als iets kapot is.", "Ik neem de bon mee."]
+        },
+        {
+          "id": 169,
+          "title": "Returning product",
+          "scenario_en": "A woman is returning a broken device to customer service.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is bij de klantenservice.", "Zij brengt een apparaat terug.", "Zij doet dat omdat het apparaat kapot is.", "Ik breng iets terug als het niet goed werkt.", "Ik vraag dan om geld terug of reparatie."]
+        },
+        {
+          "id": 170,
+          "title": "Water leak",
+          "scenario_en": "A man sees a water leak at home and calls the plumber.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is thuis.", "Hij kijkt naar een lekkage.", "Hij belt de loodgieter.", "Ik bel een loodgieter als er water lekt.", "Dat voorkomt schade."]
+        },
+        {
+          "id": 171,
+          "title": "Power problem",
+          "scenario_en": "A woman has a power problem at home with a lamp not working.",
+          "questions": ["Waar is zij?", "Wat is het probleem?", "Wat doet zij?"],
+          "answer": ["Zij is thuis.", "Zij kijkt naar de lamp.", "De lamp doet het niet.", "Ik bel een elektricien als er een stroomprobleem is.", "Dat is veiliger."]
+        },
+        {
+          "id": 172,
+          "title": "Fire alarm",
+          "scenario_en": "People are leaving a building because the fire alarm is going off.",
+          "questions": ["Waar zijn zij?", "Wat doen zij?", "Waarom doen zij dat?"],
+          "answer": ["Ze zijn buiten.", "Ze verlaten het gebouw.", "Ze doen dat omdat het brandalarm gaat.", "Ik ga naar buiten als er brandalarm is.", "Veiligheid is het belangrijkst."]
+        },
+        {
+          "id": 173,
+          "title": "Calling emergency number",
+          "scenario_en": "A man is calling 112 on the street because of an accident.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op straat.", "Hij belt 112.", "Hij doet dat omdat er een ongeluk is.", "Ik bel 112 bij gevaar of noodgeval.", "Dan komt hulp snel."]
+        },
+        {
+          "id": 174,
+          "title": "Person wounded",
+          "scenario_en": "A woman is sitting on the street with a wound on her knee after a fall.",
+          "questions": ["Waar is zij?", "Wat is er gebeurd?", "Wat doet zij?"],
+          "answer": ["Zij zit op straat.", "Zij heeft een wond aan haar knie.", "Zij is gevallen.", "Ik maak een wond schoon als ik gewond ben.", "Daarna doe ik er een pleister op."]
+        },
+        {
+          "id": 175,
+          "title": "Helping old person",
+          "scenario_en": "A man is helping an elderly woman on the street.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op straat.", "Hij helpt een oudere vrouw.", "Hij doet dat omdat zij moeilijk loopt.", "Ik help iemand als hij hulp nodig heeft.", "Dat is vriendelijk."]
+        },
+        {
+          "id": 176,
+          "title": "Missing bus",
+          "scenario_en": "A woman has missed her bus at the bus stop.",
+          "questions": ["Waar is zij?", "Wat is er gebeurd?", "Waarom?"],
+          "answer": ["Zij is bij de bushalte.", "Zij mist de bus.", "Zij is te laat gekomen.", "Ik mis soms de bus als ik laat vertrek.", "Dan wacht ik op de volgende bus."]
+        },
+        {
+          "id": 177,
+          "title": "Train delay",
+          "scenario_en": "A man sees that his train has a delay at the station.",
+          "questions": ["Waar is hij?", "Wat is het probleem?", "Wat doet hij?"],
+          "answer": ["Hij is op het station.", "Hij kijkt naar het bord.", "De trein heeft vertraging.", "Ik wacht als mijn trein vertraging heeft.", "Soms bel ik iemand dat ik later kom."]
+        },
+        {
+          "id": 178,
+          "title": "Late for work",
+          "scenario_en": "A woman is on her way to work and calling her boss to say she will be late.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is onderweg.", "Zij belt haar baas.", "Zij zegt dat zij later komt.", "Ik bel mijn werk als ik te laat ben.", "Dat is netjes."]
+        },
+        {
+          "id": 179,
+          "title": "Child sick",
+          "scenario_en": "A man is calling the school to say his child is sick.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is thuis.", "Hij belt de school.", "Hij zegt dat zijn kind ziek is.", "Ik bel school als mijn kind ziek is.", "Dat is verplicht en netjes."]
+        },
+        {
+          "id": 180,
+          "title": "Making complaint about noise",
+          "scenario_en": "A woman is talking to her neighbour about a noise complaint.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is thuis.", "Zij praat met de buurman.", "Zij doet dat omdat er veel lawaai is.", "Ik praat rustig met buren als er een probleem is.", "Dat is beter dan ruzie."]
+        },
+        {
+          "id": 181,
+          "title": "Lost child",
+          "scenario_en": "A man is looking for his child in a shop.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom is hij bezorgd?"],
+          "answer": ["Hij is in de winkel.", "Hij zoekt zijn kind.", "Hij is bezorgd omdat het kind weg is.", "Ik vraag meteen hulp als ik een kind kwijt ben.", "Dat is belangrijk."]
+        },
+        {
+          "id": 182,
+          "title": "Spilled coffee",
+          "scenario_en": "A woman is cleaning up a table in a café after spilling coffee.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in een café.", "Zij maakt de tafel schoon.", "Zij doet dat omdat er koffie is gevallen.", "Ik maak schoon als ik iets mors.", "Dat is netjes."]
+        },
+        {
+          "id": 183,
+          "title": "Broken bicycle",
+          "scenario_en": "A man is repairing his bicycle on the street.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is op straat.", "Hij repareert zijn fiets.", "Hij doet dat omdat de band lek is.", "Ik ga naar de fietsenmaker als mijn fiets kapot is.", "Fietsen is belangrijk in Nederland."]
+        },
+        {
+          "id": 184,
+          "title": "At bicycle repair shop",
+          "scenario_en": "A woman is bringing her bicycle to the bicycle repair shop.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is bij de fietsenmaker.", "Zij brengt haar fiets voor reparatie.", "Zij doet dat omdat de fiets kapot is.", "Ik ga naar de fietsenmaker bij een lekke band.", "Dan kan ik weer fietsen."]
+        },
+        {
+          "id": 185,
+          "title": "Bad weather",
+          "scenario_en": "A man is outside wearing a raincoat in bad weather.",
+          "questions": ["Waar is hij?", "Wat draagt hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is buiten.", "Hij draagt een regenjas.", "Hij doet dat omdat het regent.", "Ik draag een regenjas bij slecht weer.", "Dan blijf ik droog."]
+        }
+      ]
+    },
+    {
+      "id": "dagelijks",
+      "name": "Dagelijks leven",
+      "scenarios": [
+        {
+          "id": 186,
+          "title": "Gardening",
+          "scenario_en": "A woman is working in the garden.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de tuin.", "Zij werkt in de tuin.", "Zij doet dat omdat de tuin netjes moet zijn.", "Ik tuinier als het mooi weer is.", "Dat is rustig en gezond."]
+        },
+        {
+          "id": 187,
+          "title": "Watering plants",
+          "scenario_en": "A man is watering plants in the garden.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de tuin.", "Hij geeft de planten water.", "Hij doet dat omdat de planten droog zijn.", "Ik geef planten water als de grond droog is.", "Planten hebben water nodig."]
+        },
+        {
+          "id": 188,
+          "title": "Mowing grass",
+          "scenario_en": "A woman is mowing the grass in the garden.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is in de tuin.", "Zij maait het gras.", "Zij doet dat omdat het gras lang is.", "Ik maai gras als het nodig is.", "Dan ziet de tuin er netjes uit."]
+        },
+        {
+          "id": 189,
+          "title": "Walking in park",
+          "scenario_en": "A man is taking a walk in the park.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in het park.", "Hij wandelt.", "Hij doet dat omdat hij frisse lucht wil.", "Ik wandel als ik wil ontspannen.", "Wandelen is gezond."]
+        },
+        {
+          "id": 190,
+          "title": "Picnic",
+          "scenario_en": "People are having a picnic in the park.",
+          "questions": ["Waar zijn zij?", "Wat doen zij?", "Waarom doen zij dat?"],
+          "answer": ["Ze zijn in het park.", "Ze hebben een picknick.", "Ze doen dat omdat het mooi weer is.", "Ik picknick soms in de zomer.", "Dat is gezellig."]
+        },
+        {
+          "id": 191,
+          "title": "Taking photo",
+          "scenario_en": "A woman is taking a photo outside.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is buiten.", "Zij maakt een foto.", "Zij doet dat omdat het uitzicht mooi is.", "Ik maak foto's op vakantie.", "Dan heb ik herinneringen."]
+        },
+        {
+          "id": 192,
+          "title": "Painting wall",
+          "scenario_en": "A man is painting a wall at home.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is thuis.", "Hij verft de muur.", "Hij doet dat omdat hij het huis mooier wil maken.", "Ik verf als ik mijn huis wil veranderen.", "Dat kost tijd maar is mooi."]
+        },
+        {
+          "id": 193,
+          "title": "Moving house",
+          "scenario_en": "People are moving boxes while moving house.",
+          "questions": ["Waar zijn zij?", "Wat doen zij?", "Waarom doen zij dat?"],
+          "answer": ["Ze zijn bij een huis.", "Ze dragen dozen.", "Ze doen dat omdat ze gaan verhuizen.", "Ik draag dozen bij een verhuizing.", "Dat is zwaar maar nodig."]
+        },
+        {
+          "id": 194,
+          "title": "Signing contract",
+          "scenario_en": "A woman is signing a contract in an office.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is op kantoor.", "Zij tekent een contract.", "Zij doet dat omdat zij akkoord gaat.", "Ik teken documenten als alles klopt.", "Ik lees eerst goed."]
+        },
+        {
+          "id": 195,
+          "title": "Looking for job",
+          "scenario_en": "A man is looking for a job on the computer at home.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is thuis.", "Hij zoekt werk op de computer.", "Hij doet dat omdat hij een baan wil.", "Ik zoek vacatures online.", "Dat is handig en snel."]
+        },
+        {
+          "id": 196,
+          "title": "Job interview",
+          "scenario_en": "A woman is having a job interview in an office.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is op kantoor.", "Zij heeft een sollicitatiegesprek.", "Zij doet dat omdat zij een baan wil.", "Ik bereid mij voor op een gesprek.", "Dat helpt om goed te antwoorden."]
+        },
+        {
+          "id": 197,
+          "title": "Reading mail",
+          "scenario_en": "A man is reading a letter at home.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is thuis.", "Hij leest een brief.", "Hij doet dat omdat hij post heeft gekregen.", "Ik lees mijn post als ik thuiskom.", "Soms staan er belangrijke dingen in."]
+        },
+        {
+          "id": 198,
+          "title": "Paying bill online",
+          "scenario_en": "A woman is paying a bill online at home.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom doet zij dat?"],
+          "answer": ["Zij is thuis.", "Zij betaalt een rekening online.", "Zij doet dat omdat de rekening betaald moet worden.", "Ik betaal rekeningen op tijd.", "Dat voorkomt problemen."]
+        },
+        {
+          "id": 199,
+          "title": "Sleeping",
+          "scenario_en": "A man is sleeping in the bedroom.",
+          "questions": ["Waar is hij?", "Wat doet hij?", "Waarom doet hij dat?"],
+          "answer": ["Hij is in de slaapkamer.", "Hij slaapt.", "Hij doet dat omdat hij moe is.", "Ik slaap 's nachts.", "Slapen is belangrijk voor gezondheid."]
+        },
+        {
+          "id": 200,
+          "title": "Waking up",
+          "scenario_en": "A woman is waking up in the bedroom.",
+          "questions": ["Waar is zij?", "Wat doet zij?", "Waarom staat zij op?"],
+          "answer": ["Zij is in de slaapkamer.", "Zij wordt wakker.", "Zij staat op omdat de dag begint.", "Ik sta elke ochtend op.", "Daarna maak ik ontbijt."]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 // App entry point — wires navigation registry then boots
-import { loadFromStorage } from './src/storage.js';
+import { loadFromStorage, setProgressSyncHook } from './src/storage.js';
+import { syncProgressItem, pullAndMergeProgress } from './src/sync.js';
 import { setupTheme }      from './src/theme.js';
+import { showErrorView, friendlyFetchError } from './src/utils/errors.js';
 import { nav }             from './src/router.js';
 import { supabase }        from './src/supabase.js';
 import { state }           from './src/state.js';
@@ -21,8 +23,13 @@ import { startReadingExamMode }      from './src/views/reading/exam.js';
 import { renderVocabDashboard, renderVocabCards } from './src/views/reading/vocab.js';
 import { renderReadingQuizDashboard } from './src/views/reading/quizDashboard.js';
 
-import { fetchKNMModules }  from './src/data/knm.js';
-import { fetchReadingData } from './src/data/reading.js';
+import { renderSpeakingDashboard } from './src/views/speaking/dashboard.js';
+import { renderSpeakingLearn }     from './src/views/speaking/learn.js';
+import { renderSpeakingPractice }  from './src/views/speaking/practice.js';
+
+import { fetchKNMModules }    from './src/data/knm.js';
+import { fetchReadingData }   from './src/data/reading.js';
+import { fetchSpeakingData }  from './src/data/speaking.js';
 
 // ── Wire up all navigation targets ─────────────────────────────────────────
 nav.auth             = renderAuthPage;
@@ -40,6 +47,10 @@ nav.readingExam          = startReadingExamMode;
 nav.vocabDashboard       = renderVocabDashboard;
 nav.vocabCards           = renderVocabCards;
 nav.readingQuizDashboard = renderReadingQuizDashboard;
+
+nav.speakingDashboard = renderSpeakingDashboard;
+nav.speakingLearn     = renderSpeakingLearn;
+nav.speakingPractice  = renderSpeakingPractice;
 
 // ── Header: user info + hamburger menu ──────────────────────────────────────
 function updateHeader(user) {
@@ -133,6 +144,11 @@ function updateHeader(user) {
 }
 
 // ── Boot ────────────────────────────────────────────────────────────────────
+// Wire Supabase sync hook — every setProgress() call auto-syncs when logged in
+setProgressSyncHook((domain, moduleId, itemId, value) => {
+  syncProgressItem(domain, moduleId, itemId, value); // fire-and-forget
+});
+
 async function init() {
   loadFromStorage();
   setupTheme();
@@ -143,15 +159,21 @@ async function init() {
   state.currentUser = session?.user ?? null;
   updateHeader(session?.user ?? null);
 
+  // Pull remote progress for returning logged-in users
+  if (session?.user) {
+    pullAndMergeProgress(session.user.id); // fire-and-forget, non-blocking
+  }
+
+  await loadAppData();
+}
+
+async function loadAppData() {
   try {
-    await Promise.all([fetchKNMModules(), fetchReadingData()]);
+    await Promise.all([fetchKNMModules(), fetchReadingData(), fetchSpeakingData()]);
     renderLandingPage();
   } catch (err) {
-    document.getElementById('main-content').innerHTML = `
-      <div class="results-container">
-        <h2 style="color:var(--danger)">Error Loading Data</h2>
-        <p class="results-subtitle">${err.message}</p>
-      </div>`;
+    const { title, message } = friendlyFetchError(err);
+    showErrorView(title, message, loadAppData);
   }
 }
 
@@ -159,7 +181,10 @@ async function init() {
 supabase.auth.onAuthStateChange((event, session) => {
   state.currentUser = session?.user ?? null;
   updateHeader(session?.user ?? null);
-  if (event === 'SIGNED_IN') nav.landing();
+  if (event === 'SIGNED_IN') {
+    pullAndMergeProgress(session.user.id); // merge remote progress on login
+    nav.landing();
+  }
 });
 
 init();

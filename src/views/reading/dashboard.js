@@ -1,7 +1,6 @@
 import { state } from '../../state.js';
 import { nav } from '../../router.js';
 import { QUESTION_MODULES } from '../../data/reading.js';
-import { showAuthModal } from '../../utils/authModal.js';
 
 export function renderReadingDashboard() {
   document.body.classList.add('in-dashboard');
@@ -51,8 +50,5 @@ export function renderReadingDashboard() {
 
   document.getElementById('btn-back-categories').addEventListener('click', () => nav.categorySelect('PRACTICE'));
   document.getElementById('btn-vocab').addEventListener('click', () => nav.vocabDashboard());
-  document.getElementById('btn-reading-quiz').addEventListener('click', () => {
-    if (state.currentUser) nav.readingQuizDashboard();
-    else showAuthModal();
-  });
+  document.getElementById('btn-reading-quiz').addEventListener('click', () => nav.readingQuizDashboard());
 }
