@@ -19,4 +19,16 @@ export const nav = {
   quiz:           () => {},
   results:        () => {},
   flashcards:     () => {},
+  // Personal word journal
+  wordJournal:    () => {},
+  addWord:        () => {},
+  wordRevision:   () => {},
+  // Admin
+  adminDashboard: () => {},
+  adminUsers:     () => {},
+  adminWords:     () => {},
+  adminTags:      () => {},
+  adminEmail:     () => {},
+  // Deactivated screen
+  deactivated:    () => {},
 };

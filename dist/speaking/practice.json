@@ -1,0 +1,986 @@
+{
+  "single": [
+    {
+      "id": 1,
+      "category": "Apotheek",
+      "scenario_en": "A man is standing at the pharmacy counter. He is talking to the pharmacist and receiving medicine.",
+      "question": "Kijk naar de foto.\nWaar is de man?\nWat doet hij?\nWaarom doet hij dat?\nWanneer ga jij naar de apotheek?",
+      "answer": [
+        "Op de foto zie ik een man.",
+        "Hij is bij de apotheek.",
+        "Hij haalt medicijnen op.",
+        "Hij doet dat omdat hij ziek is.",
+        "Ik ga naar de apotheek als ik medicijnen nodig heb."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/001.webp"
+    },
+    {
+      "id": 2,
+      "category": "Dagelijks leven",
+      "scenario_en": "A woman is sitting in a waiting room. She looks tired and holds a tissue.",
+      "question": "Waar is de vrouw?\nWat doet zij?\nWaarom wacht zij daar?\nWanneer ga jij naar de huisarts?",
+      "answer": [
+        "De vrouw is in de wachtkamer.",
+        "Zij wacht op de huisarts.",
+        "Zij voelt zich niet goed.",
+        "Misschien is zij verkouden.",
+        "Ik ga naar de huisarts als ik ziek ben."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/002.webp"
+    },
+    {
+      "id": 3,
+      "category": "Supermarkt",
+      "scenario_en": "A man is at the supermarket checkout. He pays by card.",
+      "question": "Waar is de man?\nWat doet hij?\nWaarom betaalt hij?\nHoe betaal jij meestal?",
+      "answer": [
+        "De man is in de supermarkt.",
+        "Hij staat bij de kassa.",
+        "Hij betaalt met pin.",
+        "Hij heeft boodschappen gekocht.",
+        "Ik betaal meestal ook met pin."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/003.webp"
+    },
+    {
+      "id": 4,
+      "category": "Supermarkt",
+      "scenario_en": "A supermarket employee is putting products on a shelf.",
+      "question": "Waar is deze persoon?\nWat doet hij?\nWaarom doet hij dat?\nWie doet dit werk?",
+      "answer": [
+        "Hij is in de supermarkt.",
+        "Hij vult de schappen.",
+        "Hij zet producten in het rek.",
+        "Hij doet dat omdat de klanten producten willen kopen.",
+        "Dit werk doet een vakkenvuller."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/004.webp"
+    },
+    {
+      "id": 5,
+      "category": "Supermarkt",
+      "scenario_en": "A woman is choosing tomatoes in the supermarket.",
+      "question": "Waar is zij?\nWat doet zij?\nWaarom koopt zij groente?\nKoop jij vaak groente?",
+      "answer": [
+        "Zij is in de supermarkt.",
+        "Zij kiest tomaten.",
+        "Zij koopt groente omdat zij wil koken.",
+        "Groente is gezond.",
+        "Ik koop ook vaak groente."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/005.webp"
+    },
+    {
+      "id": 6,
+      "category": "Keuken",
+      "scenario_en": "A man is standing in the kitchen and cooking soup.",
+      "question": "Waar is de man?\nWat doet hij?\nWaarom kookt hij?\nWanneer kook jij?",
+      "answer": [
+        "De man is in de keuken.",
+        "Hij is aan het koken.",
+        "Hij maakt soep.",
+        "Hij kookt omdat het etenstijd is.",
+        "Ik kook meestal in de avond."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/006.webp"
+    },
+    {
+      "id": 7,
+      "category": "Keuken",
+      "scenario_en": "A woman is cutting vegetables on a cutting board.",
+      "question": "Wat zie je op de foto?\nWat doet de vrouw?\nWaarom doet zij dat?\nWat kook jij graag?",
+      "answer": [
+        "Ik zie een vrouw in de keuken.",
+        "Zij snijdt groenten.",
+        "Zij doet dat omdat zij eten maakt.",
+        "Ik kook graag rijst met groente.",
+        "Dat vind ik lekker."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/007.webp"
+    },
+    {
+      "id": 8,
+      "category": "Dagelijks leven",
+      "scenario_en": "A man is sitting on the couch and watching TV.",
+      "question": "Waar is hij?\nWat doet hij?\nWaarom doet hij dat?\nWat doe jij in je vrije tijd?",
+      "answer": [
+        "Hij is in de woonkamer.",
+        "Hij zit op de bank.",
+        "Hij kijkt televisie.",
+        "Hij doet dat omdat hij vrije tijd heeft.",
+        "In mijn vrije tijd kijk ik ook soms tv."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/008.webp"
+    },
+    {
+      "id": 9,
+      "category": "Dagelijks leven",
+      "scenario_en": "A woman is putting clothes into a washing machine.",
+      "question": "Waar is de vrouw?\nWat doet zij?\nWaarom doet zij de was?\nWanneer doe jij de was?",
+      "answer": [
+        "De vrouw is thuis.",
+        "Zij doet de was.",
+        "Zij doet dat omdat de kleren vies zijn.",
+        "Ik doe de was in het weekend.",
+        "Dan heb ik meer tijd."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/009.webp"
+    },
+    {
+      "id": 10,
+      "category": "Dagelijks leven",
+      "scenario_en": "A man is mopping the floor at home.",
+      "question": "Wat doet de man?\nWaarom maakt hij schoon?\nMaak jij vaak schoon?\nWaarom?",
+      "answer": [
+        "De man dweilt de vloer.",
+        "Hij maakt schoon omdat de vloer vies is.",
+        "Ik maak mijn huis elke week schoon.",
+        "Ik doe dat omdat ik een schoon huis fijn vind."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/010.webp"
+    },
+    {
+      "id": 11,
+      "category": "Werk",
+      "scenario_en": "A woman is sitting at a desk and typing on a computer.",
+      "question": "Waar is zij?\nWat doet zij?\nWaarom werkt zij op de computer?\nGebruik jij vaak een computer?",
+      "answer": [
+        "Zij is op kantoor.",
+        "Zij werkt achter de computer.",
+        "Zij typt een e-mail.",
+        "Zij doet dat voor haar werk.",
+        "Ik gebruik ook vaak een computer."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/011.webp"
+    },
+    {
+      "id": 12,
+      "category": "Werk",
+      "scenario_en": "A man is standing at a reception desk and showing his ID.",
+      "question": "Waar is de man?\nWat doet hij?\nWaarom laat hij zijn ID zien?\nWanneer doe jij dat?",
+      "answer": [
+        "De man is bij de receptie.",
+        "Hij laat zijn ID-kaart zien.",
+        "Hij doet dat omdat hij een afspraak heeft.",
+        "Ik laat mijn ID zien bij officiële afspraken.",
+        "Dat is soms nodig."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/012.webp"
+    },
+    {
+      "id": 13,
+      "category": "Werk",
+      "scenario_en": "A woman is sitting at a table and filling in a form.",
+      "question": "Wat doet de vrouw?\nWaarom vult zij een formulier in?\nWanneer vul jij een formulier in?",
+      "answer": [
+        "De vrouw vult een formulier in.",
+        "Zij schrijft haar naam en adres op.",
+        "Zij doet dat omdat haar gegevens nodig zijn.",
+        "Ik vul een formulier in bij een afspraak of inschrijving."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/013.webp"
+    },
+    {
+      "id": 14,
+      "category": "School",
+      "scenario_en": "A child is playing on a slide in a playground.",
+      "question": "Waar is het kind?\nWat doet het kind?\nWaarom speelt het kind daar?\nGa jij soms naar de speeltuin?",
+      "answer": [
+        "Het kind is in de speeltuin.",
+        "Het kind speelt op de glijbaan.",
+        "Het kind doet dat omdat het leuk is.",
+        "Ik ga soms met kinderen naar de speeltuin.",
+        "Dat is gezellig."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/014.webp"
+    },
+    {
+      "id": 15,
+      "category": "School",
+      "scenario_en": "A father is standing near a school entrance with his child.",
+      "question": "Waar zijn zij?\nWat doet de vader?\nWaarom brengt hij zijn kind naar school?\nWanneer begint school meestal?",
+      "answer": [
+        "Zij zijn bij school.",
+        "De vader brengt zijn kind naar school.",
+        "Hij doet dat omdat het kind les heeft.",
+        "School begint meestal in de ochtend.",
+        "Ouders brengen kinderen vaak naar school."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/015.webp"
+    },
+    {
+      "id": 16,
+      "category": "Transport",
+      "scenario_en": "A man is standing at a bus stop.",
+      "question": "Waar is de man?\nWat doet hij?\nWaarom wacht hij?\nReis jij vaak met de bus?",
+      "answer": [
+        "De man is bij de bushalte.",
+        "Hij wacht op de bus.",
+        "Hij wacht omdat hij naar zijn werk gaat.",
+        "Ik reis soms met de bus.",
+        "Dat is makkelijk."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/016.webp"
+    },
+    {
+      "id": 17,
+      "category": "Transport",
+      "scenario_en": "A woman is locking her bicycle near a station.",
+      "question": "Waar is zij?\nWat doet zij?\nWaarom zet zij de fiets op slot?\nFiets jij vaak?",
+      "answer": [
+        "Zij is bij het station.",
+        "Zij zet haar fiets op slot.",
+        "Zij doet dat omdat zij diefstal wil voorkomen.",
+        "Ik fiets vaak in Nederland.",
+        "Fietsen is gezond en goedkoop."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/017.webp"
+    },
+    {
+      "id": 18,
+      "category": "Restaurant",
+      "scenario_en": "A man is sitting in a restaurant and reading the menu.",
+      "question": "Waar is de man?\nWat doet hij?\nWaarom leest hij de kaart?\nGa jij graag naar een restaurant?",
+      "answer": [
+        "De man is in een restaurant.",
+        "Hij leest de menukaart.",
+        "Hij wil eten bestellen.",
+        "Ik ga soms naar een restaurant.",
+        "Ik vind dat gezellig."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/018.webp"
+    },
+    {
+      "id": 19,
+      "category": "Dagelijks leven",
+      "scenario_en": "A woman is sitting in a hairdresser's chair.",
+      "question": "Waar is de vrouw?\nWat gebeurt er?\nWaarom is zij daar?\nWanneer ga jij naar de kapper?",
+      "answer": [
+        "De vrouw is bij de kapper.",
+        "De kapper knipt haar haar.",
+        "Zij is daar omdat haar haar te lang is.",
+        "Ik ga naar de kapper als mijn haar lang is.",
+        "Ik wil er netjes uitzien."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/019.webp"
+    },
+    {
+      "id": 20,
+      "category": "Dagelijks leven",
+      "scenario_en": "A man is using an ATM.",
+      "question": "Waar is de man?\nWat doet hij?\nWaarom doet hij dat?\nBetaal jij contant of met pin?",
+      "answer": [
+        "De man is bij de geldautomaat.",
+        "Hij pint geld.",
+        "Hij doet dat omdat hij contant geld nodig heeft.",
+        "Ik betaal meestal met pin.",
+        "Soms heb ik contant geld nodig."
+      ],
+      "image": "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/single/020.webp"
+    }
+  ],
+  "double": [
+    {
+      "id": 21,
+      "category": "Supermarkt",
+      "scenario_en": "Photo 1: a supermarket. Photo 2: a restaurant.",
+      "question": "Je wilt goedkoop eten.\nWelke foto kies je?\nWaarom?",
+      "answer": [
+        "Ik kies foto 1.",
+        "Op foto 1 zie ik een supermarkt.",
+        "Ik koop daar boodschappen.",
+        "Dat is goedkoper dan eten in een restaurant.",
+        "Ik kook dan thuis."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/021_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/021_2.webp"
+      ]
+    },
+    {
+      "id": 22,
+      "category": "Transport",
+      "scenario_en": "Photo 1: a bus. Photo 2: a bicycle.",
+      "question": "Je moet naar je werk.\nWelke manier kies je?\nWaarom?",
+      "answer": [
+        "Ik kies foto 2.",
+        "Op foto 2 zie ik een fiets.",
+        "Ik fiets graag naar mijn werk.",
+        "Fietsen is gezond en goedkoop.",
+        "Als het regent, neem ik de bus."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/022_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/022_2.webp"
+      ]
+    },
+    {
+      "id": 23,
+      "category": "Apotheek",
+      "scenario_en": "Photo 1: a pharmacy. Photo 2: a clothing store.",
+      "question": "Je bent ziek en hebt medicijnen nodig.\nWelke foto kies je?\nWat doe je daar?",
+      "answer": [
+        "Ik kies foto 1.",
+        "Op foto 1 zie ik een apotheek.",
+        "Ik ga daarheen als ik medicijnen nodig heb.",
+        "Ik haal medicijnen op.",
+        "Daarna neem ik de medicijnen thuis in."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/023_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/023_2.webp"
+      ]
+    },
+    {
+      "id": 24,
+      "category": "Apotheek",
+      "scenario_en": "Photo 1: a doctor. Photo 2: a cinema.",
+      "question": "Je hebt buikpijn.\nWelke foto kies je?\nWaarom?",
+      "answer": [
+        "Ik kies foto 1.",
+        "Op foto 1 zie ik de huisarts.",
+        "Ik ga naar de huisarts omdat ik buikpijn heb.",
+        "De dokter kan mij helpen.",
+        "De bioscoop is niet nodig als ik ziek ben."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/024_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/024_2.webp"
+      ]
+    },
+    {
+      "id": 25,
+      "category": "Dagelijks leven",
+      "scenario_en": "Photo 1: someone paying cash. Photo 2: someone paying by card.",
+      "question": "Hoe betaal jij meestal?\nKies een foto en vertel waarom.",
+      "answer": [
+        "Ik kies foto 2.",
+        "Op foto 2 betaalt iemand met pin.",
+        "Ik betaal meestal ook met pin.",
+        "Dat is snel en makkelijk.",
+        "Ik heb niet altijd contant geld bij me."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/025_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/025_2.webp"
+      ]
+    },
+    {
+      "id": 26,
+      "category": "Keuken",
+      "scenario_en": "Photo 1: someone cooking at home. Photo 2: someone ordering food.",
+      "question": "Wat doe jij meestal in de avond?\nKies een foto.",
+      "answer": [
+        "Ik kies foto 1.",
+        "Op foto 1 kookt iemand thuis.",
+        "Ik kook meestal in de avond.",
+        "Dat is goedkoper en gezonder.",
+        "Soms bestel ik eten als ik moe ben."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/026_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/026_2.webp"
+      ]
+    },
+    {
+      "id": 27,
+      "category": "Dagelijks leven",
+      "scenario_en": "Photo 1: someone cleaning. Photo 2: someone watching TV.",
+      "question": "Het huis is vies.\nWelke foto kies je?\nWat moet je doen?",
+      "answer": [
+        "Ik kies foto 1.",
+        "Op foto 1 maakt iemand schoon.",
+        "Ik moet stofzuigen en dweilen.",
+        "Ik doe dat omdat het huis schoon moet zijn.",
+        "Daarna kan ik ontspannen."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/027_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/027_2.webp"
+      ]
+    },
+    {
+      "id": 28,
+      "category": "School",
+      "scenario_en": "Photo 1: someone studying Dutch. Photo 2: someone playing a game.",
+      "question": "Je hebt binnenkort examen.\nWelke foto kies je?\nWaarom?",
+      "answer": [
+        "Ik kies foto 1.",
+        "Op foto 1 leert iemand Nederlands.",
+        "Ik moet oefenen voor mijn examen.",
+        "Ik leer woorden en spreek hardop.",
+        "Zo kan ik beter worden."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/028_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/028_2.webp"
+      ]
+    },
+    {
+      "id": 29,
+      "category": "School",
+      "scenario_en": "Photo 1: a child at school. Photo 2: a child in a playground.",
+      "question": "Het is maandagmorgen.\nWelke foto past beter?\nWaarom?",
+      "answer": [
+        "Ik kies foto 1.",
+        "Op foto 1 is het kind op school.",
+        "Op maandagmorgen gaan kinderen naar school.",
+        "Ze leren lezen en schrijven.",
+        "De speeltuin is meer voor vrije tijd."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/029_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/029_2.webp"
+      ]
+    },
+    {
+      "id": 30,
+      "category": "Werk",
+      "scenario_en": "Photo 1: a supermarket cashier. Photo 2: an office worker.",
+      "question": "Welke persoon werkt met klanten?\nKies een foto en vertel.",
+      "answer": [
+        "Ik kies foto 1.",
+        "De kassamedewerker werkt met klanten.",
+        "Hij scant producten en helpt bij betalen.",
+        "Hij geeft ook een bonnetje.",
+        "Dit werk is belangrijk in de winkel."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/030_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/030_2.webp"
+      ]
+    },
+    {
+      "id": 31,
+      "category": "Werk",
+      "scenario_en": "Photo 1: a nurse. Photo 2: a mechanic.",
+      "question": "Wie helpt zieke mensen?\nKies een foto.",
+      "answer": [
+        "Ik kies foto 1.",
+        "Op foto 1 zie ik een verpleegkundige.",
+        "Zij helpt zieke mensen.",
+        "Zij werkt in het ziekenhuis.",
+        "Een monteur repareert auto's."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/031_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/031_2.webp"
+      ]
+    },
+    {
+      "id": 32,
+      "category": "Problemen",
+      "scenario_en": "Photo 1: a mechanic. Photo 2: a teacher.",
+      "question": "Je auto is kapot.\nWelke foto kies je?\nWaarom?",
+      "answer": [
+        "Ik kies foto 1.",
+        "Op foto 1 zie ik een monteur.",
+        "Een monteur repareert auto's.",
+        "Ik ga naar de garage als mijn auto kapot is.",
+        "De leraar helpt op school."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/032_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/032_2.webp"
+      ]
+    },
+    {
+      "id": 33,
+      "category": "Transport",
+      "scenario_en": "Photo 1: a train station. Photo 2: a living room.",
+      "question": "Je gaat naar een andere stad.\nWelke foto kies je?",
+      "answer": [
+        "Ik kies foto 1.",
+        "Op foto 1 zie ik een station.",
+        "Ik neem de trein naar een andere stad.",
+        "Ik kijk eerst op het bord.",
+        "Daarna ga ik naar het perron."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/033_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/033_2.webp"
+      ]
+    },
+    {
+      "id": 34,
+      "category": "Apotheek",
+      "scenario_en": "Photo 1: a dentist. Photo 2: a bakery.",
+      "question": "Je hebt tandpijn.\nWelke foto kies je?\nWat doe je?",
+      "answer": [
+        "Ik kies foto 1.",
+        "Op foto 1 zie ik de tandarts.",
+        "Ik ga naar de tandarts als ik tandpijn heb.",
+        "De tandarts controleert mijn tanden.",
+        "De bakker is voor brood."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/034_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/034_2.webp"
+      ]
+    },
+    {
+      "id": 35,
+      "category": "Dagelijks leven",
+      "scenario_en": "Photo 1: a library. Photo 2: a café.",
+      "question": "Je wilt rustig studeren.\nWelke foto kies je?",
+      "answer": [
+        "Ik kies foto 1.",
+        "Op foto 1 zie ik een bibliotheek.",
+        "Daar kan ik rustig studeren.",
+        "Ik kan ook boeken lenen.",
+        "Een café is vaak drukker."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/035_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/035_2.webp"
+      ]
+    },
+    {
+      "id": 36,
+      "category": "Dagelijks leven",
+      "scenario_en": "Photo 1: rain with someone holding an umbrella. Photo 2: a sunny park.",
+      "question": "Het regent vandaag.\nWelke foto past?\nWat neem je mee?",
+      "answer": [
+        "Ik kies foto 1.",
+        "Op foto 1 regent het.",
+        "De persoon heeft een paraplu.",
+        "Als het regent, neem ik ook een paraplu mee.",
+        "Dan blijf ik droog."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/036_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/036_2.webp"
+      ]
+    },
+    {
+      "id": 37,
+      "category": "Werk",
+      "scenario_en": "Photo 1: a job interview. Photo 2: a birthday party.",
+      "question": "Je zoekt werk.\nWelke foto kies je?\nWaarom?",
+      "answer": [
+        "Ik kies foto 1.",
+        "Op foto 1 heeft iemand een sollicitatiegesprek.",
+        "Dat doe je als je werk zoekt.",
+        "Je praat met een werkgever.",
+        "Je vertelt over je ervaring."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/037_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/037_2.webp"
+      ]
+    },
+    {
+      "id": 38,
+      "category": "Dagelijks leven",
+      "scenario_en": "Photo 1: someone paying a bill online. Photo 2: someone watching a movie.",
+      "question": "Je rekening moet vandaag betaald worden.\nWelke foto kies je?",
+      "answer": [
+        "Ik kies foto 1.",
+        "Op foto 1 betaalt iemand een rekening online.",
+        "Ik betaal rekeningen op tijd.",
+        "Dat voorkomt problemen.",
+        "Daarna kan ik rustig ontspannen."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/038_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/038_2.webp"
+      ]
+    },
+    {
+      "id": 39,
+      "category": "Problemen",
+      "scenario_en": "Photo 1: a person who is injured. Photo 2: a person shopping.",
+      "question": "Iemand is gevallen.\nWelke foto kies je?\nWat moet je doen?",
+      "answer": [
+        "Ik kies foto 1.",
+        "Op foto 1 is iemand gewond.",
+        "Ik vraag of de persoon hulp nodig heeft.",
+        "Bij gevaar bel ik 112.",
+        "Veiligheid is belangrijk."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/039_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/039_2.webp"
+      ]
+    },
+    {
+      "id": 40,
+      "category": "Dagelijks leven",
+      "scenario_en": "Photo 1: a post office package point. Photo 2: a gym.",
+      "question": "Je wilt een pakket versturen.\nWelke foto kies je?",
+      "answer": [
+        "Ik kies foto 1.",
+        "Op foto 1 zie ik een pakketpunt.",
+        "Ik ga daarheen om een pakket te versturen.",
+        "Ik geef het pakket aan de medewerker.",
+        "Daarna krijg ik een bewijs."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/040_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/double/040_2.webp"
+      ]
+    }
+  ],
+  "triple": [
+    {
+      "id": 41,
+      "category": "Keuken",
+      "scenario_en": "Image 1: A woman buys vegetables in the supermarket. Image 2: She cuts vegetables in the kitchen. Image 3: The family eats dinner.",
+      "question": "Kijk naar de drie foto's.\nVertel wat er gebeurt.",
+      "answer": [
+        "Eerst koopt de vrouw groenten in de supermarkt.",
+        "Daarna gaat zij naar huis.",
+        "Dan snijdt zij de groenten in de keuken.",
+        "Tot slot eet zij samen met haar familie.",
+        "Ik kook ook vaak na het boodschappen doen."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/041_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/041_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/041_3.webp"
+      ]
+    },
+    {
+      "id": 42,
+      "category": "Apotheek",
+      "scenario_en": "Image 1: A man visits the doctor. Image 2: The doctor gives a prescription. Image 3: The man picks up medicine at the pharmacy.",
+      "question": "Vertel het verhaal met de drie foto's.",
+      "answer": [
+        "Eerst gaat de man naar de huisarts.",
+        "Hij voelt zich niet goed.",
+        "Daarna krijgt hij een recept van de dokter.",
+        "Dan gaat hij naar de apotheek.",
+        "Hij haalt daar medicijnen op."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/042_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/042_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/042_3.webp"
+      ]
+    },
+    {
+      "id": 43,
+      "category": "Supermarkt",
+      "scenario_en": "Image 1: A woman takes products from the shelf. Image 2: She puts groceries on the belt. Image 3: She pays by card.",
+      "question": "Wat gebeurt er eerst, daarna en tot slot?",
+      "answer": [
+        "Eerst pakt de vrouw producten uit het schap.",
+        "Daarna legt zij de boodschappen op de band.",
+        "De kassamedewerker scant de producten.",
+        "Tot slot betaalt de vrouw met pin.",
+        "Daarna neemt zij de boodschappen mee naar huis."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/043_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/043_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/043_3.webp"
+      ]
+    },
+    {
+      "id": 44,
+      "category": "Werk",
+      "scenario_en": "Image 1: A man wakes up. Image 2: He cycles to work. Image 3: He works at a computer.",
+      "question": "Vertel wat de man doet.",
+      "answer": [
+        "Eerst wordt de man wakker.",
+        "Daarna kleedt hij zich aan en ontbijt hij.",
+        "Dan fietst hij naar zijn werk.",
+        "Op het werk zit hij achter de computer.",
+        "Hij typt e-mails."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/044_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/044_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/044_3.webp"
+      ]
+    },
+    {
+      "id": 45,
+      "category": "School",
+      "scenario_en": "Image 1: Mother prepares school bag. Image 2: Mother brings child to school. Image 3: Child sits in class.",
+      "question": "Vertel het verhaal.",
+      "answer": [
+        "Eerst maakt de moeder de schooltas klaar.",
+        "Daarna brengt zij haar kind naar school.",
+        "Dan gaat het kind naar de klas.",
+        "Het kind zit aan tafel en luistert naar de leraar.",
+        "School is belangrijk voor kinderen."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/045_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/045_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/045_3.webp"
+      ]
+    },
+    {
+      "id": 46,
+      "category": "School",
+      "scenario_en": "Image 1: Child lies in bed. Image 2: Parent calls school. Image 3: Parent gives child tea.",
+      "question": "Wat gebeurt er?",
+      "answer": [
+        "Eerst ligt het kind ziek in bed.",
+        "Daarna belt de vader of moeder de school.",
+        "Hij zegt dat het kind vandaag niet komt.",
+        "Dan krijgt het kind warme thee.",
+        "Het kind moet rusten."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/046_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/046_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/046_3.webp"
+      ]
+    },
+    {
+      "id": 47,
+      "category": "Transport",
+      "scenario_en": "Image 1: Woman waits at bus stop. Image 2: She checks in with OV card. Image 3: She sits in the bus.",
+      "question": "Vertel wat de vrouw doet.",
+      "answer": [
+        "Eerst wacht de vrouw bij de bushalte.",
+        "Daarna komt de bus.",
+        "Zij stapt in en checkt in met haar OV-chipkaart.",
+        "Dan zit zij in de bus.",
+        "Zij reist naar haar werk."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/047_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/047_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/047_3.webp"
+      ]
+    },
+    {
+      "id": 48,
+      "category": "Problemen",
+      "scenario_en": "Image 1: Man looks at train board. Image 2: Board shows delay. Image 3: Man calls someone.",
+      "question": "Wat is het probleem?\nWat doet de man?",
+      "answer": [
+        "Eerst kijkt de man op het bord op het station.",
+        "Hij ziet dat de trein vertraging heeft.",
+        "Daarna belt hij iemand.",
+        "Hij zegt dat hij later komt.",
+        "Tot slot wacht hij op de volgende trein."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/048_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/048_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/048_3.webp"
+      ]
+    },
+    {
+      "id": 49,
+      "category": "Problemen",
+      "scenario_en": "Image 1: Woman rides bike. Image 2: Bike tire is flat. Image 3: She goes to bicycle repair shop.",
+      "question": "Vertel het verhaal.",
+      "answer": [
+        "Eerst fietst de vrouw op straat.",
+        "Daarna krijgt zij een lekke band.",
+        "Zij kan niet verder fietsen.",
+        "Dan gaat zij naar de fietsenmaker.",
+        "De fietsenmaker repareert haar fiets."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/049_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/049_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/049_3.webp"
+      ]
+    },
+    {
+      "id": 50,
+      "category": "Restaurant",
+      "scenario_en": "Image 1: Couple reads menu. Image 2: Waiter brings food. Image 3: Couple pays bill.",
+      "question": "Wat gebeurt er in het restaurant?",
+      "answer": [
+        "Eerst lezen de mensen de menukaart.",
+        "Daarna bestellen zij eten.",
+        "Dan brengt de ober het eten naar de tafel.",
+        "Ze eten samen.",
+        "Tot slot betalen zij de rekening."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/050_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/050_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/050_3.webp"
+      ]
+    },
+    {
+      "id": 51,
+      "category": "Dagelijks leven",
+      "scenario_en": "Image 1: Room is messy. Image 2: Man vacuums. Image 3: Room is clean.",
+      "question": "Vertel wat er gebeurt.",
+      "answer": [
+        "Eerst is de kamer rommelig en vies.",
+        "Daarna ruimt de man de kamer op.",
+        "Hij stofzuigt de vloer.",
+        "Tot slot is de kamer schoon.",
+        "Een schoon huis is fijn."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/051_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/051_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/051_3.webp"
+      ]
+    },
+    {
+      "id": 52,
+      "category": "Dagelijks leven",
+      "scenario_en": "Image 1: Woman puts clothes in washing machine. Image 2: She hangs clothes. Image 3: She folds clean clothes.",
+      "question": "Vertel het verhaal.",
+      "answer": [
+        "Eerst doet de vrouw de was in de wasmachine.",
+        "Daarna hangt zij de natte kleren op.",
+        "De kleren moeten drogen.",
+        "Later vouwt zij de schone kleren op.",
+        "Dan legt zij ze in de kast."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/052_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/052_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/052_3.webp"
+      ]
+    },
+    {
+      "id": 53,
+      "category": "Werk",
+      "scenario_en": "Image 1: Employees sit at table. Image 2: Woman gives presentation. Image 3: People write notes.",
+      "question": "Wat gebeurt er op kantoor?",
+      "answer": [
+        "Eerst zitten de collega's aan tafel.",
+        "Zij hebben een vergadering.",
+        "Daarna geeft een vrouw een presentatie.",
+        "De collega's luisteren goed.",
+        "Tot slot maken zij aantekeningen."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/053_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/053_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/053_3.webp"
+      ]
+    },
+    {
+      "id": 54,
+      "category": "Werk",
+      "scenario_en": "Image 1: Man searches jobs online. Image 2: Man goes to interview. Image 3: Man shakes hands with employer.",
+      "question": "Vertel het verhaal.",
+      "answer": [
+        "Eerst zoekt de man werk op de computer.",
+        "Daarna vindt hij een vacature.",
+        "Dan gaat hij naar een sollicitatiegesprek.",
+        "Hij praat met de werkgever.",
+        "Tot slot geeft hij de werkgever een hand."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/054_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/054_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/054_3.webp"
+      ]
+    },
+    {
+      "id": 55,
+      "category": "Problemen",
+      "scenario_en": "Image 1: Woman looks worried. Image 2: She searches her bag. Image 3: She asks at reception.",
+      "question": "Wat is het probleem?\nWat doet zij?",
+      "answer": [
+        "Eerst kijkt de vrouw bezorgd.",
+        "Zij is haar telefoon kwijt.",
+        "Daarna zoekt zij in haar tas.",
+        "Zij kan de telefoon niet vinden.",
+        "Tot slot vraagt zij hulp bij de receptie."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/055_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/055_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/055_3.webp"
+      ]
+    },
+    {
+      "id": 56,
+      "category": "Problemen",
+      "scenario_en": "Image 1: Man slips on wet floor. Image 2: Man sits on ground with pain. Image 3: Another person calls for help.",
+      "question": "Wat gebeurt er?",
+      "answer": [
+        "Eerst loopt de man op een natte vloer.",
+        "Daarna glijdt hij uit en valt hij.",
+        "Hij heeft pijn aan zijn been.",
+        "Een andere persoon helpt hem.",
+        "Bij een noodgeval belt iemand 112."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/056_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/056_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/056_3.webp"
+      ]
+    },
+    {
+      "id": 57,
+      "category": "Dagelijks leven",
+      "scenario_en": "Image 1: Family decorates room. Image 2: Child blows candles. Image 3: Child opens present.",
+      "question": "Vertel het verhaal.",
+      "answer": [
+        "Eerst versiert de familie de kamer.",
+        "Daarna komt het kind aan tafel.",
+        "Het kind blaast de kaarsjes uit.",
+        "Dan krijgt het kind een cadeau.",
+        "Iedereen is blij."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/057_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/057_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/057_3.webp"
+      ]
+    },
+    {
+      "id": 58,
+      "category": "Dagelijks leven",
+      "scenario_en": "Image 1: Student searches for book. Image 2: Student reads at table. Image 3: Student borrows book at desk.",
+      "question": "Wat doet de student?",
+      "answer": [
+        "Eerst zoekt de student een boek in de bibliotheek.",
+        "Daarna leest hij aan tafel.",
+        "Hij studeert rustig.",
+        "Tot slot leent hij het boek bij de balie.",
+        "Hij neemt het boek mee naar huis."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/058_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/058_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/058_3.webp"
+      ]
+    },
+    {
+      "id": 59,
+      "category": "Dagelijks leven",
+      "scenario_en": "Image 1: Woman changes clothes. Image 2: Woman exercises in gym. Image 3: Woman drinks water.",
+      "question": "Vertel wat de vrouw doet.",
+      "answer": [
+        "Eerst trekt de vrouw sportkleding aan.",
+        "Daarna traint zij in de sportschool.",
+        "Zij doet oefeningen omdat zij fit wil blijven.",
+        "Tot slot drinkt zij water.",
+        "Sporten is gezond."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/059_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/059_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/059_3.webp"
+      ]
+    },
+    {
+      "id": 60,
+      "category": "Dagelijks leven",
+      "scenario_en": "Image 1: Person orders something online. Image 2: Delivery worker rings doorbell. Image 3: Person receives package.",
+      "question": "Wat gebeurt er?",
+      "answer": [
+        "Eerst bestelt iemand iets online.",
+        "Daarna brengt de bezorger het pakket.",
+        "De bezorger belt aan.",
+        "De persoon doet de deur open.",
+        "Tot slot ontvangt hij het pakket."
+      ],
+      "images": [
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/060_1.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/060_2.webp",
+        "https://pub-4d240c1edc9a45279dad4b8804a047e7.r2.dev/speaking/practice/triple/060_3.webp"
+      ]
+    }
+  ]
+}

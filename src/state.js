@@ -34,4 +34,8 @@ export const state = {
 
   // Auth
   currentUser: null,
+  userProfile: null,   // { user_id, email, role, is_active, ... } from user_profiles
+
+  // Personal vocabulary journal
+  myWords: [],   // [{ id, dutch, english, meaning, example, tags, dateAdded, srsInterval, srsNextReview, srsRepetitions }]
 };

@@ -86,6 +86,9 @@ export function renderAuthPage() {
                   </button>
                 </div>
               </div>
+              <div style="text-align:right;margin-top:-0.25rem;margin-bottom:0.5rem;">
+                <button type="button" class="auth-switch-link" id="btn-forgot-password">Forgot password?</button>
+              </div>
               <p class="auth-error" id="login-error"></p>
               <button type="submit" class="auth-submit-btn" id="login-btn">
                 <span class="auth-btn-text">Sign In</span>
@@ -141,6 +144,8 @@ export function renderAuthPage() {
     </div>
   `;
 
+  document.getElementById('btn-forgot-password').addEventListener('click', () => showForgotPassword());
+
   // Tab switching
   document.getElementById('tab-login').addEventListener('click', () => switchTab('login'));
   document.getElementById('tab-register').addEventListener('click', () => switchTab('register'));
@@ -167,7 +172,7 @@ export function renderAuthPage() {
     const password = document.getElementById('login-password').value;
 
     setLoading(btn, true);
-    errEl.textContent = '';
+    errEl.innerHTML = '';
 
     const { error } = await supabase.auth.signInWithPassword({ email, password });
 
@@ -189,13 +194,27 @@ export function renderAuthPage() {
     const mobile = document.getElementById('reg-mobile').value.trim();
 
     setLoading(btn, true);
-    errEl.textContent = '';
+    errEl.innerHTML = '';
 
-    const { error } = await supabase.auth.signUp({
+    const { data, error } = await supabase.auth.signUp({
       email,
       password,
       options: { data: { mobile: mobile || null } },
     });
+
+    // Supabase returns a user with no identities when the email already exists
+    // (it silently re-sends a confirmation instead of exposing enumeration)
+    const alreadyExists = error?.message?.toLowerCase().includes('user already registered')
+      || (data?.user && data.user.identities && data.user.identities.length === 0);
+
+    if (alreadyExists) {
+      errEl.innerHTML = `An account with this email already exists.
+        <br>Forgot your password?
+        <button type="button" class="auth-switch-link" id="reg-goto-forgot">Reset it here →</button>`;
+      document.getElementById('reg-goto-forgot').addEventListener('click', () => showForgotPassword());
+      setLoading(btn, false);
+      return;
+    }
 
     if (error) {
       errEl.textContent = friendlyError(error.message);
@@ -216,6 +235,164 @@ export function renderAuthPage() {
       </div>
     `;
     document.getElementById('back-to-login').addEventListener('click', () => renderAuthPage());
+  });
+}
+
+function showForgotPassword() {
+  document.getElementById('auth-page').querySelector('.auth-panel-right').innerHTML = `
+    <div class="auth-form-header">
+      <h1 class="auth-form-title">Reset password</h1>
+      <p class="auth-form-sub">We'll send a reset link to your email</p>
+    </div>
+    <form class="auth-form" id="form-forgot">
+      <div class="auth-field">
+        <label class="auth-label" for="forgot-email">Email address</label>
+        <div class="auth-input-wrap">
+          <svg class="auth-input-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <input type="email" id="forgot-email" placeholder="you@example.com" required autocomplete="email" />
+        </div>
+      </div>
+      <p class="auth-error" id="forgot-error"></p>
+      <button type="submit" class="auth-submit-btn" id="forgot-btn">
+        <span class="auth-btn-text">Send Reset Link</span>
+        <span class="auth-btn-spinner" style="display:none">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" class="spin" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 1 10 10"/></svg>
+          Sending…
+        </span>
+      </button>
+      <p class="auth-switch-hint"><button type="button" class="auth-switch-link" id="back-to-signin">← Back to Sign In</button></p>
+    </form>
+  `;
+
+  document.getElementById('back-to-signin').addEventListener('click', () => renderAuthPage());
+
+  document.getElementById('form-forgot').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn     = document.getElementById('forgot-btn');
+    const errEl   = document.getElementById('forgot-error');
+    const email   = document.getElementById('forgot-email').value.trim();
+
+    setLoading(btn, true);
+    errEl.textContent = '';
+
+    const { error } = await supabase.auth.resetPasswordForEmail(email, {
+      redirectTo: `${window.location.origin}/?reset=1`,
+    });
+
+    setLoading(btn, false);
+
+    if (error) {
+      errEl.textContent = friendlyError(error.message);
+      return;
+    }
+
+    document.getElementById('auth-page').querySelector('.auth-panel-right').innerHTML = `
+      <div class="auth-success">
+        <div class="auth-success-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <h2 class="auth-success-title">Check your inbox</h2>
+        <p class="auth-success-body">We sent a reset link to<br><strong>${email}</strong></p>
+        <p class="auth-success-sub">Click the link in the email to set a new password.</p>
+        <button class="auth-submit-btn" style="margin-top:1.75rem;" id="back-to-login-final">Back to Sign In</button>
+      </div>
+    `;
+    document.getElementById('back-to-login-final').addEventListener('click', () => renderAuthPage());
+  });
+}
+
+export function renderResetPasswordForm() {
+  document.body.classList.add('in-dashboard');
+  document.body.classList.remove('in-quiz');
+
+  document.getElementById('main-content').innerHTML = `
+    <div class="view active" id="auth-page">
+      <div class="auth-scene">
+        <div class="auth-card">
+          <div class="auth-panel-left">
+            <div class="auth-flag-stripe"><div></div><div></div><div></div></div>
+            <div class="auth-panel-inner">
+              <div class="auth-panel-logo"><img src="/logo.png" alt="DutchExamPro" /></div>
+              <h2 class="auth-panel-heading">Almost there — set your new password</h2>
+            </div>
+          </div>
+          <div class="auth-panel-right">
+            <div class="auth-form-header">
+              <h1 class="auth-form-title">New password</h1>
+              <p class="auth-form-sub">Choose a strong password for your account</p>
+            </div>
+            <form class="auth-form" id="form-reset">
+              <div class="auth-field">
+                <label class="auth-label" for="reset-password">New password</label>
+                <div class="auth-input-wrap">
+                  <svg class="auth-input-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                  <input type="password" id="reset-password" placeholder="Min. 6 characters" required minlength="6" autocomplete="new-password" />
+                  <button type="button" class="auth-pw-toggle" data-target="reset-password" tabindex="-1">
+                    <svg class="eye-show" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                    <svg class="eye-hide" style="display:none" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="auth-field">
+                <label class="auth-label" for="reset-confirm">Confirm password</label>
+                <div class="auth-input-wrap">
+                  <svg class="auth-input-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                  <input type="password" id="reset-confirm" placeholder="Repeat password" required minlength="6" autocomplete="new-password" />
+                </div>
+              </div>
+              <p class="auth-error" id="reset-error"></p>
+              <button type="submit" class="auth-submit-btn" id="reset-btn">
+                <span class="auth-btn-text">Set New Password</span>
+                <span class="auth-btn-spinner" style="display:none">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" class="spin" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 1 10 10"/></svg>
+                  Saving…
+                </span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+
+  document.querySelectorAll('.auth-pw-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const input = document.getElementById(btn.dataset.target);
+      const isText = input.type === 'text';
+      input.type = isText ? 'password' : 'text';
+      btn.querySelector('.eye-show').style.display = isText ? '' : 'none';
+      btn.querySelector('.eye-hide').style.display = isText ? 'none' : '';
+    });
+  });
+
+  document.getElementById('form-reset').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn     = document.getElementById('reset-btn');
+    const errEl   = document.getElementById('reset-error');
+    const pw      = document.getElementById('reset-password').value;
+    const confirm = document.getElementById('reset-confirm').value;
+
+    if (pw !== confirm) { errEl.textContent = 'Passwords do not match.'; return; }
+
+    setLoading(btn, true);
+    errEl.textContent = '';
+
+    const { error } = await supabase.auth.updateUser({ password: pw });
+    setLoading(btn, false);
+
+    if (error) { errEl.textContent = friendlyError(error.message); return; }
+
+    document.getElementById('auth-page').querySelector('.auth-panel-right').innerHTML = `
+      <div class="auth-success">
+        <div class="auth-success-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <h2 class="auth-success-title">Password updated!</h2>
+        <p class="auth-success-body">Your new password has been saved.</p>
+        <button class="auth-submit-btn" style="margin-top:1.75rem;" id="go-to-app">Continue to app →</button>
+      </div>
+    `;
+    document.getElementById('go-to-app').addEventListener('click', () => nav.landing());
   });
 }
 

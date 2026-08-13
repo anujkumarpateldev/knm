@@ -1,0 +1,218 @@
+{
+  "categories": [
+    {
+      "id": "basic_actions",
+      "name": "Basisacties",
+      "name_en": "Basic Actions",
+      "sentences": [
+        { "dutch": "Hij heeft gestaan.", "english": "He stood." },
+        { "dutch": "Zij heeft gezeten.", "english": "She sat." },
+        { "dutch": "Ze hebben gewacht.", "english": "They waited." },
+        { "dutch": "Hij heeft gelopen.", "english": "He walked." },
+        { "dutch": "Zij heeft gerend.", "english": "She ran." },
+        { "dutch": "Hij heeft gelachen.", "english": "He laughed/smiled." },
+        { "dutch": "Zij heeft gehuild.", "english": "She cried." },
+        { "dutch": "Hij heeft naar de deur gewezen.", "english": "He pointed to the door." },
+        { "dutch": "Zij heeft iets gepakt.", "english": "She took something." },
+        { "dutch": "Hij heeft een tas gedragen.", "english": "He carried a bag." }
+      ]
+    },
+    {
+      "id": "talking",
+      "name": "Praten en bellen",
+      "name_en": "Talking, Calling, Asking",
+      "sentences": [
+        { "dutch": "Hij heeft met een vrouw gepraat.", "english": "He talked to a woman." },
+        { "dutch": "Zij heeft met een man gepraat.", "english": "She talked to a man." },
+        { "dutch": "Ze hebben samen gepraat.", "english": "They talked together." },
+        { "dutch": "Hij heeft zijn moeder gebeld.", "english": "He called his mother." },
+        { "dutch": "Zij heeft de huisarts gebeld.", "english": "She called the GP/doctor." },
+        { "dutch": "Hij heeft om hulp gevraagd.", "english": "He asked for help." },
+        { "dutch": "Zij heeft een vraag gesteld.", "english": "She asked a question." },
+        { "dutch": "Hij heeft antwoord gegeven.", "english": "He answered / gave an answer." },
+        { "dutch": "Zij heeft met de receptionist gesproken.", "english": "She spoke to the receptionist." },
+        { "dutch": "Ze hebben over het probleem overlegd.", "english": "They discussed the problem." }
+      ]
+    },
+    {
+      "id": "taking_giving",
+      "name": "Pakken en geven",
+      "name_en": "Taking, Giving, Putting",
+      "sentences": [
+        { "dutch": "Hij heeft een boek gepakt.", "english": "He took a book." },
+        { "dutch": "Zij heeft een formulier gepakt.", "english": "She took a form." },
+        { "dutch": "Hij heeft een kop koffie genomen.", "english": "He took/had a cup of coffee." },
+        { "dutch": "Zij heeft haar ID-kaart gegeven.", "english": "She gave her ID card." },
+        { "dutch": "Hij heeft een pakket gekregen.", "english": "He received a package." },
+        { "dutch": "Zij heeft een brief gekregen.", "english": "She received a letter." },
+        { "dutch": "Hij heeft het boek op tafel gelegd.", "english": "He put the book on the table." },
+        { "dutch": "Zij heeft de boodschappen in de tas gedaan.", "english": "She put the groceries in the bag." },
+        { "dutch": "Hij heeft de doos op de grond gezet.", "english": "He put the box on the floor." },
+        { "dutch": "Ze hebben samen een tafel gedragen.", "english": "They carried a table together." }
+      ]
+    },
+    {
+      "id": "at_home",
+      "name": "Thuis",
+      "name_en": "At Home",
+      "sentences": [
+        { "dutch": "Hij is thuisgekomen.", "english": "He came home." },
+        { "dutch": "Zij heeft de deur geopend.", "english": "She opened the door." },
+        { "dutch": "Hij heeft de deur dichtgedaan.", "english": "He closed the door." },
+        { "dutch": "Zij heeft haar jas opgehangen.", "english": "She hung up her coat." },
+        { "dutch": "Hij heeft zijn schoenen uitgedaan.", "english": "He took off his shoes." },
+        { "dutch": "Zij heeft het huis schoongemaakt.", "english": "She cleaned the house." },
+        { "dutch": "Hij heeft de woonkamer gestofzuigd.", "english": "He vacuumed the living room." },
+        { "dutch": "Zij heeft de vloer gedweild.", "english": "She mopped the floor." },
+        { "dutch": "Hij heeft het raam schoongemaakt.", "english": "He cleaned the window." },
+        { "dutch": "Ze hebben het huis opgeruimd.", "english": "They tidied the house." }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "Keuken en eten",
+      "name_en": "Kitchen and Food",
+      "sentences": [
+        { "dutch": "Hij heeft gekookt.", "english": "He cooked." },
+        { "dutch": "Zij heeft soep gemaakt.", "english": "She made soup." },
+        { "dutch": "Ze hebben samen gekookt.", "english": "They cooked together." },
+        { "dutch": "Hij heeft groenten gesneden.", "english": "He cut vegetables." },
+        { "dutch": "Zij heeft brood gesneden.", "english": "She cut bread." },
+        { "dutch": "Hij heeft in de pan geroerd.", "english": "He stirred in the pan." },
+        { "dutch": "Zij heeft een ei gebakken.", "english": "She fried an egg." },
+        { "dutch": "Hij heeft koffie gezet.", "english": "He made coffee." },
+        { "dutch": "Zij heeft thee ingeschonken.", "english": "She poured tea." },
+        { "dutch": "Hij heeft melk uit de koelkast gepakt.", "english": "He took milk from the fridge." },
+        { "dutch": "Zij heeft de tafel gedekt.", "english": "She set the table." },
+        { "dutch": "Hij heeft de tafel afgeruimd.", "english": "He cleared the table." },
+        { "dutch": "Ze hebben samen gegeten.", "english": "They ate together." },
+        { "dutch": "Hij heeft de afwas gedaan.", "english": "He did the dishes." },
+        { "dutch": "Zij heeft de borden afgedroogd.", "english": "She dried the plates." }
+      ]
+    },
+    {
+      "id": "living_room",
+      "name": "Woonkamer en vrije tijd",
+      "name_en": "Living Room and Free Time",
+      "sentences": [
+        { "dutch": "Hij heeft op de bank gezeten.", "english": "He sat on the couch." },
+        { "dutch": "Zij heeft televisie gekeken.", "english": "She watched TV." },
+        { "dutch": "Ze hebben televisie gekeken.", "english": "They watched TV." },
+        { "dutch": "Hij heeft de krant gelezen.", "english": "He read the newspaper." },
+        { "dutch": "Zij heeft een boek gelezen.", "english": "She read a book." },
+        { "dutch": "Hij heeft naar muziek geluisterd.", "english": "He listened to music." },
+        { "dutch": "Zij heeft met haar kind gespeeld.", "english": "She played with her child." },
+        { "dutch": "Hij heeft zijn telefoon gebruikt.", "english": "He used his phone." },
+        { "dutch": "Zij heeft koffie gedronken.", "english": "She drank coffee." },
+        { "dutch": "Ze hebben een verjaardag gevierd.", "english": "They celebrated a birthday." }
+      ]
+    },
+    {
+      "id": "bathroom_bedroom",
+      "name": "Badkamer en slaapkamer",
+      "name_en": "Bathroom and Bedroom",
+      "sentences": [
+        { "dutch": "Hij heeft zijn tanden gepoetst.", "english": "He brushed his teeth." },
+        { "dutch": "Zij heeft haar handen gewassen.", "english": "She washed her hands." },
+        { "dutch": "Hij heeft gedoucht.", "english": "He showered." },
+        { "dutch": "Zij heeft haar haar gekamd.", "english": "She combed her hair." },
+        { "dutch": "Hij heeft zich geschoren.", "english": "He shaved." },
+        { "dutch": "Zij heeft zich aangekleed.", "english": "She got dressed." },
+        { "dutch": "Hij heeft zijn jas aangetrokken.", "english": "He put on his coat." },
+        { "dutch": "Zij heeft het bed opgemaakt.", "english": "She made the bed." },
+        { "dutch": "Hij heeft de was gedaan.", "english": "He did the laundry." },
+        { "dutch": "Zij heeft haar tas ingepakt.", "english": "She packed her bag." }
+      ]
+    },
+    {
+      "id": "supermarket",
+      "name": "Boodschappen en supermarkt",
+      "name_en": "Shopping and Supermarket",
+      "sentences": [
+        { "dutch": "Hij heeft boodschappen gedaan.", "english": "He did groceries." },
+        { "dutch": "Zij heeft een winkelwagen geduwd.", "english": "She pushed a shopping cart." },
+        { "dutch": "Hij heeft brood van de plank gepakt.", "english": "He took bread from the shelf." },
+        { "dutch": "Zij heeft melk uit het schap gepakt.", "english": "She took milk from the shelf." },
+        { "dutch": "Hij heeft naar de prijs gekeken.", "english": "He looked at the price." },
+        { "dutch": "Zij heeft het etiket gelezen.", "english": "She read the label." },
+        { "dutch": "Hij heeft appels gewogen.", "english": "He weighed apples." },
+        { "dutch": "Zij heeft groenten gekozen.", "english": "She chose vegetables." },
+        { "dutch": "Hij heeft boodschappen op de band gelegd.", "english": "He put groceries on the belt." },
+        { "dutch": "Zij heeft in de rij gestaan.", "english": "She stood in line." },
+        { "dutch": "Hij heeft met pin betaald.", "english": "He paid by card." },
+        { "dutch": "Zij heeft contant betaald.", "english": "She paid cash." },
+        { "dutch": "Hij heeft een bonnetje gekregen.", "english": "He got a receipt." },
+        { "dutch": "Zij heeft producten gescand.", "english": "She scanned products." },
+        { "dutch": "Ze hebben de supermarkt verlaten.", "english": "They left the supermarket." }
+      ]
+    },
+    {
+      "id": "clothing_store",
+      "name": "Kledingwinkel",
+      "name_en": "Clothing Store",
+      "sentences": [
+        { "dutch": "Hij heeft naar kleding gekeken.", "english": "He looked at clothes." },
+        { "dutch": "Zij heeft een jas gezocht.", "english": "She looked for a coat." },
+        { "dutch": "Hij heeft een broek gepast.", "english": "He tried on pants." },
+        { "dutch": "Zij heeft een jurk gepast.", "english": "She tried on a dress." },
+        { "dutch": "Hij heeft in de spiegel gekeken.", "english": "He looked in the mirror." },
+        { "dutch": "Zij heeft om een andere maat gevraagd.", "english": "She asked for another size." },
+        { "dutch": "Hij heeft bij de kassa betaald.", "english": "He paid at the checkout." },
+        { "dutch": "Zij heeft nieuwe schoenen gekocht.", "english": "She bought new shoes." },
+        { "dutch": "Hij heeft een shirt teruggebracht.", "english": "He returned a shirt." },
+        { "dutch": "Ze hebben samen kleding gekozen.", "english": "They chose clothes together." }
+      ]
+    },
+    {
+      "id": "doctor_pharmacy",
+      "name": "Dokter en apotheek",
+      "name_en": "Doctor and Pharmacy",
+      "sentences": [
+        { "dutch": "Hij heeft in de wachtkamer gezeten.", "english": "He sat in the waiting room." },
+        { "dutch": "Zij heeft op de dokter gewacht.", "english": "She waited for the doctor." },
+        { "dutch": "Hij heeft met de huisarts gepraat.", "english": "He talked to the GP." },
+        { "dutch": "Zij heeft haar klacht verteld.", "english": "She explained her complaint/problem." },
+        { "dutch": "Hij heeft hoofdpijn gehad.", "english": "He had a headache." },
+        { "dutch": "Zij heeft buikpijn gehad.", "english": "She had stomach pain." },
+        { "dutch": "Hij heeft gehoest.", "english": "He coughed." },
+        { "dutch": "Zij heeft geniest.", "english": "She sneezed." },
+        { "dutch": "Hij heeft zijn arm laten zien.", "english": "He showed his arm." },
+        { "dutch": "Zij heeft medicijnen opgehaald.", "english": "She picked up medicine." }
+      ]
+    },
+    {
+      "id": "work_office",
+      "name": "Werk en kantoor",
+      "name_en": "Work and Office",
+      "sentences": [
+        { "dutch": "Hij heeft op kantoor gewerkt.", "english": "He worked in the office." },
+        { "dutch": "Zij heeft achter de computer gewerkt.", "english": "She worked at the computer." },
+        { "dutch": "Hij heeft een e-mail getypt.", "english": "He typed an email." },
+        { "dutch": "Zij heeft een document gelezen.", "english": "She read a document." },
+        { "dutch": "Hij heeft papieren geprint.", "english": "He printed papers." },
+        { "dutch": "Zij heeft documenten gekopieerd.", "english": "She copied documents." },
+        { "dutch": "Hij heeft aantekeningen gemaakt.", "english": "He took notes." },
+        { "dutch": "Zij heeft een klant gebeld.", "english": "She called a customer." },
+        { "dutch": "Hij heeft met zijn collega gepraat.", "english": "He talked to his colleague." },
+        { "dutch": "Ze hebben een vergadering gehad.", "english": "They had a meeting." }
+      ]
+    },
+    {
+      "id": "transport_travel",
+      "name": "Transport en reizen",
+      "name_en": "Transport and Travel",
+      "sentences": [
+        { "dutch": "Hij heeft op de bus gewacht.", "english": "He waited for the bus." },
+        { "dutch": "Zij heeft op de trein gewacht.", "english": "She waited for the train." },
+        { "dutch": "Hij is in de bus gestapt.", "english": "He got on the bus." },
+        { "dutch": "Zij is uit de tram gestapt.", "english": "She got off the tram." },
+        { "dutch": "Hij heeft met zijn OV-chipkaart ingecheckt.", "english": "He checked in with his OV card." },
+        { "dutch": "Zij heeft een kaartje gekocht.", "english": "She bought a ticket." },
+        { "dutch": "Hij heeft het perron gezocht.", "english": "He looked for the platform." },
+        { "dutch": "Zij heeft op het bord gekeken.", "english": "She looked at the board." },
+        { "dutch": "Hij is naar zijn werk gefietst.", "english": "He cycled to work." },
+        { "dutch": "Zij heeft haar fiets op slot gezet.", "english": "She locked her bike." }
+      ]
+    }
+  ]
+}

@@ -7,7 +7,7 @@ import { nav }             from './src/router.js';
 import { supabase }        from './src/supabase.js';
 import { state }           from './src/state.js';
 
-import { renderAuthPage }        from './src/views/auth.js';
+import { renderAuthPage, renderResetPasswordForm } from './src/views/auth.js';
 import { renderLandingPage }     from './src/views/landing.js';
 import { renderCategorySelect }  from './src/views/categorySelect.js';
 import { renderProgressDashboard } from './src/views/progress.js';
@@ -26,6 +26,17 @@ import { renderReadingQuizDashboard } from './src/views/reading/quizDashboard.js
 import { renderSpeakingDashboard } from './src/views/speaking/dashboard.js';
 import { renderSpeakingLearn }     from './src/views/speaking/learn.js';
 import { renderSpeakingPractice }  from './src/views/speaking/practice.js';
+
+import { renderWordJournal }  from './src/views/words/journal.js';
+import { renderAddWord }      from './src/views/words/addWord.js';
+import { renderWordRevision } from './src/views/words/revision.js';
+
+import { renderAdminDashboard } from './src/views/admin/dashboard.js';
+import { renderAdminUsers }     from './src/views/admin/users.js';
+import { renderAdminWords }     from './src/views/admin/wordsAdmin.js';
+import { renderAdminTags }      from './src/views/admin/tagsAdmin.js';
+import { renderEmailComposer }  from './src/views/admin/emailComposer.js';
+import { renderDeactivated }    from './src/views/deactivated.js';
 
 import { fetchKNMModules }    from './src/data/knm.js';
 import { fetchReadingData }   from './src/data/reading.js';
@@ -51,6 +62,17 @@ nav.readingQuizDashboard = renderReadingQuizDashboard;
 nav.speakingDashboard = renderSpeakingDashboard;
 nav.speakingLearn     = renderSpeakingLearn;
 nav.speakingPractice  = renderSpeakingPractice;
+
+nav.wordJournal  = renderWordJournal;
+nav.addWord      = renderAddWord;
+nav.wordRevision = renderWordRevision;
+
+nav.adminDashboard = renderAdminDashboard;
+nav.adminUsers     = renderAdminUsers;
+nav.adminWords     = renderAdminWords;
+nav.adminTags      = renderAdminTags;
+nav.adminEmail     = renderEmailComposer;
+nav.deactivated    = renderDeactivated;
 
 // ── Header: user info + hamburger menu ──────────────────────────────────────
 function updateHeader(user) {
@@ -149,6 +171,16 @@ setProgressSyncHook((domain, moduleId, itemId, value) => {
   syncProgressItem(domain, moduleId, itemId, value); // fire-and-forget
 });
 
+async function fetchUserProfile(userId) {
+  const { data } = await supabase
+    .from('user_profiles')
+    .select('*')
+    .eq('user_id', userId)
+    .maybeSingle();  // won't error if row is missing
+  state.userProfile = data ?? null;
+  return data;
+}
+
 async function init() {
   loadFromStorage();
   setupTheme();
@@ -159,8 +191,18 @@ async function init() {
   state.currentUser = session?.user ?? null;
   updateHeader(session?.user ?? null);
 
-  // Pull remote progress for returning logged-in users
   if (session?.user) {
+    // Fetch profile in parallel with app data — don't block the landing page on it
+    fetchUserProfile(session.user.id).then(profile => {
+      if (profile && !profile.is_active) {
+        renderDeactivated();
+        return;
+      }
+      // Update last_login_at silently
+      supabase.from('user_profiles')
+        .update({ last_login_at: new Date().toISOString() })
+        .eq('user_id', session.user.id);
+    });
     pullAndMergeProgress(session.user.id); // fire-and-forget, non-blocking
   }
 
@@ -182,8 +224,23 @@ supabase.auth.onAuthStateChange((event, session) => {
   state.currentUser = session?.user ?? null;
   updateHeader(session?.user ?? null);
   if (event === 'SIGNED_IN') {
-    pullAndMergeProgress(session.user.id); // merge remote progress on login
+    fetchUserProfile(session.user.id).then(profile => {
+      if (profile && !profile.is_active) {
+        renderDeactivated();
+        return;
+      }
+      supabase.from('user_profiles')
+        .update({ last_login_at: new Date().toISOString() })
+        .eq('user_id', session.user.id);
+    });
+    pullAndMergeProgress(session.user.id);
     nav.landing();
+  }
+  if (event === 'SIGNED_OUT') {
+    state.userProfile = null;
+  }
+  if (event === 'PASSWORD_RECOVERY') {
+    renderResetPasswordForm();
   }
 });
 
