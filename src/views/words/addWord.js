@@ -3,6 +3,7 @@
 import { nav } from '../../router.js';
 import { addWord } from '../../data/words.js';
 import { state } from '../../state.js';
+import { runAIFill } from '../../utils/aiFill.js';
 
 const BACK_ICON = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>`;
 const SPARKLE = `<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 L13.5 9 L20 10 L13.5 11 L12 18 L10.5 11 L4 10 L10.5 9 Z"/></svg>`;
@@ -127,56 +128,25 @@ function showFormStatus(msg, type) {
 async function handleAIFill() {
   if (!state.currentUser) { nav.auth(); return; }
 
-  const dutch = document.getElementById('aw-dutch').value.trim();
-  if (!dutch) {
-    document.getElementById('aw-dutch').focus();
-    return;
-  }
-
-  const btn = document.getElementById('btn-ai-fill');
+  const dutch  = document.getElementById('aw-dutch').value.trim();
+  const btn    = document.getElementById('btn-ai-fill');
   const status = document.getElementById('aw-ai-status');
-  btn.disabled = true;
-  btn.style.opacity = '0.6';
-  status.style.display = 'block';
-  status.className = 'aw-ai-status aw-ai-loading';
-  status.textContent = 'AI is thinking…';
 
-  // Lazy-import to keep the initial bundle lean
-  const { askAI } = await import('../../ai/aiService.js');
-  let fullText = '';
+  if (!dutch) { document.getElementById('aw-dutch').focus(); return; }
 
-  await askAI({
-    module: 'vocab',
-    action: 'fill',
-    context: { dutch_word: dutch },
-    // 'fill' hits the default case in buildUserMessage → returns input directly
-    input: `For the Dutch word or phrase "${dutch}", respond with ONLY this format:
-ENGLISH: [English translation]
-MEANING: [one-sentence definition in English]
-EXAMPLE: [one natural Dutch example sentence using this word]`,
-    onChunk: chunk => { fullText += chunk; },
-    onDone: () => {
-      const get = key => {
-        const m = fullText.match(new RegExp(`${key}:\\s*(.+)`, 'i'));
-        return m?.[1]?.trim() ?? '';
-      };
-      const english = get('ENGLISH');
-      const meaning  = get('MEANING');
-      const example  = get('EXAMPLE');
-
-      if (english && !document.getElementById('aw-english').value) document.getElementById('aw-english').value = english;
-      if (meaning  && !document.getElementById('aw-meaning').value)  document.getElementById('aw-meaning').value  = meaning;
-      if (example  && !document.getElementById('aw-example').value)  document.getElementById('aw-example').value  = example;
-
-      btn.disabled = false; btn.style.opacity = '';
-      status.className = 'aw-ai-status aw-ai-success';
-      status.textContent = 'Fields filled — review and adjust as needed.';
-      setTimeout(() => { status.style.display = 'none'; }, 3500);
+  await runAIFill({
+    dutch,
+    btn,
+    status,
+    fields: {
+      english: 'aw-english',
+      meaning: 'aw-meaning',
+      example: 'aw-example',
     },
-    onError: msg => {
-      btn.disabled = false; btn.style.opacity = '';
-      status.className = 'aw-ai-status aw-ai-error';
-      status.textContent = msg;
-    },
+    dutchInputId: 'aw-dutch',
+    onRetrigger: () => handleAIFill(),
   });
 }
+
+// Re-export so any existing import of runAIFill from this file still works
+export { runAIFill };

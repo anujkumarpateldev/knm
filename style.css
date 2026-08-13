@@ -3540,3 +3540,86 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
   line-height: 1.6;
   margin-bottom: 1.75rem;
 }
+
+/* Admin toolbar (search + count + per-page in one row) */
+.admin-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.875rem;
+  flex-wrap: wrap;
+}
+.admin-per-page {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.admin-per-page-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.admin-per-page-select {
+  padding: 0.3rem 0.6rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.4rem;
+  background: var(--surface);
+  color: var(--text-main);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.admin-per-page-select:focus { outline: 2px solid var(--primary); outline-offset: 1px; }
+
+/* First/last page buttons */
+.admin-pagination .btn-secondary:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+/* AI correction suggestion */
+.aw-ai-warning {
+  background: #fef9c3;
+  color: #854d0e;
+  border: 1px solid #fde68a;
+  border-radius: 0.4rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.82rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.aw-correction-btn {
+  background: #854d0e;
+  color: #fff;
+  border: none;
+  border-radius: 0.35rem;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.aw-correction-btn:hover { background: #713f12; }
+
+/* Tags autocomplete dropdown */
+.tags-dropdown {
+  position: absolute;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.28);
+  z-index: 99999;
+  max-height: 200px;
+  overflow-y: auto;
+  display: none;
+}
+.tags-dropdown-item {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  color: var(--text-main);
+  cursor: pointer;
+  transition: background 0.1s;
+}
+.tags-dropdown-item:hover { background: rgba(99,102,241,0.1); color: var(--primary); }

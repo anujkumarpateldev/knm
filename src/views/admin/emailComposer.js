@@ -12,13 +12,20 @@ let allUsers = [];
 let selectedIds = new Set();
 
 async function callAdminOp(action, extra = {}) {
-  const { data: { session } } = await supabase.auth.getSession();
-  const res = await fetch(ADMIN_ENDPOINT, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${session.access_token}` },
-    body: JSON.stringify({ action, ...extra }),
-  });
-  return res.json();
+  try {
+    const { data: { session } } = await supabase.auth.getSession();
+    const res = await fetch(ADMIN_ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${session.access_token}` },
+      body: JSON.stringify({ action, ...extra }),
+    });
+    if (!res.ok && res.headers.get('content-type')?.includes('application/json') === false) {
+      return { error: `Edge Function error (${res.status}) — is admin-ops deployed?` };
+    }
+    return res.json();
+  } catch (err) {
+    return { error: err.message };
+  }
 }
 
 export async function renderEmailComposer() {
@@ -83,8 +90,12 @@ export async function renderEmailComposer() {
 }
 
 async function loadRecipients() {
-  const result = await callAdminOp('listUsers');
-  allUsers = result.users ?? [];
+  const { data: profiles } = await supabase
+    .from('user_profiles')
+    .select('user_id, email, is_active')
+    .order('email');
+
+  allUsers = profiles ?? [];
 
   renderRecipientList();
   document.getElementById('recipient-count').textContent =
