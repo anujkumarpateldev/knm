@@ -34,72 +34,151 @@ export function invalidateTagsCache() {
   cacheAt    = 0;
 }
 
-// Track dropdowns by inputId so we can clean up old ones on re-setup
-const _dropdowns = {};
+// Track pickers by inputId for cleanup
+const _pickers = {};
 
 export function setupTagsAutocomplete(inputId) {
   const input = document.getElementById(inputId);
   if (!input) return;
 
-  // Remove any previous dropdown for this inputId to avoid duplicates
-  _dropdowns[inputId]?.remove();
+  // Tear down any previous picker for this id
+  _pickers[inputId]?.remove();
 
+  // Hide the raw input — we keep it only as the value store
+  input.style.display = 'none';
+
+  // ── Build picker UI ──────────────────────────────────────────────────────
+  const picker = document.createElement('div');
+  picker.className = 'tag-picker';
+  _pickers[inputId] = picker;
+  input.parentNode.insertBefore(picker, input);
+
+  const chipsRow = document.createElement('div');
+  chipsRow.className = 'tag-picker-chips';
+  picker.appendChild(chipsRow);
+
+  const textInput = document.createElement('input');
+  textInput.type        = 'text';
+  textInput.className   = 'tag-picker-text';
+  textInput.placeholder = 'Search or type a new label…';
+  picker.appendChild(textInput);
+
+  // Dropdown lives on body to escape stacking contexts
   const dropdown = document.createElement('div');
-  dropdown.className = 'tags-dropdown';
+  dropdown.className = 'tag-picker-dropdown';
+  dropdown.style.display = 'none';
   document.body.appendChild(dropdown);
-  _dropdowns[inputId] = dropdown;
 
-  function position() {
-    const r = input.getBoundingClientRect();
+  let selected = [];
+
+  // ── Helpers ───────────────────────────────────────────────────────────────
+  function syncToInput() {
+    // Write comma-separated value back so save handlers can read it
+    const desc = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value');
+    desc.set.call(input, selected.join(', '));
+  }
+
+  function renderChips() {
+    chipsRow.innerHTML = '';
+    selected.forEach(tag => {
+      const chip = document.createElement('span');
+      chip.className = 'tag-chip';
+      chip.innerHTML = `<span class="tag-chip-label">${tag}</span><button type="button" class="tag-chip-remove" data-tag="${tag}">×</button>`;
+      chipsRow.appendChild(chip);
+    });
+  }
+
+  function addTag(tag) {
+    tag = tag.trim().toLowerCase();
+    if (!tag || selected.includes(tag)) return;
+    selected.push(tag);
+    renderChips();
+    syncToInput();
+    textInput.value = '';
+    renderDropdown();
+  }
+
+  function removeTag(tag) {
+    selected = selected.filter(t => t !== tag);
+    renderChips();
+    syncToInput();
+    renderDropdown();
+  }
+
+  function positionDropdown() {
+    const r = picker.getBoundingClientRect();
     dropdown.style.position = 'fixed';
     dropdown.style.top   = (r.bottom + 4) + 'px';
     dropdown.style.left  = r.left + 'px';
     dropdown.style.width = r.width + 'px';
   }
 
-  function getTyping() {
-    const parts = input.value.split(',');
-    return parts[parts.length - 1].trim().toLowerCase();
-  }
-
-  function getSelected() {
-    return input.value.split(',').map(t => t.trim().toLowerCase()).filter(Boolean);
-  }
-
-  async function showSuggestions() {
-    const tags = await fetchTags();
-    if (!tags.length) return;
-    const filter   = getTyping();
-    const selected = getSelected();
-    const matches  = tags.filter(t =>
-      t.toLowerCase().includes(filter) && !selected.includes(t.toLowerCase())
+  async function renderDropdown() {
+    const allTags = await fetchTags();
+    const filter  = textInput.value.trim().toLowerCase();
+    // Show tags that aren't selected yet, filtered by what's typed
+    const visible = allTags.filter(t =>
+      !selected.includes(t) && (filter === '' || t.toLowerCase().includes(filter))
     );
-    if (!matches.length) { dropdown.style.display = 'none'; return; }
 
-    position();
-    dropdown.innerHTML = matches.slice(0, 10).map(t =>
-      `<div class="tags-dropdown-item" data-tag="${t}">${t}</div>`
+    if (!visible.length) { dropdown.style.display = 'none'; return; }
+
+    positionDropdown();
+    dropdown.innerHTML = visible.map(t =>
+      `<div class="tag-picker-opt" data-tag="${t}">${t}</div>`
     ).join('');
     dropdown.style.display = 'block';
 
-    dropdown.querySelectorAll('.tags-dropdown-item').forEach(item => {
-      item.addEventListener('mousedown', e => {
+    dropdown.querySelectorAll('.tag-picker-opt').forEach(opt => {
+      opt.addEventListener('mousedown', e => {
         e.preventDefault();
-        const parts = input.value.split(',');
-        parts[parts.length - 1] = ' ' + item.dataset.tag;
-        input.value = parts.join(',').replace(/^\s*,\s*/, '') + ', ';
-        dropdown.style.display = 'none';
-        input.focus();
-        // Show remaining suggestions after selection
-        setTimeout(() => showSuggestions(), 50);
+        addTag(opt.dataset.tag);
+        textInput.focus();
       });
     });
   }
 
-  input.addEventListener('focus',   () => showSuggestions());
-  input.addEventListener('input',   () => showSuggestions());
-  input.addEventListener('blur',    () => setTimeout(() => { dropdown.style.display = 'none'; }, 150));
-  input.addEventListener('keydown', e => { if (e.key === 'Escape') dropdown.style.display = 'none'; });
+  function closeDropdown() { dropdown.style.display = 'none'; }
+
+  // ── Events ────────────────────────────────────────────────────────────────
+  picker.addEventListener('click', () => textInput.focus());
+
+  textInput.addEventListener('focus', () => renderDropdown());
+  textInput.addEventListener('input', () => renderDropdown());
+  textInput.addEventListener('blur',  () => setTimeout(closeDropdown, 150));
+  textInput.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ',') {
+      e.preventDefault();
+      const val = textInput.value.replace(/,\s*$/, '').trim();
+      if (val) addTag(val);
+    }
+    if (e.key === 'Escape') closeDropdown();
+    if (e.key === 'Backspace' && !textInput.value && selected.length)
+      removeTag(selected[selected.length - 1]);
+  });
+
+  chipsRow.addEventListener('click', e => {
+    const btn = e.target.closest('.tag-chip-remove');
+    if (btn) { e.stopPropagation(); removeTag(btn.dataset.tag); }
+  });
+
+  // ── Intercept input.value setter so modal resets sync the picker ──────────
+  const proto = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value');
+  Object.defineProperty(input, 'value', {
+    get() { return proto.get.call(this); },
+    set(v) {
+      proto.set.call(this, v);
+      selected = v ? v.split(',').map(t => t.trim()).filter(Boolean) : [];
+      renderChips();
+    },
+    configurable: true,
+  });
+
+  // Initialise from any pre-existing value (e.g. edit modal)
+  if (input.value) {
+    selected = input.value.split(',').map(t => t.trim()).filter(Boolean);
+    renderChips();
+  }
 }
 
 export async function runAIFill({ dutch, btn, status, fields, dutchInputId, onRetrigger }) {
