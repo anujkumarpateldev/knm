@@ -3623,3 +3623,25 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
   transition: background 0.1s;
 }
 .tags-dropdown-item:hover { background: rgba(99,102,241,0.1); color: var(--primary); }
+
+/* Revision prev/skip nav */
+.rev-nav-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  width: 100%;
+  max-width: 340px;
+}
+.btn-rev-nav {
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.btn-rev-nav:hover:not(:disabled) { background: var(--surface-2); color: var(--text-main); }
+.btn-rev-nav:disabled { opacity: 0.35; cursor: default; }

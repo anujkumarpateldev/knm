@@ -77,9 +77,21 @@ export async function runAIFill({ dutch, btn, status, fields, dutchInputId, onRe
   status.className = 'aw-ai-status aw-ai-loading';
   status.textContent = 'AI is thinking…';
 
-  const { askAI } = await import('../ai/aiService.js');
+  const restore = () => { btn.disabled = false; btn.style.opacity = ''; };
+
+  let askAI;
+  try {
+    ({ askAI } = await import('../ai/aiService.js'));
+  } catch (e) {
+    restore();
+    status.className = 'aw-ai-status aw-ai-error';
+    status.textContent = 'Could not load AI service.';
+    return;
+  }
+
   let fullText = '';
 
+  try {
   await askAI({
     module: 'vocab',
     action: 'fill',
@@ -126,9 +138,14 @@ EXAMPLE: [one natural Dutch example sentence using this word]`,
       }
     },
     onError: msg => {
-      btn.disabled = false; btn.style.opacity = '';
+      restore();
       status.className = 'aw-ai-status aw-ai-error';
       status.textContent = msg;
     },
   });
+  } catch (e) {
+    restore();
+    status.className = 'aw-ai-status aw-ai-error';
+    status.textContent = e?.message || 'AI request failed.';
+  }
 }

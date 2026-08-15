@@ -104,7 +104,7 @@ export async function addWord({ dutch, english, meaning = '', example = '', tags
     // New word — insert into dictionary
     const { data: newEntry, error: dictErr } = await supabase
       .from('word_dictionary')
-      .insert({ dutch: dutchTrimmed, english: english.trim(), meaning: meaning.trim(), example: example.trim() })
+      .insert({ dutch: dutchTrimmed, english: english.trim(), meaning: meaning.trim(), example: example.trim(), tags })
       .select('id')
       .single();
     if (dictErr) return { error: dictErr.message };

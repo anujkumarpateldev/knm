@@ -133,6 +133,9 @@ export async function renderWordJournal() {
   document.getElementById('btn-back-landing').addEventListener('click', () => nav.landing());
   document.getElementById('btn-start-revision')?.addEventListener('click', () => nav.wordRevision());
 
+  // Remove any stale modal from a previous render before creating a fresh one
+  document.getElementById('wj-add-modal')?.remove();
+
   // Inject Add Word modal
   const isLoggedIn = !!state.currentUser;
   const modalEl = document.createElement('div');

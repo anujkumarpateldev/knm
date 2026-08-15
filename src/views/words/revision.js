@@ -248,6 +248,10 @@ function renderRevCard() {
           <button class="btn-rating btn-rating-vague"  id="btn-vague">~ Vague</button>
           <button class="btn-rating btn-rating-knew"   id="btn-knew">✓ Knew it</button>
         </div>
+        <div class="rev-nav-row">
+          <button class="btn-rev-nav" id="btn-prev" ${idx === 0 ? 'disabled' : ''}>← Prev</button>
+          <button class="btn-rev-nav" id="btn-skip" ${idx === total - 1 ? 'disabled' : ''}>Skip →</button>
+        </div>
       </div>
     </div>
   `;
@@ -266,6 +270,14 @@ function renderRevCard() {
   document.getElementById('btn-forgot').addEventListener('click', () => rate('forgot'));
   document.getElementById('btn-vague').addEventListener('click',  () => rate('vague'));
   document.getElementById('btn-knew').addEventListener('click',   () => rate('knew'));
+
+  document.getElementById('btn-prev').addEventListener('click', () => {
+    if (revIndex > 0) { revIndex--; renderRevCard(); }
+  });
+  document.getElementById('btn-skip').addEventListener('click', () => {
+    if (revIndex < revQueue.length - 1) { revIndex++; renderRevCard(); }
+    else renderRevSummary();
+  });
 }
 
 function rate(result) {
