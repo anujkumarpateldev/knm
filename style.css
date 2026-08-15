@@ -3605,12 +3605,12 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
 
 /* Tags autocomplete dropdown */
 .tags-dropdown {
-  position: absolute;
+  position: fixed;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 0.5rem;
   box-shadow: 0 8px 24px rgba(0,0,0,0.28);
-  z-index: 99999;
+  z-index: 10000;
   max-height: 200px;
   overflow-y: auto;
   display: none;

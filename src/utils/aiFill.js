@@ -34,8 +34,9 @@ export function setupTagsAutocomplete(inputId) {
 
   function position() {
     const r = input.getBoundingClientRect();
-    dropdown.style.top   = (r.bottom + window.scrollY + 4) + 'px';
-    dropdown.style.left  = (r.left  + window.scrollX) + 'px';
+    dropdown.style.position = 'fixed';
+    dropdown.style.top   = (r.bottom + 4) + 'px';
+    dropdown.style.left  = r.left + 'px';
     dropdown.style.width = r.width + 'px';
   }
 
