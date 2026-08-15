@@ -2,19 +2,36 @@
 // Shared AI fill logic — used by both user addWord and admin wordsAdmin
 import { supabase } from '../supabase.js';
 
-let cachedTags = null;
+let cachedTags  = null;
+let cacheAt     = 0;
+let inFlight    = null;
+const CACHE_MS  = 30_000; // re-fetch after 30 s or after invalidation
 
-export async function loadAllTags() {
-  const { data } = await supabase.from('word_dictionary').select('tags');
-  const set = new Set();
-  (data ?? []).forEach(row => (row.tags ?? []).forEach(t => { if (t) set.add(t); }));
-  cachedTags = [...set].sort();
-  return cachedTags;
+async function fetchTags() {
+  const now = Date.now();
+  // Return cached value if still fresh
+  if (cachedTags !== null && now - cacheAt < CACHE_MS) return cachedTags;
+  // Deduplicate concurrent in-flight requests
+  if (inFlight) return inFlight;
+  inFlight = supabase.from('word_dictionary').select('tags').then(({ data }) => {
+    const set = new Set();
+    (data ?? []).forEach(row => (row.tags ?? []).forEach(t => { if (t) set.add(t); }));
+    cachedTags = [...set].sort();
+    cacheAt    = Date.now();
+    inFlight   = null;
+    return cachedTags;
+  }).catch(() => { inFlight = null; return cachedTags ?? []; });
+  return inFlight;
 }
 
-// Call after saving a word with new tags so suggestions refresh on next open
+export async function loadAllTags() {
+  return fetchTags();
+}
+
+// Call after saving a word with new tags so next open fetches fresh
 export function invalidateTagsCache() {
   cachedTags = null;
+  cacheAt    = 0;
 }
 
 // Track dropdowns by inputId so we can clean up old ones on re-setup
@@ -50,8 +67,7 @@ export function setupTagsAutocomplete(inputId) {
   }
 
   async function showSuggestions() {
-    // Always reload if cache was invalidated
-    const tags = cachedTags !== null ? cachedTags : await loadAllTags();
+    const tags = await fetchTags();
     if (!tags.length) return;
     const filter   = getTyping();
     const selected = getSelected();
