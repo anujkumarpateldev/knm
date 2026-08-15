@@ -12,13 +12,25 @@ export async function loadAllTags() {
   return cachedTags;
 }
 
+// Call after saving a word with new tags so suggestions refresh on next open
+export function invalidateTagsCache() {
+  cachedTags = null;
+}
+
+// Track dropdowns by inputId so we can clean up old ones on re-setup
+const _dropdowns = {};
+
 export function setupTagsAutocomplete(inputId) {
   const input = document.getElementById(inputId);
   if (!input) return;
 
+  // Remove any previous dropdown for this inputId to avoid duplicates
+  _dropdowns[inputId]?.remove();
+
   const dropdown = document.createElement('div');
   dropdown.className = 'tags-dropdown';
   document.body.appendChild(dropdown);
+  _dropdowns[inputId] = dropdown;
 
   function position() {
     const r = input.getBoundingClientRect();
@@ -37,7 +49,8 @@ export function setupTagsAutocomplete(inputId) {
   }
 
   async function showSuggestions() {
-    const tags = cachedTags ?? await loadAllTags();
+    // Always reload if cache was invalidated
+    const tags = cachedTags !== null ? cachedTags : await loadAllTags();
     if (!tags.length) return;
     const filter   = getTyping();
     const selected = getSelected();
@@ -60,6 +73,8 @@ export function setupTagsAutocomplete(inputId) {
         input.value = parts.join(',').replace(/^\s*,\s*/, '') + ', ';
         dropdown.style.display = 'none';
         input.focus();
+        // Show remaining suggestions after selection
+        setTimeout(() => showSuggestions(), 50);
       });
     });
   }
