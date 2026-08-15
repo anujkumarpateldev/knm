@@ -2,6 +2,8 @@ import { state } from '../state.js';
 import { nav } from '../router.js';
 
 export function renderProgressDashboard() {
+  document.body.classList.add('in-dashboard');
+  document.body.classList.remove('in-quiz');
   const sorted = [...state.activityHistory].sort((a, b) => b.timestamp - a.timestamp);
 
   const listHtml = sorted.length === 0

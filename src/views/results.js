@@ -4,7 +4,8 @@ import { saveToStorage } from '../storage.js';
 import { stopExamTimer } from '../utils/examTimer.js';
 
 export function renderResults() {
-  document.body.classList.remove('in-dashboard', 'in-quiz');
+  document.body.classList.add('in-dashboard');
+  document.body.classList.remove('in-quiz');
   stopExamTimer();
   const timerEl = document.getElementById('exam-timer');
   if (timerEl) timerEl.style.display = 'none';

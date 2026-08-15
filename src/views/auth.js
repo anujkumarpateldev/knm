@@ -424,7 +424,15 @@ function friendlyError(msg) {
   if (m.includes('invalid login') || m.includes('invalid credentials')) return 'Incorrect email or password.';
   if (m.includes('email not confirmed')) return 'Please confirm your email before signing in.';
   if (m.includes('user already registered')) return 'An account with this email already exists.';
-  if (m.includes('password')) return 'Password must be at least 6 characters.';
-  if (m.includes('rate limit')) return 'Too many attempts. Please wait a moment and try again.';
+  if (m.includes('password') && m.includes('least')) return 'Password must be at least 6 characters.';
+  if (m.includes('over_email_send_rate_limit') || m.includes('email rate limit')) {
+    return 'Email limit reached — Supabase allows a few emails per hour. Please wait ~60 minutes and try again.';
+  }
+  if (m.includes('rate limit') || m.includes('after ')) {
+    // Extract seconds if present e.g. "only request this after 54 seconds"
+    const match = msg.match(/after (\d+) second/i);
+    if (match) return `Please wait ${match[1]} seconds before requesting another email.`;
+    return 'Too many attempts. Please wait a few minutes and try again.';
+  }
   return msg;
 }

@@ -267,9 +267,19 @@ function renderRevCard() {
     document.getElementById('rev-rating-row').style.display = 'flex';
   });
 
-  document.getElementById('btn-forgot').addEventListener('click', () => rate('forgot'));
-  document.getElementById('btn-vague').addEventListener('click',  () => rate('vague'));
-  document.getElementById('btn-knew').addEventListener('click',   () => rate('knew'));
+  function rateWithFlash(result) {
+    const card = document.getElementById('rev-flashcard');
+    card.classList.add(`rev-result-${result}`);
+    // Disable all rating buttons immediately to prevent double-click
+    ['btn-forgot','btn-vague','btn-knew'].forEach(id => {
+      document.getElementById(id).disabled = true;
+    });
+    setTimeout(() => rate(result), 500);
+  }
+
+  document.getElementById('btn-forgot').addEventListener('click', () => rateWithFlash('forgot'));
+  document.getElementById('btn-vague').addEventListener('click',  () => rateWithFlash('vague'));
+  document.getElementById('btn-knew').addEventListener('click',   () => rateWithFlash('knew'));
 
   document.getElementById('btn-prev').addEventListener('click', () => {
     if (revIndex > 0) { revIndex--; renderRevCard(); }

@@ -31,4 +31,11 @@ export const nav = {
   adminEmail:     () => {},
   // Deactivated screen
   deactivated:    () => {},
+  // Static pages
+  privacy:  () => {},
+  terms:    () => {},
+  help:     () => {},
+  contact:  () => {},
+  // Account
+  profile:  () => {},
 };

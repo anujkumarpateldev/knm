@@ -4,6 +4,8 @@ import { getKNMModuleProgress } from '../../data/knm.js';
 import { getModuleProgressMap } from '../../storage.js';
 
 export function renderKNMDashboard() {
+  document.body.classList.add('in-dashboard');
+  document.body.classList.remove('in-quiz');
   state.isExamMode = false;
 
   const cardsHtml = state.knmModules.map(mod => {

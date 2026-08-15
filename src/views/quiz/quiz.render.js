@@ -16,8 +16,13 @@ const ICONS = {
 };
 
 export function renderQuestion() {
-  document.body.classList.remove('in-dashboard');
-  document.body.classList.add('in-quiz');
+  if (state.isExamMode) {
+    document.body.classList.remove('in-dashboard');
+    document.body.classList.add('in-quiz');
+  } else {
+    document.body.classList.add('in-dashboard');
+    document.body.classList.remove('in-quiz');
+  }
 
   if (!state.currentModule?.questions?.length) {
     nav.landing();

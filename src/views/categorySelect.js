@@ -51,6 +51,8 @@ const CATEGORIES = [
 ];
 
 export function renderCategorySelect(mode) {
+  document.body.classList.add('in-dashboard');
+  document.body.classList.remove('in-quiz');
   state.currentMode = mode;
 
   const cardsHtml = CATEGORIES.map(cat => {

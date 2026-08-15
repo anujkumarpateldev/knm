@@ -37,6 +37,11 @@ import { renderAdminWords }     from './src/views/admin/wordsAdmin.js';
 import { renderAdminTags }      from './src/views/admin/tagsAdmin.js';
 import { renderEmailComposer }  from './src/views/admin/emailComposer.js';
 import { renderDeactivated }    from './src/views/deactivated.js';
+import { renderPrivacy }        from './src/views/privacy.js';
+import { renderTerms }          from './src/views/terms.js';
+import { renderHelp }           from './src/views/help.js';
+import { renderContact }        from './src/views/contact.js';
+import { renderProfile }        from './src/views/profile.js';
 
 import { fetchKNMModules }    from './src/data/knm.js';
 import { fetchReadingData }   from './src/data/reading.js';
@@ -74,13 +79,19 @@ nav.adminTags      = renderAdminTags;
 nav.adminEmail     = renderEmailComposer;
 nav.deactivated    = renderDeactivated;
 
+nav.privacy = renderPrivacy;
+nav.terms   = renderTerms;
+nav.help    = renderHelp;
+nav.contact = renderContact;
+nav.profile = renderProfile;
+
 // ── Header: user info + hamburger menu ──────────────────────────────────────
 function updateHeader(user) {
   const controls = document.querySelector('.header-controls');
   const existing = document.getElementById('user-info');
   if (existing) existing.remove();
 
-  const username = user ? user.email.split('@')[0] : null;
+  const username = user ? (user.user_metadata?.display_name || user.email.split('@')[0]) : null;
 
   const userEl = document.createElement('div');
   userEl.id = 'user-info';
@@ -101,6 +112,10 @@ function updateHeader(user) {
           </div>
         </div>
         <div class="dropdown-divider"></div>
+        <button class="dropdown-item" id="btn-profile">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          Account Settings
+        </button>
         <button class="dropdown-item dropdown-item-danger" id="btn-logout">
           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
           Logout
@@ -151,6 +166,10 @@ function updateHeader(user) {
   });
 
   if (user) {
+    document.getElementById('btn-profile').addEventListener('click', () => {
+      document.getElementById('header-dropdown').classList.remove('open');
+      nav.profile();
+    });
     document.getElementById('btn-logout').addEventListener('click', async () => {
       await supabase.auth.signOut();
       updateHeader(null);
@@ -163,6 +182,31 @@ function updateHeader(user) {
       setTimeout(() => document.getElementById('tab-register')?.click(), 50);
     });
   }
+}
+
+// ── Cookie consent ───────────────────────────────────────────────────────────
+const COOKIE_KEY = 'knm_cookie_consent';
+
+function initCookieBanner() {
+  if (localStorage.getItem(COOKIE_KEY)) return; // already decided
+
+  const banner  = document.getElementById('cookie-banner');
+  const accept  = document.getElementById('cookie-btn-accept');
+  const decline = document.getElementById('cookie-btn-decline');
+  const link    = document.getElementById('cookie-link-privacy');
+
+  if (!banner) return;
+  banner.classList.remove('hidden');
+
+  accept.addEventListener('click', () => {
+    localStorage.setItem(COOKIE_KEY, 'accepted');
+    banner.classList.add('hidden');
+  });
+  decline.addEventListener('click', () => {
+    localStorage.setItem(COOKIE_KEY, 'declined');
+    banner.classList.add('hidden');
+  });
+  link?.addEventListener('click', () => nav.privacy());
 }
 
 // ── Boot ────────────────────────────────────────────────────────────────────
@@ -184,7 +228,14 @@ async function fetchUserProfile(userId) {
 async function init() {
   loadFromStorage();
   setupTheme();
+  initCookieBanner();
   document.getElementById('logo-home')?.addEventListener('click', renderLandingPage);
+
+  // Footer navigation
+  document.getElementById('footer-link-privacy')?.addEventListener('click', () => nav.privacy());
+  document.getElementById('footer-link-terms')?.addEventListener('click',   () => nav.terms());
+  document.getElementById('footer-link-help')?.addEventListener('click',    () => nav.help());
+  document.getElementById('footer-link-contact')?.addEventListener('click', () => nav.contact());
 
   // Check existing session
   const { data: { session } } = await supabase.auth.getSession();
@@ -221,8 +272,13 @@ async function loadAppData() {
 
 // Re-load data after login (auth state change)
 supabase.auth.onAuthStateChange((event, session) => {
+  // Capture previous login state before updating — used to distinguish
+  // a real sign-in from a session/token refresh that also fires SIGNED_IN.
+  const wasAlreadyLoggedIn = !!state.currentUser;
+
   state.currentUser = session?.user ?? null;
   updateHeader(session?.user ?? null);
+
   if (event === 'SIGNED_IN') {
     fetchUserProfile(session.user.id).then(profile => {
       if (profile && !profile.is_active) {
@@ -234,7 +290,9 @@ supabase.auth.onAuthStateChange((event, session) => {
         .eq('user_id', session.user.id);
     });
     pullAndMergeProgress(session.user.id);
-    nav.landing();
+    // Only navigate to landing on an actual sign-in, not on token refresh
+    // (Supabase fires SIGNED_IN on both, so guard with wasAlreadyLoggedIn)
+    if (!wasAlreadyLoggedIn) nav.landing();
   }
   if (event === 'SIGNED_OUT') {
     state.userProfile = null;

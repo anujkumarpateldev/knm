@@ -92,41 +92,49 @@ export async function addWord({ dutch, english, meaning = '', example = '', tags
   // 1. Check word_dictionary for existing Dutch word (case-insensitive via dutch_lower)
   const { data: existing } = await supabase
     .from('word_dictionary')
-    .select('id')
+    .select('id, dutch, english, meaning, example, tags')
     .eq('dutch_lower', dutchTrimmed.toLowerCase())
     .maybeSingle();
 
-  let dictId;
   if (existing) {
-    // Word already in shared dictionary — reuse it
-    dictId = existing.id;
-  } else {
-    // New word — insert into dictionary
-    const { data: newEntry, error: dictErr } = await supabase
-      .from('word_dictionary')
-      .insert({ dutch: dutchTrimmed, english: english.trim(), meaning: meaning.trim(), example: example.trim(), tags })
+    // 2a. Word in shared dictionary — check if user already has it
+    const { data: existingUserWord } = await supabase
+      .from('user_words')
       .select('id')
-      .single();
-    if (dictErr) return { error: dictErr.message };
-    dictId = newEntry.id;
+      .eq('user_id', state.currentUser.id)
+      .eq('dict_id', existing.id)
+      .maybeSingle();
+
+    if (existingUserWord) return { duplicate: true };
+
+    // Not in user's list yet — surface the dict data for UI confirmation
+    return {
+      dictExists: true,
+      dictWord: {
+        id:      existing.id,
+        dutch:   existing.dutch,
+        english: existing.english,
+        meaning: existing.meaning,
+        example: existing.example,
+        tags:    existing.tags ?? [],
+      },
+    };
   }
 
-  // 2. Check if this user already has this word
-  const { data: existingUserWord } = await supabase
-    .from('user_words')
+  // 2b. New word — insert into dictionary
+  const { data: newEntry, error: dictErr } = await supabase
+    .from('word_dictionary')
+    .insert({ dutch: dutchTrimmed, english: english.trim(), meaning: meaning.trim(), example: example.trim(), tags })
     .select('id')
-    .eq('user_id', state.currentUser.id)
-    .eq('dict_id', dictId)
-    .maybeSingle();
-
-  if (existingUserWord) return { duplicate: true };
+    .single();
+  if (dictErr) return { error: dictErr.message };
 
   // 3. Add to user's list
   const { data: userWord, error: uwErr } = await supabase
     .from('user_words')
     .insert({
       user_id:         state.currentUser.id,
-      dict_id:         dictId,
+      dict_id:         newEntry.id,
       date_added:      today(),
       srs_interval:    1,
       srs_repetitions: 0,
@@ -140,6 +148,58 @@ export async function addWord({ dutch, english, meaning = '', example = '', tags
   const entry = mapRow(userWord);
   state.myWords.unshift(entry);
   return { entry };
+}
+
+// ── Add from existing dictionary entry ────────────────────────────────────────
+export async function confirmAddFromDict(dictId) {
+  if (!state.currentUser) return { error: 'Not logged in' };
+
+  const { data: userWord, error } = await supabase
+    .from('user_words')
+    .insert({
+      user_id:         state.currentUser.id,
+      dict_id:         dictId,
+      date_added:      today(),
+      srs_interval:    1,
+      srs_repetitions: 0,
+      srs_next_review: addDays(today(), 1),
+    })
+    .select(USER_WORDS_SELECT)
+    .single();
+
+  if (error) return { error: error.message };
+
+  const entry = mapRow(userWord);
+  state.myWords.unshift(entry);
+  return { entry };
+}
+
+// ── Update ────────────────────────────────────────────────────────────────────
+export async function updateWord(id, { dutch, english, meaning, example, tags }) {
+  const idx = state.myWords.findIndex(w => w.id === id);
+  if (idx === -1) return { error: 'Word not found' };
+  const w = state.myWords[idx];
+
+  if (!state.currentUser) {
+    state.myWords[idx] = { ...w, dutch, english, meaning, example, tags };
+    localStorage.setItem(WORDS_KEY, JSON.stringify(state.myWords));
+    return { success: true };
+  }
+
+  const { error: uwErr } = await supabase
+    .from('user_words')
+    .update({ custom_dutch: dutch, custom_english: english, custom_meaning: meaning, custom_example: example })
+    .eq('id', id)
+    .eq('user_id', state.currentUser.id);
+
+  if (uwErr) return { error: uwErr.message };
+
+  if (w.dictId) {
+    await supabase.from('word_dictionary').update({ tags }).eq('id', w.dictId);
+  }
+
+  state.myWords[idx] = { ...w, dutch, english, meaning, example, tags };
+  return { success: true };
 }
 
 // ── Delete ────────────────────────────────────────────────────────────────────

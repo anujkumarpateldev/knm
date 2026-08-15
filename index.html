@@ -9,6 +9,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>emailjs.init('7TRTQdCZRdCUFAx4M');</script>
 </head>
 <body>
   
@@ -105,6 +107,36 @@
          <p>Loading Modules...</p>
       </div>
     </main>
+
+    <footer class="app-footer" id="app-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="footer-logo-text"><span style="color:#E8750C">Dutch</span><span style="color:#1B3A6B">eXampro</span></span>
+          <span class="footer-tagline">Master Your Dutch A2 Integration Exam</span>
+        </div>
+        <nav class="footer-links">
+          <a class="footer-link" id="footer-link-privacy">Privacy Policy</a>
+          <a class="footer-link" id="footer-link-terms">Terms of Service</a>
+          <a class="footer-link" id="footer-link-help">Help &amp; FAQ</a>
+          <a class="footer-link" id="footer-link-contact">Contact</a>
+        </nav>
+        <div class="footer-copy">&copy; 2026 DutchExamPro. All rights reserved.</div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Cookie consent banner (shown once, hidden after user choice) -->
+  <div id="cookie-banner" class="hidden">
+    <p class="cookie-text">
+      We use essential cookies to keep you logged in and remember your preferences.
+      By clicking <strong>Accept</strong> you also agree to our
+      <a id="cookie-link-privacy">Privacy Policy</a>.
+      No tracking or advertising cookies are used.
+    </p>
+    <div class="cookie-actions">
+      <button class="cookie-btn-decline" id="cookie-btn-decline">Decline</button>
+      <button class="cookie-btn-accept" id="cookie-btn-accept">Accept</button>
+    </div>
   </div>
 
   <script type="module" src="/main.js"></script>

@@ -86,6 +86,33 @@ export function renderLandingPage() {
           </div>` : ''}
         </div>
       </div>
+
+      <!-- Trust strip -->
+      <div class="trust-strip">
+        <div class="trust-item">
+          <span class="trust-icon">🎯</span>
+          <span class="trust-num">500+</span>
+          <span class="trust-label">Practice questions</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-icon">📚</span>
+          <span class="trust-num">8</span>
+          <span class="trust-label">Exam modules</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-icon">🤖</span>
+          <span class="trust-num">AI</span>
+          <span class="trust-label">Speaking practice</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-icon">🆓</span>
+          <span class="trust-num">100%</span>
+          <span class="trust-label">Free forever</span>
+        </div>
+      </div>
     </div>
   `;
 

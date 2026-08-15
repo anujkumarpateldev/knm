@@ -108,6 +108,14 @@ export function renderAddWord() {
       showFormStatus(`"${dutch}" is already in your word list.`, 'error');
       return;
     }
+    if (result.dictExists) {
+      // Word is in the shared dictionary but not yet in user's list — add it directly
+      const { confirmAddFromDict } = await import('../../data/words.js');
+      const r = await confirmAddFromDict(result.dictWord.id);
+      if (r.error) { showFormStatus(r.error, 'error'); return; }
+      nav.wordJournal();
+      return;
+    }
     if (result.error) {
       showFormStatus(result.error, 'error');
       return;
