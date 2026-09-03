@@ -154,6 +154,158 @@ function lineChart(data, width = 480, height = 80) {
     </svg>`;
 }
 
+// ── User overview modal ───────────────────────────────────────────────────────
+
+function showUserOverview(profile, userEvents, userAI) {
+  const fmtFull = isoStr => isoStr
+    ? new Date(isoStr).toLocaleString('en-GB', { day:'numeric', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' })
+    : '—';
+
+  // Last active = most recent event timestamp
+  const lastEvent = userEvents.sort((a, b) => new Date(b.created_at) - new Date(a.created_at))[0];
+  const lastActive = lastEvent ? fmtFull(lastEvent.created_at) : (profile.last_login_at ? fmtFull(profile.last_login_at) : '—');
+
+  // AI stats
+  const aiCalls  = userAI.length;
+  const aiInput  = userAI.reduce((s, r) => s + (r.input_tokens  ?? 0), 0);
+  const aiOutput = userAI.reduce((s, r) => s + (r.output_tokens ?? 0), 0);
+  const aiByAction = groupBy(userAI, r => r.action ?? 'unknown');
+
+  // Section-wise activity (time spent from section_exit)
+  const exits = userEvents.filter(e => e.event === 'section_exit' && e.properties?.time_spent > 0);
+  const sectionTime = {};
+  exits.forEach(e => {
+    sectionTime[e.section] = (sectionTime[e.section] ?? 0) + e.properties.time_spent;
+  });
+  const sectionVisits = {};
+  userEvents.filter(e => e.event === 'section_enter' && e.section).forEach(e => {
+    sectionVisits[e.section] = (sectionVisits[e.section] ?? 0) + 1;
+  });
+  const allSections = [...new Set([...Object.keys(sectionTime), ...Object.keys(sectionVisits)])];
+  const maxTime = Math.max(...Object.values(sectionTime), 1);
+
+  const sectionRows = allSections
+    .sort((a, b) => (sectionTime[b] ?? 0) - (sectionTime[a] ?? 0))
+    .map(sec => {
+      const pct = Math.round(((sectionTime[sec] ?? 0) / maxTime) * 100);
+      return `
+        <tr>
+          <td style="font-size:0.83rem;padding:6px 8px;">
+            <span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:${color(sec)};margin-right:6px;vertical-align:middle;"></span>
+            ${label(sec)}
+          </td>
+          <td style="font-size:0.8rem;padding:6px 8px;color:var(--text-muted);">${sectionVisits[sec] ?? 0} visits</td>
+          <td style="padding:6px 8px;min-width:120px;">
+            <div style="height:7px;border-radius:4px;background:var(--surface-2);overflow:hidden;">
+              <div style="width:${pct}%;height:100%;background:${color(sec)};border-radius:4px;"></div>
+            </div>
+          </td>
+          <td style="font-size:0.8rem;padding:6px 8px;color:var(--text-muted);text-align:right;">${fmtDur(sectionTime[sec] ?? 0)}</td>
+        </tr>`;
+    }).join('');
+
+  const aiActionRows = Object.entries(aiByAction)
+    .sort((a, b) => b[1].length - a[1].length)
+    .map(([act, rows]) => `
+      <tr>
+        <td style="font-size:0.83rem;padding:4px 8px;">${act}</td>
+        <td style="font-size:0.83rem;padding:4px 8px;text-align:right;">${rows.length}</td>
+        <td style="font-size:0.8rem;padding:4px 8px;text-align:right;color:var(--text-muted);">
+          ${fmtTokens(rows.reduce((s, r) => s + (r.input_tokens ?? 0) + (r.output_tokens ?? 0), 0))} tok
+        </td>
+      </tr>`).join('');
+
+  const statusColor = profile.is_active ? '#10b981' : '#ef4444';
+  const statusText  = profile.is_active ? 'Active' : 'Deactivated';
+
+  // Build and inject modal
+  const existing = document.getElementById('user-overview-modal');
+  if (existing) existing.remove();
+
+  const modal = document.createElement('div');
+  modal.id = 'user-overview-modal';
+  modal.style.cssText = `
+    position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;
+    background:rgba(0,0,0,0.5);padding:1rem;`;
+
+  modal.innerHTML = `
+    <div style="background:var(--surface-1);border-radius:14px;width:100%;max-width:560px;max-height:88vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,0.35);">
+      <div style="padding:1.25rem 1.5rem;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;">
+        <div>
+          <div style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);margin-bottom:2px;">User Overview</div>
+          <div style="font-size:1rem;font-weight:700;word-break:break-all;">${profile.email}</div>
+        </div>
+        <button id="modal-close-btn" style="background:none;border:none;cursor:pointer;color:var(--text-muted);font-size:1.4rem;line-height:1;padding:4px 8px;">&times;</button>
+      </div>
+
+      <div style="padding:1.25rem 1.5rem;display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;">
+        <div style="background:var(--surface-2);border-radius:10px;padding:0.85rem 1rem;">
+          <div style="font-size:0.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px;">Status</div>
+          <div style="font-weight:700;color:${statusColor};">${statusText}</div>
+        </div>
+        <div style="background:var(--surface-2);border-radius:10px;padding:0.85rem 1rem;">
+          <div style="font-size:0.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px;">Role</div>
+          <div style="font-weight:700;">${profile.role}</div>
+        </div>
+        <div style="background:var(--surface-2);border-radius:10px;padding:0.85rem 1rem;">
+          <div style="font-size:0.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px;">Registered</div>
+          <div style="font-weight:600;font-size:0.88rem;">${fmtFull(profile.created_at)}</div>
+        </div>
+        <div style="background:var(--surface-2);border-radius:10px;padding:0.85rem 1rem;">
+          <div style="font-size:0.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px;">Last Active</div>
+          <div style="font-weight:600;font-size:0.88rem;">${lastActive}</div>
+        </div>
+      </div>
+
+      <div style="padding:0 1.5rem 1rem;">
+        <div style="font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);margin-bottom:0.6rem;">AI Usage</div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.5rem;margin-bottom:0.75rem;">
+          <div style="background:var(--surface-2);border-radius:8px;padding:0.7rem;text-align:center;">
+            <div style="font-size:1.2rem;font-weight:700;">${aiCalls}</div>
+            <div style="font-size:0.72rem;color:var(--text-muted);">Total calls</div>
+          </div>
+          <div style="background:var(--surface-2);border-radius:8px;padding:0.7rem;text-align:center;">
+            <div style="font-size:1.2rem;font-weight:700;">${fmtTokens(aiInput)}</div>
+            <div style="font-size:0.72rem;color:var(--text-muted);">Input tokens</div>
+          </div>
+          <div style="background:var(--surface-2);border-radius:8px;padding:0.7rem;text-align:center;">
+            <div style="font-size:1.2rem;font-weight:700;">${fmtTokens(aiOutput)}</div>
+            <div style="font-size:0.72rem;color:var(--text-muted);">Output tokens</div>
+          </div>
+        </div>
+        ${aiActionRows ? `
+        <table style="width:100%;border-collapse:collapse;">
+          <thead><tr>
+            <th style="font-size:0.75rem;color:var(--text-muted);text-align:left;padding:4px 8px;">Action</th>
+            <th style="font-size:0.75rem;color:var(--text-muted);text-align:right;padding:4px 8px;">Calls</th>
+            <th style="font-size:0.75rem;color:var(--text-muted);text-align:right;padding:4px 8px;">Tokens</th>
+          </tr></thead>
+          <tbody>${aiActionRows}</tbody>
+        </table>` : '<p style="font-size:0.82rem;color:var(--text-muted);">No AI usage recorded.</p>'}
+      </div>
+
+      <div style="padding:0 1.5rem 1.5rem;">
+        <div style="font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);margin-bottom:0.6rem;">Section Activity <span style="font-weight:400;text-transform:none;letter-spacing:0;">(last 30 days)</span></div>
+        ${sectionRows ? `
+        <table style="width:100%;border-collapse:collapse;">
+          <thead><tr>
+            <th style="font-size:0.75rem;color:var(--text-muted);text-align:left;padding:4px 8px;">Section</th>
+            <th style="font-size:0.75rem;color:var(--text-muted);text-align:left;padding:4px 8px;">Visits</th>
+            <th style="font-size:0.75rem;color:var(--text-muted);padding:4px 8px;"></th>
+            <th style="font-size:0.75rem;color:var(--text-muted);text-align:right;padding:4px 8px;">Time</th>
+          </tr></thead>
+          <tbody>${sectionRows}</tbody>
+        </table>` : '<p style="font-size:0.82rem;color:var(--text-muted);">No section activity recorded yet.</p>'}
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(modal);
+
+  document.getElementById('modal-close-btn').addEventListener('click', () => modal.remove());
+  modal.addEventListener('click', e => { if (e.target === modal) modal.remove(); });
+}
+
 // ── Main render ───────────────────────────────────────────────────────────────
 
 export async function renderAdminAnalytics() {
@@ -320,6 +472,7 @@ export async function renderAdminAnalytics() {
         <td style="font-size:0.78rem;color:var(--text-muted);">${fmtDateTime(p.created_at)}</td>
         <td style="font-size:0.78rem;color:var(--text-muted);">${fmtDateTime(p.last_login_at)}</td>
         <td style="font-size:0.82rem;text-align:right;">${aiCallsOf[p.user_id] ?? 0}</td>
+        <td><button class="btn-user-overview" data-uid="${p.user_id}" style="font-size:0.75rem;padding:3px 10px;border-radius:6px;border:1px solid var(--border);background:var(--surface-2);cursor:pointer;color:var(--text);">Overview</button></td>
       </tr>`;
   }).join('');
 
@@ -396,6 +549,7 @@ export async function renderAdminAnalytics() {
                 <th>Joined</th>
                 <th>Last Login</th>
                 <th style="text-align:right;">AI Calls</th>
+                <th></th>
               </tr>
             </thead>
             <tbody>${usersTableHtml || '<tr><td colspan="6" style="text-align:center;color:var(--text-muted);">No users</td></tr>'}</tbody>
@@ -529,4 +683,16 @@ export async function renderAdminAnalytics() {
   `;
 
   document.getElementById('btn-back-admin').addEventListener('click', () => nav.adminDashboard());
+
+  // Wire Overview buttons — use delegated listener on the table body
+  document.querySelectorAll('.btn-user-overview').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const uid     = btn.dataset.uid;
+      const profile = profiles.find(p => p.user_id === uid);
+      if (!profile) return;
+      const userEvents = events.filter(e => e.user_id === uid);
+      const userAI     = aiAll.filter(r => r.user_id === uid);
+      showUserOverview(profile, userEvents, userAI);
+    });
+  });
 }
