@@ -184,33 +184,36 @@ function showUserOverview(profile, userEvents, userAI) {
   const allSections = [...new Set([...Object.keys(sectionTime), ...Object.keys(sectionVisits)])];
   const maxTime = Math.max(...Object.values(sectionTime), 1);
 
-  const sectionRows = allSections
+  // Note: textMain/textSub resolved below after theme detection — use closures
+  // These rows are rendered after theme vars are set, so we use placeholder refs
+  // that get replaced once cardBg etc. are known. Instead, build rows as functions.
+  const buildSectionRows = (tMain, tSub) => allSections
     .sort((a, b) => (sectionTime[b] ?? 0) - (sectionTime[a] ?? 0))
     .map(sec => {
       const pct = Math.round(((sectionTime[sec] ?? 0) / maxTime) * 100);
       return `
         <tr>
-          <td style="font-size:0.83rem;padding:6px 8px;">
+          <td style="font-size:0.83rem;padding:6px 8px;color:${tMain};">
             <span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:${color(sec)};margin-right:6px;vertical-align:middle;"></span>
             ${label(sec)}
           </td>
-          <td style="font-size:0.8rem;padding:6px 8px;color:var(--text-muted);">${sectionVisits[sec] ?? 0} visits</td>
-          <td style="padding:6px 8px;min-width:120px;">
-            <div style="height:7px;border-radius:4px;background:var(--surface-2);overflow:hidden;">
+          <td style="font-size:0.8rem;padding:6px 8px;color:${tSub};">${sectionVisits[sec] ?? 0} visits</td>
+          <td style="padding:6px 8px;min-width:110px;">
+            <div style="height:7px;border-radius:4px;background:rgba(148,163,184,0.2);overflow:hidden;">
               <div style="width:${pct}%;height:100%;background:${color(sec)};border-radius:4px;"></div>
             </div>
           </td>
-          <td style="font-size:0.8rem;padding:6px 8px;color:var(--text-muted);text-align:right;">${fmtDur(sectionTime[sec] ?? 0)}</td>
+          <td style="font-size:0.8rem;padding:6px 8px;color:${tSub};text-align:right;">${fmtDur(sectionTime[sec] ?? 0)}</td>
         </tr>`;
     }).join('');
 
-  const aiActionRows = Object.entries(aiByAction)
+  const buildAIActionRows = (tMain, tSub) => Object.entries(aiByAction)
     .sort((a, b) => b[1].length - a[1].length)
     .map(([act, rows]) => `
       <tr>
-        <td style="font-size:0.83rem;padding:4px 8px;">${act}</td>
-        <td style="font-size:0.83rem;padding:4px 8px;text-align:right;">${rows.length}</td>
-        <td style="font-size:0.8rem;padding:4px 8px;text-align:right;color:var(--text-muted);">
+        <td style="font-size:0.83rem;padding:5px 8px;color:${tMain};">${act}</td>
+        <td style="font-size:0.83rem;padding:5px 8px;text-align:right;color:${tMain};">${rows.length}</td>
+        <td style="font-size:0.8rem;padding:5px 8px;text-align:right;color:${tSub};">
           ${fmtTokens(rows.reduce((s, r) => s + (r.input_tokens ?? 0) + (r.output_tokens ?? 0), 0))} tok
         </td>
       </tr>`).join('');
@@ -224,78 +227,108 @@ function showUserOverview(profile, userEvents, userAI) {
 
   const modal = document.createElement('div');
   modal.id = 'user-overview-modal';
-  modal.style.cssText = `
-    position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;
-    background:rgba(0,0,0,0.5);padding:1rem;`;
+  modal.style.cssText = [
+    'position:fixed', 'inset:0', 'z-index:9999',
+    'display:flex', 'align-items:center', 'justify-content:center',
+    'background:rgba(0,0,0,0.65)', 'padding:1rem',
+  ].join(';');
+
+  // Determine card bg based on current theme
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark'
+    || document.body.classList.contains('dark')
+    || window.matchMedia('(prefers-color-scheme:dark)').matches;
+  const cardBg  = isDark ? '#1e1e2e' : '#ffffff';
+  const chipBg  = isDark ? '#2a2a3e' : '#f1f5f9';
+  const textMain= isDark ? '#e2e8f0' : '#1e293b';
+  const textSub = isDark ? '#94a3b8' : '#64748b';
+  const borderC = isDark ? '#334155' : '#e2e8f0';
 
   modal.innerHTML = `
-    <div style="background:var(--surface-1);border-radius:14px;width:100%;max-width:560px;max-height:88vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,0.35);">
-      <div style="padding:1.25rem 1.5rem;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;">
-        <div>
-          <div style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);margin-bottom:2px;">User Overview</div>
-          <div style="font-size:1rem;font-weight:700;word-break:break-all;">${profile.email}</div>
+    <div id="uov-box" style="
+      background:${cardBg};color:${textMain};
+      border-radius:16px;width:100%;max-width:580px;
+      max-height:90vh;overflow-y:auto;
+      box-shadow:0 24px 80px rgba(0,0,0,0.5);
+      font-family:inherit;
+    ">
+      <!-- Header -->
+      <div style="padding:1.25rem 1.5rem;border-bottom:1px solid ${borderC};display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;">
+        <div style="min-width:0;">
+          <div style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:${textSub};margin-bottom:4px;">User Overview</div>
+          <div style="font-size:1rem;font-weight:700;color:${textMain};word-break:break-all;">${profile.email}</div>
         </div>
-        <button id="modal-close-btn" style="background:none;border:none;cursor:pointer;color:var(--text-muted);font-size:1.4rem;line-height:1;padding:4px 8px;">&times;</button>
+        <button id="modal-close-btn" style="
+          flex-shrink:0;
+          background:#ef4444;color:#fff;
+          border:none;border-radius:8px;
+          cursor:pointer;font-size:1rem;font-weight:700;
+          padding:6px 14px;line-height:1;
+        ">✕ Close</button>
       </div>
 
+      <!-- Info cards -->
       <div style="padding:1.25rem 1.5rem;display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;">
-        <div style="background:var(--surface-2);border-radius:10px;padding:0.85rem 1rem;">
-          <div style="font-size:0.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px;">Status</div>
-          <div style="font-weight:700;color:${statusColor};">${statusText}</div>
+        <div style="background:${chipBg};border-radius:10px;padding:0.85rem 1rem;">
+          <div style="font-size:0.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:${textSub};margin-bottom:4px;">Status</div>
+          <div style="font-size:1rem;font-weight:700;color:${statusColor};">${statusText}</div>
         </div>
-        <div style="background:var(--surface-2);border-radius:10px;padding:0.85rem 1rem;">
-          <div style="font-size:0.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px;">Role</div>
-          <div style="font-weight:700;">${profile.role}</div>
+        <div style="background:${chipBg};border-radius:10px;padding:0.85rem 1rem;">
+          <div style="font-size:0.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:${textSub};margin-bottom:4px;">Role</div>
+          <div style="font-size:1rem;font-weight:700;color:${textMain};">${profile.role}</div>
         </div>
-        <div style="background:var(--surface-2);border-radius:10px;padding:0.85rem 1rem;">
-          <div style="font-size:0.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px;">Registered</div>
-          <div style="font-weight:600;font-size:0.88rem;">${fmtFull(profile.created_at)}</div>
+        <div style="background:${chipBg};border-radius:10px;padding:0.85rem 1rem;">
+          <div style="font-size:0.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:${textSub};margin-bottom:4px;">Registered</div>
+          <div style="font-size:0.9rem;font-weight:600;color:${textMain};">${fmtFull(profile.created_at)}</div>
         </div>
-        <div style="background:var(--surface-2);border-radius:10px;padding:0.85rem 1rem;">
-          <div style="font-size:0.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px;">Last Active</div>
-          <div style="font-weight:600;font-size:0.88rem;">${lastActive}</div>
+        <div style="background:${chipBg};border-radius:10px;padding:0.85rem 1rem;">
+          <div style="font-size:0.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:${textSub};margin-bottom:4px;">Last Active</div>
+          <div style="font-size:0.9rem;font-weight:600;color:${textMain};">${lastActive}</div>
         </div>
       </div>
 
-      <div style="padding:0 1.5rem 1rem;">
-        <div style="font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);margin-bottom:0.6rem;">AI Usage</div>
+      <!-- AI Usage -->
+      <div style="padding:0 1.5rem 1.25rem;">
+        <div style="font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:${textSub};margin-bottom:0.65rem;">AI Usage</div>
         <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.5rem;margin-bottom:0.75rem;">
-          <div style="background:var(--surface-2);border-radius:8px;padding:0.7rem;text-align:center;">
-            <div style="font-size:1.2rem;font-weight:700;">${aiCalls}</div>
-            <div style="font-size:0.72rem;color:var(--text-muted);">Total calls</div>
+          <div style="background:${chipBg};border-radius:8px;padding:0.75rem;text-align:center;">
+            <div style="font-size:1.4rem;font-weight:800;color:${textMain};">${aiCalls}</div>
+            <div style="font-size:0.72rem;color:${textSub};margin-top:2px;">Total calls</div>
           </div>
-          <div style="background:var(--surface-2);border-radius:8px;padding:0.7rem;text-align:center;">
-            <div style="font-size:1.2rem;font-weight:700;">${fmtTokens(aiInput)}</div>
-            <div style="font-size:0.72rem;color:var(--text-muted);">Input tokens</div>
+          <div style="background:${chipBg};border-radius:8px;padding:0.75rem;text-align:center;">
+            <div style="font-size:1.4rem;font-weight:800;color:${textMain};">${fmtTokens(aiInput)}</div>
+            <div style="font-size:0.72rem;color:${textSub};margin-top:2px;">Input tokens</div>
           </div>
-          <div style="background:var(--surface-2);border-radius:8px;padding:0.7rem;text-align:center;">
-            <div style="font-size:1.2rem;font-weight:700;">${fmtTokens(aiOutput)}</div>
-            <div style="font-size:0.72rem;color:var(--text-muted);">Output tokens</div>
+          <div style="background:${chipBg};border-radius:8px;padding:0.75rem;text-align:center;">
+            <div style="font-size:1.4rem;font-weight:800;color:${textMain};">${fmtTokens(aiOutput)}</div>
+            <div style="font-size:0.72rem;color:${textSub};margin-top:2px;">Output tokens</div>
           </div>
         </div>
-        ${aiActionRows ? `
+        ${aiCalls > 0 ? `
         <table style="width:100%;border-collapse:collapse;">
-          <thead><tr>
-            <th style="font-size:0.75rem;color:var(--text-muted);text-align:left;padding:4px 8px;">Action</th>
-            <th style="font-size:0.75rem;color:var(--text-muted);text-align:right;padding:4px 8px;">Calls</th>
-            <th style="font-size:0.75rem;color:var(--text-muted);text-align:right;padding:4px 8px;">Tokens</th>
+          <thead><tr style="border-bottom:1px solid ${borderC};">
+            <th style="font-size:0.75rem;font-weight:600;color:${textSub};text-align:left;padding:5px 8px;">Action</th>
+            <th style="font-size:0.75rem;font-weight:600;color:${textSub};text-align:right;padding:5px 8px;">Calls</th>
+            <th style="font-size:0.75rem;font-weight:600;color:${textSub};text-align:right;padding:5px 8px;">Tokens</th>
           </tr></thead>
-          <tbody>${aiActionRows}</tbody>
-        </table>` : '<p style="font-size:0.82rem;color:var(--text-muted);">No AI usage recorded.</p>'}
+          <tbody>${buildAIActionRows(textMain, textSub)}</tbody>
+        </table>` : `<p style="font-size:0.85rem;color:${textSub};">No AI usage recorded.</p>`}
       </div>
 
-      <div style="padding:0 1.5rem 1.5rem;">
-        <div style="font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);margin-bottom:0.6rem;">Section Activity <span style="font-weight:400;text-transform:none;letter-spacing:0;">(last 30 days)</span></div>
-        ${sectionRows ? `
+      <!-- Section Activity -->
+      <div style="padding:0 1.5rem 1.75rem;">
+        <div style="font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:${textSub};margin-bottom:0.65rem;">
+          Section Activity <span style="font-weight:400;text-transform:none;letter-spacing:0;font-size:0.78rem;">(last 30 days)</span>
+        </div>
+        ${allSections.length > 0 ? `
         <table style="width:100%;border-collapse:collapse;">
-          <thead><tr>
-            <th style="font-size:0.75rem;color:var(--text-muted);text-align:left;padding:4px 8px;">Section</th>
-            <th style="font-size:0.75rem;color:var(--text-muted);text-align:left;padding:4px 8px;">Visits</th>
-            <th style="font-size:0.75rem;color:var(--text-muted);padding:4px 8px;"></th>
-            <th style="font-size:0.75rem;color:var(--text-muted);text-align:right;padding:4px 8px;">Time</th>
+          <thead><tr style="border-bottom:1px solid ${borderC};">
+            <th style="font-size:0.75rem;font-weight:600;color:${textSub};text-align:left;padding:5px 8px;">Section</th>
+            <th style="font-size:0.75rem;font-weight:600;color:${textSub};text-align:left;padding:5px 8px;">Visits</th>
+            <th style="font-size:0.75rem;color:${textSub};padding:5px 8px;"></th>
+            <th style="font-size:0.75rem;font-weight:600;color:${textSub};text-align:right;padding:5px 8px;">Time</th>
           </tr></thead>
-          <tbody>${sectionRows}</tbody>
-        </table>` : '<p style="font-size:0.82rem;color:var(--text-muted);">No section activity recorded yet.</p>'}
+          <tbody>${buildSectionRows(textMain, textSub)}</tbody>
+        </table>` : `<p style="font-size:0.85rem;color:${textSub};">No section activity recorded yet.</p>`}
       </div>
     </div>
   `;
