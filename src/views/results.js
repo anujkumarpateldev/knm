@@ -2,6 +2,7 @@ import { state } from '../state.js';
 import { nav } from '../router.js';
 import { saveToStorage } from '../storage.js';
 import { stopExamTimer } from '../utils/examTimer.js';
+import { track } from '../utils/tracker.js';
 
 export function renderResults() {
   document.body.classList.add('in-dashboard');
@@ -31,6 +32,16 @@ export function renderResults() {
   const isReadingExam = state.currentModule.module_id === 'READING_EXAM';
   const passThreshold = isReadingExam ? 72 : 65;
   const passed     = state.isExamMode ? pc >= passThreshold : null;
+
+  // Track quiz completion
+  track('quiz_complete', {
+    module:  state.currentModule.module_id,
+    mode:    state.isExamMode ? 'exam' : 'practice',
+    score:   pc,
+    correct: state.sessionStats.correct,
+    wrong:   state.sessionStats.wrong,
+    passed:  passed,
+  });
 
   // Log to activity history
   if (state.sessionStats.correct > 0 || state.sessionStats.wrong > 0) {

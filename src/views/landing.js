@@ -2,10 +2,12 @@ import { state } from '../state.js';
 import { nav } from '../router.js';
 import { showAuthModal } from '../utils/authModal.js';
 import { stopExamTimer } from '../utils/examTimer.js';
+import { trackEnter } from '../utils/tracker.js';
 
 
 export function renderLandingPage() {
   stopExamTimer();
+  trackEnter('landing');
   document.body.classList.add('in-dashboard');
   document.body.classList.remove('in-quiz');
   const timerEl = document.getElementById('exam-timer');

@@ -3,6 +3,7 @@ import { nav } from '../../router.js';
 import { saveToStorage, setProgress, getProgress, getModuleProgressMap } from '../../storage.js';
 import { speakDutch } from '../../speech.js';
 import { getVocabLearnedCount } from '../../data/reading.js';
+import { trackEnter } from '../../utils/tracker.js';
 
 const TYPE_COLORS = {
   'Profession': '#6366f1',
@@ -19,6 +20,7 @@ let sessionLearnedIndices = new Set();
 // ─── Vocab Dashboard (topic grid) ──────────────────────────────────────────
 
 export function renderVocabDashboard() {
+  trackEnter('reading_vocab');
   document.body.classList.add('in-dashboard');
   document.body.classList.remove('in-quiz');
   sessionLearnedIndices = new Set(); // reset on returning to dashboard

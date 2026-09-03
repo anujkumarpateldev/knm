@@ -50,6 +50,14 @@ export function renderAdminDashboard() {
           <h3>Email Users</h3>
           <p>Draft and send emails to selected users</p>
         </div>
+
+        <div class="admin-nav-card" id="nav-analytics">
+          <div class="admin-nav-icon" style="background:rgba(236,72,153,0.12);color:#ec4899;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          </div>
+          <h3>Analytics</h3>
+          <p>Section traffic, active users, quiz scores and activity trends</p>
+        </div>
       </div>
     </div>
   `;
@@ -59,4 +67,5 @@ export function renderAdminDashboard() {
   document.getElementById('nav-words').addEventListener('click', () => nav.adminWords());
   document.getElementById('nav-tags').addEventListener('click', () => nav.adminTags());
   document.getElementById('nav-email').addEventListener('click', () => nav.adminEmail());
+  document.getElementById('nav-analytics').addEventListener('click', () => nav.adminAnalytics());
 }

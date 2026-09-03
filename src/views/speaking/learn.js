@@ -1,5 +1,6 @@
 import { nav } from '../../router.js';
 import { speakingLearnPresent, speakingLearnPast, speakingLearnScenarios } from '../../data/speaking.js';
+import { trackEnter } from '../../utils/tracker.js';
 
 // Active tab: 'present' | 'past' | 'scenarios'
 let activeTab = 'present';
@@ -11,8 +12,11 @@ let cardIndex = 0;
 let flipped = false;
 // Keyboard handler reference — kept module-level so it can be removed
 let keyNavHandler = null;
+// Card direction: 'nl-en' (Dutch front) | 'en-nl' (English front). Sentences only.
+let learnDirection = localStorage.getItem('knm_learn_direction') || 'nl-en';
 
 export function renderSpeakingLearn() {
+  trackEnter('speaking_learn');
   document.body.classList.add('in-dashboard');
   document.body.classList.remove('in-quiz');
   if (keyNavHandler) { document.removeEventListener('keydown', keyNavHandler); keyNavHandler = null; }
@@ -103,6 +107,19 @@ function renderLearnView() {
         <button class="speaking-tab ${activeTab === 'scenarios' ? 'active' : ''}" data-tab="scenarios">Scenario's</button>
       </div>
 
+      ${activeTab !== 'scenarios' ? `
+      <div class="rev-direction-bar">
+        <span class="rev-direction-label">Card direction</span>
+        <div class="rev-direction-toggle">
+          <button class="rev-dir-btn ${learnDirection === 'nl-en' ? 'active' : ''}" id="dir-nl-en">
+            🇳🇱 Dutch <span class="rev-dir-arrow">→</span> English 🇬🇧
+          </button>
+          <button class="rev-dir-btn ${learnDirection === 'en-nl' ? 'active' : ''}" id="dir-en-nl">
+            🇬🇧 English <span class="rev-dir-arrow">→</span> Dutch 🇳🇱
+          </button>
+        </div>
+      </div>` : ''}
+
       <div class="modules-grid" id="category-grid">${cardsHtml}</div>
     </div>
   `;
@@ -115,6 +132,17 @@ function renderLearnView() {
       activeCategoryId = null;
       renderLearnView();
     });
+  });
+
+  document.getElementById('dir-nl-en')?.addEventListener('click', () => {
+    learnDirection = 'nl-en';
+    localStorage.setItem('knm_learn_direction', 'nl-en');
+    renderLearnView();
+  });
+  document.getElementById('dir-en-nl')?.addEventListener('click', () => {
+    learnDirection = 'en-nl';
+    localStorage.setItem('knm_learn_direction', 'en-nl');
+    renderLearnView();
   });
 
   document.querySelectorAll('.speaking-cat-card').forEach(card => {
@@ -138,13 +166,16 @@ function renderCategoryCards() {
 
   const isScenario = activeTab === 'scenarios';
 
-  // Front: Dutch sentence or scenario question
-  // Back:  English translation or full answer
+  // Front/back depend on direction (sentences only; scenarios always nl-en)
   let frontHtml, backHtml;
+  let frontSpeakText = null; // text to speak on front card (Dutch only)
+  let backSpeakText  = null; // text to speak on back card
 
   if (isScenario) {
-    const qHtml = (item.questions ?? []).map(q => `<li>${q}</li>`).join('');
+    // Scenarios: always Dutch questions → Dutch answer (direction toggle N/A)
+    const qHtml    = (item.questions ?? []).map(q => `<li>${q}</li>`).join('');
     const speakText = (item.questions ?? []).join(' ');
+    frontSpeakText  = speakText || null;
     frontHtml = `
       ${item.image ? `<img src="${item.image}" alt="${item.title ?? ''}" class="learn-card-img" loading="lazy">` : ''}
       <div class="learn-card-title">${item.title ?? ''}</div>
@@ -152,15 +183,31 @@ function renderCategoryCards() {
       ${qHtml ? `<ul class="learn-card-questions">${qHtml}</ul>` : ''}
       ${speakText ? `<button class="btn-speak-card" id="btn-speak-card" title="Listen">🔊 Listen</button>` : ''}`;
     const answerText = (item.answer ?? []).join(' ');
+    backSpeakText = answerText || null;
     backHtml = (item.answer ?? []).map(s => `<p class="learn-answer-sentence">${s}</p>`).join('')
       + (answerText ? `<button class="btn-speak-card" id="btn-speak-card-back" title="Listen">🔊 Listen</button>` : '');
+  } else if (learnDirection === 'en-nl') {
+    // English front → Dutch back
+    frontHtml = `
+      ${item.image ? `<img src="${item.image}" alt="${item.english}" class="learn-card-img" loading="lazy">` : ''}
+      <div class="learn-card-english">${item.english}</div>`;
+    backSpeakText = item.dutch;
+    backHtml = `
+      <div class="learn-card-dutch">${item.dutch}</div>
+      <button class="btn-speak-card" id="btn-speak-card-back" title="Listen">🔊 Listen</button>`;
   } else {
+    // Dutch front → English back (default nl-en)
+    frontSpeakText = item.dutch;
     frontHtml = `
       ${item.image ? `<img src="${item.image}" alt="${item.dutch}" class="learn-card-img" loading="lazy">` : ''}
       <div class="learn-card-dutch">${item.dutch}</div>
       <button class="btn-speak-card" id="btn-speak-card" title="Listen">🔊 Listen</button>`;
-    backHtml  = `<div class="learn-card-english">${item.english}</div>`;
+    backHtml = `<div class="learn-card-english">${item.english}</div>`;
   }
+
+  const frontHint = isScenario ? 'Tap to see answer'
+    : learnDirection === 'en-nl' ? 'Tap to see Dutch'
+    : 'Tap to see English';
 
   document.getElementById('main-content').innerHTML = `
     <div class="view active" id="speaking-learn-cards">
@@ -178,11 +225,24 @@ function renderCategoryCards() {
         <button class="speaking-tab ${activeTab === 'scenarios' ? 'active' : ''}" data-tab="scenarios">Scenario's</button>
       </div>
 
+      ${!isScenario ? `
+      <div class="rev-direction-bar" style="margin-bottom:0.75rem;">
+        <span class="rev-direction-label">Card direction</span>
+        <div class="rev-direction-toggle">
+          <button class="rev-dir-btn ${learnDirection === 'nl-en' ? 'active' : ''}" id="dir-nl-en">
+            🇳🇱 Dutch <span class="rev-dir-arrow">→</span> English 🇬🇧
+          </button>
+          <button class="rev-dir-btn ${learnDirection === 'en-nl' ? 'active' : ''}" id="dir-en-nl">
+            🇬🇧 English <span class="rev-dir-arrow">→</span> Dutch 🇳🇱
+          </button>
+        </div>
+      </div>` : ''}
+
       <div class="learn-card-wrap">
         <div class="learn-flashcard ${flipped ? 'flipped' : ''}" id="learn-card">
           <div class="learn-card-front">
             ${frontHtml}
-            <div class="learn-card-hint">${isScenario ? 'Tap to see answer' : 'Tap to see translation'}</div>
+            <div class="learn-card-hint">${frontHint}</div>
           </div>
           <div class="learn-card-back">
             ${backHtml}
@@ -218,23 +278,33 @@ function renderCategoryCards() {
     });
   });
 
+  document.getElementById('dir-nl-en')?.addEventListener('click', () => {
+    learnDirection = 'nl-en';
+    localStorage.setItem('knm_learn_direction', 'nl-en');
+    flipped = false;
+    renderCategoryCards();
+  });
+  document.getElementById('dir-en-nl')?.addEventListener('click', () => {
+    learnDirection = 'en-nl';
+    localStorage.setItem('knm_learn_direction', 'en-nl');
+    flipped = false;
+    renderCategoryCards();
+  });
+
   document.getElementById('learn-card').addEventListener('click', (e) => {
-    if (e.target.closest('#btn-speak-card')) return; // don't flip on speak button
+    if (e.target.closest('#btn-speak-card') || e.target.closest('#btn-speak-card-back')) return;
     flipped = !flipped;
     document.getElementById('learn-card').classList.toggle('flipped', flipped);
   });
 
   document.getElementById('btn-speak-card')?.addEventListener('click', (e) => {
     e.stopPropagation();
-    const text = isScenario
-      ? (item.questions ?? []).join(' ')
-      : item.dutch;
-    speakLearnText(text, e.currentTarget);
+    if (frontSpeakText) speakLearnText(frontSpeakText, e.currentTarget);
   });
 
   document.getElementById('btn-speak-card-back')?.addEventListener('click', (e) => {
     e.stopPropagation();
-    speakLearnText((item.answer ?? []).join(' '), e.currentTarget);
+    if (backSpeakText) speakLearnText(backSpeakText, e.currentTarget);
   });
 
   document.getElementById('btn-prev').addEventListener('click', () => {

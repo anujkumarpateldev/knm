@@ -4,11 +4,13 @@ import { nav } from '../../router.js';
 import { addWord } from '../../data/words.js';
 import { state } from '../../state.js';
 import { runAIFill } from '../../utils/aiFill.js';
+import { trackEnter, track } from '../../utils/tracker.js';
 
 const BACK_ICON = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>`;
 const SPARKLE = `<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 L13.5 9 L20 10 L13.5 11 L12 18 L10.5 11 L4 10 L10.5 9 Z"/></svg>`;
 
 export function renderAddWord() {
+  trackEnter('words_add');
   document.body.classList.add('in-dashboard');
   document.body.classList.remove('in-quiz');
 
@@ -113,6 +115,7 @@ export function renderAddWord() {
       const { confirmAddFromDict } = await import('../../data/words.js');
       const r = await confirmAddFromDict(result.dictWord.id);
       if (r.error) { showFormStatus(r.error, 'error'); return; }
+      track('word_added', { source: 'dictionary' });
       nav.wordJournal();
       return;
     }
@@ -121,6 +124,7 @@ export function renderAddWord() {
       return;
     }
 
+    track('word_added', { source: 'manual', had_ai_fill: !!document.getElementById('aw-english').dataset.aiFilled });
     nav.wordJournal();
   });
 }

@@ -1,8 +1,10 @@
 import { nav } from '../../router.js';
 import { state } from '../../state.js';
 import { showAuthModal } from '../../utils/authModal.js';
+import { trackEnter } from '../../utils/tracker.js';
 
 export function renderSpeakingDashboard() {
+  trackEnter('speaking');
   document.body.classList.add('in-dashboard');
   document.body.classList.remove('in-quiz');
 

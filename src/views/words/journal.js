@@ -5,6 +5,7 @@ import { nav } from '../../router.js';
 import { loadWords, deleteWord, getDueWords, addWord, updateWord, confirmAddFromDict } from '../../data/words.js';
 import { speakDutch } from '../../speech.js';
 import { runAIFill, setupTagsAutocomplete, invalidateTagsCache } from '../../utils/aiFill.js';
+import { trackEnter } from '../../utils/tracker.js';
 
 const BACK_ICON   = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>`;
 const SPARKLE     = `<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 L13.5 9 L20 10 L13.5 11 L12 18 L10.5 11 L4 10 L10.5 9 Z"/></svg>`;
@@ -81,6 +82,7 @@ function paginationHTML(total, page) {
 }
 
 export async function renderWordJournal() {
+  trackEnter('words');
   document.body.classList.add('in-dashboard');
   document.body.classList.remove('in-quiz');
 

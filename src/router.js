@@ -29,6 +29,7 @@ export const nav = {
   adminWords:     () => {},
   adminTags:      () => {},
   adminEmail:     () => {},
+  adminAnalytics: () => {},
   // Deactivated screen
   deactivated:    () => {},
   // Static pages

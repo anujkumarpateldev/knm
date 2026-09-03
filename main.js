@@ -36,6 +36,7 @@ import { renderAdminUsers }     from './src/views/admin/users.js';
 import { renderAdminWords }     from './src/views/admin/wordsAdmin.js';
 import { renderAdminTags }      from './src/views/admin/tagsAdmin.js';
 import { renderEmailComposer }  from './src/views/admin/emailComposer.js';
+import { renderAdminAnalytics } from './src/views/admin/analytics.js';
 import { renderDeactivated }    from './src/views/deactivated.js';
 import { renderPrivacy }        from './src/views/privacy.js';
 import { renderTerms }          from './src/views/terms.js';
@@ -46,6 +47,7 @@ import { renderProfile }        from './src/views/profile.js';
 import { fetchKNMModules }    from './src/data/knm.js';
 import { fetchReadingData }   from './src/data/reading.js';
 import { fetchSpeakingData }  from './src/data/speaking.js';
+import { track } from './src/utils/tracker.js';
 
 // ── Wire up all navigation targets ─────────────────────────────────────────
 nav.auth             = renderAuthPage;
@@ -72,12 +74,13 @@ nav.wordJournal  = renderWordJournal;
 nav.addWord      = renderAddWord;
 nav.wordRevision = renderWordRevision;
 
-nav.adminDashboard = renderAdminDashboard;
-nav.adminUsers     = renderAdminUsers;
-nav.adminWords     = renderAdminWords;
-nav.adminTags      = renderAdminTags;
-nav.adminEmail     = renderEmailComposer;
-nav.deactivated    = renderDeactivated;
+nav.adminDashboard  = renderAdminDashboard;
+nav.adminUsers      = renderAdminUsers;
+nav.adminWords      = renderAdminWords;
+nav.adminTags       = renderAdminTags;
+nav.adminEmail      = renderEmailComposer;
+nav.adminAnalytics  = renderAdminAnalytics;
+nav.deactivated     = renderDeactivated;
 
 nav.privacy = renderPrivacy;
 nav.terms   = renderTerms;
@@ -263,6 +266,7 @@ async function init() {
 async function loadAppData() {
   try {
     await Promise.all([fetchKNMModules(), fetchReadingData(), fetchSpeakingData()]);
+    track('app_open', { referrer: document.referrer || null });
     renderLandingPage();
   } catch (err) {
     const { title, message } = friendlyFetchError(err);

@@ -4,6 +4,7 @@ import { speakingPractice } from '../../data/speaking.js';
 import { speakingEvalContext } from '../../ai/aiPrompts.js';
 import { getPreferredModel } from '../../ai/aiService.js';
 import { showAuthModal } from '../../utils/authModal.js';
+import { trackEnter } from '../../utils/tracker.js';
 
 let activeType    = 'single';
 let questionIndex = 0;
@@ -21,6 +22,7 @@ let recognition   = null;
 const SpeechRecognition = window.SpeechRecognition ?? window.webkitSpeechRecognition ?? null;
 
 export function renderSpeakingPractice() {
+  trackEnter('speaking_practice');
   document.body.classList.add('in-dashboard');
   document.body.classList.remove('in-quiz');
   questionIndex = 0;

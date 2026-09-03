@@ -2,8 +2,10 @@ import { state } from '../../state.js';
 import { nav } from '../../router.js';
 import { getKNMModuleProgress } from '../../data/knm.js';
 import { getModuleProgressMap } from '../../storage.js';
+import { trackEnter } from '../../utils/tracker.js';
 
 export function renderKNMDashboard() {
+  trackEnter('knm');
   document.body.classList.add('in-dashboard');
   document.body.classList.remove('in-quiz');
   state.isExamMode = false;

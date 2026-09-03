@@ -3,6 +3,7 @@
 import { state } from '../../state.js';
 import { nav } from '../../router.js';
 import { loadWords, reviewWord, getDueWords, getWordsByDate, getUniqueDates } from '../../data/words.js';
+import { trackEnter, track } from '../../utils/tracker.js';
 import { speakDutch } from '../../speech.js';
 
 const BACK_ICON = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>`;
@@ -45,6 +46,7 @@ function recentCount(days) {
 
 // ── Mode picker ───────────────────────────────────────────────────────────────
 export async function renderWordRevision() {
+  trackEnter('words_revision');
   document.body.classList.add('in-dashboard');
   document.body.classList.remove('in-quiz');
 

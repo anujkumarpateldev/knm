@@ -1,8 +1,10 @@
 import { state } from '../../state.js';
 import { nav } from '../../router.js';
 import { QUESTION_MODULES } from '../../data/reading.js';
+import { trackEnter } from '../../utils/tracker.js';
 
 export function renderReadingDashboard() {
+  trackEnter('reading');
   document.body.classList.add('in-dashboard');
   document.body.classList.remove('in-quiz');
 
