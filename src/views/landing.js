@@ -77,6 +77,15 @@ export function renderLandingPage() {
             <p>Add words daily and revise with smart spaced repetition.</p>
           </div>
 
+          <div class="landing-card fade-up fade-up-5" id="btn-my-notes"
+            style="--card-accent:#d1fae5; --card-icon-bg:#d1fae5; --card-icon-color:#065f46;">
+            <div class="landing-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <h3>My Notes</h3>
+            <p>Capture important points with numbered lists. Pin and search your notes.</p>
+          </div>
+
           ${isAdmin ? `
           <div class="landing-card fade-up fade-up-5" id="btn-admin"
             style="--card-accent:#e0d4f7; --card-icon-bg:#ede9fe; --card-icon-color:#6d28d9;">
@@ -127,5 +136,6 @@ export function renderLandingPage() {
   document.getElementById('btn-exam-mode').addEventListener('click', () => nav.categorySelect('EXAM'));
   document.getElementById('btn-progress').addEventListener('click', () => nav.progress());
   document.getElementById('btn-my-words').addEventListener('click', () => nav.wordJournal());
+  document.getElementById('btn-my-notes').addEventListener('click', () => nav.notes());
   document.getElementById('btn-admin')?.addEventListener('click', () => nav.adminDashboard());
 }

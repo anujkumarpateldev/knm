@@ -23,6 +23,8 @@ export const nav = {
   wordJournal:    () => {},
   addWord:        () => {},
   wordRevision:   () => {},
+  // Notes
+  notes:          () => {},
   // Admin
   adminDashboard: () => {},
   adminUsers:     () => {},

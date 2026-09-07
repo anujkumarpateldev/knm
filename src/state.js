@@ -38,4 +38,7 @@ export const state = {
 
   // Personal vocabulary journal
   myWords: [],   // [{ id, dutch, english, meaning, example, tags, dateAdded, srsInterval, srsNextReview, srsRepetitions }]
+
+  // Personal notes
+  myNotes: [],   // [{ id, title, points, pinned, tags, createdAt, updatedAt }]
 };

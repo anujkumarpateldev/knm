@@ -2867,6 +2867,212 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
   border-radius: 99px;
 }
 
+/* ── My Notes ──────────────────────────────────────────────────────────────── */
+
+.notes-top-actions {
+  margin-bottom: 1.5rem;
+}
+
+.notes-group {
+  margin-bottom: 2rem;
+}
+
+.notes-group-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.note-card {
+  background: var(--surface-1);
+  border: 1.5px solid var(--border);
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  transition: box-shadow 0.15s, border-color 0.15s;
+}
+.note-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  border-color: var(--primary);
+}
+.note-card-pinned {
+  border-color: #f59e0b;
+  background: linear-gradient(135deg, var(--surface-1) 80%, rgba(245,158,11,0.06));
+}
+
+.note-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.note-card-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.3;
+  flex: 1;
+  min-width: 0;
+  word-break: break-word;
+}
+.note-card-actions {
+  display: flex;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+
+.btn-pin-note { color: var(--text-muted); }
+.btn-pin-note:hover,
+.btn-pin-note.is-pinned { color: #f59e0b; }
+
+.note-card-points {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.note-card-point {
+  font-size: 0.85rem;
+  color: var(--text);
+  display: flex;
+  gap: 0.4rem;
+  line-height: 1.45;
+}
+.note-point-num {
+  color: var(--primary);
+  font-weight: 700;
+  flex-shrink: 0;
+  min-width: 1.2rem;
+}
+
+.note-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+  flex-wrap: wrap;
+}
+.note-card-date {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+/* ── Notes modal ────────────────────────────────────────────────────────────── */
+.notes-modal-inner {
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.notes-points-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+.notes-point-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.notes-point-num {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--primary);
+  min-width: 1.4rem;
+  text-align: right;
+  flex-shrink: 0;
+}
+.notes-point-input {
+  flex: 1;
+  margin: 0 !important;
+}
+.notes-point-delete {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 2px 4px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+.notes-point-delete:hover { color: var(--danger); }
+
+.notes-add-point-btn {
+  background: none;
+  border: 1.5px dashed var(--border);
+  color: var(--text-muted);
+  border-radius: 8px;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.83rem;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  transition: border-color 0.15s, color 0.15s;
+}
+.notes-add-point-btn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.notes-pin-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--border);
+}
+.notes-pin-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.notes-pin-toggle {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 22px;
+}
+.notes-pin-toggle input { opacity: 0; width: 0; height: 0; }
+.notes-pin-slider {
+  position: absolute;
+  inset: 0;
+  background: var(--border);
+  border-radius: 22px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.notes-pin-slider:before {
+  content: '';
+  position: absolute;
+  width: 16px; height: 16px;
+  left: 3px; bottom: 3px;
+  background: #fff;
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+.notes-pin-toggle input:checked + .notes-pin-slider { background: #f59e0b; }
+.notes-pin-toggle input:checked + .notes-pin-slider:before { transform: translateX(18px); }
+
+/* ── word-cards-grid (unchanged, below) ─────────────────────────────────────── */
+
 .word-cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));

@@ -30,6 +30,7 @@ import { renderSpeakingPractice }  from './src/views/speaking/practice.js';
 import { renderWordJournal }  from './src/views/words/journal.js';
 import { renderAddWord }      from './src/views/words/addWord.js';
 import { renderWordRevision } from './src/views/words/revision.js';
+import { renderNotesJournal } from './src/views/notes/journal.js';
 
 import { renderAdminDashboard } from './src/views/admin/dashboard.js';
 import { renderAdminUsers }     from './src/views/admin/users.js';
@@ -73,6 +74,7 @@ nav.speakingPractice  = renderSpeakingPractice;
 nav.wordJournal  = renderWordJournal;
 nav.addWord      = renderAddWord;
 nav.wordRevision = renderWordRevision;
+nav.notes        = renderNotesJournal;
 
 nav.adminDashboard  = renderAdminDashboard;
 nav.adminUsers      = renderAdminUsers;
