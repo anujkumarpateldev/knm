@@ -2778,6 +2778,54 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
   transform: scale(1.15);
 }
 
+.wj-search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+.wj-search-icon {
+  position: absolute;
+  left: 0.75rem;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+.wj-search-input {
+  width: 100%;
+  padding: 0.6rem 2.5rem 0.6rem 2.25rem;
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.15s;
+}
+.wj-search-input:focus {
+  border-color: var(--primary);
+}
+.wj-search-input::placeholder { color: var(--text-muted); }
+.wj-search-clear {
+  position: absolute;
+  right: 0.6rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+.wj-search-clear:hover { color: var(--text); }
+.wj-search-count {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin: -0.25rem 0 0.75rem;
+}
+
 .wj-top-actions {
   display: flex;
   gap: 0.75rem;

@@ -16,6 +16,9 @@ const EDIT_ICON   = `<svg xmlns="http://www.w3.org/2000/svg" width="13" height="
 const PAGE_SIZE = 20;
 let wjPage   = 0;
 let wjFilter = 'all'; // 'all' | 'favourites'
+let wjSearch = '';
+
+const SEARCH_ICON = `<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>`;
 
 const STAR_FILLED = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="#f59e0b" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
 const STAR_EMPTY  = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
@@ -98,6 +101,7 @@ export async function renderWordJournal() {
 
   await loadWords();
   wjPage = 0;
+  wjSearch = '';
   _renderJournal();
 }
 
@@ -108,8 +112,18 @@ function _renderJournal() {
   const todayCount  = allWords.filter(w => w.dateAdded === todayStr).length;
   const favCount    = allWords.filter(w => w.isFavourite).length;
 
-  // Apply filter
-  const words = wjFilter === 'favourites' ? allWords.filter(w => w.isFavourite) : allWords;
+  // Apply filter then search
+  const filterBase = wjFilter === 'favourites' ? allWords.filter(w => w.isFavourite) : allWords;
+  const q = wjSearch.trim().toLowerCase();
+  const words = q
+    ? filterBase.filter(w =>
+        w.dutch.toLowerCase().includes(q) ||
+        w.english.toLowerCase().includes(q) ||
+        (w.meaning  || '').toLowerCase().includes(q) ||
+        (w.example  || '').toLowerCase().includes(q) ||
+        (w.tags     || []).some(t => t.toLowerCase().includes(q))
+      )
+    : filterBase;
 
   // Paginate flat word list
   const pageWords = words.slice(wjPage * PAGE_SIZE, (wjPage + 1) * PAGE_SIZE);
@@ -153,6 +167,16 @@ function _renderJournal() {
         <button class="wj-filter-tab ${wjFilter === 'favourites' ? 'active' : ''}" id="filter-favourites">★ Favourites ${favCount > 0 ? `<span class="wj-filter-badge">${favCount}</span>` : ''}</button>
       </div>
 
+      <div class="wj-search-bar">
+        <span class="wj-search-icon">${SEARCH_ICON}</span>
+        <input class="wj-search-input" id="wj-search" type="search"
+          placeholder="Search Dutch, English, tags…"
+          value="${esc(wjSearch)}"
+          autocomplete="off" />
+        ${wjSearch ? `<button class="wj-search-clear" id="wj-search-clear" title="Clear search">×</button>` : ''}
+      </div>
+      ${q ? `<p class="wj-search-count">${words.length} result${words.length !== 1 ? 's' : ''} for "<strong>${esc(q)}</strong>"</p>` : ''}
+
       <div class="wj-top-actions">
         <button class="btn-primary" id="btn-add-word">+ Add Word</button>
         <button class="btn-secondary" id="btn-start-revision" ${allWords.length === 0 ? 'disabled' : ''}>
@@ -162,10 +186,10 @@ function _renderJournal() {
 
       ${words.length === 0 ? `
         <div class="wj-empty">
-          <div class="wj-empty-icon">${wjFilter === 'favourites' ? '⭐' : '📖'}</div>
-          <h3>${wjFilter === 'favourites' ? 'No favourites yet' : 'No words yet'}</h3>
-          <p>${wjFilter === 'favourites' ? 'Tap the ★ star on any word card to mark it as a favourite.' : 'Add Dutch words you encounter each day.<br>Build your personal vocabulary journal!'}</p>
-          ${wjFilter === 'all' ? `<button class="btn-primary" id="btn-add-first">+ Add Your First Word</button>` : ''}
+          <div class="wj-empty-icon">${q ? '🔍' : wjFilter === 'favourites' ? '⭐' : '📖'}</div>
+          <h3>${q ? 'No results found' : wjFilter === 'favourites' ? 'No favourites yet' : 'No words yet'}</h3>
+          <p>${q ? `No words match "<strong>${esc(q)}</strong>". Try a different search.` : wjFilter === 'favourites' ? 'Tap the ★ star on any word card to mark it as a favourite.' : 'Add Dutch words you encounter each day.<br>Build your personal vocabulary journal!'}</p>
+          ${!q && wjFilter === 'all' ? `<button class="btn-primary" id="btn-add-first">+ Add Your First Word</button>` : ''}
         </div>
       ` : `
         <div class="wj-journal">
@@ -202,6 +226,21 @@ function _renderJournal() {
   });
   document.getElementById('stat-favourites')?.addEventListener('click', () => {
     wjFilter = 'favourites'; wjPage = 0; _renderJournal();
+  });
+
+  // ── Search ────────────────────────────────────────────────────────────────────
+  const searchEl = document.getElementById('wj-search');
+  searchEl?.addEventListener('input', () => {
+    wjSearch = searchEl.value;
+    wjPage = 0;
+    _renderJournal();
+    // Restore focus and cursor position after re-render
+    const newInput = document.getElementById('wj-search');
+    if (newInput) { newInput.focus(); newInput.setSelectionRange(newInput.value.length, newInput.value.length); }
+  });
+  document.getElementById('wj-search-clear')?.addEventListener('click', () => {
+    wjSearch = ''; wjPage = 0; _renderJournal();
+    document.getElementById('wj-search')?.focus();
   });
 
   // ── Speak ────────────────────────────────────────────────────────────────────
