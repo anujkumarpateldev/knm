@@ -2936,26 +2936,40 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
 .btn-pin-note:hover,
 .btn-pin-note.is-pinned { color: #f59e0b; }
 
-.note-card-points {
+.note-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 0.25rem;
+}
+.note-card-subtitle {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.15rem;
+}
+.note-card-lines {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.3rem;
+  gap: 0.25rem;
 }
-.note-card-point {
+.note-card-line {
   font-size: 0.85rem;
   color: var(--text);
-  display: flex;
-  gap: 0.4rem;
   line-height: 1.45;
+  padding-left: 1rem;
+  position: relative;
 }
-.note-point-num {
-  color: var(--primary);
-  font-weight: 700;
-  flex-shrink: 0;
-  min-width: 1.2rem;
+.note-card-line::before {
+  content: '•';
+  position: absolute;
+  left: 0.2rem;
+  color: var(--text-muted);
 }
 
 .note-card-footer {
@@ -2979,24 +2993,58 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
   overflow-y: auto;
 }
 
-.notes-points-editor {
+/* ── Notes section editor (modal) ───────────────────────────────────────────── */
+.nm-section-block {
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
-  margin-bottom: 0.5rem;
+  background: var(--surface-2, rgba(0,0,0,0.03));
 }
+.nm-section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+.nm-subtitle-input {
+  flex: 1;
+  margin: 0 !important;
+  font-weight: 600;
+}
+.nm-remove-section {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 2px 5px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+.nm-remove-section:hover { color: var(--danger); }
+
+.nm-lines-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
 .notes-point-row {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
-.notes-point-num {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: var(--primary);
-  min-width: 1.4rem;
-  text-align: right;
+.nm-bullet {
+  color: var(--text-muted);
+  font-size: 1rem;
   flex-shrink: 0;
+  width: 1rem;
+  text-align: center;
 }
 .notes-point-input {
   flex: 1;
@@ -3030,6 +3078,25 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
 .notes-add-point-btn:hover {
   border-color: var(--primary);
   color: var(--primary);
+}
+
+.notes-add-section-btn {
+  background: none;
+  border: 1.5px dashed var(--border);
+  color: var(--primary);
+  border-radius: 8px;
+  padding: 0.45rem 0.75rem;
+  font-size: 0.83rem;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  transition: border-color 0.15s, background 0.15s;
+  font-weight: 600;
+  margin-top: 0.25rem;
+}
+.notes-add-section-btn:hover {
+  border-color: var(--primary);
+  background: rgba(99,102,241,0.06);
 }
 
 .notes-pin-row {
