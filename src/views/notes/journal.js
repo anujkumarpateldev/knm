@@ -22,24 +22,32 @@ function fmtDate(iso) {
   return new Date(iso).toLocaleDateString('en-GB', { day:'numeric', month:'short', year:'numeric' });
 }
 
-// ── Note card ─────────────────────────────────────────────────────────────────
+// ── Note card (uniform preview, click to view) ────────────────────────────────
 function noteCardHTML(note) {
-  const sectionsHtml = (note.sections ?? []).map(sec => {
-    const lines = (sec.lines ?? []).filter(l => l.trim());
-    if (!sec.subtitle && !lines.length) return '';
+  // Show first section only as preview, truncated
+  const previewHtml = (() => {
+    const secs = (note.sections ?? []).filter(s => s.subtitle || (s.lines ?? []).some(l => l.trim()));
+    if (!secs.length) return '';
+    const sec = secs[0];
+    const lines = (sec.lines ?? []).filter(l => l.trim()).slice(0, 3);
     return `
       ${sec.subtitle ? `<div class="note-card-subtitle">${esc(sec.subtitle)}</div>` : ''}
       ${lines.length ? `<ul class="note-card-lines">
         ${lines.map(l => `<li class="note-card-line">${esc(l)}</li>`).join('')}
       </ul>` : ''}`;
-  }).join('');
+  })();
 
   const tagsHtml = (note.tags ?? []).length
     ? (note.tags).map(t => `<span class="word-tag">${esc(t)}</span>`).join('')
     : '';
 
+  // Count total lines for "x more" hint
+  const totalLines = (note.sections ?? []).reduce((n, s) => n + (s.lines ?? []).filter(l => l.trim()).length, 0);
+  const shownLines = (note.sections?.[0]?.lines ?? []).filter(l => l.trim()).slice(0, 3).length;
+  const moreCount  = totalLines - shownLines + ((note.sections ?? []).length > 1 ? note.sections.length - 1 : 0);
+
   return `
-    <div class="note-card ${note.pinned ? 'note-card-pinned' : ''}">
+    <div class="note-card ${note.pinned ? 'note-card-pinned' : ''}" data-id="${esc(note.id)}" role="button" tabindex="0" style="cursor:pointer;">
       <div class="note-card-header">
         <h3 class="note-card-title">${esc(note.title) || '<em style="opacity:.45">Untitled</em>'}</h3>
         <div class="note-card-actions">
@@ -48,7 +56,8 @@ function noteCardHTML(note) {
           <button class="btn-icon btn-delete-note" data-id="${esc(note.id)}" title="Delete">${DELETE_ICON}</button>
         </div>
       </div>
-      ${sectionsHtml ? `<div class="note-card-body">${sectionsHtml}</div>` : ''}
+      ${previewHtml ? `<div class="note-card-body">${previewHtml}</div>` : '<div class="note-card-body note-card-body-empty"></div>'}
+      ${moreCount > 0 ? `<div class="note-card-more">+${moreCount} more…</div>` : ''}
       <div class="note-card-footer">
         ${tagsHtml ? `<div class="word-tags">${tagsHtml}</div>` : ''}
         <span class="note-card-date">${fmtDate(note.updatedAt)}</span>
@@ -147,6 +156,22 @@ function _renderNotes() {
     document.getElementById('notes-search')?.focus();
   });
 
+  // Card click → view modal
+  document.querySelectorAll('.note-card').forEach(card => {
+    card.addEventListener('click', e => {
+      if (e.target.closest('.note-card-actions')) return;
+      const note = state.myNotes.find(n => n.id === card.dataset.id);
+      if (note) openViewModal(note);
+    });
+    card.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        const note = state.myNotes.find(n => n.id === card.dataset.id);
+        if (note) openViewModal(note);
+      }
+    });
+  });
+
   document.querySelectorAll('.btn-pin-note').forEach(btn => {
     btn.addEventListener('click', async e => {
       e.stopPropagation();
@@ -171,7 +196,9 @@ function _renderNotes() {
   });
 
   document.getElementById('notes-modal')?.remove();
+  document.getElementById('notes-view-modal')?.remove();
   _buildModal();
+  _buildViewModal();
 }
 
 // ── Modal ─────────────────────────────────────────────────────────────────────
@@ -224,6 +251,63 @@ function _buildModal() {
   document.getElementById('nm-cancel').addEventListener('click', closeModal);
   document.getElementById('nm-add-section').addEventListener('click', () => addSectionBlock(null, true));
   document.getElementById('nm-save').addEventListener('click', saveModal);
+}
+
+// ── View modal (read-only) ─────────────────────────────────────────────────────
+function _buildViewModal() {
+  const backdrop = document.createElement('div');
+  backdrop.className = 'admin-modal-backdrop';
+  backdrop.id = 'notes-view-modal';
+  backdrop.style.display = 'none';
+  backdrop.innerHTML = `
+    <div class="admin-modal notes-view-modal-inner" style="max-width:620px;width:100%;position:relative;">
+      <button class="notes-view-close" id="nv-close" title="Close">×</button>
+      <div id="nv-content"></div>
+      <div style="display:flex;gap:0.75rem;margin-top:1.5rem;justify-content:flex-end;">
+        <button class="btn-secondary" id="nv-close-btn">Close</button>
+        <button class="btn-primary"   id="nv-edit-btn">${EDIT_ICON} Edit</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(backdrop);
+  backdrop.addEventListener('click', e => { if (e.target === backdrop) closeViewModal(); });
+  document.getElementById('nv-close').addEventListener('click', closeViewModal);
+  document.getElementById('nv-close-btn').addEventListener('click', closeViewModal);
+  document.getElementById('nv-edit-btn').addEventListener('click', () => {
+    const id = backdrop.dataset.noteId;
+    const note = state.myNotes.find(n => n.id === id);
+    if (note) { closeViewModal(); openModal(note); }
+  });
+}
+
+function openViewModal(note) {
+  const backdrop = document.getElementById('notes-view-modal');
+  backdrop.dataset.noteId = note.id;
+
+  const sectionsHtml = (note.sections ?? []).map(sec => {
+    const lines = (sec.lines ?? []).filter(l => l.trim());
+    if (!sec.subtitle && !lines.length) return '';
+    return `
+      ${sec.subtitle ? `<div class="nv-subtitle">${esc(sec.subtitle)}</div>` : ''}
+      ${lines.length ? `<ul class="nv-lines">${lines.map(l => `<li class="nv-line">${esc(l)}</li>`).join('')}</ul>` : ''}`;
+  }).join('');
+
+  const tagsHtml = (note.tags ?? []).length
+    ? `<div class="word-tags" style="margin-top:1rem;">${note.tags.map(t => `<span class="word-tag">${esc(t)}</span>`).join('')}</div>`
+    : '';
+
+  document.getElementById('nv-content').innerHTML = `
+    <div class="nv-pin-row">${note.pinned ? '<span class="nv-pinned-badge">📌 Pinned</span>' : ''}</div>
+    <h2 class="nv-title">${esc(note.title) || '<em style="opacity:.4">Untitled</em>'}</h2>
+    ${sectionsHtml ? `<div class="nv-body">${sectionsHtml}</div>` : ''}
+    ${tagsHtml}
+    <p class="nv-date">Last updated: ${fmtDate(note.updatedAt)}</p>
+  `;
+  backdrop.style.display = 'flex';
+}
+
+function closeViewModal() {
+  document.getElementById('notes-view-modal').style.display = 'none';
 }
 
 function openModal(note = null) {
