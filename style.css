@@ -2727,6 +2727,57 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
 .wj-stat-primary { color: var(--primary); }
 .wj-stat-warning { color: var(--warning); }
 
+.wj-filter-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.wj-filter-tab {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 1rem;
+  border-radius: 20px;
+  border: 1.5px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.wj-filter-tab:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+.wj-filter-tab.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+.wj-filter-badge {
+  background: rgba(255,255,255,0.25);
+  color: inherit;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 10px;
+}
+.wj-filter-tab:not(.active) .wj-filter-badge {
+  background: var(--surface-2);
+  color: var(--text-muted);
+}
+
+.btn-favourite-word {
+  color: var(--text-muted);
+  transition: color 0.15s, transform 0.1s;
+}
+.btn-favourite-word:hover,
+.btn-favourite-word.is-favourite {
+  color: #f59e0b;
+  transform: scale(1.15);
+}
+
 .wj-top-actions {
   display: flex;
   gap: 0.75rem;

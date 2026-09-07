@@ -2,7 +2,7 @@
 // Vocabulary revision session — mode picker + flashcard loop with SRS rating.
 import { state } from '../../state.js';
 import { nav } from '../../router.js';
-import { loadWords, reviewWord, getDueWords, getWordsByDate, getUniqueDates } from '../../data/words.js';
+import { loadWords, reviewWord, getDueWords, getWordsByDate, getUniqueDates, getFavouriteWords } from '../../data/words.js';
 import { trackEnter, track } from '../../utils/tracker.js';
 import { speakDutch } from '../../speech.js';
 
@@ -57,9 +57,10 @@ export async function renderWordRevision() {
 
   await loadWords();
 
-  const words = state.myWords;
+  const words    = state.myWords;
   const dueWords = getDueWords();
-  const dates = getUniqueDates();
+  const favWords = getFavouriteWords();
+  const dates    = getUniqueDates();
   const recCount = recentCount(7);
 
   document.getElementById('main-content').innerHTML = `
@@ -114,6 +115,13 @@ export async function renderWordRevision() {
           <span class="rev-badge rev-badge-muted">${words.length} word${words.length !== 1 ? 's' : ''}</span>
         </div>
 
+        <div class="rev-mode-card ${favWords.length === 0 ? 'rev-mode-disabled' : ''}" id="mode-favourites">
+          <div class="rev-mode-icon">⭐</div>
+          <h3>Favourites</h3>
+          <p>Revise only your starred favourite words</p>
+          <span class="rev-badge ${favWords.length > 0 ? 'rev-badge-warning' : 'rev-badge-muted'}">${favWords.length} word${favWords.length !== 1 ? 's' : ''}</span>
+        </div>
+
         <div class="rev-mode-card rev-mode-bydate ${words.length === 0 ? 'rev-mode-disabled' : ''}" id="mode-bydate">
           <div class="rev-mode-icon">🗓️</div>
           <h3>By Date</h3>
@@ -154,10 +162,11 @@ export async function renderWordRevision() {
       card.addEventListener('click', () => startRevision(mode));
     }
   };
-  clickable('mode-due',    'due');
-  clickable('mode-random', 'random');
-  clickable('mode-recent', 'recent');
-  clickable('mode-all',    'all');
+  clickable('mode-due',        'due');
+  clickable('mode-random',     'random');
+  clickable('mode-recent',     'recent');
+  clickable('mode-all',        'all');
+  clickable('mode-favourites', 'favourites');
 
   document.getElementById('btn-start-bydate')?.addEventListener('click', () => {
     const date = document.getElementById('rev-date-select').value;
@@ -171,16 +180,17 @@ export async function renderWordRevision() {
 function startRevision(mode, dateParam = null) {
   let words = [];
   switch (mode) {
-    case 'due':    words = shuffle(getDueWords()); break;
-    case 'random': words = shuffle([...state.myWords]); break;
+    case 'due':        words = shuffle(getDueWords()); break;
+    case 'random':     words = shuffle([...state.myWords]); break;
     case 'recent': {
       const cutoff = new Date(); cutoff.setDate(cutoff.getDate() - 7);
       const cutoffStr = cutoff.toISOString().split('T')[0];
       words = shuffle(state.myWords.filter(w => w.dateAdded >= cutoffStr));
       break;
     }
-    case 'all':    words = shuffle([...state.myWords]); break;
-    case 'bydate': words = getWordsByDate(dateParam); break;
+    case 'all':        words = shuffle([...state.myWords]); break;
+    case 'favourites': words = shuffle(getFavouriteWords()); break;
+    case 'bydate':     words = getWordsByDate(dateParam); break;
   }
   if (!words.length) { alert('No words in this selection.'); return; }
 

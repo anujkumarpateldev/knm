@@ -31,12 +31,13 @@ function mapRow(row) {
     srsInterval:    row.srs_interval,
     srsRepetitions: row.srs_repetitions,
     srsNextReview:  row.srs_next_review,
+    isFavourite:    row.is_favourite    ?? false,
   };
 }
 
 const USER_WORDS_SELECT = `
   id, dict_id, custom_dutch, custom_english, custom_meaning, custom_example,
-  date_added, srs_interval, srs_repetitions, srs_next_review,
+  date_added, srs_interval, srs_repetitions, srs_next_review, is_favourite,
   word_dictionary ( dutch, english, meaning, example, tags )
 `;
 
@@ -268,4 +269,28 @@ export function getUniqueDates() {
   return Object.entries(counts)
     .sort((a, b) => b[0].localeCompare(a[0]))
     .map(([date, count]) => ({ date, count }));
+}
+
+export function getFavouriteWords() {
+  return state.myWords.filter(w => w.isFavourite);
+}
+
+// ── Toggle favourite ───────────────────────────────────────────────────────────
+export async function toggleFavourite(id) {
+  const idx = state.myWords.findIndex(w => w.id === id);
+  if (idx === -1) return;
+  const newVal = !state.myWords[idx].isFavourite;
+  state.myWords[idx] = { ...state.myWords[idx], isFavourite: newVal };
+
+  if (!state.currentUser) {
+    localStorage.setItem(WORDS_KEY, JSON.stringify(state.myWords));
+    return;
+  }
+
+  // Fire-and-forget
+  supabase.from('user_words')
+    .update({ is_favourite: newVal })
+    .eq('id', id)
+    .eq('user_id', state.currentUser.id)
+    .then(() => {}).catch(() => {});
 }

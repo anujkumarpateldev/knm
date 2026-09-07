@@ -2,7 +2,7 @@
 // Main "Mijn Woorden" journal — word list grouped by date + stats.
 import { state } from '../../state.js';
 import { nav } from '../../router.js';
-import { loadWords, deleteWord, getDueWords, addWord, updateWord, confirmAddFromDict } from '../../data/words.js';
+import { loadWords, deleteWord, getDueWords, addWord, updateWord, confirmAddFromDict, toggleFavourite } from '../../data/words.js';
 import { speakDutch } from '../../speech.js';
 import { runAIFill, setupTagsAutocomplete, invalidateTagsCache } from '../../utils/aiFill.js';
 import { trackEnter } from '../../utils/tracker.js';
@@ -14,7 +14,11 @@ const DELETE_ICON = `<svg xmlns="http://www.w3.org/2000/svg" width="13" height="
 const EDIT_ICON   = `<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>`;
 
 const PAGE_SIZE = 20;
-let wjPage = 0;
+let wjPage   = 0;
+let wjFilter = 'all'; // 'all' | 'favourites'
+
+const STAR_FILLED = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="#f59e0b" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
+const STAR_EMPTY  = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
 
 function esc(str) {
   return String(str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -47,6 +51,7 @@ function wordCardHTML(w) {
           <button class="btn-icon btn-speak-word" data-word="${esc(w.dutch)}" title="Listen">${SPEAK_ICON}</button>
         </div>
         <div class="word-card-actions">
+          <button class="btn-icon btn-favourite-word ${w.isFavourite ? 'is-favourite' : ''}" data-id="${esc(w.id)}" title="${w.isFavourite ? 'Remove from favourites' : 'Add to favourites'}">${w.isFavourite ? STAR_FILLED : STAR_EMPTY}</button>
           <button class="btn-icon btn-edit-word" title="Edit"
             data-id="${esc(w.id)}"
             data-dutch="${esc(w.dutch)}"
@@ -97,10 +102,14 @@ export async function renderWordJournal() {
 }
 
 function _renderJournal() {
-  const words    = state.myWords;
+  const allWords = state.myWords;
   const todayStr = new Date().toISOString().split('T')[0];
-  const dueCount = getDueWords().length;
-  const todayCount = words.filter(w => w.dateAdded === todayStr).length;
+  const dueCount    = getDueWords().length;
+  const todayCount  = allWords.filter(w => w.dateAdded === todayStr).length;
+  const favCount    = allWords.filter(w => w.isFavourite).length;
+
+  // Apply filter
+  const words = wjFilter === 'favourites' ? allWords.filter(w => w.isFavourite) : allWords;
 
   // Paginate flat word list
   const pageWords = words.slice(wjPage * PAGE_SIZE, (wjPage + 1) * PAGE_SIZE);
@@ -122,7 +131,7 @@ function _renderJournal() {
 
       <div class="wj-stats-strip">
         <div class="wj-stat">
-          <span class="wj-stat-num">${words.length}</span>
+          <span class="wj-stat-num">${allWords.length}</span>
           <span class="wj-stat-label">Total words</span>
         </div>
         <div class="wj-stat">
@@ -133,21 +142,30 @@ function _renderJournal() {
           <span class="wj-stat-num ${dueCount > 0 ? 'wj-stat-warning' : ''}">${dueCount}</span>
           <span class="wj-stat-label">Due for review</span>
         </div>
+        <div class="wj-stat" style="cursor:pointer;" id="stat-favourites">
+          <span class="wj-stat-num" style="color:#f59e0b;">${favCount}</span>
+          <span class="wj-stat-label">★ Favourites</span>
+        </div>
+      </div>
+
+      <div class="wj-filter-tabs">
+        <button class="wj-filter-tab ${wjFilter === 'all' ? 'active' : ''}" id="filter-all">All Words</button>
+        <button class="wj-filter-tab ${wjFilter === 'favourites' ? 'active' : ''}" id="filter-favourites">★ Favourites ${favCount > 0 ? `<span class="wj-filter-badge">${favCount}</span>` : ''}</button>
       </div>
 
       <div class="wj-top-actions">
         <button class="btn-primary" id="btn-add-word">+ Add Word</button>
-        <button class="btn-secondary" id="btn-start-revision" ${words.length === 0 ? 'disabled' : ''}>
+        <button class="btn-secondary" id="btn-start-revision" ${allWords.length === 0 ? 'disabled' : ''}>
           Revise Words
         </button>
       </div>
 
       ${words.length === 0 ? `
         <div class="wj-empty">
-          <div class="wj-empty-icon">📖</div>
-          <h3>No words yet</h3>
-          <p>Add Dutch words you encounter each day.<br>Build your personal vocabulary journal!</p>
-          <button class="btn-primary" id="btn-add-first">+ Add Your First Word</button>
+          <div class="wj-empty-icon">${wjFilter === 'favourites' ? '⭐' : '📖'}</div>
+          <h3>${wjFilter === 'favourites' ? 'No favourites yet' : 'No words yet'}</h3>
+          <p>${wjFilter === 'favourites' ? 'Tap the ★ star on any word card to mark it as a favourite.' : 'Add Dutch words you encounter each day.<br>Build your personal vocabulary journal!'}</p>
+          ${wjFilter === 'all' ? `<button class="btn-primary" id="btn-add-first">+ Add Your First Word</button>` : ''}
         </div>
       ` : `
         <div class="wj-journal">
@@ -175,9 +193,29 @@ function _renderJournal() {
   document.getElementById('wj-prev-page')?.addEventListener('click', () => { wjPage--; _renderJournal(); });
   document.getElementById('wj-next-page')?.addEventListener('click', () => { wjPage++; _renderJournal(); });
 
+  // ── Filter tabs ───────────────────────────────────────────────────────────────
+  document.getElementById('filter-all')?.addEventListener('click', () => {
+    wjFilter = 'all'; wjPage = 0; _renderJournal();
+  });
+  document.getElementById('filter-favourites')?.addEventListener('click', () => {
+    wjFilter = 'favourites'; wjPage = 0; _renderJournal();
+  });
+  document.getElementById('stat-favourites')?.addEventListener('click', () => {
+    wjFilter = 'favourites'; wjPage = 0; _renderJournal();
+  });
+
   // ── Speak ────────────────────────────────────────────────────────────────────
   document.querySelectorAll('.btn-speak-word').forEach(btn => {
     btn.addEventListener('click', e => { e.stopPropagation(); speakDutch(btn.dataset.word); });
+  });
+
+  // ── Favourite ─────────────────────────────────────────────────────────────────
+  document.querySelectorAll('.btn-favourite-word').forEach(btn => {
+    btn.addEventListener('click', async e => {
+      e.stopPropagation();
+      await toggleFavourite(btn.dataset.id);
+      _renderJournal();
+    });
   });
 
   // ── Delete ───────────────────────────────────────────────────────────────────
