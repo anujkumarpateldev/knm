@@ -17,7 +17,7 @@ function mapRow(row) {
     pinned:     row.pinned    ?? false,
     tags:       row.tags      ?? [],
     isPublic:   row.is_public ?? false,
-    authorName: row.user_profiles?.display_name ?? null,
+    authorName: row.user_profiles?.email ?? null,
     createdAt:  row.created_at,
     updatedAt:  row.updated_at,
   };
@@ -126,7 +126,7 @@ export async function loadPublicNotes() {
   if (!state.currentUser) { state.publicNotes = []; return; }
   const { data, error } = await supabase
     .from('notes')
-    .select('id, title, sections, pinned, tags, is_public, created_at, updated_at, user_profiles ( display_name )')
+    .select('id, title, sections, pinned, tags, is_public, created_at, updated_at, user_profiles ( email )')
     .eq('is_public', true)
     .neq('user_id', state.currentUser.id)  // exclude own notes (already in My Notes)
     .order('updated_at', { ascending: false });

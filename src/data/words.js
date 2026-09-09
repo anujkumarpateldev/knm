@@ -33,7 +33,7 @@ function mapRow(row) {
     srsNextReview:  row.srs_next_review,
     isFavourite:    row.is_favourite    ?? false,
     isPublic:       row.is_public       ?? false,
-    authorName:     row.user_profiles?.display_name ?? null,
+    authorName:     row.user_profiles?.email ?? null,
   };
 }
 
@@ -299,7 +299,7 @@ export async function loadPublicWords() {
       id, dict_id, custom_dutch, custom_english, custom_meaning, custom_example,
       date_added, srs_interval, srs_repetitions, srs_next_review, is_favourite, is_public,
       word_dictionary ( dutch, english, meaning, example, tags ),
-      user_profiles ( display_name )
+      user_profiles ( email )
     `)
     .eq('is_public', true)
     .neq('user_id', state.currentUser.id)
