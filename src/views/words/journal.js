@@ -4,7 +4,7 @@ import { state } from '../../state.js';
 import { nav } from '../../router.js';
 import { loadWords, deleteWord, getDueWords, addWord, updateWord, confirmAddFromDict, toggleFavourite, toggleWordPublic, loadPublicWords } from '../../data/words.js';
 import { speakDutch } from '../../speech.js';
-import { runAIFill, setupTagsAutocomplete, invalidateTagsCache } from '../../utils/aiFill.js';
+import { runAIFill, runAIFillFromEnglish, setupTagsAutocomplete, invalidateTagsCache } from '../../utils/aiFill.js';
 import { trackEnter } from '../../utils/tracker.js';
 
 const BACK_ICON   = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>`;
@@ -438,7 +438,16 @@ function _renderJournal() {
   addModalEl.innerHTML = `
     <div class="admin-modal" style="max-width:500px;">
       <h3>Add a Word</h3>
-      <div class="aw-form-group" style="margin-top:1rem;">
+
+      <div class="aw-fill-direction-row">
+        <span class="aw-fill-direction-label">Fill from:</span>
+        <div class="aw-fill-direction-toggle">
+          <button type="button" class="aw-dir-btn active" id="wj-dir-dutch">🇳🇱 Dutch</button>
+          <button type="button" class="aw-dir-btn" id="wj-dir-english">🇬🇧 English</button>
+        </div>
+      </div>
+
+      <div class="aw-form-group" style="margin-top:0.75rem;">
         <label class="aw-label">Dutch word / phrase <span class="aw-required">*</span></label>
         <div class="aw-dutch-row">
           <input class="aw-input" id="wj-dutch" type="text" placeholder="e.g. de fiets, werkloos zijn…" autocomplete="off" />
@@ -451,7 +460,13 @@ function _renderJournal() {
       </div>
       <div class="aw-form-group">
         <label class="aw-label">English translation <span class="aw-required">*</span></label>
-        <input class="aw-input" id="wj-english" type="text" placeholder="e.g. the bicycle" />
+        <div class="aw-dutch-row">
+          <input class="aw-input" id="wj-english" type="text" placeholder="e.g. the bicycle" />
+          <button type="button" class="btn-ai-fill" id="wj-btn-ai-fill-en" style="display:none;"
+            title="${isLoggedIn ? 'Auto-fill Dutch from English' : 'Sign in to use AI fill'}">
+            ${SPARKLE} ${isLoggedIn ? 'AI Fill' : 'Sign in for AI'}
+          </button>
+        </div>
       </div>
       <div class="aw-form-group">
         <label class="aw-label">Meaning / definition</label>
@@ -484,6 +499,11 @@ function _renderJournal() {
     document.getElementById('wj-tags').value    = '';
     document.getElementById('wj-add-status').textContent = '';
     document.getElementById('wj-ai-status').style.display = 'none';
+    // Reset to Dutch fill direction
+    document.getElementById('wj-dir-dutch').classList.add('active');
+    document.getElementById('wj-dir-english').classList.remove('active');
+    document.getElementById('wj-btn-ai-fill').style.display    = '';
+    document.getElementById('wj-btn-ai-fill-en').style.display = 'none';
     addModalEl.style.display = 'flex';
     setTimeout(() => document.getElementById('wj-dutch').focus(), 50);
   }
@@ -493,17 +513,50 @@ function _renderJournal() {
   document.getElementById('wj-btn-cancel').addEventListener('click', () => { addModalEl.style.display = 'none'; });
   addModalEl.addEventListener('click', e => { if (e.target === addModalEl) addModalEl.style.display = 'none'; });
 
-  document.getElementById('wj-btn-ai-fill').addEventListener('click', async () => {
+  // ── Fill direction toggle ─────────────────────────────────────────────────────
+  const btnDirDutch = document.getElementById('wj-dir-dutch');
+  const btnDirEn    = document.getElementById('wj-dir-english');
+  const aiFillDutch = document.getElementById('wj-btn-ai-fill');
+  const aiFillEn    = document.getElementById('wj-btn-ai-fill-en');
+
+  btnDirDutch.addEventListener('click', () => {
+    btnDirDutch.classList.add('active');
+    btnDirEn.classList.remove('active');
+    aiFillDutch.style.display = '';
+    aiFillEn.style.display    = 'none';
+  });
+  btnDirEn.addEventListener('click', () => {
+    btnDirEn.classList.add('active');
+    btnDirDutch.classList.remove('active');
+    aiFillDutch.style.display = 'none';
+    aiFillEn.style.display    = '';
+  });
+
+  // ── Dutch → fill English/Meaning/Example ─────────────────────────────────────
+  aiFillDutch.addEventListener('click', async () => {
     if (!state.currentUser) { nav.auth(); return; }
     const dutch = document.getElementById('wj-dutch').value.trim();
     if (!dutch) { document.getElementById('wj-dutch').focus(); return; }
     await runAIFill({
       dutch,
-      btn:          document.getElementById('wj-btn-ai-fill'),
+      btn:          aiFillDutch,
       status:       document.getElementById('wj-ai-status'),
       fields:       { english: 'wj-english', meaning: 'wj-meaning', example: 'wj-example' },
       dutchInputId: 'wj-dutch',
-      onRetrigger:  () => document.getElementById('wj-btn-ai-fill').click(),
+      onRetrigger:  () => aiFillDutch.click(),
+    });
+  });
+
+  // ── English → fill Dutch/Meaning/Example ─────────────────────────────────────
+  aiFillEn.addEventListener('click', async () => {
+    if (!state.currentUser) { nav.auth(); return; }
+    const english = document.getElementById('wj-english').value.trim();
+    if (!english) { document.getElementById('wj-english').focus(); return; }
+    await runAIFillFromEnglish({
+      english,
+      btn:    aiFillEn,
+      status: document.getElementById('wj-ai-status'),
+      fields: { dutch: 'wj-dutch', meaning: 'wj-meaning', example: 'wj-example' },
     });
   });
 

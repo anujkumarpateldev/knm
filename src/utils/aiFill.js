@@ -103,6 +103,73 @@ export function setupTagsAutocomplete(inputId) {
   input.addEventListener('keydown', e => { if (e.key === 'Escape') dropdown.style.display = 'none'; });
 }
 
+export async function runAIFillFromEnglish({ english, btn, status, fields }) {
+  btn.disabled = true;
+  btn.style.opacity = '0.6';
+  status.style.display = 'block';
+  status.className = 'aw-ai-status aw-ai-loading';
+  status.textContent = 'AI is thinking…';
+
+  const restore = () => { btn.disabled = false; btn.style.opacity = ''; };
+
+  let askAI;
+  try {
+    ({ askAI } = await import('../ai/aiService.js'));
+  } catch {
+    restore();
+    status.className = 'aw-ai-status aw-ai-error';
+    status.textContent = 'Could not load AI service.';
+    return;
+  }
+
+  let fullText = '';
+
+  try {
+    await askAI({
+      module: 'vocab',
+      action: 'fill_from_english',
+      context: { english_word: english },
+      input: english,
+      onChunk: chunk => { fullText += chunk; },
+      onDone: () => {
+        const get = key => {
+          const m = fullText.match(new RegExp(`\\*{0,2}${key}\\*{0,2}:?\\*{0,2}\\s*(.+)`, 'i'));
+          return m ? m[1].replace(/\*+$/, '').trim() : '';
+        };
+
+        const dutchWord = get('DUTCH');
+        const article   = get('ARTICLE');
+        const meaning   = get('MEANING');
+        const example   = get('EXAMPLE');
+
+        // Combine article + dutch word (skip article if n/a or missing)
+        const isNa = !article || article.toLowerCase() === 'n/a' || article.toLowerCase() === 'na';
+        const fullDutch = dutchWord
+          ? (isNa ? dutchWord : `${article} ${dutchWord}`)
+          : '';
+
+        if (fullDutch && !document.getElementById(fields.dutch).value)   document.getElementById(fields.dutch).value   = fullDutch;
+        if (meaning   && !document.getElementById(fields.meaning).value) document.getElementById(fields.meaning).value = meaning;
+        if (example   && !document.getElementById(fields.example).value) document.getElementById(fields.example).value = example;
+
+        restore();
+        status.className = 'aw-ai-status aw-ai-success';
+        status.textContent = 'Fields filled — review and adjust as needed.';
+        setTimeout(() => { status.style.display = 'none'; }, 3500);
+      },
+      onError: msg => {
+        restore();
+        status.className = 'aw-ai-status aw-ai-error';
+        status.textContent = msg;
+      },
+    });
+  } catch (e) {
+    restore();
+    status.className = 'aw-ai-status aw-ai-error';
+    status.textContent = e?.message || 'AI request failed.';
+  }
+}
+
 export async function runAIFill({ dutch, btn, status, fields, dutchInputId, onRetrigger }) {
   btn.disabled = true;
   btn.style.opacity = '0.6';

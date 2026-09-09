@@ -3428,6 +3428,46 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
 .aw-textarea { resize: vertical; min-height: 64px; }
 .aw-dutch-row { display: flex; gap: 0.5rem; }
 .aw-dutch-row .aw-input { flex: 1; }
+
+/* ── AI fill direction toggle ────────────────────────────────────────────────── */
+.aw-fill-direction-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+.aw-fill-direction-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.aw-fill-direction-toggle {
+  display: flex;
+  gap: 0;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.aw-dir-btn {
+  background: none;
+  border: none;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: background 0.15s, color 0.15s;
+  line-height: 1.4;
+}
+.aw-dir-btn + .aw-dir-btn {
+  border-left: 1.5px solid var(--border);
+}
+.aw-dir-btn.active {
+  background: var(--primary);
+  color: #fff;
+}
 .btn-ai-fill {
   display: flex;
   align-items: center;

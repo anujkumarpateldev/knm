@@ -77,15 +77,16 @@ async function fetchWithTimeout(url: string, opts: RequestInit, provider: string
 
 // ── Model routing ─────────────────────────────────────────────────────────────
 const ACTION_PRIORITY: Record<string, 'speed' | 'quality'> = {
-  hint:      'speed',
-  explain:   'speed',
-  translate: 'speed',
-  mnemonic:  'speed',
-  simplify:  'speed',
-  fill:      'speed',
-  grade:     'quality',
-  evaluate:  'quality',
-  feedback:  'quality',
+  hint:              'speed',
+  explain:           'speed',
+  translate:         'speed',
+  mnemonic:          'speed',
+  simplify:          'speed',
+  fill:              'speed',
+  fill_from_english: 'speed',
+  grade:             'quality',
+  evaluate:          'quality',
+  feedback:          'quality',
 };
 
 // ── System prompts ────────────────────────────────────────────────────────────
@@ -97,6 +98,13 @@ CORRECTION: <corrected Dutch spelling, or "none" if already correct>
 ENGLISH: <English translation only>
 MEANING: <one English sentence definition>
 EXAMPLE: <one natural Dutch example sentence>`,
+
+  fill_from_english: `You are a Dutch dictionary assistant. The user gives you an English word or phrase. Output EXACTLY four labeled lines — nothing else. No preamble, no markdown, no extra commentary.
+Format:
+DUTCH: <the most natural Dutch word or phrase>
+ARTICLE: <"de" or "het" for nouns; "n/a" for verbs, adjectives, or multi-word phrases>
+MEANING: <one English sentence definition>
+EXAMPLE: <one natural Dutch example sentence using the Dutch word>`,
 };
 
 const SYSTEM_PROMPTS: Record<string, string> = {
@@ -150,6 +158,8 @@ Keep it simple for an A2 learner. Include meaning, a tip, and one more example s
 Then provide an English summary in 2–3 sentences.`;
     case 'fill':
       return `Dutch word or phrase: "${context.dutch_word}"`;
+    case 'fill_from_english':
+      return `English word or phrase: "${context.english_word}"`;
     case 'evaluate':
       return `EXAM QUESTION:\n${context.question}\n\nMODEL ANSWER:\n${context.expected_answer}\n\nSTUDENT SAID:\n"${context.transcript}"\n\nEvaluate the student's spoken answer. Reply as valid JSON only:\n{"verdict":"good"|"partial"|"retry","score":"X/5","correct":["..."],"missing":["..."],"tip":"...","encouragement":"..."}`;
     default:
