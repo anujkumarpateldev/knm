@@ -2,7 +2,7 @@
 // Main "Mijn Woorden" journal — word list grouped by date + stats.
 import { state } from '../../state.js';
 import { nav } from '../../router.js';
-import { loadWords, deleteWord, getDueWords, addWord, updateWord, confirmAddFromDict, toggleFavourite } from '../../data/words.js';
+import { loadWords, deleteWord, getDueWords, addWord, updateWord, confirmAddFromDict, toggleFavourite, toggleWordPublic, loadPublicWords } from '../../data/words.js';
 import { speakDutch } from '../../speech.js';
 import { runAIFill, setupTagsAutocomplete, invalidateTagsCache } from '../../utils/aiFill.js';
 import { trackEnter } from '../../utils/tracker.js';
@@ -15,10 +15,13 @@ const EDIT_ICON   = `<svg xmlns="http://www.w3.org/2000/svg" width="13" height="
 
 const PAGE_SIZE = 20;
 let wjPage   = 0;
-let wjFilter = 'all'; // 'all' | 'favourites'
+let wjFilter = 'all';    // 'all' | 'favourites'
 let wjSearch = '';
+let wjTab    = 'mine';   // 'mine' | 'common'
 
 const SEARCH_ICON = `<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>`;
+const GLOBE_ICON  = `<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>`;
+const LOCK_ICON   = `<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>`;
 
 const STAR_FILLED = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="#f59e0b" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
 const STAR_EMPTY  = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
@@ -54,6 +57,7 @@ function wordCardHTML(w) {
           <button class="btn-icon btn-speak-word" data-word="${esc(w.dutch)}" title="Listen">${SPEAK_ICON}</button>
         </div>
         <div class="word-card-actions">
+          <button class="btn-icon btn-word-public ${w.isPublic ? 'is-public' : ''}" data-id="${esc(w.id)}" title="${w.isPublic ? 'Make private' : 'Share publicly'}">${w.isPublic ? GLOBE_ICON : LOCK_ICON}</button>
           <button class="btn-icon btn-favourite-word ${w.isFavourite ? 'is-favourite' : ''}" data-id="${esc(w.id)}" title="${w.isFavourite ? 'Remove from favourites' : 'Add to favourites'}">${w.isFavourite ? STAR_FILLED : STAR_EMPTY}</button>
           <button class="btn-icon btn-edit-word" title="Edit"
             data-id="${esc(w.id)}"
@@ -71,6 +75,28 @@ function wordCardHTML(w) {
       ${w.example ? `<div class="word-card-example">"${esc(w.example)}"</div>` : ''}
       <div class="word-card-footer">
         ${masteryDots(w.srsRepetitions)}
+        ${w.tags.length ? `<div class="word-tags">${w.tags.map(t => `<span class="word-tag">${esc(t)}</span>`).join('')}</div>` : ''}
+      </div>
+    </div>`;
+}
+
+function publicWordCardHTML(w) {
+  return `
+    <div class="word-card">
+      <div class="word-card-header">
+        <div class="word-card-dutch">
+          <span class="word-dutch-text">${esc(w.dutch)}</span>
+          <button class="btn-icon btn-speak-word" data-word="${esc(w.dutch)}" title="Listen">${SPEAK_ICON}</button>
+        </div>
+        <div class="word-card-actions">
+          <button class="btn-icon btn-add-public-word" data-dict-id="${esc(w.dictId)}" data-dutch="${esc(w.dutch)}" title="Add to My Words">+</button>
+        </div>
+      </div>
+      ${w.authorName ? `<div class="word-author-badge">by ${esc(w.authorName)}</div>` : ''}
+      <div class="word-card-english">${esc(w.english)}</div>
+      ${w.meaning ? `<div class="word-card-meaning">${esc(w.meaning)}</div>` : ''}
+      ${w.example ? `<div class="word-card-example">"${esc(w.example)}"</div>` : ''}
+      <div class="word-card-footer">
         ${w.tags.length ? `<div class="word-tags">${w.tags.map(t => `<span class="word-tag">${esc(t)}</span>`).join('')}</div>` : ''}
       </div>
     </div>`;
@@ -99,22 +125,103 @@ export async function renderWordJournal() {
       <p style="color:var(--text-muted);">Loading words…</p>
     </div>`;
 
-  await loadWords();
-  wjPage = 0;
+  await Promise.all([loadWords(), loadPublicWords()]);
+  wjPage   = 0;
   wjSearch = '';
+  wjTab    = 'mine';
   _renderJournal();
 }
 
 function _renderJournal() {
-  const allWords = state.myWords;
-  const todayStr = new Date().toISOString().split('T')[0];
-  const dueCount    = getDueWords().length;
-  const todayCount  = allWords.filter(w => w.dateAdded === todayStr).length;
-  const favCount    = allWords.filter(w => w.isFavourite).length;
+  const allWords  = state.myWords;
+  const pubWords  = state.publicWords ?? [];
+  const isCommon  = wjTab === 'common';
+  const todayStr  = new Date().toISOString().split('T')[0];
+  const dueCount  = getDueWords().length;
+  const todayCount = allWords.filter(w => w.dateAdded === todayStr).length;
+  const favCount  = allWords.filter(w => w.isFavourite).length;
 
-  // Apply filter then search
-  const filterBase = wjFilter === 'favourites' ? allWords.filter(w => w.isFavourite) : allWords;
   const q = wjSearch.trim().toLowerCase();
+
+  // ── Common Words tab ─────────────────────────────────────────────────────────
+  if (isCommon) {
+    const filtered = q
+      ? pubWords.filter(w =>
+          w.dutch.toLowerCase().includes(q) ||
+          w.english.toLowerCase().includes(q) ||
+          (w.meaning || '').toLowerCase().includes(q) ||
+          (w.tags || []).some(t => t.toLowerCase().includes(q))
+        )
+      : pubWords;
+
+    document.getElementById('main-content').innerHTML = `
+      <div class="view active" id="word-journal-view">
+        <div class="wj-page-header">
+          <button class="btn-back" id="btn-back-landing">${BACK_ICON} Home</button>
+          <div>
+            <h1 class="wj-title">Mijn Woorden</h1>
+            <p class="wj-subtitle">Your personal Dutch vocabulary journal</p>
+          </div>
+        </div>
+
+        <div class="wj-section-tabs">
+          <button class="wj-section-tab" id="tab-mine">My Words <span class="wj-filter-badge">${allWords.length}</span></button>
+          <button class="wj-section-tab active" id="tab-common">🌐 Common Words <span class="wj-filter-badge">${pubWords.length}</span></button>
+        </div>
+
+        <div class="wj-search-bar">
+          <span class="wj-search-icon">${SEARCH_ICON}</span>
+          <input class="wj-search-input" id="wj-search" type="search"
+            placeholder="Search shared words…" value="${esc(wjSearch)}" autocomplete="off" />
+          ${wjSearch ? `<button class="wj-search-clear" id="wj-search-clear">×</button>` : ''}
+        </div>
+        ${q ? `<p class="wj-search-count">${filtered.length} result${filtered.length!==1?'s':''} for "<strong>${esc(q)}</strong>"</p>` : ''}
+
+        ${filtered.length === 0 ? `
+          <div class="wj-empty">
+            <div class="wj-empty-icon">${q ? '🔍' : '🌐'}</div>
+            <h3>${q ? 'No results found' : 'No shared words yet'}</h3>
+            <p>${q ? `No words match "<strong>${esc(q)}</strong>".` : 'When users share their words publicly, they appear here. Share yours using the 🔒 icon on any word card.'}</p>
+          </div>` : `
+          <div class="wj-journal">
+            <div class="word-cards-grid">${filtered.map(publicWordCardHTML).join('')}</div>
+          </div>`}
+      </div>
+    `;
+
+    document.getElementById('btn-back-landing').addEventListener('click', () => nav.landing());
+    document.getElementById('tab-mine').addEventListener('click', () => { wjTab = 'mine'; wjSearch = ''; _renderJournal(); });
+    document.getElementById('tab-common').addEventListener('click', async () => { wjTab = 'common'; wjSearch = ''; await loadPublicWords(); _renderJournal(); });
+
+    const se = document.getElementById('wj-search');
+    se?.addEventListener('input', () => { wjSearch = se.value; _renderJournal(); const el = document.getElementById('wj-search'); if (el) { el.focus(); el.setSelectionRange(el.value.length, el.value.length); } });
+    document.getElementById('wj-search-clear')?.addEventListener('click', () => { wjSearch = ''; _renderJournal(); });
+
+    document.querySelectorAll('.btn-speak-word').forEach(btn => {
+      btn.addEventListener('click', e => { e.stopPropagation(); speakDutch(btn.dataset.word); });
+    });
+
+    document.querySelectorAll('.btn-add-public-word').forEach(btn => {
+      btn.addEventListener('click', async e => {
+        e.stopPropagation();
+        const dictId = btn.dataset.dictId;
+        const dutch  = btn.dataset.dutch;
+        // Check if already in my words
+        if (state.myWords.some(w => w.dutch.toLowerCase() === dutch.toLowerCase())) {
+          btn.textContent = '✓'; btn.disabled = true; btn.title = 'Already in My Words'; return;
+        }
+        btn.disabled = true; btn.textContent = '…';
+        const r = await confirmAddFromDict(dictId);
+        if (r.error) { btn.disabled = false; btn.textContent = '+'; return; }
+        btn.textContent = '✓'; btn.title = 'Added to My Words';
+      });
+    });
+
+    return;
+  }
+
+  // ── My Words tab ─────────────────────────────────────────────────────────────
+  const filterBase = wjFilter === 'favourites' ? allWords.filter(w => w.isFavourite) : allWords;
   const words = q
     ? filterBase.filter(w =>
         w.dutch.toLowerCase().includes(q) ||
@@ -125,11 +232,8 @@ function _renderJournal() {
       )
     : filterBase;
 
-  // Paginate flat word list
-  const pageWords = words.slice(wjPage * PAGE_SIZE, (wjPage + 1) * PAGE_SIZE);
-
-  // Group paginated words by date
-  const byDate = {};
+  const pageWords   = words.slice(wjPage * PAGE_SIZE, (wjPage + 1) * PAGE_SIZE);
+  const byDate      = {};
   pageWords.forEach(w => { (byDate[w.dateAdded] ??= []).push(w); });
   const dateEntries = Object.entries(byDate).sort((a, b) => b[0].localeCompare(a[0]));
 
@@ -141,6 +245,11 @@ function _renderJournal() {
           <h1 class="wj-title">Mijn Woorden</h1>
           <p class="wj-subtitle">Your personal Dutch vocabulary journal</p>
         </div>
+      </div>
+
+      <div class="wj-section-tabs">
+        <button class="wj-section-tab active" id="tab-mine">My Words <span class="wj-filter-badge">${allWords.length}</span></button>
+        <button class="wj-section-tab" id="tab-common">🌐 Common Words <span class="wj-filter-badge">${pubWords.length}</span></button>
       </div>
 
       <div class="wj-stats-strip">
@@ -217,6 +326,10 @@ function _renderJournal() {
   document.getElementById('wj-prev-page')?.addEventListener('click', () => { wjPage--; _renderJournal(); });
   document.getElementById('wj-next-page')?.addEventListener('click', () => { wjPage++; _renderJournal(); });
 
+  // ── Section tabs (My Words / Common Words) ────────────────────────────────────
+  document.getElementById('tab-mine').addEventListener('click', () => { wjTab = 'mine'; wjSearch = ''; _renderJournal(); });
+  document.getElementById('tab-common').addEventListener('click', async () => { wjTab = 'common'; wjSearch = ''; await loadPublicWords(); _renderJournal(); });
+
   // ── Filter tabs ───────────────────────────────────────────────────────────────
   document.getElementById('filter-all')?.addEventListener('click', () => {
     wjFilter = 'all'; wjPage = 0; _renderJournal();
@@ -246,6 +359,15 @@ function _renderJournal() {
   // ── Speak ────────────────────────────────────────────────────────────────────
   document.querySelectorAll('.btn-speak-word').forEach(btn => {
     btn.addEventListener('click', e => { e.stopPropagation(); speakDutch(btn.dataset.word); });
+  });
+
+  // ── Public toggle ─────────────────────────────────────────────────────────────
+  document.querySelectorAll('.btn-word-public').forEach(btn => {
+    btn.addEventListener('click', async e => {
+      e.stopPropagation();
+      await toggleWordPublic(btn.dataset.id);
+      _renderJournal();
+    });
   });
 
   // ── Favourite ─────────────────────────────────────────────────────────────────

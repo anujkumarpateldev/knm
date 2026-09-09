@@ -2,7 +2,7 @@
 // My Notes — flexible sections (optional subtitle + lines), pin, search.
 import { state }      from '../../state.js';
 import { nav }        from '../../router.js';
-import { loadNotes, addNote, updateNote, deleteNote, togglePin } from '../../data/notes.js';
+import { loadNotes, addNote, updateNote, deleteNote, togglePin, toggleNotePublic, loadPublicNotes } from '../../data/notes.js';
 import { trackEnter } from '../../utils/tracker.js';
 
 const BACK_ICON   = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>`;
@@ -10,8 +10,11 @@ const PIN_ICON    = `<svg xmlns="http://www.w3.org/2000/svg" width="13" height="
 const EDIT_ICON   = `<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>`;
 const DELETE_ICON = `<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg>`;
 const SEARCH_ICON = `<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>`;
+const GLOBE_ICON  = `<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>`;
+const LOCK_ICON   = `<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>`;
 
 let notesSearch = '';
+let notesTab    = 'mine'; // 'mine' | 'common'
 
 function esc(s) {
   return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -51,10 +54,41 @@ function noteCardHTML(note) {
       <div class="note-card-header">
         <h3 class="note-card-title">${esc(note.title) || '<em style="opacity:.45">Untitled</em>'}</h3>
         <div class="note-card-actions">
+          <button class="btn-icon btn-note-public ${note.isPublic ? 'is-public':''}" data-id="${esc(note.id)}" title="${note.isPublic ? 'Make private' : 'Make public'}">${note.isPublic ? GLOBE_ICON : LOCK_ICON}</button>
           <button class="btn-icon btn-pin-note ${note.pinned ? 'is-pinned':''}" data-id="${esc(note.id)}" title="${note.pinned?'Unpin':'Pin'}">${PIN_ICON}</button>
           <button class="btn-icon btn-edit-note"   data-id="${esc(note.id)}" title="Edit">${EDIT_ICON}</button>
           <button class="btn-icon btn-delete-note" data-id="${esc(note.id)}" title="Delete">${DELETE_ICON}</button>
         </div>
+      </div>
+      ${previewHtml ? `<div class="note-card-body">${previewHtml}</div>` : '<div class="note-card-body note-card-body-empty"></div>'}
+      ${moreCount > 0 ? `<div class="note-card-more">+${moreCount} more…</div>` : ''}
+      <div class="note-card-footer">
+        ${tagsHtml ? `<div class="word-tags">${tagsHtml}</div>` : ''}
+        <span class="note-card-date">${fmtDate(note.updatedAt)}</span>
+      </div>
+    </div>`;
+}
+
+// ── Public note card (read-only) ───────────────────────────────────────────────
+function publicNoteCardHTML(note) {
+  const previewHtml = (() => {
+    const secs = (note.sections ?? []).filter(s => s.subtitle || (s.lines ?? []).some(l => l.trim()));
+    if (!secs.length) return '';
+    const sec   = secs[0];
+    const lines = (sec.lines ?? []).filter(l => l.trim()).slice(0, 3);
+    return `
+      ${sec.subtitle ? `<div class="note-card-subtitle">${esc(sec.subtitle)}</div>` : ''}
+      ${lines.length ? `<ul class="note-card-lines">${lines.map(l => `<li class="note-card-line">${esc(l)}</li>`).join('')}</ul>` : ''}`;
+  })();
+  const totalLines = (note.sections ?? []).reduce((n, s) => n + (s.lines ?? []).filter(l => l.trim()).length, 0);
+  const shownLines = (note.sections?.[0]?.lines ?? []).filter(l => l.trim()).slice(0, 3).length;
+  const moreCount  = totalLines - shownLines + ((note.sections ?? []).length > 1 ? note.sections.length - 1 : 0);
+  const tagsHtml   = (note.tags ?? []).map(t => `<span class="word-tag">${esc(t)}</span>`).join('');
+  return `
+    <div class="note-card" data-id="${esc(note.id)}" role="button" tabindex="0" style="cursor:pointer;">
+      <div class="note-card-header">
+        <h3 class="note-card-title">${esc(note.title) || '<em style="opacity:.45">Untitled</em>'}</h3>
+        ${note.authorName ? `<span class="note-author-badge">${esc(note.authorName)}</span>` : ''}
       </div>
       ${previewHtml ? `<div class="note-card-body">${previewHtml}</div>` : '<div class="note-card-body note-card-body-empty"></div>'}
       ${moreCount > 0 ? `<div class="note-card-more">+${moreCount} more…</div>` : ''}
@@ -74,75 +108,101 @@ export async function renderNotesJournal() {
     `<div class="view active" style="display:flex;align-items:center;justify-content:center;min-height:40vh;">
        <p style="color:var(--text-muted);">Loading notes…</p>
      </div>`;
-  await loadNotes();
+  await Promise.all([loadNotes(), loadPublicNotes()]);
   notesSearch = '';
+  notesTab    = 'mine';
   _renderNotes();
 }
 
 function _renderNotes() {
   const all = state.myNotes ?? [];
+  const pub = state.publicNotes ?? [];
   const q   = notesSearch.trim().toLowerCase();
 
-  const filtered = q ? all.filter(n =>
+  const isCommon = notesTab === 'common';
+
+  // Filter the active set
+  const filterFn = n =>
     n.title.toLowerCase().includes(q) ||
     (n.sections ?? []).some(s =>
       s.subtitle?.toLowerCase().includes(q) ||
       (s.lines ?? []).some(l => l.toLowerCase().includes(q))
     ) ||
-    (n.tags ?? []).some(t => t.toLowerCase().includes(q))
-  ) : all;
+    (n.tags ?? []).some(t => t.toLowerCase().includes(q));
 
-  const pinned   = filtered.filter(n =>  n.pinned);
-  const unpinned = filtered.filter(n => !n.pinned);
+  const filtered  = q ? (isCommon ? pub : all).filter(filterFn) : (isCommon ? pub : all);
+  const pinned    = filtered.filter(n =>  n.pinned);
+  const unpinned  = filtered.filter(n => !n.pinned);
+
+  // Tab body
+  const myNotesBody = `
+    <div class="notes-top-actions">
+      <button class="btn-primary" id="btn-new-note">+ New Note</button>
+    </div>
+    ${filtered.length === 0 ? `
+      <div class="wj-empty">
+        <div class="wj-empty-icon">${q ? '🔍' : '📝'}</div>
+        <h3>${q ? 'No results found' : 'No notes yet'}</h3>
+        <p>${q ? `Nothing matches "<strong>${esc(q)}</strong>". Try a different search.` : 'Create your first note — just a title, or add sections with subtitles and lines.'}</p>
+        ${!q ? `<button class="btn-primary" id="btn-add-first-note">+ New Note</button>` : ''}
+      </div>` : ''}
+    ${pinned.length ? `<div class="notes-group"><div class="notes-group-label">📌 Pinned</div><div class="notes-grid">${pinned.map(noteCardHTML).join('')}</div></div>` : ''}
+    ${unpinned.length ? `<div class="notes-group">${pinned.length ? '<div class="notes-group-label">Notes</div>' : ''}<div class="notes-grid">${unpinned.map(noteCardHTML).join('')}</div></div>` : ''}
+  `;
+
+  const commonBody = `
+    ${filtered.length === 0 ? `
+      <div class="wj-empty">
+        <div class="wj-empty-icon">${q ? '🔍' : '🌐'}</div>
+        <h3>${q ? 'No results found' : 'No shared notes yet'}</h3>
+        <p>${q ? `Nothing matches "<strong>${esc(q)}</strong>".` : 'When users make their notes public, they appear here. Share yours by clicking the 🔒 icon on any note card.'}</p>
+      </div>` : `
+      <div class="notes-group">
+        <div class="notes-grid">${filtered.map(publicNoteCardHTML).join('')}</div>
+      </div>`}
+  `;
 
   document.getElementById('main-content').innerHTML = `
     <div class="view active" id="notes-journal-view">
       <div class="wj-page-header">
         <button class="btn-back" id="btn-back-landing">${BACK_ICON} Home</button>
         <div>
-          <h1 class="wj-title">My Notes</h1>
-          <p class="wj-subtitle">${all.length} note${all.length!==1?'s':''}${pinned.length?` · ${pinned.length} pinned`:''}</p>
+          <h1 class="wj-title">Notes</h1>
+          <p class="wj-subtitle">${all.length} private · ${pub.length} shared</p>
         </div>
+      </div>
+
+      <div class="wj-filter-tabs">
+        <button class="wj-filter-tab ${!isCommon ? 'active' : ''}" id="notes-tab-mine">My Notes <span class="wj-filter-badge">${all.length}</span></button>
+        <button class="wj-filter-tab ${isCommon  ? 'active' : ''}" id="notes-tab-common">🌐 Common Notes <span class="wj-filter-badge">${pub.length}</span></button>
       </div>
 
       <div class="wj-search-bar">
         <span class="wj-search-icon">${SEARCH_ICON}</span>
         <input class="wj-search-input" id="notes-search" type="search"
-          placeholder="Search title, sections, tags…"
+          placeholder="${isCommon ? 'Search shared notes…' : 'Search title, sections, tags…'}"
           value="${esc(notesSearch)}" autocomplete="off" />
         ${notesSearch ? `<button class="wj-search-clear" id="notes-search-clear">×</button>` : ''}
       </div>
       ${q ? `<p class="wj-search-count">${filtered.length} result${filtered.length!==1?'s':''} for "<strong>${esc(q)}</strong>"</p>` : ''}
 
-      <div class="notes-top-actions">
-        <button class="btn-primary" id="btn-new-note">+ New Note</button>
-      </div>
-
-      ${filtered.length === 0 ? `
-        <div class="wj-empty">
-          <div class="wj-empty-icon">${q ? '🔍' : '📝'}</div>
-          <h3>${q ? 'No results found' : 'No notes yet'}</h3>
-          <p>${q ? `Nothing matches "<strong>${esc(q)}</strong>". Try a different search.` : 'Create your first note — just a title, or add sections with subtitles and lines.'}</p>
-          ${!q ? `<button class="btn-primary" id="btn-add-first-note">+ New Note</button>` : ''}
-        </div>` : ''}
-
-      ${pinned.length ? `
-        <div class="notes-group">
-          <div class="notes-group-label">📌 Pinned</div>
-          <div class="notes-grid">${pinned.map(noteCardHTML).join('')}</div>
-        </div>` : ''}
-
-      ${unpinned.length ? `
-        <div class="notes-group">
-          ${pinned.length ? `<div class="notes-group-label">Notes</div>` : ''}
-          <div class="notes-grid">${unpinned.map(noteCardHTML).join('')}</div>
-        </div>` : ''}
+      ${isCommon ? commonBody : myNotesBody}
     </div>
   `;
 
   document.getElementById('btn-back-landing').addEventListener('click', () => nav.landing());
-  document.getElementById('btn-new-note').addEventListener('click', () => openModal());
+  document.getElementById('btn-new-note')?.addEventListener('click', () => openModal());
   document.getElementById('btn-add-first-note')?.addEventListener('click', () => openModal());
+
+  // Tab switching
+  document.getElementById('notes-tab-mine')?.addEventListener('click', () => {
+    notesTab = 'mine'; notesSearch = ''; _renderNotes();
+  });
+  document.getElementById('notes-tab-common')?.addEventListener('click', async () => {
+    notesTab = 'common'; notesSearch = '';
+    await loadPublicNotes();
+    _renderNotes();
+  });
 
   const searchEl = document.getElementById('notes-search');
   searchEl?.addEventListener('input', () => {
@@ -160,15 +220,29 @@ function _renderNotes() {
   document.querySelectorAll('.note-card').forEach(card => {
     card.addEventListener('click', e => {
       if (e.target.closest('.note-card-actions')) return;
-      const note = state.myNotes.find(n => n.id === card.dataset.id);
-      if (note) openViewModal(note);
+      const id   = card.dataset.id;
+      const own  = state.myNotes.find(n => n.id === id);
+      const pub  = state.publicNotes.find(n => n.id === id);
+      const note = own ?? pub;
+      if (note) openViewModal(note, !!own);
     });
     card.addEventListener('keydown', e => {
       if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
-        const note = state.myNotes.find(n => n.id === card.dataset.id);
-        if (note) openViewModal(note);
+        const id   = card.dataset.id;
+        const own  = state.myNotes.find(n => n.id === id);
+        const pub  = state.publicNotes.find(n => n.id === id);
+        const note = own ?? pub;
+        if (note) openViewModal(note, !!own);
       }
+    });
+  });
+
+  document.querySelectorAll('.btn-note-public').forEach(btn => {
+    btn.addEventListener('click', async e => {
+      e.stopPropagation();
+      await toggleNotePublic(btn.dataset.id);
+      _renderNotes();
     });
   });
 
@@ -280,7 +354,7 @@ function _buildViewModal() {
   });
 }
 
-function openViewModal(note) {
+function openViewModal(note, isOwn = true) {
   const backdrop = document.getElementById('notes-view-modal');
   backdrop.dataset.noteId = note.id;
 
@@ -297,12 +371,17 @@ function openViewModal(note) {
     : '';
 
   document.getElementById('nv-content').innerHTML = `
-    <div class="nv-pin-row">${note.pinned ? '<span class="nv-pinned-badge">📌 Pinned</span>' : ''}</div>
+    <div class="nv-pin-row">
+      ${note.pinned ? '<span class="nv-pinned-badge">📌 Pinned</span>' : ''}
+      ${note.authorName ? `<span class="nv-pinned-badge" style="color:var(--primary);">by ${esc(note.authorName)}</span>` : ''}
+    </div>
     <h2 class="nv-title">${esc(note.title) || '<em style="opacity:.4">Untitled</em>'}</h2>
     ${sectionsHtml ? `<div class="nv-body">${sectionsHtml}</div>` : ''}
     ${tagsHtml}
     <p class="nv-date">Last updated: ${fmtDate(note.updatedAt)}</p>
   `;
+  // Show Edit button only if user owns the note
+  document.getElementById('nv-edit-btn').style.display = isOwn ? '' : 'none';
   backdrop.style.display = 'flex';
 }
 

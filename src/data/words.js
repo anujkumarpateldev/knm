@@ -32,12 +32,14 @@ function mapRow(row) {
     srsRepetitions: row.srs_repetitions,
     srsNextReview:  row.srs_next_review,
     isFavourite:    row.is_favourite    ?? false,
+    isPublic:       row.is_public       ?? false,
+    authorName:     row.user_profiles?.display_name ?? null,
   };
 }
 
 const USER_WORDS_SELECT = `
   id, dict_id, custom_dutch, custom_english, custom_meaning, custom_example,
-  date_added, srs_interval, srs_repetitions, srs_next_review, is_favourite,
+  date_added, srs_interval, srs_repetitions, srs_next_review, is_favourite, is_public,
   word_dictionary ( dutch, english, meaning, example, tags )
 `;
 
@@ -273,6 +275,37 @@ export function getUniqueDates() {
 
 export function getFavouriteWords() {
   return state.myWords.filter(w => w.isFavourite);
+}
+
+// ── Toggle public ─────────────────────────────────────────────────────────────
+export async function toggleWordPublic(id) {
+  const idx = state.myWords.findIndex(w => w.id === id);
+  if (idx === -1 || !state.currentUser) return;
+  const newVal = !state.myWords[idx].isPublic;
+  state.myWords[idx] = { ...state.myWords[idx], isPublic: newVal };
+  supabase.from('user_words')
+    .update({ is_public: newVal })
+    .eq('id', id)
+    .eq('user_id', state.currentUser.id)
+    .then(() => {}).catch(() => {});
+}
+
+// ── Load public words (all users) ─────────────────────────────────────────────
+export async function loadPublicWords() {
+  if (!state.currentUser) { state.publicWords = []; return; }
+  const { data, error } = await supabase
+    .from('user_words')
+    .select(`
+      id, dict_id, custom_dutch, custom_english, custom_meaning, custom_example,
+      date_added, srs_interval, srs_repetitions, srs_next_review, is_favourite, is_public,
+      word_dictionary ( dutch, english, meaning, example, tags ),
+      user_profiles ( display_name )
+    `)
+    .eq('is_public', true)
+    .neq('user_id', state.currentUser.id)
+    .order('date_added', { ascending: false });
+  if (error) { console.error('loadPublicWords:', error.message); return; }
+  state.publicWords = (data ?? []).map(mapRow);
 }
 
 // ── Toggle favourite ───────────────────────────────────────────────────────────

@@ -2727,6 +2727,34 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
 .wj-stat-primary { color: var(--primary); }
 .wj-stat-warning { color: var(--warning); }
 
+/* ── Section tabs (My / Common) — top-level underline style ─────────────────── */
+.wj-section-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 1.25rem;
+  border-bottom: 2px solid var(--border);
+}
+.wj-section-tab {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.55rem 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-bottom: 2.5px solid transparent;
+  margin-bottom: -2px;
+  color: var(--text-muted);
+  transition: color 0.15s, border-color 0.15s;
+}
+.wj-section-tab:hover { color: var(--primary); }
+.wj-section-tab.active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+}
+
 .wj-filter-tabs {
   display: flex;
   gap: 0.5rem;
@@ -3228,6 +3256,53 @@ body:not(.dark-theme) #dutch-bg { opacity: 0.6; }
   margin-top: 1rem;
   margin-bottom: 0;
 }
+
+/* ── Public / private shared styles ─────────────────────────────────────────── */
+.btn-note-public,
+.btn-word-public {
+  color: var(--text-muted);
+  transition: color 0.15s;
+}
+.btn-note-public.is-public,
+.btn-word-public.is-public { color: #10b981; }   /* green = public */
+.btn-note-public:hover,
+.btn-word-public:hover     { color: #10b981; }
+
+.note-author-badge,
+.word-author-badge {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--primary);
+  opacity: 0.8;
+  white-space: nowrap;
+  padding: 0.1rem 0.4rem;
+  border-radius: 6px;
+  background: rgba(99,102,241,0.08);
+  flex-shrink: 0;
+}
+.word-author-badge {
+  margin-bottom: 0.25rem;
+}
+
+/* "+" add-to-my-words button on public word cards */
+.btn-add-public-word {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.15s, transform 0.1s;
+}
+.btn-add-public-word:hover  { background: var(--primary-dark, #4f46e5); }
+.btn-add-public-word:disabled { background: #10b981; cursor: default; }
 
 /* ── word-cards-grid (unchanged, below) ─────────────────────────────────────── */
 

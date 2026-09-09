@@ -37,8 +37,10 @@ export const state = {
   userProfile: null,   // { user_id, email, role, is_active, ... } from user_profiles
 
   // Personal vocabulary journal
-  myWords: [],   // [{ id, dutch, english, meaning, example, tags, dateAdded, srsInterval, srsNextReview, srsRepetitions }]
+  myWords: [],      // [{ id, dutch, english, meaning, example, tags, dateAdded, srsInterval, srsNextReview, srsRepetitions, isPublic }]
+  publicWords: [],  // public words from all users [{ ...word, authorName }]
 
   // Personal notes
-  myNotes: [],   // [{ id, title, points, pinned, tags, createdAt, updatedAt }]
+  myNotes: [],      // [{ id, title, sections, pinned, tags, isPublic, createdAt, updatedAt }]
+  publicNotes: [],  // public notes from all users [{ ...note, authorName }]
 };
