@@ -121,7 +121,12 @@ function _renderNotes() {
 
   const isCommon = notesTab === 'common';
 
-  // Filter the active set
+  // My Notes = private only; Common Notes = own public + others' public
+  const myPrivate  = all.filter(n => !n.isPublic);
+  const myPublic   = all.filter(n =>  n.isPublic);
+  const privateCount = myPrivate.length;
+  const publicCount  = myPublic.length + pub.length;
+
   const filterFn = n =>
     n.title.toLowerCase().includes(q) ||
     (n.sections ?? []).some(s =>
@@ -130,36 +135,49 @@ function _renderNotes() {
     ) ||
     (n.tags ?? []).some(t => t.toLowerCase().includes(q));
 
-  const filtered  = q ? (isCommon ? pub : all).filter(filterFn) : (isCommon ? pub : all);
-  const pinned    = filtered.filter(n =>  n.pinned);
-  const unpinned  = filtered.filter(n => !n.pinned);
+  // My Notes tab — private only
+  const myFiltered = q ? myPrivate.filter(filterFn) : myPrivate;
+  const myPinned   = myFiltered.filter(n =>  n.pinned);
+  const myUnpinned = myFiltered.filter(n => !n.pinned);
 
-  // Tab body
+  // Common Notes tab — own public (editable) + others' public (read-only)
+  const ownPublicFiltered    = q ? myPublic.filter(filterFn) : myPublic;
+  const othersPublicFiltered = q ? pub.filter(filterFn)      : pub;
+  const commonTotal          = ownPublicFiltered.length + othersPublicFiltered.length;
+
   const myNotesBody = `
     <div class="notes-top-actions">
       <button class="btn-primary" id="btn-new-note">+ New Note</button>
     </div>
-    ${filtered.length === 0 ? `
+    ${myFiltered.length === 0 ? `
       <div class="wj-empty">
         <div class="wj-empty-icon">${q ? '🔍' : '📝'}</div>
-        <h3>${q ? 'No results found' : 'No notes yet'}</h3>
-        <p>${q ? `Nothing matches "<strong>${esc(q)}</strong>". Try a different search.` : 'Create your first note — just a title, or add sections with subtitles and lines.'}</p>
+        <h3>${q ? 'No results found' : 'No private notes'}</h3>
+        <p>${q ? `Nothing matches "<strong>${esc(q)}</strong>".` : 'All your notes are public — or create a new private note.'}</p>
         ${!q ? `<button class="btn-primary" id="btn-add-first-note">+ New Note</button>` : ''}
       </div>` : ''}
-    ${pinned.length ? `<div class="notes-group"><div class="notes-group-label">📌 Pinned</div><div class="notes-grid">${pinned.map(noteCardHTML).join('')}</div></div>` : ''}
-    ${unpinned.length ? `<div class="notes-group">${pinned.length ? '<div class="notes-group-label">Notes</div>' : ''}<div class="notes-grid">${unpinned.map(noteCardHTML).join('')}</div></div>` : ''}
+    ${myPinned.length   ? `<div class="notes-group"><div class="notes-group-label">📌 Pinned</div><div class="notes-grid">${myPinned.map(noteCardHTML).join('')}</div></div>` : ''}
+    ${myUnpinned.length ? `<div class="notes-group">${myPinned.length ? '<div class="notes-group-label">Notes</div>' : ''}<div class="notes-grid">${myUnpinned.map(noteCardHTML).join('')}</div></div>` : ''}
   `;
 
   const commonBody = `
-    ${filtered.length === 0 ? `
+    ${commonTotal === 0 ? `
       <div class="wj-empty">
         <div class="wj-empty-icon">${q ? '🔍' : '🌐'}</div>
         <h3>${q ? 'No results found' : 'No shared notes yet'}</h3>
-        <p>${q ? `Nothing matches "<strong>${esc(q)}</strong>".` : 'When users make their notes public, they appear here. Share yours by clicking the 🔒 icon on any note card.'}</p>
+        <p>${q ? `Nothing matches "<strong>${esc(q)}</strong>".` : 'Make a note public using the 🔒 icon — it will appear here for everyone.'}</p>
       </div>` : `
-      <div class="notes-group">
-        <div class="notes-grid">${filtered.map(publicNoteCardHTML).join('')}</div>
-      </div>`}
+      ${ownPublicFiltered.length ? `
+        <div class="notes-group">
+          <div class="notes-group-label">🌐 Your shared notes</div>
+          <div class="notes-grid">${ownPublicFiltered.map(noteCardHTML).join('')}</div>
+        </div>` : ''}
+      ${othersPublicFiltered.length ? `
+        <div class="notes-group">
+          ${ownPublicFiltered.length ? '<div class="notes-group-label">From others</div>' : ''}
+          <div class="notes-grid">${othersPublicFiltered.map(publicNoteCardHTML).join('')}</div>
+        </div>` : ''}
+    `}
   `;
 
   document.getElementById('main-content').innerHTML = `
@@ -168,13 +186,13 @@ function _renderNotes() {
         <button class="btn-back" id="btn-back-landing">${BACK_ICON} Home</button>
         <div>
           <h1 class="wj-title">Notes</h1>
-          <p class="wj-subtitle">${all.length} private · ${pub.length} shared</p>
+          <p class="wj-subtitle">${privateCount} private · ${publicCount} shared</p>
         </div>
       </div>
 
       <div class="wj-filter-tabs">
-        <button class="wj-filter-tab ${!isCommon ? 'active' : ''}" id="notes-tab-mine">My Notes <span class="wj-filter-badge">${all.length}</span></button>
-        <button class="wj-filter-tab ${isCommon  ? 'active' : ''}" id="notes-tab-common">🌐 Common Notes <span class="wj-filter-badge">${pub.length}</span></button>
+        <button class="wj-filter-tab ${!isCommon ? 'active' : ''}" id="notes-tab-mine">My Notes <span class="wj-filter-badge">${privateCount}</span></button>
+        <button class="wj-filter-tab ${isCommon  ? 'active' : ''}" id="notes-tab-common">🌐 Common Notes <span class="wj-filter-badge">${publicCount}</span></button>
       </div>
 
       <div class="wj-search-bar">
@@ -184,7 +202,7 @@ function _renderNotes() {
           value="${esc(notesSearch)}" autocomplete="off" />
         ${notesSearch ? `<button class="wj-search-clear" id="notes-search-clear">×</button>` : ''}
       </div>
-      ${q ? `<p class="wj-search-count">${filtered.length} result${filtered.length!==1?'s':''} for "<strong>${esc(q)}</strong>"</p>` : ''}
+      ${q ? `<p class="wj-search-count">${isCommon ? commonTotal : myFiltered.length} result${(isCommon ? commonTotal : myFiltered.length)!==1?'s':''} for "<strong>${esc(q)}</strong>"</p>` : ''}
 
       ${isCommon ? commonBody : myNotesBody}
     </div>

@@ -133,26 +133,33 @@ export async function renderWordJournal() {
 }
 
 function _renderJournal() {
-  const allWords  = state.myWords;
-  const pubWords  = state.publicWords ?? [];
-  const isCommon  = wjTab === 'common';
-  const todayStr  = new Date().toISOString().split('T')[0];
-  const dueCount  = getDueWords().length;
+  const allWords   = state.myWords;
+  const pubWords   = state.publicWords ?? [];
+  const isCommon   = wjTab === 'common';
+  const todayStr   = new Date().toISOString().split('T')[0];
+  const dueCount   = getDueWords().length;
   const todayCount = allWords.filter(w => w.dateAdded === todayStr).length;
-  const favCount  = allWords.filter(w => w.isFavourite).length;
+  const favCount   = allWords.filter(w => w.isFavourite).length;
+
+  // My Words = private only; Common = own public + others' public
+  const myPrivate  = allWords.filter(w => !w.isPublic);
+  const myPublic   = allWords.filter(w =>  w.isPublic);
 
   const q = wjSearch.trim().toLowerCase();
 
+  const wordMatchFn = w =>
+    w.dutch.toLowerCase().includes(q) ||
+    w.english.toLowerCase().includes(q) ||
+    (w.meaning || '').toLowerCase().includes(q) ||
+    (w.example || '').toLowerCase().includes(q) ||
+    (w.tags || []).some(t => t.toLowerCase().includes(q));
+
   // ── Common Words tab ─────────────────────────────────────────────────────────
   if (isCommon) {
-    const filtered = q
-      ? pubWords.filter(w =>
-          w.dutch.toLowerCase().includes(q) ||
-          w.english.toLowerCase().includes(q) ||
-          (w.meaning || '').toLowerCase().includes(q) ||
-          (w.tags || []).some(t => t.toLowerCase().includes(q))
-        )
-      : pubWords;
+    const ownPubFiltered    = q ? myPublic.filter(wordMatchFn)  : myPublic;
+    const othersPubFiltered = q ? pubWords.filter(wordMatchFn)  : pubWords;
+    const commonTotal       = ownPubFiltered.length + othersPubFiltered.length;
+    const filtered          = [...ownPubFiltered, ...othersPubFiltered]; // for empty check
 
     document.getElementById('main-content').innerHTML = `
       <div class="view active" id="word-journal-view">
@@ -165,8 +172,8 @@ function _renderJournal() {
         </div>
 
         <div class="wj-section-tabs">
-          <button class="wj-section-tab" id="tab-mine">My Words <span class="wj-filter-badge">${allWords.length}</span></button>
-          <button class="wj-section-tab active" id="tab-common">🌐 Common Words <span class="wj-filter-badge">${pubWords.length}</span></button>
+          <button class="wj-section-tab" id="tab-mine">My Words <span class="wj-filter-badge">${myPrivate.length}</span></button>
+          <button class="wj-section-tab active" id="tab-common">🌐 Common Words <span class="wj-filter-badge">${myPublic.length + pubWords.length}</span></button>
         </div>
 
         <div class="wj-search-bar">
@@ -175,16 +182,25 @@ function _renderJournal() {
             placeholder="Search shared words…" value="${esc(wjSearch)}" autocomplete="off" />
           ${wjSearch ? `<button class="wj-search-clear" id="wj-search-clear">×</button>` : ''}
         </div>
-        ${q ? `<p class="wj-search-count">${filtered.length} result${filtered.length!==1?'s':''} for "<strong>${esc(q)}</strong>"</p>` : ''}
+        ${q ? `<p class="wj-search-count">${commonTotal} result${commonTotal!==1?'s':''} for "<strong>${esc(q)}</strong>"</p>` : ''}
 
-        ${filtered.length === 0 ? `
+        ${commonTotal === 0 ? `
           <div class="wj-empty">
             <div class="wj-empty-icon">${q ? '🔍' : '🌐'}</div>
             <h3>${q ? 'No results found' : 'No shared words yet'}</h3>
-            <p>${q ? `No words match "<strong>${esc(q)}</strong>".` : 'When users share their words publicly, they appear here. Share yours using the 🔒 icon on any word card.'}</p>
+            <p>${q ? `No words match "<strong>${esc(q)}</strong>".` : 'Share your words publicly using the 🔒 icon — they will appear here for everyone.'}</p>
           </div>` : `
           <div class="wj-journal">
-            <div class="word-cards-grid">${filtered.map(publicWordCardHTML).join('')}</div>
+            ${ownPubFiltered.length ? `
+              <div class="wj-date-group">
+                <div class="wj-date-header"><span class="wj-date-label">🌐 Your shared words</span><span class="wj-date-badge">${ownPubFiltered.length}</span></div>
+                <div class="word-cards-grid">${ownPubFiltered.map(wordCardHTML).join('')}</div>
+              </div>` : ''}
+            ${othersPubFiltered.length ? `
+              <div class="wj-date-group">
+                <div class="wj-date-header"><span class="wj-date-label">From others</span><span class="wj-date-badge">${othersPubFiltered.length}</span></div>
+                <div class="word-cards-grid">${othersPubFiltered.map(publicWordCardHTML).join('')}</div>
+              </div>` : ''}
           </div>`}
       </div>
     `;
@@ -199,6 +215,15 @@ function _renderJournal() {
 
     document.querySelectorAll('.btn-speak-word').forEach(btn => {
       btn.addEventListener('click', e => { e.stopPropagation(); speakDutch(btn.dataset.word); });
+    });
+
+    // Own public words in common tab can still be toggled back to private
+    document.querySelectorAll('.btn-word-public').forEach(btn => {
+      btn.addEventListener('click', async e => {
+        e.stopPropagation();
+        await toggleWordPublic(btn.dataset.id);
+        _renderJournal();
+      });
     });
 
     document.querySelectorAll('.btn-add-public-word').forEach(btn => {
@@ -220,17 +245,9 @@ function _renderJournal() {
     return;
   }
 
-  // ── My Words tab ─────────────────────────────────────────────────────────────
-  const filterBase = wjFilter === 'favourites' ? allWords.filter(w => w.isFavourite) : allWords;
-  const words = q
-    ? filterBase.filter(w =>
-        w.dutch.toLowerCase().includes(q) ||
-        w.english.toLowerCase().includes(q) ||
-        (w.meaning  || '').toLowerCase().includes(q) ||
-        (w.example  || '').toLowerCase().includes(q) ||
-        (w.tags     || []).some(t => t.toLowerCase().includes(q))
-      )
-    : filterBase;
+  // ── My Words tab (private words only) ────────────────────────────────────────
+  const filterBase = wjFilter === 'favourites' ? myPrivate.filter(w => w.isFavourite) : myPrivate;
+  const words = q ? filterBase.filter(wordMatchFn) : filterBase;
 
   const pageWords   = words.slice(wjPage * PAGE_SIZE, (wjPage + 1) * PAGE_SIZE);
   const byDate      = {};
@@ -248,8 +265,8 @@ function _renderJournal() {
       </div>
 
       <div class="wj-section-tabs">
-        <button class="wj-section-tab active" id="tab-mine">My Words <span class="wj-filter-badge">${allWords.length}</span></button>
-        <button class="wj-section-tab" id="tab-common">🌐 Common Words <span class="wj-filter-badge">${pubWords.length}</span></button>
+        <button class="wj-section-tab active" id="tab-mine">My Words <span class="wj-filter-badge">${myPrivate.length}</span></button>
+        <button class="wj-section-tab" id="tab-common">🌐 Common Words <span class="wj-filter-badge">${myPublic.length + pubWords.length}</span></button>
       </div>
 
       <div class="wj-stats-strip">
